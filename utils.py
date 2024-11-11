@@ -1,8 +1,15 @@
-def write_in_file(value):
+import constants
+
+def write_to_file(value):
     try:
-        with open('OUTPUT.md', 'a', encoding='utf-8') as file:
-            # file.writelines(value)
+        with open(constants.OUTPUT, 'a', encoding='utf-8') as file:
             file.write(value)
-            file.write('\n')
+    except IOError as e:
+        print(f'Error: {e}')
+
+def write_line_to_file(value):
+    try:
+        with open(constants.OUTPUT, 'a', encoding='utf-8') as file:
+            file.writelines(value)
     except IOError as e:
         print(f'Error: {e}')
