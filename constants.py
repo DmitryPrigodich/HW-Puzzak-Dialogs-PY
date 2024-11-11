@@ -1,0 +1,1 @@
+URL_HWM_DB = 'https://hwm.puzzak.page/'
