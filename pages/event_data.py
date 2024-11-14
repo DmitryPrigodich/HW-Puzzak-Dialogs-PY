@@ -4,21 +4,20 @@ from .base_page import Base_Page
 
 class Event_Data_Page(Base_Page):
     _file_name = "EVENTS.md"
+    _locator = "#EventData-module"
+
     events = []
     event_groups = []
     events_groupped = {}
     groups_evented = {}
 
     def __init__(self, page):
-        super().__init__(page)
+        super().__init__(page, self._locator)
+        self._save_events()
 
-    def open(self):
-        self.page.click(constants.LOCATOR_EVENTDATA)
-        assert self.page.wait_for_selector("#entries > div:nth-child(1)")
-
-    def save_events(self):
+    def _save_events(self):
         list_elements_entries = self.page.query_selector_all('.entry')
-        print(f"Events: {len(list_elements_entries)} entries found")
+        print(f"Event Data: {len(list_elements_entries)} entries found")
 
         for element_entry in list_elements_entries:
             entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
@@ -58,7 +57,7 @@ class Event_Data_Page(Base_Page):
 
         return events
     
-    def output_events(self):
+    def record_to_file(self):
         utils.rewrite_file("h1. HWM EVENT GROUPS:\n\n", self._file_name)
         for group in self.event_groups:
             utils.add_to_file(f"* {group}\n", self._file_name)

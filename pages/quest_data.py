@@ -2,19 +2,19 @@ import constants
 import utils
 from .base_page import Base_Page
 
-class String_Data_Page(Base_Page):
-    _file_name = "STRINGS.md"
-    _locator = "#StringData-module"
+class Quest_Data_Page(Base_Page):
+    _file_name = "QUESTS.md"
+    _locator = "#QuestData-module"
 
-    strings = {}
+    quests = {}
 
     def __init__(self, page):
         super().__init__(page, self._locator)
         self._save_strings()
 
-    def _save_strings(self):
+    def _save_quests(self):
         list_elements_entries = self.page.query_selector_all('.entry')
-        print(f"String Data: {len(list_elements_entries)} entries found")
+        print(f"Quest Data: {len(list_elements_entries)} entries found")
 
         for element_entry in list_elements_entries:
             entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
@@ -27,6 +27,9 @@ class String_Data_Page(Base_Page):
 
     def get_text_by_header(self, header):
         return self.strings.get(header)
+    
+    def get_strings(self):
+        return self.strings
     
     def record_to_file(self):
         utils.rewrite_file("# HWM STRINGS:\n\n", self._file_name)

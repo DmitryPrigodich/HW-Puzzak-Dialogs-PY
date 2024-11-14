@@ -4,6 +4,8 @@ import time
 from pages.constellation_data import Constellation_Data_Page
 from pages.event_data import Event_Data_Page
 from pages.quest_line_data import Quest_Line_Data_Page
+from pages.quest_data import Quest_Data_Page
+from pages.string_data import String_Data_Page
 
 logger = logging.getLogger(__name__)
 
@@ -14,38 +16,48 @@ logger = logging.getLogger(__name__)
 #         test_quest_line_data(page)
 #     benchmark(run_test)
 
-def _test_constellation_data(page):
+def test_constellation_data(page):
     start_time = time.time()
     constellation_data = Constellation_Data_Page(page)
-    constellation_data.open()
-    constellation_data.save_star_systems()
     assert constellation_data.get_star_system_by_coordinates("[-831, -204]")['name'] == "DANDITA"
-    # constellations_data.output_star_systems()
+    # constellations_data.record_to_file()
     end_time = time.time()
     print(f"Constellation Data search time is: {(start_time-end_time):.2f} seconds")
 
-def _test_event_data(page):
+def test_event_data(page):
     start_time = time.time()
     event_data = Event_Data_Page(page)
-    event_data.open()
-    event_data.save_events()
     assert event_data.get_group_by_event("event_7days_2023_08_21_t1") == "event_7days_2023_08"
     assert "event_7days_2023_08_21_t1" in event_data.get_events_by_group("event_7days_2023_08")
-    # event_data.output_events()
+    # event_data.record_to_file()
     end_time = time.time()
     print(f"Event Data search time is: {(start_time-end_time):.2f} seconds")
 
 def test_quest_line_data(page):
     start_time = time.time()
     quest_line_data = Quest_Line_Data_Page(page)
-    quest_line_data.open()
-    quest_line_data.save_quest_lines()
     assert "ql_event_YaotSpring_2024_t4".lower() == quest_line_data.get_quest_line_by_quest("qe_yaoSpr_2024_day08_t4")
     assert "qe_yaoSpr_2024_day08_t4" in quest_line_data.get_quests_by_event("event_yaotSpring_2024_t4")
-    quest_line_data.output_questlines()
+    # quest_line_data.record_to_file()
     end_time = time.time()
-    print(f"Event Data search time is: {(start_time-end_time):.2f} seconds")
+    print(f"Quest Line Data search time is: {(start_time-end_time):.2f} seconds")
  
+def _test_quest_data(page):
+    start_time = time.time()
+    quest_data = Quest_Data_Page(page)
+    # assert 
+    quest_data.record_to_file()
+    end_time = time.time()
+    print(f"Quest Data search time is: {(start_time-end_time):.2f} seconds")
+
+def _test_string_data(page):
+    start_time = time.time()
+    string_data = String_Data_Page(page)
+    assert "Donate" == string_data.get_text_by_header("send")
+    string_data.record_to_file()
+    end_time = time.time()
+    print(f"Quest Data search time is: {(start_time-end_time):.2f} seconds")
+
 def _test_tryout(page):
         start_time = time.time()
 

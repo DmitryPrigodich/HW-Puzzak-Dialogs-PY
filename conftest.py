@@ -5,5 +5,5 @@ import constants
 def before_each_test(page):
     page.goto(constants.URL_HWM_DB)
     assert page.title() == "HWM Database"
-    assert page.is_visible(constants.LOCATOR_EVENTDATA)
+    assert page.is_visible("#modules")
     assert page.is_visible("#entries")

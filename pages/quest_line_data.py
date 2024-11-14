@@ -4,6 +4,7 @@ from .base_page import Base_Page
 
 class Quest_Line_Data_Page(Base_Page):
     _file_name = "QUESTSLINES.md"
+    _locator = "#QuestLineData-module"
 
     quests = []
     quest_lines = []
@@ -11,15 +12,12 @@ class Quest_Line_Data_Page(Base_Page):
     lines_quests = {}
 
     def __init__(self, page):
-        super().__init__(page)
+        super().__init__(page, self._locator)
+        self._save_quest_lines()
 
-    def open(self):
-        self.page.click(constants.LOCATOR_QUESTLINEDATA)
-        assert self.page.wait_for_selector("#entries > div:nth-child(1)")
-
-    def save_quest_lines(self):
+    def _save_quest_lines(self):
         list_elements_entries = self.page.query_selector_all('.entry')
-        print(f"Quest Lines: {len(list_elements_entries)} entries found")
+        print(f"Quest Line Data: {len(list_elements_entries)} entries found")
 
         for element_entry in list_elements_entries:
             entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
@@ -64,7 +62,7 @@ class Quest_Line_Data_Page(Base_Page):
         self.get_quests_by_quest_line(quest_line)
         return quest_line
 
-    def output_questlines(self):
+    def record_to_file(self):
         utils.rewrite_file("# HWM QUESTLINES:\n\n", self._file_name)
         for questline in self.quest_lines:
             utils.add_to_file(f"* {questline}\n", self._file_name)
