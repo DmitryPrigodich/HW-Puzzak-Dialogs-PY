@@ -15,6 +15,7 @@ class Constellation_Data_Page(Base_Page):
     
     def save_star_systems(self):
         list_elements_entries = self.page.query_selector_all('.entry')
+        print(f"Constellations: {len(list_elements_entries)} entries found")
 
         for element_entry in list_elements_entries:
             faction_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("Name"))
@@ -67,7 +68,7 @@ class Constellation_Data_Page(Base_Page):
         return system
     
     def output_star_systems(self):
-        utils.rewrite_file("h1. NIMBUS KNOWNN STAR SYSTEMS\n", self._file_name)
+        utils.rewrite_file("# NIMBUS KNOWNN STAR SYSTEMS\n", self._file_name)
         utils.add_to_file("Systems Finder is working but not all the systems are present in ConstellationData\n\n", self._file_name)
 
         for coords, system in self.star_systems.items():

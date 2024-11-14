@@ -1,77 +1,92 @@
-import constants
 import utils
 import logging
+import time
 from pages.constellation_data import Constellation_Data_Page
 from pages.event_data import Event_Data_Page
+from pages.quest_line_data import Quest_Line_Data_Page
 
 logger = logging.getLogger(__name__)
 
+# def test_benchmark(page, benchmark):
+#     def run_test():
+#         # test_constellation_data(page)
+#         # test_event_data(page)
+#         test_quest_line_data(page)
+#     benchmark(run_test)
+
 def _test_constellation_data(page):
+    start_time = time.time()
     constellation_data = Constellation_Data_Page(page)
     constellation_data.open()
     constellation_data.save_star_systems()
     assert constellation_data.get_star_system_by_coordinates("[-831, -204]")['name'] == "DANDITA"
     # constellations_data.output_star_systems()
+    end_time = time.time()
+    print(f"Constellation Data search time is: {(start_time-end_time):.2f} seconds")
 
-def test_event_data(page):
+def _test_event_data(page):
+    start_time = time.time()
     event_data = Event_Data_Page(page)
     event_data.open()
     event_data.save_events()
     assert event_data.get_group_by_event("event_7days_2023_08_21_t1") == "event_7days_2023_08"
+    assert "event_7days_2023_08_21_t1" in event_data.get_events_by_group("event_7days_2023_08")
     # event_data.output_events()
+    end_time = time.time()
+    print(f"Event Data search time is: {(start_time-end_time):.2f} seconds")
+
+def test_quest_line_data(page):
+    start_time = time.time()
+    quest_line_data = Quest_Line_Data_Page(page)
+    quest_line_data.open()
+    quest_line_data.save_quest_lines()
+    assert "ql_event_YaotSpring_2024_t4".lower() == quest_line_data.get_quest_line_by_quest("qe_yaoSpr_2024_day08_t4")
+    assert "qe_yaoSpr_2024_day08_t4" in quest_line_data.get_quests_by_event("event_yaotSpring_2024_t4")
+    quest_line_data.output_questlines()
+    end_time = time.time()
+    print(f"Event Data search time is: {(start_time-end_time):.2f} seconds")
  
-def tryout(page):
-    event = "event_anniversary_2023_t4"
-    # We get events from EventData - event - event_anniversary_2023
-    # We get questlines from QuestLineData - ql_event
-    # We get quests from QuestData - qe_event_*
+def _test_tryout(page):
+        start_time = time.time()
 
-    # quests = get_all_quests(event)
+        # event = "event_anniversary_2023_t4"
 
-    #QuestData
-    # head
-    # MailsOnCompletion: m_anniversary_enoch_log
-    # StringData: m_anniversary_enoch_log_header m_anniversary_enoch_log_body
+        event_data = Event_Data_Page(page)
+        event_data.open()
+        event_data.save_events()
+
+        quest_line_data = Quest_Line_Data_Page(page)
+        quest_line_data.open()
+        quest_line_data.save_quest_lines()
+
+        utils.rewrite_file(f"# EVENTS and QUESTS:\n", "OUTPUT.md")
+        for event_group in event_data.event_groups:
+            event = event_group + "_t4"
+            quests = quest_line_data.get_quests_by_event(event)
+            if quests:
+                utils.add_to_file(f"\n## Event: {event_group}\n", "OUTPUT.md")
+                for quest in quests:
+                    utils.add_to_file(f"* {quest}\n", "OUTPUT.md")
+       
+        # We get events from EventData - event - event_anniversary_2023
+        # We get questlines from QuestLineData - ql_event
+        # We get quests from QuestData - qe_event_*
+
+        # quests = get_all_quests(event)
+
+        #QuestData
+        # head
+        # MailsOnCompletion: m_anniversary_enoch_log
+        # StringData: m_anniversary_enoch_log_header m_anniversary_enoch_log_body
+
+        # if quest.mail 
+        #     print(stringdata(quest.mail.text + header).entry)
+        #     print("\n")
+        #     print(stringdata(quest.mail.text + body).entry)
 
 
-    
-
-
-
-    # if quest.mail 
-    #     print(stringdata(quest.mail.text + header).entry)
-    #     print("\n")
-    #     print(stringdata(quest.mail.text + body).entry)
-
-    # utils.rewrite_file(f"h1. {constants.LOCATOR_QUESTDATA.upper()}\n\n")
-    # record_entries(dict_data)
-
-    # utils.wait_a_bit(page)
-
-
-def get_questline_list(page):
-    page.click(constants.LOCATOR_QUESTLINEDATA)
-    assert page.wait_for_selector("#entries > div:nth-child(1)")
-
-    questlines = {}
-
-    list_elements_entries = page.query_selector_all('.entry')
-
-    for entry_element in list_elements_entries:
-        entryhead_element = entry_element.query_selector(constants.LOCATOR_ENTRYHEAD)
-        questline = entryhead_element.inner_text().strip() if entryhead_element else "Unknown"
-
-        entryitem_element = entry_element.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format('QuestIds'))
-        quests = entryhead_element.inner_text().strip() if entryitem_element else "Unknown"
-
-        questlines[questline] = quests.split(":")
-    return questlines
-
-def get_quest_list(event):
-    questline = "ql_" + event
-    quest_list = []
-    #quest retrieval and parsing logic here
-    return quest_list
+        end_time = time.time()
+        print(f"Event Data search time is: {(start_time-end_time):.2f} seconds")
 
 def get_entry_items(page, module_locator):
     logger.info("get_entry_items")

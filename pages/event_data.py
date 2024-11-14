@@ -18,6 +18,7 @@ class Event_Data_Page(Base_Page):
 
     def save_events(self):
         list_elements_entries = self.page.query_selector_all('.entry')
+        print(f"Events: {len(list_elements_entries)} entries found")
 
         for element_entry in list_elements_entries:
             entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
@@ -41,11 +42,21 @@ class Event_Data_Page(Base_Page):
 
     def get_group_by_event(self, event_name):
         group = self.groups_evented[event_name]
-        if not "No-Group":
-            print(f"{group}: {event_name}")
-        else:
+        print 
+        if group == "No-Group":
             print("No group for this event")
+        else:
+            print(f"{group}: {event_name}")
         return group
+    
+    def get_events_by_group(self, group):
+        events = self.events_groupped.get(group)
+
+        print(f"Group: {group}\n")
+        for event in events:
+            print(f"  * {event}\n")
+
+        return events
     
     def output_events(self):
         utils.rewrite_file("h1. HWM EVENT GROUPS:\n\n", self._file_name)
@@ -54,7 +65,7 @@ class Event_Data_Page(Base_Page):
 
         utils.add_to_file("\n\n", self._file_name)
 
-        utils.add_to_file("h1. HWM EVENTS:\n\n", self._file_name)
+        utils.add_to_file("# HWM EVENTS:\n\n", self._file_name)
         for group, events in self.events_groupped.items():
             utils.add_to_file(f"* {group}\n", self._file_name)
             for event in sorted(events):
