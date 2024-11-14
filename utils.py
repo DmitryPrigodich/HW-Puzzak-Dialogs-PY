@@ -1,15 +1,16 @@
-import constants
-
-def write_to_file(value):
+def rewrite_file(value, file_name):
     try:
-        with open(constants.OUTPUT, 'a', encoding='utf-8') as file:
+        with open(file_name, 'w', encoding='utf-8') as file:
             file.write(value)
     except IOError as e:
         print(f'Error: {e}')
 
-def write_line_to_file(value):
+def add_to_file(value, file_name):
     try:
-        with open(constants.OUTPUT, 'a', encoding='utf-8') as file:
-            file.writelines(value)
+        with open(file_name, 'a', encoding='utf-8') as file:
+            file.write(value)
     except IOError as e:
         print(f'Error: {e}')
+
+def wait_a_bit(page):
+    page.wait_for_timeout(2000)
