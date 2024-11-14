@@ -30,5 +30,5 @@ class String_Data_Page(Base_Page):
     
     def record_to_file(self):
         utils.rewrite_file("# HWM STRINGS:\n\n", self._file_name)
-        for str_header, str_text in self.strings:
+        for str_header, str_text in self.strings.items():
             utils.add_to_file(f"* {str_header}: {str_text}\n", self._file_name)

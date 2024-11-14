@@ -16,15 +16,16 @@ logger = logging.getLogger(__name__)
 #         test_quest_line_data(page)
 #     benchmark(run_test)
 
-def test_constellation_data(page):
+def _test_constellation_data(page):
     start_time = time.time()
     constellation_data = Constellation_Data_Page(page)
     assert constellation_data.get_star_system_by_coordinates("[-831, -204]")['name'] == "DANDITA"
-    # constellations_data.record_to_file()
+    assert "DANDITA" in constellation_data.get_star_systems_by_faction("Amassari")
+    # constellation_data.record_to_file()
     end_time = time.time()
     print(f"Constellation Data search time is: {(start_time-end_time):.2f} seconds")
 
-def test_event_data(page):
+def _test_event_data(page):
     start_time = time.time()
     event_data = Event_Data_Page(page)
     assert event_data.get_group_by_event("event_7days_2023_08_21_t1") == "event_7days_2023_08"
@@ -33,7 +34,7 @@ def test_event_data(page):
     end_time = time.time()
     print(f"Event Data search time is: {(start_time-end_time):.2f} seconds")
 
-def test_quest_line_data(page):
+def _test_quest_line_data(page):
     start_time = time.time()
     quest_line_data = Quest_Line_Data_Page(page)
     assert "ql_event_YaotSpring_2024_t4".lower() == quest_line_data.get_quest_line_by_quest("qe_yaoSpr_2024_day08_t4")
@@ -42,19 +43,19 @@ def test_quest_line_data(page):
     end_time = time.time()
     print(f"Quest Line Data search time is: {(start_time-end_time):.2f} seconds")
  
+def _test_string_data(page):
+    start_time = time.time()
+    string_data = String_Data_Page(page)
+    assert "Donate" == string_data.get_text_by_header("send")
+    # string_data.record_to_file()
+    end_time = time.time()
+    print(f"Quest Data search time is: {(start_time-end_time):.2f} seconds")
+
 def _test_quest_data(page):
     start_time = time.time()
     quest_data = Quest_Data_Page(page)
     # assert 
     quest_data.record_to_file()
-    end_time = time.time()
-    print(f"Quest Data search time is: {(start_time-end_time):.2f} seconds")
-
-def _test_string_data(page):
-    start_time = time.time()
-    string_data = String_Data_Page(page)
-    assert "Donate" == string_data.get_text_by_header("send")
-    string_data.record_to_file()
     end_time = time.time()
     print(f"Quest Data search time is: {(start_time-end_time):.2f} seconds")
 

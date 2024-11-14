@@ -6,7 +6,8 @@ class Constellation_Data_Page(Base_Page):
     _file_name = "STARMAP.md"
     _locator = "#ConstellationData-module"
     
-    star_systems = {}
+    star_systems_by_coordinates = {}
+    star_systems_by_faction = {}
     
     def __init__(self, page):
         super().__init__(page, self._locator)
@@ -25,13 +26,22 @@ class Constellation_Data_Page(Base_Page):
                 faction = entryhead_element.inner_text().strip() if entryhead_element else "Unknown"
             
             if faction in ('tr1_territories', 'tr1_territories_t3', 'tr1_territories_t4', 'tr1_territories_special'):
-                faction = "Iyatequa Territories"
+                faction = "Iyatequa"
             if faction == "P1 Territories":
-                faction = "Cangacian Territories"
-            if faction == "Tanoch Territories T4":
-                faction = "Tanoch Territories"
-            if faction == "yaot_territories_t4":
-                faction = "Yaot Territories"
+                faction = "Cangacians"
+            if faction in ("Tanoch Territories", "Tanoch Territories T4"): 
+                faction = "Tanoch Empire"
+            if faction in ("Yaot Territories", "yaot_territories_t4"):
+                faction = "Yaot Federation"
+            if faction in ("Hiigaran Territories"):
+                faction = "Medea"
+            if faction in ("Amassari Territories"):
+                faction = "Amassari"
+            if faction in ("Clan Territories"):
+                faction = "Clans"
+
+            if faction not in self.star_systems_by_faction:
+                self.star_systems_by_faction[faction] = []
 
             systems_coornames_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("CustomOverrides"))
             if systems_coornames_el:
@@ -45,7 +55,8 @@ class Constellation_Data_Page(Base_Page):
                             'coordinates': coordinates,
                             'faction': faction
                         }
-                        self.star_systems[coordinates] = system
+                        self.star_systems_by_coordinates[coordinates] = system
+                        self.star_systems_by_faction[faction].append(system.get('name'))
             else:
                 voidsystems_coor_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("VoidSystems"))
                 systems_coordinates = voidsystems_coor_el.inner_text().strip() if voidsystems_coor_el else "Unknown"
@@ -56,19 +67,30 @@ class Constellation_Data_Page(Base_Page):
                         'coordinates': coordinates,
                         'faction': faction
                     }
-                    self.star_systems[coordinates] = system
+                    self.star_systems_by_coordinates[coordinates] = system
+                    self.star_systems_by_faction[faction].append(system.get('name'))
 
     def get_star_system_by_coordinates(self, coordinates):
-        system = self.star_systems.get(coordinates)
+        system = self.star_systems_by_coordinates.get(coordinates)
         if system:
             print(f"{system['faction']}: {system['name']} System")
         else:
             print("Somewhere in Nimbus Galaxy")
         return system
     
+    def get_star_systems_by_faction(self, faction):
+        systems = self.star_systems_by_faction.get(faction)
+        if systems:
+            print(f"Systems of {faction}:")
+            for system in systems:
+                print(f"{system},")
+        else:
+            print(f"Faction {faction} has no systems in Nimbus Galaxy")
+        return systems
+    
     def record_to_file(self):
         utils.rewrite_file("# NIMBUS KNOWNN STAR SYSTEMS\n", self._file_name)
         utils.add_to_file("Systems Finder is working but not all the systems are present in ConstellationData\n\n", self._file_name)
 
-        for coords, system in self.star_systems.items():
+        for coords, system in self.star_systems_by_coordinates.items():
             utils.add_to_file(f"{system['faction']} : {system['coordinates']} : {system['name']}\n", self._file_name)
