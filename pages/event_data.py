@@ -58,14 +58,14 @@ class Event_Data_Page(Base_Page):
         return events
     
     def record_to_file(self):
-        utils.rewrite_file("h1. HWM EVENT GROUPS:\n\n", self._file_name)
+        body = "h1. HWM EVENT GROUPS:\n\n"
         for group in self.event_groups:
-            utils.add_to_file(f"* {group}\n", self._file_name)
+            body += f"* {group}\n"
 
-        utils.add_to_file("\n\n", self._file_name)
-
-        utils.add_to_file("# HWM EVENTS:\n\n", self._file_name)
+        body += "\n\n# HWM EVENTS:\n\n"
         for group, events in self.events_groupped.items():
-            utils.add_to_file(f"* {group}\n", self._file_name)
+            body += f"* {group}\n"
             for event in sorted(events):
-                utils.add_to_file(f"  * {event}\n", self._file_name)
+                body += f"  * {event}\n"
+
+        utils.rewrite_file(body, self._file_name)

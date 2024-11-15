@@ -51,11 +51,26 @@ def _test_string_data(page):
     end_time = time.time()
     print(f"Quest Data search time is: {(start_time-end_time):.2f} seconds")
 
-def _test_quest_data(page):
+def test_quest_data(page):
     start_time = time.time()
     quest_data = Quest_Data_Page(page)
     # assert 
-    quest_data.record_to_file()
+    # quest_data.record_to_file()
+    # quest_data.record_to_file_all_tags()
+    quest_data.get_tag_values("Type")
+    quest_data.get_tag_values("Tier")
+    quest_data.get_tag_values("RepetitionType")
+    quest_data.get_tag_values("ScheduleType")
+    quest_data.get_tag_values("GoalIconId")
+    quest_data.get_tag_values("Goals")
+
+    quest_data.get_tag_values("EventId")
+    quest_data.get_tag_values("ReplayMissionId")
+    quest_data.get_tag_values("CinematicIds")
+    quest_data.get_tag_values("MailsOnCompletion") 
+
+    quest_data.get_tag_values("GoalParameters")
+
     end_time = time.time()
     print(f"Quest Data search time is: {(start_time-end_time):.2f} seconds")
 
@@ -96,6 +111,30 @@ def _test_tryout(page):
         #     print(stringdata(quest.mail.text + header).entry)
         #     print("\n")
         #     print(stringdata(quest.mail.text + body).entry)
+
+        #QUEST TAGS
+        # Type
+        #   Achievement, Daily, Event, Hidden, Locked, Main, Side, Strike, Weekly
+        # XPMod
+        # Goals
+        # RepetitionType
+        # GoalIconId
+        # ScheduleType
+        
+        # StartOffset
+        # EndOffset
+
+        # EventId
+        # MailsOnCompletion
+        # CinematicIds
+        # ReplayMissionId
+
+        # GoalParameters
+
+        # == UNREPEATABLE ==
+        # Rewards
+        # FollowUps
+        # FollowUpLines
 
 
         end_time = time.time()

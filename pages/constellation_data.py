@@ -89,8 +89,10 @@ class Constellation_Data_Page(Base_Page):
         return systems
     
     def record_to_file(self):
-        utils.rewrite_file("# NIMBUS KNOWNN STAR SYSTEMS\n", self._file_name)
-        utils.add_to_file("Systems Finder is working but not all the systems are present in ConstellationData\n\n", self._file_name)
-
+        body = "# NIMBUS KNOWNN STAR SYSTEMS\n"
+        body += "Systems Finder is working but not all the systems are present in ConstellationData\n\n"
+        
         for coords, system in self.star_systems_by_coordinates.items():
-            utils.add_to_file(f"{system['faction']} : {system['coordinates']} : {system['name']}\n", self._file_name)
+            body += f"{system['faction']} : {system['coordinates']} : {system['name']}\n"
+        
+        utils.rewrite_file(body, self._file_name)

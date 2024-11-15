@@ -63,14 +63,14 @@ class Quest_Line_Data_Page(Base_Page):
         return quest_line
 
     def record_to_file(self):
-        utils.rewrite_file("# HWM QUESTLINES:\n\n", self._file_name)
+        body = "# HWM QUESTLINES:\n\n"
         for questline in self.quest_lines:
-            utils.add_to_file(f"* {questline}\n", self._file_name)
+            body += f"* {questline}\n"
 
-        utils.add_to_file("\n\n", self._file_name)
-
-        utils.add_to_file("# HWM QUESTS:\n\n", self._file_name)
+        body += "\n\n# HWM QUESTS:\n\n"
         for questline, quests in self.quests_lined.items():
-            utils.add_to_file(f"\n## {questline}\n", self._file_name)
+            body += f"\n## {questline}\n"
             for quest in sorted(quests):
-                utils.add_to_file(f"* {quest}\n", self._file_name)
+                body += f"* {quest}\n"
+        
+        utils.rewrite_file(body, self._file_name)
