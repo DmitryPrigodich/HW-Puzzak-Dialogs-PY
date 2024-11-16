@@ -3,7 +3,7 @@ import utils
 from .base_page import Base_Page
 
 class Event_Data_Page(Base_Page):
-    _file_name = "EVENTS.md"
+    _file_name = "data/EVENTS.md"
     _locator = "#EventData-module"
 
     events = []
@@ -58,14 +58,14 @@ class Event_Data_Page(Base_Page):
         return events
     
     def record_to_file(self):
-        body = "h1. HWM EVENT GROUPS:\n\n"
+        body = "# HWM EVENT GROUPS:\n"
         for group in self.event_groups:
             body += f"* {group}\n"
 
-        body += "\n\n# HWM EVENTS:\n\n"
+        body += "\n\n# HWM EVENTS:\n"
         for group, events in self.events_groupped.items():
-            body += f"* {group}\n"
+            body += f"\n### {group}\n"
             for event in sorted(events):
-                body += f"  * {event}\n"
+                body += f"{event}\n"
 
         utils.rewrite_file(body, self._file_name)

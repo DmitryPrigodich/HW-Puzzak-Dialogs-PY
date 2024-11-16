@@ -3,7 +3,7 @@ import utils
 from .base_page import Base_Page
 
 class Quest_Data_Page(Base_Page):
-    _file_name = "QUESTS.md"
+    _file_name = "data/QUESTS.md"
     _locator = "#QuestData-module"
 
     quests = []
@@ -98,7 +98,7 @@ class Quest_Data_Page(Base_Page):
         body = f"\n# HWM QUEST TAG '{tag}' VALUES:\n"
         for value in final_value_list:
             body += (f"{value}\n")
-        utils.add_to_file(body, "QUEST_TMP.md")
+        utils.add_to_file(body, "data/QUEST_TMP.md")
     
     def record_to_file(self):
         body = "# HWM QUESTS:\n"

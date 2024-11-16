@@ -3,7 +3,7 @@ import utils
 from .base_page import Base_Page
 
 class Quest_Line_Data_Page(Base_Page):
-    _file_name = "QUESTSLINES.md"
+    _file_name = "data/QUESTSLINES.md"
     _locator = "#QuestLineData-module"
 
     quests = []

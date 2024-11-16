@@ -3,7 +3,7 @@ import utils
 from .base_page import Base_Page
 
 class Constellation_Data_Page(Base_Page):
-    _file_name = "STARMAP.md"
+    _file_name = "data/STARMAP.md"
     _locator = "#ConstellationData-module"
     
     star_systems_by_coordinates = {}
