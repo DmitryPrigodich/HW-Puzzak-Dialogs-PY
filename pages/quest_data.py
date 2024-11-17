@@ -1,58 +1,36 @@
-import constants
 import utils
+import json
+import logging
+import constants
 from .base_page import Base_Page
 
-class Quest_Data_Page(Base_Page):
-    _file_name = "data/QUESTS.md"
-    _locator = "#QuestData-module"
+logger = logging.getLogger(__name__)
 
-    quests = []
+class Quest_Data_Page(Base_Page):
+    LOCATOR = "#QuestData-module"
+    FILE_NAME = "data/QUESTS.md"
+    FILE_NAME_2 = "data/QUEST_TMP.md"
+
+    _quests = []
+
 
     def __init__(self, page):
-        super().__init__(page, self._locator)
-        self._save_quests()
+        super().__init__(page, self.LOCATOR)
 
-    def _save_quests(self):
-        list_elements_entries = self.page.query_selector_all('.entry')
-        print(f"Quest Data: {len(list_elements_entries)} entries found")
+    def save_data(self):
+        for element_entry in self._get_list_elements_entries("Quest Data"):
+            quest_header = self._get_entryhead(element_entry)
 
-        for element_entry in list_elements_entries:
-            entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
-            quest_header = entryhead_el.inner_text().strip() if entryhead_el else "Unknown"
-
-            # entryitem_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("en"))
-            # string_text = entryitem_el.inner_text().strip() if entryitem_el else "Unknown"
-
-            self.quests.append(quest_header)
-        
-        self.quests = sorted(self.quests)
+            quest = {
+                'header': quest_header
+            }
+            self._quests.append(quest)
 
     def get_text_by_header(self, header):
         return self.strings.get(header)
     
     def get_strings(self):
         return self.strings
-    
-    def record_tags_to_file(self):
-        tags = []
-        tag_elements = self.page.query_selector_all("//b[@class='entryitemname']")
-
-        for tag_el in tag_elements:
-            tag = tag_el.inner_text().strip() if tag_el else "Unknown"
-            tags.append(tag.replace(':',''))
-        
-        tags = sorted(list(set(tags)))
-        utils.add_to_file("\n\n# HWM QUEST TAGS:\n", self._file_name)
-        for tag in tags:
-            utils.add_to_file(f"{tag}\n", self._file_name)
-    
-    def get_quests_by_tag_value(self, tag, value):
-        quests = []
-        return quests
-    
-    def get_quests_by_goals(self, goal):
-        quests = []
-        return quests
 
     def get_tag_values(self, tag):
         final_value_list = []
@@ -94,14 +72,31 @@ class Quest_Data_Page(Base_Page):
                         final_value_list.append(tag_value)
 
         final_value_list = sorted(list(set(final_value_list)))
+        return final_value_list
+    
+    def record_tags_to_file(self):
+        tags = []
+        tag_elements = self.page.query_selector_all("//b[@class='entryitemname']")
 
+        for tag_el in tag_elements:
+            tag = tag_el.inner_text().strip() if tag_el else "Unknown"
+            tags.append(tag.replace(':',''))
+        
+        tags = sorted(list(set(tags)))
+        utils.add_to_file("\n\n# HWM QUEST TAGS:\n", self.FILE_NAME)
+        for tag in tags:
+            utils.add_to_file(f"{tag}\n", self.FILE_NAME_2)
+    
+    def record_tag_values(self, tag):
+        tag_value_list = self.get_tag_values(tag)
+        
         body = f"\n# HWM QUEST TAG '{tag}' VALUES:\n"
-        for value in final_value_list:
-            body += (f"{value}\n")
-        utils.add_to_file(body, "data/QUEST_TMP.md")
+        for value in tag_value_list:
+            body += (f"* {value}\n")
+        utils.add_to_file(body, self.FILE_NAME_2)
     
     def record_to_file(self):
         body = "# HWM QUESTS:\n"
-        for quest in self.quests:
+        for quest in self._quests:
             body += f"* {quest}\n"
-        utils.rewrite_file(body, self._file_name)
+        utils.rewrite_file(body, self.FILE_NAME)

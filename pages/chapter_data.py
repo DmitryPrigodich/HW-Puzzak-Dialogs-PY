@@ -1,45 +1,58 @@
-import constants
 import utils
+import json
+import logging
 from .base_page import Base_Page
 
-class Chapter_Data_Page(Base_Page):
-    _file_name = "data/CHAPTERS.md"
-    _locator = "#ChapterData-module"
+logger = logging.getLogger(__name__)
 
-    chapters = []
+class Chapter_Data_Page(Base_Page):
+    LOCATOR = "#ChapterData-module"
+    FILE_NAME = "data/CHAPTERS.md"
+    FILE_NAME_JSON = "json/chapters.json"
+
+    _chapters = []
 
     def __init__(self, page):
-        super().__init__(page, self._locator)
-        self._save_chapters()
+        super().__init__(page, self.LOCATOR)
 
-    def _save_chapters(self):
-        list_elements_entries = self.page.query_selector_all('.entry')
-        print(f"Chapter Data: {len(list_elements_entries)} entries found")
-
-        for element_entry in list_elements_entries:
-            entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
-            chapter_head = entryhead_el.inner_text().strip().lower() if entryhead_el else "Unknown"
-
-            entryitem_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("Ids"))
-            quest_lines = entryitem_el.inner_text().strip() if entryitem_el else "Unknown"
-
-            entryitem_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("Order"))
-            order = entryitem_el.inner_text().strip() if entryitem_el else "Unknown"
+    def save_data(self):
+        for element_entry in self._get_list_elements_entries("Chapter Data"):
+            chapter_head = self._get_entryhead(element_entry)
+            quest_lines = self._get_entryitem_by_tag(element_entry, "Ids")
+            order = self._get_entryitem_by_tag(element_entry, "Order")
 
             chapter = {
                 'name': chapter_head,
                 'order': order,
                 'quest_lines': quest_lines.split("\n")
             }
-            self.chapters.append(chapter)
+            self._chapters.append(chapter)
+        return self._chapters
 
-    def record_to_file(self):
-        body = "# HWM CHAPTERS:\n\n"
-        for chapter in self.chapters:
+
+    def write_json(self):
+        json_data = json.dumps(self._chapters, ensure_ascii=False)
+        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+    
+    def read_json(self):
+        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+            json_data = file.read()
+        logger.log(json_data)
+        self._chapters = json.loads(json_data)
+        logger.log(self._chapters)
+        return self._chapters
+    
+    def get_chapters(self):
+        return self._chapters
+
+
+    def write_data(self):
+        body = "# HWM CHAPTERS:\n"
+        for chapter in self._chapters:
             body += f"### {chapter['order']}. {chapter['name']}\n"
             n = 0
             for quest_line in chapter['quest_lines']:
                 n += 1
-                body += f"  {chapter['order']}.{n}. {quest_line}\n"
+                body += f"* {chapter['order']}.{n}. {quest_line}\n"
 
-        utils.rewrite_file(body, self._file_name)
+        utils.rewrite_file(body, self.FILE_NAME)

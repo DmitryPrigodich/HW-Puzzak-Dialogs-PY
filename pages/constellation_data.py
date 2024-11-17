@@ -1,77 +1,81 @@
-import constants
 import utils
+import json
+import logging
+import constants
 from .base_page import Base_Page
 
+logger = logging.getLogger(__name__)
+
 class Constellation_Data_Page(Base_Page):
-    _file_name = "data/STARMAP.md"
-    _locator = "#ConstellationData-module"
+    LOCATOR = "#ConstellationData-module"
+    FILE_NAME = "data/STARMAP.md"
+    FILE_NAME_JSON = "data/STARMAP_JSON.md"
     
-    star_systems_by_coordinates = {}
-    star_systems_by_faction = {}
+    _star_systems = []
+    _star_system_by_coordinates = {}
+    _star_systems_by_faction = {}
     
     def __init__(self, page):
-        super().__init__(page, self._locator)
-        self._save_star_systems()
+        super().__init__(page, self.LOCATOR)
     
-    def _save_star_systems(self):
-        list_elements_entries = self.page.query_selector_all('.entry')
-        print(f"Constellation Data: {len(list_elements_entries)} entries found")
-
-        for element_entry in list_elements_entries:
+    def save_data(self):
+        for element_entry in self._get_list_elements_entries("Constellation Data"):
             faction_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("Name"))
             if faction_el:
                 faction = faction_el.inner_text().strip()
-            else: 
-                entryhead_element = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
-                faction = entryhead_element.inner_text().strip() if entryhead_element else "Unknown"
+            else:
+                faction = self._get_entryhead(element_entry)
             
-            if faction in ('tr1_territories', 'tr1_territories_t3', 'tr1_territories_t4', 'tr1_territories_special'):
-                faction = "Iyatequa"
-            if faction == "P1 Territories":
-                faction = "Cangacians"
-            if faction in ("Tanoch Territories", "Tanoch Territories T4"): 
-                faction = "Tanoch Empire"
-            if faction in ("Yaot Territories", "yaot_territories_t4"):
-                faction = "Yaot Federation"
-            if faction in ("Hiigaran Territories"):
-                faction = "Medea"
-            if faction in ("Amassari Territories"):
-                faction = "Amassari"
-            if faction in ("Clan Territories"):
-                faction = "Clans"
+            faction = self._get_corrected_faction_name(faction)
 
-            if faction not in self.star_systems_by_faction:
-                self.star_systems_by_faction[faction] = []
+            if faction not in self._star_systems_by_faction:
+                self._star_systems_by_faction[faction] = []
 
             systems_coornames_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("CustomOverrides"))
             if systems_coornames_el:
                 systems_coornames = systems_coornames_el.inner_text().strip().replace("name_","")
-
                 for coordinate_name in systems_coornames.split("\n"):
                     if coordinate_name.strip().startswith("["):
                         coordinates, name = coordinate_name.split(':')
-                        system = {
+                        star_system = {
                             'name': name,
                             'coordinates': coordinates,
                             'faction': faction
                         }
-                        self.star_systems_by_coordinates[coordinates] = system
-                        self.star_systems_by_faction[faction].append(system.get('name'))
+                        self._star_systems.append(star_system)
+                        self._star_system_by_coordinates[coordinates] = star_system
+                        self._star_systems_by_faction[faction].append(star_system)
             else:
-                voidsystems_coor_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("VoidSystems"))
-                systems_coordinates = voidsystems_coor_el.inner_text().strip() if voidsystems_coor_el else "Unknown"
-
+                systems_coordinates = self._get_entryitem_by_tag(element_entry, "VoidSystems")
                 for coordinates in systems_coordinates.split(":"):
-                    system = {
+                    star_system = {
                         'name': "Unknown",
                         'coordinates': coordinates,
                         'faction': faction
                     }
-                    self.star_systems_by_coordinates[coordinates] = system
-                    self.star_systems_by_faction[faction].append(system.get('name'))
+                    self._star_systems.append(star_system)
+                    self._star_system_by_coordinates[coordinates] = star_system
+                    self._star_systems_by_faction[faction].append(star_system)
+
+    
+    def write_json(self):
+        json_data = json.dumps(self._star_systems, ensure_ascii=False)
+        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+    
+    def read_json(self):
+        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+            json_data = file.read()
+        logger.log(json_data)
+        self._star_systems = json.loads(json_data)
+        logger.log(self._star_systems)
+        return self._star_systems
+    
+
+    def get_star_systems(self):
+        return self._star_systems
 
     def get_star_system_by_coordinates(self, coordinates):
-        system = self.star_systems_by_coordinates.get(coordinates)
+        system = self._star_system_by_coordinates.get(coordinates)
         if system:
             print(f"{system['faction']}: {system['name']} System")
         else:
@@ -79,20 +83,42 @@ class Constellation_Data_Page(Base_Page):
         return system
     
     def get_star_systems_by_faction(self, faction):
-        systems = self.star_systems_by_faction.get(faction)
+        systems = self._star_systems_by_faction.get(faction)
         if systems:
             print(f"Systems of {faction}:")
             for system in systems:
-                print(f"{system},")
+                print(f"{system['name']}")
         else:
             print(f"Faction {faction} has no systems in Nimbus Galaxy")
         return systems
     
-    def record_to_file(self):
-        body = "# NIMBUS KNOWNN STAR SYSTEMS\n"
-        body += "Systems Finder is working but not all the systems are present in ConstellationData\n\n"
+
+    def write_data(self):
+        body = "# NIMBUS KNOWN STAR SYSTEMS\n"
+        body += "Systems Finder is working but not all the systems are present in Constellation Data\n"
+
+        for faction, systems in self._star_systems_by_faction.items():
+            body += f"\n### {faction}\n"
+            for system in systems:
+                body += f"* {system['name']} : {system['coordinates']}\n"
         
-        for coords, system in self.star_systems_by_coordinates.items():
-            body += f"{system['faction']} : {system['coordinates']} : {system['name']}\n"
-        
-        utils.rewrite_file(body, self._file_name)
+        utils.rewrite_file(body, self.FILE_NAME)
+
+    def _get_corrected_faction_name(self, faction):
+        match faction:
+            case "Hiigaran Territories":
+                return "Medeans"
+            case 'tr1_territories' | 'tr1_territories_t3' | 'tr1_territories_t4' | 'tr1_territories_special':
+                return "Iyatequa"
+            case "P1 Territories":
+                return "Cangacians"
+            case "Tanoch Territories" | "Tanoch Territories T4":
+                return "Tanoch Empire"
+            case "Yaot Territories" | "yaot_territories_t4":
+                return "Yaot Federation"
+            case "Amassari Territories":
+                return "Amassari"
+            case "Clan Territories":
+                return "Clans"
+            case _:
+                return "Terra Incognita"

@@ -1,71 +1,52 @@
-import constants
 import utils
+import json
+import logging
+import constants
 from .base_page import Base_Page
 
-class Event_Data_Page(Base_Page):
-    _file_name = "data/EVENTS.md"
-    _locator = "#EventData-module"
+logger = logging.getLogger(__name__)
 
-    events = []
-    event_groups = []
-    events_groupped = {}
-    groups_evented = {}
+class Event_Data_Page(Base_Page):
+    LOCATOR = "#EventData-module"
+    FILE_NAME = "data/EVENTS.md"
+    FILE_NAME_JSON = "data/EVENTS_JSON.md"
+
+    _events = []
 
     def __init__(self, page):
-        super().__init__(page, self._locator)
-        self._save_events()
+        super().__init__(page, self.LOCATOR)
 
-    def _save_events(self):
-        list_elements_entries = self.page.query_selector_all('.entry')
-        print(f"Event Data: {len(list_elements_entries)} entries found")
+    def save_data(self):
+        for element_entry in self._get_list_elements_entries("Event Data"):
+            event_header = self._get_entryhead(element_entry)
+            event_group = self._get_entryitem_by_tag(element_entry, "Group")
 
-        for element_entry in list_elements_entries:
-            entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
-            event_name = entryhead_el.inner_text().strip() if entryhead_el else "Unknown"
-
-            entryitem_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("Group"))
-            event_group = entryitem_el.inner_text().strip() if entryitem_el else "No-Group"
-
-            self.events.append(event_name)
-            self.event_groups.append(event_group)
-            self.groups_evented[event_name] = event_group
-
-            if event_group not in self.events_groupped:
-                self.events_groupped[event_group] = []
-            self.events_groupped[event_group].append(event_name)
-
-        self.events = sorted(self.events)
-        self.event_groups = sorted(list(set(self.event_groups)))
-        self.event_groups.remove("No-Group")
-        self.events_groupped = {key: self.events_groupped[key] for key in sorted(self.events_groupped.keys())}
-
-    def get_group_by_event(self, event_name):
-        group = self.groups_evented[event_name]
-        print 
-        if group == "No-Group":
-            print("No group for this event")
-        else:
-            print(f"{group}: {event_name}")
-        return group
+            event = {
+                'header': event_header,
+                'group': event_group
+            }
+            self._events.append(event)
+        
+        return self._events
     
-    def get_events_by_group(self, group):
-        events = self.events_groupped.get(group)
-
-        print(f"Group: {group}\n")
-        for event in events:
-            print(f"  * {event}\n")
-
-        return events
+    def write_json(self):
+        json_data = json.dumps(self._events, ensure_ascii=False)
+        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
     
-    def record_to_file(self):
-        body = "# HWM EVENT GROUPS:\n"
-        for group in self.event_groups:
-            body += f"* {group}\n"
+    def read_json(self):
+        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+            json_data = file.read()
+        logger.log(json_data)
+        self._events = json.loads(json_data)
+        logger.log(self._events)
+        return self._events
 
-        body += "\n\n# HWM EVENTS:\n"
-        for group, events in self.events_groupped.items():
-            body += f"\n### {group}\n"
-            for event in sorted(events):
-                body += f"{event}\n"
+    def get_events(self):
+        return self._events
 
-        utils.rewrite_file(body, self._file_name)
+    
+    def write_data(self):
+        body = "# HWM EVENTS:\n"
+        for event in self._events:
+            body += f"* {event['header']} : {event['group']}"
+        utils.rewrite_file(body, self.FILE_NAME)

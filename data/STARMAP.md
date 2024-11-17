@@ -1,270 +1,283 @@
-# NIMBUS KNOWNN STAR SYSTEMS
-Systems Finder is working but not all the systems are present in ConstellationData
+# NIMBUS KNOWN STAR SYSTEMS
+Systems Finder is working but not all the systems are present in Constellation Data
 
-Medea : [-1747, -653] : JONALLI
-Medea : [-1844, -690] : SAARET
-Medea : [-1800, -623] : NOKUUNA
-Medea : [-1801, -725] : FER LAMAAN
-Medea : [-1722, -717] : MITORAI
-Medea : [-1764, -703] : INIIM
-Medea : [-1768, -661] : SUMAAR
-Medea : [-1785, -690] : ROA TISAAD
-Medea : [-1832, -619] : TOASIIM
-Iyatequa : [-1467, -682] : FAALEAS
-Iyatequa : [-1651, -692] : XALERAAT
-Iyatequa : [-1636, -711] : TALESSUR
-Iyatequa : [-1729, -821] : VERAATLAN
-Iyatequa : [-1603, -765] : JINVALLA
-Iyatequa : [-1751, -791] : ULANT TI SAAR
-Iyatequa : [-1698, -619] : LIUSATA
-Iyatequa : [-1767, -592] : VISAAN KI
-Iyatequa : [-1339, -759] : KANTALASA
-Iyatequa : [-1425, -665] : AKALASAYA
-Iyatequa : [-1447, -744] : NAGATERADA
-Iyatequa : [-1490, -884] : PUMA PUTUN
-Iyatequa : [-1621, -923] : KALITO
-Iyatequa : [-1505, -960] : MONOTA
-Iyatequa : [-1523, -914] : KANA
-Iyatequa : [-1628, -848] : KASSAYA
-Iyatequa : [-1367, -965] : AKAPANTAHA
-Iyatequa : [-1439, -1026] : KERRA
-Iyatequa : [-1372, -1039] : AKATA
-Iyatequa : [-1555, -1017] : MAHALASAYA
-Iyatequa : [-1523, -869] : MAHA
-Iyatequa : [-1617, -638] : TRI TUSSALI
-Cangacians : [-1829, -578] : KRIITANA
-Cangacians : [-1710, -523] : ZE TAVAAN
-Cangacians : [-1620, -511] : BESCAVA
-Cangacians : [-1678, -494] : LARCAVA
-Cangacians : [-1688, -400] : CANCAVA
-Cangacians : [-1718, -432] : LURA
-Cangacians : [-1860, -542] : KALUARI
-Cangacians : [-1870, -598] : LARINCA
-Tanoch Empire : [-1331, -473] : IXTLAN
-Tanoch Empire : [-1560, -397] : TEOZAUHQ
-Tanoch Empire : [-1711, 115] : CUILCO
-Tanoch Empire : [-1171, -407] : CHUUA
-Tanoch Empire : [-1472, -191] : TIXPAN
-Tanoch Empire : [-1415, -357] : TEPECOAL
-Tanoch Empire : [-1776, -124] : TLATLAN
-Tanoch Empire : [-1460, -328] : YOALCO
-Tanoch Empire : [-1471, 11] : TEPEC
-Tanoch Empire : [-1336, -165] : OCUITEPE
-Tanoch Empire : [-1384, -94] : OAXTEPEX
-Tanoch Empire : [-1505, -5] : ZEMPOALT
-Tanoch Empire : [-1306, -548] : TECOACUI
-Tanoch Empire : [-1225, -546] : TELAPENTE
-Tanoch Empire : [-1060, -540] : TLAPAN
-Tanoch Empire : [-901, -573] : TETELAD
-Tanoch Empire : [-950, -601] : CEMPOALC
-Tanoch Empire : [-1364, -283] : XALA
-Tanoch Empire : [-1147, -486] : ACATLAHU
-Tanoch Empire : [-1343, -423] : ZEMPOALA
-Tanoch Empire : [-1421, -461] : COIXL
-Tanoch Empire : [-1600, 27] : ACATLA
-Tanoch Empire : [-1778, 68] : TEOZACOZ
-Tanoch Empire : [-1593, 141] : TOCHTEOP
-Tanoch Empire : [-1661, -98] : XILOTEPE
-Tanoch Empire : [-1228, -40] : MIAHUACA
-Tanoch Empire : [-1414, 66] : CHIAUHTI
-Tanoch Empire : [-1360, 46] : HUATLA
-Tanoch Empire : [-1344, -18] : TEOZAPOT
-Tanoch Empire : [-1239, -139] : TEOZAUHN
-Tanoch Empire : [-1285, 136] : AYOTLAUH
-Tanoch Empire : [-1419, 129] : TEOZACO
-Tanoch Empire : [-1543, 228] : SOCOPAN
-Tanoch Empire : [-1263, 211] : TEOZAUHT
-Tanoch Empire : [-1257, 20] : CUAHUACA
-Yaot Federation : [-1077, -730] : SUBACUY
-Yaot Federation : [-977, -881] : CHOCATA
-Yaot Federation : [-1121, -801] : ZIIPAGA
-Yaot Federation : [-814, -847] : OICA
-Yaot Federation : [-1139, -765] : TEUASCATE
-Yaot Federation : [-992, -713] : PAIPAGA
-Yaot Federation : [-1227, -615] : TOPACONTA
-Yaot Federation : [-911, -947] : TOPA
-Yaot Federation : [-1280, -694] : SAMACON
-Yaot Federation : [-715, -953] : RAMA
-Yaot Federation : [-884, -650] : TOCATA
-Yaot Federation : [-1202, -709] : TURMEQUI
-Yaot Federation : [-1157, -648] : ZIPATE
-Yaot Federation : [-748, -930] : TOPAQUE
-Yaot Federation : [-861, -740] : TEUASIA
-Yaot Federation : [-1092, -927] : TIBA
-Yaot Federation : [-742, -981] : SABIO
-Yaot Federation : [-823, -939] : UBACONTL
-Yaot Federation : [-803, -592] : TINJO
-Yaot Federation : [-1172, -698] : TENJACA
-Yaot Federation : [-675, -728] : PAIA
-Yaot Federation : [-603, -786] : USMEQUESCA
-Yaot Federation : [-630, -890] : CHARA
-Yaot Federation : [-586, -843] : PAIPATA
-Yaot Federation : [-827, -667] : TOBA
-Yaot Federation : [-794, -721] : CHARAIPAQU
-Yaot Federation : [-748, -786] : JONA AMAAN
-Yaot Federation : [-673, -872] : FURLAAN
-Yaot Federation : [-561, -926] : USMEQUIRA
-Yaot Federation : [-694, -819] : ONZA
-Amassari : [-831, -204] : DANDITA
-Amassari : [-671, 28] : MAKATIA
-Amassari : [-609, 122] : DASDONAK
-Amassari : [-623, -31] : ANAD
-Amassari : [-638, -192] : KARISARA
-Amassari : [-630, -350] : ANTALTAN
-Amassari : [-700, -114] : CANAXTELA
-Amassari : [-736, -70] : KUUBATA
-Amassari : [-594, -254] : VANDITA
-Amassari : [-605, -305] : XIBALBA
-Amassari : [-767, -147] : MANAD
-Clans : [-943, -279] : Unknown
-Clans : [-551, -1073] : Unknown
-Clans : [-1573, 326] : Unknown
-Clans : [166, -1090] : Unknown
-Clans : [-20, -1275] : Unknown
-Clans : [451, -809] : Unknown
-Clans : [-1453, 229] : Unknown
-Clans : [-626, 323] : Unknown
-Clans : [-2234, -335] : Unknown
-Clans : [-2445, 1] : Unknown
-Clans : [-364, -757] : Unknown
-Clans : [767, -386] : Unknown
-Clans : [-1464, -813] : Unknown
-Clans : [-872, 310] : Unknown
-Clans : [-159, -1198] : Unknown
-Clans : [-875, 0] : Unknown
-Clans : [-1132, 332] : Unknown
-Clans : [-178, -1122] : Unknown
-Clans : [-1231, 354] : Unknown
-Clans : [390, -1160] : Unknown
-Clans : [-2062, 15] : Unknown
-Clans : [-859, -1213] : Unknown
-Clans : [-1290, -1235] : Unknown
-Clans : [-256, -1310] : Unknown
-Clans : [-1035, 36] : Unknown
-Clans : [-93, -976] : Unknown
-Clans : [-12, 289] : Unknown
-Clans : [-759, -1256] : Unknown
-Clans : [-1621, -368] : Unknown
-Clans : [-1819, 25] : Unknown
-Clans : [-75, 490] : Unknown
-Clans : [-1503, 275] : Unknown
-Clans : [-1839, -260] : Unknown
-Clans : [-1017, -127] : Unknown
-Clans : [-457, -667] : Unknown
-Clans : [-646, -676] : Unknown
-Clans : [-107, -1135] : Unknown
-Clans : [-471, -755] : Unknown
-Clans : [-1740, -351] : Unknown
-Clans : [-20, 542] : Unknown
-Clans : [-1130, 231] : Unknown
-Clans : [-1311, -921] : Unknown
-Clans : [-375, 432] : Unknown
-Clans : [-1628, -455] : Unknown
-Clans : [-2018, -405] : Unknown
-Clans : [-2262, 186] : Unknown
-Clans : [-2162, -852] : Unknown
-Clans : [-1207, -1043] : Unknown
-Clans : [-2004, -243] : Unknown
-Clans : [-1611, -1078] : Unknown
-Clans : [-2129, -571] : Unknown
-Clans : [-1060, -14] : Unknown
-Clans : [-421, 277] : Unknown
-Clans : [-183, 200] : Unknown
-Clans : [-446, -972] : Unknown
-Clans : [-719, -451] : Unknown
-Clans : [-1198, -323] : Unknown
-Clans : [-561, -996] : Unknown
-Clans : [-985, -1213] : Unknown
-Clans : [-765, -1165] : Unknown
-Clans : [-2067, -1206] : Unknown
-Clans : [-380, -880] : Unknown
-Clans : [-914, -488] : Unknown
-Clans : [-859, -557] : Unknown
-Clans : [-860, -611] : Unknown
-Clans : [-876, -432] : Unknown
-Clans : [-834, -399] : Unknown
-Clans : [-759, -465] : Unknown
-Clans : [-692, -573] : Unknown
-Clans : [-678, -659] : Unknown
-Clans : [-1767, -43] : Unknown
-Clans : [-1712, -122] : Unknown
-Clans : [-1636, -308] : Unknown
-Clans : [-1795, -161] : Unknown
-Clans : [-1854, -165] : Unknown
-Clans : [-1917, -123] : Unknown
-Clans : [-1917, -34] : Unknown
-Clans : [-1827, 165] : Unknown
-Clans : [-1807, 223] : Unknown
-Clans : [-1675, 225] : Unknown
-Clans : [-1626, 268] : Unknown
-Clans : [-1392, 299] : Unknown
-Clans : [-1193, -236] : Unknown
-Clans : [-1017, -346] : Unknown
-Clans : [-1115, -317] : Unknown
-Clans : [-1017, -417] : Unknown
-Clans : [-1018, -465] : Unknown
-Clans : [-1239, -882] : Unknown
-Clans : [-1214, -943] : Unknown
-Clans : [-1134, -1005] : Unknown
-Clans : [-910, -1048] : Unknown
-Clans : [-826, -1050] : Unknown
-Clans : [-726, -1022] : Unknown
-Clans : [-665, -982] : Unknown
-Clans : [-1209, -818] : Unknown
-Clans : [-1182, -794] : Unknown
-Clans : [-1373, -860] : Unknown
-Clans : [-1892, 101] : Unknown
-Clans : [-1543, -540] : Unknown
-Clans : [-963, -482] : Unknown
-Clans : [-1739, 214] : Unknown
-Clans : [-1745, -159] : Unknown
-Clans : [-893, -100] : Unknown
-Clans : [-761, 99] : Unknown
-Clans : [-542, 75] : Unknown
-Clans : [-484, -15] : Unknown
-Clans : [-380, -126] : Unknown
-Clans : [-279, -234] : Unknown
-Clans : [-784, -1088] : Unknown
-Clans : [-1378, -790] : Unknown
-Clans : [-1950, -421] : Unknown
-Clans : [-1957, -509] : Unknown
-Clans : [-1928, -584] : Unknown
-Clans : [-1929, -667] : Unknown
-Clans : [-1912, -767] : Unknown
-Clans : [-1838, -856] : Unknown
-Clans : [-1734, -909] : Unknown
-Clans : [-1710, -1027] : Unknown
-Clans : [-1814, -911] : Unknown
-Clans : [-1813, -375] : Unknown
-Clans : [-1568, -503] : Unknown
-Clans : [-986, -174] : Unknown
-Clans : [-501, 162] : Unknown
-Clans : [-630, 196] : Unknown
-Clans : [-550, 9] : Unknown
-Clans : [-1645, -409] : Unknown
-Clans : [-144, -252] : Unknown
-Clans : [56, -236] : Unknown
-Clans : [190, -232] : Unknown
-Clans : [280, -153] : Unknown
-Clans : [398, -227] : Unknown
-Clans : [469, -401] : Unknown
-Clans : [329, -476] : Unknown
-Clans : [396, -601] : Unknown
-Clans : [356, -690] : Unknown
-Clans : [219, -748] : Unknown
-Clans : [93, -738] : Unknown
-Clans : [-56, -796] : Unknown
-Clans : [-150, -798] : Unknown
-Clans : [-270, -832] : Unknown
-Clans : [-513, -540] : Unknown
-Clans : [-46, -251] : Unknown
-Clans : [-1160, 115] : Unknown
-Clans : [-1114, -95] : Unknown
-Clans : [-1139, -146] : Unknown
-Clans : [-1507, -1140] : Unknown
-Clans : [-1344, -1138] : Unknown
-Clans : [-463, -869] : Unknown
-Clans : [-530, -856] : Unknown
-Clans : [-559, -701] : Unknown
-Clans : [-931, -360] : Unknown
-Clans : [-1735, -255] : Unknown
+### Medeans
+* JONALLI : [-1747, -653]
+* SAARET : [-1844, -690]
+* NOKUUNA : [-1800, -623]
+* FER LAMAAN : [-1801, -725]
+* MITORAI : [-1722, -717]
+* INIIM : [-1764, -703]
+* SUMAAR : [-1768, -661]
+* ROA TISAAD : [-1785, -690]
+* TOASIIM : [-1832, -619]
+
+### Iyatequa
+* FAALEAS : [-1467, -682]
+* XALERAAT : [-1651, -692]
+* TALESSUR : [-1636, -711]
+* VERAATLAN : [-1729, -821]
+* JINVALLA : [-1603, -765]
+* ULANT TI SAAR : [-1751, -791]
+* LIUSATA : [-1698, -619]
+* VISAAN KI : [-1767, -592]
+* KANTALASA : [-1339, -759]
+* AKALASAYA : [-1425, -665]
+* NAGATERADA : [-1447, -744]
+* PUMA PUTUN : [-1490, -884]
+* KALITO : [-1621, -923]
+* MONOTA : [-1505, -960]
+* KANA : [-1523, -914]
+* KASSAYA : [-1628, -848]
+* AKAPANTAHA : [-1367, -965]
+* KERRA : [-1439, -1026]
+* AKATA : [-1372, -1039]
+* MAHALASAYA : [-1555, -1017]
+* MAHA : [-1523, -869]
+* TRI TUSSALI : [-1617, -638]
+
+### Cangacians
+* KRIITANA : [-1829, -578]
+* ZE TAVAAN : [-1710, -523]
+* BESCAVA : [-1620, -511]
+* LARCAVA : [-1678, -494]
+* CANCAVA : [-1688, -400]
+* LURA : [-1718, -432]
+* KALUARI : [-1860, -542]
+* LARINCA : [-1870, -598]
+
+### Tanoch Empire
+* IXTLAN : [-1331, -473]
+* TEOZAUHQ : [-1560, -397]
+* CUILCO : [-1711, 115]
+* CHUUA : [-1171, -407]
+* TIXPAN : [-1472, -191]
+* TEPECOAL : [-1415, -357]
+* TLATLAN : [-1776, -124]
+* YOALCO : [-1460, -328]
+* TEPEC : [-1471, 11]
+* OCUITEPE : [-1336, -165]
+* OAXTEPEX : [-1384, -94]
+* ZEMPOALT : [-1505, -5]
+* TECOACUI : [-1306, -548]
+* TELAPENTE : [-1225, -546]
+* TLAPAN : [-1060, -540]
+* TETELAD : [-901, -573]
+* CEMPOALC : [-950, -601]
+* XALA : [-1364, -283]
+* ACATLAHU : [-1147, -486]
+* ZEMPOALA : [-1343, -423]
+* COIXL : [-1421, -461]
+* ACATLA : [-1600, 27]
+* TEOZACOZ : [-1778, 68]
+* TOCHTEOP : [-1593, 141]
+* XILOTEPE : [-1661, -98]
+* MIAHUACA : [-1228, -40]
+* CHIAUHTI : [-1414, 66]
+* HUATLA : [-1360, 46]
+* TEOZAPOT : [-1344, -18]
+* TEOZAUHN : [-1239, -139]
+* AYOTLAUH : [-1285, 136]
+* TEOZACO : [-1419, 129]
+* SOCOPAN : [-1543, 228]
+* TEOZAUHT : [-1263, 211]
+* CUAHUACA : [-1257, 20]
+
+### Yaot Federation
+* SUBACUY : [-1077, -730]
+* CHOCATA : [-977, -881]
+* ZIIPAGA : [-1121, -801]
+* OICA : [-814, -847]
+* TEUASCATE : [-1139, -765]
+* PAIPAGA : [-992, -713]
+* TOPACONTA : [-1227, -615]
+* TOPA : [-911, -947]
+* SAMACON : [-1280, -694]
+* RAMA : [-715, -953]
+* TOCATA : [-884, -650]
+* TURMEQUI : [-1202, -709]
+* ZIPATE : [-1157, -648]
+* TOPAQUE : [-748, -930]
+* TEUASIA : [-861, -740]
+* TIBA : [-1092, -927]
+* SABIO : [-742, -981]
+* UBACONTL : [-823, -939]
+* TINJO : [-803, -592]
+* TENJACA : [-1172, -698]
+* PAIA : [-675, -728]
+* USMEQUESCA : [-603, -786]
+* CHARA : [-630, -890]
+* PAIPATA : [-586, -843]
+* TOBA : [-827, -667]
+* CHARAIPAQU : [-794, -721]
+* JONA AMAAN : [-748, -786]
+* FURLAAN : [-673, -872]
+* USMEQUIRA : [-561, -926]
+* ONZA : [-694, -819]
+
+### Amassari
+* DANDITA : [-831, -204]
+* MAKATIA : [-671, 28]
+* DASDONAK : [-609, 122]
+* ANAD : [-623, -31]
+* KARISARA : [-638, -192]
+* ANTALTAN : [-630, -350]
+* CANAXTELA : [-700, -114]
+* KUUBATA : [-736, -70]
+* VANDITA : [-594, -254]
+* XIBALBA : [-605, -305]
+* MANAD : [-767, -147]
+
+### Clans
+* Unknown : [-943, -279]
+* Unknown : [-551, -1073]
+* Unknown : [-1573, 326]
+* Unknown : [166, -1090]
+* Unknown : [-20, -1275]
+* Unknown : [451, -809]
+* Unknown : [-1453, 229]
+* Unknown : [-626, 323]
+* Unknown : [-2234, -335]
+* Unknown : [-2445, 1]
+* Unknown : [-364, -757]
+* Unknown : [767, -386]
+* Unknown : [-1464, -813]
+* Unknown : [-872, 310]
+* Unknown : [-159, -1198]
+* Unknown : [-875, 0]
+* Unknown : [-1132, 332]
+* Unknown : [-178, -1122]
+* Unknown : [-1231, 354]
+* Unknown : [390, -1160]
+* Unknown : [-2062, 15]
+* Unknown : [-859, -1213]
+* Unknown : [-1290, -1235]
+* Unknown : [-256, -1310]
+* Unknown : [-1035, 36]
+* Unknown : [-93, -976]
+* Unknown : [-12, 289]
+* Unknown : [-759, -1256]
+* Unknown : [-1621, -368]
+* Unknown : [-1819, 25]
+* Unknown : [-75, 490]
+* Unknown : [-1503, 275]
+* Unknown : [-1839, -260]
+* Unknown : [-1017, -127]
+* Unknown : [-457, -667]
+* Unknown : [-646, -676]
+* Unknown : [-107, -1135]
+* Unknown : [-471, -755]
+* Unknown : [-1740, -351]
+* Unknown : [-20, 542]
+* Unknown : [-1130, 231]
+* Unknown : [-1311, -921]
+* Unknown : [-375, 432]
+* Unknown : [-1628, -455]
+* Unknown : [-2018, -405]
+* Unknown : [-2262, 186]
+* Unknown : [-2162, -852]
+* Unknown : [-1207, -1043]
+* Unknown : [-2004, -243]
+* Unknown : [-1611, -1078]
+* Unknown : [-2129, -571]
+* Unknown : [-1060, -14]
+* Unknown : [-421, 277]
+* Unknown : [-183, 200]
+* Unknown : [-446, -972]
+* Unknown : [-719, -451]
+* Unknown : [-1198, -323]
+* Unknown : [-561, -996]
+* Unknown : [-985, -1213]
+* Unknown : [-765, -1165]
+* Unknown : [-2067, -1206]
+* Unknown : [-380, -880]
+* Unknown : [-914, -488]
+* Unknown : [-859, -557]
+* Unknown : [-860, -611]
+* Unknown : [-876, -432]
+* Unknown : [-834, -399]
+* Unknown : [-759, -465]
+* Unknown : [-692, -573]
+* Unknown : [-678, -659]
+* Unknown : [-1767, -43]
+* Unknown : [-1712, -122]
+* Unknown : [-1636, -308]
+* Unknown : [-1795, -161]
+* Unknown : [-1854, -165]
+* Unknown : [-1917, -123]
+* Unknown : [-1917, -34]
+* Unknown : [-1827, 165]
+* Unknown : [-1807, 223]
+* Unknown : [-1675, 225]
+* Unknown : [-1626, 268]
+* Unknown : [-1392, 299]
+* Unknown : [-1193, -236]
+* Unknown : [-1017, -346]
+* Unknown : [-1115, -317]
+* Unknown : [-1017, -417]
+* Unknown : [-1018, -465]
+* Unknown : [-1239, -882]
+* Unknown : [-1214, -943]
+* Unknown : [-1134, -1005]
+* Unknown : [-910, -1048]
+* Unknown : [-826, -1050]
+* Unknown : [-726, -1022]
+* Unknown : [-665, -982]
+* Unknown : [-1209, -818]
+* Unknown : [-1182, -794]
+* Unknown : [-1373, -860]
+* Unknown : [-1892, 101]
+* Unknown : [-1543, -540]
+* Unknown : [-963, -482]
+* Unknown : [-1739, 214]
+* Unknown : [-1745, -159]
+* Unknown : [-893, -100]
+* Unknown : [-761, 99]
+* Unknown : [-542, 75]
+* Unknown : [-484, -15]
+* Unknown : [-380, -126]
+* Unknown : [-279, -234]
+* Unknown : [-784, -1088]
+* Unknown : [-1378, -790]
+* Unknown : [-1950, -421]
+* Unknown : [-1957, -509]
+* Unknown : [-1928, -584]
+* Unknown : [-1929, -667]
+* Unknown : [-1912, -767]
+* Unknown : [-1838, -856]
+* Unknown : [-1734, -909]
+* Unknown : [-1710, -1027]
+* Unknown : [-1814, -911]
+* Unknown : [-1813, -375]
+* Unknown : [-1568, -503]
+* Unknown : [-986, -174]
+* Unknown : [-501, 162]
+* Unknown : [-630, 196]
+* Unknown : [-550, 9]
+* Unknown : [-1645, -409]
+* Unknown : [-144, -252]
+* Unknown : [56, -236]
+* Unknown : [190, -232]
+* Unknown : [280, -153]
+* Unknown : [398, -227]
+* Unknown : [469, -401]
+* Unknown : [329, -476]
+* Unknown : [396, -601]
+* Unknown : [356, -690]
+* Unknown : [219, -748]
+* Unknown : [93, -738]
+* Unknown : [-56, -796]
+* Unknown : [-150, -798]
+* Unknown : [-270, -832]
+* Unknown : [-513, -540]
+* Unknown : [-46, -251]
+* Unknown : [-1160, 115]
+* Unknown : [-1114, -95]
+* Unknown : [-1139, -146]
+* Unknown : [-1507, -1140]
+* Unknown : [-1344, -1138]
+* Unknown : [-463, -869]
+* Unknown : [-530, -856]
+* Unknown : [-559, -701]
+* Unknown : [-931, -360]
+* Unknown : [-1735, -255]

@@ -1,28 +1,44 @@
-import constants
 import utils
+import json
+import logging
+import constants
 from .base_page import Base_Page
 
-class Loading_Hint_Data_Page(Base_Page):
-    _file_name = "data/HINTS.md"
-    _locator = "#LoadingHintData-module"
+logger = logging.getLogger(__name__)
 
-    hints = []
+class Loading_Hint_Data_Page(Base_Page):
+    LOCATOR = "#LoadingHintData-module"
+    FILE_NAME = "data/HINTS.md"
+    FILE_NAME_JSON = "data/HINTS_JSON.md"
+
+    _hints = []
+
 
     def __init__(self, page):
-        super().__init__(page, self._locator)
-        self._save_hints()
+        super().__init__(page, self.LOCATOR)
 
-    def _save_hints(self):
-        list_elements_entries = self.page.query_selector_all('.entry')
-        print(f"Loading Hint Data: {len(list_elements_entries)} entries found")
+    def save_data(self):
+        for element_entry in self._get_list_elements_entries("Loading Hint Data"):
+            hint = self._get_entryhead(element_entry)
+            self._hints.append(hint)
 
-        for element_entry in list_elements_entries:
-            entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
-            hint = entryhead_el.inner_text().strip().lower() if entryhead_el else "Unknown"
-            self.hints.append(hint)
+    def write_json(self):
+        json_data = json.dumps(self._hints, ensure_ascii=False)
+        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+    
+    def read_json(self):
+        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+            json_data = file.read()
+        logger.log(json_data)
+        self._hints = json.loads(json_data)
+        logger.log(self._hints)
+        return self._hints
+
+    def get_hints(self):
+        return self._hints
 
     def record_to_file(self):
-        body = "# HWM HINTS:\n\n"
-        for hint in self.hints:
-            body += f"{hint}\n"
-        utils.rewrite_file(body, self._file_name)
+        body = "# HWM HINTS:\n"
+        for hint in self._hints:
+            body += f"* {hint}\n"
+        utils.rewrite_file(body, self.FILE_NAME)
