@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 class Constellation_Data_Page(Base_Page):
     LOCATOR = "#ConstellationData-module"
     FILE_NAME = "data/STARMAP.md"
-    FILE_NAME_JSON = "data/STARMAP_JSON.md"
+    FILE_NAME_JSON = "json/starmap.json"
     
     _star_systems = []
     _star_system_by_coordinates = {}

@@ -34,7 +34,7 @@ def _test_quest_line_data(page):
     quest_line_data = Quest_Line_Data_Page(page)
     assert "ql_event_YaotSpring_2024_t4".lower() == quest_line_data.get_quest_line_by_quest("qe_yaoSpr_2024_day08_t4")
     assert "qe_yaoSpr_2024_day08_t4" in quest_line_data.get_quests_by_event("event_yaotSpring_2024_t4")
-    quest_line_data.record_to_file()
+    quest_line_data.write_data()
     end_time = time.time()
     logger.log(f"Quest Line Data search time is: {(start_time-end_time):.2f} seconds")
 
@@ -42,22 +42,22 @@ def _test_quest_data(page):
     start_time = time.time()
     quest_data = Quest_Data_Page(page)
     # assert 
-    quest_data.record_to_file()
+    quest_data.write_data()
     quest_data.record_tags_to_file()
 
-    quest_data.record_tag_values("Type")
-    quest_data.record_tag_values("Tier")
-    quest_data.record_tag_values("RepetitionType")
-    quest_data.record_tag_values("ScheduleType")
-    quest_data.record_tag_values("GoalIconId")
-    quest_data.record_tag_values("Goals")
+    quest_data.write_tag_values("Type")
+    quest_data.write_tag_values("Tier")
+    quest_data.write_tag_values("RepetitionType")
+    quest_data.write_tag_values("ScheduleType")
+    quest_data.write_tag_values("GoalIconId")
+    quest_data.write_tag_values("Goals")
 
-    quest_data.record_tag_values("EventId")
-    quest_data.record_tag_values("ReplayMissionId")
-    quest_data.record_tag_values("CinematicIds")
-    quest_data.record_tag_values("MailsOnCompletion") 
+    quest_data.write_tag_values("EventId")
+    quest_data.write_tag_values("ReplayMissionId")
+    quest_data.write_tag_values("CinematicIds")
+    quest_data.write_tag_values("MailsOnCompletion") 
 
-    quest_data.record_tag_values("GoalParameters")
+    quest_data.write_tag_values("GoalParameters")
 
     end_time = time.time()
     logger.log(f"Quest Data search time is: {(start_time-end_time):.2f} seconds")
@@ -65,7 +65,7 @@ def _test_quest_data(page):
 def _test_chapter_data(page):
     start_time = time.time()
     chapter_data = Chapter_Data_Page(page)
-    chapter_data.record_to_file()
+    chapter_data.write_data()
     end_time = time.time()
     logger.log(f"Chapter Data search time is: {(start_time-end_time):.2f} seconds")
  
@@ -74,12 +74,12 @@ def test_string_data_save_to_file(page):
     string_data = String_Data_Page(page)
 
     string_data.save_data()
-    string_data.record_to_file()
+    string_data.write_data()
 
     assert string_data.get_text_by_header("send") == "Donate"
 
-    string_data.save_data_groupped()
-    string_data.record_to_file_groupped()
+    string_data.save_data()
+    string_data.write_data()
 
     end_time = time.time()
     logger.log(f"String Data search time is: {(start_time-end_time):.2f} seconds")

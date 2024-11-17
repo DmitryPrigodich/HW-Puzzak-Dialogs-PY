@@ -10,6 +10,7 @@ class Quest_Data_Page(Base_Page):
     LOCATOR = "#QuestData-module"
     FILE_NAME = "data/QUESTS.md"
     FILE_NAME_2 = "data/QUEST_TMP.md"
+    FILE_NAME_JSON = "json/quests.json"
 
     _quests = []
 
@@ -25,9 +26,6 @@ class Quest_Data_Page(Base_Page):
                 'header': quest_header
             }
             self._quests.append(quest)
-
-    def get_text_by_header(self, header):
-        return self.strings.get(header)
     
     def get_strings(self):
         return self.strings
@@ -74,7 +72,7 @@ class Quest_Data_Page(Base_Page):
         final_value_list = sorted(list(set(final_value_list)))
         return final_value_list
     
-    def record_tags_to_file(self):
+    def write_tags(self):
         tags = []
         tag_elements = self.page.query_selector_all("//b[@class='entryitemname']")
 
@@ -87,7 +85,7 @@ class Quest_Data_Page(Base_Page):
         for tag in tags:
             utils.add_to_file(f"{tag}\n", self.FILE_NAME_2)
     
-    def record_tag_values(self, tag):
+    def write_tag_values(self, tag):
         tag_value_list = self.get_tag_values(tag)
         
         body = f"\n# HWM QUEST TAG '{tag}' VALUES:\n"
@@ -95,7 +93,7 @@ class Quest_Data_Page(Base_Page):
             body += (f"* {value}\n")
         utils.add_to_file(body, self.FILE_NAME_2)
     
-    def record_to_file(self):
+    def write_data(self):
         body = "# HWM QUESTS:\n"
         for quest in self._quests:
             body += f"* {quest}\n"

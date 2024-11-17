@@ -8,8 +8,8 @@ logger = logging.getLogger(__name__)
 
 class Mission_Data_Page(Base_Page):
     LOCATOR = "#MissionData-module"
-    FILE_NAME = "data/CHAPTERS.md"
-    FILE_NAME_JSON = "data/CHAPTERS_JSON.md"
+    FILE_NAME = "data/MISSIONS.md"
+    FILE_NAME_JSON = "json/missions.json"
 
     _missions = []
 
@@ -22,7 +22,7 @@ class Mission_Data_Page(Base_Page):
             mode = self._get_entryitem_by_tag(element_entry, "Mode")
 
             mission = {
-                'name': mission_head,
+                'header': mission_head,
                 'mode': mode
             }
             self._missions.append(mission)
@@ -45,6 +45,6 @@ class Mission_Data_Page(Base_Page):
     def write_data(self):
         body = "# HWM MISSIONS:\n"
         for mission in self._missions:
-            body += f"* {mission['name']} : {mission['name']}\n"
+            body += f"* {mission['header']} : {mission['mode']}\n"
         utils.rewrite_file(body, self.FILE_NAME)
 

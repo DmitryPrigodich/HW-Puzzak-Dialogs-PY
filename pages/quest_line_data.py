@@ -7,16 +7,14 @@ from .base_page import Base_Page
 logger = logging.getLogger(__name__)
 
 class Quest_Line_Data_Page(Base_Page):
+    LOCATOR = "#QuestLineData-module"
     FILE_NAME = "data/QUESTSLINES.md"
-    _locator = "#QuestLineData-module"
+    FILE_NAME_JSON = "json/questlines.json"
 
-    quests = []
-    quest_lines = []
-    quests_lined = {}
-    lines_quests = {}
+    _quest_lines = []
 
     def __init__(self, page):
-        super().__init__(page, self._locator)
+        super().__init__(page, self.LOCATOR)
 
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Quest Line Data"):
@@ -27,17 +25,9 @@ class Quest_Line_Data_Page(Base_Page):
                 'header': quest_line_header,
                 'quests': quests.split(':')
             }
-        return quest_line
+            self._quest_lines.append(quest_line)
 
-    def get_quests_by_quest_line(self, quest_line):
-        quests = self.quests_lined.get(quest_line.lower())
-        
-        if quests:
-            print(f"Quest Line: {quest_line}\n")
-            for quest in quests:
-                print(f"  * {quest}\n")
-
-        return quests
+        return self._quest_lines
     
     def get_quest_line_by_event(self, event):
         return "ql_" + event
@@ -52,7 +42,7 @@ class Quest_Line_Data_Page(Base_Page):
         self.get_quests_by_quest_line(quest_line)
         return quest_line
 
-    def record_to_file(self):
+    def write_data(self):
         body = "# HWM QUESTLINES:\n\n"
         for questline in self.quest_lines:
             body += f"* {questline}\n"

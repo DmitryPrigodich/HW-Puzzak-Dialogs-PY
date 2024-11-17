@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 class Event_Data_Page(Base_Page):
     LOCATOR = "#EventData-module"
     FILE_NAME = "data/EVENTS.md"
-    FILE_NAME_JSON = "data/EVENTS_JSON.md"
+    FILE_NAME_JSON = "json/events.json"
 
     _events = []
 

@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 class Loading_Hint_Data_Page(Base_Page):
     LOCATOR = "#LoadingHintData-module"
     FILE_NAME = "data/HINTS.md"
-    FILE_NAME_JSON = "data/HINTS_JSON.md"
+    FILE_NAME_JSON = "json/hints.json"
 
     _hints = []
 
@@ -19,7 +19,10 @@ class Loading_Hint_Data_Page(Base_Page):
 
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Loading Hint Data"):
-            hint = self._get_entryhead(element_entry)
+            hint_header = self._get_entryhead(element_entry)
+            hint = {
+                'header': hint_header
+            }
             self._hints.append(hint)
 
     def write_json(self):
@@ -37,8 +40,8 @@ class Loading_Hint_Data_Page(Base_Page):
     def get_hints(self):
         return self._hints
 
-    def record_to_file(self):
+    def write_data(self):
         body = "# HWM HINTS:\n"
         for hint in self._hints:
-            body += f"* {hint}\n"
+            body += f"* {hint['header']}\n"
         utils.rewrite_file(body, self.FILE_NAME)
