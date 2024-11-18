@@ -1,7 +1,6 @@
 import utils
 import json
 import logging
-import constants
 from .base_page import Base_Page
 
 logger = logging.getLogger(__name__)
@@ -9,10 +8,9 @@ logger = logging.getLogger(__name__)
 class String_Data_Page(Base_Page):
     LOCATOR = "#StringData-module"
     FILE_NAME = "data/STRINGS.md"
-    FILE_NAME_JSON = "data/STRINGS_JSON.md"
+    FILE_NAME_JSON = "json/strings.json"
 
     _strings = {}
-    _strings_groupped = {}
 
     def __init__(self, page):
         super().__init__(page, self.LOCATOR)
@@ -34,15 +32,12 @@ class String_Data_Page(Base_Page):
     def read_json(self):
         with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
-        logger.log(json_data)
         self._strings = json.loads(json_data)
-        logger.log(self._strings)
         return self._strings
     
 
-    def get_text_by_header(self, header):
-        return self._strings.get(header)
-
+    def get_text_by_header(self, string_header):
+        return self._strings.get(string_header)
 
     def group_data(self):
         strings_groupped = {
@@ -199,8 +194,6 @@ class String_Data_Page(Base_Page):
 
     def write_data(self):
         body = "# HWM STRINGS:\n"
-        for group, string_datas in self._strings_groupped.items():
-            body += f"\n## {group}:\n"
-            for string_data in string_datas:
-                body += f"* {string_data.get('head')}: {string_data.get('text')}\n"
-        utils.rewrite_file(body, self.FILE_NAME_JSON)
+        for string_header, string_text in self._strings.items():
+            body += f"* {string_header}: {string_text}\n"
+        utils.rewrite_file(body, self.FILE_NAME)

@@ -20,10 +20,7 @@ class Loading_Hint_Data_Page(Base_Page):
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Loading Hint Data"):
             hint_header = self._get_entryhead(element_entry)
-            hint = {
-                'header': hint_header
-            }
-            self._hints.append(hint)
+            self._hints.append(hint_header)
 
     def write_json(self):
         json_data = json.dumps(self._hints, ensure_ascii=False)
@@ -32,16 +29,17 @@ class Loading_Hint_Data_Page(Base_Page):
     def read_json(self):
         with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
-        logger.log(json_data)
         self._hints = json.loads(json_data)
-        logger.log(self._hints)
         return self._hints
 
     def get_hints(self):
         return self._hints
+    
+    def get_hint(self, hint):
+        return hint in self._hints
 
     def write_data(self):
         body = "# HWM HINTS:\n"
         for hint in self._hints:
-            body += f"* {hint['header']}\n"
+            body += f"* {hint}\n"
         utils.rewrite_file(body, self.FILE_NAME)

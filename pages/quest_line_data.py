@@ -1,7 +1,6 @@
 import utils
 import json
 import logging
-import constants
 from .base_page import Base_Page
 
 logger = logging.getLogger(__name__)
@@ -11,7 +10,7 @@ class Quest_Line_Data_Page(Base_Page):
     FILE_NAME = "data/QUESTSLINES.md"
     FILE_NAME_JSON = "json/questlines.json"
 
-    _quest_lines = []
+    _quest_lines = {}
 
     def __init__(self, page):
         super().__init__(page, self.LOCATOR)
@@ -21,36 +20,29 @@ class Quest_Line_Data_Page(Base_Page):
             quest_line_header = self._get_entryhead(element_entry)
             quests = self._get_entryitem_by_tag(element_entry, "QuestIds")
 
-            quest_line = {
-                'header': quest_line_header,
-                'quests': quests.split(':')
-            }
-            self._quest_lines.append(quest_line)
-
+            self._quest_lines[quest_line_header] = quests.split(':')
         return self._quest_lines
     
-    def get_quest_line_by_event(self, event):
-        return "ql_" + event
+    def write_json(self):
+        json_data = json.dumps(self._quest_lines, ensure_ascii=False)
+        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
     
-    def get_quests_by_event(self, event):
-        quest_line = self.get_quest_line_by_event(event)
-        print(f"QL: {quest_line}")
-        return self.get_quests_by_quest_line(quest_line)
+    def read_json(self):
+        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+            json_data = file.read()
+        self._quest_lines = json.loads(json_data)
+        return self._quest_lines
+
+    def get_quest_lines(self):
+        return self._quest_lines
     
-    def get_quest_line_by_quest(self, quest):
-        quest_line = self.lines_quests[quest]
-        self.get_quests_by_quest_line(quest_line)
-        return quest_line
+    def get_quests_by_quest_line(self, quest_line):
+        return self._quest_lines[quest_line]
 
     def write_data(self):
-        body = "# HWM QUESTLINES:\n\n"
-        for questline in self.quest_lines:
-            body += f"* {questline}\n"
-
-        body += "\n\n# HWM QUESTS:\n\n"
-        for questline, quests in self.quests_lined.items():
-            body += f"\n## {questline}\n"
-            for quest in sorted(quests):
+        body = "# HWM QUESTLINES:\n"
+        for quest_line, quests in self._quest_lines.items():
+            body += f"\n## {quest_line}\n"
+            for quest in quests:
                 body += f"* {quest}\n"
-        
         utils.rewrite_file(body, self.FILE_NAME)

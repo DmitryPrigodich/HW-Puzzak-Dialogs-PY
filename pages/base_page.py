@@ -23,6 +23,14 @@ class Base_Page:
         entryitem_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM)
         entryitems = entryitem_el.inner_text().strip().lower() if entryitem_el else "Unknown"
         return entryitems
+    
+    def _get_tags(self):
+        tags = []
+        list_elements_entries = self.page.query_selector_all(constants.LOCATOR_TAGS)
+        for entry in list_elements_entries:
+            tags.append(entry.inner_text().strip())
+        return list(set(tags))
+        
 
     def _get_entryitem_by_tag(self, element_entry, tag):
         entryitem_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format(tag))

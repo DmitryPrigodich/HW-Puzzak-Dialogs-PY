@@ -1,10 +1,6 @@
 import utils
 import json
-import logging
-import constants
 from .base_page import Base_Page
-
-logger = logging.getLogger(__name__)
 
 class Event_Data_Page(Base_Page):
     LOCATOR = "#EventData-module"
@@ -36,17 +32,22 @@ class Event_Data_Page(Base_Page):
     def read_json(self):
         with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
-        logger.log(json_data)
         self._events = json.loads(json_data)
-        logger.log(self._events)
         return self._events
 
     def get_events(self):
         return self._events
+    
+    def get_event(self, event):
+        return any(item["header"] == event for item in self._events)
+    
+    def get_tags(self):
+        print(self._get_tags())
+        return self._get_tags()
 
     
     def write_data(self):
         body = "# HWM EVENTS:\n"
         for event in self._events:
-            body += f"* {event['header']} : {event['group']}"
+            body += f"* {event['header']} : {event['group']}\n"
         utils.rewrite_file(body, self.FILE_NAME)

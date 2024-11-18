@@ -1,322 +1,252 @@
-# HWM EVENT GROUPS:
-* event_7days_2023_08
-* event_SAE_testing_lootDrop_D_1
-* event_SAE_testing_lootDrop_D_2
-* event_SAE_testing_miningPurity_F_1
-* event_SAE_testing_miningPurity_F_2
-* event_anniversary_2023
-* event_halloween_2023
-* event_monthlyEvent_2024_03_01
-* event_nimbusTreasures_2024
-* event_season_iyaFal_2023
-* event_tanochWinter_2023
-* event_we_headHunt_2023_08_18
-* event_we_headHunt_2023_09_15
-* event_we_headHunt_2023_10_13
-* event_we_headHunt_2023_11_24
-* event_we_headHunt_2023_12_22
-* event_we_headHunt_2024_01_26
-* event_we_headHunt_2024_02_23
-* event_we_headHunt_2024_03_29
-* event_we_headHunt_2024_04_26
-* event_we_headHunt_2024_05_24
-* event_yaotSpring_2024
-
-
 # HWM EVENTS:
-### No-Group
-* debug_event_miningpurity
-* event_001
-* event_christmas_adamantofficerpacks_2023
-* event_hw3_ads
-* event_levelupcompensationquests
-* event_liaison_rep_150perc_2023_01_20
-* event_liaison_rep_150perc_2023_05_05
-* event_liaison_rep_ama_150perc_2023_02_17
-* event_liason_rep_150perc
-* event_liason_rep_150perc_2022_12_03
-* event_liason_rep_150perc_2022_12_30
-* event_loot_drops_150perc
-* event_loot_drops_150perc_2022_12_23
-* event_loot_drops_150perc_2023_01_27
-* event_loot_drops_pro_150perc_2023_02_10
-* event_mining_purity_150perc
-* event_mining_purity_150perc_2022_12_16
-* event_mining_purity_150perc_2023_01_13
-* event_mining_purity_150perc_2023_02_03
-* event_mining_purity_150perc_2023_02_24
-* event_player_xp_global_150perc
-* event_player_xp_global_150perc_2022_12_09
-* event_player_xp_global_150perc_2023_01_06
-* event_player_xp_global_150perc_2023_03_03
-* event_quest_tab_overall_timer
-* event_quest_tab_timer_anniversary
-* event_quest_tab_timer_halloween
-* event_quest_tab_timer_iyafal_2023
-* event_quest_tab_timer_nimbustreasures_2024
-* event_quest_tab_timer_tanochwinter_2023
-* event_quest_tab_timer_yaotspring_2024
-* event_questtab_monthlyevent_2024_03_01
-* event_repeat_liaison_rep_ama_150perc_thu
-* event_repeat_liaison_rep_iya_150perc_mon
-* event_repeat_liaison_rep_tan_150perc_tue
-* event_repeat_liaison_rep_yao_150perc_wed
-* event_repeat_mining_t1_tr1_weekend
-* event_repeat_mining_t1_tr2_weekend
-* event_repeat_mining_t1_tr3_weekend
-* event_repeat_mining_t2_tan_weekend
-* event_repeat_mining_t3_tan_weekend
-* event_repeat_mining_t3_yao_weekend
-* event_repeat_mining_t4_ama_weekend
-* event_sae_testing_loot_a_1
-* event_sae_testing_loot_a_2
-* event_sae_testing_loot_b_11
-* event_sae_testing_loot_b_12
-* event_sae_testing_loot_b_21
-* event_sae_testing_loot_b_22
-* event_sae_testing_lootdrop_a_1
-* event_sae_testing_lootdrop_a_2
-* event_sae_testing_lootdrop_a_3
-* event_sae_testing_lootdrop_a_4
-* event_sae_testing_lootdrop_b_11
-* event_sae_testing_lootdrop_b_12
-* event_sae_testing_lootdrop_b_13
-* event_sae_testing_lootdrop_b_14
-* event_sae_testing_lootdrop_b_21
-* event_sae_testing_lootdrop_b_22
-* event_sae_testing_lootdrop_b_23
-* event_sae_testing_lootdrop_b_24
-* event_sae_testing_lootdrop_parameters_d_11
-* event_sae_testing_lootdrop_parameters_d_12
-* event_sae_testing_lootdrop_parameters_d_21
-* event_sae_testing_lootdrop_parameters_d_22
-* event_sae_testing_miningpurity_a_1
-* event_sae_testing_miningpurity_a_2
-* event_sae_testing_miningpurity_b_11
-* event_sae_testing_miningpurity_b_12
-* event_sae_testing_miningpurity_b_21
-* event_sae_testing_miningpurity_b_22
-* event_sae_testing_miningpurity_dates_d_11
-* event_sae_testing_miningpurity_dates_d_12
-* event_sae_testing_miningpurity_dates_d_21
-* event_sae_testing_miningpurity_dates_d_22
-* event_sae_testing_miningpurity_missions_d_11
-* event_sae_testing_miningpurity_missions_d_12
-* event_sae_testing_miningpurity_missions_d_21
-* event_sae_testing_miningpurity_missions_d_22
-* event_sae_testing_miningpurity_questcon_d_11
-* event_sae_testing_miningpurity_questcon_d_12
-* event_sae_testing_miningpurity_questcon_d_21
-* event_sae_testing_miningpurity_questcon_d_22
-* event_sae_testing_miningpurity_visuals_d_11
-* event_sae_testing_miningpurity_visuals_d_12
-* event_sae_testing_miningpurity_visuals_d_21
-* event_sae_testing_miningpurity_visuals_d_22
-* event_sae_testing_xp_a_1
-* event_sae_testing_xp_a_2
-* event_sae_testing_xp_b_11
-* event_sae_testing_xp_b_12
-* event_sae_testing_xp_b_21
-* event_sae_testing_xp_b_22
-* event_season_amasum_2023_t1
-* event_season_amasum_2023_t2
-* event_season_amasum_2023_t3
-* event_season_amasum_2023_t4
-* event_season_yaospr_2023
-* event_shoptesting_2024_01
-* event_we_blackfriday_2023_11_24
-* event_we_epicbelts_2023_12_29
-* event_we_headhunt_group_2023_12_22
-* event_we_headhunt_group_2024_01_26
-* event_we_headhunt_group_2024_02_23
-* event_we_headhunt_group_2024_03_29
-* event_we_headhunt_group_2024_04_26
-* event_we_headhunt_group_2024_05_24
-* event_we_liaison_rep_iya_150perc_2023_04_07
-* event_we_liaison_rep_tan_150perc_2023_03_17
-* event_we_loot_drops_150perc_2023_03_10
-* event_we_loot_drops_150perc_2023_04_14
-* event_we_loot_drops_150perc_2023_05_12
-* event_we_loot_drops_150perc_2023_06_02
-* event_we_loot_drops_150perc_2023_06_23
-* event_we_loot_drops_150perc_2023_07_14
-* event_we_loot_drops_150perc_2023_08_04
-* event_we_loot_drops_150perc_2023_09_01
-* event_we_loot_drops_150perc_2023_09_29
-* event_we_loot_drops_150perc_2023_10_27
-* event_we_loot_drops_150perc_2023_11_17
-* event_we_loot_drops_150perc_2023_12_08
-* event_we_loot_drops_150perc_2024_01_12
-* event_we_loot_drops_150perc_2024_02_09
-* event_we_loot_drops_150perc_2024_03_08
-* event_we_loot_drops_150perc_2024_04_05
-* event_we_loot_drops_150perc_2024_05_03
-* event_we_loot_drops_150perc_2024_05_31
-* event_we_mining_purity_150perc_2023_03_24
-* event_we_mining_purity_150perc_2023_04_21
-* event_we_mining_purity_150perc_2023_05_26
-* event_we_mining_purity_150perc_2023_06_16
-* event_we_mining_purity_150perc_2023_07_07
-* event_we_mining_purity_150perc_2023_07_28
-* event_we_mining_purity_150perc_2023_08_25
-* event_we_mining_purity_150perc_2023_09_22
-* event_we_mining_purity_150perc_2023_10_20
-* event_we_mining_purity_150perc_2023_11_10
-* event_we_mining_purity_150perc_2023_12_15
-* event_we_mining_purity_150perc_2024_01_19
-* event_we_mining_purity_150perc_2024_02_16
-* event_we_mining_purity_150perc_2024_03_15
-* event_we_mining_purity_150perc_2024_04_12
-* event_we_mining_purity_150perc_2024_05_10
-* event_we_playerxp_global_150perc_2023_03_31
-* event_we_playerxp_global_150perc_2023_04_28
-* event_we_playerxp_global_150perc_2023_05_19
-* event_we_playerxp_global_150perc_2023_06_09
-* event_we_playerxp_global_150perc_2023_06_30
-* event_we_playerxp_global_150perc_2023_07_21
-* event_we_playerxp_global_150perc_2023_08_11
-* event_we_playerxp_global_150perc_2023_09_08
-* event_we_playerxp_global_150perc_2023_10_06
-* event_we_playerxp_global_150perc_2023_11_03
-* event_we_playerxp_global_150perc_2023_12_01
-* event_we_playerxp_global_150perc_2024_01_05
-* event_we_playerxp_global_150perc_2024_02_02
-* event_we_playerxp_global_150perc_2024_02_23
-* event_we_playerxp_global_150perc_2024_03_22
-* event_we_playerxp_global_150perc_2024_04_19
-* event_we_playerxp_global_150perc_2024_05_17
-* shopevent_100bonussale_2024_04_26
-* shopevent_generic_active
-* shopevent_generic_inactive
-
-### event_7days_2023_08
-* event_7days_2023_08_21_t1
-* event_7days_2023_08_21_t2
-* event_7days_2023_08_21_t3
-* event_7days_2023_08_21_t4
-
-### event_SAE_testing_lootDrop_D_1
-* event_sae_testing_lootdrop_d_11
-* event_sae_testing_lootdrop_d_12
-* event_sae_testing_lootdrop_d_13
-* event_sae_testing_lootdrop_d_14
-
-### event_SAE_testing_lootDrop_D_2
-* event_sae_testing_lootdrop_d_21
-* event_sae_testing_lootdrop_d_22
-* event_sae_testing_lootdrop_d_23
-* event_sae_testing_lootdrop_d_24
-
-### event_SAE_testing_miningPurity_F_1
-* event_sae_testing_miningpurity_f_11
-* event_sae_testing_miningpurity_f_12
-* event_sae_testing_miningpurity_f_13
-* event_sae_testing_miningpurity_f_14
-
-### event_SAE_testing_miningPurity_F_2
-* event_sae_testing_miningpurity_f_21
-* event_sae_testing_miningpurity_f_22
-* event_sae_testing_miningpurity_f_23
-* event_sae_testing_miningpurity_f_24
-
-### event_anniversary_2023
-* event_anniversary_2023_t1
-* event_anniversary_2023_t2
-* event_anniversary_2023_t3
-* event_anniversary_2023_t4
-
-### event_halloween_2023
-* event_halloween_2023_t1
-* event_halloween_2023_t2
-* event_halloween_2023_t3
-* event_halloween_2023_t4
-
-### event_monthlyEvent_2024_03_01
-* event_monthlyevent_2024_03_01_t1
-* event_monthlyevent_2024_03_01_t2
-* event_monthlyevent_2024_03_01_t3
-* event_monthlyevent_2024_03_01_t4
-
-### event_nimbusTreasures_2024
-* event_nimbustreasures_2024_t1
-* event_nimbustreasures_2024_t2
-* event_nimbustreasures_2024_t3
-* event_nimbustreasures_2024_t4
-
-### event_season_iyaFal_2023
-* event_season_iyafal_2023_t1
-* event_season_iyafal_2023_t2
-* event_season_iyafal_2023_t3
-* event_season_iyafal_2023_t4
-
-### event_tanochWinter_2023
-* event_tanochwinter_2023_t1
-* event_tanochwinter_2023_t2
-* event_tanochwinter_2023_t3
-* event_tanochwinter_2023_t4
-
-### event_we_headHunt_2023_08_18
-* event_we_headhunt_t1_2023_08_18
-* event_we_headhunt_t2_2023_08_18
-* event_we_headhunt_t3_2023_08_18
-* event_we_headhunt_t4_2023_08_18
-
-### event_we_headHunt_2023_09_15
-* event_we_headhunt_t1_2023_09_15
-* event_we_headhunt_t2_2023_09_15
-* event_we_headhunt_t3_2023_09_15
-* event_we_headhunt_t4_2023_09_15
-
-### event_we_headHunt_2023_10_13
-* event_we_headhunt_t1_2023_10_13
-* event_we_headhunt_t2_2023_10_13
-* event_we_headhunt_t3_2023_10_13
-* event_we_headhunt_t4_2023_10_13
-
-### event_we_headHunt_2023_11_24
-* event_we_headhunt_t1_2023_11_24
-* event_we_headhunt_t2_2023_11_24
-* event_we_headhunt_t3_2023_11_24
-* event_we_headhunt_t4_2023_11_24
-
-### event_we_headHunt_2023_12_22
-* event_we_headhunt_t1_2023_12_22
-* event_we_headhunt_t2_2023_12_22
-* event_we_headhunt_t3_2023_12_22
-* event_we_headhunt_t4_2023_12_22
-
-### event_we_headHunt_2024_01_26
-* event_we_headhunt_t1_2024_01_26
-* event_we_headhunt_t2_2024_01_26
-* event_we_headhunt_t3_2024_01_26
-* event_we_headhunt_t4_2024_01_26
-
-### event_we_headHunt_2024_02_23
-* event_we_headhunt_t1_2024_02_23
-* event_we_headhunt_t2_2024_02_23
-* event_we_headhunt_t3_2024_02_23
-* event_we_headhunt_t4_2024_02_23
-
-### event_we_headHunt_2024_03_29
-* event_we_headhunt_t1_2024_03_29
-* event_we_headhunt_t2_2024_03_29
-* event_we_headhunt_t3_2024_03_29
-* event_we_headhunt_t4_2024_03_29
-
-### event_we_headHunt_2024_04_26
-* event_we_headhunt_t1_2024_04_26
-* event_we_headhunt_t2_2024_04_26
-* event_we_headhunt_t3_2024_04_26
-* event_we_headhunt_t4_2024_04_26
-
-### event_we_headHunt_2024_05_24
-* event_we_headhunt_t1_2024_05_24
-* event_we_headhunt_t2_2024_05_24
-* event_we_headhunt_t3_2024_05_24
-* event_we_headhunt_t4_2024_05_24
-
-### event_yaotSpring_2024
-* event_yaotspring_2024_t1
-* event_yaotspring_2024_t2
-* event_yaotspring_2024_t3
-* event_yaotspring_2024_t4
+* event_quest_tab_overall_timer : Unknown
+* event_001 : Unknown
+* debug_event_miningpurity : Unknown
+* event_liason_rep_150perc : Unknown
+* event_player_xp_global_150perc : Unknown
+* event_mining_purity_150perc : Unknown
+* event_loot_drops_150perc : Unknown
+* event_liason_rep_150perc_2022_12_03 : Unknown
+* event_player_xp_global_150perc_2022_12_09 : Unknown
+* event_mining_purity_150perc_2022_12_16 : Unknown
+* event_loot_drops_150perc_2022_12_23 : Unknown
+* event_liason_rep_150perc_2022_12_30 : Unknown
+* event_player_xp_global_150perc_2023_01_06 : Unknown
+* event_mining_purity_150perc_2023_01_13 : Unknown
+* event_liaison_rep_150perc_2023_01_20 : Unknown
+* event_loot_drops_150perc_2023_01_27 : Unknown
+* event_mining_purity_150perc_2023_02_03 : Unknown
+* event_loot_drops_pro_150perc_2023_02_10 : Unknown
+* event_liaison_rep_ama_150perc_2023_02_17 : Unknown
+* event_mining_purity_150perc_2023_02_24 : Unknown
+* event_player_xp_global_150perc_2023_03_03 : Unknown
+* event_we_loot_drops_150perc_2023_03_10 : Unknown
+* event_we_liaison_rep_tan_150perc_2023_03_17 : Unknown
+* event_we_mining_purity_150perc_2023_03_24 : Unknown
+* event_we_playerxp_global_150perc_2023_03_31 : Unknown
+* event_we_liaison_rep_iya_150perc_2023_04_07 : Unknown
+* event_we_loot_drops_150perc_2023_04_14 : Unknown
+* event_we_mining_purity_150perc_2023_04_21 : Unknown
+* event_we_playerxp_global_150perc_2023_04_28 : Unknown
+* event_liaison_rep_150perc_2023_05_05 : Unknown
+* event_we_loot_drops_150perc_2023_05_12 : Unknown
+* event_we_playerxp_global_150perc_2023_05_19 : Unknown
+* event_we_mining_purity_150perc_2023_05_26 : Unknown
+* event_we_loot_drops_150perc_2023_06_02 : Unknown
+* event_we_playerxp_global_150perc_2023_06_09 : Unknown
+* event_we_mining_purity_150perc_2023_06_16 : Unknown
+* event_we_loot_drops_150perc_2023_06_23 : Unknown
+* event_we_playerxp_global_150perc_2023_06_30 : Unknown
+* event_we_mining_purity_150perc_2023_07_07 : Unknown
+* event_we_loot_drops_150perc_2023_07_14 : Unknown
+* event_we_playerxp_global_150perc_2023_07_21 : Unknown
+* event_we_mining_purity_150perc_2023_07_28 : Unknown
+* event_we_loot_drops_150perc_2023_08_04 : Unknown
+* event_we_playerxp_global_150perc_2023_08_11 : Unknown
+* event_we_headhunt_t1_2023_08_18 : event_we_headHunt_2023_08_18
+* event_we_headhunt_t2_2023_08_18 : event_we_headHunt_2023_08_18
+* event_we_headhunt_t3_2023_08_18 : event_we_headHunt_2023_08_18
+* event_we_headhunt_t4_2023_08_18 : event_we_headHunt_2023_08_18
+* event_we_mining_purity_150perc_2023_08_25 : Unknown
+* event_we_loot_drops_150perc_2023_09_01 : Unknown
+* event_we_playerxp_global_150perc_2023_09_08 : Unknown
+* event_we_headhunt_t1_2023_09_15 : event_we_headHunt_2023_09_15
+* event_we_headhunt_t2_2023_09_15 : event_we_headHunt_2023_09_15
+* event_we_headhunt_t3_2023_09_15 : event_we_headHunt_2023_09_15
+* event_we_headhunt_t4_2023_09_15 : event_we_headHunt_2023_09_15
+* event_we_mining_purity_150perc_2023_09_22 : Unknown
+* event_we_loot_drops_150perc_2023_09_29 : Unknown
+* event_we_playerxp_global_150perc_2023_10_06 : Unknown
+* event_we_headhunt_t1_2023_10_13 : event_we_headHunt_2023_10_13
+* event_we_headhunt_t2_2023_10_13 : event_we_headHunt_2023_10_13
+* event_we_headhunt_t3_2023_10_13 : event_we_headHunt_2023_10_13
+* event_we_headhunt_t4_2023_10_13 : event_we_headHunt_2023_10_13
+* event_we_mining_purity_150perc_2023_10_20 : Unknown
+* event_we_loot_drops_150perc_2023_10_27 : Unknown
+* event_we_playerxp_global_150perc_2023_11_03 : Unknown
+* event_we_mining_purity_150perc_2023_11_10 : Unknown
+* event_we_loot_drops_150perc_2023_11_17 : Unknown
+* event_we_headhunt_t1_2023_11_24 : event_we_headHunt_2023_11_24
+* event_we_headhunt_t2_2023_11_24 : event_we_headHunt_2023_11_24
+* event_we_headhunt_t3_2023_11_24 : event_we_headHunt_2023_11_24
+* event_we_headhunt_t4_2023_11_24 : event_we_headHunt_2023_11_24
+* event_we_blackfriday_2023_11_24 : Unknown
+* event_we_playerxp_global_150perc_2023_12_01 : Unknown
+* event_we_loot_drops_150perc_2023_12_08 : Unknown
+* event_we_mining_purity_150perc_2023_12_15 : Unknown
+* event_we_headhunt_t1_2023_12_22 : event_we_headHunt_2023_12_22
+* event_we_headhunt_t2_2023_12_22 : event_we_headHunt_2023_12_22
+* event_we_headhunt_t3_2023_12_22 : event_we_headHunt_2023_12_22
+* event_we_headhunt_t4_2023_12_22 : event_we_headHunt_2023_12_22
+* event_we_headhunt_group_2023_12_22 : Unknown
+* event_we_epicbelts_2023_12_29 : Unknown
+* event_we_playerxp_global_150perc_2024_01_05 : Unknown
+* event_we_loot_drops_150perc_2024_01_12 : Unknown
+* event_we_mining_purity_150perc_2024_01_19 : Unknown
+* event_we_headhunt_t1_2024_01_26 : event_we_headHunt_2024_01_26
+* event_we_headhunt_t2_2024_01_26 : event_we_headHunt_2024_01_26
+* event_we_headhunt_t3_2024_01_26 : event_we_headHunt_2024_01_26
+* event_we_headhunt_t4_2024_01_26 : event_we_headHunt_2024_01_26
+* event_we_headhunt_group_2024_01_26 : Unknown
+* event_we_playerxp_global_150perc_2024_02_02 : Unknown
+* event_we_loot_drops_150perc_2024_02_09 : Unknown
+* event_we_mining_purity_150perc_2024_02_16 : Unknown
+* event_we_playerxp_global_150perc_2024_02_23 : Unknown
+* event_we_headhunt_t1_2024_02_23 : event_we_headHunt_2024_02_23
+* event_we_headhunt_t2_2024_02_23 : event_we_headHunt_2024_02_23
+* event_we_headhunt_t3_2024_02_23 : event_we_headHunt_2024_02_23
+* event_we_headhunt_t4_2024_02_23 : event_we_headHunt_2024_02_23
+* event_we_headhunt_group_2024_02_23 : Unknown
+* event_we_loot_drops_150perc_2024_03_08 : Unknown
+* event_we_mining_purity_150perc_2024_03_15 : Unknown
+* event_we_playerxp_global_150perc_2024_03_22 : Unknown
+* event_we_headhunt_t1_2024_03_29 : event_we_headHunt_2024_03_29
+* event_we_headhunt_t2_2024_03_29 : event_we_headHunt_2024_03_29
+* event_we_headhunt_t3_2024_03_29 : event_we_headHunt_2024_03_29
+* event_we_headhunt_t4_2024_03_29 : event_we_headHunt_2024_03_29
+* event_we_headhunt_group_2024_03_29 : Unknown
+* event_we_loot_drops_150perc_2024_04_05 : Unknown
+* event_we_mining_purity_150perc_2024_04_12 : Unknown
+* event_we_playerxp_global_150perc_2024_04_19 : Unknown
+* event_we_headhunt_t1_2024_04_26 : event_we_headHunt_2024_04_26
+* event_we_headhunt_t2_2024_04_26 : event_we_headHunt_2024_04_26
+* event_we_headhunt_t3_2024_04_26 : event_we_headHunt_2024_04_26
+* event_we_headhunt_t4_2024_04_26 : event_we_headHunt_2024_04_26
+* event_we_headhunt_group_2024_04_26 : Unknown
+* event_we_loot_drops_150perc_2024_05_03 : Unknown
+* event_we_mining_purity_150perc_2024_05_10 : Unknown
+* event_we_playerxp_global_150perc_2024_05_17 : Unknown
+* event_we_headhunt_t1_2024_05_24 : event_we_headHunt_2024_05_24
+* event_we_headhunt_t2_2024_05_24 : event_we_headHunt_2024_05_24
+* event_we_headhunt_t3_2024_05_24 : event_we_headHunt_2024_05_24
+* event_we_headhunt_t4_2024_05_24 : event_we_headHunt_2024_05_24
+* event_we_headhunt_group_2024_05_24 : Unknown
+* event_we_loot_drops_150perc_2024_05_31 : Unknown
+* event_repeat_liaison_rep_iya_150perc_mon : Unknown
+* event_repeat_liaison_rep_tan_150perc_tue : Unknown
+* event_repeat_liaison_rep_yao_150perc_wed : Unknown
+* event_repeat_liaison_rep_ama_150perc_thu : Unknown
+* event_repeat_mining_t1_tr1_weekend : Unknown
+* event_repeat_mining_t1_tr2_weekend : Unknown
+* event_repeat_mining_t1_tr3_weekend : Unknown
+* event_repeat_mining_t2_tan_weekend : Unknown
+* event_repeat_mining_t3_tan_weekend : Unknown
+* event_repeat_mining_t3_yao_weekend : Unknown
+* event_repeat_mining_t4_ama_weekend : Unknown
+* event_season_yaospr_2023 : Unknown
+* event_season_amasum_2023_t1 : Unknown
+* event_season_amasum_2023_t2 : Unknown
+* event_season_amasum_2023_t3 : Unknown
+* event_season_amasum_2023_t4 : Unknown
+* event_quest_tab_timer_iyafal_2023 : Unknown
+* event_season_iyafal_2023_t1 : event_season_iyaFal_2023
+* event_season_iyafal_2023_t2 : event_season_iyaFal_2023
+* event_season_iyafal_2023_t3 : event_season_iyaFal_2023
+* event_season_iyafal_2023_t4 : event_season_iyaFal_2023
+* event_quest_tab_timer_tanochwinter_2023 : Unknown
+* event_tanochwinter_2023_t1 : event_tanochWinter_2023
+* event_tanochwinter_2023_t2 : event_tanochWinter_2023
+* event_tanochwinter_2023_t3 : event_tanochWinter_2023
+* event_tanochwinter_2023_t4 : event_tanochWinter_2023
+* event_christmas_adamantofficerpacks_2023 : Unknown
+* event_quest_tab_timer_yaotspring_2024 : Unknown
+* event_yaotspring_2024_t1 : event_yaotSpring_2024
+* event_yaotspring_2024_t2 : event_yaotSpring_2024
+* event_yaotspring_2024_t3 : event_yaotSpring_2024
+* event_yaotspring_2024_t4 : event_yaotSpring_2024
+* event_quest_tab_timer_anniversary : Unknown
+* event_anniversary_2023_t1 : event_anniversary_2023
+* event_anniversary_2023_t2 : event_anniversary_2023
+* event_anniversary_2023_t3 : event_anniversary_2023
+* event_anniversary_2023_t4 : event_anniversary_2023
+* event_quest_tab_timer_halloween : Unknown
+* event_halloween_2023_t1 : event_halloween_2023
+* event_halloween_2023_t2 : event_halloween_2023
+* event_halloween_2023_t3 : event_halloween_2023
+* event_halloween_2023_t4 : event_halloween_2023
+* event_quest_tab_timer_nimbustreasures_2024 : Unknown
+* event_nimbustreasures_2024_t1 : event_nimbusTreasures_2024
+* event_nimbustreasures_2024_t2 : event_nimbusTreasures_2024
+* event_nimbustreasures_2024_t3 : event_nimbusTreasures_2024
+* event_nimbustreasures_2024_t4 : event_nimbusTreasures_2024
+* event_7days_2023_08_21_t1 : event_7days_2023_08
+* event_7days_2023_08_21_t2 : event_7days_2023_08
+* event_7days_2023_08_21_t3 : event_7days_2023_08
+* event_7days_2023_08_21_t4 : event_7days_2023_08
+* event_questtab_monthlyevent_2024_03_01 : Unknown
+* event_monthlyevent_2024_03_01_t1 : event_monthlyEvent_2024_03_01
+* event_monthlyevent_2024_03_01_t2 : event_monthlyEvent_2024_03_01
+* event_monthlyevent_2024_03_01_t3 : event_monthlyEvent_2024_03_01
+* event_monthlyevent_2024_03_01_t4 : event_monthlyEvent_2024_03_01
+* event_levelupcompensationquests : Unknown
+* event_hw3_ads : Unknown
+* shopevent_generic_active : Unknown
+* shopevent_generic_inactive : Unknown
+* shopevent_100bonussale_2024_04_26 : Unknown
+* event_shoptesting_2024_01 : Unknown
+* event_sae_testing_xp_a_1 : Unknown
+* event_sae_testing_xp_a_2 : Unknown
+* event_sae_testing_loot_a_1 : Unknown
+* event_sae_testing_loot_a_2 : Unknown
+* event_sae_testing_miningpurity_a_1 : Unknown
+* event_sae_testing_miningpurity_a_2 : Unknown
+* event_sae_testing_lootdrop_a_1 : Unknown
+* event_sae_testing_lootdrop_a_2 : Unknown
+* event_sae_testing_lootdrop_a_3 : Unknown
+* event_sae_testing_lootdrop_a_4 : Unknown
+* event_sae_testing_xp_b_11 : Unknown
+* event_sae_testing_xp_b_12 : Unknown
+* event_sae_testing_xp_b_21 : Unknown
+* event_sae_testing_xp_b_22 : Unknown
+* event_sae_testing_loot_b_11 : Unknown
+* event_sae_testing_loot_b_12 : Unknown
+* event_sae_testing_loot_b_21 : Unknown
+* event_sae_testing_loot_b_22 : Unknown
+* event_sae_testing_miningpurity_b_11 : Unknown
+* event_sae_testing_miningpurity_b_12 : Unknown
+* event_sae_testing_miningpurity_b_21 : Unknown
+* event_sae_testing_miningpurity_b_22 : Unknown
+* event_sae_testing_lootdrop_b_11 : Unknown
+* event_sae_testing_lootdrop_b_12 : Unknown
+* event_sae_testing_lootdrop_b_13 : Unknown
+* event_sae_testing_lootdrop_b_14 : Unknown
+* event_sae_testing_lootdrop_b_21 : Unknown
+* event_sae_testing_lootdrop_b_22 : Unknown
+* event_sae_testing_lootdrop_b_23 : Unknown
+* event_sae_testing_lootdrop_b_24 : Unknown
+* event_sae_testing_miningpurity_visuals_d_11 : Unknown
+* event_sae_testing_miningpurity_visuals_d_12 : Unknown
+* event_sae_testing_miningpurity_visuals_d_21 : Unknown
+* event_sae_testing_miningpurity_visuals_d_22 : Unknown
+* event_sae_testing_miningpurity_dates_d_11 : Unknown
+* event_sae_testing_miningpurity_dates_d_12 : Unknown
+* event_sae_testing_miningpurity_dates_d_21 : Unknown
+* event_sae_testing_miningpurity_dates_d_22 : Unknown
+* event_sae_testing_lootdrop_parameters_d_11 : Unknown
+* event_sae_testing_lootdrop_parameters_d_12 : Unknown
+* event_sae_testing_lootdrop_parameters_d_21 : Unknown
+* event_sae_testing_lootdrop_parameters_d_22 : Unknown
+* event_sae_testing_miningpurity_questcon_d_11 : Unknown
+* event_sae_testing_miningpurity_questcon_d_12 : Unknown
+* event_sae_testing_miningpurity_questcon_d_21 : Unknown
+* event_sae_testing_miningpurity_questcon_d_22 : Unknown
+* event_sae_testing_miningpurity_missions_d_11 : Unknown
+* event_sae_testing_miningpurity_missions_d_12 : Unknown
+* event_sae_testing_miningpurity_missions_d_21 : Unknown
+* event_sae_testing_miningpurity_missions_d_22 : Unknown
+* event_sae_testing_miningpurity_f_11 : event_SAE_testing_miningPurity_F_1
+* event_sae_testing_miningpurity_f_12 : event_SAE_testing_miningPurity_F_1
+* event_sae_testing_miningpurity_f_13 : event_SAE_testing_miningPurity_F_1
+* event_sae_testing_miningpurity_f_14 : event_SAE_testing_miningPurity_F_1
+* event_sae_testing_miningpurity_f_21 : event_SAE_testing_miningPurity_F_2
+* event_sae_testing_miningpurity_f_22 : event_SAE_testing_miningPurity_F_2
+* event_sae_testing_miningpurity_f_23 : event_SAE_testing_miningPurity_F_2
+* event_sae_testing_miningpurity_f_24 : event_SAE_testing_miningPurity_F_2
+* event_sae_testing_lootdrop_d_11 : event_SAE_testing_lootDrop_D_1
+* event_sae_testing_lootdrop_d_12 : event_SAE_testing_lootDrop_D_1
+* event_sae_testing_lootdrop_d_13 : event_SAE_testing_lootDrop_D_1
+* event_sae_testing_lootdrop_d_14 : event_SAE_testing_lootDrop_D_1
+* event_sae_testing_lootdrop_d_21 : event_SAE_testing_lootDrop_D_2
+* event_sae_testing_lootdrop_d_22 : event_SAE_testing_lootDrop_D_2
+* event_sae_testing_lootdrop_d_23 : event_SAE_testing_lootDrop_D_2
+* event_sae_testing_lootdrop_d_24 : event_SAE_testing_lootDrop_D_2

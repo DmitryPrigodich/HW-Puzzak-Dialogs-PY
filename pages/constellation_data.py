@@ -1,10 +1,7 @@
 import utils
 import json
-import logging
 import constants
 from .base_page import Base_Page
-
-logger = logging.getLogger(__name__)
 
 class Constellation_Data_Page(Base_Page):
     LOCATOR = "#ConstellationData-module"
@@ -65,9 +62,7 @@ class Constellation_Data_Page(Base_Page):
     def read_json(self):
         with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
-        logger.log(json_data)
         self._star_systems = json.loads(json_data)
-        logger.log(self._star_systems)
         return self._star_systems
     
 

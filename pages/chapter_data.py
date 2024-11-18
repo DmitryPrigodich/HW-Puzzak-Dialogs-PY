@@ -1,9 +1,6 @@
 import utils
 import json
-import logging
 from .base_page import Base_Page
-
-logger = logging.getLogger(__name__)
 
 class Chapter_Data_Page(Base_Page):
     LOCATOR = "#ChapterData-module"
@@ -22,7 +19,7 @@ class Chapter_Data_Page(Base_Page):
             order = self._get_entryitem_by_tag(element_entry, "Order")
 
             chapter = {
-                'name': chapter_head,
+                'header': chapter_head,
                 'order': order,
                 'quest_lines': quest_lines.split("\n")
             }
@@ -37,19 +34,20 @@ class Chapter_Data_Page(Base_Page):
     def read_json(self):
         with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
-        logger.log(json_data)
         self._chapters = json.loads(json_data)
-        logger.log(self._chapters)
         return self._chapters
     
     def get_chapters(self):
         return self._chapters
+    
+    def get_chapter(self, chapter):
+        return any(item["header"] == chapter for item in self._chapters)
 
 
     def write_data(self):
         body = "# HWM CHAPTERS:\n"
         for chapter in self._chapters:
-            body += f"### {chapter['order']}. {chapter['name']}\n"
+            body += f"### {chapter['order']}. {chapter['header']}\n"
             n = 0
             for quest_line in chapter['quest_lines']:
                 n += 1
