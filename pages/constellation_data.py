@@ -8,15 +8,14 @@ class Constellation_Data_Page(Base_Page):
     FILE_NAME = "data/STARMAP.md"
     FILE_NAME_JSON = "json/starmap.json"
     
-    _star_systems = []
     _star_system_by_coordinates = {}
-    _star_systems_by_faction = {}
     
     def __init__(self, page):
         super().__init__(page, self.LOCATOR)
     
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Constellation Data"):
+            #get faction
             faction_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("Name"))
             if faction_el:
                 faction = faction_el.inner_text().strip()
@@ -25,9 +24,7 @@ class Constellation_Data_Page(Base_Page):
             
             faction = self._get_corrected_faction_name(faction)
 
-            if faction not in self._star_systems_by_faction:
-                self._star_systems_by_faction[faction] = []
-
+            #get system
             systems_coornames_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("CustomOverrides"))
             if systems_coornames_el:
                 systems_coornames = systems_coornames_el.inner_text().strip().replace("name_","")
@@ -39,9 +36,7 @@ class Constellation_Data_Page(Base_Page):
                             'coordinates': coordinates,
                             'faction': faction
                         }
-                        self._star_systems.append(star_system)
                         self._star_system_by_coordinates[coordinates] = star_system
-                        self._star_systems_by_faction[faction].append(star_system)
             else:
                 systems_coordinates = self._get_entryitem_by_tag(element_entry, "VoidSystems")
                 for coordinates in systems_coordinates.split(":"):
@@ -50,53 +45,33 @@ class Constellation_Data_Page(Base_Page):
                         'coordinates': coordinates,
                         'faction': faction
                     }
-                    self._star_systems.append(star_system)
                     self._star_system_by_coordinates[coordinates] = star_system
-                    self._star_systems_by_faction[faction].append(star_system)
 
     
     def write_json(self):
-        json_data = json.dumps(self._star_systems, ensure_ascii=False)
+        json_data = json.dumps(self._star_system_by_coordinates, ensure_ascii=False)
         utils.rewrite_file(json_data, self.FILE_NAME_JSON)
     
     def read_json(self):
         with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
-        self._star_systems = json.loads(json_data)
-        return self._star_systems
+        self._star_system_by_coordinates = json.loads(json_data)
+        return self._star_system_by_coordinates
     
-
-    def get_star_systems(self):
-        return self._star_systems
-
     def get_star_system_by_coordinates(self, coordinates):
         system = self._star_system_by_coordinates.get(coordinates)
         if system:
             print(f"{system['faction']}: {system['name']} System")
         else:
-            print("Somewhere in Nimbus Galaxy")
+            print("Location Unknown")
         return system
     
-    def get_star_systems_by_faction(self, faction):
-        systems = self._star_systems_by_faction.get(faction)
-        if systems:
-            print(f"Systems of {faction}:")
-            for system in systems:
-                print(f"{system['name']}")
-        else:
-            print(f"Faction {faction} has no systems in Nimbus Galaxy")
-        return systems
-    
-
     def write_data(self):
         body = "# NIMBUS KNOWN STAR SYSTEMS\n"
-        body += "Systems Finder is working but not all the systems are present in Constellation Data\n"
+        body += "Systems Finder is working but not all the systems are present in Constellation Data\n\n"
 
-        for faction, systems in self._star_systems_by_faction.items():
-            body += f"\n### {faction}\n"
-            for system in systems:
-                body += f"* {system['name']} : {system['coordinates']}\n"
-        
+        for coords, system in self._star_system_by_coordinates.items():
+            body += f"* {system['faction']} : {system['name']} : {system['coordinates']}\n"
         utils.rewrite_file(body, self.FILE_NAME)
 
     def _get_corrected_faction_name(self, faction):

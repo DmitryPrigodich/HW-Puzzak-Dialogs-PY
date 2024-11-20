@@ -38,7 +38,7 @@ class Event_Data_Page(Base_Page):
     def get_events(self):
         return self._events
     
-    def get_event(self, event):
+    def check_event(self, event):
         return any(item["header"] == event for item in self._events)
     
     def get_tags(self):

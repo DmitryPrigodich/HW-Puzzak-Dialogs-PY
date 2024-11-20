@@ -4,11 +4,27 @@ import utils
 from pages.event_data import Event_Data_Page
 from pages.quest_data import Quest_Data_Page
 from pages.string_data import String_Data_Page
-from pages.quest_line_data import Quest_Line_Data_Page
-from pages.constellation_data import Constellation_Data_Page
 from pages.chapter_data import Chapter_Data_Page
+from pages.officer_data import Officer_Data_Page
+from pages.quest_line_data import Quest_Line_Data_Page
 from pages.loading_hint_data import Loading_Hint_Data_Page
+from pages.constellation_data import Constellation_Data_Page
+from pages.dialog_sequence_data import Dialog_Seq_Data_Page
 
+
+def _test_constellation_data(page):
+    start_time = time.time()
+
+    constellation_data = Constellation_Data_Page(page)
+    constellation_data.save_data()
+    constellation_data.write_data()
+    constellation_data.write_json()
+    
+    constellation_data.read_json()
+    assert constellation_data.get_star_system_by_coordinates("[-831, -204]")['name'] == "DANDITA"
+    
+    end_time = time.time()
+    print(f"Constellation Data Test execution time is: {(start_time-end_time):.2f} seconds")
 
 def _test_quest_line_data(page):
     start_time = time.time()
@@ -33,7 +49,7 @@ def _test_event_data(page):
     event_data.write_json()
 
     event_data.read_json()
-    assert event_data.get_event("event_we_headhunt_t1_2023_12_22")
+    assert event_data.check_event("event_we_headhunt_t1_2023_12_22")
     
     end_time = time.time()
     print(f"Event Data Test execution time is: {(start_time-end_time):.2f} seconds")
@@ -99,7 +115,7 @@ def _test_chapter_data(page):
     chapter_data.write_json()
 
     chapter_data.read_json()
-    assert chapter_data.get_chapter("chapter_main_t1_05")
+    assert chapter_data.check_chapter("chapter_main_t1_05")
 
     end_time = time.time()
     print(f"Chapter Data Test execution time is: {(start_time-end_time):.2f} seconds")
@@ -147,15 +163,52 @@ def _test_event_quest_line_data(page):
     end_time = time.time()
     print(f"Event Data Test execution time is: {(start_time-end_time):.2f} seconds")
 
+    #TODO: add quest and quest strings
 
-def _test_constellation_data(page):
+def _test_dialog_sequence_data(page):
     start_time = time.time()
-    constellation_data = Constellation_Data_Page(page)
-    constellation_data.save_data()
-    assert constellation_data.get_star_system_by_coordinates("[-831, -204]")['name'] == "DANDITA"
-    constellation_data.write_data()
+
+    dia_seq_data = Dialog_Seq_Data_Page(page)
+    dia_seq_data.save_data()
+    dia_seq_data.write_data()
+    dia_seq_data.write_json()
+
+    dia_seq_data.read_json()
+    assert dia_seq_data.get_dialog_seq_by_header("e_anniversary2023_Wiracoda_intro")[1]['speaker'] == "RaabSjet"
+
     end_time = time.time()
-    print(f"Constellation Data Test execution time is: {(start_time-end_time):.2f} seconds")
+    print(f"Chapter Data Test execution time is: {(start_time-end_time):.2f} seconds")
+
+    #TODO: add dialogue strings, add speakers
+
+def test_officer_data(page):
+    start_time = time.time()
+
+    officer_data = Officer_Data_Page(page)
+    officer_data.save_data()
+    officer_data.write_data()
+    officer_data.write_json()
+
+    officer_data.read_json()
+    assert officer_data.check_officer("RaabSjet")
+
+    end_time = time.time()
+    print(f"Chapter Data Test execution time is: {(start_time-end_time):.2f} seconds")
+
+
+
+
+def _test_dialog_seq_string_data(page):
+    start_time = time.time()
+
+    dia_seq_data = Dialog_Seq_Data_Page(page)
+    dia_seq_data.read_json()
+    assert dia_seq_data.get_dialog_seq_by_header("e_anniversary2023_Wiracoda_intro")[1]['speaker'] == "RaabSjet"
+
+    end_time = time.time()
+    print(f"Chapter Data Test execution time is: {(start_time-end_time):.2f} seconds")
+
+
 
 
 
@@ -182,19 +235,3 @@ def _test_quest_data(page):
 
     end_time = time.time()
     print(f"Quest Data Test execution time is: {(start_time-end_time):.2f} seconds")
-
-
-
-def _test_string_data_read_from_file(page):
-    start_time = time.time()
-
-    string_data = String_Data_Page(page)
-    string_data.read_data_from_file()
-
-    assert string_data.get_text_by_header("send") == "Donate"
-
-    string_data.save_data_groupped()
-    string_data.record_to_file_groupped()
-
-    end_time = time.time()
-    logger.log(f"String Data search time is: {(start_time-end_time):.2f} seconds")

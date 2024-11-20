@@ -40,7 +40,7 @@ class Chapter_Data_Page(Base_Page):
     def get_chapters(self):
         return self._chapters
     
-    def get_chapter(self, chapter):
+    def check_chapter(self, chapter):
         return any(item["header"] == chapter for item in self._chapters)
 
 

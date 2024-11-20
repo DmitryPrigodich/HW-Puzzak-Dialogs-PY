@@ -16,12 +16,12 @@ class Base_Page:
     
     def _get_entryhead(self, element_entry):
         entryhead_el = element_entry.query_selector(constants.LOCATOR_ENTRYHEAD)
-        entryhead = entryhead_el.inner_text().strip().lower() if entryhead_el else "Unknown"
+        entryhead = entryhead_el.inner_text().strip() if entryhead_el else "Unknown"
         return entryhead
     
     def _get_entryitem(self, element_entry):
         entryitem_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM)
-        entryitems = entryitem_el.inner_text().strip().lower() if entryitem_el else "Unknown"
+        entryitems = entryitem_el.inner_text().strip() if entryitem_el else "Unknown"
         return entryitems
     
     def _get_tags(self):
