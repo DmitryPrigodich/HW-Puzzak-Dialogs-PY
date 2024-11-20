@@ -7,7 +7,6 @@ class Base_Page:
         self.page_url = constants.URL_HWM_DB
         self.page.click(locator)
         assert self.page.wait_for_selector("#entries > div:nth-child(1)")
-        
 
     def _get_list_elements_entries(self, data_text):
         list_elements_entries = self.page.query_selector_all('.entry')

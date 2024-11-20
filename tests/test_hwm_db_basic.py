@@ -181,7 +181,7 @@ def _test_dialog_sequence_data(page):
 
     #TODO: add dialogue strings, add speakers
 
-def test_officer_data(page):
+def _test_officer_data(page):
     start_time = time.time()
 
     officer_data = Officer_Data_Page(page)
@@ -193,7 +193,10 @@ def test_officer_data(page):
     assert officer_data.check_officer("RaabSjet")
 
     end_time = time.time()
-    print(f"Chapter Data Test execution time is: {(start_time-end_time):.2f} seconds")
+    print(f"Officer Data Test execution time is: {(start_time-end_time):.2f} seconds")
+
+
+
 
 
 
@@ -207,10 +210,6 @@ def _test_dialog_seq_string_data(page):
 
     end_time = time.time()
     print(f"Chapter Data Test execution time is: {(start_time-end_time):.2f} seconds")
-
-
-
-
 
 def _test_quest_data(page):
     start_time = time.time()
