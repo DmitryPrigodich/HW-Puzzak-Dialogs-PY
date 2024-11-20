@@ -5,8 +5,8 @@ from .base_page import Base_Page
 
 class Constellation_Data_Page(Base_Page):
     LOCATOR = "#ConstellationData-module"
-    FILE_NAME = "data/STARMAP.md"
-    FILE_NAME_JSON = "json/starmap.json"
+    FILE_NAME = "data/CONSTELLATIONS.md"
+    FILE_NAME_JSON = "json/constellations.json"
     
     _star_system_by_coordinates = {}
     
@@ -83,9 +83,9 @@ class Constellation_Data_Page(Base_Page):
             case "P1 Territories":
                 return "Cangacians"
             case "Tanoch Territories" | "Tanoch Territories T4":
-                return "Tanoch Empire"
+                return "Tanoch"
             case "Yaot Territories" | "yaot_territories_t4":
-                return "Yaot Federation"
+                return "Yaot"
             case "Amassari Territories":
                 return "Amassari"
             case "Clan Territories":

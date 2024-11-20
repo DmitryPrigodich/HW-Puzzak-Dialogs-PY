@@ -26,6 +26,20 @@ def _test_constellation_data(page):
     end_time = time.time()
     print(f"Constellation Data Test execution time is: {(start_time-end_time):.2f} seconds")
 
+def _test_officer_data(page):
+    start_time = time.time()
+
+    officer_data = Officer_Data_Page(page)
+    officer_data.save_data()
+    officer_data.write_data()
+    officer_data.write_json()
+
+    officer_data.read_json()
+    assert officer_data.check_officer("RaabSjet")
+
+    end_time = time.time()
+    print(f"Officer Data Test execution time is: {(start_time-end_time):.2f} seconds")
+
 def _test_quest_line_data(page):
     start_time = time.time()
 
@@ -181,27 +195,7 @@ def _test_dialog_sequence_data(page):
 
     #TODO: add dialogue strings, add speakers
 
-def _test_officer_data(page):
-    start_time = time.time()
-
-    officer_data = Officer_Data_Page(page)
-    officer_data.save_data()
-    officer_data.write_data()
-    officer_data.write_json()
-
-    officer_data.read_json()
-    assert officer_data.check_officer("RaabSjet")
-
-    end_time = time.time()
-    print(f"Officer Data Test execution time is: {(start_time-end_time):.2f} seconds")
-
-
-
-
-
-
-
-def _test_dialog_seq_string_data(page):
+def _test_dialog_sequence_string_data(page):
     start_time = time.time()
 
     dia_seq_data = Dialog_Seq_Data_Page(page)
