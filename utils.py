@@ -20,3 +20,6 @@ def wait_a_bit(page):
 def write_json(data_to_record, file_to_create):
     json_data = json.dumps(data_to_record, ensure_ascii=False)
     rewrite_file(json_data, file_to_create)
+
+def create_lowercase_key_map(d):
+    return {k.lower(): k for k in d}

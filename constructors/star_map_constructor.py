@@ -14,7 +14,7 @@ class Star_Map_Constructor():
     _star_systems = {}
     _all_systems_map = {}
 
-    def get_systems_from_star_system_data(self):
+    def set_star_map(self):
         self._star_systems = self._read_json(self.STAR_SYSTEM_DATA_JSON)
         for coords, system in self._star_systems.items():
             print(system)
@@ -23,8 +23,7 @@ class Star_Map_Constructor():
                 'faction': self._get_corrected_faction_name(system.get('Faction:'))
             }
             self._all_systems_map[coords] = system_data
-    
-    def get_systems_from_constellation_data(self):
+
         self._constellations = self._read_json(self.CONSTELLATION_DATA_JSON)
         for coords, system in self._constellations.items():
             system_data = {
@@ -32,7 +31,6 @@ class Star_Map_Constructor():
                 'faction': self._get_corrected_faction_name(system.get('faction'))
             }
             self._all_systems_map[coords] = system_data
-
 
     def _read_json(self, json_file):
         with open(json_file, 'r', encoding='utf-8') as file:

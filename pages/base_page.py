@@ -5,6 +5,12 @@ class Base_Page:
     def __init__(self, page: Page, locator):
         self.page = page
         self.page_url = constants.URL_HWM_DB
+        
+        self.page.goto(constants.URL_HWM_DB)
+        assert page.title() == "HWM Database"
+        assert page.is_visible("#modules")
+        assert page.is_visible("#entries")
+        
         self.page.click(locator)
         assert self.page.wait_for_selector("#entries > div:nth-child(1)")
 
