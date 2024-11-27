@@ -1,7 +1,9 @@
 import time
+
 from constructors.star_map_constructor import Star_Map_Constructor
 from constructors.dia_seq_constructor import Dialog_Sequence_Constructor
 from constructors.string_constructor import String_Data_Constructor
+from constructors.quest_constructor import Quest_Constructor
 
 def _test_string_data():
     start_time = time.time()
@@ -41,7 +43,7 @@ def _test_dialog_seq():
     end_time = time.time()
     print(f"Dialog Seq Data Rec Test execution time is: {(end_time - start_time):.2f} seconds")
 
-def test_dialog_seq_w_strings():
+def _test_dialog_seq_w_strings():
     start_time = time.time()
 
     dia_seq_data = Dialog_Sequence_Constructor()
@@ -54,9 +56,30 @@ def test_dialog_seq_w_strings():
 
 def _test_get_dialog_seq_by_head():
     start_time = time.time()
-
+    
     dia_seq_data = Dialog_Sequence_Constructor()
-    assert "Crew Member" in dia_seq_data.get_dialog_seq_string_by_header("qm_t0_scientist_Baaekh_A_1_end")
+    dia_seq_data.set_string_data()
+    assert "Baaekh" in dia_seq_data.get_dialog_seq_string_by_header("qm_t0_scientist_Baaekh_A_1_end")
 
     end_time = time.time()
-    print(f"Star Mapper execution time is: {(end_time - start_time):.2f} seconds")
+    print(f"Dialog Seq execution time is: {(end_time - start_time):.2f} seconds")
+
+def _test_quests_write_data():
+    start_time = time.time()
+
+    quests_data = Quest_Constructor()
+    quests_data.set_quest_lines_w_quests()
+    quests_data.write_data()
+
+    end_time = time.time()
+    print(f"Quest Line Test execution time is: {(end_time - start_time):.2f} seconds")
+
+def test_quests_write_data_spc():
+    start_time = time.time()
+
+    quests_data = Quest_Constructor()
+    quests_data.set_quest_lines_w_quests()
+    quests_data.write_data_spc()
+
+    end_time = time.time()
+    print(f"Quest Line execution time is: {(end_time - start_time):.2f} seconds")

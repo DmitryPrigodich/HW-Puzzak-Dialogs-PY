@@ -1,18 +1,10 @@
-import json
+from .constuctor_base import Constructor_Base
 
-class String_Data_Constructor():
-
-    STRING_DATA_JSON = "json_bak/StringData-module.json"
+class String_Data_Constructor(Constructor_Base):
     FILE_NAME = "data/STRINGS.md"
-    _string_data = {}
 
     def __init__(self):
-        self._string_data = self._read_json()
-
-    def _read_json(self):
-        with open(self.STRING_DATA_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        return json.loads(json_data)
+        super().__init__()
     
     def get_string_by_key(self, key):
         return self._string_data.get(key)['en:']
