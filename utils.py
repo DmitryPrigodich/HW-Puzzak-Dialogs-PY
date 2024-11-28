@@ -23,3 +23,6 @@ def write_json(data_to_record, file_to_create):
 
 def create_lowercase_key_map(d):
     return {k.lower(): k for k in d}
+
+def sort_dict_by_keys(my_dict: dict):
+    return dict(sorted(my_dict.items()))

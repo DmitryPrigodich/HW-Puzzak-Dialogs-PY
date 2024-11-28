@@ -10,6 +10,8 @@ class Constructor_Base:
     def __init__(self):
         self._string_data = self._read_json(self.STRING_DATA_JSON)
 
+    def clean_file(self, file_name):
+        utils.rewrite_file("", file_name)
 
     def _read_json(self, json_file):
         with open(json_file, 'r', encoding='utf-8') as file:

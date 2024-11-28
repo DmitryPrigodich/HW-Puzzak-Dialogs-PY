@@ -4,6 +4,9 @@ from constructors.star_map_constructor import Star_Map_Constructor
 from constructors.dia_seq_constructor import Dialog_Sequence_Constructor
 from constructors.string_constructor import String_Data_Constructor
 from constructors.quest_constructor import Quest_Constructor
+from constructors.mission_constructor import Mission_Constructor
+from constructors.mission_step_constructor import Mission_Step_Constructor
+from constructors.mission_step_actions_constructor import Mission_Step_Actions_Constructor
 
 def _test_string_data():
     start_time = time.time()
@@ -74,7 +77,7 @@ def _test_quests_write_data():
     end_time = time.time()
     print(f"Quest Line Test execution time is: {(end_time - start_time):.2f} seconds")
 
-def test_quests_write_data_spc():
+def _test_quests_write_data_spc():
     start_time = time.time()
 
     quests_data = Quest_Constructor()
@@ -82,4 +85,24 @@ def test_quests_write_data_spc():
     quests_data.write_data_spc()
 
     end_time = time.time()
-    print(f"Quest Line execution time is: {(end_time - start_time):.2f} seconds")
+    print(f"Missions execution time is: {(end_time - start_time):.2f} seconds")
+
+def _test_mission_steps():
+    start_time = time.time()
+
+    mission_step_data = Mission_Step_Constructor()
+    mission_step_data.write_data()
+    # mission_step_data.write_data_spc()
+
+    end_time = time.time()
+    print(f"Mission Steps execution time is: {(end_time - start_time):.2f} seconds")
+
+def _test_mission_step_actions():
+    start_time = time.time()
+
+    mission_step_actions_data = Mission_Step_Actions_Constructor()
+    mission_step_actions_data.write_data()
+    # mission_step_data.write_data_spc()
+
+    end_time = time.time()
+    print(f"Mission Steps Actions execution time is: {(end_time - start_time):.2f} seconds")
