@@ -22,7 +22,7 @@ class Mission_Constructor(Constructor_Base):
         super().__init__()
         self._mission_data = self._read_json(self.MISSION_DATA_JSON)
         self._star_system_data = self._read_json(self.STAR_MAP_JSON)
-        self._mission_tags_to_skip = self._set_tags_to_skip()
+        self._set_missions()
    
     def _set_tags_to_skip(self):
         tags_to_skip = []
@@ -45,8 +45,44 @@ class Mission_Constructor(Constructor_Base):
         tags_to_skip += ["T2Npc2Behaviors:","T2Npc2Formations:","T2Npc2PoolIndices:","T2Npc2PoolPositions:","T2Npc2ShowMarkers:","T2Npc2SpawnIndices:","T2Npc2Tags:"]
         return tags_to_skip
 
-    def set_missions(self):
-        return self._missions
+    def _set_missions(self):
+        for m_key, m_tags in self._mission_data.items():
+            if m_key.split("_")[-1] not in ["t2","t3","t4","heroic","mythic","solo"]:
+                m_tags_collector = {}
+
+                # Strings
+                if "MissionMode:" in m_tags:
+                    m_tags_collector["MissionMode:"] = m_tags.get("MissionMode:")
+
+                if "SystemId:" in m_tags:
+                    coordinates = m_tags.get("SystemId:")
+                    m_tags_collector["SystemId:"] = {
+                        "coordinates": coordinates,
+                        "name": self._star_system_data.get(coordinates)['name'],
+                        "faction": self._star_system_data.get(coordinates)['faction']
+                    }
+
+                # Lists
+                for key in ["DialogSequences:", "StartingMissionSteps:"]:
+                    if key in m_tags:
+                        m_tags_collector[key] = sorted(m_tags.get(key).split(":"))
+
+                # Unifying factions
+                factions_final = []
+                for key in ["T0Factions:","T1Factions:","T2Factions:"]:
+                    if key in m_tags:
+                        print(f"key: {m_tags[key]}")
+                        for faction in m_tags[key].split(":"):
+                            if faction != "None":
+                                print(f"Faction: {faction}")
+                                factions_final.append(faction)
+                if factions_final:
+                    factions_final = sorted(list(set(factions_final)))            
+                    m_tags_collector["Factions:"] = factions_final
+                
+                self._missions[m_key] = m_tags_collector
+        
+        self._write_json(self._missions)
     
     def write_data(self):
         tags = {}
@@ -59,7 +95,9 @@ class Mission_Constructor(Constructor_Base):
                     tags[mt_key] = []
                 tags[mt_key].append(mt_value)
                 body += f"\t* {mt_key} {mt_value}\n"
+
         tags = utils.sort_dict_by_keys(tags)
+
         body_tags = "\n# HWM MISSIONS TAGS\n"
         for t_key, t_values in tags.items():
             t_values = sorted(list(set(t_values)))
@@ -68,62 +106,29 @@ class Mission_Constructor(Constructor_Base):
        
         utils.rewrite_file(body_tags, self.FILE_NAME)
         utils.add_to_file(body, self.FILE_NAME)
-        print("Finished writing Mission Data")
 
     def write_data_spc(self):
-        tags = {}
-
         body = "\n# HWM MISSIONS SELECTION\n"
-        for m_key, m_tags in self._mission_data.items():
-            # no rec for mission version by difficulty (heroic, mythic)
-            if 'InstanceId:' in m_tags:
-                continue
-            # no rec for mission version by tier
-            elif m_key.split("_")[-1] in ["t2","t3","t4","solo"]:
-                continue
-            else:
-                body += f"\n## {m_key}\n"
+        for m_key, m_tags in self._missions.items():
+            body += f"\n## {m_key}\n"
 
-                for mt_key, mt_value in m_tags.items():
-                    # no point in empty value
-                    if mt_value != "None":
-                        # some tags are useless for me
-                        if mt_key not in self._mission_tags_to_skip:
-                            # recoding all value in one key for analysis
-                            if mt_key not in tags:
-                                tags[mt_key] = []
-                            tags[mt_key].append(mt_value)
+            for key in ["MissionMode:", "SystemId:"]:
+                if key in m_tags:
+                    body += f"\t* {key} {m_tags[key]}\n"
 
-                            match mt_key:
-                                case "DialogSequences:":
-                                    body += f"\t* {mt_key}\n"
-                                    for dia_seq in mt_value.split(":"):
-                                        body += f"\t\t\t* {dia_seq}\n"
-                                case "SystemId:":
-                                    system_name = self._star_system_data.get(mt_value)['name']
-                                    system_faction = self._star_system_data.get(mt_value)['faction']
-                                    body += f"\t* {mt_key} {mt_value} - {system_faction}'s {system_name}\n"
-                                case _:
-                                    body += f"\t* {mt_key} {mt_value}\n"
-
-        tags = utils.sort_dict_by_keys(tags)
-        body_tags = "\n# HWM MISSIONS TAGS\n"
-        for t_key, t_values in tags.items():
-            body_tags += f"\t* {t_key}:\n"
-            t_values = sorted(list(set(t_values)))
-
-            if t_key in ["DialogSequences:", "InstanceId:", "LayoutId:", "Rewards:", "StartingMissionSteps:"]:
-                for t_value in t_values:
-                    body_tags += f"\t\t* "
-                    if t_key in ["DialogSequences:"]:
-                        for dia_seq in t_value.split(":"):
-                            body_tags += f"\n\t\t\t* {dia_seq}"
+            for key in ["Factions:","DialogSequences:", "StartingMissionSteps:"]:
+                if key in m_tags:
+                    body += f"\t* {key}\n"
+                    # for some reasons it doesn't want to unpack list in a good way
+                    # at least it works, got other things to implement
+                    if isinstance(m_tags[key], list):
+                        for value in m_tags[key]:
+                            body += f"\t\t* {value}\n"
                     else:
-                        body_tags += f"{t_value}".replace("\n","\t\t")
-                    body_tags += "\n"
-            else:
-                body_tags += f"\t\t* {t_values}\n"
-       
-        utils.rewrite_file(body_tags, self.FILE_NAME_TMP)
-        utils.add_to_file(body, self.FILE_NAME_TMP)
-        print("Finished writing Mission Data")
+                        for value in m_tags[key].split(":"):
+                            body += f"\t\t* {value}\n"
+
+        utils.rewrite_file(body, self.FILE_NAME_TMP)
+
+    def get_mission_by_id(self,mis_id):
+        return self._missions.get(mis_id)
