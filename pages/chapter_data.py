@@ -3,14 +3,14 @@ import json
 from .base_page import Base_Page
 
 class Chapter_Data_Page(Base_Page):
-    LOCATOR = "#ChapterData-module"
-    FILE_NAME = "data/CHAPTERS.md"
-    FILE_NAME_JSON = "json/chapters.json"
+    _LOCATOR = "#ChapterData-module"
+    _FILE_NAME = "data/CHAPTERS.md"
+    _FILE_NAME_JSON = "json/chapters.json"
 
     _chapters = []
 
     def __init__(self, page):
-        super().__init__(page, self.LOCATOR)
+        super().__init__(page, self._LOCATOR)
 
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Chapter Data"):
@@ -29,10 +29,10 @@ class Chapter_Data_Page(Base_Page):
 
     def write_json(self):
         json_data = json.dumps(self._chapters, ensure_ascii=False)
-        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
     
     def read_json(self):
-        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
         self._chapters = json.loads(json_data)
         return self._chapters
@@ -53,4 +53,4 @@ class Chapter_Data_Page(Base_Page):
                 n += 1
                 body += f"* {chapter['order']}.{n}. {quest_line}\n"
 
-        utils.rewrite_file(body, self.FILE_NAME)
+        utils.rewrite_file(body, self._FILE_NAME)

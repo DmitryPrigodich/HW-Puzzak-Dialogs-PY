@@ -3,14 +3,14 @@ import json
 from .base_page import Base_Page
 
 class Officer_Data_Page(Base_Page):
-    LOCATOR = "#OfficerData-module"
-    FILE_NAME = "data/OFFICERS.md"
-    FILE_NAME_JSON = "json/officers.json"
+    _LOCATOR = "#OfficerData-module"
+    _FILE_NAME = "data/OFFICERS.md"
+    _FILE_NAME_JSON = "json/officers.json"
 
     _officers = []
 
     def __init__(self, page):
-        super().__init__(page, self.LOCATOR)
+        super().__init__(page, self._LOCATOR)
 
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Officer Data"):
@@ -40,10 +40,10 @@ class Officer_Data_Page(Base_Page):
 
     def write_json(self):
         json_data = json.dumps(self._officers, ensure_ascii=False)
-        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
     
     def read_json(self):
-        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
         self._officers = json.loads(json_data)
         return self._officers
@@ -60,4 +60,4 @@ class Officer_Data_Page(Base_Page):
         for officer in self._officers:
             body += f"\n### {officer['seed']} {officer['header']}\n"
             body += f"* {officer['fname']} {officer['lname']}, {officer['faction']} {officer['jobs']}\n"
-        utils.rewrite_file(body, self.FILE_NAME)
+        utils.rewrite_file(body, self._FILE_NAME)

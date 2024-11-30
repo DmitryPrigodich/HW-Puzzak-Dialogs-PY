@@ -7,16 +7,16 @@ from .base_page import Base_Page
 logger = logging.getLogger(__name__)
 
 class Quest_Data_Page(Base_Page):
-    LOCATOR = "#QuestData-module"
-    FILE_NAME = "data/QUESTS.md"
-    FILE_NAME_2 = "data/QUEST_TMP.md"
-    FILE_NAME_JSON = "json/quests.json"
+    _LOCATOR = "#QuestData-module"
+    _FILE_NAME = "data/QUESTS.md"
+    _FILE_NAME_TMP = "data/QUEST_TMP.md"
+    _FILE_NAME_JSON = "json/quests.json"
 
     _quests = []
 
 
     def __init__(self, page):
-        super().__init__(page, self.LOCATOR)
+        super().__init__(page, self._LOCATOR)
 
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Quest Data"):
@@ -26,9 +26,6 @@ class Quest_Data_Page(Base_Page):
                 'header': quest_header
             }
             self._quests.append(quest)
-    
-    def get_strings(self):
-        return self.strings
 
     def get_tag_values(self, tag):
         final_value_list = []
@@ -81,9 +78,9 @@ class Quest_Data_Page(Base_Page):
             tags.append(tag.replace(':',''))
         
         tags = sorted(list(set(tags)))
-        utils.add_to_file("\n\n# HWM QUEST TAGS:\n", self.FILE_NAME)
+        utils.add_to_file("\n\n# HWM QUEST TAGS:\n", self._FILE_NAME)
         for tag in tags:
-            utils.add_to_file(f"{tag}\n", self.FILE_NAME_2)
+            utils.add_to_file(f"{tag}\n", self._FILE_NAME_TMP)
     
     def write_tag_values(self, tag):
         tag_value_list = self.get_tag_values(tag)
@@ -91,10 +88,10 @@ class Quest_Data_Page(Base_Page):
         body = f"\n# HWM QUEST TAG '{tag}' VALUES:\n"
         for value in tag_value_list:
             body += (f"* {value}\n")
-        utils.add_to_file(body, self.FILE_NAME_2)
+        utils.add_to_file(body, self._FILE_NAME_TMP)
     
     def write_data(self):
         body = "# HWM QUESTS:\n"
         for quest in self._quests:
             body += f"* {quest}\n"
-        utils.rewrite_file(body, self.FILE_NAME)
+        utils.rewrite_file(body, self._FILE_NAME)

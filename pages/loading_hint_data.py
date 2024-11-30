@@ -7,15 +7,15 @@ from .base_page import Base_Page
 logger = logging.getLogger(__name__)
 
 class Loading_Hint_Data_Page(Base_Page):
-    LOCATOR = "#LoadingHintData-module"
-    FILE_NAME = "data/HINTS.md"
-    FILE_NAME_JSON = "json/hints.json"
+    _LOCATOR = "#LoadingHintData-module"
+    _FILE_NAME = "data/HINTS.md"
+    _FILE_NAME_JSON = "json/hints.json"
 
     _hints = []
 
 
     def __init__(self, page):
-        super().__init__(page, self.LOCATOR)
+        super().__init__(page, self._LOCATOR)
 
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Loading Hint Data"):
@@ -24,10 +24,10 @@ class Loading_Hint_Data_Page(Base_Page):
 
     def write_json(self):
         json_data = json.dumps(self._hints, ensure_ascii=False)
-        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
     
     def read_json(self):
-        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
         self._hints = json.loads(json_data)
         return self._hints
@@ -42,4 +42,4 @@ class Loading_Hint_Data_Page(Base_Page):
         body = "# HWM HINTS:\n"
         for hint in self._hints:
             body += f"* {hint}\n"
-        utils.rewrite_file(body, self.FILE_NAME)
+        utils.rewrite_file(body, self._FILE_NAME)

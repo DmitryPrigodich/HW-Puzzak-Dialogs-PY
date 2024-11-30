@@ -4,14 +4,14 @@ import constants
 from .base_page import Base_Page
 
 class Constellation_Data_Page(Base_Page):
-    LOCATOR = "#ConstellationData-module"
-    FILE_NAME = "data/CONSTELLATIONS.md"
-    FILE_NAME_JSON = "json/constellations.json"
+    _LOCATOR = "#ConstellationData-module"
+    _FILE_NAME = "data/CONSTELLATIONS.md"
+    _FILE_NAME_JSON = "json/constellations.json"
     
     _star_system_by_coordinates = {}
     
     def __init__(self, page):
-        super().__init__(page, self.LOCATOR)
+        super().__init__(page, self._LOCATOR)
     
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Constellation Data"):
@@ -22,7 +22,7 @@ class Constellation_Data_Page(Base_Page):
             else:
                 faction = self._get_entryhead(element_entry)
             
-            faction = self._get_corrected_faction_name(faction)
+            faction = utils.get_corrected_faction_name(faction)
 
             #get system
             systems_coornames_el = element_entry.query_selector(constants.LOCATOR_ENTRYITEM_SPECIFIC.format("CustomOverrides"))
@@ -50,10 +50,10 @@ class Constellation_Data_Page(Base_Page):
     
     def write_json(self):
         json_data = json.dumps(self._star_system_by_coordinates, ensure_ascii=False)
-        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
     
     def read_json(self):
-        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
         self._star_system_by_coordinates = json.loads(json_data)
         return self._star_system_by_coordinates
@@ -72,23 +72,4 @@ class Constellation_Data_Page(Base_Page):
 
         for coords, system in self._star_system_by_coordinates.items():
             body += f"* {system['faction']} : {system['name']} : {system['coordinates']}\n"
-        utils.rewrite_file(body, self.FILE_NAME)
-
-    def _get_corrected_faction_name(self, faction):
-        match faction:
-            case "Hiigaran Territories":
-                return "Medeans"
-            case 'tr1_territories' | 'tr1_territories_t3' | 'tr1_territories_t4' | 'tr1_territories_special':
-                return "Iyatequa"
-            case "P1 Territories":
-                return "Cangacians"
-            case "Tanoch Territories" | "Tanoch Territories T4":
-                return "Tanoch"
-            case "Yaot Territories" | "yaot_territories_t4":
-                return "Yaot"
-            case "Amassari Territories":
-                return "Amassari"
-            case "Clan Territories":
-                return "Clans"
-            case _:
-                return "Terra Incognita"
+        utils.rewrite_file(body, self._FILE_NAME)

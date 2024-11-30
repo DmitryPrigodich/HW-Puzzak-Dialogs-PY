@@ -2,15 +2,15 @@ import utils
 from .constuctor_base import Constructor_Base
 
 class Quest_Constructor(Constructor_Base):
-    QUEST_DATA_JSON = "json_bak/QuestData-module.json"
-    QUEST_LINE_DATA_JSON = "json_bak/QuestLineData-module.json"
+    _QUEST_DATA_JSON = "json_bak/QuestData-module.json"
+    _QUEST_LINE_DATA_JSON = "json_bak/QuestLineData-module.json"
    
     _quest_data = {}
     _quest_line_data = {}
 
-    FILE_NAME = "data/QUEST_LINE_QUESTS.md"
-    FILE_NAME_TMP = "data/QUEST_LINE_QUESTS_TMP.md"
-    FILE_NAME_JSON = "json/quest_line_quests.json"
+    _FILE_NAME = "data/QUEST_LINE_QUESTS.md"
+    _FILE_NAME_TMP = "data/QUEST_LINE_QUESTS_TMP.md"
+    _FILE_NAME_JSON = "json/quest_line_quests.json"
 
     _quest_lines = {}
     _quest_line_quest_data = {}
@@ -31,8 +31,8 @@ class Quest_Constructor(Constructor_Base):
 
     def __init__(self):
         super().__init__()
-        self._quest_data = self._read_json(self.QUEST_DATA_JSON)
-        self._quest_line_data = self._read_json(self.QUEST_LINE_DATA_JSON)
+        self._quest_data = self._read_json(self._QUEST_DATA_JSON)
+        self._quest_line_data = self._read_json(self._QUEST_LINE_DATA_JSON)
 
     # CHAPTERS CALL FOR QUESTLINES & QUESTS
     # QUESTLINES HAVE QUESTS
@@ -123,7 +123,7 @@ class Quest_Constructor(Constructor_Base):
                     for qt_key, qt_value in quest_tags.items():
                         body += f"\t* {qt_key}\t{qt_value.replace("\n", "\t")}\n"
 
-        utils.rewrite_file(body, self.FILE_NAME)
+        utils.rewrite_file(body, self._FILE_NAME)
 
     def write_data_spc(self):
         body = "# HWM QUESTLINES WITH QUESTS\n\n"
@@ -148,7 +148,7 @@ class Quest_Constructor(Constructor_Base):
                             else:
                                 body += f"{qt_value.replace("\n", ", ")}\n"
 
-        utils.rewrite_file(body, self.FILE_NAME_TMP)
+        utils.rewrite_file(body, self._FILE_NAME_TMP)
 
 
 

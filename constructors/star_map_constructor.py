@@ -3,9 +3,8 @@ import json
 from itertools import groupby
 
 class Star_Map_Constructor():
-
-    STAR_SYSTEM_DATA_JSON = "json_bak/StarSystemData-module.json"
-    CONSTELLATION_DATA_JSON = "json/constellations.json"
+    _STAR_SYSTEM_DATA_JSON = "json_bak/StarSystemData-module.json"
+    _CONSTELLATION_DATA_JSON = "json/constellations.json"
 
     FILE_NAME = "data/STARMAP.md"
     FILE_NAME_JSON = "json/starmap_final.json"
@@ -15,20 +14,20 @@ class Star_Map_Constructor():
     _all_systems_map = {}
 
     def set_star_map(self):
-        self._star_systems = self._read_json(self.STAR_SYSTEM_DATA_JSON)
+        self._star_systems = self._read_json(self._STAR_SYSTEM_DATA_JSON)
         for coords, system in self._star_systems.items():
             print(system)
             system_data = {
                 'name': system.get('Name:'),
-                'faction': self._get_corrected_faction_name(system.get('Faction:'))
+                'faction': utils.get_corrected_faction_name(system.get('Faction:'))
             }
             self._all_systems_map[coords] = system_data
 
-        self._constellations = self._read_json(self.CONSTELLATION_DATA_JSON)
+        self._constellations = self._read_json(self._CONSTELLATION_DATA_JSON)
         for coords, system in self._constellations.items():
             system_data = {
                 'name': system.get('name'),
-                'faction': self._get_corrected_faction_name(system.get('faction'))
+                'faction': utils.get_corrected_faction_name(system.get('Faction:'))
             }
             self._all_systems_map[coords] = system_data
 
@@ -54,26 +53,6 @@ class Star_Map_Constructor():
             for coords, system in group:
                 body += f"* {system['name']} : {coords}\n"
         utils.rewrite_file(body, self.FILE_NAME)
-
-
-    def _get_corrected_faction_name(self, faction):
-        match faction:
-            case "Hiigaran Territories" | "Hiigaran":
-                return "Medeans"
-            case 'Tr1' | 'tr1_territories' | 'tr1_territories_t3' | 'tr1_territories_t4' | 'tr1_territories_special':
-                return "Iyatequa"
-            case "P1 Territories":
-                return "Cangacians"
-            case "Tanoch Territories" | "Tanoch Territories T4":
-                return "Tanoch"
-            case "Yaot Territories" | "yaot_territories_t4":
-                return "Yaot"
-            case "Amassari Territories":
-                return "Amassari"
-            case "Clan Territories":
-                return "Clans"
-            case _:
-                return faction
             
     def get_star_system_by_coordinates(self, coordinates):
         star_map = self._read_json(self.FILE_NAME_JSON)

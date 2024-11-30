@@ -3,14 +3,14 @@ import json
 from .base_page import Base_Page
 
 class Event_Data_Page(Base_Page):
-    LOCATOR = "#EventData-module"
-    FILE_NAME = "data/EVENTS.md"
-    FILE_NAME_JSON = "json/events.json"
+    _LOCATOR = "#EventData-module"
+    _FILE_NAME = "data/EVENTS.md"
+    _FILE_NAME_JSON = "json/events.json"
 
     _events = []
 
     def __init__(self, page):
-        super().__init__(page, self.LOCATOR)
+        super().__init__(page, self._LOCATOR)
 
     def save_data(self):
         for element_entry in self._get_list_elements_entries("Event Data"):
@@ -27,10 +27,10 @@ class Event_Data_Page(Base_Page):
     
     def write_json(self):
         json_data = json.dumps(self._events, ensure_ascii=False)
-        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
     
     def read_json(self):
-        with open(self.FILE_NAME_JSON, 'r', encoding='utf-8') as file:
+        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
             json_data = file.read()
         self._events = json.loads(json_data)
         return self._events
@@ -50,4 +50,4 @@ class Event_Data_Page(Base_Page):
         body = "# HWM EVENTS:\n"
         for event in self._events:
             body += f"* {event['header']} : {event['group']}\n"
-        utils.rewrite_file(body, self.FILE_NAME)
+        utils.rewrite_file(body, self._FILE_NAME)

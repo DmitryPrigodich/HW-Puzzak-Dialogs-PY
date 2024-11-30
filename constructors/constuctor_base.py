@@ -2,8 +2,8 @@ import json
 import utils
 
 class Constructor_Base:
-    STRING_DATA_JSON = "json_bak/StringData-module.json"
-    FILE_NAME_JSON = ""
+    _FILE_NAME_JSON = ""
+    _STRING_DATA_JSON = "json_bak/StringData-module.json"
     _string_data = {}
 
 
@@ -20,8 +20,8 @@ class Constructor_Base:
     
     def _write_json(self, json_input):
         json_data = json.dumps(json_input, ensure_ascii=False)
-        utils.rewrite_file(json_data, self.FILE_NAME_JSON)
+        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
 
     def set_string_data(self):
-        self._string_data = self._read_json(self.STRING_DATA_JSON)
+        self._string_data = self._read_json(self._STRING_DATA_JSON)
         self._string_data = {k.lower(): v for k, v in self._string_data.items()}

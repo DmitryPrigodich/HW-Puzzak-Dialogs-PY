@@ -4,12 +4,12 @@ import utils
 from .constuctor_base import Constructor_Base
 
 class Mission_Constructor(Constructor_Base):
-    MISSION_DATA_JSON = "json_bak/MissionData-module.json"
-    STAR_MAP_JSON = "json/starmap.json"
+    _MISSION_DATA_JSON = "json_bak/MissionData-module.json"
+    _STAR_MAP_JSON = "json/starmap.json"
 
-    FILE_NAME = "data/MISSIONS.md"
-    FILE_NAME_TMP = "data/MISSIONS_TMP.md"
-    FILE_NAME_JSON = "json/missions.json"
+    _FILE_NAME = "data/MISSIONS.md"
+    _FILE_NAME_TMP = "data/MISSIONS_TMP.md"
+    _FILE_NAME_JSON = "json/missions.json"
 
     _mission_data = {}
     _star_system_data = {}
@@ -20,8 +20,8 @@ class Mission_Constructor(Constructor_Base):
 
     def __init__(self):
         super().__init__()
-        self._mission_data = self._read_json(self.MISSION_DATA_JSON)
-        self._star_system_data = self._read_json(self.STAR_MAP_JSON)
+        self._mission_data = self._read_json(self._MISSION_DATA_JSON)
+        self._star_system_data = self._read_json(self._STAR_MAP_JSON)
         self._set_missions()
    
     def _set_tags_to_skip(self):
@@ -104,8 +104,8 @@ class Mission_Constructor(Constructor_Base):
             body_tags += f"\t* {t_key}:\n"
             body_tags += f"\t\t* {t_values}\n"
        
-        utils.rewrite_file(body_tags, self.FILE_NAME)
-        utils.add_to_file(body, self.FILE_NAME)
+        utils.rewrite_file(body_tags, self._FILE_NAME)
+        utils.add_to_file(body, self._FILE_NAME)
 
     def write_data_spc(self):
         body = "\n# HWM MISSIONS SELECTION\n"
@@ -128,7 +128,7 @@ class Mission_Constructor(Constructor_Base):
                         for value in m_tags[key].split(":"):
                             body += f"\t\t* {value}\n"
 
-        utils.rewrite_file(body, self.FILE_NAME_TMP)
+        utils.rewrite_file(body, self._FILE_NAME_TMP)
 
     def get_mission_by_id(self,mis_id):
         return self._missions.get(mis_id)

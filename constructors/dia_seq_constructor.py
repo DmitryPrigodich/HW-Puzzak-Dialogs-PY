@@ -4,20 +4,20 @@ import re
 from .constuctor_base import Constructor_Base
 
 class Dialog_Sequence_Constructor(Constructor_Base):
-    DIALOG_SEQUENCE_DATA_JSON = "json_bak/DialogSequenceData-module.json"
+    _DIALOG_SEQUENCE_DATA_JSON = "json_bak/DialogSequenceData-module.json"
 
-    FILE_NAME = "data/DIALOGS.md"
-    FILE_NAME_JSON = "json/dialogs.json"
+    _FILE_NAME = "data/DIALOGS.md"
+    _FILE_NAME_JSON = "json/dialogs.json"
 
-    FILE_NAME_STR = "data/DIALOGS_STRINGS.md"
-    FILE_NAME_STR_JSON = "json/dialogs_strings.json"
+    _FILE_NAME_STR = "data/DIALOGS_STRINGS.md"
+    _FILE_NAME_STR_JSON = "json/dialogs_strings.json"
 
     _dialog_seqs_data = {}
     _dialogs = {}
     
     def __init__(self):
         super().__init__()
-        self._dialog_seqs_data = self._read_json(self.DIALOG_SEQUENCE_DATA_JSON)
+        self._dialog_seqs_data = self._read_json(self._DIALOG_SEQUENCE_DATA_JSON)
 
     def set_dialogs(self):
         for dialog_seq_header, dialog_seq in self._dialog_seqs_data.items():
@@ -32,7 +32,7 @@ class Dialog_Sequence_Constructor(Constructor_Base):
         self._write_json(self._dialogs)
 
     def read_json(self):
-        self._dialogs = self._read_json(self.FILE_NAME_JSON)
+        self._dialogs = self._read_json(self._FILE_NAME_JSON)
         return self._dialogs
 
     def write_data(self):
@@ -42,17 +42,17 @@ class Dialog_Sequence_Constructor(Constructor_Base):
             for dialog in dialog_seq_list:
                 body += f"### {dialog['speaker_id']}\n"
                 body += f"{dialog['dialog_id']}\n\n"
-        utils.rewrite_file(body, self.FILE_NAME)
+        utils.rewrite_file(body, self._FILE_NAME)
 
     def write_data_w_strings(self):
         body = "# HWM DIALOGS with STRINGS\n\n"
         for dialog_seq_header,dialog_seq_list in self._dialogs.items():
             body += f"## {dialog_seq_header}\n".upper()
             body += self.get_dialog_seq_string_by_header(dialog_seq_header)
-        utils.rewrite_file(body, self.FILE_NAME_STR) 
+        utils.rewrite_file(body, self._FILE_NAME_STR) 
     
     def get_dialog_seq_string_by_header(self, dialog_seq_header):
-        raw_dialog_seqs = self._read_json(self.FILE_NAME_JSON)
+        raw_dialog_seqs = self._read_json(self._FILE_NAME_JSON)
         dialog_seq_list = raw_dialog_seqs.get(dialog_seq_header)
 
         body = ""

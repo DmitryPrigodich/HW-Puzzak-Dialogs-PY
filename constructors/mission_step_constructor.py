@@ -4,11 +4,11 @@ import utils
 from .constuctor_base import Constructor_Base
 
 class Mission_Step_Constructor(Constructor_Base):
-    MISSION_STEPS_DATA_JSON = "json_bak/MissionSteps-module.json"
+    _MISSION_STEPS_DATA_JSON = "json_bak/MissionSteps-module.json"
 
-    FILE_NAME = "data/MISSIONS_STEPS.md"
-    FILE_NAME_TMP = "data/MISSIONS_STEPS_TMP.md"
-    FILE_NAME_JSON = "json/missions_steps.json"
+    _FILE_NAME = "data/MISSIONS_STEPS.md"
+    _FILE_NAME_TMP = "data/MISSIONS_STEPS_TMP.md"
+    _FILE_NAME_JSON = "json/missions_steps.json"
 
     _mission_steps_data = {}
 
@@ -19,7 +19,7 @@ class Mission_Step_Constructor(Constructor_Base):
 
     def __init__(self):
         super().__init__()
-        self._mission_steps_data = self._read_json(self.MISSION_STEPS_DATA_JSON)
+        self._mission_steps_data = self._read_json(self._MISSION_STEPS_DATA_JSON)
         self._set_mission_steps()
 
     def _set_mission_steps(self):
@@ -60,8 +60,8 @@ class Mission_Step_Constructor(Constructor_Base):
             for t_value in sorted(t_values):
                 body_tags += f"\t\t* {t_value}\n"
 
-        utils.rewrite_file(body_tags, self.FILE_NAME)
-        utils.add_to_file(body, self.FILE_NAME)
+        utils.rewrite_file(body_tags, self._FILE_NAME)
+        utils.add_to_file(body, self._FILE_NAME)
 
         print("Finished writing Mission Step Data")
 
@@ -86,7 +86,7 @@ class Mission_Step_Constructor(Constructor_Base):
                         for value in ms_tags[key].split(":"):
                             body += f"\t\t* {value}\n"
 
-        utils.rewrite_file(body, self.FILE_NAME_TMP)
+        utils.rewrite_file(body, self._FILE_NAME_TMP)
 
     def get_mission_step_by_id(self,mis_step_id):
         return self._mission_steps.get(mis_step_id)
