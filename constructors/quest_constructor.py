@@ -15,24 +15,14 @@ class Quest_Constructor(Constructor_Base):
     _quest_lines = {}
     _quest_line_quest_data = {}
 
-    _quest_tags_to_skip = ["XPMod:","StartOffset:","EndOffset:", "ScheduleType:", "GoalIconId:", "Rewards:"]
-        # Tier
-        # Type
-        # CinematicIds
-        # EventId
-        # Goals
-        # GoalParameters
-        # MailsOnCompletion
-        # RepetitionType
-        # ReplayMissionId
-
-        # FollowUpLines
-        # FollowUps
+    _quest_tags = ["Tier","Type:","CinematicIds:", "EventId:", "Goals:", "GoalParameters:","MailsOnCompletion:","RepetitionType:","ReplayMissionId:","FollowUps:","FollowUpLines:"]
 
     def __init__(self):
         super().__init__()
         self._quest_data = self._read_json(self._QUEST_DATA_JSON)
         self._quest_line_data = self._read_json(self._QUEST_LINE_DATA_JSON)
+        self._set_quest_lines_w_quests()
+        
 
     # CHAPTERS CALL FOR QUESTLINES & QUESTS
     # QUESTLINES HAVE QUESTS
@@ -47,64 +37,43 @@ class Quest_Constructor(Constructor_Base):
     # Goals / Goal Parameters may lead to
     # FollowUpLines for sure required
   
-    def set_quest_lines_w_quests(self):
+    def _set_quest_lines_w_quests(self):
         
         for quest_id, quest_tags in self._quest_data.items():
             quest = {}
             quest[quest_id] = {}
-            quest_tags_rearr = {}
+            quest_tags_collector = {}
 
-            qt_type = quest_tags.get("Type:")
-            if qt_type:
-                quest_tags_rearr["Type:"] = qt_type
-
-            qt_cinematic_ids = quest_tags.get("CinematicIds:")
-            if qt_cinematic_ids:
-                quest_tags_rearr["CinematicIds:"] = qt_cinematic_ids
-
-            qt_event_id = quest_tags.get("EventId:")
-            if qt_event_id:
-                quest_tags_rearr["EventId:"] = qt_event_id
-
-            qt_mails_on_completion = quest_tags.get("MailsOnCompletion:")
-            if qt_mails_on_completion:
-                quest_tags_rearr["MailsOnCompletion:"] = qt_mails_on_completion
-
-            qt_replay_mission_id = quest_tags.get("ReplayMissionId:")
-            if qt_replay_mission_id:
-                quest_tags_rearr["ReplayMissionId:"] = qt_replay_mission_id
+            for key in ["Type:","CinematicIds:","EventId:","MailsOnCompletion:","ReplayMissionId:"]:
+                if key in quest_tags:
+                    quest_tags_collector[key] = quest_tags.get(key)
 
             # Combine FollowUps & FollowUpLines -> FollowUp:
-            qt_follow_up_final = []
-
-            qt_follow_up_lines = quest_tags.get("FollowUpLines:")
-            if qt_follow_up_lines:
-                qt_follow_up_final += qt_follow_up_lines.split(":")
-
-                # FollowUps show up with FollowUpLines only so it should be OK
-                qt_follow_ups = quest_tags.get("FollowUps:")
-                if qt_follow_ups:
-                    qt_follow_up_final += qt_follow_ups.split(":")
-
-                quest_tags_rearr["FollowUps:"] = qt_follow_up_final
+            qt_followups_final = []
+            for key in ["FollowUpLines:","FollowUps:"]:
+                qt_followups = quest_tags.get(key)
+                if qt_followups:
+                    qt_followups_final += qt_followups.split(":")
+                    quest_tags_collector["FollowUps:"] = qt_followups_final
 
             # Combine Goals & GoalParameters -> Goals:
             qt_goals_final = []
-
             qt_goals = quest_tags.get("Goals:")
             if qt_goals:
                 qt_goal_params = quest_tags.get("GoalParameters:")
-
                 qt_goals_final = self._get_goals_rearranged(qt_goals, qt_goal_params)
-                quest_tags_rearr["Goals:"] = qt_goals_final   
+                quest_tags_collector["Goals:"] = qt_goals_final
 
-            quest[quest_id] = quest_tags_rearr
+
+            quest[quest_id] = quest_tags_collector
+
 
             quest_line_id = self.get_quest_line_by_quest_id(quest_id)
             if quest_line_id not in self._quest_line_quest_data:
                 self._quest_line_quest_data[quest_line_id] = []
             self._quest_line_quest_data[quest_line_id].append(quest)
 
+        
         self._write_json(self._quest_line_quest_data)
 
         return self._quest_line_quest_data

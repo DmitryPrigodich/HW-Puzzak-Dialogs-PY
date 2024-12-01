@@ -71,7 +71,6 @@ def _test_quests_write_data():
     start_time = time.time()
 
     quests_data = Quest_Constructor()
-    quests_data.set_quest_lines_w_quests()
     quests_data.write_data()
 
     end_time = time.time()
@@ -81,7 +80,6 @@ def _test_quests_write_data_spc():
     start_time = time.time()
 
     quests_data = Quest_Constructor()
-    quests_data.set_quest_lines_w_quests()
     quests_data.write_data_spc()
 
     end_time = time.time()
