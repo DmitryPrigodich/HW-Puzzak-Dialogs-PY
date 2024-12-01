@@ -21,7 +21,6 @@ def _test_create_star_map():
     start_time = time.time()
 
     star_mapper = Star_Map_Constructor()
-    star_mapper.set_star_map()
     star_mapper.write_json()
     star_mapper.write_data()
 
