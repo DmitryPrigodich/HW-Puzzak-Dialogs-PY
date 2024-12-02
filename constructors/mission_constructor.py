@@ -81,7 +81,8 @@ class Mission_Constructor(Constructor_Base):
                     m_tags_collector["Factions:"] = factions_final
                 
                 self._missions[m_key] = m_tags_collector
-        
+    
+    def write_json(self):
         self._write_json(self._missions)
     
     def write_data(self):

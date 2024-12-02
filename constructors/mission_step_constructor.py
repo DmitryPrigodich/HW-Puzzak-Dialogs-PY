@@ -35,9 +35,9 @@ class Mission_Step_Constructor(Constructor_Base):
                     ms_key_dict[key] = sorted(ms_tags.get(key).split(":"))
             
             self._mission_steps[ms_key] = ms_key_dict
-
+        
+    def write_json(self):
         self._write_json(self._mission_steps)
-
     
     def write_data(self):
         tags = {}

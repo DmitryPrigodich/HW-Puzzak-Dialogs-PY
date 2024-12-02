@@ -8,7 +8,7 @@ class Constructor_Base:
 
 
     def __init__(self):
-        self._string_data = self._read_json(self.STRING_DATA_JSON)
+        self._string_data = self._read_json(self._STRING_DATA_JSON)
 
     def clean_file(self, file_name):
         utils.rewrite_file("", file_name)

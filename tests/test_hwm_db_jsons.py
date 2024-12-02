@@ -66,7 +66,7 @@ def _test_get_dialog_seq_by_head():
     end_time = time.time()
     print(f"Dialog Seq execution time is: {(end_time - start_time):.2f} seconds")
 
-def _test_quests_write_data():
+def test_quests_write_data():
     start_time = time.time()
 
     quests_data = Quest_Constructor()
@@ -84,7 +84,7 @@ def _test_quests_write_data_spc():
     end_time = time.time()
     print(f"Missions execution time is: {(end_time - start_time):.2f} seconds")
 
-def test_missions():
+def _test_missions():
     start_time = time.time()
 
     mission_data = Mission_Constructor()
@@ -94,7 +94,7 @@ def test_missions():
     end_time = time.time()
     print(f"Missions execution time is: {(end_time - start_time):.2f} seconds")
 
-def test_mission_steps():
+def _test_mission_steps():
     start_time = time.time()
 
     mission_step_data = Mission_Step_Constructor()
@@ -104,7 +104,7 @@ def test_mission_steps():
     end_time = time.time()
     print(f"Mission Steps execution time is: {(end_time - start_time):.2f} seconds")
 
-def test_mission_step_actions():
+def _test_mission_step_actions():
     start_time = time.time()
 
     mission_step_actions_data = Mission_Step_Actions_Constructor()

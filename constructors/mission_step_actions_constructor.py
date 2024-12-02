@@ -35,8 +35,9 @@ class Mission_Step_Actions_Constructor(Constructor_Base):
             
             self._mission_step_actions[msa_key] = msa_key_dict
 
+    def write_json(self):
         self._write_json(self._mission_step_actions)
-
+    
     def write_data(self):
         tags = {}
 

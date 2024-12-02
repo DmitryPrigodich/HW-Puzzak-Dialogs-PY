@@ -29,8 +29,10 @@ class Dialog_Sequence_Constructor(Constructor_Base):
                 speakers_dialogs.append({"index": index, "speaker_id": speaker_id, "dialog_id": dialog_id})
 
             self._dialogs[dialog_seq_header] = speakers_dialogs
-        self._write_json(self._dialogs)
 
+    def write_json(self):
+        self._write_json(self._dialogs)
+    
     def read_json(self):
         self._dialogs = self._read_json(self._FILE_NAME_JSON)
         return self._dialogs

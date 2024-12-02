@@ -61,9 +61,12 @@ class Quest_Constructor(Constructor_Base):
             qt_goals = quest_tags.get("Goals:")
             if qt_goals:
                 qt_goal_params = quest_tags.get("GoalParameters:")
-                qt_goals_final = self._get_goals_rearranged(qt_goals, qt_goal_params)
+                if qt_goal_params:
+                    qt_goals_final = self._get_goals_w_params_rearranged(qt_goals, qt_goal_params)
+                else:
+                    qt_goals_final = self._get_goals_rearranged(qt_goals)
+                
                 quest_tags_collector["Goals:"] = qt_goals_final
-
 
             quest[quest_id] = quest_tags_collector
 
@@ -73,11 +76,10 @@ class Quest_Constructor(Constructor_Base):
                 self._quest_line_quest_data[quest_line_id] = []
             self._quest_line_quest_data[quest_line_id].append(quest)
 
-        
-        self._write_json(self._quest_line_quest_data)
-
         return self._quest_line_quest_data
 
+    def write_json(self):
+        self._write_json(self._quest_line_quest_data)
 
     def write_data(self):
         body = "# HWM QUESTLINES WITH QUESTS\n\n"
@@ -118,8 +120,6 @@ class Quest_Constructor(Constructor_Base):
                                 body += f"{qt_value.replace("\n", ", ")}\n"
 
         utils.rewrite_file(body, self._FILE_NAME_TMP)
-
-
 
 
     def set_quest_lines(self):
@@ -170,30 +170,50 @@ class Quest_Constructor(Constructor_Base):
     # dia_iyaFal_2023_epi05_end_1
         
     
-    def _get_goals_rearranged(goals_str, goal_params_str):
-        goal_list_final = {}
-        # goal_list_final[]
+    def _get_goals_w_params_rearranged(self, goals_str, goal_params_str):
+        goals_final = {}
         
         goals_list = goals_str.split("\n")
         goal_params_list = goal_params_str.split("\n")
 
         goal_count = len(goals_list)
+        print(f"Length of {goal_count}: {goals_list}")
 
         for i in range(goal_count):
-            goals_str
+            goal_type, task_number = goals_list[i].split(",")
+            print(f"Run: {i}; Task: {task_number}; Goal: {goal_type}")
+            print (f"Params: {goal_params_list[i]}")
 
+            curr_goal_param = {}
+            for goal_params in goal_params_list[i].split(";"):
+                gp_key = goal_params.split("&")[0]
+                gp_value = goal_params.split("&")[-1]
+                curr_goal_param[gp_key] = gp_value
 
+            curr_goal = {
+                'Type:': goal_type,
+                'Parameters:': curr_goal_param
+            }
 
-        for goal_set in goals_str.split("\n"):
-            g_order = goal_set.split(",")[-1]
-            g_type = goal_set.split(",")[0]
+            if task_number not in goals_final:
+                goals_final[task_number] = []
+            goals_final[task_number].append(curr_goal)
 
-        for goal_param in goal_params_str.split("\n"):
-            goal_param.split("")
+        return goals_final
+    
+    def _get_goals_rearranged(self, goals_str):
+        goals_final = {}
+        
+        for goals in goals_str.split("\n"):
+            goal_type, task_number = goals.split(",")
+            curr_goal = {
+                'Type:': goal_type
+            }
+            if task_number not in goals_final:
+                goals_final[task_number] = []
+            goals_final[task_number].append(curr_goal)
 
-            #MB, we need to split it in 
-
-        # task_type, task_order
+        return goals_final
         
         
 
@@ -247,29 +267,27 @@ class Quest_Constructor(Constructor_Base):
     #       Type&Escort
     #       Type&Officer;Location&Bridge
 
-        example_goal = [
-    #       Goto,0
-    #       Scan,1
-    #       CompleteMission,2
-    #       Goto,3
-            {"Goto":"0"},
-            {"Scan":"1"},
-            {"CompleteMission":"2"},
-            {"Goto":"3"},
-        ]
+    #     example_goal = [
+    # #       Goto,0
+    # #       Scan,1
+    # #       CompleteMission,2
+    # #       Goto,3
+    #         {"Goto":"0"},
+    #         {"Scan":"1"},
+    #         {"CompleteMission":"2"},
+    #         {"Goto":"3"},
+    #     ]
 
-        example_goal_param = [
-    #       Target&[-1764, -703]
-    #       Tags&InSystem;Amount&1
-    #       Id&story_A05_Jolja
-    #       Target&[-1822, -636];TargetMode&Station
-            [{"Target":"[-1764, -703]"}],
-            [{"Tags":"InSystem"}, {"Amount":"1"}],
-            [{"Id":"story_A05_Jolja"}],
-            [{"Target":"[-1822, -636]"},{"TargetMode":"Station"}]
-        ]
-
-        return goal_list_final
+    #     example_goal_param = [
+    # #       Target&[-1764, -703]
+    # #       Tags&InSystem;Amount&1
+    # #       Id&story_A05_Jolja
+    # #       Target&[-1822, -636];TargetMode&Station
+    #         [{"Target":"[-1764, -703]"}],
+    #         [{"Tags":"InSystem"}, {"Amount":"1"}],
+    #         [{"Id":"story_A05_Jolja"}],
+    #         [{"Target":"[-1822, -636]"},{"TargetMode":"Station"}]
+    #     ]
 
     # * Goals:
     #       Goto,0
