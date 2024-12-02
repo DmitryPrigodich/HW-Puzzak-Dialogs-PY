@@ -1,4 +1,5 @@
 import utils
+from itertools import zip_longest
 from .constuctor_base import Constructor_Base
 
 class Quest_Constructor(Constructor_Base):
@@ -44,7 +45,7 @@ class Quest_Constructor(Constructor_Base):
             quest[quest_id] = {}
             quest_tags_collector = {}
 
-            for key in ["Type:","CinematicIds:","EventId:","MailsOnCompletion:","ReplayMissionId:"]:
+            for key in ["Type:","CinematicIds:","EventId:","MailsOnCompletion:"]:
                 if key in quest_tags:
                     quest_tags_collector[key] = quest_tags.get(key)
 
@@ -85,14 +86,58 @@ class Quest_Constructor(Constructor_Base):
         body = "# HWM QUESTLINES WITH QUESTS\n\n"
 
         for quest_line, quests in self._quest_line_quest_data.items():
-            body += f"\n## {quest_line}\n"
+            body += f"\n## {quest_line}".upper()
 
             for quest in quests:
                 for quest_id, quest_tags in quest.items():
                     body += f"\n### {quest_id}\n"
 
                     for qt_key, qt_value in quest_tags.items():
-                        body += f"\t* {qt_key}\t{qt_value.replace("\n", "\t")}\n"
+                        match qt_key:
+                            # case key if key in ["Type:","CinematicIds:","EventId:","MailsOnCompletion:"]:
+                            #     body += f"\t* {qt_key}\t{qt_value}\n"
+                            case "FollowUps:":
+                                if len(list(qt_value)) == 1:
+                                    body += f"* {qt_key} {qt_value[0]}\n"
+                                else:
+                                    body += f"* {qt_key}\n"
+                                    for items in qt_value:
+                                        body += f"\t* {items}\n"
+
+                            case "Goals:":
+                                body += f"* {qt_key}\n"
+                                # this shit is complicated because I don't know why it's organised this way
+                                # had to go in a evolutianary way to make it formatted like I want
+                                for g_order, g_params in qt_value.items():
+                                    body += f"\t* {g_order}:\n"
+                                    
+                                    for g_param in g_params:
+                                        for gp_key, gp_value in g_param.items():
+
+                                            if gp_key != "GoalParam:":
+                                                body += f"\t\t* {gp_key} {gp_value}\n"
+                                            else:
+                                                for gpv_key, gpv_value in gp_value.items():
+
+                                                    match gpv_key:
+                                                        case gkey if gkey in ["Ids","ExcludedSources"]:
+                                                            body += f"\t\t\t* {gpv_key}:\n"
+
+                                                            if len(gpv_value.split("|")) > 1:
+                                                                gpvi_values = gpv_value.split("|")
+                                                            elif len(gpv_value.split("_")) > 1:
+                                                                gpvi_values = gpv_value.split("_")
+
+                                                            for gpvi_value in gpvi_values:
+                                                                body += f"\t\t\t\t* {gpvi_value}\n"
+                                                        case _:
+                                                            if isinstance(gpv_value, dict):
+                                                                for gpvi_key, gpvi_value in gpv_value.items():
+                                                                    body += f"\t\t\t* {gpvi_key}: {gpvi_value}\n"
+                                                            else:
+                                                                body += f"\t\t\t* {gpv_key}: {gpv_value}\n"
+                            case _:
+                                body += f"* {qt_key}\t{qt_value}\n"                       
 
         utils.rewrite_file(body, self._FILE_NAME)
 
@@ -168,6 +213,13 @@ class Quest_Constructor(Constructor_Base):
     
     # dia_iyaFal_2023_day01_end_1
     # dia_iyaFal_2023_epi05_end_1
+
+
+    _goal_types = [
+        "ChangeName","SelectKiith","JoinClan","PlaceOrbital","CompleteQuest","CompleteMission","StartCraft","ChargeScanner"
+        ,"GoTo","UpgradeOfficer","Scan","Statistic","Pay","Buy","Craft","Equip","GainItem"
+        ]
+    _goal_types_to_stay = ["SelectKiith","CompleteQuest","CompleteMission","GoTo"]
         
     
     def _get_goals_w_params_rearranged(self, goals_str, goal_params_str):
@@ -176,23 +228,19 @@ class Quest_Constructor(Constructor_Base):
         goals_list = goals_str.split("\n")
         goal_params_list = goal_params_str.split("\n")
 
-        goal_count = len(goals_list)
-        print(f"Length of {goal_count}: {goals_list}")
-
-        for i in range(goal_count):
-            goal_type, task_number = goals_list[i].split(",")
-            print(f"Run: {i}; Task: {task_number}; Goal: {goal_type}")
-            print (f"Params: {goal_params_list[i]}")
-
+        for i, (goal_line, goal_param_line) in enumerate(zip_longest(goals_list, goal_params_list, fillvalue='')):
+            goal_type, task_number = goal_line.split(",")
+            
+            
             curr_goal_param = {}
-            for goal_params in goal_params_list[i].split(";"):
+            for goal_params in goal_param_line.split(";"):
                 gp_key = goal_params.split("&")[0]
                 gp_value = goal_params.split("&")[-1]
                 curr_goal_param[gp_key] = gp_value
 
             curr_goal = {
-                'Type:': goal_type,
-                'Parameters:': curr_goal_param
+                'GoalType:': goal_type,
+                'GoalParam:': curr_goal_param
             }
 
             if task_number not in goals_final:
@@ -214,88 +262,3 @@ class Quest_Constructor(Constructor_Base):
             goals_final[task_number].append(curr_goal)
 
         return goals_final
-        
-        
-
-    # * Buy
-    # * ChangeName
-    # * ChargeScanner
-    # * CompleteMission
-    # * CompleteQuest
-    # * Craft
-    # * Equip
-    # * GainItem
-    # * Goto
-    # * JoinClan
-    # * Pay
-    # * PlaceOrbital
-    # * Scan
-    # * SelectKiith
-    # * StartCraft
-    # * Statistic
-    # * UpgradeOfficer
-
-    # "qm_t1_introRefining": {
-    #     "Goals:": 
-    #           Statistic,0
-    #           Goto,1
-    #     "GoalParameters:": 
-    #           Ids&Refining1N_Refining1O_Refining1P;Amount&100
-    #           Target&[-1822, -636];TargetMode&Station
-
-    # * Goals:
-    #       Craft,0	
-    #       Craft,0
-    #       Equip,1	
-    #       Equip,1
-	# * GoalParameters:
-    #       Category&Crafting;Tags&Interceptor_T1;Amount&1
-    #       Category&Crafting;Tags&PlasmaBomber_T1;Amount&1
-    #       Type&Squad;Tags&Interceptor_T1up
-    #       Type&Squad;Tags&PlasmaBomber_T1up
-
-    # * Goals:
-    #       Craft,0	
-    #       Equip,1
-    #       Equip,2
-    #       Equip,2
-    #       Equip,2
-	# * GoalParameters:
-    #       Category&Crafting;Tags&Flagship_Ship;Amount&1
-    #       Type&Flagship
-    #       Type&Squad
-    #       Type&Escort
-    #       Type&Officer;Location&Bridge
-
-    #     example_goal = [
-    # #       Goto,0
-    # #       Scan,1
-    # #       CompleteMission,2
-    # #       Goto,3
-    #         {"Goto":"0"},
-    #         {"Scan":"1"},
-    #         {"CompleteMission":"2"},
-    #         {"Goto":"3"},
-    #     ]
-
-    #     example_goal_param = [
-    # #       Target&[-1764, -703]
-    # #       Tags&InSystem;Amount&1
-    # #       Id&story_A05_Jolja
-    # #       Target&[-1822, -636];TargetMode&Station
-    #         [{"Target":"[-1764, -703]"}],
-    #         [{"Tags":"InSystem"}, {"Amount":"1"}],
-    #         [{"Id":"story_A05_Jolja"}],
-    #         [{"Target":"[-1822, -636]"},{"TargetMode":"Station"}]
-    #     ]
-
-    # * Goals:
-    #       Goto,0
-    #       Scan,1
-    #       CompleteMission,2
-    #       Goto,3
-	# * GoalParameters:
-    #       Target&[-1764, -703]
-    #       Tags&InSystem;Amount&1
-    #       Id&story_A05_Jolja
-    #       Target&[-1822, -636];TargetMode&Station
