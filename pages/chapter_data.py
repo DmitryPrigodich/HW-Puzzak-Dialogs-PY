@@ -1,5 +1,4 @@
 import utils
-import json
 from .base_page import Base_Page
 
 class Chapter_Data_Page(Base_Page):
@@ -26,24 +25,12 @@ class Chapter_Data_Page(Base_Page):
             self._chapters.append(chapter)
         return self._chapters
 
-
     def write_json(self):
-        json_data = json.dumps(self._chapters, ensure_ascii=False)
-        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+        self._write_json(self._chapters)
     
     def read_json(self):
-        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        self._chapters = json.loads(json_data)
-        return self._chapters
+        return self._read_json(self._FILE_NAME_JSON)
     
-    def get_chapters(self):
-        return self._chapters
-    
-    def check_chapter(self, chapter):
-        return any(item["header"] == chapter for item in self._chapters)
-
-
     def write_data(self):
         body = "# HWM CHAPTERS:\n"
         for chapter in self._chapters:
@@ -54,3 +41,9 @@ class Chapter_Data_Page(Base_Page):
                 body += f"* {chapter['order']}.{n}. {quest_line}\n"
 
         utils.rewrite_file(body, self._FILE_NAME)
+
+    def get_chapters(self):
+        return self._chapters
+    
+    def check_chapter(self, chapter):
+        return any(item["header"] == chapter for item in self._chapters)

@@ -1,5 +1,4 @@
 import utils
-import json
 from .base_page import Base_Page
 
 class Dialog_Seq_Data_Page(Base_Page):
@@ -25,17 +24,10 @@ class Dialog_Seq_Data_Page(Base_Page):
         return self._dialog_seqs
 
     def write_json(self):
-        json_data = json.dumps(self._dialog_seqs, ensure_ascii=False)
-        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+        self._write_json(self._dialog_seqs)
     
     def read_json(self):
-        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        self._dialog_seqs = json.loads(json_data)
-        return self._dialog_seqs
-    
-    def get_dialog_seq_by_header(self, dialog_seq_header):
-        return self._dialog_seqs.get(dialog_seq_header)
+        return self._read_json(self._FILE_NAME_JSON)
     
     def write_data(self):
         body = "# HWM DIALOGS SEQUENCES:\n"
@@ -45,3 +37,6 @@ class Dialog_Seq_Data_Page(Base_Page):
                 body += f"* {speaker_dialog['speaker']}: {speaker_dialog['dialogue']}\n"
 
         utils.rewrite_file(body, self._FILE_NAME)
+
+    def get_dialog_seq_by_header(self, dialog_seq_header):
+        return self._dialog_seqs.get(dialog_seq_header)

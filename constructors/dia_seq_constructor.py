@@ -18,8 +18,9 @@ class Dialog_Sequence_Constructor(Constructor_Base):
     def __init__(self):
         super().__init__()
         self._dialog_seqs_data = self._read_json(self._DIALOG_SEQUENCE_DATA_JSON)
+        self._set_data()
 
-    def set_dialogs(self):
+    def _set_data(self):
         for dialog_seq_header, dialog_seq in self._dialog_seqs_data.items():
             speaker_ids = dialog_seq["SpeakerIds:"].split(":")
             dialog_ids = dialog_seq["DialogIds:"].split(":")

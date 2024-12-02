@@ -166,19 +166,6 @@ def _test_chapter_string_data(page):
     end_time = time.time()
     print(f"Chapter-String Data Test execution time is: {(start_time-end_time):.2f} seconds")
 
-def _test_event_quest_line_data(page):
-    start_time = time.time()
-
-    event_data = Event_Data_Page(page)
-    event_data.read_json()
-    quest_line_data = Quest_Line_Data_Page(page)
-    quest_line_data.read_json()
-
-    end_time = time.time()
-    print(f"Event Data Test execution time is: {(start_time-end_time):.2f} seconds")
-
-    #TODO: add quest and quest strings
-
 def _test_dialog_sequence_data(page):
     start_time = time.time()
 
@@ -208,9 +195,9 @@ def _test_dialog_sequence_string_data(page):
 def _test_quest_data(page):
     start_time = time.time()
     quest_data = Quest_Data_Page(page)
-    # assert 
+    
     quest_data.write_data()
-    quest_data.record_tags_to_file()
+    quest_data.write_tags()
 
     quest_data.write_tag_values("Type")
     quest_data.write_tag_values("Tier")

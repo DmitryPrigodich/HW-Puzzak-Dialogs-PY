@@ -1,5 +1,4 @@
 import utils
-import json
 from .base_page import Base_Page
 
 class Officer_Data_Page(Base_Page):
@@ -36,24 +35,14 @@ class Officer_Data_Page(Base_Page):
                     'portid': officer_portrait_id
                 }
                 self._officers.append(officer)
+                
         return self._officers
 
     def write_json(self):
-        json_data = json.dumps(self._officers, ensure_ascii=False)
-        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+        self._write_json(self._officers)
     
     def read_json(self):
-        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        self._officers = json.loads(json_data)
-        return self._officers
-    
-    def get_officers(self):
-        return self._officers
-    
-    def check_officer(self, officer_seed):
-        return any(item["seed"] == officer_seed for item in self._officers)
-
+        return self._read_json(self._FILE_NAME_JSON)
 
     def write_data(self):
         body = "# HWM OFFICERS:\n"
@@ -61,3 +50,9 @@ class Officer_Data_Page(Base_Page):
             body += f"\n### {officer['seed']} {officer['header']}\n"
             body += f"* {officer['fname']} {officer['lname']}, {officer['faction']} {officer['jobs']}\n"
         utils.rewrite_file(body, self._FILE_NAME)
+    
+    def get_officers(self):
+        return self._officers
+    
+    def check_officer(self, officer_seed):
+        return any(item["seed"] == officer_seed for item in self._officers)

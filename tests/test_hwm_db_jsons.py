@@ -39,7 +39,7 @@ def _test_dialog_seq():
     start_time = time.time()
 
     dia_seq_data = Dialog_Sequence_Constructor()
-    dia_seq_data.set_dialogs()
+    dia_seq_data._set_data()
     dia_seq_data.write_data()
 
     end_time = time.time()
@@ -74,15 +74,6 @@ def test_quests_write_data():
 
     end_time = time.time()
     print(f"Quest Line Test execution time is: {(end_time - start_time):.2f} seconds")
-
-def _test_quests_write_data_spc():
-    start_time = time.time()
-
-    quests_data = Quest_Constructor()
-    quests_data.write_data_spc()
-
-    end_time = time.time()
-    print(f"Missions execution time is: {(end_time - start_time):.2f} seconds")
 
 def _test_missions():
     start_time = time.time()

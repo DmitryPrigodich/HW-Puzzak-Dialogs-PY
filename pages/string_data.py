@@ -1,9 +1,5 @@
 import utils
-import json
-import logging
 from .base_page import Base_Page
-
-logger = logging.getLogger(__name__)
 
 class String_Data_Page(Base_Page):
     _LOCATOR = "#StringData-module"
@@ -24,21 +20,22 @@ class String_Data_Page(Base_Page):
 
         return self._strings
 
-
     def write_json(self):
-        json_data = json.dumps(self._strings, ensure_ascii=False)
-        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+        self._write_json(self._strings)
     
     def read_json(self):
-        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        self._strings = json.loads(json_data)
-        return self._strings
-    
+        return self._read_json(self._FILE_NAME_JSON)
+
+    def write_data(self):
+        body = "# HWM STRINGS:\n"
+        for string_header, string_text in self._strings.items():
+            body += f"* {string_header}: {string_text}\n"
+        utils.rewrite_file(body, self._FILE_NAME)
 
     def get_text_by_header(self, string_header):
         return self._strings.get(string_header)
 
+    # nothing to see here, just tried to sort a raw strings file
     def group_data(self):
         strings_groupped = {
             "Unsorted": []
@@ -191,9 +188,3 @@ class String_Data_Page(Base_Page):
             else:
                 string_data = {'head': string_header, 'text': string_text}
                 self._strings_groupped["Unsorted"].append(string_data)
-
-    def write_data(self):
-        body = "# HWM STRINGS:\n"
-        for string_header, string_text in self._strings.items():
-            body += f"* {string_header}: {string_text}\n"
-        utils.rewrite_file(body, self._FILE_NAME)

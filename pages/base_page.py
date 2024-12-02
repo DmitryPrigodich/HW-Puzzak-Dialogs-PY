@@ -1,7 +1,12 @@
 import constants
+import utils
+import json
 from playwright.sync_api import Page
 
 class Base_Page:
+    _FILE_NAME_JSON = ""
+
+
     def __init__(self, page: Page, locator):
         self.page = page
         self.page_url = constants.URL_HWM_DB
@@ -14,6 +19,16 @@ class Base_Page:
         self.page.click(locator)
         assert self.page.wait_for_selector("#entries > div:nth-child(1)")
 
+    def _read_json(self, json_file):
+        with open(json_file, 'r', encoding='utf-8') as file:
+            json_data = file.read()
+        return json.loads(json_data)
+    
+    def _write_json(self, json_input):
+        json_data = json.dumps(json_input, ensure_ascii=False)
+        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+    
+    
     def _get_list_elements_entries(self, data_text):
         list_elements_entries = self.page.query_selector_all('.entry')
         print(f"{data_text}: {len(list_elements_entries)} entries found")

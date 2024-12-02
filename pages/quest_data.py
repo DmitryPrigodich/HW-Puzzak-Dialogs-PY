@@ -1,10 +1,6 @@
 import utils
-import json
-import logging
 import constants
 from .base_page import Base_Page
-
-logger = logging.getLogger(__name__)
 
 class Quest_Data_Page(Base_Page):
     _LOCATOR = "#QuestData-module"
@@ -13,7 +9,6 @@ class Quest_Data_Page(Base_Page):
     _FILE_NAME_JSON = "json/quests.json"
 
     _quests = []
-
 
     def __init__(self, page):
         super().__init__(page, self._LOCATOR)
@@ -27,6 +22,40 @@ class Quest_Data_Page(Base_Page):
             }
             self._quests.append(quest)
 
+    def write_json(self):
+        self._write_json(self._quests)
+    
+    def read_json(self):
+        return self._read_json(self._FILE_NAME_JSON)
+    
+    def write_data(self):
+        body = "# HWM QUESTS:\n"
+        for quest in self._quests:
+            body += f"* {quest}\n"
+        utils.rewrite_file(body, self._FILE_NAME)
+    
+    def write_tags(self):
+        tags = []
+        tag_elements = self.page.query_selector_all("//b[@class='entryitemname']")
+
+        for tag_el in tag_elements:
+            tag = tag_el.inner_text().strip() if tag_el else "Unknown"
+            tags.append(tag.replace(':',''))
+        
+        tags = sorted(list(set(tags)))
+        utils.add_to_file("\n\n# HWM QUEST TAGS:\n", self._FILE_NAME)
+        for tag in tags:
+            utils.add_to_file(f"{tag}\n", self._FILE_NAME_TMP)
+    
+    def write_tag_values(self, tag):
+        tag_value_list = self.get_tag_values(tag)
+        
+        body = f"\n# HWM QUEST TAG '{tag}' VALUES:\n"
+        for value in tag_value_list:
+            body += (f"* {value}\n")
+        utils.add_to_file(body, self._FILE_NAME_TMP)
+
+    # there's common class for catching out tags, but I don't remember already why quest_data has separate function for it
     def get_tag_values(self, tag):
         final_value_list = []
         tag_value_elements = self.page.query_selector_all(constants.LOCATOR_ENTRYITEM_SPECIFIC.format(tag))
@@ -68,30 +97,3 @@ class Quest_Data_Page(Base_Page):
 
         final_value_list = sorted(list(set(final_value_list)))
         return final_value_list
-    
-    def write_tags(self):
-        tags = []
-        tag_elements = self.page.query_selector_all("//b[@class='entryitemname']")
-
-        for tag_el in tag_elements:
-            tag = tag_el.inner_text().strip() if tag_el else "Unknown"
-            tags.append(tag.replace(':',''))
-        
-        tags = sorted(list(set(tags)))
-        utils.add_to_file("\n\n# HWM QUEST TAGS:\n", self._FILE_NAME)
-        for tag in tags:
-            utils.add_to_file(f"{tag}\n", self._FILE_NAME_TMP)
-    
-    def write_tag_values(self, tag):
-        tag_value_list = self.get_tag_values(tag)
-        
-        body = f"\n# HWM QUEST TAG '{tag}' VALUES:\n"
-        for value in tag_value_list:
-            body += (f"* {value}\n")
-        utils.add_to_file(body, self._FILE_NAME_TMP)
-    
-    def write_data(self):
-        body = "# HWM QUESTS:\n"
-        for quest in self._quests:
-            body += f"* {quest}\n"
-        utils.rewrite_file(body, self._FILE_NAME)

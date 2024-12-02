@@ -1,7 +1,5 @@
 import utils
-import json
 import logging
-import constants
 from .base_page import Base_Page
 
 logger = logging.getLogger(__name__)
@@ -13,7 +11,6 @@ class Loading_Hint_Data_Page(Base_Page):
 
     _hints = []
 
-
     def __init__(self, page):
         super().__init__(page, self._LOCATOR)
 
@@ -23,23 +20,19 @@ class Loading_Hint_Data_Page(Base_Page):
             self._hints.append(hint_header)
 
     def write_json(self):
-        json_data = json.dumps(self._hints, ensure_ascii=False)
-        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+        self._write_json(self._hints)
     
     def read_json(self):
-        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        self._hints = json.loads(json_data)
-        return self._hints
-
-    def get_hints(self):
-        return self._hints
-    
-    def get_hint(self, hint):
-        return hint in self._hints
+        return self._read_json(self._FILE_NAME_JSON)
 
     def write_data(self):
         body = "# HWM HINTS:\n"
         for hint in self._hints:
             body += f"* {hint}\n"
         utils.rewrite_file(body, self._FILE_NAME)
+
+    def get_hints(self):
+        return self._hints
+    
+    def get_hint(self, hint):
+        return hint in self._hints

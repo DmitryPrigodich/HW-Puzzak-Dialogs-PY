@@ -1,9 +1,5 @@
 import utils
-import json
-import logging
 from .base_page import Base_Page
-
-logger = logging.getLogger(__name__)
 
 class Mission_Data_Page(Base_Page):
     _LOCATOR = "#MissionData-module"
@@ -27,23 +23,17 @@ class Mission_Data_Page(Base_Page):
             self._missions.append(mission)
 
     def write_json(self):
-        json_data = json.dumps(self._missions, ensure_ascii=False)
-        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+        self._write_json(self._missions)
     
     def read_json(self):
-        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        logger.log(json_data)
-        self._missions = json.loads(json_data)
-        logger.log(self._missions)
-        return self._missions
-
-    def get_missions(self):
-        return self._missions
+        return self._read_json(self._FILE_NAME_JSON)
 
     def write_data(self):
         body = "# HWM MISSIONS:\n"
         for mission in self._missions:
             body += f"* {mission['header']} : {mission['mode']}\n"
         utils.rewrite_file(body, self._FILE_NAME)
+
+    def get_missions(self):
+        return self._missions
 

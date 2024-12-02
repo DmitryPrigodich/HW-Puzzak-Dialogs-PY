@@ -1,9 +1,5 @@
 import utils
-import json
-import logging
 from .base_page import Base_Page
-
-logger = logging.getLogger(__name__)
 
 class Quest_Line_Data_Page(Base_Page):
     _LOCATOR = "#QuestLineData-module"
@@ -24,20 +20,10 @@ class Quest_Line_Data_Page(Base_Page):
         return self._quest_lines
     
     def write_json(self):
-        json_data = json.dumps(self._quest_lines, ensure_ascii=False)
-        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+        self._write_json(self._quest_lines)
     
     def read_json(self):
-        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        self._quest_lines = json.loads(json_data)
-        return self._quest_lines
-
-    def get_quest_lines(self):
-        return self._quest_lines
-    
-    def get_quests_by_quest_line(self, quest_line):
-        return self._quest_lines[quest_line]
+        return self._read_json(self._FILE_NAME_JSON)
 
     def write_data(self):
         body = "# HWM QUESTLINES:\n"
@@ -46,3 +32,9 @@ class Quest_Line_Data_Page(Base_Page):
             for quest in quests:
                 body += f"* {quest}\n"
         utils.rewrite_file(body, self._FILE_NAME)
+    
+    def get_quest_lines(self):
+        return self._quest_lines
+    
+    def get_quests_by_quest_line(self, quest_line):
+        return self._quest_lines[quest_line]

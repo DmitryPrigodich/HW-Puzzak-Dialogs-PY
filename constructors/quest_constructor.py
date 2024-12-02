@@ -141,44 +141,12 @@ class Quest_Constructor(Constructor_Base):
 
         utils.rewrite_file(body, self._FILE_NAME)
 
-    def write_data_spc(self):
-        body = "# HWM QUESTLINES WITH QUESTS\n\n"
-
-        for quest_line, quests in self._quest_line_quest_data.items():
-            body += f"\n## {quest_line}\n"
-
-            for quest in quests:
-                for quest_id, quest_tags in quest.items():
-
-                    quest_header = self.get_quest_header(quest_id)
-                    body += f"\n### {quest_id}: {quest_header}\n"
-
-                    quest_desc = self.get_quest_desc(quest_id)
-                    body += f"{quest_desc}\n"
-
-                    for qt_key, qt_value in quest_tags.items():
-                        if qt_key not in self._quest_tags_to_skip:
-                            body += f"\t* {qt_key}\t"
-                            if qt_key in ["FollowUps:"]:
-                                body += ", ".join(qt_value) + "\n"
-                            else:
-                                body += f"{qt_value.replace("\n", ", ")}\n"
-
-        utils.rewrite_file(body, self._FILE_NAME_TMP)
-
-
     def set_quest_lines(self):
         for ql_key, ql_value in self._quest_line_data.items():
             self._quest_lines.append(ql_key)
         self._quest_lines = sorted(self._quest_lines)
         return self._quest_lines
-
-    def get_quests_by_quest_line(quest_line_id):
-        quests = []
-            # ql_event_yaot_spring_2023
-            # qe_yaot_spring_2023_day1
-        return quests
-    
+   
     def get_quest_line_by_quest_id(self, quest_id):
         for quest_line_id, quest_line_tags in self._quest_line_data.items():
             if quest_id in quest_line_tags.get("QuestIds:").split(":"):
@@ -198,7 +166,6 @@ class Quest_Constructor(Constructor_Base):
             return quest_header.get('en:')    
         
         return f"No header for quest {quest_id}"
-        
     
     def get_quest_desc(self, quest_id):
         quest_desc = self._string_data.get(f"desc_{quest_id}")
@@ -210,17 +177,12 @@ class Quest_Constructor(Constructor_Base):
             return quest_desc.get('en:')       
         
         return f"No description for quest {quest_id}"
-    
-    # dia_iyaFal_2023_day01_end_1
-    # dia_iyaFal_2023_epi05_end_1
 
-
+    # I think for my needs only "CompleteQuest","CompleteMission","GoTo" required
     _goal_types = [
         "ChangeName","SelectKiith","JoinClan","PlaceOrbital","CompleteQuest","CompleteMission","StartCraft","ChargeScanner"
         ,"GoTo","UpgradeOfficer","Scan","Statistic","Pay","Buy","Craft","Equip","GainItem"
         ]
-    _goal_types_to_stay = ["SelectKiith","CompleteQuest","CompleteMission","GoTo"]
-        
     
     def _get_goals_w_params_rearranged(self, goals_str, goal_params_str):
         goals_final = {}

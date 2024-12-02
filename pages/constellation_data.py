@@ -1,5 +1,4 @@
 import utils
-import json
 import constants
 from .base_page import Base_Page
 
@@ -46,26 +45,13 @@ class Constellation_Data_Page(Base_Page):
                         'faction': faction
                     }
                     self._star_system_by_coordinates[coordinates] = star_system
-
     
     def write_json(self):
-        json_data = json.dumps(self._star_system_by_coordinates, ensure_ascii=False)
-        utils.rewrite_file(json_data, self._FILE_NAME_JSON)
+        self._write_json(self._star_system_by_coordinates)
     
     def read_json(self):
-        with open(self._FILE_NAME_JSON, 'r', encoding='utf-8') as file:
-            json_data = file.read()
-        self._star_system_by_coordinates = json.loads(json_data)
-        return self._star_system_by_coordinates
-    
-    def get_star_system_by_coordinates(self, coordinates):
-        system = self._star_system_by_coordinates.get(coordinates)
-        if system:
-            print(f"{system['faction']}: {system['name']} System")
-        else:
-            print("Location Unknown")
-        return system
-    
+        return self._read_json(self._FILE_NAME_JSON)
+        
     def write_data(self):
         body = "# NIMBUS KNOWN STAR SYSTEMS\n"
         body += "Systems Finder is working but not all the systems are present in Constellation Data\n\n"
@@ -73,3 +59,11 @@ class Constellation_Data_Page(Base_Page):
         for coords, system in self._star_system_by_coordinates.items():
             body += f"* {system['faction']} : {system['name']} : {system['coordinates']}\n"
         utils.rewrite_file(body, self._FILE_NAME)
+
+    def get_star_system_by_coordinates(self, coordinates):
+        system = self._star_system_by_coordinates.get(coordinates)
+        if system:
+            print(f"{system['faction']}: {system['name']} System")
+        else:
+            print("Location Unknown")
+        return system
