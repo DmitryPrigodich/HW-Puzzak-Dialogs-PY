@@ -1,4 +1,5 @@
 import json
+import re
 
 def rewrite_file(value, file_name):
     try:
@@ -53,3 +54,8 @@ def get_corrected_faction_name(faction):
             return "Clans"
         case _:
             return faction
+        
+def remove_color(text):
+    pattern = r"<color.*?</color>"
+    clean_text = re.sub(pattern, "", text, flags=re.DOTALL)
+    return clean_text

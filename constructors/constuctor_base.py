@@ -3,12 +3,16 @@ import utils
 
 class Constructor_Base:
     _FILE_NAME_JSON = ""
-    _STRING_DATA_JSON = "json_bak/StringData-module.json"
-    _string_data = {}
 
+    _STRING_DATA_JSON = "json_bak/StringData-module.json"
+    _STAR_MAP_DATA_JSON = "json/starmap.json"
+
+    _string_data = {}
+    _star_map = {}
 
     def __init__(self):
         self._string_data = self._read_json(self._STRING_DATA_JSON)
+        self._star_map = self._read_json(self._STAR_MAP_DATA_JSON)
 
     def clean_file(self, file_name):
         utils.rewrite_file("", file_name)
@@ -25,3 +29,11 @@ class Constructor_Base:
     def set_string_data(self):
         self._string_data = self._read_json(self._STRING_DATA_JSON)
         self._string_data = {k.lower(): v for k, v in self._string_data.items()}
+
+    def get_string(self, key):
+        if key in self._string_data:
+            return self._string_data.get(key)["en:"]
+        return None
+    
+    def get_star_system(self, coords):
+        return self._star_map.get(coords)
