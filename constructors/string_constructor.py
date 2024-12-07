@@ -2,12 +2,16 @@ from .constuctor_base import Constructor_Base
 
 class String_Data_Constructor(Constructor_Base):
     FILE_NAME = "data/STRINGS.md"
+    _FILE_NAME_JSON = "json/strings.json"
 
     def __init__(self):
         super().__init__()
-    
-    def get_string_by_key(self, key):
-        return self._string_data.get(key)['en:']
+
+    def write_json():
+        do = "nothing"
+
+    def write_data():
+        do = "nothing"
     
     def get_cinematics_lines(self, cinematic_id):
         cine_body = ""

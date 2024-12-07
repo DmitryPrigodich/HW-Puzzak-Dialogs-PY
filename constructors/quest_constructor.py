@@ -254,15 +254,15 @@ class Quest_Constructor(Constructor_Base):
                         if "Ids" in goal.get('GoalParam:'):
                             mission_ids = goal.get('GoalParam:')['Ids'].split("|")
                             if len(list(mission_ids)) == 1:
-                                goal_text += f"Complete mission '{self.get_string(mission_ids)}'\n"
+                                goal_text += f"Complete mission '{self.get_string_by_key(mission_ids)}'\n"
                             else:
                                 goal_text += "Complete missions:\n"
                                 for mission_id in list(mission_ids):
-                                    goal_text += f"\t\t* '{self.get_string(mission_id)}'\n"
+                                    goal_text += f"\t\t* '{self.get_string_by_key(mission_id)}'\n"
 
                         elif "Id" in goal.get('GoalParam:'):
                             q_id = goal.get('GoalParam:')['Id']
-                            q_id_name = self.get_string(q_id)
+                            q_id_name = self.get_string_by_key(q_id)
                             if not q_id_name:
                                 q_id_name = q_id
                             goal_text += f"Complete mission '{q_id_name}'\n"
@@ -279,7 +279,7 @@ class Quest_Constructor(Constructor_Base):
                     case "CompleteQuest":
                         if "Id" in goal.get('GoalParam:'):
                             q_id = goal.get('GoalParam:')['Id']
-                            q_id_name = self.get_string(q_id)
+                            q_id_name = self.get_string_by_key(q_id)
                             goal_text += f"Complete quest '{q_id_name}'\n"
 
                         elif "Ids" in goal.get('GoalParam:'):
@@ -288,7 +288,7 @@ class Quest_Constructor(Constructor_Base):
                                 gp_amount = goal.get('GoalParam:')['Amount']
                                 goal_text += f"Complete {gp_amount} of {q_ids}\n"
                             else:
-                                q_id_name = self.get_string(q_ids)
+                                q_id_name = self.get_string_by_key(q_ids)
                                 goal_text += f"Complete quest '{q_id_name}'\n"
 
                         else:
@@ -308,7 +308,7 @@ class Quest_Constructor(Constructor_Base):
                         pay_id = goal.get('GoalParam:')['Id']
                         if pay_id.startswith("hgn_"):
                             pay_id = pay_id[:-1].replace("_t","_tX")
-                        pay_id_name = self.get_string(pay_id)
+                        pay_id_name = self.get_string_by_key(pay_id)
                         pay_amount = goal.get('GoalParam:')['Amount']
 
                         goal_text += f"{goal_type} {pay_amount} {pay_id_name}"

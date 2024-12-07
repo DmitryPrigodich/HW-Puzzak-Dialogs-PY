@@ -30,7 +30,7 @@ class Constructor_Base:
         self._string_data = self._read_json(self._STRING_DATA_JSON)
         self._string_data = {k.lower(): v for k, v in self._string_data.items()}
 
-    def get_string(self, key):
+    def get_string_by_key(self, key):
         if key in self._string_data:
             return self._string_data.get(key)["en:"]
         return None
