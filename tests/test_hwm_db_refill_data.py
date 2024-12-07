@@ -1,14 +1,15 @@
 import time
 
 from constructors.string_constructor import String_Data_Constructor
+from constructors.hints_constructor import Hint_Data_Constructor
+
 from constructors.star_map_constructor import Star_Map_Constructor
 from constructors.quest_constructor import Quest_Constructor
-
 from constructors.dia_seq_constructor import Dialog_Sequence_Constructor
-
 from constructors.mission_constructor import Mission_Constructor
 from constructors.mission_step_constructor import Mission_Step_Constructor
 from constructors.mission_step_actions_constructor import Mission_Step_Actions_Constructor
+
 
 def test_refill_string_data():
     start_time = time.time()
@@ -16,7 +17,16 @@ def test_refill_string_data():
     string_data = String_Data_Constructor()
     string_data.write_json()
     string_data.write_data()
-    string_data.write_hints()
+
+    end_time = time.time()
+    print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
+
+def test_refill_hint_data():
+    start_time = time.time()
+
+    hint_data = Hint_Data_Constructor()
+    hint_data.write_json()
+    hint_data.write_data()
 
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")

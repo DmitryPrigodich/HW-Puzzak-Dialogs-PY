@@ -1,17 +1,29 @@
+import utils
 from .constuctor_base import Constructor_Base
 
 class String_Data_Constructor(Constructor_Base):
-    FILE_NAME = "data/STRINGS.md"
+    _FILE_NAME = "data/STRINGS.md"
     _FILE_NAME_JSON = "json/strings.json"
+
+    _strings = {}
 
     def __init__(self):
         super().__init__()
 
-    def write_json():
-        do = "nothing"
+        self._set_data()
 
-    def write_data():
-        do = "nothing"
+    def _set_data(self):
+        for string_header, string_tags in self._string_data.items():
+            self._strings[string_header] = string_tags.get('en:')
+    
+    def write_json(self):
+        self._write_json(self._strings)
+
+    def write_data(self):
+        body = "# HWM STRINGS:\n"
+        for string_header, string_text in self._strings.items():
+            body += f"* {string_header}: {string_text}\n"
+        utils.rewrite_file(body, self._FILE_NAME)
     
     def get_cinematics_lines(self, cinematic_id):
         cine_body = ""
