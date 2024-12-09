@@ -1,4 +1,3 @@
-
 # HWM MISSION STEPS SPECIFIED
 
 ## debug_empty_Start
@@ -10,7 +9,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_debug_AiBehavior_prefTarget_playerEscort
 		* h_debug_AiBehavior_wave_0
 
@@ -18,7 +17,7 @@
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_debug_LootDrops_GAMA_0
 		* h_debug_LootDrops_GAMA_2
 		* h_debug_LootDrops_GAMA_4
@@ -32,77 +31,67 @@
 	* StepId: 1
 	* Type: TriggerRepeating
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_debug_LootDrops_GAMA_1
+	* SuccLL: h_debug_LootDrops_GAMA_1
 
 ## h_debug_LootDrops_t_KillEpic
 	* StepId: 7
 	* Type: TriggerRepeating
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_debug_LootDrops_GAMA_7
+	* SuccLL: h_debug_LootDrops_GAMA_7
 
 ## h_debug_LootDrops_t_KillRare
 	* StepId: 5
 	* Type: TriggerRepeating
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_debug_LootDrops_GAMA_5
+	* SuccLL: h_debug_LootDrops_GAMA_5
 
 ## h_debug_LootDrops_t_KillUncommon
 	* StepId: 3
 	* Type: TriggerRepeating
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_debug_LootDrops_GAMA_3
+	* SuccLL: h_debug_LootDrops_GAMA_3
 
 ## h_debug_LootDrops_w01
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_debug_LootDrops_a_respawnCommon
+	* SuccLL: h_debug_LootDrops_a_respawnCommon
 
 ## h_debug_LootDrops_w02
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_debug_LootDrops_a_respawnUncommon
+	* SuccLL: h_debug_LootDrops_a_respawnUncommon
 
 ## h_debug_LootDrops_w03
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_debug_LootDrops_a_respawnRare
+	* SuccLL: h_debug_LootDrops_a_respawnRare
 
 ## h_debug_LootDrops_w04
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_debug_LootDrops_a_respawnEpic
+	* SuccLL: h_debug_LootDrops_a_respawnEpic
 
 ## h_debug_rareMissionReward_reachPos
 	* StepId: 1
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_debug_rareMissionReward_finishMission
+	* SuccLL: h_debug_rareMissionReward_finishMission
 
 ## h_debug_rareMissionReward_Start
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
-		* h_debug_rareMissionReward_GAMA_0
+	* SuccLL: h_debug_rareMissionReward_GAMA_0
 
 ## h_debug_SimSpawnErrors_Start
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_debug_SimSpawnErrors_GAMA_0
 		* h_debug_SimSpawnErrors_GAMA_1
 		* h_debug_SimSpawnErrors_GAMA_2
@@ -116,35 +105,31 @@
 	* StepId: 1
 	* Type: TriggerRepeating
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_debug_SimSpawnErrors_a_respawnCommon
+	* SuccLL: h_debug_SimSpawnErrors_a_respawnCommon
 
 ## h_debug_SimSpawnErrors_t_KillEpic
 	* StepId: 4
 	* Type: TriggerRepeating
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_debug_SimSpawnErrors_a_respawnEpic
+	* SuccLL: h_debug_SimSpawnErrors_a_respawnEpic
 
 ## h_debug_SimSpawnErrors_t_KillRare
 	* StepId: 3
 	* Type: TriggerRepeating
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_debug_SimSpawnErrors_a_respawnRare
+	* SuccLL: h_debug_SimSpawnErrors_a_respawnRare
 
 ## h_debug_SimSpawnErrors_t_KillUncommon
 	* StepId: 2
 	* Type: TriggerRepeating
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_debug_SimSpawnErrors_a_respawnUncommon
+	* SuccLL: h_debug_SimSpawnErrors_a_respawnUncommon
 
 ## h_debug_spawnSingleEnemy_Start
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_debug_spawnSingleEnemy_GAMA_0
 		* h_debug_spawnSingleEnemy_spawnWave1
 		* h_debug_spawnSingleEnemy_spawnWave2
@@ -159,14 +144,13 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
-		* h_debug_Test_GAMA_0
+	* SuccLL: h_debug_Test_GAMA_0
 
 ## h_debug_Test_w_intro
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_debug_Test_GAMA_1
 		* h_debug_Test_lookAt_intro
 		* h_debug_Test_spawn_wave
@@ -175,18 +159,16 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_debug_Test_position_wave
+	* SuccLL: h_debug_Test_position_wave
 
 ## h_event_anniversary2023_Wiracoda_9cce832fae199bd43a0a8cd2e23ed239
 	* StepId: 79
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_anniversary2023_Wiracoda_td_deviceKilled
 		* h_event_anniversary2023_Wiracoda_w_failForce
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_fail
+	* SuccLL: h_event_anniversary2023_Wiracoda_fail
 
 ## h_event_anniversary2023_Wiracoda_goal_connect
 	* StepId: 10
@@ -197,7 +179,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_8
 		* h_event_anniversary2023_Wiracoda_d_connection
 		* h_event_anniversary2023_Wiracoda_deactivate_device2
@@ -221,7 +203,7 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_23
 		* h_event_anniversary2023_Wiracoda_GAMA_57
 		* h_event_anniversary2023_Wiracoda_GAMA_58
@@ -230,7 +212,7 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_24
 		* h_event_anniversary2023_Wiracoda_fow_offMalikSequence
 
@@ -238,7 +220,7 @@
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_36
 		* h_event_anniversary2023_Wiracoda_GAMA_48
 
@@ -246,7 +228,7 @@
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_39
 		* h_event_anniversary2023_Wiracoda_GAMA_43
 
@@ -254,7 +236,7 @@
 	* StepId: 59
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_59
 		* h_event_anniversary2023_Wiracoda_armor_cate50
 		* h_event_anniversary2023_Wiracoda_health_cate50
@@ -265,7 +247,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_2
 		* h_event_anniversary2023_Wiracoda_GAMA_3
 
@@ -273,7 +255,7 @@
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_49
 		* h_event_anniversary2023_Wiracoda_health_malikRegenA1
 		* h_event_anniversary2023_Wiracoda_vfx_malikRegenA1
@@ -283,7 +265,7 @@
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_44
 		* h_event_anniversary2023_Wiracoda_health_malikRegenB1
 		* h_event_anniversary2023_Wiracoda_vfx_malikRegen2
@@ -293,14 +275,13 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_ally_device
+	* SuccLL: h_event_anniversary2023_Wiracoda_ally_device
 
 ## h_event_anniversary2023_Wiracoda_kill_device
 	* StepId: 77
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_77
 		* h_event_anniversary2023_Wiracoda_deactivate_goals
 
@@ -308,10 +289,10 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_anniversary2023_Wiracoda_td_control
 		* h_event_anniversary2023_Wiracoda_w_dControl
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_16
 		* h_event_anniversary2023_Wiracoda_deactivate_killDevice
 		* h_event_anniversary2023_Wiracoda_invincible_device
@@ -320,10 +301,10 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_anniversary2023_Wiracoda_td_progRetreating
 		* h_event_anniversary2023_Wiracoda_w_dProgRetreating
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_15
 		* h_event_anniversary2023_Wiracoda_GAMA_70
 		* h_event_anniversary2023_Wiracoda_GAMA_71
@@ -333,27 +314,25 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_anniversary2023_Wiracoda_td_escape
 		* h_event_anniversary2023_Wiracoda_w_fin
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_fin_jumpOut
+	* SuccLL: h_event_anniversary2023_Wiracoda_fin_jumpOut
 
 ## h_event_anniversary2023_Wiracoda_multi_malikCombat
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_anniversary2023_Wiracoda_td_cateRetreating
 		* h_event_anniversary2023_Wiracoda_w_cateRetreating2
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_GAMA_32
+	* SuccLL: h_event_anniversary2023_Wiracoda_GAMA_32
 
 ## h_event_anniversary2023_Wiracoda_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_0
 		* h_event_anniversary2023_Wiracoda_GAMA_1
 
@@ -381,8 +360,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_GAMA_5
+	* SuccLL: h_event_anniversary2023_Wiracoda_GAMA_5
 
 ## h_event_anniversary2023_Wiracoda_td_progRetreating
 	* StepId: 74
@@ -393,14 +371,13 @@
 	* StepId: 82
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_activate_device
+	* SuccLL: h_event_anniversary2023_Wiracoda_activate_device
 
 ## h_event_anniversary2023_Wiracoda_w_activateMalik
 	* StepId: 56
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_activate_malik
 		* h_event_anniversary2023_Wiracoda_activate_player
 
@@ -408,7 +385,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_11
 		* h_event_anniversary2023_Wiracoda_GAMA_75
 		* h_event_anniversary2023_Wiracoda_wave_0
@@ -417,7 +394,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_12
 		* h_event_anniversary2023_Wiracoda_wave_1
 
@@ -425,7 +402,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_13
 		* h_event_anniversary2023_Wiracoda_wave_2
 
@@ -433,7 +410,7 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_18
 		* h_event_anniversary2023_Wiracoda_GAMA_64
 		* h_event_anniversary2023_Wiracoda_d_cateIncoming
@@ -443,7 +420,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_19
 		* h_event_anniversary2023_Wiracoda_d_deviceLost
 
@@ -451,14 +428,13 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_GAMA_20
+	* SuccLL: h_event_anniversary2023_Wiracoda_GAMA_20
 
 ## h_event_anniversary2023_Wiracoda_w_cate5
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_21
 		* h_event_anniversary2023_Wiracoda_GAMA_22
 		* h_event_anniversary2023_Wiracoda_activate_everything1
@@ -469,7 +445,7 @@
 	* StepId: 60
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_60
 		* h_event_anniversary2023_Wiracoda_armor_cate60
 		* h_event_anniversary2023_Wiracoda_health_cate60
@@ -478,7 +454,7 @@
 	* StepId: 61
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_61
 		* h_event_anniversary2023_Wiracoda_armor_cate70
 		* h_event_anniversary2023_Wiracoda_health_cate70
@@ -487,7 +463,7 @@
 	* StepId: 62
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_62
 		* h_event_anniversary2023_Wiracoda_armor_cate80
 		* h_event_anniversary2023_Wiracoda_health_cate80
@@ -496,7 +472,7 @@
 	* StepId: 63
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_63
 		* h_event_anniversary2023_Wiracoda_armor_cate90
 		* h_event_anniversary2023_Wiracoda_health_cate90
@@ -505,7 +481,7 @@
 	* StepId: 64
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_armor_cate100
 		* h_event_anniversary2023_Wiracoda_health_cate100
 
@@ -513,7 +489,7 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_31
 		* h_event_anniversary2023_Wiracoda_GAMA_53
 		* h_event_anniversary2023_Wiracoda_GAMA_54
@@ -532,7 +508,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_17
 		* h_event_anniversary2023_Wiracoda_GAMA_66
 		* h_event_anniversary2023_Wiracoda_camera_cate
@@ -543,7 +519,7 @@
 	* StepId: 67
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_67
 		* h_event_anniversary2023_Wiracoda_deactivate_cate
 		* h_event_anniversary2023_Wiracoda_invincible_cate5
@@ -553,7 +529,7 @@
 	* StepId: 68
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_68
 		* h_event_anniversary2023_Wiracoda_deactivate_pirates1
 		* h_event_anniversary2023_Wiracoda_wave_4
@@ -562,7 +538,7 @@
 	* StepId: 69
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_69
 		* h_event_anniversary2023_Wiracoda_deactivate_pirates2
 		* h_event_anniversary2023_Wiracoda_wave_5
@@ -571,7 +547,7 @@
 	* StepId: 70
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_deactivate_pirates3
 		* h_event_anniversary2023_Wiracoda_wave_6
 		* h_event_anniversary2023_Wiracoda_wave_7
@@ -580,7 +556,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_10
 		* h_event_anniversary2023_Wiracoda_GAMA_76
 		* h_event_anniversary2023_Wiracoda_GAMA_9
@@ -589,8 +565,7 @@
 	* StepId: 58
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_d_cateFiller
+	* SuccLL: h_event_anniversary2023_Wiracoda_d_cateFiller
 
 ## h_event_anniversary2023_Wiracoda_w_dControl
 	* StepId: 71
@@ -601,7 +576,7 @@
 	* StepId: 65
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_65
 		* h_event_anniversary2023_Wiracoda_activate_ally
 		* h_event_anniversary2023_Wiracoda_activate_pirates
@@ -611,7 +586,7 @@
 	* StepId: 66
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_deactivate_piratesLast
 		* h_event_anniversary2023_Wiracoda_health_killDevice
 
@@ -624,7 +599,7 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_40
 		* h_event_anniversary2023_Wiracoda_GAMA_41
 		* h_event_anniversary2023_Wiracoda_GAMA_42
@@ -636,7 +611,7 @@
 	* StepId: 78
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_78
 		* h_event_anniversary2023_Wiracoda_GAMA_79
 		* h_event_anniversary2023_Wiracoda_GAMA_80
@@ -656,7 +631,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_4
 		* h_event_anniversary2023_Wiracoda_d_intro
 
@@ -664,7 +639,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_6
 		* h_event_anniversary2023_Wiracoda_GAMA_7
 		* h_event_anniversary2023_Wiracoda_GAMA_81
@@ -674,7 +649,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_deactivate_device1
 		* h_event_anniversary2023_Wiracoda_lookAt_gate
 
@@ -682,7 +657,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_26
 		* h_event_anniversary2023_Wiracoda_d_malikA
 
@@ -690,7 +665,7 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_27
 		* h_event_anniversary2023_Wiracoda_d_malikB
 
@@ -698,7 +673,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_28
 		* h_event_anniversary2023_Wiracoda_GAMA_55
 		* h_event_anniversary2023_Wiracoda_d_malikC
@@ -707,7 +682,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_29
 		* h_event_anniversary2023_Wiracoda_d_malikComment
 
@@ -715,7 +690,7 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_30
 		* h_event_anniversary2023_Wiracoda_wave_10
 
@@ -723,7 +698,7 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_33
 		* h_event_anniversary2023_Wiracoda_GAMA_34
 		* h_event_anniversary2023_Wiracoda_d_standGround
@@ -732,7 +707,7 @@
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_37
 		* h_event_anniversary2023_Wiracoda_d_regeneration
 
@@ -740,32 +715,27 @@
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_GAMA_38
+	* SuccLL: h_event_anniversary2023_Wiracoda_GAMA_38
 
 ## h_event_anniversary2023_Wiracoda_w_malikRegenA1
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_GAMA_50
-	* FailLL:
-		* h_event_anniversary2023_Wiracoda_health_malikRegenA2
+	* SuccLL: h_event_anniversary2023_Wiracoda_GAMA_50
+	* FailLL: h_event_anniversary2023_Wiracoda_health_malikRegenA2
 
 ## h_event_anniversary2023_Wiracoda_w_malikRegenA2
 	* StepId: 51
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_GAMA_51
-	* FailLL:
-		* h_event_anniversary2023_Wiracoda_health_malikRegenA3
+	* SuccLL: h_event_anniversary2023_Wiracoda_GAMA_51
+	* FailLL: h_event_anniversary2023_Wiracoda_health_malikRegenA3
 
 ## h_event_anniversary2023_Wiracoda_w_malikRegenA3
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_52
 		* h_event_anniversary2023_Wiracoda_health_malikRegenA4
 
@@ -773,14 +743,13 @@
 	* StepId: 53
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_health_malikRegenA5
+	* SuccLL: h_event_anniversary2023_Wiracoda_health_malikRegenA5
 
 ## h_event_anniversary2023_Wiracoda_w_malikRegenB1
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_45
 		* h_event_anniversary2023_Wiracoda_health_malikRegenB2
 
@@ -788,7 +757,7 @@
 	* StepId: 46
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_46
 		* h_event_anniversary2023_Wiracoda_health_malikRegenB3
 
@@ -796,7 +765,7 @@
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_47
 		* h_event_anniversary2023_Wiracoda_health_malikRegenB4
 
@@ -804,21 +773,19 @@
 	* StepId: 48
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_health_malikRegenB5
+	* SuccLL: h_event_anniversary2023_Wiracoda_health_malikRegenB5
 
 ## h_event_anniversary2023_Wiracoda_w_malikRegenCheck
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_GAMA_35
+	* SuccLL: h_event_anniversary2023_Wiracoda_GAMA_35
 
 ## h_event_anniversary2023_Wiracoda_w_malikSequence
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_25
 		* h_event_anniversary2023_Wiracoda_GAMA_56
 		* h_event_anniversary2023_Wiracoda_camera_malik
@@ -828,7 +795,7 @@
 	* StepId: 57
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_deactivate_everything2
 		* h_event_anniversary2023_Wiracoda_invincible_Malik
 		* h_event_anniversary2023_Wiracoda_wave_malik
@@ -837,14 +804,13 @@
 	* StepId: 76
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_d_progIncoming
+	* SuccLL: h_event_anniversary2023_Wiracoda_d_progIncoming
 
 ## h_event_anniversary2023_Wiracoda_w_progRetreating1
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_anniversary2023_Wiracoda_GAMA_14
 		* h_event_anniversary2023_Wiracoda_GAMA_72
 		* h_event_anniversary2023_Wiracoda_GAMA_73
@@ -855,17 +821,16 @@
 	* StepId: 75
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_anniversary2023_Wiracoda_d_progRetreating
+	* SuccLL: h_event_anniversary2023_Wiracoda_d_progRetreating
 
 ## h_event_halloween2023_Rashidun_61d61b659b0b18c4a9556c108f15f0e8
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_halloween2023_Rashidun_td_malikDeath
 		* h_event_halloween2023_Rashidun_w_malikDeathDialog
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_17
 		* h_event_halloween2023_Rashidun_close_malikDeath
 
@@ -873,10 +838,10 @@
 	* StepId: 11
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_halloween2023_Rashidun_kill_derelict1
 		* h_event_halloween2023_Rashidun_kill_derelict2
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_11
 		* h_event_halloween2023_Rashidun_desctivate_healthCheckMalikB
 
@@ -884,14 +849,13 @@
 	* StepId: 13
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_event_halloween2023_Rashidun_w_killMalik
+	* TVS: h_event_halloween2023_Rashidun_w_killMalik
 
 ## h_event_halloween2023_Rashidun_healthCheack_malikDeath
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_16
 		* h_event_halloween2023_Rashidun_GAMA_20
 		* h_event_halloween2023_Rashidun_GAMA_21
@@ -902,7 +866,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_29
 		* h_event_halloween2023_Rashidun_invincible_derelictBBuffer1
 		* h_event_halloween2023_Rashidun_kill_derelictA
@@ -912,7 +876,7 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_27
 		* h_event_halloween2023_Rashidun_GAMA_30
 		* h_event_halloween2023_Rashidun_wave_derelictAWave
@@ -921,7 +885,7 @@
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_34
 		* h_event_halloween2023_Rashidun_invincible_derelictABuffer1
 		* h_event_halloween2023_Rashidun_kill_derelictB
@@ -931,7 +895,7 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_32
 		* h_event_halloween2023_Rashidun_GAMA_35
 		* h_event_halloween2023_Rashidun_wave_derelictBWave
@@ -940,7 +904,7 @@
 	* StepId: 38
 	* Type: TriggerRepeating
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_38
 		* h_event_halloween2023_Rashidun_GAMA_42
 		* h_event_halloween2023_Rashidun_health_malikA1
@@ -951,7 +915,7 @@
 	* StepId: 44
 	* Type: TriggerRepeating
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_44
 		* h_event_halloween2023_Rashidun_GAMA_48
 		* h_event_halloween2023_Rashidun_health_malikB1
@@ -962,7 +926,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_15
 		* h_event_halloween2023_Rashidun_d_malikDestroyB
 		* h_event_halloween2023_Rashidun_invincible_malikLast
@@ -971,7 +935,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_10
 		* h_event_halloween2023_Rashidun_GAMA_22
 		* h_event_halloween2023_Rashidun_GAMA_24
@@ -983,7 +947,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_1
 		* h_event_halloween2023_Rashidun_GAMA_2
 
@@ -991,7 +955,7 @@
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_37
 		* h_event_halloween2023_Rashidun_GAMA_43
 
@@ -999,7 +963,7 @@
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_invincible_derelictA
 		* h_event_halloween2023_Rashidun_invincible_derelictB
 		* h_event_halloween2023_Rashidun_wave_derelictA
@@ -1019,10 +983,10 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_halloween2023_Rashidun_kill_derelict1
 		* h_event_halloween2023_Rashidun_kill_derelict2
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_23
 		* h_event_halloween2023_Rashidun_desctivate_healthCheckMalikA
 
@@ -1030,7 +994,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_0
 		* h_event_halloween2023_Rashidun_GAMA_51
 
@@ -1038,8 +1002,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_GAMA_4
+	* SuccLL: h_event_halloween2023_Rashidun_GAMA_4
 
 ## h_event_halloween2023_Rashidun_td_malikDeath
 	* StepId: 22
@@ -1050,21 +1013,19 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_fin
+	* SuccLL: h_event_halloween2023_Rashidun_fin
 
 ## h_event_halloween2023_Rashidun_w_activate
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_activate_everything
+	* SuccLL: h_event_halloween2023_Rashidun_activate_everything
 
 ## h_event_halloween2023_Rashidun_w_derelictABuffer
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_28
 		* h_event_halloween2023_Rashidun_invincible_derelictA2
 
@@ -1072,21 +1033,19 @@
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_invincible_derelictABuffer2
+	* SuccLL: h_event_halloween2023_Rashidun_invincible_derelictABuffer2
 
 ## h_event_halloween2023_Rashidun_w_derelictAWave
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_d_derelictAWave
+	* SuccLL: h_event_halloween2023_Rashidun_d_derelictAWave
 
 ## h_event_halloween2023_Rashidun_w_derelictBBuffer
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_33
 		* h_event_halloween2023_Rashidun_invincible_derelictB2
 
@@ -1094,21 +1053,19 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_invincible_derelictBBuffer2
+	* SuccLL: h_event_halloween2023_Rashidun_invincible_derelictBBuffer2
 
 ## h_event_halloween2023_Rashidun_w_derelictBWave
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_d_derelictBWave
+	* SuccLL: h_event_halloween2023_Rashidun_d_derelictBWave
 
 ## h_event_halloween2023_Rashidun_w_intro1
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_deactivate_everything
 		* h_event_halloween2023_Rashidun_lookAt_center
 
@@ -1116,7 +1073,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_3
 		* h_event_halloween2023_Rashidun_d_intro
 		* h_event_halloween2023_Rashidun_deactivate_everything2
@@ -1125,7 +1082,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_12
 		* h_event_halloween2023_Rashidun_GAMA_13
 		* h_event_halloween2023_Rashidun_d_relictDownB
@@ -1134,7 +1091,7 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_d_derelictDownA
 		* h_event_halloween2023_Rashidun_invincible_malikWeakened
 
@@ -1142,7 +1099,7 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_18
 		* h_event_halloween2023_Rashidun_kill_malik
 		* h_event_halloween2023_Rashidun_remove_enemies
@@ -1157,7 +1114,7 @@
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_39
 		* h_event_halloween2023_Rashidun_health_malikA2
 
@@ -1165,7 +1122,7 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_40
 		* h_event_halloween2023_Rashidun_health_malikA3
 
@@ -1173,7 +1130,7 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_41
 		* h_event_halloween2023_Rashidun_health_malikA4
 
@@ -1181,21 +1138,19 @@
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_health_malikA5
+	* SuccLL: h_event_halloween2023_Rashidun_health_malikA5
 
 ## h_event_halloween2023_Rashidun_w_malikRegenADialog
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_d_malikRegenA
+	* SuccLL: h_event_halloween2023_Rashidun_d_malikRegenA
 
 ## h_event_halloween2023_Rashidun_w_malikRegenB1
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_45
 		* h_event_halloween2023_Rashidun_health_malikB2
 
@@ -1203,7 +1158,7 @@
 	* StepId: 46
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_46
 		* h_event_halloween2023_Rashidun_health_malikB3
 
@@ -1211,7 +1166,7 @@
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_47
 		* h_event_halloween2023_Rashidun_health_malikB4
 
@@ -1219,21 +1174,19 @@
 	* StepId: 48
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_health_malikB5
+	* SuccLL: h_event_halloween2023_Rashidun_health_malikB5
 
 ## h_event_halloween2023_Rashidun_w_malikRegenBDialog
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_d_
+	* SuccLL: h_event_halloween2023_Rashidun_d_
 
 ## h_event_halloween2023_Rashidun_w_malikSequence1
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_5
 		* h_event_halloween2023_Rashidun_GAMA_50
 		* h_event_halloween2023_Rashidun_camera_malik
@@ -1243,7 +1196,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_6
 		* h_event_halloween2023_Rashidun_d_malikSee
 
@@ -1251,7 +1204,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_49
 		* h_event_halloween2023_Rashidun_GAMA_7
 		* h_event_halloween2023_Rashidun_d_malikDestroy2
@@ -1260,7 +1213,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_8
 		* h_event_halloween2023_Rashidun_wave_malikWave
 
@@ -1268,7 +1221,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_36
 		* h_event_halloween2023_Rashidun_GAMA_9
 		* h_event_halloween2023_Rashidun_d_combat
@@ -1277,7 +1230,7 @@
 	* StepId: 51
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_deactivate_malik
 		* h_event_halloween2023_Rashidun_invincible_malik
 		* h_event_halloween2023_Rashidun_wave_malik
@@ -1286,7 +1239,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_halloween2023_Rashidun_GAMA_19
 		* h_event_halloween2023_Rashidun_d_outro
 
@@ -1294,21 +1247,19 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_halloween2023_Rashidun_GAMA_14
+	* SuccLL: h_event_halloween2023_Rashidun_GAMA_14
 
 ## h_event_iyaFall2023_Escort_allyHealthLow
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_d_allyLow
+	* SuccLL: h_event_iyaFall2023_Escort_d_allyLow
 
 ## h_event_iyaFall2023_Escort_goal_countdown
 	* StepId: 27
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_27
 		* h_event_iyaFall2023_Escort_remove_enemies
 
@@ -1316,14 +1267,13 @@
 	* StepId: 29
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_event_iyaFall2023_Escort_goal_countdown
+	* TVS: h_event_iyaFall2023_Escort_goal_countdown
 
 ## h_event_iyaFall2023_Escort_goal_escort
 	* StepId: 26
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_26
 		* h_event_iyaFall2023_Escort_GAMA_28
 		* h_event_iyaFall2023_Escort_GAMA_29
@@ -1335,7 +1285,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_12
 		* h_event_iyaFall2023_Escort_GAMA_13
 		* h_event_iyaFall2023_Escort_GAMA_18
@@ -1344,7 +1294,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_ally0
 		* h_event_iyaFall2023_Escort_ally1
 
@@ -1352,7 +1302,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_20
 		* h_event_iyaFall2023_Escort_GAMA_21
 
@@ -1360,7 +1310,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_2
 		* h_event_iyaFall2023_Escort_GAMA_4
 		* h_event_iyaFall2023_Escort_GAMA_6
@@ -1370,7 +1320,7 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_14
 		* h_event_iyaFall2023_Escort_GAMA_15
 		* h_event_iyaFall2023_Escort_GAMA_16
@@ -1380,17 +1330,16 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_iyaFall2023_Escort_td_fail
 		* h_event_iyaFall2023_Escort_wait_fail
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_fail
+	* SuccLL: h_event_iyaFall2023_Escort_fail
 
 ## h_event_iyaFall2023_Escort_reachPOIPath1
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_3
 		* h_event_iyaFall2023_Escort_wave0
 
@@ -1398,7 +1347,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_5
 		* h_event_iyaFall2023_Escort_wave1
 
@@ -1406,7 +1355,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_7
 		* h_event_iyaFall2023_Escort_wave2
 
@@ -1414,7 +1363,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_9
 		* h_event_iyaFall2023_Escort_wave3
 
@@ -1422,14 +1371,13 @@
 	* StepId: 11
 	* Type: TriggerRepeating
 	* TargetType: WaveFinished
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_d_killAll
+	* SuccLL: h_event_iyaFall2023_Escort_d_killAll
 
 ## h_event_iyaFall2023_Escort_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_0
 		* h_event_iyaFall2023_Escort_GAMA_1
 		* h_event_iyaFall2023_Escort_GAMA_10
@@ -1445,7 +1393,7 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_23
 		* h_event_iyaFall2023_Escort_GAMA_25
 		* h_event_iyaFall2023_Escort_d_go
@@ -1454,14 +1402,13 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_win
+	* SuccLL: h_event_iyaFall2023_Escort_win
 
 ## h_event_iyaFall2023_Escort_w_attack1
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_30
 		* h_event_iyaFall2023_Escort_GAMA_32
 		* h_event_iyaFall2023_Escort_wave4
@@ -1470,7 +1417,7 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_31
 		* h_event_iyaFall2023_Escort_wave5
 
@@ -1478,64 +1425,55 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_wave6
+	* SuccLL: h_event_iyaFall2023_Escort_wave6
 
 ## h_event_iyaFall2023_Escort_w_attackDialog
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_d_wave3
+	* SuccLL: h_event_iyaFall2023_Escort_d_wave3
 
 ## h_event_iyaFall2023_Escort_w_go
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_GAMA_24
+	* SuccLL: h_event_iyaFall2023_Escort_GAMA_24
 
 ## h_event_iyaFall2023_Escort_w_go2
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_setActive
+	* SuccLL: h_event_iyaFall2023_Escort_setActive
 
 ## h_event_iyaFall2023_Escort_w_wave0
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_d_hostiles0
+	* SuccLL: h_event_iyaFall2023_Escort_d_hostiles0
 
 ## h_event_iyaFall2023_Escort_w_wave1
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_d_hostiles1
+	* SuccLL: h_event_iyaFall2023_Escort_d_hostiles1
 
 ## h_event_iyaFall2023_Escort_w_wave2
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_d_hostiles2
+	* SuccLL: h_event_iyaFall2023_Escort_d_hostiles2
 
 ## h_event_iyaFall2023_Escort_w_wave3
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_d_hostiles3
+	* SuccLL: h_event_iyaFall2023_Escort_d_hostiles3
 
 ## h_event_iyaFall2023_Escort_w_win
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_iyaFall2023_Escort_d_wi
+	* SuccLL: h_event_iyaFall2023_Escort_d_wi
 
 ## h_event_iyaFall2023_Escort_wait_fail
 	* StepId: 18
@@ -1546,7 +1484,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_22
 		* h_event_iyaFall2023_Escort_d_intro1
 
@@ -1554,7 +1492,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_GAMA_17
 		* h_event_iyaFall2023_Escort_d_fail
 
@@ -1562,7 +1500,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_iyaFall2023_Escort_deactivate_Ally
 		* h_event_iyaFall2023_Escort_lookAt_escort
 		* h_event_iyaFall2023_Escort_preferredTarget
@@ -1581,9 +1519,8 @@
 	* StepId: 15
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_event_tanWin2023_Academy_i_allVaygrDead
-	* SuccLL:
+	* TVS: h_event_tanWin2023_Academy_i_allVaygrDead
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_15
 		* h_event_tanWin2023_Academy_succeed_defendGoals
 
@@ -1591,14 +1528,13 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_event_tanWin2023_Academy_d_academyLow
+	* SuccLL: h_event_tanWin2023_Academy_d_academyLow
 
 ## h_event_tanWin2023_Academy_healthCheck_JochikA
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_25
 		* h_event_tanWin2023_Academy_d_jochikDownA
 
@@ -1606,7 +1542,7 @@
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_39
 		* h_event_tanWin2023_Academy_d_JochikDownB
 
@@ -1614,7 +1550,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_19
 		* h_event_tanWin2023_Academy_GAMA_20
 
@@ -1627,7 +1563,7 @@
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_activate_everything2
 		* h_event_tanWin2023_Academy_deactivate_outposts
 		* h_event_tanWin2023_Academy_setHealth_HeyokaKill
@@ -1639,7 +1575,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_11
 		* h_event_tanWin2023_Academy_GAMA_14
 		* h_event_tanWin2023_Academy_GAMA_17
@@ -1651,14 +1587,13 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_event_tanWin2023_Academy_GAMA_24
+	* SuccLL: h_event_tanWin2023_Academy_GAMA_24
 
 ## h_event_tanWin2023_Academy_i_setup
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_deactivate_everythingWarmUp
 		* h_event_tanWin2023_Academy_invincivle_JochikA
 		* h_event_tanWin2023_Academy_spawn_chicuat
@@ -1669,7 +1604,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_21
 		* h_event_tanWin2023_Academy_deactivate_defendAcademy
 
@@ -1677,7 +1612,7 @@
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_34
 		* h_event_tanWin2023_Academy_deactivate_defendTepin
 
@@ -1685,10 +1620,10 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_tanWin2023_Academy_killCheck_academy
 		* h_event_tanWin2023_Academy_killCheck_tepin
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_12
 		* h_event_tanWin2023_Academy_GAMA_13
 
@@ -1696,18 +1631,17 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_tanWin2023_Academy_td_failAcademy
 		* h_event_tanWin2023_Academy_td_failTepin
 		* h_event_tanWin2023_Academy_w_forceFail
-	* SuccLL:
-		* h_event_tanWin2023_Academy_fail
+	* SuccLL: h_event_tanWin2023_Academy_fail
 
 ## h_event_tanWin2023_Academy_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_0
 		* h_event_tanWin2023_Academy_GAMA_1
 		* h_event_tanWin2023_Academy_GAMA_2
@@ -1716,7 +1650,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_28
 		* h_event_tanWin2023_Academy_camera_tepin
 		* h_event_tanWin2023_Academy_invincible_chicuatB
@@ -1730,7 +1664,7 @@
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_37
 		* h_event_tanWin2023_Academy_GAMA_38
 		* h_event_tanWin2023_Academy_invincible_JochikB
@@ -1741,8 +1675,7 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* 6
+	* TVS: 6
 
 ## h_event_tanWin2023_Academy_td_failTepin
 	* StepId: 36
@@ -1753,28 +1686,25 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_tanWin2023_Academy_fin
+	* SuccLL: h_event_tanWin2023_Academy_fin
 
 ## h_event_tanWin2023_Academy_td_intro
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_tanWin2023_Academy_GAMA_5
+	* SuccLL: h_event_tanWin2023_Academy_GAMA_5
 
 ## h_event_tanWin2023_Academy_w_activateTepin
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_Academy_activate_tepin
+	* SuccLL: h_event_tanWin2023_Academy_activate_tepin
 
 ## h_event_tanWin2023_Academy_w_cameraHiigarans
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_10
 		* h_event_tanWin2023_Academy_GAMA_42
 
@@ -1782,7 +1712,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_8
 		* h_event_tanWin2023_Academy_d_situation
 
@@ -1790,7 +1720,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_43
 		* h_event_tanWin2023_Academy_GAMA_7
 		* h_event_tanWin2023_Academy_d_heyoka
@@ -1799,7 +1729,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_9
 		* h_event_tanWin2023_Academy_d_hiigarans
 
@@ -1807,7 +1737,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_29
 		* h_event_tanWin2023_Academy_GAMA_32
 		* h_event_tanWin2023_Academy_GAMA_33
@@ -1818,7 +1748,7 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_30
 		* h_event_tanWin2023_Academy_GAMA_31
 		* h_event_tanWin2023_Academy_d_tepin
@@ -1827,7 +1757,7 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_vincible_chicuatB
 		* h_event_tanWin2023_Academy_vincible_player1
 		* h_event_tanWin2023_Academy_vincible_player2
@@ -1839,7 +1769,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_6
 		* h_event_tanWin2023_Academy_camera_jochik
 		* h_event_tanWin2023_Academy_close_jochik
@@ -1851,7 +1781,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_22
 		* h_event_tanWin2023_Academy_d_failAcademy
 
@@ -1859,7 +1789,7 @@
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_35
 		* h_event_tanWin2023_Academy_d_failTepin
 
@@ -1872,7 +1802,7 @@
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_activate_Tecuban
 		* h_event_tanWin2023_Academy_activate_VaygrCenter
 
@@ -1880,7 +1810,7 @@
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_44
 		* h_event_tanWin2023_Academy_activate_HeyokaTarget
 		* h_event_tanWin2023_Academy_activate_Jochik
@@ -1890,7 +1820,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_3
 		* h_event_tanWin2023_Academy_deactivate_everything2
 		* h_event_tanWin2023_Academy_lookAt_relic
@@ -1899,7 +1829,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_4
 		* h_event_tanWin2023_Academy_d_intro
 		* h_event_tanWin2023_Academy_deactivate_everything3
@@ -1908,7 +1838,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_26
 		* h_event_tanWin2023_Academy_remove_JochikA
 
@@ -1916,7 +1846,7 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_27
 		* h_event_tanWin2023_Academy_GAMA_36
 		* h_event_tanWin2023_Academy_spawn_reinforcements
@@ -1925,7 +1855,7 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_40
 		* h_event_tanWin2023_Academy_remove_JochikB
 
@@ -1933,7 +1863,7 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_41
 		* h_event_tanWin2023_Academy_remove_vaygr
 
@@ -1941,21 +1871,19 @@
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_Academy_d_JochikReturn
+	* SuccLL: h_event_tanWin2023_Academy_d_JochikReturn
 
 ## h_event_tanWin2023_Academy_w_unitWakeUp
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_Academy_deactivate_everything1
+	* SuccLL: h_event_tanWin2023_Academy_deactivate_everything1
 
 ## h_event_tanWin2023_Academy_w_win
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Academy_GAMA_16
 		* h_event_tanWin2023_Academy_d_win
 
@@ -1963,14 +1891,13 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* h_event_tanWin2023_AttackBase_d_vaygr
+	* SuccLL: h_event_tanWin2023_AttackBase_d_vaygr
 
 ## h_event_tanWin2023_AttackBase_firstAttackCheck
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: OnPlayerAttackNPC
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_AttackBase_GAMA_8
 		* h_event_tanWin2023_AttackBase_GAMA_9
 
@@ -1978,16 +1905,14 @@
 	* StepId: 2
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_event_tanWin2023_AttackBase_multi_defeatBase
-	* SuccLL:
-		* h_event_tanWin2023_AttackBase_GAMA_2
+	* TVS: h_event_tanWin2023_AttackBase_multi_defeatBase
+	* SuccLL: h_event_tanWin2023_AttackBase_GAMA_2
 
 ## h_event_tanWin2023_AttackBase_i_goals
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_AttackBase_GAMA_1
 		* h_event_tanWin2023_AttackBase_GAMA_4
 		* h_event_tanWin2023_AttackBase_GAMA_5
@@ -2007,11 +1932,11 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_tanWin2023_AttackBase_strengthCheckPatrol
 		* h_event_tanWin2023_AttackBase_strengthCheckWave
 		* h_event_tanWin2023_AttackBase_w_alert
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_AttackBase_behavior_alert
 		* h_event_tanWin2023_AttackBase_d_alert
 
@@ -2019,7 +1944,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_tanWin2023_AttackBase_kill_all
 		* h_event_tanWin2023_AttackBase_kill_vaygr
 
@@ -2027,7 +1952,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_AttackBase_GAMA_0
 		* h_event_tanWin2023_AttackBase_GAMA_10
 		* h_event_tanWin2023_AttackBase_GAMA_18
@@ -2045,7 +1970,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_AttackBase_GAMA_12
 		* h_event_tanWin2023_AttackBase_GAMA_13
 		* h_event_tanWin2023_AttackBase_invincible_station2
@@ -2055,15 +1980,13 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* h_event_tanWin2023_AttackBase_GAMA_14
+	* SuccLL: h_event_tanWin2023_AttackBase_GAMA_14
 
 ## h_event_tanWin2023_AttackBase_td_win
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_tanWin2023_AttackBase_fin
+	* SuccLL: h_event_tanWin2023_AttackBase_fin
 
 ## h_event_tanWin2023_AttackBase_w_alert
 	* StepId: 10
@@ -2074,7 +1997,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_AttackBase_GAMA_11
 		* h_event_tanWin2023_AttackBase_GAMA_17
 
@@ -2082,7 +2005,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_AttackBase_GAMA_15
 		* h_event_tanWin2023_AttackBase_GAMA_16
 		* h_event_tanWin2023_AttackBase_wave_vaygr
@@ -2091,21 +2014,19 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_AttackBase_d_boss
+	* SuccLL: h_event_tanWin2023_AttackBase_d_boss
 
 ## h_event_tanWin2023_AttackBase_w_wave
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_AttackBase_d_wave
+	* SuccLL: h_event_tanWin2023_AttackBase_d_wave
 
 ## h_event_tanWin2023_AttackBase_wait_win
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_AttackBase_GAMA_3
 		* h_event_tanWin2023_AttackBase_d_win1
 
@@ -2113,28 +2034,25 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_AttackBase_d_intro1
+	* SuccLL: h_event_tanWin2023_AttackBase_d_intro1
 
 ## h_event_tanWin2023_AttackBase_wait7
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_AttackBase_lookAt
+	* SuccLL: h_event_tanWin2023_AttackBase_lookAt
 
 ## h_event_tanWin2023_DefendBase_goal_defendStation
 	* StepId: 10
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_GAMA_10
+	* SuccLL: h_event_tanWin2023_DefendBase_GAMA_10
 
 ## h_event_tanWin2023_DefendBase_i_goals
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_12
 		* h_event_tanWin2023_DefendBase_GAMA_13
 		* h_event_tanWin2023_DefendBase_GAMA_9
@@ -2143,7 +2061,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_19
 		* h_event_tanWin2023_DefendBase_GAMA_20
 
@@ -2151,7 +2069,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_ally_patrolA
 		* h_event_tanWin2023_DefendBase_ally_patrolB
 		* h_event_tanWin2023_DefendBase_ally_patrolC
@@ -2168,7 +2086,7 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_14
 		* h_event_tanWin2023_DefendBase_deactivate_defendStation
 
@@ -2176,26 +2094,23 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_event_tanWin2023_DefendBase_td_intro
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_GAMA_1
+	* TVS: h_event_tanWin2023_DefendBase_td_intro
+	* SuccLL: h_event_tanWin2023_DefendBase_GAMA_1
 
 ## h_event_tanWin2023_DefendBase_multi_fail
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_tanWin2023_DefendBase_td_fail
 		* h_event_tanWin2023_DefendBase_w_dFail
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_fail
+	* SuccLL: h_event_tanWin2023_DefendBase_fail
 
 ## h_event_tanWin2023_DefendBase_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_0
 		* h_event_tanWin2023_DefendBase_GAMA_18
 		* h_event_tanWin2023_DefendBase_GAMA_7
@@ -2205,14 +2120,13 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_d_stationLow
+	* SuccLL: h_event_tanWin2023_DefendBase_d_stationLow
 
 ## h_event_tanWin2023_DefendBase_strength_wave0
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_4
 		* h_event_tanWin2023_DefendBase_GAMA_5
 		* h_event_tanWin2023_DefendBase_wave_2
@@ -2221,7 +2135,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_6
 		* h_event_tanWin2023_DefendBase_wave_4
 
@@ -2239,14 +2153,13 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_win
+	* SuccLL: h_event_tanWin2023_DefendBase_win
 
 ## h_event_tanWin2023_DefendBase_w_attack1
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_2
 		* h_event_tanWin2023_DefendBase_GAMA_3
 		* h_event_tanWin2023_DefendBase_wave_0
@@ -2255,8 +2168,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_d_firstWave
+	* SuccLL: h_event_tanWin2023_DefendBase_d_firstWave
 
 ## h_event_tanWin2023_DefendBase_w_dFail
 	* StepId: 17
@@ -2267,7 +2179,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_15
 		* h_event_tanWin2023_DefendBase_GAMA_16
 		* h_event_tanWin2023_DefendBase_GAMA_17
@@ -2277,7 +2189,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_21
 		* h_event_tanWin2023_DefendBase_d_intro
 
@@ -2285,28 +2197,25 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_lookAt_intro
+	* SuccLL: h_event_tanWin2023_DefendBase_lookAt_intro
 
 ## h_event_tanWin2023_DefendBase_w_nextWave1
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_d_nextWave1
+	* SuccLL: h_event_tanWin2023_DefendBase_d_nextWave1
 
 ## h_event_tanWin2023_DefendBase_w_nextWave4
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_DefendBase_d_nextWave2
+	* SuccLL: h_event_tanWin2023_DefendBase_d_nextWave2
 
 ## h_event_tanWin2023_DefendBase_w_win
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_DefendBase_GAMA_11
 		* h_event_tanWin2023_DefendBase_d_win
 
@@ -2314,28 +2223,25 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* h_event_tanWin2023_Relic_d_bossLow
+	* SuccLL: h_event_tanWin2023_Relic_d_bossLow
 
 ## h_event_tanWin2023_Relic_attackNPC_intro
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnPlayerAttackNPC
-	* SuccLL:
-		* h_event_tanWin2023_Relic_GAMA_4
+	* SuccLL: h_event_tanWin2023_Relic_GAMA_4
 
 ## h_event_tanWin2023_Relic_goal_killVaygr
 	* StepId: 1
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* h_event_tanWin2023_Relic_GAMA_1
+	* SuccLL: h_event_tanWin2023_Relic_GAMA_1
 
 ## h_event_tanWin2023_Relic_i_spawning
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Relic_GAMA_6
 		* h_event_tanWin2023_Relic_interactable_relic
 		* h_event_tanWin2023_Relic_prop_ship
@@ -2345,7 +2251,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Relic_GAMA_0
 		* h_event_tanWin2023_Relic_GAMA_12
 		* h_event_tanWin2023_Relic_GAMA_3
@@ -2355,7 +2261,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Relic_GAMA_7
 		* h_event_tanWin2023_Relic_GAMA_8
 		* h_event_tanWin2023_Relic_aiBehavior
@@ -2365,7 +2271,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Relic_GAMA_10
 		* h_event_tanWin2023_Relic_GAMA_11
 		* h_event_tanWin2023_Relic_GAMA_9
@@ -2375,28 +2281,25 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* h_event_tanWin2023_Relic_fin
+	* SuccLL: h_event_tanWin2023_Relic_fin
 
 ## h_event_tanWin2023_Relic_w_attackNPC
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_Relic_d_contact
+	* SuccLL: h_event_tanWin2023_Relic_d_contact
 
 ## h_event_tanWin2023_Relic_w_boss
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* h_event_tanWin2023_Relic_d_boss
+	* SuccLL: h_event_tanWin2023_Relic_d_boss
 
 ## h_event_tanWin2023_Relic_w_intro1
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Relic_GAMA_13
 		* h_event_tanWin2023_Relic_lookAt_relic
 
@@ -2404,28 +2307,25 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_Relic_d_intro
+	* SuccLL: h_event_tanWin2023_Relic_d_intro
 
 ## h_event_tanWin2023_Relic_w_wave
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_Relic_d_wave
+	* SuccLL: h_event_tanWin2023_Relic_d_wave
 
 ## h_event_tanWin2023_Relic_w_waveB
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_tanWin2023_Relic_d_waveB
+	* SuccLL: h_event_tanWin2023_Relic_d_waveB
 
 ## h_event_tanWin2023_Relic_w_win
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_tanWin2023_Relic_GAMA_2
 		* h_event_tanWin2023_Relic_d_win
 
@@ -2433,28 +2333,22 @@
 	* StepId: 54
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_GAMA_54
-	* FailLL:
-		* h_event_yaoSpr2024_Conjunction_GAMA_55
+	* SuccLL: h_event_yaoSpr2024_Conjunction_GAMA_54
+	* FailLL: h_event_yaoSpr2024_Conjunction_GAMA_55
 
 ## h_event_yaoSpr2024_Conjunction_exist_piratesNotCatequil
 	* StepId: 70
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_preferredTarget_chocoanRepeating
-	* FailLL:
-		* h_event_yaoSpr2024_Conjunction_move_chocoanIdle
+	* SuccLL: h_event_yaoSpr2024_Conjunction_preferredTarget_chocoanRepeating
+	* FailLL: h_event_yaoSpr2024_Conjunction_move_chocoanIdle
 
 ## h_event_yaoSpr2024_Conjunction_exist_piratesNotCatequil2
 	* StepId: 60
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_preferredTarget_chocoanRepeating2
-	* FailLL:
-		* h_event_yaoSpr2024_Conjunction_preferredTarget_chocoanCatequil
+	* SuccLL: h_event_yaoSpr2024_Conjunction_preferredTarget_chocoanRepeating2
+	* FailLL: h_event_yaoSpr2024_Conjunction_preferredTarget_chocoanCatequil
 
 ## h_event_yaoSpr2024_Conjunction_goal_reach
 	* StepId: 6
@@ -2470,7 +2364,7 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_40
 		* h_event_yaoSpr2024_Conjunction_GAMA_56
 		* h_event_yaoSpr2024_Conjunction_d_catequilLow
@@ -2479,7 +2373,7 @@
 	* StepId: 74
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_74
 		* h_event_yaoSpr2024_Conjunction_spawn_waveAMid
 		* h_event_yaoSpr2024_Conjunction_spawn_waveAPoint
@@ -2488,7 +2382,7 @@
 	* StepId: 72
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_72
 		* h_event_yaoSpr2024_Conjunction_spawn_waveBBack
 		* h_event_yaoSpr2024_Conjunction_spawn_waveBMid
@@ -2498,7 +2392,7 @@
 	* StepId: 66
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_66
 		* h_event_yaoSpr2024_Conjunction_spawn_waveCBack
 		* h_event_yaoSpr2024_Conjunction_spawn_waveCMid
@@ -2508,7 +2402,7 @@
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_36
 		* h_event_yaoSpr2024_Conjunction_GAMA_64
 		* h_event_yaoSpr2024_Conjunction_c989a99cd4c195b4788daa78ccc770df
@@ -2520,7 +2414,7 @@
 	* StepId: 68
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_68
 		* h_event_yaoSpr2024_Conjunction_GAMA_70
 		* h_event_yaoSpr2024_Conjunction_activate_chocoanChange
@@ -2531,7 +2425,7 @@
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_52
 		* h_event_yaoSpr2024_Conjunction_deactivate_preferredTargetRepeating
 		* h_event_yaoSpr2024_Conjunction_move_chocoan1
@@ -2545,7 +2439,7 @@
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_43
 		* h_event_yaoSpr2024_Conjunction_GAMA_49
 		* h_event_yaoSpr2024_Conjunction_GAMA_50
@@ -2556,7 +2450,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_19
 		* h_event_yaoSpr2024_Conjunction_activate_pilgrimPoint
 
@@ -2564,7 +2458,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_5
 		* h_event_yaoSpr2024_Conjunction_GAMA_6
 		* h_event_yaoSpr2024_Conjunction_GAMA_7
@@ -2573,7 +2467,7 @@
 	* StepId: 65
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_invincible_player1
 		* h_event_yaoSpr2024_Conjunction_invincible_player2
 		* h_event_yaoSpr2024_Conjunction_invincible_player3
@@ -2587,7 +2481,7 @@
 	* StepId: 76
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_preferredTarget_back
 		* h_event_yaoSpr2024_Conjunction_preferredTarget_mid
 		* h_event_yaoSpr2024_Conjunction_preferredTarget_point
@@ -2596,7 +2490,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_13
 		* h_event_yaoSpr2024_Conjunction_GAMA_14
 		* h_event_yaoSpr2024_Conjunction_GAMA_15
@@ -2607,7 +2501,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_deactivate_chocoanSpawn
 		* h_event_yaoSpr2024_Conjunction_deactivate_pilgrimsSpawn
 		* h_event_yaoSpr2024_Conjunction_spawn_chocoan
@@ -2619,7 +2513,7 @@
 	* StepId: 61
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_vincible_player1
 		* h_event_yaoSpr2024_Conjunction_vincible_player2
 		* h_event_yaoSpr2024_Conjunction_vincible_player3
@@ -2637,7 +2531,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_10
 		* h_event_yaoSpr2024_Conjunction_GAMA_8
 		* h_event_yaoSpr2024_Conjunction_GAMA_9
@@ -2647,37 +2541,34 @@
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_yaoSpr2024_Conjunction_i_combatEnd
 		* h_event_yaoSpr2024_Conjunction_kill_remaining
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_GAMA_42
+	* SuccLL: h_event_yaoSpr2024_Conjunction_GAMA_42
 
 ## h_event_yaoSpr2024_Conjunction_multi_end
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_yaoSpr2024_Conjunction_reach_chocoanEnd
 		* h_event_yaoSpr2024_Conjunction_td_win
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_GAMA_44
+	* SuccLL: h_event_yaoSpr2024_Conjunction_GAMA_44
 
 ## h_event_yaoSpr2024_Conjunction_multi_fail
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_event_yaoSpr2024_Conjunction_td_fail
 		* h_event_yaoSpr2024_Conjunction_wait_fail
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_fail
+	* SuccLL: h_event_yaoSpr2024_Conjunction_fail
 
 ## h_event_yaoSpr2024_Conjunction_reach_back
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_deactivate_pilgrimBack
 		* h_event_yaoSpr2024_Conjunction_succeed_goalReach
 
@@ -2685,7 +2576,7 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_deactivate_chocoan
 		* h_event_yaoSpr2024_Conjunction_deactivate_chocoanStutter
 
@@ -2693,35 +2584,31 @@
 	* StepId: 53
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_deactivate_chocoanEnd
+	* SuccLL: h_event_yaoSpr2024_Conjunction_deactivate_chocoanEnd
 
 ## h_event_yaoSpr2024_Conjunction_reach_elders
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_deactivate_pilgrimElders
+	* SuccLL: h_event_yaoSpr2024_Conjunction_deactivate_pilgrimElders
 
 ## h_event_yaoSpr2024_Conjunction_reach_mid
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_deactivate_pilgrimMid
+	* SuccLL: h_event_yaoSpr2024_Conjunction_deactivate_pilgrimMid
 
 ## h_event_yaoSpr2024_Conjunction_reach_point
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_deactivate_pilgrimPoint
+	* SuccLL: h_event_yaoSpr2024_Conjunction_deactivate_pilgrimPoint
 
 ## h_event_yaoSpr2024_Conjunction_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_0
 		* h_event_yaoSpr2024_Conjunction_GAMA_1
 		* h_event_yaoSpr2024_Conjunction_GAMA_2
@@ -2730,25 +2617,21 @@
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* e_yaoSpr2024_Conjunction_end
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_fin
+	* TVS: e_yaoSpr2024_Conjunction_end
+	* SuccLL: h_event_yaoSpr2024_Conjunction_fin
 
 ## h_event_yaoSpr2024_Conjunction_td_fail
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* e_yaoSpr2024_Conjunction_fail
+	* TVS: e_yaoSpr2024_Conjunction_fail
 
 ## h_event_yaoSpr2024_Conjunction_td_intro
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* e_yaoSpr2024_Conjunction_intro
-	* SuccLL:
+	* TVS: e_yaoSpr2024_Conjunction_intro
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_12
 		* h_event_yaoSpr2024_Conjunction_GAMA_18
 		* h_event_yaoSpr2024_Conjunction_GAMA_4
@@ -2757,35 +2640,31 @@
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* e_yaoSpr2024_Conjunction_win
+	* TVS: e_yaoSpr2024_Conjunction_win
 
 ## h_event_yaoSpr2024_Conjunction_w_activateBack
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_activate_pilgrimBack
+	* SuccLL: h_event_yaoSpr2024_Conjunction_activate_pilgrimBack
 
 ## h_event_yaoSpr2024_Conjunction_w_activateCatequil
 	* StepId: 62
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_activate_catequil
+	* SuccLL: h_event_yaoSpr2024_Conjunction_activate_catequil
 
 ## h_event_yaoSpr2024_Conjunction_w_activateCatequilFleet
 	* StepId: 64
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_activate_catequilFleet
+	* SuccLL: h_event_yaoSpr2024_Conjunction_activate_catequilFleet
 
 ## h_event_yaoSpr2024_Conjunction_w_activateChocoan
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_25
 		* h_event_yaoSpr2024_Conjunction_GAMA_27
 		* h_event_yaoSpr2024_Conjunction_GAMA_28
@@ -2795,7 +2674,7 @@
 	* StepId: 26
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_26
 		* h_event_yaoSpr2024_Conjunction_deactivate_chocoanRepeating
 
@@ -2803,7 +2682,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_20
 		* h_event_yaoSpr2024_Conjunction_GAMA_24
 		* h_event_yaoSpr2024_Conjunction_activate_pilgrimElders
@@ -2812,7 +2691,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_21
 		* h_event_yaoSpr2024_Conjunction_activate_pilgrimMid
 
@@ -2820,14 +2699,13 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_d_arrival
+	* SuccLL: h_event_yaoSpr2024_Conjunction_d_arrival
 
 ## h_event_yaoSpr2024_Conjunction_w_catequil1
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_37
 		* h_event_yaoSpr2024_Conjunction_GAMA_62
 		* h_event_yaoSpr2024_Conjunction_deactivate_catequil
@@ -2838,7 +2716,7 @@
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_38
 		* h_event_yaoSpr2024_Conjunction_GAMA_61
 		* h_event_yaoSpr2024_Conjunction_d_attackC
@@ -2847,7 +2725,7 @@
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_39
 		* h_event_yaoSpr2024_Conjunction_GAMA_57
 		* h_event_yaoSpr2024_Conjunction_GAMA_60
@@ -2857,7 +2735,7 @@
 	* StepId: 63
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_63
 		* h_event_yaoSpr2024_Conjunction_deactivate_catequilFleet
 		* h_event_yaoSpr2024_Conjunction_spawn_catequilFleet
@@ -2866,7 +2744,7 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_41
 		* h_event_yaoSpr2024_Conjunction_GAMA_53
 
@@ -2874,14 +2752,13 @@
 	* StepId: 57
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_remove_catequil
+	* SuccLL: h_event_yaoSpr2024_Conjunction_remove_catequil
 
 ## h_event_yaoSpr2024_Conjunction_w_chocoanCatequil
 	* StepId: 58
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_58
 		* h_event_yaoSpr2024_Conjunction_activate_chocoanCatequil
 
@@ -2889,14 +2766,13 @@
 	* StepId: 67
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_GAMA_67
+	* SuccLL: h_event_yaoSpr2024_Conjunction_GAMA_67
 
 ## h_event_yaoSpr2024_Conjunction_w_combat
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_32
 		* h_event_yaoSpr2024_Conjunction_GAMA_73
 		* h_event_yaoSpr2024_Conjunction_GAMA_75
@@ -2905,7 +2781,7 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_33
 		* h_event_yaoSpr2024_Conjunction_GAMA_71
 
@@ -2913,7 +2789,7 @@
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_34
 		* h_event_yaoSpr2024_Conjunction_GAMA_65
 
@@ -2921,14 +2797,13 @@
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_GAMA_35
+	* SuccLL: h_event_yaoSpr2024_Conjunction_GAMA_35
 
 ## h_event_yaoSpr2024_Conjunction_w_conjunction1
 	* StepId: 46
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_46
 		* h_event_yaoSpr2024_Conjunction_d_cunjunctionA
 
@@ -2936,7 +2811,7 @@
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_47
 		* h_event_yaoSpr2024_Conjunction_d_cunjunctionB
 
@@ -2944,7 +2819,7 @@
 	* StepId: 48
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_48
 		* h_event_yaoSpr2024_Conjunction_d_end
 
@@ -2952,14 +2827,13 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_activate_chocoanRepeating
+	* SuccLL: h_event_yaoSpr2024_Conjunction_activate_chocoanRepeating
 
 ## h_event_yaoSpr2024_Conjunction_w_deviationDialog
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_29
 		* h_event_yaoSpr2024_Conjunction_GAMA_31
 		* h_event_yaoSpr2024_Conjunction_d_deviation
@@ -2968,7 +2842,7 @@
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_45
 		* h_event_yaoSpr2024_Conjunction_camera_conjuction
 		* h_event_yaoSpr2024_Conjunction_close_conjunction
@@ -2977,7 +2851,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_11
 		* h_event_yaoSpr2024_Conjunction_d_fail
 
@@ -2985,14 +2859,13 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_d_interlude
+	* SuccLL: h_event_yaoSpr2024_Conjunction_d_interlude
 
 ## h_event_yaoSpr2024_Conjunction_w_intro
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_3
 		* h_event_yaoSpr2024_Conjunction_d_intro
 
@@ -3000,35 +2873,31 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_lookAt_conjunction
+	* SuccLL: h_event_yaoSpr2024_Conjunction_lookAt_conjunction
 
 ## h_event_yaoSpr2024_Conjunction_w_preferredTargetChocoanRepeating
 	* StepId: 69
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_GAMA_69
+	* SuccLL: h_event_yaoSpr2024_Conjunction_GAMA_69
 
 ## h_event_yaoSpr2024_Conjunction_w_preferredTargetChocoanRepeating2
 	* StepId: 59
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_GAMA_59
+	* SuccLL: h_event_yaoSpr2024_Conjunction_GAMA_59
 
 ## h_event_yaoSpr2024_Conjunction_w_removeElders
 	* StepId: 71
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_remove_elders
+	* SuccLL: h_event_yaoSpr2024_Conjunction_remove_elders
 
 ## h_event_yaoSpr2024_Conjunction_w_spawnBack
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_22
 		* h_event_yaoSpr2024_Conjunction_GAMA_23
 		* h_event_yaoSpr2024_Conjunction_deactivate_pilgrimBackSpawn
@@ -3038,7 +2907,7 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_event_yaoSpr2024_Conjunction_GAMA_30
 		* h_event_yaoSpr2024_Conjunction_deactivate_backStutter
 
@@ -3046,29 +2915,25 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_activate_backStutter
+	* SuccLL: h_event_yaoSpr2024_Conjunction_activate_backStutter
 
 ## h_event_yaoSpr2024_Conjunction_w_waveADialog
 	* StepId: 75
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_d_attackA
+	* SuccLL: h_event_yaoSpr2024_Conjunction_d_attackA
 
 ## h_event_yaoSpr2024_Conjunction_w_waveBDialog
 	* StepId: 73
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_d_attackB
+	* SuccLL: h_event_yaoSpr2024_Conjunction_d_attackB
 
 ## h_event_yaoSpr2024_Conjunction_w_winDialog
 	* StepId: 51
 	* Type: None
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_event_yaoSpr2024_Conjunction_d_win
+	* SuccLL: h_event_yaoSpr2024_Conjunction_d_win
 
 ## h_event_yaoSpr2024_Conjunction_wait_fail
 	* StepId: 12
@@ -3094,10 +2959,10 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_pvp_ClanBeaconAttack_BeaconDeath
 		* h_pvp_ClanBeaconAttack_ClearAllEnemies
-	* SuccLL:
+	* SuccLL: 
 		* h_pvp_ClanBeaconAttack_PVP_Beacon_01_act_attackerWin
 		* h_pvp_ClanBeaconAttack_finishMission
 
@@ -3105,14 +2970,13 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnPlayerFlagshipDestroyed
-	* SuccLL:
-		* h_pvp_ClanBeaconAttack_PVP_Beacon_01_act_defenderWin
+	* SuccLL: h_pvp_ClanBeaconAttack_PVP_Beacon_01_act_defenderWin
 
 ## h_pvp_ClanBeaconAttack_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_pvp_ClanBeaconAttack_GAMA_0
 		* h_pvp_ClanBeaconAttack_GAMA_1
 		* h_pvp_ClanBeaconAttack_GAMA_2
@@ -3124,14 +2988,13 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_pvp_ClanBeaconAttack_PVP_Beacon_01_spawnDefenderNPC
+	* SuccLL: h_pvp_ClanBeaconAttack_PVP_Beacon_01_spawnDefenderNPC
 
 ## h_side_DamageTest_Start
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_side_DamageTest_GAMA_0
 		* h_side_DamageTest_GAMA_1
 		* h_side_DamageTest_GAMA_2
@@ -3141,7 +3004,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_side_DamageTest_GAMA_11
 		* h_side_DamageTest_GAMA_13
 		* h_side_DamageTest_GAMA_15
@@ -3171,7 +3034,7 @@
 	* StepId: 2
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_side_DamageTest_actn_allowDamageAgain
 		* h_side_DamageTest_actn_healDebugAssetArmor_01
 		* h_side_DamageTest_actn_healDebugAssetHull_01
@@ -3180,182 +3043,157 @@
 	* StepId: 4
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_4
+	* SuccLL: h_side_DamageTest_GAMA_4
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_02
 	* StepId: 6
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_6
+	* SuccLL: h_side_DamageTest_GAMA_6
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_03
 	* StepId: 8
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_8
+	* SuccLL: h_side_DamageTest_GAMA_8
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_04
 	* StepId: 10
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_10
+	* SuccLL: h_side_DamageTest_GAMA_10
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_05
 	* StepId: 12
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_12
+	* SuccLL: h_side_DamageTest_GAMA_12
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_06
 	* StepId: 14
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_14
+	* SuccLL: h_side_DamageTest_GAMA_14
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_07
 	* StepId: 16
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_16
+	* SuccLL: h_side_DamageTest_GAMA_16
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_08
 	* StepId: 18
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_18
+	* SuccLL: h_side_DamageTest_GAMA_18
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_09
 	* StepId: 20
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_20
+	* SuccLL: h_side_DamageTest_GAMA_20
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_10
 	* StepId: 22
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_22
+	* SuccLL: h_side_DamageTest_GAMA_22
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_11
 	* StepId: 24
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_24
+	* SuccLL: h_side_DamageTest_GAMA_24
 
 ## h_side_DamageTest_trig_RespawnDebugAsset_12
 	* StepId: 26
 	* Type: TriggerRepeating
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_side_DamageTest_GAMA_26
+	* SuccLL: h_side_DamageTest_GAMA_26
 
 ## h_side_DamageTest_trig_WaitForTime
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_triggerDialog
+	* SuccLL: h_side_DamageTest_actn_triggerDialog
 
 ## h_side_DamageTest_w_01
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_01
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_01
 
 ## h_side_DamageTest_w_02
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_02
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_02
 
 ## h_side_DamageTest_w_03
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_03
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_03
 
 ## h_side_DamageTest_w_04
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_04
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_04
 
 ## h_side_DamageTest_w_05
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_05
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_05
 
 ## h_side_DamageTest_w_06
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_06
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_06
 
 ## h_side_DamageTest_w_07
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_07
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_07
 
 ## h_side_DamageTest_w_08
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_08
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_08
 
 ## h_side_DamageTest_w_09
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_09
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_09
 
 ## h_side_DamageTest_w_10
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_10
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_10
 
 ## h_side_DamageTest_w_11
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_11
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_11
 
 ## h_side_DamageTest_w_12
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_side_DamageTest_actn_respawnDebugAsset_12
+	* SuccLL: h_side_DamageTest_actn_respawnDebugAsset_12
 
 ## h_story_A01_DuzumiGate_Start
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGate_GAMA_0
 		* h_story_A01_DuzumiGate_GAMA_9
 		* h_story_A01_DuzumiGate_ally0
@@ -3365,61 +3203,49 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_1
-	* SuccLL:
-		* h_story_A01_DuzumiGate_GAMA_2
+	* TVS: s_duzumi_intro_dialog_1
+	* SuccLL: h_story_A01_DuzumiGate_GAMA_2
 
 ## h_story_A01_DuzumiGate_t_d_2
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_2
-	* SuccLL:
-		* h_story_A01_DuzumiGate_GAMA_4
+	* TVS: s_duzumi_intro_dialog_2
+	* SuccLL: h_story_A01_DuzumiGate_GAMA_4
 
 ## h_story_A01_DuzumiGate_t_d_3
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_3
-	* SuccLL:
-		* h_story_A01_DuzumiGate_GAMA_6
+	* TVS: s_duzumi_intro_dialog_3
+	* SuccLL: h_story_A01_DuzumiGate_GAMA_6
 
 ## h_story_A01_DuzumiGate_t_d_4
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_4
-	* SuccLL:
-		* h_story_A01_DuzumiGate_GAMA_8
+	* TVS: s_duzumi_intro_dialog_4
+	* SuccLL: h_story_A01_DuzumiGate_GAMA_8
 
 ## h_story_A01_DuzumiGate_t_d_6_
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_6
-	* SuccLL:
-		* h_story_A01_DuzumiGate_GAMA_12
+	* TVS: s_duzumi_intro_dialog_6
+	* SuccLL: h_story_A01_DuzumiGate_GAMA_12
 
 ## h_story_A01_DuzumiGate_t_d_7
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_7
-	* SuccLL:
-		* h_story_A01_DuzumiGate_GAMA_14
+	* TVS: s_duzumi_intro_dialog_7
+	* SuccLL: h_story_A01_DuzumiGate_GAMA_14
 
 ## h_story_A01_DuzumiGate_t_seq1
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGate_GAMA_10
 		* h_story_A01_DuzumiGate_GAMA_11
 		* h_story_A01_DuzumiGate_d_6_
@@ -3429,7 +3255,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGate_cinematic
 		* h_story_A01_DuzumiGate_fin
 
@@ -3437,7 +3263,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGate_GAMA_1
 		* h_story_A01_DuzumiGate_d_1
 
@@ -3445,7 +3271,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGate_GAMA_3
 		* h_story_A01_DuzumiGate_d_2
 
@@ -3453,7 +3279,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGate_GAMA_5
 		* h_story_A01_DuzumiGate_d_3
 
@@ -3461,14 +3287,13 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGate_d_5_
+	* SuccLL: h_story_A01_DuzumiGate_d_5_
 
 ## h_story_A01_DuzumiGate_w_6
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGate_GAMA_13
 		* h_story_A01_DuzumiGate_d_7_
 
@@ -3476,14 +3301,13 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGate_d_8
+	* SuccLL: h_story_A01_DuzumiGate_d_8
 
 ## h_story_A01_DuzumiGate_w_8
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGate_GAMA_7
 		* h_story_A01_DuzumiGate_d_4_
 
@@ -3491,9 +3315,8 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_praise
-	* SuccLL:
+	* TVS: s_duzumiTut_praise
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_19
 		* h_story_A01_DuzumiGateTut_addUI_enableUnitTray
 		* h_story_A01_DuzumiGateTut_d_unitTray
@@ -3502,7 +3325,7 @@
 	* StepId: 9
 	* Type: Goal
 	* TargetType: OnClientUIElementHasState
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_9
 		* h_story_A01_DuzumiGateTut_close_cameraAutoSwipe
 		* h_story_A01_DuzumiGateTut_deactivate_cameraAutoDialog
@@ -3512,7 +3335,7 @@
 	* StepId: 5
 	* Type: Goal
 	* TargetType: UseCamera
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_5
 		* h_story_A01_DuzumiGateTut_close_cameraSwipeDialog
 		* h_story_A01_DuzumiGateTut_deactivate_cameraSwipeDialog
@@ -3522,7 +3345,7 @@
 	* StepId: 7
 	* Type: Goal
 	* TargetType: UseCameraZoom
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_7
 		* h_story_A01_DuzumiGateTut_close_cameraZoomDialog
 		* h_story_A01_DuzumiGateTut_deactivate_cameraZoomDialog
@@ -3532,7 +3355,7 @@
 	* StepId: 17
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_17
 		* h_story_A01_DuzumiGateTut_close_attackTargetList
 		* h_story_A01_DuzumiGateTut_deactivate_attackTargetListDialog
@@ -3542,9 +3365,8 @@
 	* StepId: 25
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_A01_DuzumiGateTut_i_explosion
-	* SuccLL:
+	* TVS: h_story_A01_DuzumiGateTut_i_explosion
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_25
 		* h_story_A01_DuzumiGateTut_GAMA_40
 		* h_story_A01_DuzumiGateTut_GAMA_42
@@ -3553,7 +3375,7 @@
 	* StepId: 21
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_21
 		* h_story_A01_DuzumiGateTut_close_moveDrag
 		* h_story_A01_DuzumiGateTut_deactivate_moveDrag
@@ -3563,7 +3385,7 @@
 	* StepId: 13
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_13
 		* h_story_A01_DuzumiGateTut_close_moveTargetList
 		* h_story_A01_DuzumiGateTut_deactivate_moveTargetListDialog
@@ -3573,7 +3395,7 @@
 	* StepId: 27
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_27
 		* h_story_A01_DuzumiGateTut_GAMA_37
 		* h_story_A01_DuzumiGateTut_d_outro
@@ -3585,7 +3407,7 @@
 	* StepId: 48
 	* Type: Goal
 	* TargetType: UseSkill
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_48
 		* h_story_A01_DuzumiGateTut_close_skill
 		* h_story_A01_DuzumiGateTut_deactivate_skill
@@ -3595,14 +3417,13 @@
 	* StepId: 46
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_46
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_46
 
 ## h_story_A01_DuzumiGateTut_i_cameraSwipe
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_4
 		* h_story_A01_DuzumiGateTut_GAMA_66
 		* h_story_A01_DuzumiGateTut_d_cameraSwipe
@@ -3611,7 +3432,7 @@
 	* StepId: 61
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_moveTo_drones
 		* h_story_A01_DuzumiGateTut_sequence_drones
 		* h_story_A01_DuzumiGateTut_wave_0_drones
@@ -3625,7 +3446,7 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_32
 		* h_story_A01_DuzumiGateTut_d_outro6
 
@@ -3633,7 +3454,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_12
 		* h_story_A01_DuzumiGateTut_GAMA_62
 		* h_story_A01_DuzumiGateTut_GAMA_63
@@ -3643,7 +3464,7 @@
 	* StepId: 77
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_addUI_enableBasics
 		* h_story_A01_DuzumiGateTut_addUI_hideAll
 		* h_story_A01_DuzumiGateTut_addUI_showLogs
@@ -3652,44 +3473,38 @@
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_43
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_43
 
 ## h_story_A01_DuzumiGateTut_position_moveTaskForce
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_d_preOutro
+	* SuccLL: h_story_A01_DuzumiGateTut_d_preOutro
 
 ## h_story_A01_DuzumiGateTut_position_RiifSa
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_41
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_41
 
 ## h_story_A01_DuzumiGateTut_position_targetListFill
 	* StepId: 64
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_d_moveTargetListFill
+	* SuccLL: h_story_A01_DuzumiGateTut_d_moveTargetListFill
 
 ## h_story_A01_DuzumiGateTut_repeat_healthCheck_frigate
 	* StepId: 55
 	* Type: TriggerRepeating
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_eb5f80fed1e9bab45b7f53018d5a50ea
+	* SuccLL: h_story_A01_DuzumiGateTut_eb5f80fed1e9bab45b7f53018d5a50ea
 
 ## h_story_A01_DuzumiGateTut_sequenceFin_drones
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_15
 		* h_story_A01_DuzumiGateTut_close_droneSequence
 		* h_story_A01_DuzumiGateTut_deactivate_dronSequenceDialog
@@ -3700,9 +3515,8 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_23
 		* h_story_A01_DuzumiGateTut_activate_frigate
 		* h_story_A01_DuzumiGateTut_close_frigateSequence
@@ -3713,9 +3527,8 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_1
 		* h_story_A01_DuzumiGateTut_close_introSequence
 		* h_story_A01_DuzumiGateTut_deactivate_introSequenceDialog
@@ -3725,16 +3538,14 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_endGraph
+	* TVS: 1
+	* SuccLL: h_story_A01_DuzumiGateTut_endGraph
 
 ## h_story_A01_DuzumiGateTut_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_0
 		* h_story_A01_DuzumiGateTut_GAMA_67
 		* h_story_A01_DuzumiGateTut_GAMA_76
@@ -3748,126 +3559,99 @@
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_attackDrag
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_dragAttack
+	* TVS: s_duzumiTut_attackDrag
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_dragAttack
 
 ## h_story_A01_DuzumiGateTut_td_attackTargetList
 	* StepId: 60
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_attackTargetList
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_attackDrones
+	* TVS: s_duzumiTut_attackTargetList
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_attackDrones
 
 ## h_story_A01_DuzumiGateTut_td_cameraAuto
 	* StepId: 65
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_cameraAuto
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_cameraAuto
+	* TVS: s_duzumiTut_cameraAuto
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_cameraAuto
 
 ## h_story_A01_DuzumiGateTut_td_cameraSwipe
 	* StepId: 67
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_cameraSwipe
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_swipe
+	* TVS: s_duzumiTut_cameraSwipe
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_swipe
 
 ## h_story_A01_DuzumiGateTut_td_cameraZoom
 	* StepId: 66
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_cameraZoom
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_zoom
+	* TVS: s_duzumiTut_cameraZoom
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_zoom
 
 ## h_story_A01_DuzumiGateTut_td_intro
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_intro
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_3
+	* TVS: s_duzumiTut_intro
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_3
 
 ## h_story_A01_DuzumiGateTut_td_intro1
 	* StepId: 69
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_1
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_69
+	* TVS: s_duzumi_intro_dialog_1
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_69
 
 ## h_story_A01_DuzumiGateTut_td_intro2
 	* StepId: 71
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_2
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_71
+	* TVS: s_duzumi_intro_dialog_2
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_71
 
 ## h_story_A01_DuzumiGateTut_td_intro3
 	* StepId: 73
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_3
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_73
+	* TVS: s_duzumi_intro_dialog_3
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_73
 
 ## h_story_A01_DuzumiGateTut_td_intro4
 	* StepId: 75
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_4
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_75
+	* TVS: s_duzumi_intro_dialog_4
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_75
 
 ## h_story_A01_DuzumiGateTut_td_moveDrag
 	* StepId: 59
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_moveDrag
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_dragMove
+	* TVS: s_duzumiTut_moveDrag
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_dragMove
 
 ## h_story_A01_DuzumiGateTut_td_moveTargetList
 	* StepId: 63
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_moveTargetList
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_moveToTargetList
+	* TVS: s_duzumiTut_moveTargetList
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_moveToTargetList
 
 ## h_story_A01_DuzumiGateTut_td_moveTaskForce
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_moveTaskForce
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_moveTaskForce
+	* TVS: s_duzumiTut_moveTaskForce
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_moveTaskForce
 
 ## h_story_A01_DuzumiGateTut_td_outro
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_outro
-	* SuccLL:
+	* TVS: s_duzumiTut_outro
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_28
 		* h_story_A01_DuzumiGateTut_fin_continue
 
@@ -3875,52 +3659,42 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_6
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_33
+	* TVS: s_duzumi_intro_dialog_6
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_33
 
 ## h_story_A01_DuzumiGateTut_td_outro7
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_7
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_35
+	* TVS: s_duzumi_intro_dialog_7
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_35
 
 ## h_story_A01_DuzumiGateTut_td_outro8
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumi_intro_dialog_8
+	* TVS: s_duzumi_intro_dialog_8
 
 ## h_story_A01_DuzumiGateTut_td_skill
 	* StepId: 54
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_skill
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_ui_skill
+	* TVS: s_duzumiTut_skill
+	* SuccLL: h_story_A01_DuzumiGateTut_ui_skill
 
 ## h_story_A01_DuzumiGateTut_td_targetList2
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_targetList
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_11
+	* TVS: s_duzumiTut_targetList
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_11
 
 ## h_story_A01_DuzumiGateTut_td_unitTray
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_duzumiTut_unitTray
-	* SuccLL:
+	* TVS: s_duzumiTut_unitTray
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_20
 		* h_story_A01_DuzumiGateTut_GAMA_58
 		* h_story_A01_DuzumiGateTut_d_moveDrag
@@ -3930,7 +3704,7 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_16
 		* h_story_A01_DuzumiGateTut_GAMA_59
 		* h_story_A01_DuzumiGateTut_d_attackTargetList
@@ -3939,7 +3713,7 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_24
 		* h_story_A01_DuzumiGateTut_GAMA_44
 		* h_story_A01_DuzumiGateTut_GAMA_45
@@ -3949,7 +3723,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_64
 		* h_story_A01_DuzumiGateTut_GAMA_8
 		* h_story_A01_DuzumiGateTut_addUI_enableSensorManager
@@ -3959,7 +3733,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_6
 		* h_story_A01_DuzumiGateTut_GAMA_65
 		* h_story_A01_DuzumiGateTut_d_cameraZoom
@@ -3968,14 +3742,13 @@
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_disable_Player
+	* SuccLL: h_story_A01_DuzumiGateTut_disable_Player
 
 ## h_story_A01_DuzumiGateTut_w_drones
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_14
 		* h_story_A01_DuzumiGateTut_GAMA_60
 		* h_story_A01_DuzumiGateTut_GAMA_61
@@ -3984,14 +3757,13 @@
 	* StepId: 62
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_d_targetDrones
+	* SuccLL: h_story_A01_DuzumiGateTut_d_targetDrones
 
 ## h_story_A01_DuzumiGateTut_w_explosion1
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_50
 		* h_story_A01_DuzumiGateTut_activate_taskForce
 		* h_story_A01_DuzumiGateTut_kill_frigate
@@ -4000,7 +3772,7 @@
 	* StepId: 51
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_51
 		* h_story_A01_DuzumiGateTut_d_explosion
 
@@ -4008,14 +3780,13 @@
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_52
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_52
 
 ## h_story_A01_DuzumiGateTut_w_intro
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_2
 		* h_story_A01_DuzumiGateTut_d_intro
 
@@ -4023,7 +3794,7 @@
 	* StepId: 68
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_68
 		* h_story_A01_DuzumiGateTut_d_intro1
 
@@ -4031,7 +3802,7 @@
 	* StepId: 70
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_70
 		* h_story_A01_DuzumiGateTut_d_intro2
 
@@ -4039,7 +3810,7 @@
 	* StepId: 72
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_72
 		* h_story_A01_DuzumiGateTut_d_intro3
 
@@ -4047,7 +3818,7 @@
 	* StepId: 74
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_74
 		* h_story_A01_DuzumiGateTut_d_intro4
 
@@ -4055,14 +3826,13 @@
 	* StepId: 76
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_d_intro5
+	* SuccLL: h_story_A01_DuzumiGateTut_d_intro5
 
 ## h_story_A01_DuzumiGateTut_w_jumpOutSequence
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_30
 		* h_story_A01_DuzumiGateTut_GAMA_31
 		* h_story_A01_DuzumiGateTut_sequence_jumpOut
@@ -4071,14 +3841,13 @@
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_deactivate_KharKalaad
+	* SuccLL: h_story_A01_DuzumiGateTut_deactivate_KharKalaad
 
 ## h_story_A01_DuzumiGateTut_w_moveTargetList
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_10
 		* h_story_A01_DuzumiGateTut_addUI_enableTargetList
 		* h_story_A01_DuzumiGateTut_d_targetList
@@ -4087,7 +3856,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_26
 		* h_story_A01_DuzumiGateTut_GAMA_38
 		* h_story_A01_DuzumiGateTut_GAMA_39
@@ -4098,7 +3867,7 @@
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_34
 		* h_story_A01_DuzumiGateTut_d_outro7
 
@@ -4106,7 +3875,7 @@
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_36
 		* h_story_A01_DuzumiGateTut_d_outro8
 
@@ -4114,7 +3883,7 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_18
 		* h_story_A01_DuzumiGateTut_d_praise
 
@@ -4122,14 +3891,13 @@
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_deactivate_RiifSa
+	* SuccLL: h_story_A01_DuzumiGateTut_deactivate_RiifSa
 
 ## h_story_A01_DuzumiGateTut_w_sequenceFrigate
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_22
 		* h_story_A01_DuzumiGateTut_GAMA_55
 		* h_story_A01_DuzumiGateTut_deactivate_frigate
@@ -4139,7 +3907,7 @@
 	* StepId: 56
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_56
 		* h_story_A01_DuzumiGateTut_moveTo_Frigate
 		* h_story_A01_DuzumiGateTut_sequence_frigate
@@ -4148,7 +3916,7 @@
 	* StepId: 57
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_57
 		* h_story_A01_DuzumiGateTut_d_targetFrigate
 
@@ -4156,14 +3924,13 @@
 	* StepId: 58
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_d_targetFrigate2
+	* SuccLL: h_story_A01_DuzumiGateTut_d_targetFrigate2
 
 ## h_story_A01_DuzumiGateTut_w_skill1
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_47
 		* h_story_A01_DuzumiGateTut_GAMA_53
 		* h_story_A01_DuzumiGateTut_GAMA_54
@@ -4176,7 +3943,7 @@
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A01_DuzumiGateTut_GAMA_49
 		* h_story_A01_DuzumiGateTut_camera_explosion
 
@@ -4184,23 +3951,20 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForPlayerReceivedRewards
-	* SuccLL:
-		* h_story_A01_DuzumiGateTut_GAMA_29
+	* SuccLL: h_story_A01_DuzumiGateTut_GAMA_29
 
 ## h_story_A02_WiracodaGate_endSequence_intro
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
-		* h_story_A02_WiracodaGate_GAMA_1
+	* TVS: 1
+	* SuccLL: h_story_A02_WiracodaGate_GAMA_1
 
 ## h_story_A02_WiracodaGate_goal_attackDrones
 	* StepId: 11
 	* Type: Goal
 	* TargetType: OnPlayerAttackNPC
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_11
 		* h_story_A02_WiracodaGate_close_goalDrones
 		* h_story_A02_WiracodaGate_deactivate_goalDrones
@@ -4215,7 +3979,7 @@
 	* StepId: 18
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_18
 		* h_story_A02_WiracodaGate_close_goalTormentor
 		* h_story_A02_WiracodaGate_deactivate_attackTormentor
@@ -4225,14 +3989,13 @@
 	* StepId: 58
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A02_WiracodaGate_deactivate_goalPosition
+	* SuccLL: h_story_A02_WiracodaGate_deactivate_goalPosition
 
 ## h_story_A02_WiracodaGate_goal_useSkill
 	* StepId: 13
 	* Type: Goal
 	* TargetType: UseSkill
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_13
 		* h_story_A02_WiracodaGate_close_goalSkill
 		* h_story_A02_WiracodaGate_deactivate_goalSkill
@@ -4243,11 +4006,11 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_A02_WiracodaGate_goal_positionForward
 		* h_story_A02_WiracodaGate_reach_KharKaalad
 		* h_story_A02_WiracodaGate_reach_RiffSa
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_4
 		* h_story_A02_WiracodaGate_GAMA_7
 
@@ -4255,7 +4018,7 @@
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_52
 		* h_story_A02_WiracodaGate_GAMA_53
 		* h_story_A02_WiracodaGate_d_skillReminder
@@ -4266,7 +4029,7 @@
 	* StepId: 61
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_61
 		* h_story_A02_WiracodaGate_GAMA_62
 		* h_story_A02_WiracodaGate_activate_KharKaalad
@@ -4276,7 +4039,7 @@
 	* StepId: 51
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_51
 		* h_story_A02_WiracodaGate_GAMA_54
 
@@ -4284,7 +4047,7 @@
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_ally_Akalon
 		* h_story_A02_WiracodaGate_ally_Haarsuk
 		* h_story_A02_WiracodaGate_ally_Scout01
@@ -4293,7 +4056,7 @@
 	* StepId: 48
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_wave_Movers01
 		* h_story_A02_WiracodaGate_wave_Movers02
 		* h_story_A02_WiracodaGate_wave_Tormentor01
@@ -4303,7 +4066,7 @@
 	* StepId: 65
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_ally_KharKaalad
 		* h_story_A02_WiracodaGate_ally_RiffSa
 		* h_story_A02_WiracodaGate_deactivate_KharKaalad
@@ -4313,7 +4076,7 @@
 	* StepId: 66
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_addUI_showLogs
 		* h_story_A02_WiracodaGate_addUI_tutorialHUD
 
@@ -4321,14 +4084,13 @@
 	* StepId: 64
 	* Type: Trigger
 	* TargetType: OnPlayerFlagshipDestroyed
-	* SuccLL:
-		* h_story_A02_WiracodaGate_fail
+	* SuccLL: h_story_A02_WiracodaGate_fail
 
 ## h_story_A02_WiracodaGate_position_Interlude
 	* StepId: 59
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_d_noSign
 		* h_story_A02_WiracodaGate_deactivate_uiTrigger
 		* h_story_A02_WiracodaGate_stopUI_position
@@ -4337,23 +4099,20 @@
 	* StepId: 63
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A02_WiracodaGate_DeactivateKharKaalad02
+	* SuccLL: h_story_A02_WiracodaGate_DeactivateKharKaalad02
 
 ## h_story_A02_WiracodaGate_reach_RiffSa
 	* StepId: 62
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A02_WiracodaGate_DeactivateRiffSa02
+	* SuccLL: h_story_A02_WiracodaGate_DeactivateRiffSa02
 
 ## h_story_A02_WiracodaGate_sequenceEnd_end
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_FinishMissionSuccess
 		* h_story_A02_WiracodaGate_StartCinematic
 
@@ -4361,9 +4120,8 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_23
 		* h_story_A02_WiracodaGate_activate_flagship
 		* h_story_A02_WiracodaGate_activate_keeper
@@ -4374,7 +4132,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_0
 		* h_story_A02_WiracodaGate_GAMA_63
 		* h_story_A02_WiracodaGate_GAMA_64
@@ -4385,27 +4143,22 @@
 	* StepId: 57
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Wiracoda_dialog_attackDrones
-	* SuccLL:
-		* h_story_A02_WiracodaGate_ui_attackDrones
+	* TVS: story_Wiracoda_dialog_attackDrones
+	* SuccLL: h_story_A02_WiracodaGate_ui_attackDrones
 
 ## h_story_A02_WiracodaGate_td_attackTormentor
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Wiracoda_dialog_attackTormentor
-	* SuccLL:
-		* h_story_A02_WiracodaGate_ui_attackTomentor
+	* TVS: story_Wiracoda_dialog_attackTormentor
+	* SuccLL: h_story_A02_WiracodaGate_ui_attackTomentor
 
 ## h_story_A02_WiracodaGate_td_intro
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Wiracoda_dialog_intro
-	* SuccLL:
+	* TVS: story_Wiracoda_dialog_intro
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_3
 		* h_story_A02_WiracodaGate_GAMA_57
 		* h_story_A02_WiracodaGate_GAMA_58
@@ -4417,41 +4170,34 @@
 	* StepId: 60
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Wiracoda_dialog_moveForward
-	* SuccLL:
-		* h_story_A02_WiracodaGate_ShowUIHighlightSequence01
+	* TVS: story_Wiracoda_dialog_moveForward
+	* SuccLL: h_story_A02_WiracodaGate_ShowUIHighlightSequence01
 
 ## h_story_A02_WiracodaGate_td_skillReminder
 	* StepId: 54
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Wiracoda_dialog_skillReminder
-	* SuccLL:
-		* h_story_A02_WiracodaGate_ui_useSkill2
+	* TVS: story_Wiracoda_dialog_skillReminder
+	* SuccLL: h_story_A02_WiracodaGate_ui_useSkill2
 
 ## h_story_A02_WiracodaGate_td_useSkill
 	* StepId: 56
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Wiracoda_dialog_useSkill
-	* SuccLL:
-		* h_story_A02_WiracodaGate_ui_useSkill
+	* TVS: story_Wiracoda_dialog_useSkill
+	* SuccLL: h_story_A02_WiracodaGate_ui_useSkill
 
 ## h_story_A02_WiracodaGate_TriggerRepeatingSpawnDrones01
 	* StepId: 6
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_A02_WiracodaGate_TriggerWaveDrones01b
+	* SuccLL: h_story_A02_WiracodaGate_TriggerWaveDrones01b
 
 ## h_story_A02_WiracodaGate_useSkil_reminder
 	* StepId: 53
 	* Type: Trigger
 	* TargetType: UseSkill
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_close_triggerSkill
 		* h_story_A02_WiracodaGate_deactivate_triggerSkill
 		* h_story_A02_WiracodaGate_stopUI_useSkill2
@@ -4460,14 +4206,13 @@
 	* StepId: 55
 	* Type: Trigger
 	* TargetType: UseSkill
-	* SuccLL:
-		* h_story_A02_WiracodaGate_deactivate_healthTormentor
+	* SuccLL: h_story_A02_WiracodaGate_deactivate_healthTormentor
 
 ## h_story_A02_WiracodaGate_w_Akalon01
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_25
 		* h_story_A02_WiracodaGate_GAMA_40
 		* h_story_A02_WiracodaGate_armor_Akalon01
@@ -4477,7 +4222,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_26
 		* h_story_A02_WiracodaGate_GAMA_39
 		* h_story_A02_WiracodaGate_armor_Akalon02
@@ -4487,7 +4232,7 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_27
 		* h_story_A02_WiracodaGate_GAMA_38
 		* h_story_A02_WiracodaGate_destroy_Akalon
@@ -4496,7 +4241,7 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_14
 		* h_story_A02_WiracodaGate_d_dronesWin
 
@@ -4504,63 +4249,55 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_close_kkSequence
+	* SuccLL: h_story_A02_WiracodaGate_close_kkSequence
 
 ## h_story_A02_WiracodaGate_w_closeInterlude2
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_close_tormentorWin
+	* SuccLL: h_story_A02_WiracodaGate_close_tormentorWin
 
 ## h_story_A02_WiracodaGate_w_diaOffset01
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_d_Akalon01
+	* SuccLL: h_story_A02_WiracodaGate_d_Akalon01
 
 ## h_story_A02_WiracodaGate_w_diaOffset02
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_d_Akalon02
+	* SuccLL: h_story_A02_WiracodaGate_d_Akalon02
 
 ## h_story_A02_WiracodaGate_w_diaOffset03
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_d_Akalon03
+	* SuccLL: h_story_A02_WiracodaGate_d_Akalon03
 
 ## h_story_A02_WiracodaGate_w_diaOffset04
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_d_Haarsuk01
+	* SuccLL: h_story_A02_WiracodaGate_d_Haarsuk01
 
 ## h_story_A02_WiracodaGate_w_diaOffset05
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_StartDialogHaarsuk2
+	* SuccLL: h_story_A02_WiracodaGate_StartDialogHaarsuk2
 
 ## h_story_A02_WiracodaGate_w_diaOffset06
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_d_endKeeper
+	* SuccLL: h_story_A02_WiracodaGate_d_endKeeper
 
 ## h_story_A02_WiracodaGate_w_diaOffset07
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_d_endOverwhelmed
 		* h_story_A02_WiracodaGate_wave_sequenceDrones01
 		* h_story_A02_WiracodaGate_wave_sequenceDrones02
@@ -4569,7 +4306,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_9
 		* h_story_A02_WiracodaGate_StartDialogFight3
 
@@ -4577,7 +4314,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_10
 		* h_story_A02_WiracodaGate_GAMA_56
 		* h_story_A02_WiracodaGate_d_attackDrones
@@ -4586,7 +4323,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_8
 		* h_story_A02_WiracodaGate_RequestCameraHighlightKharKaalad
 
@@ -4594,7 +4331,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_5
 		* h_story_A02_WiracodaGate_GAMA_6
 		* h_story_A02_WiracodaGate_TriggerWaveDrones01
@@ -4604,7 +4341,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_15
 		* h_story_A02_WiracodaGate_camera_tormentor
 		* h_story_A02_WiracodaGate_close_tormentorSequence
@@ -4614,7 +4351,7 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_31
 		* h_story_A02_WiracodaGate_GAMA_34
 
@@ -4622,7 +4359,7 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_30
 		* h_story_A02_WiracodaGate_GAMA_35
 		* h_story_A02_WiracodaGate_wave_endKeeper01
@@ -4632,7 +4369,7 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_32
 		* h_story_A02_WiracodaGate_GAMA_33
 		* h_story_A02_WiracodaGate_close_endSequence
@@ -4642,14 +4379,13 @@
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A02_WiracodaGate_d_endSequence
+	* SuccLL: h_story_A02_WiracodaGate_d_endSequence
 
 ## h_story_A02_WiracodaGate_w_freeBattle
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_EnablePlayerGodMode
 		* h_story_A02_WiracodaGate_GAMA_22
 		* h_story_A02_WiracodaGate_GAMA_41
@@ -4660,7 +4396,7 @@
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_44
 		* h_story_A02_WiracodaGate_d_freeBattle
 
@@ -4668,7 +4404,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_28
 		* h_story_A02_WiracodaGate_GAMA_37
 		* h_story_A02_WiracodaGate_armor_Haarsuk01
@@ -4678,7 +4414,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_29
 		* h_story_A02_WiracodaGate_GAMA_36
 		* h_story_A02_WiracodaGate_destroy_Haarsuk
@@ -4687,7 +4423,7 @@
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_42
 		* h_story_A02_WiracodaGate_close_keeperSequence
 		* h_story_A02_WiracodaGate_sequence_keeper
@@ -4696,7 +4432,7 @@
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_StartDialogKeeper1
 		* h_story_A02_WiracodaGate_wave_moreEnemies04
 		* h_story_A02_WiracodaGate_wave_moreEnemies05
@@ -4706,7 +4442,7 @@
 	* StepId: 46
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_wave_moreEnemies01
 		* h_story_A02_WiracodaGate_wave_moreEnemies02
 		* h_story_A02_WiracodaGate_wave_moreEnemies03
@@ -4715,7 +4451,7 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_24
 		* h_story_A02_WiracodaGate_d_moveBack
 
@@ -4723,7 +4459,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_2
 		* h_story_A02_WiracodaGate_d_intro
 
@@ -4731,7 +4467,7 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_16
 		* h_story_A02_WiracodaGate_d_tormentor
 
@@ -4739,7 +4475,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_12
 		* h_story_A02_WiracodaGate_GAMA_55
 		* h_story_A02_WiracodaGate_d_useSkill
@@ -4748,7 +4484,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_17
 		* h_story_A02_WiracodaGate_GAMA_49
 		* h_story_A02_WiracodaGate_GAMA_50
@@ -4759,7 +4495,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_19
 		* h_story_A02_WiracodaGate_d_tormentorWin
 
@@ -4767,7 +4503,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_GAMA_20
 		* h_story_A02_WiracodaGate_GAMA_46
 		* h_story_A02_WiracodaGate_GAMA_47
@@ -4777,7 +4513,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A02_WiracodaGate_ActivateRiffSa02
 		* h_story_A02_WiracodaGate_GAMA_21
 		* h_story_A02_WiracodaGate_GAMA_43
@@ -4787,7 +4523,7 @@
 	* StepId: 26
 	* Type: Goal
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_26
 		* h_story_A03_GulfTaln_GAMA_32
 		* h_story_A03_GulfTaln_d_pirates3
@@ -4798,10 +4534,10 @@
 	* StepId: 18
 	* Type: Goal
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -2000
 		* 2000
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_18
 		* h_story_A03_GulfTaln_StopHightlightMoveTo
 		* h_story_A03_GulfTaln_close_position
@@ -4811,7 +4547,7 @@
 	* StepId: 9
 	* Type: Goal
 	* TargetType: OnTaggedUnitsHaveAmountOfArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_47
 		* h_story_A03_GulfTaln_GAMA_48
 		* h_story_A03_GulfTaln_GAMA_9
@@ -4823,7 +4559,7 @@
 	* StepId: 7
 	* Type: Goal
 	* TargetType: SquadsLaunched
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_7
 		* h_story_A03_GulfTaln_StopHighlightResColUndock
 		* h_story_A03_GulfTaln_close_goalRC
@@ -4833,9 +4569,8 @@
 	* StepId: 12
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_A03_GulfTaln_goal_undockInterceptorSub
-	* SuccLL:
+	* TVS: h_story_A03_GulfTaln_goal_undockInterceptorSub
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_12
 		* h_story_A03_GulfTaln_close_interceptor
 		* h_story_A03_GulfTaln_deactivate_interceptor
@@ -4850,7 +4585,7 @@
 	* StepId: 55
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_SetPlayerFlagshipArmor
 		* h_story_A03_GulfTaln_SetPlayerFlagshipJull
 
@@ -4858,7 +4593,7 @@
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_healEscortArmor
 		* h_story_A03_GulfTaln_healEscortHealth
 		* h_story_A03_GulfTaln_healFlagshipArmor
@@ -4868,7 +4603,7 @@
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_35
 		* h_story_A03_GulfTaln_GAMA_38
 
@@ -4876,7 +4611,7 @@
 	* StepId: 56
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_addUI_showLogs
 		* h_story_A03_GulfTaln_addUI_tutorialHUD
 
@@ -4884,7 +4619,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_0
 		* h_story_A03_GulfTaln_GAMA_53
 		* h_story_A03_GulfTaln_GAMA_54
@@ -4895,26 +4630,23 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_escape_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_GAMA_27
+	* TVS: story_GulfTaln_escape_dialog
+	* SuccLL: h_story_A03_GulfTaln_GAMA_27
 
 ## h_story_A03_GulfTaln_t_dialogOrTime
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_A03_GulfTaln_td_repairStarted
 		* h_story_A03_GulfTaln_w_3
-	* SuccLL:
-		* h_story_A03_GulfTaln_GAMA_10
+	* SuccLL: h_story_A03_GulfTaln_GAMA_10
 
 ## h_story_A03_GulfTaln_t_health
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_36
 		* h_story_A03_GulfTaln_GAMA_37
 		* h_story_A03_GulfTaln_d_useSkill
@@ -4925,14 +4657,13 @@
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: UseSkill
-	* SuccLL:
-		* h_story_A03_GulfTaln_deactivateSkillGoal
+	* SuccLL: h_story_A03_GulfTaln_deactivateSkillGoal
 
 ## h_story_A03_GulfTaln_t_useSkill2
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: UseSkill
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_close_skill
 		* h_story_A03_GulfTaln_desctivate_skill
 		* h_story_A03_GulfTaln_stopUI_skill
@@ -4941,106 +4672,84 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_conclusion_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_GAMA_31
+	* TVS: story_GulfTaln_conclusion_dialog
+	* SuccLL: h_story_A03_GulfTaln_GAMA_31
 
 ## h_story_A03_GulfTaln_td_help
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_help_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_UIHighlightAttack
+	* TVS: story_GulfTaln_help_dialog
+	* SuccLL: h_story_A03_GulfTaln_UIHighlightAttack
 
 ## h_story_A03_GulfTaln_td_moveToPosition
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_move_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_HightlightMoveTo
+	* TVS: story_GulfTaln_move_dialog
+	* SuccLL: h_story_A03_GulfTaln_HightlightMoveTo
 
 ## h_story_A03_GulfTaln_td_pirates2
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_pirates2_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_GAMA_24
+	* TVS: story_GulfTaln_pirates2_dialog
+	* SuccLL: h_story_A03_GulfTaln_GAMA_24
 
 ## h_story_A03_GulfTaln_td_repair
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_repair_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_HighlightRepairFrigate
+	* TVS: story_GulfTaln_repair_dialog
+	* SuccLL: h_story_A03_GulfTaln_HighlightRepairFrigate
 
 ## h_story_A03_GulfTaln_td_repairStarted
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_repairStarted_dialog
+	* TVS: story_GulfTaln_repairStarted_dialog
 
 ## h_story_A03_GulfTaln_td_stranger2
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_stranger_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_GAMA_15
+	* TVS: story_GulfTaln_stranger_dialog
+	* SuccLL: h_story_A03_GulfTaln_GAMA_15
 
 ## h_story_A03_GulfTaln_td_undockInterceptor
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_undockInterceptor_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_highlight_undockInterceptor
+	* TVS: story_GulfTaln_undockInterceptor_dialog
+	* SuccLL: h_story_A03_GulfTaln_highlight_undockInterceptor
 
 ## h_story_A03_GulfTaln_td_useSkill
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_skill_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_UIHighlightSkill
+	* TVS: story_GulfTaln_skill_dialog
+	* SuccLL: h_story_A03_GulfTaln_UIHighlightSkill
 
 ## h_story_A03_GulfTaln_TriggerWaitForAcropolisDialogDone
 	* StepId: 51
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_undockRC_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_HighlightResColUndock
+	* TVS: story_GulfTaln_undockRC_dialog
+	* SuccLL: h_story_A03_GulfTaln_HighlightResColUndock
 
 ## h_story_A03_GulfTaln_TriggerWaitForDialogIntro2
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_intro_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_GAMA_3
+	* TVS: story_GulfTaln_intro_dialog
+	* SuccLL: h_story_A03_GulfTaln_GAMA_3
 
 ## h_story_A03_GulfTaln_TriggerWaitForIntroSequenceDone
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_1
 		* h_story_A03_GulfTaln_bded5f6751f543d4da8e11385dbfcdcb
 		* h_story_A03_GulfTaln_deactivate_introSequenceDialog
@@ -5050,9 +4759,8 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_farewell_dialog
-	* SuccLL:
+	* TVS: story_GulfTaln_farewell_dialog
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_29
 		* h_story_A03_GulfTaln_RemoveTr1Freighter01
 
@@ -5060,7 +4768,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_2
 		* h_story_A03_GulfTaln_StartDialogIntro2
 
@@ -5068,7 +4776,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_21
 		* h_story_A03_GulfTaln_GAMA_41
 		* h_story_A03_GulfTaln_HighlightShowCangacianSpawns
@@ -5077,7 +4785,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_19
 		* h_story_A03_GulfTaln_StartDialogThePirates1
 
@@ -5085,7 +4793,7 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_30
 		* h_story_A03_GulfTaln_d_conclusion
 
@@ -5093,7 +4801,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_22
 		* h_story_A03_GulfTaln_d_pirates
 
@@ -5106,7 +4814,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_28
 		* h_story_A03_GulfTaln_StartDialogTheGift1
 
@@ -5114,7 +4822,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_4
 		* h_story_A03_GulfTaln_GAMA_51
 		* h_story_A03_GulfTaln_ShowHighlightAcropolisSpawn
@@ -5123,7 +4831,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_49
 		* h_story_A03_GulfTaln_GAMA_8
 		* h_story_A03_GulfTaln_d_repair
@@ -5132,7 +4840,7 @@
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_25
 		* h_story_A03_GulfTaln_GAMA_33
 		* h_story_A03_GulfTaln_GAMA_34
@@ -5144,7 +4852,7 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_fin
 		* h_story_A03_GulfTaln_removeUI_showLogs
 		* h_story_A03_GulfTaln_removeUI_tutorialHUD
@@ -5153,7 +4861,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_50
 		* h_story_A03_GulfTaln_GAMA_6
 		* h_story_A03_GulfTaln_GivePlayerResCol01
@@ -5164,7 +4872,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_5
 		* h_story_A03_GulfTaln_StartDialogIntro4
 
@@ -5172,7 +4880,7 @@
 	* StepId: 53
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_SetAcropolisArmor01
 		* h_story_A03_GulfTaln_SetAcropolisHull01
 
@@ -5180,14 +4888,13 @@
 	* StepId: 54
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A03_GulfTaln_StartDialogIntro1
+	* SuccLL: h_story_A03_GulfTaln_StartDialogIntro1
 
 ## h_story_A03_GulfTaln_w_pirates
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_23
 		* h_story_A03_GulfTaln_d_pirates2
 
@@ -5195,7 +4902,7 @@
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_DeactivateCangacians
 		* h_story_A03_GulfTaln_DeactivatePlayer
 		* h_story_A03_GulfTaln_InvincibleCangacianCommandShip
@@ -5206,14 +4913,13 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A03_GulfTaln_remove_PirateCommandShip
+	* SuccLL: h_story_A03_GulfTaln_remove_PirateCommandShip
 
 ## h_story_A03_GulfTaln_w_repair
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_11
 		* h_story_A03_GulfTaln_GAMA_45
 		* h_story_A03_GulfTaln_GAMA_46
@@ -5224,21 +4930,19 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A03_GulfTaln_ActivateCangacians
+	* SuccLL: h_story_A03_GulfTaln_ActivateCangacians
 
 ## h_story_A03_GulfTaln_w_setPlayerActive
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A03_GulfTaln_ActivatePlayer
+	* SuccLL: h_story_A03_GulfTaln_ActivatePlayer
 
 ## h_story_A03_GulfTaln_w_spawnFrigate
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_52
 		* h_story_A03_GulfTaln_GiveAcropolisToPlayer
 
@@ -5246,7 +4950,7 @@
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_DeactivateFreighter01
 		* h_story_A03_GulfTaln_GAMA_44
 		* h_story_A03_GulfTaln_SpawnTr1Freighter
@@ -5255,7 +4959,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_17
 		* h_story_A03_GulfTaln_GAMA_42
 		* h_story_A03_GulfTaln_d_moveToPosition
@@ -5264,7 +4968,7 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_14
 		* h_story_A03_GulfTaln_GAMA_16
 		* h_story_A03_GulfTaln_d_stranger
@@ -5273,14 +4977,13 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A03_GulfTaln_d_trader2
+	* SuccLL: h_story_A03_GulfTaln_d_trader2
 
 ## h_story_A03_GulfTaln_w_transition
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A03_GulfTaln_GAMA_13
 		* h_story_A03_GulfTaln_GAMA_43
 		* h_story_A03_GulfTaln_ShowHighlightTraderSpawn
@@ -5289,16 +4992,14 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_GulfTaln_exchange_dialog
-	* SuccLL:
-		* h_story_A03_GulfTaln_GAMA_20
+	* TVS: story_GulfTaln_exchange_dialog
+	* SuccLL: h_story_A03_GulfTaln_GAMA_20
 
 ## h_story_A04_RelicSignature_goal_deployRC
 	* StepId: 16
 	* Type: Goal
 	* TargetType: ResourceCollectorsLaunched
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_16
 		* h_story_A04_RelicSignature_a7dd19c53a7c7cf44bdaad6ff15e2ab7
 
@@ -5306,7 +5007,7 @@
 	* StepId: 4
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_4
 		* h_story_A04_RelicSignature_close_combat
 
@@ -5314,25 +5015,21 @@
 	* StepId: 12
 	* Type: Goal
 	* TargetType: OnInteractionDone
-	* TVS:
-		* relic_kpr_pickup_t0
-	* SuccLL:
-		* h_story_A04_RelicSignature_deactivate_relic
+	* TVS: relic_kpr_pickup_t0
+	* SuccLL: h_story_A04_RelicSignature_deactivate_relic
 
 ## h_story_A04_RelicSignature_goal_relic2
 	* StepId: 18
 	* Type: Goal
 	* TargetType: OnInteractionDone
-	* TVS:
-		* relic_kpr_pickup_t0
-	* SuccLL:
-		* h_story_A04_RelicSignature_deactivate_relic2
+	* TVS: relic_kpr_pickup_t0
+	* SuccLL: h_story_A04_RelicSignature_deactivate_relic2
 
 ## h_story_A04_RelicSignature_goal_signals
 	* StepId: 2
 	* Type: Goal
 	* TargetType: OnPlayerAttackNPC
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_2
 		* h_story_A04_RelicSignature_close_intro
 		* h_story_A04_RelicSignature_deactivate_intro
@@ -5342,10 +5039,10 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_A04_RelicSignature_goal_relic
 		* h_story_A04_RelicSignature_goal_relic2
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_6
 		* h_story_A04_RelicSignature_close_collect
 		* h_story_A04_RelicSignature_stopUI_collect
@@ -5354,7 +5051,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: ResourceCollectorsLaunched
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_10
 		* h_story_A04_RelicSignature_GAMA_13
 
@@ -5362,7 +5059,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_0
 		* h_story_A04_RelicSignature_GAMA_20
 		* h_story_A04_RelicSignature_wave_protectors
@@ -5371,43 +5068,35 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Relic_collectorLaunched_dialog
-	* SuccLL:
-		* h_story_A04_RelicSignature_ui_collect2
+	* TVS: story_Relic_collectorLaunched_dialog
+	* SuccLL: h_story_A04_RelicSignature_ui_collect2
 
 ## h_story_A04_RelicSignature_td_end
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Relic_end_dialog
-	* SuccLL:
-		* h_story_A04_RelicSignature_fin
+	* TVS: story_Relic_end_dialog
+	* SuccLL: h_story_A04_RelicSignature_fin
 
 ## h_story_A04_RelicSignature_td_intro
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Relic_intro_dialog
-	* SuccLL:
-		* h_story_A04_RelicSignature_ui_dragMove
+	* TVS: story_Relic_intro_dialog
+	* SuccLL: h_story_A04_RelicSignature_ui_dragMove
 
 ## h_story_A04_RelicSignature_td_relic
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Relic_relic_dialog
-	* SuccLL:
-		* h_story_A04_RelicSignature_ui_collect
+	* TVS: story_Relic_relic_dialog
+	* SuccLL: h_story_A04_RelicSignature_ui_collect
 
 ## h_story_A04_RelicSignature_w_collectorLaunched
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_17
 		* h_story_A04_RelicSignature_GAMA_18
 		* h_story_A04_RelicSignature_d_collectorLaunched
@@ -5416,7 +5105,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_3
 		* h_story_A04_RelicSignature_d_combat
 
@@ -5424,14 +5113,13 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A04_RelicSignature_deactivate_ResColCheck
+	* SuccLL: h_story_A04_RelicSignature_deactivate_ResColCheck
 
 ## h_story_A04_RelicSignature_w_intro
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_1
 		* h_story_A04_RelicSignature_GAMA_19
 		* h_story_A04_RelicSignature_d_intro
@@ -5440,14 +5128,13 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A04_RelicSignature_lookAt
+	* SuccLL: h_story_A04_RelicSignature_lookAt
 
 ## h_story_A04_RelicSignature_w_relic
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_14
 		* h_story_A04_RelicSignature_GAMA_5
 		* h_story_A04_RelicSignature_GAMA_8
@@ -5457,7 +5144,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_11
 		* h_story_A04_RelicSignature_GAMA_12
 		* h_story_A04_RelicSignature_d_relic
@@ -5466,7 +5153,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_7
 		* h_story_A04_RelicSignature_d_end
 
@@ -5474,7 +5161,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A04_RelicSignature_GAMA_15
 		* h_story_A04_RelicSignature_d_collectorMissing
 		* h_story_A04_RelicSignature_deactivate_ResColCheck2
@@ -5483,14 +5170,13 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A04_RelicSignature_interaction_relic
+	* SuccLL: h_story_A04_RelicSignature_interaction_relic
 
 ## h_story_A05_Jolja_belowStrength_waveA
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_23
 		* h_story_A05_Jolja_GAMA_24
 		* h_story_A05_Jolja_d_waveB
@@ -5500,7 +5186,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_26
 		* h_story_A05_Jolja_close
 		* h_story_A05_Jolja_highlight_allySpawn
@@ -5515,39 +5201,33 @@
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: OnSensorManagerViewHasState
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_35
+	* SuccLL: h_story_A05_Jolja_GAMA_35
 
 ## h_story_A05_Jolja_goal_kill
 	* StepId: 16
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_A05_Jolja_killBothWaves
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_16
+	* TVS: h_story_A05_Jolja_killBothWaves
+	* SuccLL: h_story_A05_Jolja_GAMA_16
 
 ## h_story_A05_Jolja_goal_position1
 	* StepId: 8
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_8
+	* SuccLL: h_story_A05_Jolja_GAMA_8
 
 ## h_story_A05_Jolja_goal_position2
 	* StepId: 12
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_12
+	* SuccLL: h_story_A05_Jolja_GAMA_12
 
 ## h_story_A05_Jolja_goal_sensor
 	* StepId: 3
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_A05_Jolja_openSensor
-	* SuccLL:
+	* TVS: h_story_A05_Jolja_openSensor
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_3
 		* h_story_A05_Jolja_close_openSensor
 		* h_story_A05_Jolja_deactivate_openSensor
@@ -5557,16 +5237,14 @@
 	* StepId: 6
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_A05_Jolja_closeSensor
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_6
+	* TVS: h_story_A05_Jolja_closeSensor
+	* SuccLL: h_story_A05_Jolja_GAMA_6
 
 ## h_story_A05_Jolja_goal_terminalATimer
 	* StepId: 10
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_10
 		* h_story_A05_Jolja_close_timerA
 
@@ -5574,7 +5252,7 @@
 	* StepId: 14
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_14
 		* h_story_A05_Jolja_close_TimerB
 
@@ -5592,7 +5270,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_A05_Jolja_kill_wave1
 		* h_story_A05_Jolja_kill_wave2
 
@@ -5605,30 +5283,26 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: OnSensorManagerViewHasState
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_41
+	* SuccLL: h_story_A05_Jolja_GAMA_41
 
 ## h_story_A05_Jolja_sensorPreCheck
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: OnSensorManagerViewHasState
-	* SuccLL:
-		* h_story_A05_Jolja_ui_sensorManager
+	* SuccLL: h_story_A05_Jolja_ui_sensorManager
 
 ## h_story_A05_Jolja_sensorPreCheck2
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: OnSensorManagerViewHasState
-	* SuccLL:
-		* h_story_A05_Jolja_ui_SensorManager2
+	* SuccLL: h_story_A05_Jolja_ui_SensorManager2
 
 ## h_story_A05_Jolja_st_2_1_waitIntro
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_1
 		* h_story_A05_Jolja_GAMA_46
 		* h_story_A05_Jolja_close_intro
@@ -5638,7 +5312,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_0
 		* h_story_A05_Jolja_GAMA_47
 		* h_story_A05_Jolja_sequence_Intro
@@ -5647,9 +5321,8 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Jolja_closeSensor_dialog
-	* SuccLL:
+	* TVS: story_Jolja_closeSensor_dialog
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_33
 		* h_story_A05_Jolja_GAMA_34
 
@@ -5657,9 +5330,8 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Jolja_openSensor_dialog
-	* SuccLL:
+	* TVS: story_Jolja_openSensor_dialog
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_40
 		* h_story_A05_Jolja_GAMA_42
 
@@ -5667,18 +5339,15 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Jolja_resolution_dialog
-	* SuccLL:
-		* h_story_A05_Jolja_st_2_1_act_fin
+	* TVS: story_Jolja_resolution_dialog
+	* SuccLL: h_story_A05_Jolja_st_2_1_act_fin
 
 ## h_story_A05_Jolja_td_signatures
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Jolja_signatures_dialog
-	* SuccLL:
+	* TVS: story_Jolja_signatures_dialog
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_32
 		* h_story_A05_Jolja_GAMA_36
 		* h_story_A05_Jolja_GAMA_38
@@ -5689,9 +5358,8 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* story_Jolja_tepin_dialog
-	* SuccLL:
+	* TVS: story_Jolja_tepin_dialog
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_18
 		* h_story_A05_Jolja_remove_ally
 
@@ -5699,27 +5367,25 @@
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_A05_Jolja_td_closeSensor
 		* h_story_A05_Jolja_w_closeSensorDelay
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_37
+	* SuccLL: h_story_A05_Jolja_GAMA_37
 
 ## h_story_A05_Jolja_unlockTrigger_openSensor
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_A05_Jolja_td_openSensor
 		* h_story_A05_Jolja_w_openSensorDelay
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_44
+	* SuccLL: h_story_A05_Jolja_GAMA_44
 
 ## h_story_A05_Jolja_w_3
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_27
 		* h_story_A05_Jolja_d_ally
 
@@ -5727,7 +5393,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_17
 		* h_story_A05_Jolja_d_tepin
 
@@ -5735,7 +5401,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_29
 		* h_story_A05_Jolja_disable_Ally
 
@@ -5743,7 +5409,7 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_30
 		* h_story_A05_Jolja_enable_Ally
 
@@ -5751,7 +5417,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_28
 		* h_story_A05_Jolja_ally0
 
@@ -5764,8 +5430,7 @@
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A05_Jolja_desctivateSensorCheck2
+	* SuccLL: h_story_A05_Jolja_desctivateSensorCheck2
 
 ## h_story_A05_Jolja_w_closeSensorDelay
 	* StepId: 39
@@ -5776,21 +5441,19 @@
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A05_Jolja_GAMA_25
+	* SuccLL: h_story_A05_Jolja_GAMA_25
 
 ## h_story_A05_Jolja_w_intro
 	* StepId: 48
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A05_Jolja_d_introSequence
+	* SuccLL: h_story_A05_Jolja_d_introSequence
 
 ## h_story_A05_Jolja_w_intro2
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_lookAt_intro
 		* h_story_A05_Jolja_setActive_disablePlayerFleet
 		* h_story_A05_Jolja_wave0
@@ -5799,7 +5462,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_2
 		* h_story_A05_Jolja_GAMA_39
 		* h_story_A05_Jolja_GAMA_43
@@ -5810,7 +5473,7 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_31
 		* h_story_A05_Jolja_invincivle_offPlayer
 
@@ -5818,8 +5481,7 @@
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_A05_Jolja_deactivate_sensorPreCheck
+	* SuccLL: h_story_A05_Jolja_deactivate_sensorPreCheck
 
 ## h_story_A05_Jolja_w_openSensorDelay
 	* StepId: 46
@@ -5830,7 +5492,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_19
 		* h_story_A05_Jolja_d_resolution
 
@@ -5838,7 +5500,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_4
 		* h_story_A05_Jolja_d_signatures
 
@@ -5846,7 +5508,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_9
 		* h_story_A05_Jolja_d_terminalATimer
 
@@ -5854,7 +5516,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_11
 		* h_story_A05_Jolja_d_terminalB
 		* h_story_A05_Jolja_lookAt_terminalB
@@ -5863,7 +5525,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_7
 		* h_story_A05_Jolja_d_terminalA
 		* h_story_A05_Jolja_deactivate_fakePosition
@@ -5874,7 +5536,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_13
 		* h_story_A05_Jolja_d_terminalBTimer
 
@@ -5882,7 +5544,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_A05_Jolja_GAMA_15
 		* h_story_A05_Jolja_GAMA_20
 		* h_story_A05_Jolja_GAMA_21
@@ -5894,9 +5556,8 @@
 	* StepId: 12
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_B01_CombatTrials_kill0
-	* SuccLL:
+	* TVS: h_story_B01_CombatTrials_kill0
+	* SuccLL: 
 		* h_story_B01_CombatTrials_8925d17f2b53d72418d7316b9b67bfe1
 		* h_story_B01_CombatTrials_GAMA_12
 
@@ -5904,9 +5565,8 @@
 	* StepId: 9
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_B01_CombatTrials_t_reach
-	* SuccLL:
+	* TVS: h_story_B01_CombatTrials_t_reach
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_9
 		* h_story_B01_CombatTrials_d_tut
 
@@ -5914,23 +5574,20 @@
 	* StepId: 18
 	* Type: Goal
 	* TargetType: Countdown
-	* FailLL:
-		* h_story_B01_CombatTrials_GAMA_18
+	* FailLL: h_story_B01_CombatTrials_GAMA_18
 
 ## h_story_B01_CombatTrials_goal_wave
 	* StepId: 15
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_B01_CombatTrials_kill1
-	* SuccLL:
-		* h_story_B01_CombatTrials_GAMA_15
+	* TVS: h_story_B01_CombatTrials_kill1
+	* SuccLL: h_story_B01_CombatTrials_GAMA_15
 
 ## h_story_B01_CombatTrials_i_setup
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B01_CombatTrials_deactivate_playerEscorts
 		* h_story_B01_CombatTrials_deactivate_playerFlagship
 		* h_story_B01_CombatTrials_deactivate_targets
@@ -5951,7 +5608,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_0
 		* h_story_B01_CombatTrials_GAMA_1
 		* h_story_B01_CombatTrials_GAMA_2
@@ -5963,9 +5620,8 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_shakedown_destroy_1_dialog
-	* SuccLL:
+	* TVS: s_shakedown_destroy_1_dialog
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_14
 		* h_story_B01_CombatTrials_GAMA_16
 		* h_story_B01_CombatTrials_activateUnits
@@ -5978,7 +5634,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 1800
 		* 1800
 
@@ -5986,27 +5642,22 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_shakedown_fail_1_dialog
-	* SuccLL:
-		* h_story_B01_CombatTrials_fail
+	* TVS: s_shakedown_fail_1_dialog
+	* SuccLL: h_story_B01_CombatTrials_fail
 
 ## h_story_B01_CombatTrials_td_fin
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_shakedown_fin_1_dialog
-	* SuccLL:
-		* h_story_B01_CombatTrials_fin
+	* TVS: s_shakedown_fin_1_dialog
+	* SuccLL: h_story_B01_CombatTrials_fin
 
 ## h_story_B01_CombatTrials_td_intro1
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_shakedown_intro_1_dialog
-	* SuccLL:
+	* TVS: s_shakedown_intro_1_dialog
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_6
 		* h_story_B01_CombatTrials_d_intro2
 
@@ -6014,9 +5665,8 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_shakedown_intro_2_dialog
-	* SuccLL:
+	* TVS: s_shakedown_intro_2_dialog
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_7
 		* h_story_B01_CombatTrials_d_intro3
 
@@ -6024,9 +5674,8 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_shakedown_intro_3_dialog
-	* SuccLL:
+	* TVS: s_shakedown_intro_3_dialog
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_19
 		* h_story_B01_CombatTrials_GAMA_8
 		* h_story_B01_CombatTrials_uiHighlightSwipe
@@ -6035,9 +5684,8 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_shakedown_tut_1_dialog
-	* SuccLL:
+	* TVS: s_shakedown_tut_1_dialog
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_10
 		* h_story_B01_CombatTrials_d_tut2
 
@@ -6045,9 +5693,8 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_shakedown_tut_2_dialog
-	* SuccLL:
+	* TVS: s_shakedown_tut_2_dialog
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_11
 		* h_story_B01_CombatTrials_GAMA_17
 		* h_story_B01_CombatTrials_activate_targets
@@ -6056,7 +5703,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_13
 		* h_story_B01_CombatTrials_d_destroy
 		* h_story_B01_CombatTrials_lineOfSight
@@ -6065,21 +5712,19 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B01_CombatTrials_d_fail
+	* SuccLL: h_story_B01_CombatTrials_d_fail
 
 ## h_story_B01_CombatTrials_w_4
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B01_CombatTrials_d_fin
+	* SuccLL: h_story_B01_CombatTrials_d_fin
 
 ## h_story_B01_CombatTrials_w_intro
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B01_CombatTrials_GAMA_5
 		* h_story_B01_CombatTrials_d_intro1
 		* h_story_B01_CombatTrials_deactivate_targets2
@@ -6088,8 +5733,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B01_CombatTrials_lookAt_targets
+	* SuccLL: h_story_B01_CombatTrials_lookAt_targets
 
 ## h_story_B02_MeropisDefense_allyKilled1
 	* StepId: 3
@@ -6105,7 +5749,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -4890
 		* 6740
 
@@ -6113,7 +5757,7 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -2260
 		* 8710
 
@@ -6121,26 +5765,23 @@
 	* StepId: 15
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_B02_MeropisDefense_kill0
 		* h_story_B02_MeropisDefense_kill1
-	* SuccLL:
-		* h_story_B02_MeropisDefense_GAMA_15
+	* SuccLL: h_story_B02_MeropisDefense_GAMA_15
 
 ## h_story_B02_MeropisDefense_goal_position
 	* StepId: 13
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_B02_MeropisDefense_t_pos_2
-	* SuccLL:
-		* h_story_B02_MeropisDefense_GAMA_13
+	* TVS: h_story_B02_MeropisDefense_t_pos_2
+	* SuccLL: h_story_B02_MeropisDefense_GAMA_13
 
 ## h_story_B02_MeropisDefense_i_0
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B02_MeropisDefense_GAMA_2
 		* h_story_B02_MeropisDefense_GAMA_3
 		* h_story_B02_MeropisDefense_GAMA_4
@@ -6162,7 +5803,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B02_MeropisDefense_53595280a0643c7478e14f5a565444d0
 		* h_story_B02_MeropisDefense_GAMA_0
 		* h_story_B02_MeropisDefense_GAMA_1
@@ -6172,35 +5813,30 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_B02_MeropisDefense_t_d_dail
 		* h_story_B02_MeropisDefense_w_fail
-	* SuccLL:
-		* h_story_B02_MeropisDefense_fail
+	* SuccLL: h_story_B02_MeropisDefense_fail
 
 ## h_story_B02_MeropisDefense_t_d_dail
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_meropis_fail_1_dialog
+	* TVS: s_meropis_fail_1_dialog
 
 ## h_story_B02_MeropisDefense_t_d_fin
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_meropis_finish_1_dialog
-	* SuccLL:
-		* h_story_B02_MeropisDefense_fin
+	* TVS: s_meropis_finish_1_dialog
+	* SuccLL: h_story_B02_MeropisDefense_fin
 
 ## h_story_B02_MeropisDefense_t_d_group1temp
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_meropis_group_1_dialog
-	* SuccLL:
+	* TVS: s_meropis_group_1_dialog
+	* SuccLL: 
 		* h_story_B02_MeropisDefense_GAMA_12
 		* h_story_B02_MeropisDefense_GAMA_18
 		* h_story_B02_MeropisDefense_GAMA_21
@@ -6211,9 +5847,8 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_meropis_intro_1_dialog
-	* SuccLL:
+	* TVS: s_meropis_intro_1_dialog
+	* SuccLL: 
 		* h_story_B02_MeropisDefense_GAMA_11
 		* h_story_B02_MeropisDefense_d_group1temp
 
@@ -6221,20 +5856,19 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_B02_MeropisDefense_allyKilled1
 		* h_story_B02_MeropisDefense_allyKilled2
-	* SuccLL:
-		* h_story_B02_MeropisDefense_GAMA_5
+	* SuccLL: h_story_B02_MeropisDefense_GAMA_5
 
 ## h_story_B02_MeropisDefense_t_pos_1
 	* StepId: 19
 	* Type: TriggerRepeating
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -4890
 		* 6740
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B02_MeropisDefense_GAMA_19
 		* h_story_B02_MeropisDefense_GAMA_20
 
@@ -6242,24 +5876,22 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -2260
 		* 8710
-	* SuccLL:
-		* h_story_B02_MeropisDefense_deactivate2
+	* SuccLL: h_story_B02_MeropisDefense_deactivate2
 
 ## h_story_B02_MeropisDefense_w_0
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B02_MeropisDefense_deactivate1
+	* SuccLL: h_story_B02_MeropisDefense_deactivate1
 
 ## h_story_B02_MeropisDefense_w_1
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B02_MeropisDefense_GAMA_14
 		* h_story_B02_MeropisDefense_GAMA_16
 		* h_story_B02_MeropisDefense_GAMA_17
@@ -6271,7 +5903,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B02_MeropisDefense_GAMA_6
 		* h_story_B02_MeropisDefense_GAMA_7
 		* h_story_B02_MeropisDefense_GAMA_8
@@ -6281,7 +5913,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B02_MeropisDefense_GAMA_10
 		* h_story_B02_MeropisDefense_d_intro
 
@@ -6289,8 +5921,7 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B02_MeropisDefense_d_fin
+	* SuccLL: h_story_B02_MeropisDefense_d_fin
 
 ## h_story_B02_MeropisDefense_w_fail
 	* StepId: 8
@@ -6301,9 +5932,8 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_pool_destroy_1_dialog
-	* SuccLL:
+	* TVS: s_pool_destroy_1_dialog
+	* SuccLL: 
 		* h_story_B03_ThePool_GAMA_4
 		* h_story_B03_ThePool_tw6
 
@@ -6311,7 +5941,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -2500
 		* -5700
 
@@ -6319,7 +5949,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -1700
 		* -3600
 
@@ -6327,7 +5957,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 4400
 		* 8000
 
@@ -6335,7 +5965,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 10600
 		* 9200
 
@@ -6343,7 +5973,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 15300
 		* 6800
 
@@ -6351,30 +5981,26 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B03_ThePool_1f39f96484f3a29428bf088b41c939e6
+	* SuccLL: h_story_B03_ThePool_1f39f96484f3a29428bf088b41c939e6
 
 ## h_story_B03_ThePool_g_destroy
 	* StepId: 14
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_B03_ThePool_t_killPlatforms
-	* SuccLL:
-		* h_story_B03_ThePool_GAMA_2
+	* TVS: h_story_B03_ThePool_t_killPlatforms
+	* SuccLL: h_story_B03_ThePool_GAMA_2
 
 ## h_story_B03_ThePool_g_pirates
 	* StepId: 18
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_B03_ThePool_GAMA_6
+	* SuccLL: h_story_B03_ThePool_GAMA_6
 
 ## h_story_B03_ThePool_i_1
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B03_ThePool_tw0
 		* h_story_B03_ThePool_tw1
 		* h_story_B03_ThePool_tw2
@@ -6391,42 +6017,37 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_B03_ThePool_9cc94ec0512799f438c0e538073867fc
+	* SuccLL: h_story_B03_ThePool_9cc94ec0512799f438c0e538073867fc
 
 ## h_story_B03_ThePool_ksw2
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_B03_ThePool_5c8f12e1ec0a3204c920aba0825ea3bb
+	* SuccLL: h_story_B03_ThePool_5c8f12e1ec0a3204c920aba0825ea3bb
 
 ## h_story_B03_ThePool_ksw3
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_B03_ThePool_b1a9db98157e9b64d89d2052d21a12b3
+	* SuccLL: h_story_B03_ThePool_b1a9db98157e9b64d89d2052d21a12b3
 
 ## h_story_B03_ThePool_ksw4
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_B03_ThePool_9e658015ab1bf8e48af8c23cb76e144d
+	* SuccLL: h_story_B03_ThePool_9e658015ab1bf8e48af8c23cb76e144d
 
 ## h_story_B03_ThePool_ksw5
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_B03_ThePool_06dc7c2524746af4a8dae031f350df93
+	* SuccLL: h_story_B03_ThePool_06dc7c2524746af4a8dae031f350df93
 
 ## h_story_B03_ThePool_missionStart
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B03_ThePool_23258775cdaa2984abcfc6f3db7dd7b7
 		* h_story_B03_ThePool_5d1ddc7041305d94d941e8af02f3b929
 		* h_story_B03_ThePool_GAMA_0
@@ -6443,59 +6064,53 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_B03_ThePool_closeKin1
 		* h_story_B03_ThePool_closeKin2
-	* SuccLL:
-		* h_story_B03_ThePool_GAMA_11
+	* SuccLL: h_story_B03_ThePool_GAMA_11
 
 ## h_story_B03_ThePool_t_closeMis
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_B03_ThePool_closeMis1
 		* h_story_B03_ThePool_closeMis2
 		* h_story_B03_ThePool_closeMis3
-	* SuccLL:
-		* h_story_B03_ThePool_GAMA_16
+	* SuccLL: h_story_B03_ThePool_GAMA_16
 
 ## h_story_B03_ThePool_t_finDia
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_pool_finish_1_dialog
-	* SuccLL:
-		* h_story_B03_ThePool_fin
+	* TVS: s_pool_finish_1_dialog
+	* SuccLL: h_story_B03_ThePool_fin
 
 ## h_story_B03_ThePool_t_killFirstKin
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_B03_ThePool_ksw0
 		* h_story_B03_ThePool_ksw1
 		* h_story_B03_ThePool_ksw2
-	* SuccLL:
-		* h_story_B03_ThePool_GAMA_8
+	* SuccLL: h_story_B03_ThePool_GAMA_8
 
 ## h_story_B03_ThePool_t_KillFirstMis
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_B03_ThePool_ksw3
 		* h_story_B03_ThePool_ksw4
 		* h_story_B03_ThePool_ksw5
-	* SuccLL:
-		* h_story_B03_ThePool_GAMA_13
+	* SuccLL: h_story_B03_ThePool_GAMA_13
 
 ## h_story_B03_ThePool_t_killPlatforms
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_B03_ThePool_ksw0
 		* h_story_B03_ThePool_ksw1
 		* h_story_B03_ThePool_ksw2
@@ -6507,7 +6122,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B03_ThePool_GAMA_9
 		* h_story_B03_ThePool_d_tutRange
 		* h_story_B03_ThePool_sensorView
@@ -6516,28 +6131,25 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B03_ThePool_d_fin
+	* SuccLL: h_story_B03_ThePool_d_fin
 
 ## h_story_B03_ThePool_w_2
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B03_ThePool_GAMA_10
+	* SuccLL: h_story_B03_ThePool_GAMA_10
 
 ## h_story_B03_ThePool_w_3
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B03_ThePool_d_closeKin
+	* SuccLL: h_story_B03_ThePool_d_closeKin
 
 ## h_story_B03_ThePool_w_4
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B03_ThePool_GAMA_14
 		* h_story_B03_ThePool_d_tutFallof
 		* h_story_B03_ThePool_sensorView2
@@ -6546,21 +6158,19 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B03_ThePool_GAMA_15
+	* SuccLL: h_story_B03_ThePool_GAMA_15
 
 ## h_story_B03_ThePool_w_6
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B03_ThePool_d_closeMis
+	* SuccLL: h_story_B03_ThePool_d_closeMis
 
 ## h_story_B03_ThePool_w_8
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_B03_ThePool_GAMA_5
 		* h_story_B03_ThePool_d_pirates
 
@@ -6568,18 +6178,17 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_B03_ThePool_d_destroy
+	* SuccLL: h_story_B03_ThePool_d_destroy
 
 ## h_story_C01_Tanochet_5baf0ac0919b7554890ee913ba9e5078
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_C01_Tanochet_st_tanochet_leftStationDeath
 		* h_story_C01_Tanochet_st_tanochet_mainStationDeath
 		* h_story_C01_Tanochet_st_tanochet_rightStationDeath
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_st_tanochet_act_dia_failure
 		* h_story_C01_Tanochet_st_tanochet_act_missionFail1
 
@@ -6587,7 +6196,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_GAMA_1
 		* h_story_C01_Tanochet_GAMA_2
 		* h_story_C01_Tanochet_GAMA_4
@@ -6598,7 +6207,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_DisablePlayer2
 		* h_story_C01_Tanochet_GAMA_9
 		* h_story_C01_Tanochet_disable_los_seq
@@ -6609,7 +6218,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_st_tanochet_act_tanochFleet01
 		* h_story_C01_Tanochet_st_tanochet_act_tanochFleet02
 		* h_story_C01_Tanochet_st_tanochet_act_tanochFleet03
@@ -6621,28 +6230,25 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_C01_Tanochet_GAMA_26
+	* SuccLL: h_story_C01_Tanochet_GAMA_26
 
 ## h_story_C01_Tanochet_kill_torpedo2
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_C01_Tanochet_GAMA_24
+	* SuccLL: h_story_C01_Tanochet_GAMA_24
 
 ## h_story_C01_Tanochet_kill_torpedo3
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_story_C01_Tanochet_GAMA_22
+	* SuccLL: h_story_C01_Tanochet_GAMA_22
 
 ## h_story_C01_Tanochet_Mission_Start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_GAMA_0
 		* h_story_C01_Tanochet_GAMA_10
 		* h_story_C01_Tanochet_GAMA_7
@@ -6652,11 +6258,11 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_C01_Tanochet_st_tanochet_leftStationDeath
 		* h_story_C01_Tanochet_st_tanochet_mainStationDeath
 		* h_story_C01_Tanochet_st_tanochet_rightStationDeath
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_GAMA_3
 		* h_story_C01_Tanochet_st_tanochet_act_dia_failure
 		* h_story_C01_Tanochet_st_tanochet_act_missionFail1
@@ -6665,9 +6271,8 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_C01_Tanochet_enable_los
 		* h_story_C01_Tanochet_st_tanochet_act_lookAtStation
 
@@ -6675,19 +6280,17 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Story-03-01_dialog_failure
-	* SuccLL:
-		* h_story_C01_Tanochet_st_tanochet_act_fin_fail
+	* TVS: Story-03-01_dialog_failure
+	* SuccLL: h_story_C01_Tanochet_st_tanochet_act_fin_fail
 
 ## h_story_C01_Tanochet_st_tanochet_gDock
 	* StepId: 20
 	* Type: Goal
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 0
 		* 5000
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_st_tanochet_act_cinematic
 		* h_story_C01_Tanochet_st_tanochet_act_fin
 
@@ -6695,10 +6298,10 @@
 	* StepId: 11
 	* Type: Goal
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 0
 		* 5000
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_GAMA_11
 		* h_story_C01_Tanochet_enable_tanoch
 		* h_story_C01_Tanochet_st_tanochet_act_dia_yaotSpawn
@@ -6707,28 +6310,22 @@
 	* StepId: 14
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_C01_Tanochet_w_goalBufferTorpedo1
-	* SuccLL:
-		* h_story_C01_Tanochet_GAMA_14
+	* TVS: h_story_C01_Tanochet_w_goalBufferTorpedo1
+	* SuccLL: h_story_C01_Tanochet_GAMA_14
 
 ## h_story_C01_Tanochet_st_tanochet_gTorp2
 	* StepId: 16
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_C01_Tanochet_w_goalBufferTorpedo2
-	* SuccLL:
-		* h_story_C01_Tanochet_GAMA_16
+	* TVS: h_story_C01_Tanochet_w_goalBufferTorpedo2
+	* SuccLL: h_story_C01_Tanochet_GAMA_16
 
 ## h_story_C01_Tanochet_st_tanochet_gTorp3
 	* StepId: 18
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_C01_Tanochet_w_goalBufferTorpedo3
-	* SuccLL:
-		* h_story_C01_Tanochet_GAMA_18
+	* TVS: h_story_C01_Tanochet_w_goalBufferTorpedo3
+	* SuccLL: h_story_C01_Tanochet_GAMA_18
 
 ## h_story_C01_Tanochet_st_tanochet_leftStationDeath
 	* StepId: 7
@@ -6744,8 +6341,7 @@
 	* StepId: 28
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_C01_Tanochet_st_tanochet_act_mainYaotFleet
+	* SuccLL: h_story_C01_Tanochet_st_tanochet_act_mainYaotFleet
 
 ## h_story_C01_Tanochet_st_tanochet_rightStationDeath
 	* StepId: 6
@@ -6756,7 +6352,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_GAMA_13
 		* h_story_C01_Tanochet_GAMA_25
 		* h_story_C01_Tanochet_GAMA_27
@@ -6771,7 +6367,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_GAMA_15
 		* h_story_C01_Tanochet_GAMA_23
 		* h_story_C01_Tanochet_st_tanochet_act_dia_torpedo2
@@ -6784,7 +6380,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_GAMA_17
 		* h_story_C01_Tanochet_GAMA_21
 		* h_story_C01_Tanochet_st_tanochet_act_dia_torpedo3
@@ -6797,7 +6393,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C01_Tanochet_GAMA_19
 		* h_story_C01_Tanochet_GAMA_20
 		* h_story_C01_Tanochet_disablePlayer2
@@ -6808,10 +6404,8 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Story-03-01_yaotSpawn_dialog
-	* SuccLL:
-		* h_story_C01_Tanochet_GAMA_12
+	* TVS: Story-03-01_yaotSpawn_dialog
+	* SuccLL: h_story_C01_Tanochet_GAMA_12
 
 ## h_story_C01_Tanochet_w_goalBufferTorpedo1
 	* StepId: 27
@@ -6832,28 +6426,25 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_C01_Tanochet_remove_yaotFail
+	* SuccLL: h_story_C01_Tanochet_remove_yaotFail
 
 ## h_story_C01_Tanochet_w_removeYaotWin
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_C01_Tanochet_remove_yaotWin
+	* SuccLL: h_story_C01_Tanochet_remove_yaotWin
 
 ## h_story_C01_Tanochet_w_yaotRetreat
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_C01_Tanochet_remove_yaotFail
+	* SuccLL: h_story_C01_Tanochet_remove_yaotFail
 
 ## h_story_C02_TempleTonaati_e960155643664b64aad0456a88e3157c
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_18
 		* h_story_C02_TempleTonaati_GAMA_3
 		* h_story_C02_TempleTonaati_b43f51277456b624a90acaf186133983
@@ -6862,21 +6453,19 @@
 	* StepId: 13
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_C02_TempleTonaati_s0302v2_act_finish_dia
+	* SuccLL: h_story_C02_TempleTonaati_s0302v2_act_finish_dia
 
 ## h_story_C02_TempleTonaati_s0302v2_cameralookat_timer
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_C02_TempleTonaati_s0302v2_act_cameralookatStation
+	* SuccLL: h_story_C02_TempleTonaati_s0302v2_act_cameralookatStation
 
 ## h_story_C02_TempleTonaati_s0302v2_civilStation_dia_wait
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_8
 		* h_story_C02_TempleTonaati_s0302v2_act_explainStar_dia
 
@@ -6884,29 +6473,25 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Story-03-02-v2_missionfail_dialog
-	* SuccLL:
-		* h_story_C02_TempleTonaati_s0302v2_act_mission_failed
+	* TVS: Story-03-02-v2_missionfail_dialog
+	* SuccLL: h_story_C02_TempleTonaati_s0302v2_act_mission_failed
 
 ## h_story_C02_TempleTonaati_s0302v2_finish_dialogfinshed
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Story-03-02-v2_finish_dialog
-	* SuccLL:
-		* h_story_C02_TempleTonaati_s0302v2_finish_mission
+	* TVS: Story-03-02-v2_finish_dialog
+	* SuccLL: h_story_C02_TempleTonaati_s0302v2_finish_mission
 
 ## h_story_C02_TempleTonaati_s0302v2_fleet_kill_goal
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_C02_TempleTonaati_s0302v2_fleet_kill_goal_1
 		* h_story_C02_TempleTonaati_s0302v2_fleet_kill_goal_2
 		* h_story_C02_TempleTonaati_s0302v2_fleet_kill_goal_3
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_11
 		* h_story_C02_TempleTonaati_s0302v2_act_boss_dia
 		* h_story_C02_TempleTonaati_s0302v2_act_boss_sensorviewon
@@ -6931,10 +6516,10 @@
 	* StepId: 7
 	* Type: Goal
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 0
 		* 4000
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_7
 		* h_story_C02_TempleTonaati_s0302v2_act_civilStation_reached_dia
 		* h_story_C02_TempleTonaati_s0302v2_act_deactivate_mark_left
@@ -6945,7 +6530,7 @@
 	* StepId: 20
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_C02_TempleTonaati_s0302v2_showMark_path_left
 		* h_story_C02_TempleTonaati_s0302v2_showMark_path_right
 
@@ -6953,7 +6538,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_15
 		* h_story_C02_TempleTonaati_GAMA_16
 		* h_story_C02_TempleTonaati_GAMA_17
@@ -6964,7 +6549,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_4
 		* h_story_C02_TempleTonaati_s0302v2_act_sensorview_on
 
@@ -6972,29 +6557,26 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -26600
 		* -5300
-	* SuccLL:
-		* h_story_C02_TempleTonaati_actn_deativateRightPath
+	* SuccLL: h_story_C02_TempleTonaati_actn_deativateRightPath
 
 ## h_story_C02_TempleTonaati_s0302v2_showMark_path_right
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 2000
 		* 24700
-	* SuccLL:
-		* h_story_C02_TempleTonaati_actn_deativateLeftPath
+	* SuccLL: h_story_C02_TempleTonaati_actn_deativateLeftPath
 
 ## h_story_C02_TempleTonaati_s0302v2_Star_dia_onfinished
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Story-03-02-v2_explainStar_dialog
-	* SuccLL:
+	* TVS: Story-03-02-v2_explainStar_dialog
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_9
 		* h_story_C02_TempleTonaati_s0302v2_act_yaotsuddenly_dia
 
@@ -7002,14 +6584,13 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_story_C02_TempleTonaati_s0302v2_act_Station_killed_dia
+	* SuccLL: h_story_C02_TempleTonaati_s0302v2_act_Station_killed_dia
 
 ## h_story_C02_TempleTonaati_s0302v2_Temple_kill_wait_timer
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_12
 		* h_story_C02_TempleTonaati_s0302v2_act_Temple_killed_dia
 		* h_story_C02_TempleTonaati_s0302v2_act_fleet_kill_goal
@@ -7019,7 +6600,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_0
 		* h_story_C02_TempleTonaati_GAMA_1
 		* h_story_C02_TempleTonaati_GAMA_19
@@ -7038,19 +6619,17 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_C02_TempleTonaati_s0302v2_showMark_path_left
 		* h_story_C02_TempleTonaati_s0302v2_showMark_path_right
-	* SuccLL:
-		* h_story_C02_TempleTonaati_GAMA_6
+	* SuccLL: h_story_C02_TempleTonaati_GAMA_6
 
 ## h_story_C02_TempleTonaati_s0302v2_yaotsuddenly_dia_onfinished
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Story-03-02-v2_yaotsuddenly_dialog
-	* SuccLL:
+	* TVS: Story-03-02-v2_yaotsuddenly_dialog
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_10
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_fleet01
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_fleet02
@@ -7064,7 +6643,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_13
 		* h_story_C02_TempleTonaati_actn_SetGuardHP01
 
@@ -7072,7 +6651,7 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_GAMA_14
 		* h_story_C02_TempleTonaati_actn_SetGuardArmor02
 		* h_story_C02_TempleTonaati_actn_SetGuardHP02
@@ -7081,14 +6660,13 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_C02_TempleTonaati_actn_DestroyGuard
+	* SuccLL: h_story_C02_TempleTonaati_actn_DestroyGuard
 
 ## h_story_C02_TempleTonaati_trigger_deactivateFriendlyShips
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_setActive_FriendlyShipsOff
 		* h_story_C02_TempleTonaati_setActive_StationOff
 
@@ -7096,7 +6674,7 @@
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_civilShip1
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_civilShip2
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_civilShip3
@@ -7105,7 +6683,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_guard1
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_guard10
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_guard11
@@ -7124,7 +6702,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_mine1_1
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_mine1_2
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_mine1_3
@@ -7136,7 +6714,7 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_patrol1_1
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_patrol1_2
 		* h_story_C02_TempleTonaati_s0302v2_act_spawn_patrol2_1
@@ -7148,31 +6726,28 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_C02_TempleTonaati_s0302v2_act_spawn_civilStation0
+	* SuccLL: h_story_C02_TempleTonaati_s0302v2_act_spawn_civilStation0
 
 ## h_story_C02_TempleTonaati_WaitSequenceStart
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_C02_TempleTonaati_ShowIntroSequence
+	* SuccLL: h_story_C02_TempleTonaati_ShowIntroSequence
 
 ## h_story_C03_StarTotek_59082cb8d1001b8419a5d882590d61c4
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_C03_StarTotek_dialog_finish_intro_5
 		* h_story_C03_StarTotek_timer_highlight
-	* SuccLL:
-		* h_story_C03_StarTotek_TriggerDialog_debri_1
+	* SuccLL: h_story_C03_StarTotek_TriggerDialog_debri_1
 
 ## h_story_C03_StarTotek_AllEnemiesDeadDiaWait
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_17
 		* h_story_C03_StarTotek_TriggerDialog_salva_3
 
@@ -7180,9 +6755,8 @@
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_C03_StarTotek_DisableTimerForPlayerActiveState
 		* h_story_C03_StarTotek_EnableEnemyAfterVaygrSeq
 		* h_story_C03_StarTotek_EnablePlayerAfterVaygrSeq
@@ -7192,23 +6766,20 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_C03_StarTotek_D1_drones_warning_dia
+	* SuccLL: h_story_C03_StarTotek_D1_drones_warning_dia
 
 ## h_story_C03_StarTotek_D3_drone_warning
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_C03_StarTotek_D3_drones_warning_dia
+	* SuccLL: h_story_C03_StarTotek_D3_drones_warning_dia
 
 ## h_story_C03_StarTotek_dia_and_highlights_finish
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_C03_StarTotek_wait_highlight_path_1
-	* SuccLL:
+	* TVS: h_story_C03_StarTotek_wait_highlight_path_1
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_25
 		* h_story_C03_StarTotek_GAMA_26
 		* h_story_C03_StarTotek_GAMA_27
@@ -7218,27 +6789,23 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_startotek_intro_5_dialog
+	* TVS: st_startotek_intro_5_dialog
 
 ## h_story_C03_StarTotek_DialogAndWait
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_C03_StarTotek_TempTrigger01
 		* h_story_C03_StarTotek_TriggerWaitForTime04
-	* SuccLL:
-		* h_story_C03_StarTotek_GAMA_20
+	* SuccLL: h_story_C03_StarTotek_GAMA_20
 
 ## h_story_C03_StarTotek_GetGoalsForRouteOrShortcut
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_C03_StarTotek_GoalUseReachPosAsSignalNode
-	* SuccLL:
-		* h_story_C03_StarTotek_GAMA_9
+	* TVS: h_story_C03_StarTotek_GoalUseReachPosAsSignalNode
+	* SuccLL: h_story_C03_StarTotek_GAMA_9
 
 ## h_story_C03_StarTotek_GoalStopJochik
 	* StepId: 10
@@ -7249,7 +6816,7 @@
 	* StepId: 34
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_DisableEnemyDuringVaygrSeq
 		* h_story_C03_StarTotek_DisablePlayerDuringVaygrSeq
 		* h_story_C03_StarTotek_GAMA_34
@@ -7264,9 +6831,8 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_startotek_intro_3_dialog
-	* SuccLL:
+	* TVS: st_startotek_intro_3_dialog
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_24
 		* h_story_C03_StarTotek_GAMA_30
 
@@ -7274,14 +6840,13 @@
 	* StepId: 16
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* h_story_C03_StarTotek_GAMA_16
+	* SuccLL: h_story_C03_StarTotek_GAMA_16
 
 ## h_story_C03_StarTotek_MissionStart
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_0
 		* h_story_C03_StarTotek_intro_disableLOS
 		* h_story_C03_StarTotek_intro_seq
@@ -7292,7 +6857,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_godmode_player1
 		* h_story_C03_StarTotek_godmode_player2
 
@@ -7300,7 +6865,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_ungodmode_player1
 		* h_story_C03_StarTotek_ungodmode_player2
 		* h_story_C03_StarTotek_ungodmode_player3
@@ -7309,7 +6874,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_4
 		* h_story_C03_StarTotek_TriggerWave_KeeperShips01
 		* h_story_C03_StarTotek_TriggerWave_KeeperShips02
@@ -7326,7 +6891,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_19
 		* h_story_C03_StarTotek_GAMA_2
 		* h_story_C03_StarTotek_GAMA_3
@@ -7341,7 +6906,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_6
 		* h_story_C03_StarTotek_repair_1_armor_post_spawn
 		* h_story_C03_StarTotek_repair_1_hull_post_spawn
@@ -7352,16 +6917,14 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_startotek_salva_3_dialog
-	* SuccLL:
-		* h_story_C03_StarTotek_GAMA_18
+	* TVS: st_startotek_salva_3_dialog
+	* SuccLL: h_story_C03_StarTotek_GAMA_18
 
 ## h_story_C03_StarTotek_SeqMakeEnemyMortalTimer
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_VaygrFollowFlagship
 		* h_story_C03_StarTotek_seq_make_enemy_mortal
 		* h_story_C03_StarTotek_seq_make_player_mortal
@@ -7370,14 +6933,13 @@
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_startotek_intro_1_dialog
+	* TVS: st_startotek_intro_1_dialog
 
 ## h_story_C03_StarTotek_TempTrigger02
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_DeactivateMakePlayer1Invincible
 		* h_story_C03_StarTotek_DeactivateMakePlayer3Invincible
 		* h_story_C03_StarTotek_DisableKillGoal
@@ -7395,7 +6957,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_13
 		* h_story_C03_StarTotek_MakePlayer1Invincible
 		* h_story_C03_StarTotek_MakePlayer2Invincible
@@ -7405,14 +6967,13 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: OnTaggedUnitsHaveAmountOfArmor
-	* SuccLL:
-		* h_story_C03_StarTotek_boss_hp_low_boost
+	* SuccLL: h_story_C03_StarTotek_boss_hp_low_boost
 
 ## h_story_C03_StarTotek_Trigger90_SpawnReinforcements
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_TriggerDialog_battle_2
 		* h_story_C03_StarTotek_TriggerWave_SpawnVaygrReenforcements1
 		* h_story_C03_StarTotek_TriggerWave_SpawnVaygrReenforcements2
@@ -7421,16 +6982,14 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_C03_StarTotek_TriggerWaitForTimeMissionSuccess
-	* SuccLL:
-		* h_story_C03_StarTotek_FinishMissionSuccess
+	* TVS: h_story_C03_StarTotek_TriggerWaitForTimeMissionSuccess
+	* SuccLL: h_story_C03_StarTotek_FinishMissionSuccess
 
 ## h_story_C03_StarTotek_TriggerForDialogeGettingClose
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_TriggerDialog_vaygr_1_ShortCut
 		* h_story_C03_StarTotek_deactivate_reach_vaygr_boss_goal
 
@@ -7438,18 +6997,15 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_startotek_intro_2_dialog
-	* SuccLL:
-		* h_story_C03_StarTotek_GAMA_22
+	* TVS: st_startotek_intro_2_dialog
+	* SuccLL: h_story_C03_StarTotek_GAMA_22
 
 ## h_story_C03_StarTotek_TriggerOnSequenceFinished_Intro
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_1
 		* h_story_C03_StarTotek_intro_enableLOS
 		* h_story_C03_StarTotek_playerEnabledIntro
@@ -7458,7 +7014,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_29
 		* h_story_C03_StarTotek_TriggerDialog_vaygr_1
 
@@ -7466,7 +7022,7 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_41
 		* h_story_C03_StarTotek_shortcut_D2_dia
 
@@ -7474,7 +7030,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_10
 		* h_story_C03_StarTotek_GAMA_11
 		* h_story_C03_StarTotek_GAMA_12
@@ -7484,7 +7040,7 @@
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_39
 		* h_story_C03_StarTotek_GAMA_40
 		* h_story_C03_StarTotek_GAMA_42
@@ -7493,16 +7049,14 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_startotek_salva_1_dialog
-	* SuccLL:
-		* h_story_C03_StarTotek_GAMA_14
+	* TVS: st_startotek_salva_1_dialog
+	* SuccLL: h_story_C03_StarTotek_GAMA_14
 
 ## h_story_C03_StarTotek_TriggerWaitForTime01
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_21
 		* h_story_C03_StarTotek_TriggerDialog_intro_2
 
@@ -7510,7 +7064,7 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_CloseSensorManager
 		* h_story_C03_StarTotek_GAMA_23
 		* h_story_C03_StarTotek_GAMA_32
@@ -7519,7 +7073,7 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_33
 		* h_story_C03_StarTotek_TriggerDialog_intro_3
 		* h_story_C03_StarTotek_highlight_destination
@@ -7538,14 +7092,13 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_startotek_vaygr_1_dialog
+	* TVS: st_startotek_vaygr_1_dialog
 
 ## h_story_C03_StarTotek_wait_highlight_path_0
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_C03_StarTotek_GAMA_31
 		* h_story_C03_StarTotek_TriggerDialog_intro_4
 		* h_story_C03_StarTotek_sensormanager_path
@@ -7559,9 +7112,8 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_0057c619a510b8146ba95a1204405167
 		* h_story_D01_SijinLighthouse_03617d6bdaef1704aa7832c7d268e7e7
 		* h_story_D01_SijinLighthouse_40f77dd1ffd45634c87b93b7cb322c73
@@ -7573,18 +7125,16 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_farshore_esc_2_dialog
+	* TVS: st_farshore_esc_2_dialog
 
 ## h_story_D01_SijinLighthouse_checkIfEscape
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D01_SijinLighthouse_checkDialogClosed
 		* h_story_D01_SijinLighthouse_escapeTimer
-	* SuccLL:
-		* h_story_D01_SijinLighthouse_s2_01_lighthouse_act_mission_succeeded_escape
+	* SuccLL: h_story_D01_SijinLighthouse_s2_01_lighthouse_act_mission_succeeded_escape
 
 ## h_story_D01_SijinLighthouse_escapeTimer
 	* StepId: 19
@@ -7595,14 +7145,13 @@
 	* StepId: 7
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_D01_SijinLighthouse_s2_01_lighthouse_kill_wave4
+	* TVS: h_story_D01_SijinLighthouse_s2_01_lighthouse_kill_wave4
 
 ## h_story_D01_SijinLighthouse_obsGateTimerBeforeCinematic
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_15
 		* h_story_D01_SijinLighthouse_disableAlly
 		* h_story_D01_SijinLighthouse_disableEnemy
@@ -7612,14 +7161,13 @@
 	* StepId: 20
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D01_SijinLighthouse_s2_01_lighthouse_act_spawnBoss
+	* SuccLL: h_story_D01_SijinLighthouse_s2_01_lighthouse_act_spawnBoss
 
 ## h_story_D01_SijinLighthouse_s2_01_lighthouse_allyDeath
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_32
 		* h_story_D01_SijinLighthouse_s2_01_lighthouse_act_allyDeath_die
 
@@ -7627,23 +7175,20 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Story-S2-01-Lighthouse_fail_dialog
-	* SuccLL:
-		* h_story_D01_SijinLighthouse_s2_01_lighthouse_act_mission_failed
+	* TVS: Story-S2-01-Lighthouse_fail_dialog
+	* SuccLL: h_story_D01_SijinLighthouse_s2_01_lighthouse_act_mission_failed
 
 ## h_story_D01_SijinLighthouse_s2_01_lighthouse_cameraLookAt_timer
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D01_SijinLighthouse_s2_01_lighthouse_act_cameraLookAt_target
+	* SuccLL: h_story_D01_SijinLighthouse_s2_01_lighthouse_act_cameraLookAt_target
 
 ## h_story_D01_SijinLighthouse_s2_01_lighthouse_escape1_wait3
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_14
 		* h_story_D01_SijinLighthouse_s2_01_lighthouse_act_escape1
 
@@ -7651,9 +7196,8 @@
 	* StepId: 6
 	* Type: Goal
 	* TargetType: OnInteractionDone
-	* TVS:
-		* s2_01_lighthouse_interact
-	* SuccLL:
+	* TVS: s2_01_lighthouse_interact
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_29
 		* h_story_D01_SijinLighthouse_GAMA_30
 		* h_story_D01_SijinLighthouse_GAMA_6
@@ -7685,7 +7229,7 @@
 	* StepId: 4
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_148d6dcf55bfd804b826c50b8d5622f9
 		* h_story_D01_SijinLighthouse_18bee1eaabd87e3499566348aab1fd59
 		* h_story_D01_SijinLighthouse_87b4a24686514e443a87773a149fcb68
@@ -7700,14 +7244,13 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D01_SijinLighthouse_GAMA_3
+	* SuccLL: h_story_D01_SijinLighthouse_GAMA_3
 
 ## h_story_D01_SijinLighthouse_s2_01_lighthouse_sensorview_timer
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_2
 		* h_story_D01_SijinLighthouse_s2_01_lighthouse_act_sensorview_on
 
@@ -7715,14 +7258,13 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
-		* h_story_D01_SijinLighthouse_GAMA_0
+	* SuccLL: h_story_D01_SijinLighthouse_GAMA_0
 
 ## h_story_D01_SijinLighthouse_s2_01_lighthouse_trig0
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_1
 		* h_story_D01_SijinLighthouse_GAMA_33
 		* h_story_D01_SijinLighthouse_s2_01_lighthouse_act_intro
@@ -7739,17 +7281,16 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
+	* TVS: 1
 
 ## h_story_D01_SijinLighthouse_t_finishObserverSequenceAndTimer
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D01_SijinLighthouse_t_escape1_wait1
 		* h_story_D01_SijinLighthouse_t_finishObserverSequence
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_12
 		* h_story_D01_SijinLighthouse_act_enableAllyAfterSeq
 		* h_story_D01_SijinLighthouse_act_enableEnemyAfterSeq
@@ -7760,14 +7301,13 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D01_SijinLighthouse_ObsSeq
+	* SuccLL: h_story_D01_SijinLighthouse_ObsSeq
 
 ## h_story_D01_SijinLighthouse_trigger_gate
 	* StepId: 13
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_13
 		* h_story_D01_SijinLighthouse_GAMA_19
 		* h_story_D01_SijinLighthouse_remove_observer
@@ -7776,9 +7316,8 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 0
-	* SuccLL:
+	* TVS: 0
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_16
 		* h_story_D01_SijinLighthouse_GAMA_17
 		* h_story_D01_SijinLighthouse_GAMA_18
@@ -7789,10 +7328,10 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D01_SijinLighthouse_Wave1MaxTime
 		* h_story_D01_SijinLighthouse_s2_01_lighthouse_kill_wave1
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_27
 		* h_story_D01_SijinLighthouse_GAMA_28
 		* h_story_D01_SijinLighthouse_GAMA_8
@@ -7808,10 +7347,10 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D01_SijinLighthouse_Wave2MaxTime
 		* h_story_D01_SijinLighthouse_s2_01_lighthouse_kill_wave2
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_25
 		* h_story_D01_SijinLighthouse_GAMA_26
 		* h_story_D01_SijinLighthouse_GAMA_9
@@ -7827,10 +7366,10 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D01_SijinLighthouse_Wave3MaxTime
 		* h_story_D01_SijinLighthouse_s2_01_lighthouse_kill_wave3
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_10
 		* h_story_D01_SijinLighthouse_GAMA_23
 		* h_story_D01_SijinLighthouse_GAMA_24
@@ -7846,10 +7385,10 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D01_SijinLighthouse_Wave4MaxTime
 		* h_story_D01_SijinLighthouse_s2_01_lighthouse_kill_wave4
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D01_SijinLighthouse_GAMA_11
 		* h_story_D01_SijinLighthouse_GAMA_20
 		* h_story_D01_SijinLighthouse_GAMA_21
@@ -7869,14 +7408,13 @@
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_activate_player
+	* SuccLL: h_story_D02_IliyinLighthouse_activate_player
 
 ## h_story_D02_IliyinLighthouse_90ca57b916198f649926c37254719b25
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_42
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_act_wave2
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_breakwater2_dia
@@ -7885,7 +7423,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_20
 		* h_story_D02_IliyinLighthouse_GAMA_35
 		* h_story_D02_IliyinLighthouse_GAMA_36
@@ -7895,10 +7433,8 @@
 	* StepId: 11
 	* Type: Goal
 	* TargetType: OnInteractionDone
-	* TVS:
-		* iliyin_ruin_pickup
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_GAMA_11
+	* TVS: iliyin_ruin_pickup
+	* SuccLL: h_story_D02_IliyinLighthouse_GAMA_11
 
 ## h_story_D02_IliyinLighthouse_goal_countdown
 	* StepId: 23
@@ -7909,10 +7445,8 @@
 	* StepId: 15
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_D02_IliyinLighthouse_multi_killWaves
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_GAMA_15
+	* TVS: h_story_D02_IliyinLighthouse_multi_killWaves
+	* SuccLL: h_story_D02_IliyinLighthouse_GAMA_15
 
 ## h_story_D02_IliyinLighthouse_healthCheck
 	* StepId: 35
@@ -7923,7 +7457,7 @@
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_01db05a52c5efeb41828af9033b93b29
 		* h_story_D02_IliyinLighthouse_1733a283ca3e65d4ca0ee02a7fa9c093
 		* h_story_D02_IliyinLighthouse_88613b29320e93a489bb8598cc1e96e0
@@ -7937,7 +7471,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_2
 		* h_story_D02_IliyinLighthouse_GAMA_3
 		* h_story_D02_IliyinLighthouse_GAMA_4
@@ -7947,8 +7481,7 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_GAMA_41
+	* SuccLL: h_story_D02_IliyinLighthouse_GAMA_41
 
 ## h_story_D02_IliyinLighthouse_kill_wave2
 	* StepId: 43
@@ -7959,17 +7492,16 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D02_IliyinLighthouse_td_fail
 		* h_story_D02_IliyinLighthouse_w_fail
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_s2_02_iliyin_allyDeath_mission_failed
+	* SuccLL: h_story_D02_IliyinLighthouse_s2_02_iliyin_allyDeath_mission_failed
 
 ## h_story_D02_IliyinLighthouse_multi_killWaves
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D02_IliyinLighthouse_kill_wave1
 		* h_story_D02_IliyinLighthouse_kill_wave2
 
@@ -7977,19 +7509,17 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D02_IliyinLighthouse_healthCheck
 		* h_story_D02_IliyinLighthouse_w_observerSpawn
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_GAMA_24
+	* SuccLL: h_story_D02_IliyinLighthouse_GAMA_24
 
 ## h_story_D02_IliyinLighthouse_s2_02_iliyin_breakwater3_dia_wait
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_iliyin_breakwater_3_dialog
-	* SuccLL:
+	* TVS: st_iliyin_breakwater_3_dialog
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_17
 		* h_story_D02_IliyinLighthouse_ai_Passive
 
@@ -7997,7 +7527,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_9
 		* h_story_D02_IliyinLighthouse_activate_KharKaalad
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_intro2_dia
@@ -8006,18 +7536,15 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_iliyin_intro_1_dialog
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_GAMA_8
+	* TVS: st_iliyin_intro_1_dialog
+	* SuccLL: h_story_D02_IliyinLighthouse_GAMA_8
 
 ## h_story_D02_IliyinLighthouse_s2_02_iliyin_intro2_dia_wait
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_iliyin_intro_2_dialog
-	* SuccLL:
+	* TVS: st_iliyin_intro_2_dialog
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_10
 		* h_story_D02_IliyinLighthouse_interaction_sample
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_investigation1_dia
@@ -8041,20 +7568,18 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_iliyin_observer_2_dialog
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_s2_02_iliyin_finishMission
+	* TVS: st_iliyin_observer_2_dialog
+	* SuccLL: h_story_D02_IliyinLighthouse_s2_02_iliyin_finishMission
 
 ## h_story_D02_IliyinLighthouse_s2_02_iliyin_trig_warp3_destroyed
 	* StepId: 21
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_kill_inhib1
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_kill_inhib2
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_kill_inhib3
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_21
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_act_wave3
 
@@ -8062,7 +7587,7 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_18
 		* h_story_D02_IliyinLighthouse_desctivate_player
 		* h_story_D02_IliyinLighthouse_focus_inhib1
@@ -8075,7 +7600,7 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_33
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_act_wave4
 
@@ -8083,9 +7608,8 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_iliyin_investigation_2_dialog
-	* SuccLL:
+	* TVS: st_iliyin_investigation_2_dialog
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_13
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_amassari_1_dia
 
@@ -8093,9 +7617,8 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_iliyin_amassari_1_dialog
-	* SuccLL:
+	* TVS: st_iliyin_amassari_1_dialog
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_14
 		* h_story_D02_IliyinLighthouse_GAMA_39
 		* h_story_D02_IliyinLighthouse_GAMA_40
@@ -8106,7 +7629,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_0
 		* h_story_D02_IliyinLighthouse_GAMA_5
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_act_spawnAlly
@@ -8115,14 +7638,13 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_iliyin_fail_1_dialog
+	* TVS: st_iliyin_fail_1_dialog
 
 ## h_story_D02_IliyinLighthouse_w_collect
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_12
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_investigation2_dia
 
@@ -8130,7 +7652,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_22
 		* h_story_D02_IliyinLighthouse_GAMA_23
 		* h_story_D02_IliyinLighthouse_GAMA_31
@@ -8147,14 +7669,13 @@
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_GAMA_34
+	* SuccLL: h_story_D02_IliyinLighthouse_GAMA_34
 
 ## h_story_D02_IliyinLighthouse_w_inhib
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_19
 		* h_story_D02_IliyinLighthouse_GAMA_38
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_anchors1_dia
@@ -8163,7 +7684,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_6
 		* h_story_D02_IliyinLighthouse_deactivate_KharKaalad
 		* h_story_D02_IliyinLighthouse_lookAt_KharKaalad2
@@ -8172,7 +7693,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_7
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_intro1_dia
 
@@ -8180,14 +7701,13 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_GAMA_1
+	* SuccLL: h_story_D02_IliyinLighthouse_GAMA_1
 
 ## h_story_D02_IliyinLighthouse_w_killWaves
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_16
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_breakwater3_dia
 
@@ -8195,7 +7715,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_26
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_act_spawnObs
 
@@ -8203,14 +7723,13 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D02_IliyinLighthouse_s2_02_iliyin_observer1_dia
+	* SuccLL: h_story_D02_IliyinLighthouse_s2_02_iliyin_observer1_dia
 
 ## h_story_D02_IliyinLighthouse_w_observer3
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_27
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_act_delUnits
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_act_spawnAma
@@ -8219,7 +7738,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_28
 		* h_story_D02_IliyinLighthouse_bda0493e21acd47459ca37bb5b165aa5
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_act_delObs
@@ -8228,7 +7747,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D02_IliyinLighthouse_GAMA_29
 		* h_story_D02_IliyinLighthouse_cameraLookAtAma
 		* h_story_D02_IliyinLighthouse_s2_02_iliyin_observer2_dia
@@ -8242,25 +7761,21 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_bTemple_blHgn_3_dialog
-	* SuccLL:
-		* h_story_D03_BrightTemple_GAMA_1
+	* TVS: st_bTemple_blHgn_3_dialog
+	* SuccLL: h_story_D03_BrightTemple_GAMA_1
 
 ## h_story_D03_BrightTemple_escape_allyReach
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_D03_BrightTemple_disableKharKaalad03
+	* SuccLL: h_story_D03_BrightTemple_disableKharKaalad03
 
 ## h_story_D03_BrightTemple_finishedStartSequence
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_11
 		* h_story_D03_BrightTemple_close_intro
 		* h_story_D03_BrightTemple_deactivate_sequenceDialog
@@ -8271,33 +7786,29 @@
 	* StepId: 20
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D03_BrightTemple_t_KillInhibitor01
 		* h_story_D03_BrightTemple_t_KillInhibitor02
-	* SuccLL:
-		* h_story_D03_BrightTemple_GAMA_20
+	* SuccLL: h_story_D03_BrightTemple_GAMA_20
 
 ## h_story_D03_BrightTemple_goal_KillWaves
 	* StepId: 16
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_story_D03_BrightTemple_multi_killWaves
-	* SuccLL:
-		* h_story_D03_BrightTemple_GAMA_16
+	* TVS: h_story_D03_BrightTemple_multi_killWaves
+	* SuccLL: h_story_D03_BrightTemple_GAMA_16
 
 ## h_story_D03_BrightTemple_goal_ReachEscapePos
 	* StepId: 18
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_D03_BrightTemple_GAMA_18
+	* SuccLL: h_story_D03_BrightTemple_GAMA_18
 
 ## h_story_D03_BrightTemple_goal_ReachStartPos
 	* StepId: 13
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_13
 		* h_story_D03_BrightTemple_d_chall1
 
@@ -8305,7 +7816,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_6
 		* h_story_D03_BrightTemple_GAMA_7
 		* h_story_D03_BrightTemple_GAMA_8
@@ -8315,7 +7826,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_15
 		* h_story_D03_BrightTemple_GAMA_35
 		* h_story_D03_BrightTemple_GAMA_36
@@ -8329,7 +7840,7 @@
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_activate_KharKaalad
 		* h_story_D03_BrightTemple_deactivate_reachTrigger
 
@@ -8337,7 +7848,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_disableLOS
 		* h_story_D03_BrightTemple_spawnFakeAmassari
 		* h_story_D03_BrightTemple_spawnKharKalaad
@@ -8346,17 +7857,16 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D03_BrightTemple_td_fail
 		* h_story_D03_BrightTemple_w_fail
-	* SuccLL:
-		* h_story_D03_BrightTemple_fail
+	* SuccLL: h_story_D03_BrightTemple_fail
 
 ## h_story_D03_BrightTemple_multi_killWaves
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D03_BrightTemple_trigger_KillWave0
 		* h_story_D03_BrightTemple_trigger_KillWave1
 
@@ -8364,10 +7874,10 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D03_BrightTemple_td_caval1
 		* h_story_D03_BrightTemple_w_preSequence
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_22
 		* h_story_D03_BrightTemple_GAMA_27
 		* h_story_D03_BrightTemple_disablePlayer2
@@ -8378,7 +7888,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_0
 		* h_story_D03_BrightTemple_GAMA_10
 		* h_story_D03_BrightTemple_GAMA_4
@@ -8400,30 +7910,26 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_bTemple_caval_1_dialog
+	* TVS: st_bTemple_caval_1_dialog
 
 ## h_story_D03_BrightTemple_td_chall1
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_bTemple_chall_1_dialog
-	* SuccLL:
-		* h_story_D03_BrightTemple_GAMA_14
+	* TVS: st_bTemple_chall_1_dialog
+	* SuccLL: h_story_D03_BrightTemple_GAMA_14
 
 ## h_story_D03_BrightTemple_td_fail
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_bTemple_fail_1_dialog
+	* TVS: st_bTemple_fail_1_dialog
 
 ## h_story_D03_BrightTemple_trig_KillAllEnemies
 	* StepId: 25
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_25
 		* h_story_D03_BrightTemple_deactivate_allies
 		* h_story_D03_BrightTemple_deactivate_kidara
@@ -8432,9 +7938,8 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 0
-	* SuccLL:
+	* TVS: 0
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_3
 		* h_story_D03_BrightTemple_remove_kidara1
 		* h_story_D03_BrightTemple_remove_kidara2
@@ -8454,7 +7959,7 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_ChangeKharKalaadAIType01
 		* h_story_D03_BrightTemple_disableKharKaalad02
 
@@ -8462,14 +7967,13 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D03_BrightTemple_td_blHgn_4_dialog
+	* SuccLL: h_story_D03_BrightTemple_td_blHgn_4_dialog
 
 ## h_story_D03_BrightTemple_w_cinematic
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_2
 		* h_story_D03_BrightTemple_StartCinematic
 
@@ -8477,14 +7981,13 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D03_BrightTemple_ai_FollowFlagship
+	* SuccLL: h_story_D03_BrightTemple_ai_FollowFlagship
 
 ## h_story_D03_BrightTemple_w_EndingDialog01
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_24
 		* h_story_D03_BrightTemple_GAMA_26
 		* h_story_D03_BrightTemple_td_blHgn_3_dialog
@@ -8498,14 +8001,13 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D03_BrightTemple_win
+	* SuccLL: h_story_D03_BrightTemple_win
 
 ## h_story_D03_BrightTemple_w_firstWaves
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_spawnWave0
 		* h_story_D03_BrightTemple_spawnWave1
 
@@ -8513,7 +8015,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_28
 		* h_story_D03_BrightTemple_closeCurrentDialog
 		* h_story_D03_BrightTemple_showKidaraSequence
@@ -8522,14 +8024,13 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D03_BrightTemple_GAMA_5
+	* SuccLL: h_story_D03_BrightTemple_GAMA_5
 
 ## h_story_D03_BrightTemple_w_intro1
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_42
 		* h_story_D03_BrightTemple_disableEnemy1
 		* h_story_D03_BrightTemple_disableKharKaalad01
@@ -8538,7 +8039,7 @@
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_43
 		* h_story_D03_BrightTemple_td_intro_1_2_dialog
 
@@ -8546,21 +8047,19 @@
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D03_BrightTemple_cce798ce978c65946b91da78c96581d2
+	* SuccLL: h_story_D03_BrightTemple_cce798ce978c65946b91da78c96581d2
 
 ## h_story_D03_BrightTemple_w_KidaraIntro
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D03_BrightTemple_td_blHgn_1_dialog
+	* SuccLL: h_story_D03_BrightTemple_td_blHgn_1_dialog
 
 ## h_story_D03_BrightTemple_w_killInhibitors1
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_21
 		* h_story_D03_BrightTemple_GAMA_29
 		* h_story_D03_BrightTemple_GAMA_30
@@ -8575,14 +8074,13 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D03_BrightTemple_enableKharKaalad03
+	* SuccLL: h_story_D03_BrightTemple_enableKharKaalad03
 
 ## h_story_D03_BrightTemple_w_startSecondDialog
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_12
 		* h_story_D03_BrightTemple_GAMA_40
 		* h_story_D03_BrightTemple_enableKharKaalad01
@@ -8592,7 +8090,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_ChangeKharKalaadAIType03
 		* h_story_D03_BrightTemple_GAMA_19
 		* h_story_D03_BrightTemple_GAMA_31
@@ -8607,7 +8105,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D03_BrightTemple_ChangeKharKalaadAIType02
 		* h_story_D03_BrightTemple_GAMA_17
 		* h_story_D03_BrightTemple_GAMA_34
@@ -8618,9 +8116,8 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_D03_BrightTemple_GAMA_23
 		* h_story_D03_BrightTemple_MakePlayer3Vulnerable
 		* h_story_D03_BrightTemple_close_endSequence
@@ -8634,7 +8131,7 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_wave4_Drones4
 		* h_story_D04_Hataldan_wave5_Drones4
 		* h_story_D04_Hataldan_wave6_Drones4
@@ -8643,7 +8140,7 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_40
 		* h_story_D04_Hataldan_deactivate_
 
@@ -8651,7 +8148,7 @@
 	* StepId: 9
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_24
 		* h_story_D04_Hataldan_GAMA_25
 		* h_story_D04_Hataldan_GAMA_9
@@ -8660,7 +8157,7 @@
 	* StepId: 11
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_11
 		* h_story_D04_Hataldan_GAMA_20
 		* h_story_D04_Hataldan_GAMA_21
@@ -8669,7 +8166,7 @@
 	* StepId: 13
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_13
 		* h_story_D04_Hataldan_GAMA_17
 
@@ -8677,7 +8174,7 @@
 	* StepId: 8
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_26
 		* h_story_D04_Hataldan_GAMA_27
 		* h_story_D04_Hataldan_GAMA_8
@@ -8686,7 +8183,7 @@
 	* StepId: 10
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_10
 		* h_story_D04_Hataldan_GAMA_22
 		* h_story_D04_Hataldan_GAMA_23
@@ -8695,7 +8192,7 @@
 	* StepId: 12
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_12
 		* h_story_D04_Hataldan_GAMA_19
 
@@ -8703,10 +8200,10 @@
 	* StepId: 33
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D04_Hataldan_kill_keeper1
 		* h_story_D04_Hataldan_kill_keeper2
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_33
 		* h_story_D04_Hataldan_deactivate_empLoop
 
@@ -8714,14 +8211,13 @@
 	* StepId: 41
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* h_story_D04_Hataldan_GAMA_41
+	* SuccLL: h_story_D04_Hataldan_GAMA_41
 
 ## h_story_D04_Hataldan_goal_position
 	* StepId: 2
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_2
 		* h_story_D04_Hataldan_GAMA_47
 		* h_story_D04_Hataldan_close_sequenceObserver
@@ -8732,7 +8228,7 @@
 	* StepId: 61
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_61
 		* h_story_D04_Hataldan_GAMA_62
 		* h_story_D04_Hataldan_GAMA_63
@@ -8742,7 +8238,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_addStatMod_emp1
 		* h_story_D04_Hataldan_d_empFired1
 		* h_story_D04_Hataldan_effect_empPulse1
@@ -8752,7 +8248,7 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_addStatMod_emp2
 		* h_story_D04_Hataldan_d_empFired2
 		* h_story_D04_Hataldan_effect_empPulse2
@@ -8762,7 +8258,7 @@
 	* StepId: 20
 	* Type: None
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_addStatMod_emp3
 		* h_story_D04_Hataldan_d_empFired3
 		* h_story_D04_Hataldan_effect_empPulse3
@@ -8772,7 +8268,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_29
 		* h_story_D04_Hataldan_GAMA_30
 		* h_story_D04_Hataldan_GAMA_31
@@ -8783,7 +8279,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_activateKeepers
 		* h_story_D04_Hataldan_removeStatModd_emp
 		* h_story_D04_Hataldan_wave4_Drones2
@@ -8794,7 +8290,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_activateKeepers2
 		* h_story_D04_Hataldan_removeStatModd_emp2
 		* h_story_D04_Hataldan_wave4_Drones3
@@ -8805,7 +8301,7 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_18
 		* h_story_D04_Hataldan_activate_KeepersEnd
 		* h_story_D04_Hataldan_removeStatModd_emp3
@@ -8815,7 +8311,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_4
 		* h_story_D04_Hataldan_GAMA_44
 		* h_story_D04_Hataldan_GAMA_45
@@ -8827,7 +8323,7 @@
 	* StepId: 59
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_ally0_KharKalaad
 		* h_story_D04_Hataldan_ally1_Kidara
 		* h_story_D04_Hataldan_ally2_Observer
@@ -8845,7 +8341,7 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_deactivate_Keepers1
 		* h_story_D04_Hataldan_wave0_keeper
 		* h_story_D04_Hataldan_wave1_keeper
@@ -8854,7 +8350,7 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_32
 		* h_story_D04_Hataldan_GAMA_42
 		* h_story_D04_Hataldan_GAMA_43
@@ -8873,10 +8369,10 @@
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D04_Hataldan_w_killRemaining
 		* h_story_D04_Hataldan_w_triggerWinFight
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_35
 		* h_story_D04_Hataldan_d_fightWon
 
@@ -8884,44 +8380,40 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D04_Hataldan_td_empTut
 		* h_story_D04_Hataldan_w_amassari
-	* SuccLL:
-		* h_story_D04_Hataldan_GAMA_5
+	* SuccLL: h_story_D04_Hataldan_GAMA_5
 
 ## h_story_D04_Hataldan_multi_fail
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D04_Hataldan_td_fail
 		* h_story_D04_Hataldan_w_failTrigger
-	* SuccLL:
-		* h_story_D04_Hataldan_fail
+	* SuccLL: h_story_D04_Hataldan_fail
 
 ## h_story_D04_Hataldan_multi_failKharKalaad
 	* StepId: 62
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D04_Hataldan_td_failKharKalaad
 		* h_story_D04_Hataldan_w_failKharKalaad
-	* SuccLL:
-		* h_story_D04_Hataldan_fail_KharKalaad
+	* SuccLL: h_story_D04_Hataldan_fail_KharKalaad
 
 ## h_story_D04_Hataldan_position_playerClose
 	* StepId: 54
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_story_D04_Hataldan_d_interlude
+	* SuccLL: h_story_D04_Hataldan_d_interlude
 
 ## h_story_D04_Hataldan_position_playerMoved
 	* StepId: 53
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_activate_KharKalaad
 		* h_story_D04_Hataldan_activate_Kidara
 
@@ -8929,9 +8421,8 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_1
 		* h_story_D04_Hataldan_GAMA_52
 		* h_story_D04_Hataldan_GAMA_53
@@ -8944,9 +8435,8 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_3
 		* h_story_D04_Hataldan_close_sequence2
 		* h_story_D04_Hataldan_deactivate_sequence2Dialog
@@ -8958,7 +8448,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_0
 		* h_story_D04_Hataldan_GAMA_55
 		* h_story_D04_Hataldan_GAMA_58
@@ -8969,74 +8459,63 @@
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_hataldan_dialog_conclusion
-	* SuccLL:
-		* h_story_D04_Hataldan_fin
+	* TVS: s_hataldan_dialog_conclusion
+	* SuccLL: h_story_D04_Hataldan_fin
 
 ## h_story_D04_Hataldan_td_empTut
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_hataldan_dialog_empTut
+	* TVS: s_hataldan_dialog_empTut
 
 ## h_story_D04_Hataldan_td_fail
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* st_hataldan_fail_2_dialog
+	* TVS: st_hataldan_fail_2_dialog
 
 ## h_story_D04_Hataldan_td_failKharKalaad
 	* StepId: 63
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_hataldan_dialog_failKharKalaad
+	* TVS: s_hataldan_dialog_failKharKalaad
 
 ## h_story_D04_Hataldan_td_fightWon
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_hataldan_dialog_fightWon
-	* SuccLL:
-		* h_story_D04_Hataldan_GAMA_36
+	* TVS: s_hataldan_dialog_fightWon
+	* SuccLL: h_story_D04_Hataldan_GAMA_36
 
 ## h_story_D04_Hataldan_w_amassari
 	* StepId: 46
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_GAMA_46
+	* SuccLL: h_story_D04_Hataldan_GAMA_46
 
 ## h_story_D04_Hataldan_w_amassariKeeperBuffer
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_deactivate_Amassari
+	* SuccLL: h_story_D04_Hataldan_deactivate_Amassari
 
 ## h_story_D04_Hataldan_w_approachDialog
 	* StepId: 55
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_d_approach
+	* SuccLL: h_story_D04_Hataldan_d_approach
 
 ## h_story_D04_Hataldan_w_checkKharKalaad
 	* StepId: 60
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_GAMA_60
+	* SuccLL: h_story_D04_Hataldan_GAMA_60
 
 ## h_story_D04_Hataldan_w_conclusion
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_37
 		* h_story_D04_Hataldan_d_conclusion
 
@@ -9044,7 +8523,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_28
 		* h_story_D04_Hataldan_GAMA_7
 
@@ -9052,21 +8531,19 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_d_empOff1
+	* SuccLL: h_story_D04_Hataldan_d_empOff1
 
 ## h_story_D04_Hataldan_w_empOff2
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_d_empOff2
+	* SuccLL: h_story_D04_Hataldan_d_empOff2
 
 ## h_story_D04_Hataldan_w_enemyActivate
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_activateKeepers1
 		* h_story_D04_Hataldan_wave4_drones
 		* h_story_D04_Hataldan_wave5_drones
@@ -9076,7 +8553,7 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_14
 		* h_story_D04_Hataldan_GAMA_15
 		* h_story_D04_Hataldan_GAMA_16
@@ -9096,28 +8573,25 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_deactivateKeepers1
+	* SuccLL: h_story_D04_Hataldan_deactivateKeepers1
 
 ## h_story_D04_Hataldan_w_keeperDisable2
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_deactivateKeepers2
+	* SuccLL: h_story_D04_Hataldan_deactivateKeepers2
 
 ## h_story_D04_Hataldan_w_keeperDisable3
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_deactivateKeepers3
+	* SuccLL: h_story_D04_Hataldan_deactivateKeepers3
 
 ## h_story_D04_Hataldan_w_killKeepers
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_34
 		* h_story_D04_Hataldan_GAMA_38
 		* h_story_D04_Hataldan_GAMA_39
@@ -9131,7 +8605,7 @@
 	* StepId: 56
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_56
 		* h_story_D04_Hataldan_d_intro1
 
@@ -9139,7 +8613,7 @@
 	* StepId: 57
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_57
 		* h_story_D04_Hataldan_d_intro2
 
@@ -9147,14 +8621,13 @@
 	* StepId: 58
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_d_intro3
+	* SuccLL: h_story_D04_Hataldan_d_intro3
 
 ## h_story_D04_Hataldan_w_seq2_1
 	* StepId: 48
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_48
 		* h_story_D04_Hataldan_d_observer1
 
@@ -9162,7 +8635,7 @@
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_49
 		* h_story_D04_Hataldan_d_observer122
 
@@ -9170,7 +8643,7 @@
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_50
 		* h_story_D04_Hataldan_d_abduction1
 
@@ -9178,7 +8651,7 @@
 	* StepId: 51
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D04_Hataldan_GAMA_51
 		* h_story_D04_Hataldan_d_abduction2
 
@@ -9186,8 +8659,7 @@
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D04_Hataldan_d_abduction3
+	* SuccLL: h_story_D04_Hataldan_d_abduction3
 
 ## h_story_D04_Hataldan_w_triggerWinFight
 	* StepId: 39
@@ -9198,14 +8670,13 @@
 	* StepId: 119
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* FailLL:
-		* h_story_D05_NightmareGulf_spawn_squad
+	* FailLL: h_story_D05_NightmareGulf_spawn_squad
 
 ## h_story_D05_NightmareGulf_exist_vashtiFleet
 	* StepId: 128
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* FailLL:
+	* FailLL: 
 		* h_story_D05_NightmareGulf_deactivate_vashti2
 		* h_story_D05_NightmareGulf_deactivate_vashtiFleet2
 		* h_story_D05_NightmareGulf_spawn_vashtiFleet2
@@ -9214,7 +8685,7 @@
 	* StepId: 19
 	* Type: Goal
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_19
 		* h_story_D05_NightmareGulf_deactivate_vfxObserver
 
@@ -9222,7 +8693,7 @@
 	* StepId: 26
 	* Type: Goal
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_26
 		* h_story_D05_NightmareGulf_GAMA_38
 		* h_story_D05_NightmareGulf_GAMA_39
@@ -9232,7 +8703,7 @@
 	* StepId: 17
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_17
 		* h_story_D05_NightmareGulf_preferredTaget_vashtiChains
 
@@ -9240,21 +8711,19 @@
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_skill_missileBarrage1
+	* SuccLL: h_story_D05_NightmareGulf_skill_missileBarrage1
 
 ## h_story_D05_NightmareGulf_healthCheck_armor2
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_50
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_50
 
 ## h_story_D05_NightmareGulf_healthCheck_armor3
 	* StepId: 61
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_61
 		* h_story_D05_NightmareGulf_spawn_torpedo1
 
@@ -9262,21 +8731,19 @@
 	* StepId: 69
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_spawn_squad1
+	* SuccLL: h_story_D05_NightmareGulf_spawn_squad1
 
 ## h_story_D05_NightmareGulf_healthCheck_armor5
 	* StepId: 76
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_76
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_76
 
 ## h_story_D05_NightmareGulf_healthCheck_armor6
 	* StepId: 87
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_87
 		* h_story_D05_NightmareGulf_GAMA_88
 		* h_story_D05_NightmareGulf_spawn_torpedo2a
@@ -9285,70 +8752,61 @@
 	* StepId: 97
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_spawn_squad2
+	* SuccLL: h_story_D05_NightmareGulf_spawn_squad2
 
 ## h_story_D05_NightmareGulf_healthCheck_armor8
 	* StepId: 104
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_104
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_104
 
 ## h_story_D05_NightmareGulf_healthCheck_hull1
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_44
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_44
 
 ## h_story_D05_NightmareGulf_healthCheck_hull2
 	* StepId: 55
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_55
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_55
 
 ## h_story_D05_NightmareGulf_healthCheck_hull3
 	* StepId: 63
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_63
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_63
 
 ## h_story_D05_NightmareGulf_healthCheck_hull4
 	* StepId: 70
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_70
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_70
 
 ## h_story_D05_NightmareGulf_healthCheck_hull5
 	* StepId: 81
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_81
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_81
 
 ## h_story_D05_NightmareGulf_healthCheck_hull6
 	* StepId: 91
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_91
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_91
 
 ## h_story_D05_NightmareGulf_healthCheck_hull7
 	* StepId: 98
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_98
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_98
 
 ## h_story_D05_NightmareGulf_healthCheck_hull8
 	* StepId: 112
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_112
 		* h_story_D05_NightmareGulf_GAMA_114
 		* h_story_D05_NightmareGulf_GAMA_115
@@ -9361,7 +8819,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_13
 		* h_story_D05_NightmareGulf_GAMA_14
 		* h_story_D05_NightmareGulf_GAMA_15
@@ -9373,63 +8831,55 @@
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_42
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_42
 
 ## h_story_D05_NightmareGulf_i_armor2
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_49
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_49
 
 ## h_story_D05_NightmareGulf_i_armor3
 	* StepId: 60
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_60
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_60
 
 ## h_story_D05_NightmareGulf_i_armor4
 	* StepId: 68
 	* Type: None
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_68
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_68
 
 ## h_story_D05_NightmareGulf_i_armor5
 	* StepId: 75
 	* Type: None
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_75
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_75
 
 ## h_story_D05_NightmareGulf_i_armor6
 	* StepId: 86
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_86
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_86
 
 ## h_story_D05_NightmareGulf_i_armor7
 	* StepId: 96
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_96
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_96
 
 ## h_story_D05_NightmareGulf_i_armor8
 	* StepId: 103
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_103
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_103
 
 ## h_story_D05_NightmareGulf_i_base
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_deactivate_kiithless
 		* h_story_D05_NightmareGulf_spawn_base
 		* h_story_D05_NightmareGulf_spawn_patrols
@@ -9439,7 +8889,7 @@
 	* StepId: 51
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_51
 		* h_story_D05_NightmareGulf_GAMA_53
 		* h_story_D05_NightmareGulf_deactivate_emp1Telegraph
@@ -9449,7 +8899,7 @@
 	* StepId: 77
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_77
 		* h_story_D05_NightmareGulf_deactivate_emp2Telegraph
 		* h_story_D05_NightmareGulf_vfx_emp2Telegraph
@@ -9458,7 +8908,7 @@
 	* StepId: 105
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_105
 		* h_story_D05_NightmareGulf_deactivate_emp3Telegraph
 		* h_story_D05_NightmareGulf_vfx_emp3Telegraph
@@ -9467,14 +8917,13 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_21
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_21
 
 ## h_story_D05_NightmareGulf_i_goals
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_12
 		* h_story_D05_NightmareGulf_GAMA_16
 		* h_story_D05_NightmareGulf_GAMA_18
@@ -9483,7 +8932,7 @@
 	* StepId: 120
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_addSkill_missileBarrage
 		* h_story_D05_NightmareGulf_deactivate_all
 		* h_story_D05_NightmareGulf_invincible_1
@@ -9495,7 +8944,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_5
 		* h_story_D05_NightmareGulf_deactivate_chains
 		* h_story_D05_NightmareGulf_deactivate_observer
@@ -9507,7 +8956,7 @@
 	* StepId: 117
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_117
 		* h_story_D05_NightmareGulf_GAMA_118
 		* h_story_D05_NightmareGulf_close_kidara
@@ -9519,7 +8968,7 @@
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_45
 		* h_story_D05_NightmareGulf_armor_1_1
 		* h_story_D05_NightmareGulf_vfx_heal1
@@ -9529,7 +8978,7 @@
 	* StepId: 56
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_56
 		* h_story_D05_NightmareGulf_armor_2_1
 		* h_story_D05_NightmareGulf_vfx_heal2
@@ -9539,7 +8988,7 @@
 	* StepId: 64
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_64
 		* h_story_D05_NightmareGulf_armor_3_1
 		* h_story_D05_NightmareGulf_vfx_heal3
@@ -9549,7 +8998,7 @@
 	* StepId: 71
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_71
 		* h_story_D05_NightmareGulf_armor_4_1
 		* h_story_D05_NightmareGulf_vfx_heal4
@@ -9559,7 +9008,7 @@
 	* StepId: 82
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_82
 		* h_story_D05_NightmareGulf_armor_5_1
 		* h_story_D05_NightmareGulf_vfx_heal5
@@ -9569,7 +9018,7 @@
 	* StepId: 92
 	* Type: None
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_92
 		* h_story_D05_NightmareGulf_armor_6_1
 		* h_story_D05_NightmareGulf_vfx_heal6
@@ -9579,7 +9028,7 @@
 	* StepId: 99
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_99
 		* h_story_D05_NightmareGulf_armor_7_1
 		* h_story_D05_NightmareGulf_vfx_heal7
@@ -9589,7 +9038,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_1
 		* h_story_D05_NightmareGulf_GAMA_3
 		* h_story_D05_NightmareGulf_GAMA_4
@@ -9598,7 +9047,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_2
 		* h_story_D05_NightmareGulf_deactivate_vashti
 		* h_story_D05_NightmareGulf_invincible_vashti
@@ -9608,29 +9057,26 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D05_NightmareGulf_td_win
 		* h_story_D05_NightmareGulf_w_amassariBuffer
-	* SuccLL:
-		* h_story_D05_NightmareGulf_GAMA_28
+	* SuccLL: h_story_D05_NightmareGulf_GAMA_28
 
 ## h_story_D05_NightmareGulf_multi_vashti
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_story_D05_NightmareGulf_td_failVashti
 		* h_story_D05_NightmareGulf_w_failVasthi
-	* SuccLL:
-		* h_story_D05_NightmareGulf_fail_vasthi
+	* SuccLL: h_story_D05_NightmareGulf_fail_vasthi
 
 ## h_story_D05_NightmareGulf_sequenceEnd_intro
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_11
 		* h_story_D05_NightmareGulf_GAMA_126
 		* h_story_D05_NightmareGulf_GAMA_128
@@ -9645,9 +9091,8 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_116
 		* h_story_D05_NightmareGulf_GAMA_24
 
@@ -9655,9 +9100,8 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_30
 		* h_story_D05_NightmareGulf_close_observer
 		* h_story_D05_NightmareGulf_deactivate_observerDialog
@@ -9667,7 +9111,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_0
 		* h_story_D05_NightmareGulf_GAMA_10
 		* h_story_D05_NightmareGulf_GAMA_6
@@ -9678,7 +9122,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_22
 		* h_story_D05_NightmareGulf_ai_followFlagship
 
@@ -9686,30 +9130,26 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_nightmareGulf_dialog_end
-	* SuccLL:
-		* h_story_D05_NightmareGulf_end
+	* TVS: s_nightmareGulf_dialog_end
+	* SuccLL: h_story_D05_NightmareGulf_end
 
 ## h_story_D05_NightmareGulf_td_failVashti
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_nightmareGulf_dialog_failKharKalaad
+	* TVS: s_nightmareGulf_dialog_failKharKalaad
 
 ## h_story_D05_NightmareGulf_td_win
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* s_nightmareGulf_dialog_win
+	* TVS: s_nightmareGulf_dialog_win
 
 ## h_story_D05_NightmareGulf_w_amassari
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_37
 		* h_story_D05_NightmareGulf_spawn_amassari
 
@@ -9722,21 +9162,19 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_remove_progenitorHelp
+	* SuccLL: h_story_D05_NightmareGulf_remove_progenitorHelp
 
 ## h_story_D05_NightmareGulf_w_closeDestructDialog
 	* StepId: 115
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_close_destruct
+	* SuccLL: h_story_D05_NightmareGulf_close_destruct
 
 ## h_story_D05_NightmareGulf_w_combat
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_25
 		* h_story_D05_NightmareGulf_GAMA_40
 		* h_story_D05_NightmareGulf_activate_all
@@ -9746,28 +9184,25 @@
 	* StepId: 116
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_deactivate_goalDialogsRepeating
+	* SuccLL: h_story_D05_NightmareGulf_deactivate_goalDialogsRepeating
 
 ## h_story_D05_NightmareGulf_w_deactivateOpenGoals
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_deactivate_freeObserverHelp
+	* SuccLL: h_story_D05_NightmareGulf_deactivate_freeObserverHelp
 
 ## h_story_D05_NightmareGulf_w_dialogEmp
 	* StepId: 54
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_d_emp
+	* SuccLL: h_story_D05_NightmareGulf_d_emp
 
 ## h_story_D05_NightmareGulf_w_dialogTorpedo
 	* StepId: 62
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_d_torpedo
 		* h_story_D05_NightmareGulf_mark_torpedo1
 
@@ -9775,7 +9210,7 @@
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_52
 		* h_story_D05_NightmareGulf_activate_emp1Telegraph
 		* h_story_D05_NightmareGulf_addStatMod_stun1
@@ -9789,7 +9224,7 @@
 	* StepId: 78
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_78
 		* h_story_D05_NightmareGulf_GAMA_79
 		* h_story_D05_NightmareGulf_activate_emp2Telegraph
@@ -9804,7 +9239,7 @@
 	* StepId: 106
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_106
 		* h_story_D05_NightmareGulf_GAMA_107
 		* h_story_D05_NightmareGulf_activate_emp3Telegraph
@@ -9819,7 +9254,7 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_31
 		* h_story_D05_NightmareGulf_d_end
 
@@ -9827,7 +9262,7 @@
 	* StepId: 127
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_127
 		* h_story_D05_NightmareGulf_d_engage
 
@@ -9840,7 +9275,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_d_freeObserver
 		* h_story_D05_NightmareGulf_preferredTaget_observerHelp
 		* h_story_D05_NightmareGulf_spawn_observerHelp
@@ -9849,7 +9284,7 @@
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_111
 		* h_story_D05_NightmareGulf_GAMA_41
 		* h_story_D05_NightmareGulf_GAMA_43
@@ -9864,7 +9299,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_7
 		* h_story_D05_NightmareGulf_GAMA_9
 		* h_story_D05_NightmareGulf_d_introA
@@ -9873,7 +9308,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_8
 		* h_story_D05_NightmareGulf_d_introB
 
@@ -9881,21 +9316,19 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_d_introC
+	* SuccLL: h_story_D05_NightmareGulf_d_introC
 
 ## h_story_D05_NightmareGulf_w_introMovement
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_activate_kiithlessIntro
+	* SuccLL: h_story_D05_NightmareGulf_activate_kiithlessIntro
 
 ## h_story_D05_NightmareGulf_w_kidaraSeq1
 	* StepId: 122
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_122
 		* h_story_D05_NightmareGulf_d_kidaraSpawnA
 
@@ -9903,7 +9336,7 @@
 	* StepId: 123
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_123
 		* h_story_D05_NightmareGulf_d_kidaraSpawnB
 
@@ -9911,7 +9344,7 @@
 	* StepId: 124
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_124
 		* h_story_D05_NightmareGulf_GAMA_125
 		* h_story_D05_NightmareGulf_d_kidaraSpawnC
@@ -9920,14 +9353,13 @@
 	* StepId: 125
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_d_kidaraSpawnD
+	* SuccLL: h_story_D05_NightmareGulf_d_kidaraSpawnD
 
 ## h_story_D05_NightmareGulf_w_kidaraSequence
 	* StepId: 121
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_close_kidaraSequence
 		* h_story_D05_NightmareGulf_los_kidaraOff
 		* h_story_D05_NightmareGulf_sequence_kidara
@@ -9936,7 +9368,7 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_119
 		* h_story_D05_NightmareGulf_GAMA_120
 		* h_story_D05_NightmareGulf_GAMA_121
@@ -9946,21 +9378,19 @@
 	* StepId: 118
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_d_kidaraSpawnE
+	* SuccLL: h_story_D05_NightmareGulf_d_kidaraSpawnE
 
 ## h_story_D05_NightmareGulf_w_missileBarrage2
 	* StepId: 80
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_skill_missileBarrage2
+	* SuccLL: h_story_D05_NightmareGulf_skill_missileBarrage2
 
 ## h_story_D05_NightmareGulf_w_observerSequence
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_29
 		* h_story_D05_NightmareGulf_GAMA_32
 		* h_story_D05_NightmareGulf_close_observerSequence
@@ -9973,7 +9403,7 @@
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_33
 		* h_story_D05_NightmareGulf_d_observerA
 
@@ -9981,7 +9411,7 @@
 	* StepId: 34
 	* Type: None
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_34
 		* h_story_D05_NightmareGulf_d_observerB
 
@@ -9989,14 +9419,13 @@
 	* StepId: 35
 	* Type: None
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_d_observerC
+	* SuccLL: h_story_D05_NightmareGulf_d_observerC
 
 ## h_story_D05_NightmareGulf_w_outro
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_27
 		* h_story_D05_NightmareGulf_GAMA_35
 		* h_story_D05_NightmareGulf_GAMA_36
@@ -10006,7 +9435,7 @@
 	* StepId: 46
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_46
 		* h_story_D05_NightmareGulf_armor_1_2
 
@@ -10014,7 +9443,7 @@
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_47
 		* h_story_D05_NightmareGulf_armor_1_3
 
@@ -10022,7 +9451,7 @@
 	* StepId: 48
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_48
 		* h_story_D05_NightmareGulf_armor_1_4
 		* h_story_D05_NightmareGulf_invincible_2
@@ -10031,7 +9460,7 @@
 	* StepId: 57
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_57
 		* h_story_D05_NightmareGulf_armor_2_2
 
@@ -10039,7 +9468,7 @@
 	* StepId: 58
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_58
 		* h_story_D05_NightmareGulf_armor_2_3
 
@@ -10047,7 +9476,7 @@
 	* StepId: 59
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_59
 		* h_story_D05_NightmareGulf_armor_2_4
 		* h_story_D05_NightmareGulf_invincible_3
@@ -10056,7 +9485,7 @@
 	* StepId: 65
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_65
 		* h_story_D05_NightmareGulf_armor_3_2
 
@@ -10064,7 +9493,7 @@
 	* StepId: 66
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_66
 		* h_story_D05_NightmareGulf_armor_3_3
 
@@ -10072,7 +9501,7 @@
 	* StepId: 67
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_67
 		* h_story_D05_NightmareGulf_armor_3_4
 		* h_story_D05_NightmareGulf_invincible_4
@@ -10081,7 +9510,7 @@
 	* StepId: 72
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_72
 		* h_story_D05_NightmareGulf_armor_4_2
 
@@ -10089,7 +9518,7 @@
 	* StepId: 73
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_73
 		* h_story_D05_NightmareGulf_armor_4_3
 
@@ -10097,7 +9526,7 @@
 	* StepId: 74
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_74
 		* h_story_D05_NightmareGulf_armor_4_4
 		* h_story_D05_NightmareGulf_invincible_5
@@ -10106,7 +9535,7 @@
 	* StepId: 83
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_83
 		* h_story_D05_NightmareGulf_armor_5_2
 
@@ -10114,7 +9543,7 @@
 	* StepId: 84
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_84
 		* h_story_D05_NightmareGulf_armor_5_3
 
@@ -10122,7 +9551,7 @@
 	* StepId: 85
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_85
 		* h_story_D05_NightmareGulf_armor_5_4
 		* h_story_D05_NightmareGulf_invincible_6
@@ -10131,7 +9560,7 @@
 	* StepId: 93
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_93
 		* h_story_D05_NightmareGulf_armor_6_2
 
@@ -10139,7 +9568,7 @@
 	* StepId: 94
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_94
 		* h_story_D05_NightmareGulf_armor_6_3
 
@@ -10147,7 +9576,7 @@
 	* StepId: 95
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_95
 		* h_story_D05_NightmareGulf_armor_6_4
 		* h_story_D05_NightmareGulf_invincible_7
@@ -10156,7 +9585,7 @@
 	* StepId: 100
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_100
 		* h_story_D05_NightmareGulf_armor_7_2
 
@@ -10164,7 +9593,7 @@
 	* StepId: 101
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_101
 		* h_story_D05_NightmareGulf_armor_7_3
 
@@ -10172,7 +9601,7 @@
 	* StepId: 102
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_102
 		* h_story_D05_NightmareGulf_armor_7_4
 		* h_story_D05_NightmareGulf_invincible_8
@@ -10181,14 +9610,13 @@
 	* StepId: 126
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_spawn_squadSequence
+	* SuccLL: h_story_D05_NightmareGulf_spawn_squadSequence
 
 ## h_story_D05_NightmareGulf_w_startTelegraphDestruct
 	* StepId: 113
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_113
 		* h_story_D05_NightmareGulf_vfx_telegraphDestruct
 
@@ -10196,14 +9624,13 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_d_station
+	* SuccLL: h_story_D05_NightmareGulf_d_station
 
 ## h_story_D05_NightmareGulf_w_stun1
 	* StepId: 53
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_removeStatMod_stun1
 		* h_story_D05_NightmareGulf_removeStatMod_stun1Ally
 
@@ -10211,7 +9638,7 @@
 	* StepId: 79
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_removeStatMod_stun2
 		* h_story_D05_NightmareGulf_removeStatMod_stun2Ally
 
@@ -10219,7 +9646,7 @@
 	* StepId: 107
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_removeStatMod_stun3
 		* h_story_D05_NightmareGulf_removeStatMod_stun3Ally
 
@@ -10227,7 +9654,7 @@
 	* StepId: 114
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_destruct_kidara
 		* h_story_D05_NightmareGulf_dmg_destruct
 		* h_story_D05_NightmareGulf_dmg_destructAlly
@@ -10238,14 +9665,13 @@
 	* StepId: 88
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_mark_torpedo2a
+	* SuccLL: h_story_D05_NightmareGulf_mark_torpedo2a
 
 ## h_story_D05_NightmareGulf_w_torpedo2b
 	* StepId: 89
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_89
 		* h_story_D05_NightmareGulf_spawn_torpedo2b
 
@@ -10253,14 +9679,13 @@
 	* StepId: 90
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_mark_torpedo2b
+	* SuccLL: h_story_D05_NightmareGulf_mark_torpedo2b
 
 ## h_story_D05_NightmareGulf_w_torpedo3a
 	* StepId: 108
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_108
 		* h_story_D05_NightmareGulf_GAMA_109
 		* h_story_D05_NightmareGulf_spawn_torpedo3a
@@ -10269,14 +9694,13 @@
 	* StepId: 109
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_mark_torpedo3a
+	* SuccLL: h_story_D05_NightmareGulf_mark_torpedo3a
 
 ## h_story_D05_NightmareGulf_w_torpedo3b
 	* StepId: 110
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_110
 		* h_story_D05_NightmareGulf_spawn_torpedo3b
 
@@ -10284,14 +9708,13 @@
 	* StepId: 111
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_mark_torpedo3b
+	* SuccLL: h_story_D05_NightmareGulf_mark_torpedo3b
 
 ## h_story_D05_NightmareGulf_w_vashti1
 	* StepId: 129
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_GAMA_129
 		* h_story_D05_NightmareGulf_activate_Vashti
 		* h_story_D05_NightmareGulf_preferredTarget_vashtiStation
@@ -10300,14 +9723,13 @@
 	* StepId: 130
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_activate_VashtiFleet
+	* SuccLL: h_story_D05_NightmareGulf_activate_VashtiFleet
 
 ## h_story_D05_NightmareGulf_w_vashtiFleet
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_story_D05_NightmareGulf_deactivate_vashtiFleet
 		* h_story_D05_NightmareGulf_spawn_vasthiFleet
 
@@ -10315,25 +9737,21 @@
 	* StepId: 6
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_story_D05_NightmareGulf_vfx_observer
+	* SuccLL: h_story_D05_NightmareGulf_vfx_observer
 
 ## h_strike_01_PirateHideout_a0cb8394427daa0409f158020f456534
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
-		* h_strike_01_PirateHideout_miss010_act_lineofsight_on
+	* TVS: 1
+	* SuccLL: h_strike_01_PirateHideout_miss010_act_lineofsight_on
 
 ## h_strike_01_PirateHideout_check_goal_condition
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_strike_01_PirateHideout_miss010_g_boss
-	* SuccLL:
+	* TVS: h_strike_01_PirateHideout_miss010_g_boss
+	* SuccLL: 
 		* h_strike_01_PirateHideout_miss010_act_dia_fin
 		* h_strike_01_PirateHideout_miss010_act_fin
 		* h_strike_01_PirateHideout_remove_units
@@ -10342,8 +9760,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_disable_spawns
+	* SuccLL: h_strike_01_PirateHideout_disable_spawns
 
 ## h_strike_01_PirateHideout_miss010_g_boss
 	* StepId: 4
@@ -10364,7 +9781,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_01_PirateHideout_GAMA_0
 		* h_strike_01_PirateHideout_GAMA_1
 		* h_strike_01_PirateHideout_GAMA_11
@@ -10385,10 +9802,10 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_01_PirateHideout_miss010_gBase0
 		* h_strike_01_PirateHideout_miss010_gGuard0
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_01_PirateHideout_GAMA_2
 		* h_strike_01_PirateHideout_GAMA_4
 		* h_strike_01_PirateHideout_GAMA_5
@@ -10399,28 +9816,25 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_miss010_act_dia_sensor
+	* SuccLL: h_strike_01_PirateHideout_miss010_act_dia_sensor
 
 ## h_strike_01_PirateHideout_miss010_trigSensorOn0
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_miss010_act_showSensor0
+	* SuccLL: h_strike_01_PirateHideout_miss010_act_showSensor0
 
 ## h_strike_01_PirateHideout_miss010_waitfor_cameralookat0
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_miss010_act_cameralookat0
+	* SuccLL: h_strike_01_PirateHideout_miss010_act_cameralookat0
 
 ## h_strike_01_PirateHideout_setupSpawns
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_01_PirateHideout_GAMA_7
 		* h_strike_01_PirateHideout_GAMA_8
 		* h_strike_01_PirateHideout_miss010_act_Base0
@@ -10431,21 +9845,19 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_miss010_act_dia_boss
+	* SuccLL: h_strike_01_PirateHideout_miss010_act_dia_boss
 
 ## h_strike_01_PirateHideout_TriggerWaitForTime011
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_miss010_act_sensorview_boss
+	* SuccLL: h_strike_01_PirateHideout_miss010_act_sensorview_boss
 
 ## h_strike_01_PirateHideout_TriggerWaitForTime012
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_01_PirateHideout_GAMA_3
 		* h_strike_01_PirateHideout_miss010_act_boss
 
@@ -10453,51 +9865,44 @@
 	* StepId: 10
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_01_PirateHideout_GAMA_10
+	* SuccLL: h_strike_01_PirateHideout_GAMA_10
 
 ## h_strike_01_PirateHideout_trigRepeating_respawn_patrol2
 	* StepId: 12
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_01_PirateHideout_GAMA_12
+	* SuccLL: h_strike_01_PirateHideout_GAMA_12
 
 ## h_strike_01_PirateHideout_trigRepeating_respawn_patrol3
 	* StepId: 14
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_01_PirateHideout_GAMA_14
+	* SuccLL: h_strike_01_PirateHideout_GAMA_14
 
 ## h_strike_01_PirateHideout_w_respawnWaitTimer1
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_respawn_patrol1
+	* SuccLL: h_strike_01_PirateHideout_respawn_patrol1
 
 ## h_strike_01_PirateHideout_w_respawnWaitTimer2
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_respawn_patrol2
+	* SuccLL: h_strike_01_PirateHideout_respawn_patrol2
 
 ## h_strike_01_PirateHideout_w_respawnWaitTimer3
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_01_PirateHideout_respawn_patrol3
+	* SuccLL: h_strike_01_PirateHideout_respawn_patrol3
 
 ## h_strike_02_StationDefense_68053284737ce404dbf17c8fa3ebab27
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_strike_02_StationDefense_rd_stationdef_gKillBoss
-	* SuccLL:
+	* TVS: h_strike_02_StationDefense_rd_stationdef_gKillBoss
+	* SuccLL: 
 		* h_strike_02_StationDefense_6c93bb41b16c264499c92218a7b7db0a
 		* h_strike_02_StationDefense_rd_stationdef_act_dia_fin
 		* h_strike_02_StationDefense_rd_stationdef_act_fin
@@ -10506,45 +9911,38 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
-		* h_strike_02_StationDefense_enable_los
+	* TVS: 1
+	* SuccLL: h_strike_02_StationDefense_enable_los
 
 ## h_strike_02_StationDefense_disable_repeating_spawns_timer
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_disable_repeating_spawns
+	* SuccLL: h_strike_02_StationDefense_disable_repeating_spawns
 
 ## h_strike_02_StationDefense_rd_stationdef_gBeaconNE
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_removeSpawnNE
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_removeSpawnNE
 
 ## h_strike_02_StationDefense_rd_stationdef_gBeaconNW
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_removeSpawnNW
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_removeSpawnNW
 
 ## h_strike_02_StationDefense_rd_stationdef_gBeaconSE
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_removeSpawnSE
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_removeSpawnSE
 
 ## h_strike_02_StationDefense_rd_stationdef_gBeaconSW
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_removeSpawnSW
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_removeSpawnSW
 
 ## h_strike_02_StationDefense_rd_stationdef_gKillBoss
 	* StepId: 19
@@ -10555,7 +9953,7 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_02_StationDefense_rd_stationdef_act_dia_fail
 		* h_strike_02_StationDefense_rd_stationdef_act_fail
 
@@ -10563,139 +9961,123 @@
 	* StepId: 17
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconNE
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconNW
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconSE
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconSW
-	* SuccLL:
-		* h_strike_02_StationDefense_GAMA_7
+	* SuccLL: h_strike_02_StationDefense_GAMA_7
 
 ## h_strike_02_StationDefense_rd_stationdef_trig_SpawnWaitTimer1
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_spawnFleet_new_NE
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_spawnFleet_new_NE
 
 ## h_strike_02_StationDefense_rd_stationdef_trig_SpawnWaitTimer2
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_spawnFleet_new_SW
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_spawnFleet_new_SW
 
 ## h_strike_02_StationDefense_rd_stationdef_trig_SpawnWaitTimer3
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_spawnFleet_new_SE
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_spawnFleet_new_SE
 
 ## h_strike_02_StationDefense_rd_stationdef_trigBeaconDone1
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconNE
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconNW
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconSE
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconSW
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_dia_beaconsdone1
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_dia_beaconsdone1
 
 ## h_strike_02_StationDefense_rd_stationdef_trigBeaconDone2
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconNE
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconNW
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconSE
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconSW
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_dia_beaconsdone2
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_dia_beaconsdone2
 
 ## h_strike_02_StationDefense_rd_stationdef_trigBeaconDone3
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconNE
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconNW
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconSE
 		* h_strike_02_StationDefense_rd_stationdef_gBeaconSW
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_dia_beaconsdone3
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_dia_beaconsdone3
 
 ## h_strike_02_StationDefense_rd_stationdef_trigRespawn_Timer01
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_RespawnFleet_new_NW
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_RespawnFleet_new_NW
 
 ## h_strike_02_StationDefense_rd_stationdef_trigRespawn_Timer02
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_RespawnFleet_new_NE
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_RespawnFleet_new_NE
 
 ## h_strike_02_StationDefense_rd_stationdef_trigRespawn_Timer03
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_RespawnFleet_new_SW
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_RespawnFleet_new_SW
 
 ## h_strike_02_StationDefense_rd_stationdef_trigRespawn_Timer04
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_RespawnFleet_new_SE
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_RespawnFleet_new_SE
 
 ## h_strike_02_StationDefense_rd_stationdef_trigRespawnNE
 	* StepId: 4
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_02_StationDefense_GAMA_1
+	* SuccLL: h_strike_02_StationDefense_GAMA_1
 
 ## h_strike_02_StationDefense_rd_stationdef_trigRespawnNW
 	* StepId: 2
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_02_StationDefense_GAMA_0
+	* SuccLL: h_strike_02_StationDefense_GAMA_0
 
 ## h_strike_02_StationDefense_rd_stationdef_trigRespawnSE
 	* StepId: 8
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_02_StationDefense_GAMA_3
+	* SuccLL: h_strike_02_StationDefense_GAMA_3
 
 ## h_strike_02_StationDefense_rd_stationdef_trigRespawnSW
 	* StepId: 6
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_02_StationDefense_GAMA_2
+	* SuccLL: h_strike_02_StationDefense_GAMA_2
 
 ## h_strike_02_StationDefense_rd_stationdef_trigSensorviewOn
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_sensorviewOn
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_sensorviewOn
 
 ## h_strike_02_StationDefense_rd_stationdef_trigStart
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_02_StationDefense_GAMA_10
 		* h_strike_02_StationDefense_GAMA_11
 		* h_strike_02_StationDefense_GAMA_9
@@ -10712,7 +10094,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_02_StationDefense_GAMA_4
 		* h_strike_02_StationDefense_GAMA_5
 		* h_strike_02_StationDefense_GAMA_6
@@ -10734,14 +10116,13 @@
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_02_StationDefense_rd_stationdef_act_cameralookat0
+	* SuccLL: h_strike_02_StationDefense_rd_stationdef_act_cameralookat0
 
 ## h_strike_02_StationDefense_rd_stationdef_waitTimerAfterBeacons
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_02_StationDefense_GAMA_8
 		* h_strike_02_StationDefense_rd_stationdef_act_dia_boss
 		* h_strike_02_StationDefense_rd_stationdef_act_sensorview_Boss
@@ -10751,66 +10132,58 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_03_PahrasRock_kill_final_fleet
 		* h_strike_03_PahrasRock_r003_goal_kill_Base
-	* SuccLL:
-		* h_strike_03_PahrasRock_r003_action_finish_dialog0
+	* SuccLL: h_strike_03_PahrasRock_r003_action_finish_dialog0
 
 ## h_strike_03_PahrasRock_delay_spawn_1_1
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_respawnPatrol1_1
+	* SuccLL: h_strike_03_PahrasRock_respawnPatrol1_1
 
 ## h_strike_03_PahrasRock_delay_spawn_1_2
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_respawnPatrol1_2
+	* SuccLL: h_strike_03_PahrasRock_respawnPatrol1_2
 
 ## h_strike_03_PahrasRock_delay_spawn_1_3
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_respawnPatrol1_3
+	* SuccLL: h_strike_03_PahrasRock_respawnPatrol1_3
 
 ## h_strike_03_PahrasRock_delay_spawn_1_4
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_respawnPatrol1_4
+	* SuccLL: h_strike_03_PahrasRock_respawnPatrol1_4
 
 ## h_strike_03_PahrasRock_delay_spawn_B_1
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_r003_spawn_patrolB_1
+	* SuccLL: h_strike_03_PahrasRock_r003_spawn_patrolB_1
 
 ## h_strike_03_PahrasRock_delay_spawn_B_2
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_r003_spawn_patrolB_2
+	* SuccLL: h_strike_03_PahrasRock_r003_spawn_patrolB_2
 
 ## h_strike_03_PahrasRock_disable_repeating_spawns_timer
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_disable_repeating_spawns
+	* SuccLL: h_strike_03_PahrasRock_disable_repeating_spawns
 
 ## h_strike_03_PahrasRock_i_baseHealthTrigger
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_03_PahrasRock_GAMA_10
 		* h_strike_03_PahrasRock_GAMA_11
 		* h_strike_03_PahrasRock_GAMA_12
@@ -10826,43 +10199,37 @@
 	* StepId: 16
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_03_PahrasRock_GAMA_16
+	* SuccLL: h_strike_03_PahrasRock_GAMA_16
 
 ## h_strike_03_PahrasRock_patrol1_2_destroyed
 	* StepId: 18
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_03_PahrasRock_GAMA_18
+	* SuccLL: h_strike_03_PahrasRock_GAMA_18
 
 ## h_strike_03_PahrasRock_patrol1_3_destroyed
 	* StepId: 20
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_03_PahrasRock_GAMA_20
+	* SuccLL: h_strike_03_PahrasRock_GAMA_20
 
 ## h_strike_03_PahrasRock_patrol1_4_destroyed
 	* StepId: 22
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_03_PahrasRock_GAMA_22
+	* SuccLL: h_strike_03_PahrasRock_GAMA_22
 
 ## h_strike_03_PahrasRock_patrolB_1_destroyed
 	* StepId: 24
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_03_PahrasRock_GAMA_24
+	* SuccLL: h_strike_03_PahrasRock_GAMA_24
 
 ## h_strike_03_PahrasRock_patrolB_2_destroyed
 	* StepId: 26
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_03_PahrasRock_GAMA_26
+	* SuccLL: h_strike_03_PahrasRock_GAMA_26
 
 ## h_strike_03_PahrasRock_r003_BaseHP_40
 	* StepId: 12
@@ -10873,7 +10240,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_03_PahrasRock_r003_action_dialog_BaseHp60
 		* h_strike_03_PahrasRock_r003_action_spawn_fleet2_1
 		* h_strike_03_PahrasRock_r003_action_spawn_fleet2_2
@@ -10883,7 +10250,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_03_PahrasRock_MakeNPC1FollowFlagship
 		* h_strike_03_PahrasRock_r003_action_dialog_BaseHp80
 		* h_strike_03_PahrasRock_r003_action_spawn_fleet1_1
@@ -10893,14 +10260,13 @@
 	* StepId: 3
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_03_PahrasRock_r003_action_deactivate_patrols
+	* SuccLL: h_strike_03_PahrasRock_r003_action_deactivate_patrols
 
 ## h_strike_03_PahrasRock_r003_missionstart
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_03_PahrasRock_GAMA_0
 		* h_strike_03_PahrasRock_GAMA_1
 		* h_strike_03_PahrasRock_GAMA_13
@@ -10923,21 +10289,19 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_r003_action_cameralookat
+	* SuccLL: h_strike_03_PahrasRock_r003_action_cameralookat
 
 ## h_strike_03_PahrasRock_r003_timer_sensor
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_03_PahrasRock_r003_action_sensor_on
+	* SuccLL: h_strike_03_PahrasRock_r003_action_sensor_on
 
 ## h_strike_03_PahrasRock_SpawnEnemyPatrol
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_03_PahrasRock_TriggerEnemyPatrol1_1
 		* h_strike_03_PahrasRock_TriggerEnemyPatrol1_2
 		* h_strike_03_PahrasRock_TriggerEnemyPatrol1_3
@@ -10952,10 +10316,10 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_03_PahrasRock_r003_BaseHP_40
 		* h_strike_03_PahrasRock_t_baseDestroyed
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_03_PahrasRock_act_MakeBaseVincibleAgain
 		* h_strike_03_PahrasRock_r003_BaseHp40_dialog0
 		* h_strike_03_PahrasRock_r003_action_BaseHP40_sensor
@@ -10965,7 +10329,7 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_03_PahrasRock_actn_makeBaseInvincibleAt20
 		* h_strike_03_PahrasRock_r003_action_spawn_Base0
 		* h_strike_03_PahrasRock_r003_action_spawn_guard0
@@ -10983,9 +10347,8 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_strike_03_PahrasRock_918a10d5f9d40bc4bb833b159bce009c
-	* SuccLL:
+	* TVS: h_strike_03_PahrasRock_918a10d5f9d40bc4bb833b159bce009c
+	* SuccLL: 
 		* h_strike_03_PahrasRock_disable_platforms
 		* h_strike_03_PahrasRock_r003_action_finish_mission
 		* h_strike_03_PahrasRock_remove_ships
@@ -10994,9 +10357,8 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_strike_03_PahrasRock_GAMA_5
 		* h_strike_03_PahrasRock_GAMA_6
 
@@ -11004,7 +10366,7 @@
 	* StepId: 18
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_18
 		* h_strike_04_Breach_a_deactivateBlockadeBossWave02
 		* h_strike_04_Breach_a_disableLooesCondition
@@ -11014,18 +10376,17 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
-		* h_strike_04_Breach_a_reactivateTurret2
+	* SuccLL: h_strike_04_Breach_a_reactivateTurret2
 
 ## h_strike_04_Breach_g_killTurrets1and2and3
 	* StepId: 26
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_04_Breach_g_killTurrets1
 		* h_strike_04_Breach_g_killTurrets2
 		* h_strike_04_Breach_g_killTurrets3
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_a_reactivateEscort3
 		* h_strike_04_Breach_dialogTurret3Dead
 
@@ -11033,7 +10394,7 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_a_disableSecondFreighterStop
 		* h_strike_04_Breach_a_reactivateTurret3
 		* h_strike_04_Breach_a_spawnBaseProtection1
@@ -11043,7 +10404,7 @@
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_a_disableThirdFreighterStop
 		* h_strike_04_Breach_a_spawnBaseProtection2
 		* h_strike_04_Breach_a_spawnPatrol4
@@ -11052,7 +10413,7 @@
 	* StepId: 17
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_17
 		* h_strike_04_Breach_GAMA_21
 		* h_strike_04_Breach_a_armExplosives_1_dialog
@@ -11063,7 +10424,7 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_14
 		* h_strike_04_Breach_a_startIntro
 
@@ -11071,7 +10432,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_1
 		* h_strike_04_Breach_GAMA_12
 		* h_strike_04_Breach_GAMA_13
@@ -11086,9 +10447,8 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_15
 		* h_strike_04_Breach_a_cameraLookCenter
 		* h_strike_04_Breach_a_useLineOfSight
@@ -11097,7 +10457,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_a_spawnBase
 		* h_strike_04_Breach_a_spawnBlockadeWave_02_01
 		* h_strike_04_Breach_a_spawnPatrol1
@@ -11109,16 +10469,14 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
-		* h_strike_04_Breach_GAMA_0
+	* SuccLL: h_strike_04_Breach_GAMA_0
 
 ## h_strike_04_Breach_t_enemyRespawns
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_strike_04_Breach_g_killTurrets2
-	* SuccLL:
+	* TVS: h_strike_04_Breach_g_killTurrets2
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_11
 		* h_strike_04_Breach_GAMA_7
 		* h_strike_04_Breach_GAMA_9
@@ -11129,112 +10487,96 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_strike_04_Breach_a_disableEscort1
+	* SuccLL: h_strike_04_Breach_a_disableEscort1
 
 ## h_strike_04_Breach_t_escortWait2
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* h_strike_04_Breach_a_disableEscort2
+	* SuccLL: h_strike_04_Breach_a_disableEscort2
 
 ## h_strike_04_Breach_t_freighterKilled
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* h_strike_04_Breach_GAMA_4
+	* SuccLL: h_strike_04_Breach_GAMA_4
 
 ## h_strike_04_Breach_t_killRespawn1
 	* StepId: 8
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_04_Breach_GAMA_8
+	* SuccLL: h_strike_04_Breach_GAMA_8
 
 ## h_strike_04_Breach_t_killRespawn2
 	* StepId: 10
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_04_Breach_GAMA_10
+	* SuccLL: h_strike_04_Breach_GAMA_10
 
 ## h_strike_04_Breach_t_killTurrets1
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_strike_04_Breach_g_killTurrets1
-	* SuccLL:
-		* h_strike_04_Breach_a_reactivateEscort1
+	* TVS: h_strike_04_Breach_g_killTurrets1
+	* SuccLL: h_strike_04_Breach_a_reactivateEscort1
 
 ## h_strike_04_Breach_t_killTurrets1and2
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_04_Breach_g_killTurrets1
 		* h_strike_04_Breach_g_killTurrets2
-	* SuccLL:
-		* h_strike_04_Breach_a_reactivateEscort2
+	* SuccLL: h_strike_04_Breach_a_reactivateEscort2
 
 ## h_strike_04_Breach_t_missionSuccess
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
-		* h_strike_04_Breach_w_waitForEndMission2
-	* SuccLL:
-		* h_strike_04_Breach_GAMA_2
+	* TVS: h_strike_04_Breach_w_waitForEndMission2
+	* SuccLL: h_strike_04_Breach_GAMA_2
 
 ## h_strike_04_Breach_t_respawnBlockadeWave02
 	* StepId: 22
 	* Type: TriggerRepeating
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* h_strike_04_Breach_a_respawnBlockadeBossWave02
+	* SuccLL: h_strike_04_Breach_a_respawnBlockadeBossWave02
 
 ## h_strike_04_Breach_t_respawnDelay1
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_04_Breach_a_respawnWave1
+	* SuccLL: h_strike_04_Breach_a_respawnWave1
 
 ## h_strike_04_Breach_t_respawnDelay2
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_04_Breach_a_respawnWave2
+	* SuccLL: h_strike_04_Breach_a_respawnWave2
 
 ## h_strike_04_Breach_t_turrets2StrengthCheck
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* h_strike_04_Breach_a_spawnAmbush1
+	* SuccLL: h_strike_04_Breach_a_spawnAmbush1
 
 ## h_strike_04_Breach_t_turrets3StrengthCheck
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* h_strike_04_Breach_a_spawnAmbush2
+	* SuccLL: h_strike_04_Breach_a_spawnAmbush2
 
 ## h_strike_04_Breach_t_waitForTimeToDisableRespawns
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_04_Breach_a_disableRespawn
+	* SuccLL: h_strike_04_Breach_a_disableRespawn
 
 ## h_strike_04_Breach_w_explodeTimer
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_19
 		* h_strike_04_Breach_a_baseExplosionCameraLookAt
 		* h_strike_04_Breach_a_makePlayer3Invincible
@@ -11245,7 +10587,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_a_Turrets2Invinc
 		* h_strike_04_Breach_a_Turrets3Invinc
 		* h_strike_04_Breach_a_baseInvinc
@@ -11255,7 +10597,7 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_23
 		* h_strike_04_Breach_GAMA_24
 		* h_strike_04_Breach_GAMA_25
@@ -11271,7 +10613,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_GAMA_20
 		* h_strike_04_Breach_a_explodeAlly
 		* h_strike_04_Breach_a_explodeBase
@@ -11280,7 +10622,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_04_Breach_a_cleanUp
 		* h_strike_04_Breach_a_deactivateRespawns
 		* h_strike_04_Breach_a_makePlayer3Vincible
@@ -11291,35 +10633,31 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_04_Breach_a_introDialog
+	* SuccLL: h_strike_04_Breach_a_introDialog
 
 ## h_strike_04_Breach_w_waitForMissionEndFail
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_04_Breach_missionFail
+	* SuccLL: h_strike_04_Breach_missionFail
 
 ## h_strike_04_Breach_w_waitForMissionEndSuccess
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_04_Breach_a_finishMissionSuccess
+	* SuccLL: h_strike_04_Breach_a_finishMissionSuccess
 
 ## h_strike_05_NightmareGulf_8ef80d3c74ed41041b017ee31cbff94a
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_end
+	* SuccLL: h_strike_05_NightmareGulf_end
 
 ## h_strike_05_NightmareGulf_goal_destroyChains
 	* StepId: 10
 	* Type: Goal
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_10
 		* h_strike_05_NightmareGulf_deactivate_vfxObserver
 
@@ -11327,7 +10665,7 @@
 	* StepId: 16
 	* Type: Goal
 	* TargetType: AllUnitsWithTagsAreKilled
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_16
 		* h_strike_05_NightmareGulf_GAMA_19
 		* h_strike_05_NightmareGulf_GAMA_20
@@ -11336,7 +10674,7 @@
 	* StepId: 8
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_8
 		* h_strike_05_NightmareGulf_deactivate_reinforcemenets
 
@@ -11344,21 +10682,19 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_skill_missileBarrage1
+	* SuccLL: h_strike_05_NightmareGulf_skill_missileBarrage1
 
 ## h_strike_05_NightmareGulf_healthCheck_armor2
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_31
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_31
 
 ## h_strike_05_NightmareGulf_healthCheck_armor3
 	* StepId: 42
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_42
 		* h_strike_05_NightmareGulf_GAMA_43
 		* h_strike_05_NightmareGulf_spawn_torpedo1a
@@ -11367,21 +10703,19 @@
 	* StepId: 54
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_spawn_squad1
+	* SuccLL: h_strike_05_NightmareGulf_spawn_squad1
 
 ## h_strike_05_NightmareGulf_healthCheck_armor5
 	* StepId: 61
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_61
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_61
 
 ## h_strike_05_NightmareGulf_healthCheck_armor6
 	* StepId: 73
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_73
 		* h_strike_05_NightmareGulf_GAMA_74
 		* h_strike_05_NightmareGulf_spawn_torpedo2a
@@ -11390,70 +10724,61 @@
 	* StepId: 85
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_spawn_squad2
+	* SuccLL: h_strike_05_NightmareGulf_spawn_squad2
 
 ## h_strike_05_NightmareGulf_healthCheck_armor8
 	* StepId: 92
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_92
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_92
 
 ## h_strike_05_NightmareGulf_healthCheck_hull1
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_25
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_25
 
 ## h_strike_05_NightmareGulf_healthCheck_hull2
 	* StepId: 36
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_36
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_36
 
 ## h_strike_05_NightmareGulf_healthCheck_hull3
 	* StepId: 48
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_48
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_48
 
 ## h_strike_05_NightmareGulf_healthCheck_hull4
 	* StepId: 55
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_55
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_55
 
 ## h_strike_05_NightmareGulf_healthCheck_hull5
 	* StepId: 67
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_67
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_67
 
 ## h_strike_05_NightmareGulf_healthCheck_hull6
 	* StepId: 79
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_79
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_79
 
 ## h_strike_05_NightmareGulf_healthCheck_hull7
 	* StepId: 86
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_86
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_86
 
 ## h_strike_05_NightmareGulf_healthCheck_hull8
 	* StepId: 103
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_103
 		* h_strike_05_NightmareGulf_GAMA_105
 		* h_strike_05_NightmareGulf_GAMA_106
@@ -11466,63 +10791,55 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_23
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_23
 
 ## h_strike_05_NightmareGulf_i_armor2
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_30
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_30
 
 ## h_strike_05_NightmareGulf_i_armor3
 	* StepId: 41
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_41
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_41
 
 ## h_strike_05_NightmareGulf_i_armor4
 	* StepId: 53
 	* Type: None
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_53
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_53
 
 ## h_strike_05_NightmareGulf_i_armor5
 	* StepId: 60
 	* Type: None
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_60
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_60
 
 ## h_strike_05_NightmareGulf_i_armor6
 	* StepId: 72
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_72
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_72
 
 ## h_strike_05_NightmareGulf_i_armor7
 	* StepId: 84
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_84
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_84
 
 ## h_strike_05_NightmareGulf_i_armor8
 	* StepId: 91
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_91
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_91
 
 ## h_strike_05_NightmareGulf_i_base
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_deactivate_kiithless
 		* h_strike_05_NightmareGulf_spawn_base
 		* h_strike_05_NightmareGulf_spawn_patrols
@@ -11532,7 +10849,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_15
 		* h_strike_05_NightmareGulf_GAMA_30
 
@@ -11540,7 +10857,7 @@
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_32
 		* h_strike_05_NightmareGulf_deactivate_emp1Telegraph
 		* h_strike_05_NightmareGulf_vfx_emp1Telegraph
@@ -11549,7 +10866,7 @@
 	* StepId: 35
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_addStatMod_stun1A
 		* h_strike_05_NightmareGulf_addStatMod_stun1B
 		* h_strike_05_NightmareGulf_addStatMod_stun1C
@@ -11561,7 +10878,7 @@
 	* StepId: 62
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_62
 		* h_strike_05_NightmareGulf_deactivate_emp2Telegraph
 		* h_strike_05_NightmareGulf_vfx_emp2Telegraph
@@ -11570,7 +10887,7 @@
 	* StepId: 66
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_addStatMod_stun2A
 		* h_strike_05_NightmareGulf_addStatMod_stun2B
 		* h_strike_05_NightmareGulf_addStatMod_stun2C
@@ -11582,7 +10899,7 @@
 	* StepId: 93
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_93
 		* h_strike_05_NightmareGulf_deactivate_emp3Telegraph
 		* h_strike_05_NightmareGulf_vfx_emp3Telegraph
@@ -11591,7 +10908,7 @@
 	* StepId: 96
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_addStatMod_stun3A
 		* h_strike_05_NightmareGulf_addStatMod_stun3B
 		* h_strike_05_NightmareGulf_addStatMod_stun3C
@@ -11603,14 +10920,13 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
-		* h_strike_05_NightmareGulf_GAMA_12
+	* SuccLL: h_strike_05_NightmareGulf_GAMA_12
 
 ## h_strike_05_NightmareGulf_i_goals
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_7
 		* h_strike_05_NightmareGulf_GAMA_9
 
@@ -11618,7 +10934,7 @@
 	* StepId: 108
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_addSkill_missileBarrage
 		* h_strike_05_NightmareGulf_invincible_1
 		* h_strike_05_NightmareGulf_spawn_kidara
@@ -11629,7 +10945,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_3
 		* h_strike_05_NightmareGulf_deactivate_chains
 		* h_strike_05_NightmareGulf_deactivate_observer
@@ -11641,7 +10957,7 @@
 	* StepId: 111
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_111
 		* h_strike_05_NightmareGulf_GAMA_113
 		* h_strike_05_NightmareGulf_GAMA_115
@@ -11650,7 +10966,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_26
 		* h_strike_05_NightmareGulf_armor_1_1
 		* h_strike_05_NightmareGulf_vfx_heal1
@@ -11660,7 +10976,7 @@
 	* StepId: 37
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_37
 		* h_strike_05_NightmareGulf_armor_2_1
 		* h_strike_05_NightmareGulf_vfx_heal2
@@ -11670,7 +10986,7 @@
 	* StepId: 49
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_49
 		* h_strike_05_NightmareGulf_armor_3_1
 		* h_strike_05_NightmareGulf_vfx_heal3
@@ -11680,7 +10996,7 @@
 	* StepId: 56
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_56
 		* h_strike_05_NightmareGulf_armor_4_1
 		* h_strike_05_NightmareGulf_vfx_heal4
@@ -11690,7 +11006,7 @@
 	* StepId: 68
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_68
 		* h_strike_05_NightmareGulf_armor_5_1
 		* h_strike_05_NightmareGulf_vfx_heal5
@@ -11700,7 +11016,7 @@
 	* StepId: 80
 	* Type: None
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_80
 		* h_strike_05_NightmareGulf_armor_6_1
 		* h_strike_05_NightmareGulf_vfx_heal6
@@ -11710,7 +11026,7 @@
 	* StepId: 87
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_87
 		* h_strike_05_NightmareGulf_armor_7_1
 		* h_strike_05_NightmareGulf_vfx_heal7
@@ -11720,7 +11036,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_1
 		* h_strike_05_NightmareGulf_GAMA_2
 
@@ -11728,9 +11044,8 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: OnInGameSequenceFinishedForPlayer
-	* TVS:
-		* 1
-	* SuccLL:
+	* TVS: 1
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_11
 		* h_strike_05_NightmareGulf_GAMA_117
 		* h_strike_05_NightmareGulf_GAMA_6
@@ -11742,7 +11057,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_0
 		* h_strike_05_NightmareGulf_GAMA_4
 		* h_strike_05_NightmareGulf_GAMA_5
@@ -11753,7 +11068,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_110
 		* h_strike_05_NightmareGulf_GAMA_13
 		* h_strike_05_NightmareGulf_ai_followFlagship
@@ -11762,28 +11077,25 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_spawn_amassari
+	* SuccLL: h_strike_05_NightmareGulf_spawn_amassari
 
 ## h_strike_05_NightmareGulf_w_clean
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_remove_progenitorHelp
+	* SuccLL: h_strike_05_NightmareGulf_remove_progenitorHelp
 
 ## h_strike_05_NightmareGulf_w_closeDestructDialog
 	* StepId: 106
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_close_destruct
+	* SuccLL: h_strike_05_NightmareGulf_close_destruct
 
 ## h_strike_05_NightmareGulf_w_combat
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_15
 		* h_strike_05_NightmareGulf_GAMA_21
 
@@ -11791,21 +11103,19 @@
 	* StepId: 107
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_deactivate_goalDialogsRepeating
+	* SuccLL: h_strike_05_NightmareGulf_deactivate_goalDialogsRepeating
 
 ## h_strike_05_NightmareGulf_w_deactivateOpenGoals
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_deactivate_freeObserverHelp
+	* SuccLL: h_strike_05_NightmareGulf_deactivate_freeObserverHelp
 
 ## h_strike_05_NightmareGulf_w_emp1
 	* StepId: 33
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_33
 		* h_strike_05_NightmareGulf_GAMA_34
 		* h_strike_05_NightmareGulf_activate_emp1Telegraph
@@ -11816,7 +11126,7 @@
 	* StepId: 63
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_63
 		* h_strike_05_NightmareGulf_GAMA_64
 		* h_strike_05_NightmareGulf_GAMA_65
@@ -11828,7 +11138,7 @@
 	* StepId: 94
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_94
 		* h_strike_05_NightmareGulf_GAMA_95
 		* h_strike_05_NightmareGulf_GAMA_96
@@ -11840,14 +11150,13 @@
 	* StepId: 118
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_d_engage
+	* SuccLL: h_strike_05_NightmareGulf_d_engage
 
 ## h_strike_05_NightmareGulf_w_freeObserver
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_d_freeObserver
 		* h_strike_05_NightmareGulf_preferredTaget_observerHelp
 		* h_strike_05_NightmareGulf_spawn_observerHelp
@@ -11856,7 +11165,7 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_102
 		* h_strike_05_NightmareGulf_GAMA_22
 		* h_strike_05_NightmareGulf_GAMA_24
@@ -11871,14 +11180,13 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_activate_kiithlessIntro
+	* SuccLL: h_strike_05_NightmareGulf_activate_kiithlessIntro
 
 ## h_strike_05_NightmareGulf_w_kidaraSpawn
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_107
 		* h_strike_05_NightmareGulf_GAMA_108
 		* h_strike_05_NightmareGulf_GAMA_109
@@ -11888,28 +11196,25 @@
 	* StepId: 109
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_d_kidara
+	* SuccLL: h_strike_05_NightmareGulf_d_kidara
 
 ## h_strike_05_NightmareGulf_w_kidaraSpawnSquad
 	* StepId: 110
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_spawn_squad
+	* SuccLL: h_strike_05_NightmareGulf_spawn_squad
 
 ## h_strike_05_NightmareGulf_w_missileBarrage2
 	* StepId: 65
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_skill_missileBarrage2
+	* SuccLL: h_strike_05_NightmareGulf_skill_missileBarrage2
 
 ## h_strike_05_NightmareGulf_w_outro
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_17
 		* h_strike_05_NightmareGulf_GAMA_18
 		* h_strike_05_NightmareGulf_d_win
@@ -11918,7 +11223,7 @@
 	* StepId: 112
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_112
 		* h_strike_05_NightmareGulf_spawn_reinforcementsA
 
@@ -11926,7 +11231,7 @@
 	* StepId: 114
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_114
 		* h_strike_05_NightmareGulf_spawn_reinforcementsB
 
@@ -11934,7 +11239,7 @@
 	* StepId: 116
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_116
 		* h_strike_05_NightmareGulf_spawn_reinforcementsC
 
@@ -11942,15 +11247,13 @@
 	* StepId: 113
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_d_reinforcementsA
+	* SuccLL: h_strike_05_NightmareGulf_d_reinforcementsA
 
 ## h_strike_05_NightmareGulf_w_reinforcmentsBDialog
 	* StepId: 115
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_d_reinforcementsB
+	* SuccLL: h_strike_05_NightmareGulf_d_reinforcementsB
 
 ## h_strike_05_NightmareGulf_w_reinforcmentsCDialog
 	* StepId: 117
@@ -11961,7 +11264,7 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_27
 		* h_strike_05_NightmareGulf_armor_1_2
 
@@ -11969,7 +11272,7 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_28
 		* h_strike_05_NightmareGulf_armor_1_3
 
@@ -11977,7 +11280,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_29
 		* h_strike_05_NightmareGulf_armor_1_4
 		* h_strike_05_NightmareGulf_invincible_2
@@ -11986,7 +11289,7 @@
 	* StepId: 38
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_38
 		* h_strike_05_NightmareGulf_armor_2_2
 
@@ -11994,7 +11297,7 @@
 	* StepId: 39
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_39
 		* h_strike_05_NightmareGulf_armor_2_3
 
@@ -12002,7 +11305,7 @@
 	* StepId: 40
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_40
 		* h_strike_05_NightmareGulf_armor_2_4
 		* h_strike_05_NightmareGulf_invincible_3
@@ -12011,7 +11314,7 @@
 	* StepId: 50
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_50
 		* h_strike_05_NightmareGulf_armor_3_2
 
@@ -12019,7 +11322,7 @@
 	* StepId: 51
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_51
 		* h_strike_05_NightmareGulf_armor_3_3
 
@@ -12027,7 +11330,7 @@
 	* StepId: 52
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_52
 		* h_strike_05_NightmareGulf_armor_3_4
 		* h_strike_05_NightmareGulf_invincible_4
@@ -12036,7 +11339,7 @@
 	* StepId: 57
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_57
 		* h_strike_05_NightmareGulf_armor_4_2
 
@@ -12044,7 +11347,7 @@
 	* StepId: 58
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_58
 		* h_strike_05_NightmareGulf_armor_4_3
 
@@ -12052,7 +11355,7 @@
 	* StepId: 59
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_59
 		* h_strike_05_NightmareGulf_armor_4_4
 		* h_strike_05_NightmareGulf_invincible_5
@@ -12061,7 +11364,7 @@
 	* StepId: 69
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_69
 		* h_strike_05_NightmareGulf_armor_5_2
 
@@ -12069,7 +11372,7 @@
 	* StepId: 70
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_70
 		* h_strike_05_NightmareGulf_armor_5_3
 
@@ -12077,7 +11380,7 @@
 	* StepId: 71
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_71
 		* h_strike_05_NightmareGulf_armor_5_4
 		* h_strike_05_NightmareGulf_invincible_6
@@ -12086,7 +11389,7 @@
 	* StepId: 81
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_81
 		* h_strike_05_NightmareGulf_armor_6_2
 
@@ -12094,7 +11397,7 @@
 	* StepId: 82
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_82
 		* h_strike_05_NightmareGulf_armor_6_3
 
@@ -12102,7 +11405,7 @@
 	* StepId: 83
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_83
 		* h_strike_05_NightmareGulf_armor_6_4
 		* h_strike_05_NightmareGulf_invincible_7
@@ -12111,7 +11414,7 @@
 	* StepId: 88
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_88
 		* h_strike_05_NightmareGulf_armor_7_2
 
@@ -12119,7 +11422,7 @@
 	* StepId: 89
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_89
 		* h_strike_05_NightmareGulf_armor_7_3
 
@@ -12127,7 +11430,7 @@
 	* StepId: 90
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_90
 		* h_strike_05_NightmareGulf_armor_7_4
 		* h_strike_05_NightmareGulf_invincible_8
@@ -12136,7 +11439,7 @@
 	* StepId: 104
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_104
 		* h_strike_05_NightmareGulf_vfx_telegraphDestruct
 
@@ -12144,14 +11447,13 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_d_station
+	* SuccLL: h_strike_05_NightmareGulf_d_station
 
 ## h_strike_05_NightmareGulf_w_stun1
 	* StepId: 34
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_removeStatMod_stun1A
 		* h_strike_05_NightmareGulf_removeStatMod_stun1B
 		* h_strike_05_NightmareGulf_removeStatMod_stun1C
@@ -12160,7 +11462,7 @@
 	* StepId: 64
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_c8c269dc61d05cb43984a12728d801c2
 		* h_strike_05_NightmareGulf_removeStatMod_stun2
 		* h_strike_05_NightmareGulf_removeStatMod_stun2Ally
@@ -12169,7 +11471,7 @@
 	* StepId: 95
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_removeStatMod_stun3A
 		* h_strike_05_NightmareGulf_removeStatMod_stun3B
 		* h_strike_05_NightmareGulf_removeStatMod_stun3C
@@ -12178,7 +11480,7 @@
 	* StepId: 105
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_destruct_kidara
 		* h_strike_05_NightmareGulf_dmg_destruct
 		* h_strike_05_NightmareGulf_dmg_destructAlly
@@ -12189,14 +11491,13 @@
 	* StepId: 43
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo1a
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo1a
 
 ## h_strike_05_NightmareGulf_w_torpedo1b
 	* StepId: 44
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_44
 		* h_strike_05_NightmareGulf_GAMA_45
 		* h_strike_05_NightmareGulf_spawn_torpedo1b
@@ -12205,14 +11506,13 @@
 	* StepId: 45
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo1b
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo1b
 
 ## h_strike_05_NightmareGulf_w_torpedo1c
 	* StepId: 46
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_46
 		* h_strike_05_NightmareGulf_spawn_torpedo1c
 
@@ -12220,21 +11520,19 @@
 	* StepId: 47
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo1c
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo1c
 
 ## h_strike_05_NightmareGulf_w_torpedo2aMark
 	* StepId: 74
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo2a
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo2a
 
 ## h_strike_05_NightmareGulf_w_torpedo2b
 	* StepId: 75
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_75
 		* h_strike_05_NightmareGulf_GAMA_76
 		* h_strike_05_NightmareGulf_spawn_torpedo2b
@@ -12243,14 +11541,13 @@
 	* StepId: 76
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo2b
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo2b
 
 ## h_strike_05_NightmareGulf_w_torpedo2c
 	* StepId: 77
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_77
 		* h_strike_05_NightmareGulf_spawn_torpedo2c
 
@@ -12258,14 +11555,13 @@
 	* StepId: 78
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo2c
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo2c
 
 ## h_strike_05_NightmareGulf_w_torpedo3a
 	* StepId: 97
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_97
 		* h_strike_05_NightmareGulf_GAMA_98
 		* h_strike_05_NightmareGulf_spawn_torpedo3a
@@ -12274,14 +11570,13 @@
 	* StepId: 98
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo3a
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo3a
 
 ## h_strike_05_NightmareGulf_w_torpedo3b
 	* StepId: 99
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_100
 		* h_strike_05_NightmareGulf_GAMA_99
 		* h_strike_05_NightmareGulf_spawn_torpedo3b
@@ -12290,14 +11585,13 @@
 	* StepId: 100
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo3b
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo3b
 
 ## h_strike_05_NightmareGulf_w_torpedo3c
 	* StepId: 101
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_05_NightmareGulf_GAMA_101
 		* h_strike_05_NightmareGulf_spawn_torpedo3c
 
@@ -12305,24 +11599,22 @@
 	* StepId: 102
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_mark_torpedo3c
+	* SuccLL: h_strike_05_NightmareGulf_mark_torpedo3c
 
 ## h_strike_05_NightmareGulf_w_vfxObserver
 	* StepId: 4
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
-		* h_strike_05_NightmareGulf_vfx_observer
+	* SuccLL: h_strike_05_NightmareGulf_vfx_observer
 
 ## h_strike_x_DownTheWell_bossDead_victimEscaped
 	* StepId: 13
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_x_DownTheWell_kill_boss
 		* h_strike_x_DownTheWell_victim_escape
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_af92e6c61bd69294cb3376258d92bbda
 		* h_strike_x_DownTheWell_wreck_dia
 
@@ -12330,10 +11622,10 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_x_DownTheWell_kill_tower1
 		* h_strike_x_DownTheWell_kill_tower2
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_90a745174c73027449356ff2d90b898d
 		* h_strike_x_DownTheWell_Base1_dead
 
@@ -12341,10 +11633,10 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 10700
 		* 13600
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_ce03ce1d63f293042a8c355b74d6bd60
 		* h_strike_x_DownTheWell_helping_victim
 
@@ -12352,10 +11644,8 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Raid005_Intro_dialog
-	* SuccLL:
-		* h_strike_x_DownTheWell_888f80c463b166e44ad233811628ed48
+	* TVS: Raid005_Intro_dialog
+	* SuccLL: h_strike_x_DownTheWell_888f80c463b166e44ad233811628ed48
 
 ## h_strike_x_DownTheWell_kill_boss
 	* StepId: 12
@@ -12376,9 +11666,8 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Raid005_Landing_dialog
-	* SuccLL:
+	* TVS: Raid005_Landing_dialog
+	* SuccLL: 
 		* h_strike_x_DownTheWell_GAMA_0
 		* h_strike_x_DownTheWell_intro_dia
 
@@ -12386,10 +11675,10 @@
 	* StepId: 3
 	* Type: Goal
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 0
 		* 0
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_41065c926a5b2214fb170888fa6799d7
 		* h_strike_x_DownTheWell_55eb828a4452b6a41b25606a26d7be99
 		* h_strike_x_DownTheWell_9e8c287ede08f3d45aac7cc2d5f07aa8
@@ -12405,9 +11694,8 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Raid005_Wreck_dialog
-	* SuccLL:
+	* TVS: Raid005_Wreck_dialog
+	* SuccLL: 
 		* h_strike_x_DownTheWell_113bd747513c1c44bb16c1c975458998
 		* h_strike_x_DownTheWell_270f05632898d2147ba5a1dff20c079c
 		* h_strike_x_DownTheWell_boss_spawning_dia
@@ -12419,10 +11707,10 @@
 	* StepId: 8
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* h_strike_x_DownTheWell_kill_tower1
 		* h_strike_x_DownTheWell_kill_tower2
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_base2_dead
 		* h_strike_x_DownTheWell_c12f974e5b7d92c4d9c16187e43578ff
 		* h_strike_x_DownTheWell_d0a711c1bfa452e40a6f6936197f155d
@@ -12431,7 +11719,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_a9929bb4c8595394ab070dbf6e29f121
 		* h_strike_x_DownTheWell_disable_tower1
 		* h_strike_x_DownTheWell_disable_tower2
@@ -12445,7 +11733,7 @@
 	* StepId: 7
 	* Type: Goal
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_invuln_tower1
 		* h_strike_x_DownTheWell_invuln_tower2
 		* h_strike_x_DownTheWell_mission_fail_tower
@@ -12457,14 +11745,13 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
-		* h_strike_x_DownTheWell_spawn_tower1_reinforcement2
+	* SuccLL: h_strike_x_DownTheWell_spawn_tower1_reinforcement2
 
 ## h_strike_x_DownTheWell_tower1_below_66pct_hp
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_0b05cf074edff7546afffd4a7435e51a
 		* h_strike_x_DownTheWell_spawn_tower1_reinforcement1
 
@@ -12472,14 +11759,13 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
-		* h_strike_x_DownTheWell_spawn_tower2_reinforcement2
+	* SuccLL: h_strike_x_DownTheWell_spawn_tower2_reinforcement2
 
 ## h_strike_x_DownTheWell_tower2_below_66pct_hp
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* h_strike_x_DownTheWell_32580a1360da1ee4ba474255bf24d052
 		* h_strike_x_DownTheWell_spawn_tower2_reinforcement1
 
@@ -12487,7 +11773,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 0
 		* 0
 
@@ -12495,23 +11781,20 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* Raid005_BossDead_dialog
-	* SuccLL:
-		* h_strike_x_DownTheWell_mission_success
+	* TVS: Raid005_BossDead_dialog
+	* SuccLL: h_strike_x_DownTheWell_mission_success
 
 ## t_belt_lobby_init
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
-		* t_belt_lobby_finish
+	* SuccLL: t_belt_lobby_finish
 
 ## t_belt_t0_lobby_init
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_belt_t0_lobby_finish
 		* t_belt_t0_showT0UIHighlight
 
@@ -12519,7 +11802,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_friendlyBeacon_starbase_act_add_PlayerHeal_Step
 		* t_friendlyBeacon_starbase_trigger_npc_trigWait1
 		* t_friendlyBeacon_starbase_trigger_npc_wave0
@@ -12529,7 +11812,7 @@
 	* StepId: 3
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_friendlyBeacon_starbase_act_HealPlayer2
 		* t_friendlyBeacon_starbase_act_HealPlayer3
 		* t_friendlyBeacon_starbase_act_HealPlayer4
@@ -12540,7 +11823,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_friendlyBeacon_starbase_trigger_npc_trigWait2
 		* t_friendlyBeacon_starbase_trigger_npc_wave2
 
@@ -12548,30 +11831,26 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_friendlyBeacon_starbase_trigger_npc_wave3
+	* SuccLL: t_friendlyBeacon_starbase_trigger_npc_wave3
 
 ## t_jovian_Start
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
-		* t_jovian_GAMA_0
+	* SuccLL: t_jovian_GAMA_0
 
 ## t_jovian_w_start
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_jovian_d_start
+	* SuccLL: t_jovian_d_start
 
 ## t_liaison_BountyHunt_goal_kill
 	* StepId: 3
 	* Type: Goal
 	* TargetType: Countdown
-	* SuccLL:
-		* t_liaison_BountyHunt_GAMA_3
-	* FailLL:
+	* SuccLL: t_liaison_BountyHunt_GAMA_3
+	* FailLL: 
 		* t_liaison_BountyHunt_GAMA_4
 		* t_liaison_BountyHunt_remove_target
 
@@ -12579,21 +11858,19 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* t_liaison_BountyHunt_ai_followFlagship1
+	* SuccLL: t_liaison_BountyHunt_ai_followFlagship1
 
 ## t_liaison_BountyHunt_health_target2
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* t_liaison_BountyHunt_ai_followFlagship2
+	* SuccLL: t_liaison_BountyHunt_ai_followFlagship2
 
 ## t_liaison_BountyHunt_i_loot
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_BountyHunt_interaction_loot1
 		* t_liaison_BountyHunt_interaction_loot2
 
@@ -12601,24 +11878,22 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* t_liaison_BountyHunt_succeed_countdown
+	* SuccLL: t_liaison_BountyHunt_succeed_countdown
 
 ## t_liaison_BountyHunt_multi_fail
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_BountyHunt_td_fail
 		* t_liaison_BountyHunt_w_failTimeout
-	* SuccLL:
-		* t_liaison_BountyHunt_fail
+	* SuccLL: t_liaison_BountyHunt_fail
 
 ## t_liaison_BountyHunt_setup
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_BountyHunt_spawn_bigDecoy1
 		* t_liaison_BountyHunt_spawn_bigDecoy2
 		* t_liaison_BountyHunt_spawn_bigDecoy3
@@ -12635,7 +11910,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_BountyHunt_GAMA_0
 		* t_liaison_BountyHunt_GAMA_1
 		* t_liaison_BountyHunt_GAMA_11
@@ -12652,21 +11927,19 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_liaison_BountyHunt_fin
+	* SuccLL: t_liaison_BountyHunt_fin
 
 ## t_liaison_BountyHunt_w_activate
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_BountyHunt_activate_enemies
+	* SuccLL: t_liaison_BountyHunt_activate_enemies
 
 ## t_liaison_BountyHunt_w_fail1
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_BountyHunt_GAMA_5
 		* t_liaison_BountyHunt_GAMA_6
 		* t_liaison_BountyHunt_GAMA_7
@@ -12681,14 +11954,13 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_BountyHunt_d_win
+	* SuccLL: t_liaison_BountyHunt_d_win
 
 ## t_liaison_BountyHunt_w_intro
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_BountyHunt_GAMA_10
 		* t_liaison_BountyHunt_GAMA_2
 		* t_liaison_BountyHunt_GAMA_8
@@ -12698,7 +11970,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_BountyHunt_GAMA_15
 		* t_liaison_BountyHunt_deactivate_enemies
 		* t_liaison_BountyHunt_lookAt_start
@@ -12707,7 +11979,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_BountyHunt_GAMA_9
 		* t_liaison_BountyHunt_d_mark
 		* t_liaison_BountyHunt_deactivate_health1
@@ -12717,21 +11989,19 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_liaison_DefendBase_GAMA_17
+	* SuccLL: t_liaison_DefendBase_GAMA_17
 
 ## t_liaison_DefendBase_exist_beacon2
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_liaison_DefendBase_GAMA_10
+	* SuccLL: t_liaison_DefendBase_GAMA_10
 
 ## t_liaison_DefendBase_goal_defendBeacon
 	* StepId: 18
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_DefendBase_goal_defendStation
 		* t_liaison_DefendBase_i_reinforcements
 
@@ -12739,14 +12009,13 @@
 	* StepId: 15
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* t_liaison_DefendBase_GAMA_15
+	* SuccLL: t_liaison_DefendBase_GAMA_15
 
 ## t_liaison_DefendBase_i_goals
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_14
 		* t_liaison_DefendBase_GAMA_16
 		* t_liaison_DefendBase_GAMA_18
@@ -12757,7 +12026,7 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_27
 		* t_liaison_DefendBase_GAMA_28
 
@@ -12765,7 +12034,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_11
 		* t_liaison_DefendBase_ally_reinforcements
 		* t_liaison_DefendBase_deactivate_killBeacon
@@ -12774,7 +12043,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_spawn_patrolA
 		* t_liaison_DefendBase_spawn_patrolB
 		* t_liaison_DefendBase_spawn_patrolC
@@ -12791,7 +12060,7 @@
 	* StepId: 25
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_25
 		* t_liaison_DefendBase_deactivaet_defendBeacon
 
@@ -12799,7 +12068,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_20
 		* t_liaison_DefendBase_deactivate_defendStation
 
@@ -12807,27 +12076,25 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_DefendBase_td_intro
 		* t_liaison_DefendBase_w_dIntro
-	* SuccLL:
-		* t_liaison_DefendBase_GAMA_2
+	* SuccLL: t_liaison_DefendBase_GAMA_2
 
 ## t_liaison_DefendBase_multi_fail
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_DefendBase_td_fail
 		* t_liaison_DefendBase_w_dFail
-	* SuccLL:
-		* t_liaison_DefendBase_fail
+	* SuccLL: t_liaison_DefendBase_fail
 
 ## t_liaison_DefendBase_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_0
 		* t_liaison_DefendBase_GAMA_1
 		* t_liaison_DefendBase_GAMA_12
@@ -12838,14 +12105,13 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* t_liaison_DefendBase_d_stationLow
+	* SuccLL: t_liaison_DefendBase_d_stationLow
 
 ## t_liaison_DefendBase_strength_wave0
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_5
 		* t_liaison_DefendBase_GAMA_6
 		* t_liaison_DefendBase_spawn_wave1
@@ -12855,7 +12121,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_7
 		* t_liaison_DefendBase_GAMA_8
 		* t_liaison_DefendBase_wave_4
@@ -12875,14 +12141,13 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_liaison_DefendBase_win
+	* SuccLL: t_liaison_DefendBase_win
 
 ## t_liaison_DefendBase_w_attack1
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_3
 		* t_liaison_DefendBase_GAMA_4
 		* t_liaison_DefendBase_spawn_wave0
@@ -12892,8 +12157,7 @@
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_DefendBase_d_beaconDown
+	* SuccLL: t_liaison_DefendBase_d_beaconDown
 
 ## t_liaison_DefendBase_w_dFail
 	* StepId: 23
@@ -12909,7 +12173,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_21
 		* t_liaison_DefendBase_GAMA_22
 		* t_liaison_DefendBase_GAMA_23
@@ -12919,14 +12183,13 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_DefendBase_d_firstWave
+	* SuccLL: t_liaison_DefendBase_d_firstWave
 
 ## t_liaison_DefendBase_w_intro
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_DefendBase_GAMA_29
 		* t_liaison_DefendBase_GAMA_30
 		* t_liaison_DefendBase_d_intro
@@ -12935,70 +12198,61 @@
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_DefendBase_lookAt_intro
+	* SuccLL: t_liaison_DefendBase_lookAt_intro
 
 ## t_liaison_DefendBase_w_nextWave1
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_DefendBase_d_nextWave1
+	* SuccLL: t_liaison_DefendBase_d_nextWave1
 
 ## t_liaison_DefendBase_w_nextWave2
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_DefendBase_d_nextWave2
+	* SuccLL: t_liaison_DefendBase_d_nextWave2
 
 ## t_liaison_DefendBase_w_reinforcements
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_DefendBase_d_reinforcements
+	* SuccLL: t_liaison_DefendBase_d_reinforcements
 
 ## t_liaison_DefendBase_w_reinforcements1
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_DefendBase_GAMA_9
+	* SuccLL: t_liaison_DefendBase_GAMA_9
 
 ## t_liaison_DefendBase_w_win
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_DefendBase_d_win
+	* SuccLL: t_liaison_DefendBase_d_win
 
 ## t_liaison_Escort_allyHealthLow
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
-		* t_liaison_Escort_d_allyLow
+	* SuccLL: t_liaison_Escort_d_allyLow
 
 ## t_liaison_Escort_checkOptionalSpawn
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_liaison_Escort_d_hostiles2
+	* SuccLL: t_liaison_Escort_d_hostiles2
 
 ## t_liaison_Escort_goal_defend
 	* StepId: 15
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* t_liaison_Escort_goal_remaining
+	* TVS: t_liaison_Escort_goal_remaining
 
 ## t_liaison_Escort_goal_reachPOIStation
 	* StepId: 10
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_10
 		* t_liaison_Escort_GAMA_11
 		* t_liaison_Escort_GAMA_15
@@ -13009,14 +12263,13 @@
 	* StepId: 13
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* t_liaison_Escort_GAMA_13
+	* SuccLL: t_liaison_Escort_GAMA_13
 
 ## t_liaison_Escort_i_Allies
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_19
 		* t_liaison_Escort_GAMA_20
 		* t_liaison_Escort_GAMA_25
@@ -13025,7 +12278,7 @@
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_spawn_escort
 		* t_liaison_Escort_spawn_platform1
 		* t_liaison_Escort_spawn_platform2
@@ -13038,7 +12291,7 @@
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_27
 		* t_liaison_Escort_GAMA_28
 
@@ -13046,7 +12299,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_2
 		* t_liaison_Escort_GAMA_4
 		* t_liaison_Escort_GAMA_6
@@ -13056,7 +12309,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_21
 		* t_liaison_Escort_GAMA_22
 		* t_liaison_Escort_GAMA_23
@@ -13066,17 +12319,16 @@
 	* StepId: 22
 	* Type: None
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_Escort_td_fail
 		* t_liaison_Escort_wait_fail
-	* SuccLL:
-		* t_liaison_Escort_fail
+	* SuccLL: t_liaison_Escort_fail
 
 ## t_liaison_Escort_reachPOIPath1
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_3
 		* t_liaison_Escort_wave0
 
@@ -13084,7 +12336,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_5
 		* t_liaison_Escort_wave1
 
@@ -13092,7 +12344,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_7
 		* t_liaison_Escort_wave2
 
@@ -13100,10 +12352,10 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_Escort_remainingCheckA
 		* t_liaison_Escort_remainingCheckB
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_12
 		* t_liaison_Escort_GAMA_14
 		* t_liaison_Escort_aiBehavior_FollowFlagship
@@ -13124,14 +12376,13 @@
 	* StepId: 18
 	* Type: TriggerRepeating
 	* TargetType: WaveFinished
-	* SuccLL:
-		* t_liaison_Escort_d_killAll
+	* SuccLL: t_liaison_Escort_d_killAll
 
 ## t_liaison_Escort_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_0
 		* t_liaison_Escort_GAMA_1
 		* t_liaison_Escort_GAMA_17
@@ -13154,14 +12405,13 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_liaison_Escort_win
+	* SuccLL: t_liaison_Escort_win
 
 ## t_liaison_Escort_w_quickPath
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_d_win_fac
 		* t_liaison_Escort_lookAt_fin2
 
@@ -13169,28 +12419,25 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_Escort_d_hostiles0
+	* SuccLL: t_liaison_Escort_d_hostiles0
 
 ## t_liaison_Escort_w_wave1
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_Escort_d_hostiles1
+	* SuccLL: t_liaison_Escort_d_hostiles1
 
 ## t_liaison_Escort_w_wave2
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_Escort_GAMA_8
+	* SuccLL: t_liaison_Escort_GAMA_8
 
 ## t_liaison_Escort_w2
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_d_win3
 		* t_liaison_Escort_lookAt_fin
 
@@ -13203,7 +12450,7 @@
 	* StepId: 29
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_29
 		* t_liaison_Escort_GAMA_30
 		* t_liaison_Escort_d_intro1
@@ -13212,7 +12459,7 @@
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_GAMA_24
 		* t_liaison_Escort_d_fail
 
@@ -13220,14 +12467,13 @@
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_Escort_setActive
+	* SuccLL: t_liaison_Escort_setActive
 
 ## t_liaison_Escort_wait7
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Escort_deactivate_Ally
 		* t_liaison_Escort_lookAt_escort
 		* t_liaison_Escort_preferredTarget
@@ -13236,8 +12482,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: OnPlayerAttackNPC
-	* SuccLL:
-		* t_liaison_LostCargo_ai_FollowFlagship
+	* SuccLL: t_liaison_LostCargo_ai_FollowFlagship
 
 ## t_liaison_LostCargo_goal_killAll
 	* StepId: 12
@@ -13248,7 +12493,7 @@
 	* StepId: 10
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_LostCargo_pickup0
 		* t_liaison_LostCargo_pickup1
 		* t_liaison_LostCargo_pickup2
@@ -13258,7 +12503,7 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_LostCargo_GAMA_10
 		* t_liaison_LostCargo_GAMA_5
 		* t_liaison_LostCargo_GAMA_6
@@ -13270,7 +12515,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_LostCargo_object0
 		* t_liaison_LostCargo_object1
 		* t_liaison_LostCargo_object3
@@ -13286,12 +12531,12 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_LostCargo_pickup0
 		* t_liaison_LostCargo_pickup1
 		* t_liaison_LostCargo_pickup2
 		* t_liaison_LostCargo_pickup3
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_LostCargo_GAMA_11
 		* t_liaison_LostCargo_ai_FollowFlagship2
 		* t_liaison_LostCargo_d_wave1
@@ -13301,11 +12546,10 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_LostCargo_goal_killAll
 		* t_liaison_LostCargo_goal_pickupAll
-	* SuccLL:
-		* t_liaison_LostCargo_d_fin
+	* SuccLL: t_liaison_LostCargo_d_fin
 
 ## t_liaison_LostCargo_pickup0
 	* StepId: 6
@@ -13331,7 +12575,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_LostCargo_GAMA_0
 		* t_liaison_LostCargo_GAMA_1
 		* t_liaison_LostCargo_GAMA_12
@@ -13344,14 +12588,13 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_liaison_LostCargo_fin
+	* SuccLL: t_liaison_LostCargo_fin
 
 ## t_liaison_LostCargo_w_intro
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_LostCargo_GAMA_13
 		* t_liaison_LostCargo_lookAt_pickups
 
@@ -13359,16 +12602,14 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_LostCargo_d_intro
+	* SuccLL: t_liaison_LostCargo_d_intro
 
 ## t_liaison_PlatformDefense_epic_goal_finishGoalString_killDefinedWaves
 	* StepId: 2
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* t_liaison_PlatformDefense_epic_trigg_finishGoalStrings_killAllWaves
-	* SuccLL:
+	* TVS: t_liaison_PlatformDefense_epic_trigg_finishGoalStrings_killAllWaves
+	* SuccLL: 
 		* t_liaison_PlatformDefense_epic_GAMA_2
 		* t_liaison_PlatformDefense_epic_actn_spawnAlliedWave4
 
@@ -13376,7 +12617,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_epic_GAMA_0
 		* t_liaison_PlatformDefense_epic_GAMA_1
 		* t_liaison_PlatformDefense_epic_GAMA_3
@@ -13396,11 +12637,11 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_PlatformDefense_epic_trigg_onTaggedUnitKilled_Ally1
 		* t_liaison_PlatformDefense_epic_trigg_onTaggedUnitKilled_Ally2
 		* t_liaison_PlatformDefense_epic_trigg_onTaggedUnitKilled_Ally3
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_epic_GAMA_8
 		* t_liaison_PlatformDefense_epic_actn_DestroyRemainingPlatforms01
 		* t_liaison_PlatformDefense_epic_actn_DestroyRemainingPlatforms02
@@ -13411,7 +12652,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_PlatformDefense_epic_trigg_KillDefinedWaves0
 		* t_liaison_PlatformDefense_epic_trigg_KillDefinedWaves1
 		* t_liaison_PlatformDefense_epic_trigg_KillDefinedWaves2
@@ -13435,21 +12676,19 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_liaison_PlatformDefense_epic_actn_finishMissionFailure
+	* SuccLL: t_liaison_PlatformDefense_epic_actn_finishMissionFailure
 
 ## t_liaison_PlatformDefense_epic_trigg_onDialogIndexFinished_victory
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_liaison_PlatformDefense_epic_actn_finishMissionSuccess
+	* SuccLL: t_liaison_PlatformDefense_epic_actn_finishMissionSuccess
 
 ## t_liaison_PlatformDefense_epic_trigg_onGroupBelowStrength01
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_epic_GAMA_6
 		* t_liaison_PlatformDefense_epic_actn_triggerWave1
 		* t_liaison_PlatformDefense_epic_atcn_triggerDialogIndex_nextwave1
@@ -13458,7 +12697,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_epic_GAMA_7
 		* t_liaison_PlatformDefense_epic_actn_triggerWave2
 		* t_liaison_PlatformDefense_epic_atcn_triggerDialogIndex_nextwave2
@@ -13467,7 +12706,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_epic_actn_spawnAlliedWave3
 		* t_liaison_PlatformDefense_epic_atcn_triggerDialogIndex_previctory
 
@@ -13490,21 +12729,19 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_PlatformDefense_epic_lookAt_platforms
+	* SuccLL: t_liaison_PlatformDefense_epic_lookAt_platforms
 
 ## t_liaison_PlatformDefense_epic_trigg_WaitForTime_MissionSetup
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_PlatformDefense_epic_GAMA_5
+	* SuccLL: t_liaison_PlatformDefense_epic_GAMA_5
 
 ## t_liaison_PlatformDefense_epic_trigg_WaitForTime_platformSetup
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_epic_actn_setTaggedUnitHealthAlly1
 		* t_liaison_PlatformDefense_epic_actn_setTaggedUnitHealthAlly2
 		* t_liaison_PlatformDefense_epic_actn_setTaggedUnitHealthAlly3
@@ -13513,23 +12750,20 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_PlatformDefense_epic_actn_triggerDialogIndex_start
+	* SuccLL: t_liaison_PlatformDefense_epic_actn_triggerDialogIndex_start
 
 ## t_liaison_PlatformDefense_epic_trigg_WaitForTime_Victory
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_PlatformDefense_epic_atcn_triggerDialogIndex_victory
+	* SuccLL: t_liaison_PlatformDefense_epic_atcn_triggerDialogIndex_victory
 
 ## t_liaison_PlatformDefense_goal_finishGoalString_killDefinedWaves
 	* StepId: 2
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* t_liaison_PlatformDefense_trigg_finishGoalStrings_killAllWaves
-	* SuccLL:
+	* TVS: t_liaison_PlatformDefense_trigg_finishGoalStrings_killAllWaves
+	* SuccLL: 
 		* t_liaison_PlatformDefense_GAMA_2
 		* t_liaison_PlatformDefense_actn_spawnAlliedWave4
 
@@ -13537,7 +12771,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_GAMA_0
 		* t_liaison_PlatformDefense_GAMA_1
 		* t_liaison_PlatformDefense_GAMA_3
@@ -13557,11 +12791,11 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_PlatformDefense_trigg_onTaggedUnitKilled_Ally1
 		* t_liaison_PlatformDefense_trigg_onTaggedUnitKilled_Ally2
 		* t_liaison_PlatformDefense_trigg_onTaggedUnitKilled_Ally3
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_GAMA_8
 		* t_liaison_PlatformDefense_actn_triggerDialogIndex_fail
 
@@ -13569,7 +12803,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_PlatformDefense_trigg_KillDefinedWaves0
 		* t_liaison_PlatformDefense_trigg_KillDefinedWaves1
 		* t_liaison_PlatformDefense_trigg_KillDefinedWaves2
@@ -13593,21 +12827,19 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_liaison_PlatformDefense_actn_finishMissionFailure
+	* SuccLL: t_liaison_PlatformDefense_actn_finishMissionFailure
 
 ## t_liaison_PlatformDefense_trigg_onDialogIndexFinished_victory
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_liaison_PlatformDefense_actn_finishMissionSuccess
+	* SuccLL: t_liaison_PlatformDefense_actn_finishMissionSuccess
 
 ## t_liaison_PlatformDefense_trigg_onGroupBelowStrength01
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_GAMA_6
 		* t_liaison_PlatformDefense_actn_triggerWave1
 		* t_liaison_PlatformDefense_atcn_triggerDialogIndex_nextwave1
@@ -13616,7 +12848,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_GAMA_7
 		* t_liaison_PlatformDefense_actn_triggerWave2
 		* t_liaison_PlatformDefense_atcn_triggerDialogIndex_nextwave2
@@ -13625,7 +12857,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_actn_spawnAlliedWave3
 		* t_liaison_PlatformDefense_atcn_triggerDialogIndex_previctory
 
@@ -13648,21 +12880,19 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_PlatformDefense_lookAt_platforms
+	* SuccLL: t_liaison_PlatformDefense_lookAt_platforms
 
 ## t_liaison_PlatformDefense_trigg_WaitForTime_MissionSetup
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_PlatformDefense_GAMA_5
+	* SuccLL: t_liaison_PlatformDefense_GAMA_5
 
 ## t_liaison_PlatformDefense_trigg_WaitForTime_platformSetup
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_PlatformDefense_actn_setTaggedUnitHealthAlly1
 		* t_liaison_PlatformDefense_actn_setTaggedUnitHealthAlly2
 		* t_liaison_PlatformDefense_actn_setTaggedUnitHealthAlly3
@@ -13671,45 +12901,40 @@
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_PlatformDefense_actn_triggerDialogIndex_start
+	* SuccLL: t_liaison_PlatformDefense_actn_triggerDialogIndex_start
 
 ## t_liaison_PlatformDefense_trigg_WaitForTime_Victory
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_liaison_PlatformDefense_atcn_triggerDialogIndex_victory
+	* SuccLL: t_liaison_PlatformDefense_atcn_triggerDialogIndex_victory
 
 ## t_liaison_Spearhead_ally_death
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnTaggedUnitKilled
-	* SuccLL:
-		* t_liaison_Spearhead_ally_death_fail
+	* SuccLL: t_liaison_Spearhead_ally_death_fail
 
 ## t_liaison_Spearhead_ally_speech_finished
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* MAKE_SPEECH
+	* TVS: MAKE_SPEECH
 
 ## t_liaison_Spearhead_Defeat_enemy
 	* StepId: 2
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* t_liaison_Spearhead_Mission_success
+	* SuccLL: t_liaison_Spearhead_Mission_success
 
 ## t_liaison_Spearhead_detect_player_attack
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_liaison_Spearhead_ally_speech_finished
 		* t_liaison_Spearhead_player_attacked
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Spearhead_activate_friendlies
 		* t_liaison_Spearhead_launch_attack_dia
 
@@ -13717,10 +12942,10 @@
 	* StepId: 4
 	* Type: Goal
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* -12500
 		* 0
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Spearhead_GAMA_4
 		* t_liaison_Spearhead_attack_speech
 
@@ -13728,7 +12953,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: ReachPosition
-	* TVS:
+	* TVS: 
 		* 0
 		* 31100
 
@@ -13736,7 +12961,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_liaison_Spearhead_GAMA_0
 		* t_liaison_Spearhead_GAMA_1
 		* t_liaison_Spearhead_GAMA_2
@@ -13750,7 +12975,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_outpost_GAMA_0
 		* t_outpost_GAMA_2
 		* t_outpost_act_triggerWave1
@@ -13760,7 +12985,7 @@
 	* StepId: 3
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_outpost_act_HealPlayer2
 		* t_outpost_act_HealPlayer3
 		* t_outpost_act_HealPlayer4
@@ -13771,7 +12996,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_outpost_GAMA_1
 		* t_outpost_act_triggerWave3
 
@@ -13779,14 +13004,13 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_outpost_act_triggerWave4
+	* SuccLL: t_outpost_act_triggerWave4
 
 ## t_pme_RandomEventAttack_StartPME
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_pme_RandomEventAttack_GAMA_0
 		* t_pme_RandomEventAttack_GAMA_1
 		* t_pme_RandomEventAttack_GAMA_2
@@ -13802,11 +13026,10 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_pme_RandomEventAttack_TriggerWaitForTime
 		* t_pme_RandomEventAttack_Trigger_KillWave00
-	* SuccLL:
-		* t_pme_RandomEventAttack_FinishPME
+	* SuccLL: t_pme_RandomEventAttack_FinishPME
 
 ## t_pme_RandomEventAttack_TriggerWaitForTime
 	* StepId: 2
@@ -13817,31 +13040,28 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AlienProbe_GAMA_11
 		* t_signal_AlienProbe_d_wave1
-	* FailLL:
-		* t_signal_AlienProbe_GAMA_14
+	* FailLL: t_signal_AlienProbe_GAMA_14
 
 ## t_signal_AlienProbe_exist_wave2
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_signal_AlienProbe_d_wave2
+	* SuccLL: t_signal_AlienProbe_d_wave2
 
 ## t_signal_AlienProbe_goal_collectProbe
 	* StepId: 5
 	* Type: Goal
 	* TargetType: OnInteractionDoneGeneric
-	* SuccLL:
-		* t_signal_AlienProbe_GAMA_5
+	* SuccLL: t_signal_AlienProbe_GAMA_5
 
 ## t_signal_AlienProbe_i_gameplay
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AlienProbe_GAMA_4
 		* t_signal_AlienProbe_GAMA_6
 		* t_signal_AlienProbe_GAMA_7
@@ -13850,7 +13070,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AlienProbe_GAMA_2
 		* t_signal_AlienProbe_spawn_probe
 		* t_signal_AlienProbe_wave_patrol
@@ -13864,21 +13084,19 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* t_signal_AlienProbe_GAMA_8
+	* SuccLL: t_signal_AlienProbe_GAMA_8
 
 ## t_signal_AlienProbe_position_combat
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
-		* t_signal_AlienProbe_aiBehavior
+	* SuccLL: t_signal_AlienProbe_aiBehavior
 
 ## t_signal_AlienProbe_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AlienProbe_GAMA_0
 		* t_signal_AlienProbe_GAMA_1
 		* t_signal_AlienProbe_GAMA_16
@@ -13888,14 +13106,13 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_signal_AlienProbe_fin
+	* SuccLL: t_signal_AlienProbe_fin
 
 ## t_signal_AlienProbe_w_boss
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AlienProbe_GAMA_15
 		* t_signal_AlienProbe_wave_boss
 
@@ -13903,21 +13120,19 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_AlienProbe_d_boss
+	* SuccLL: t_signal_AlienProbe_d_boss
 
 ## t_signal_AlienProbe_w_fin
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_AlienProbe_d_fin
+	* SuccLL: t_signal_AlienProbe_d_fin
 
 ## t_signal_AlienProbe_w_intro
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AlienProbe_GAMA_17
 		* t_signal_AlienProbe_look_probe
 
@@ -13925,14 +13140,13 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_AlienProbe_d_intro
+	* SuccLL: t_signal_AlienProbe_d_intro
 
 ## t_signal_AlienProbe_w_wave1
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AlienProbe_GAMA_9
 		* t_signal_AlienProbe_wave_1
 
@@ -13940,14 +13154,13 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_AlienProbe_GAMA_10
+	* SuccLL: t_signal_AlienProbe_GAMA_10
 
 ## t_signal_AlienProbe_w_wave2
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AlienProbe_GAMA_12
 		* t_signal_AlienProbe_wave_2
 
@@ -13955,14 +13168,13 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_AlienProbe_GAMA_13
+	* SuccLL: t_signal_AlienProbe_GAMA_13
 
 ## t_signal_AttackBase_firstAttackCheck
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: OnPlayerAttackNPC
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AttackBase_GAMA_4
 		* t_signal_AttackBase_GAMA_5
 
@@ -13970,14 +13182,13 @@
 	* StepId: 2
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* t_signal_AttackBase_GAMA_2
+	* SuccLL: t_signal_AttackBase_GAMA_2
 
 ## t_signal_AttackBase_i_loot
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AttackBase_loot0
 		* t_signal_AttackBase_loot1
 		* t_signal_AttackBase_loot2
@@ -13986,7 +13197,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AttackBase_key0_randomExtra
 		* t_signal_AttackBase_key1_randomExtra
 		* t_signal_AttackBase_key2_randomExtra
@@ -14011,10 +13222,10 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_signal_AttackBase_strengthCheckPatrol
 		* t_signal_AttackBase_w_alert
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AttackBase_behavior_alert
 		* t_signal_AttackBase_d_alert
 
@@ -14022,7 +13233,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AttackBase_GAMA_0
 		* t_signal_AttackBase_GAMA_1
 		* t_signal_AttackBase_GAMA_10
@@ -14041,7 +13252,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AttackBase_d_wave
 		* t_signal_AttackBase_wave0_wave
 
@@ -14049,8 +13260,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_signal_AttackBase_fin
+	* SuccLL: t_signal_AttackBase_fin
 
 ## t_signal_AttackBase_w_alert
 	* StepId: 6
@@ -14061,7 +13271,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_AttackBase_GAMA_8
 		* t_signal_AttackBase_GAMA_9
 
@@ -14069,39 +13279,34 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_AttackBase_d_win1
+	* SuccLL: t_signal_AttackBase_d_win1
 
 ## t_signal_AttackBase_wait1
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_AttackBase_d_intro1
+	* SuccLL: t_signal_AttackBase_d_intro1
 
 ## t_signal_AttackBase_wait7
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_AttackBase_lookAt
+	* SuccLL: t_signal_AttackBase_lookAt
 
 ## t_signal_BasicDestroy_goal_killWaves
 	* StepId: 2
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_signal_BasicDestroy_kill_0
 		* t_signal_BasicDestroy_kill_1
-	* SuccLL:
-		* t_signal_BasicDestroy_GAMA_2
+	* SuccLL: t_signal_BasicDestroy_GAMA_2
 
 ## t_signal_BasicDestroy_kill_0
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* t_signal_BasicDestroy_GAMA_4
+	* SuccLL: t_signal_BasicDestroy_GAMA_4
 
 ## t_signal_BasicDestroy_kill_1
 	* StepId: 7
@@ -14112,7 +13317,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_BasicDestroy_GAMA_0
 		* t_signal_BasicDestroy_GAMA_1
 		* t_signal_BasicDestroy_GAMA_3
@@ -14126,14 +13331,13 @@
 	* StepId: 2
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* t_signal_BasicDestroy_t0_GAMA_2
+	* SuccLL: t_signal_BasicDestroy_t0_GAMA_2
 
 ## t_signal_BasicDestroy_t0_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_BasicDestroy_t0_GAMA_0
 		* t_signal_BasicDestroy_t0_GAMA_1
 		* t_signal_BasicDestroy_t0_GAMA_3
@@ -14144,28 +13348,25 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_signal_BasicDestroy_t0_win
+	* SuccLL: t_signal_BasicDestroy_t0_win
 
 ## t_signal_BasicDestroy_t0_w_fin
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_BasicDestroy_t0_d_win
+	* SuccLL: t_signal_BasicDestroy_t0_d_win
 
 ## t_signal_BasicDestroy_t0_w_intro
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_BasicDestroy_t0_d_intro
+	* SuccLL: t_signal_BasicDestroy_t0_d_intro
 
 ## t_signal_BasicDestroy_t0_w_intro2
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_BasicDestroy_t0_GAMA_5
 		* t_signal_BasicDestroy_t0_deactivate1
 
@@ -14173,37 +13374,32 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_BasicDestroy_t0_activate1
+	* SuccLL: t_signal_BasicDestroy_t0_activate1
 
 ## t_signal_BasicDestroy_td_fain
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* destroy_fin_dialog0
-	* SuccLL:
-		* t_signal_BasicDestroy_fin
+	* TVS: destroy_fin_dialog0
+	* SuccLL: t_signal_BasicDestroy_fin
 
 ## t_signal_BasicDestroy_w_fin
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_BasicDestroy_d_fin
+	* SuccLL: t_signal_BasicDestroy_d_fin
 
 ## t_signal_BasicDestroy_w_intro
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_BasicDestroy_d_intro
+	* SuccLL: t_signal_BasicDestroy_d_intro
 
 ## t_signal_BasicDestroy_w_wave1
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_BasicDestroy_GAMA_5
 		* t_signal_BasicDestroy_wave_1
 
@@ -14211,8 +13407,7 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_BasicDestroy_d_wave
+	* SuccLL: t_signal_BasicDestroy_d_wave
 
 ## t_signal_DefendBase_start
 	* StepId: 0
@@ -14223,34 +13418,28 @@
 	* StepId: 23
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_signal_MiningAttack_GAMA_23
-	* FailLL:
-		* t_signal_MiningAttack_GAMA_24
+	* SuccLL: t_signal_MiningAttack_GAMA_23
+	* FailLL: t_signal_MiningAttack_GAMA_24
 
 ## t_signal_MiningAttack_exist_w1
 	* StepId: 27
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_signal_MiningAttack_GAMA_27
-	* FailLL:
-		* t_signal_MiningAttack_GAMA_28
+	* SuccLL: t_signal_MiningAttack_GAMA_27
+	* FailLL: t_signal_MiningAttack_GAMA_28
 
 ## t_signal_MiningAttack_exist_w2
 	* StepId: 31
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_signal_MiningAttack_GAMA_31
-	* FailLL:
-		* t_signal_MiningAttack_GAMA_32
+	* SuccLL: t_signal_MiningAttack_GAMA_31
+	* FailLL: t_signal_MiningAttack_GAMA_32
 
 ## t_signal_MiningAttack_existCheck1
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* FailLL:
+	* FailLL: 
 		* t_signal_MiningAttack_aiBehavior_followFlagshipRemove1
 		* t_signal_MiningAttack_d_removedLastController1
 		* t_signal_MiningAttack_deactivate_existCheck1
@@ -14259,7 +13448,7 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* FailLL:
+	* FailLL: 
 		* t_signal_MiningAttack_aiBehavior_followFlagshipRemove2
 		* t_signal_MiningAttack_d_removedLastController2
 		* t_signal_MiningAttack_deactivate_flow2
@@ -14268,7 +13457,7 @@
 	* StepId: 2
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_2
 		* t_signal_MiningAttack_GAMA_3
 
@@ -14276,7 +13465,7 @@
 	* StepId: 21
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_21
 		* t_signal_MiningAttack_GAMA_25
 		* t_signal_MiningAttack_GAMA_29
@@ -14300,7 +13489,7 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_loot_0
 		* t_signal_MiningAttack_loot_1
 
@@ -14308,7 +13497,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_controller0
 		* t_signal_MiningAttack_controller1
 		* t_signal_MiningAttack_controller2
@@ -14320,32 +13509,29 @@
 	* StepId: 22
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* t_signal_MiningAttack_GAMA_22
+	* SuccLL: t_signal_MiningAttack_GAMA_22
 
 ## t_signal_MiningAttack_kill_wave1
 	* StepId: 26
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* t_signal_MiningAttack_GAMA_26
+	* SuccLL: t_signal_MiningAttack_GAMA_26
 
 ## t_signal_MiningAttack_kill_wave2
 	* StepId: 30
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
-		* t_signal_MiningAttack_GAMA_30
+	* SuccLL: t_signal_MiningAttack_GAMA_30
 
 ## t_signal_MiningAttack_multi_killedLastController
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_signal_MiningAttack_i_killedLastController0
 		* t_signal_MiningAttack_i_killedLastController1
 		* t_signal_MiningAttack_i_killedLastController2
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_5
 		* t_signal_MiningAttack_aiBehavior_followFlagshipKill
 		* t_signal_MiningAttack_deactivate_killDialog
@@ -14354,7 +13540,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_0
 		* t_signal_MiningAttack_GAMA_1
 		* t_signal_MiningAttack_GAMA_14
@@ -14368,28 +13554,25 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_signal_MiningAttack_fin
+	* SuccLL: t_signal_MiningAttack_fin
 
 ## t_signal_MiningAttack_w_controllersBuffer
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_MiningAttack_d_controllers
+	* SuccLL: t_signal_MiningAttack_d_controllers
 
 ## t_signal_MiningAttack_w_deactivateControllersDialog
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_MiningAttack_deactivate_controllersDialog
+	* SuccLL: t_signal_MiningAttack_deactivate_controllersDialog
 
 ## t_signal_MiningAttack_w_escape1
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_7
 		* t_signal_MiningAttack_remove1
 
@@ -14397,7 +13580,7 @@
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_9
 		* t_signal_MiningAttack_remove2
 
@@ -14405,7 +13588,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_11
 		* t_signal_MiningAttack_remove3
 
@@ -14413,7 +13596,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_13
 		* t_signal_MiningAttack_GAMA_8
 
@@ -14421,7 +13604,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_10
 		* t_signal_MiningAttack_GAMA_12
 
@@ -14429,7 +13612,7 @@
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_aiBehavior_followFlagshipRemove3
 		* t_signal_MiningAttack_d_removedLastController3
 
@@ -14437,7 +13620,7 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_17
 		* t_signal_MiningAttack_deactivate_controllers
 		* t_signal_MiningAttack_deactivate_enemy
@@ -14447,7 +13630,7 @@
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_MiningAttack_GAMA_18
 		* t_signal_MiningAttack_GAMA_19
 		* t_signal_MiningAttack_d_intro
@@ -14456,56 +13639,49 @@
 	* StepId: 19
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_MiningAttack_activate_controllers
+	* SuccLL: t_signal_MiningAttack_activate_controllers
 
 ## t_signal_MiningAttack_w_intro4
 	* StepId: 20
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_MiningAttack_activate_enemies
+	* SuccLL: t_signal_MiningAttack_activate_enemies
 
 ## t_signal_MiningAttack_w_killController0
 	* StepId: 24
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_MiningAttack_d_killController0
+	* SuccLL: t_signal_MiningAttack_d_killController0
 
 ## t_signal_MiningAttack_w_killController1
 	* StepId: 28
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_MiningAttack_d_killController1
+	* SuccLL: t_signal_MiningAttack_d_killController1
 
 ## t_signal_MiningAttack_w_killController2
 	* StepId: 32
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_MiningAttack_d_killController2
+	* SuccLL: t_signal_MiningAttack_d_killController2
 
 ## t_signal_MiningAttack_w_win
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_MiningAttack_d_win
+	* SuccLL: t_signal_MiningAttack_d_win
 
 ## t_signal_ProgenitorActivities_goal_FinishGoalString_FinishWaves
 	* StepId: 14
 	* Type: Goal
 	* TargetType: FinishGoalsString
-	* TVS:
-		* t_signal_ProgenitorActivities_trigg_finishedGoalString_FinishWaves
+	* TVS: t_signal_ProgenitorActivities_trigg_finishedGoalString_FinishWaves
 
 ## t_signal_ProgenitorActivities_goal_killSpecificWave0_DestroyDerelict
 	* StepId: 12
 	* Type: Goal
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_ProgenitorActivities_GAMA_12
 		* t_signal_ProgenitorActivities_actn_triggerDialog_destroyed
 		* t_signal_ProgenitorActivities_succeed_Countdown
@@ -14514,7 +13690,7 @@
 	* StepId: 16
 	* Type: Goal
 	* TargetType: Countdown
-	* FailLL:
+	* FailLL: 
 		* t_signal_ProgenitorActivities_GAMA_16
 		* t_signal_ProgenitorActivities_actn_deactiveSteps_DestroyDerelict
 		* t_signal_ProgenitorActivities_actn_triggerDialog_fail
@@ -14524,7 +13700,7 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_ProgenitorActivities_GAMA_11
 		* t_signal_ProgenitorActivities_GAMA_14
 		* t_signal_ProgenitorActivities_GAMA_17
@@ -14533,7 +13709,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_ProgenitorActivities_GAMA_2
 		* t_signal_ProgenitorActivities_GAMA_3
 		* t_signal_ProgenitorActivities_GAMA_4
@@ -14543,7 +13719,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_ProgenitorActivities_GAMA_8
 		* t_signal_ProgenitorActivities_GAMA_9
 
@@ -14551,7 +13727,7 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_ProgenitorActivities_actn_startGenericInteraction0
 		* t_signal_ProgenitorActivities_actn_startGenericInteraction1
 		* t_signal_ProgenitorActivities_invincible_derelict1
@@ -14562,7 +13738,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_ProgenitorActivities_GAMA_0
 		* t_signal_ProgenitorActivities_GAMA_1
 		* t_signal_ProgenitorActivities_GAMA_10
@@ -14573,14 +13749,13 @@
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_signal_ProgenitorActivities_GAMA_13
+	* SuccLL: t_signal_ProgenitorActivities_GAMA_13
 
 ## t_signal_ProgenitorActivities_trigg_finishedGoalString_FinishWaves
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_signal_ProgenitorActivities_trigg_killSpecificWave1
 		* t_signal_ProgenitorActivities_trigg_killSpecificWave2
 
@@ -14598,16 +13773,14 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinished
-	* TVS:
-		* progenitorActivities_victory_dialog0
-	* SuccLL:
-		* t_signal_ProgenitorActivities_actn_finishMissionSuccess
+	* TVS: progenitorActivities_victory_dialog0
+	* SuccLL: t_signal_ProgenitorActivities_actn_finishMissionSuccess
 
 ## t_signal_ProgenitorActivities_trigg_OnUnitBelowHealth45
 	* StepId: 18
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_ProgenitorActivities_actn_triggerDialog_nextwave
 		* t_signal_ProgenitorActivities_actn_triggerWave2
 		* t_signal_ProgenitorActivities_invincible_derelict3
@@ -14616,7 +13789,7 @@
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: OnTaggedUnitIsBelowHealth
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_ProgenitorActivities_GAMA_15
 		* t_signal_ProgenitorActivities_actn_changeNPCAI_FollowFlagship
 		* t_signal_ProgenitorActivities_actn_triggerDialog_powerUp
@@ -14626,45 +13799,40 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_ProgenitorActivities_actn_FinishMissionFail
+	* SuccLL: t_signal_ProgenitorActivities_actn_FinishMissionFail
 
 ## t_signal_ProgenitorActivities_trigger_finishGoals_DestroyDerelictAndWaves
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_signal_ProgenitorActivities_goal_killSpecificWave0_DestroyDerelict
 		* t_signal_ProgenitorActivities_trigg_finishedGoalString_FinishWaves
-	* SuccLL:
-		* t_signal_ProgenitorActivities_actn_triggerDialog_victory
+	* SuccLL: t_signal_ProgenitorActivities_actn_triggerDialog_victory
 
 ## t_signal_ProgenitorActivities_w_introDialog
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_ProgenitorActivities_actn_triggerDialog_start
+	* SuccLL: t_signal_ProgenitorActivities_actn_triggerDialog_start
 
 ## t_signal_ProgenitorActivities_w_introLookAt
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_ProgenitorActivities_lookAt_derelict
+	* SuccLL: t_signal_ProgenitorActivities_lookAt_derelict
 
 ## t_signal_Relic_goal_collectRelic
 	* StepId: 3
 	* Type: Goal
 	* TargetType: OnInteractionDoneGeneric
-	* SuccLL:
-		* t_signal_Relic_GAMA_3
+	* SuccLL: t_signal_Relic_GAMA_3
 
 ## t_signal_Relic_goal_position
 	* StepId: 2
 	* Type: Goal
 	* TargetType: ReachPointOfInterest
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Relic_GAMA_2
 		* t_signal_Relic_GAMA_4
 		* t_signal_Relic_aiBehavior
@@ -14675,7 +13843,7 @@
 	* StepId: 8
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Relic_GAMA_8
 		* t_signal_Relic_prop_ship
 		* t_signal_Relic_wave0
@@ -14689,14 +13857,13 @@
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_signal_Relic_d_wave
+	* SuccLL: t_signal_Relic_d_wave
 
 ## t_signal_Relic_start
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Relic_GAMA_0
 		* t_signal_Relic_GAMA_1
 		* t_signal_Relic_GAMA_7
@@ -14706,21 +13873,19 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_signal_Relic_fin
+	* SuccLL: t_signal_Relic_fin
 
 ## t_signal_Relic_w_fin
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_Relic_d_fin
+	* SuccLL: t_signal_Relic_d_fin
 
 ## t_signal_Relic_w_intro
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Relic_GAMA_10
 		* t_signal_Relic_look_relic
 
@@ -14728,14 +13893,13 @@
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_Relic_d_start
+	* SuccLL: t_signal_Relic_d_start
 
 ## t_signal_Relic_w_secondWave
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Relic_GAMA_5
 		* t_signal_Relic_wave1
 
@@ -14743,28 +13907,25 @@
 	* StepId: 6
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_Relic_GAMA_6
+	* SuccLL: t_signal_Relic_GAMA_6
 
 ## t_signal_Rescue_allyHealth10
 	* StepId: 14
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowHealthAndArmor
-	* SuccLL:
-		* t_signal_Rescue_d_allyLow
+	* SuccLL: t_signal_Rescue_d_allyLow
 
 ## t_signal_Rescue_goal_defeatHostiles
 	* StepId: 2
 	* Type: Goal
 	* TargetType: WaveFinished
-	* SuccLL:
-		* t_signal_Rescue_GAMA_2
+	* SuccLL: t_signal_Rescue_GAMA_2
 
 ## t_signal_Rescue_i1
 	* StepId: 15
 	* Type: Trigger
 	* TargetType: Immediate
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Rescue_ally0
 		* t_signal_Rescue_wave0
 
@@ -14772,7 +13933,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: KillSpecificWave
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Rescue_GAMA_4
 		* t_signal_Rescue_GAMA_5
 		* t_signal_Rescue_GAMA_6
@@ -14782,7 +13943,7 @@
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Rescue_GAMA_0
 		* t_signal_Rescue_GAMA_1
 		* t_signal_Rescue_GAMA_14
@@ -14796,7 +13957,7 @@
 	* StepId: 10
 	* Type: Trigger
 	* TargetType: TaggedUnitsBelowStrength
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Rescue_GAMA_10
 		* t_signal_Rescue_GAMA_11
 
@@ -14804,11 +13965,10 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: FinishGoalsString
-	* TVS:
+	* TVS: 
 		* t_signal_Rescue_td_fail
 		* t_signal_Rescue_wait_fail
-	* SuccLL:
-		* t_signal_Rescue_fail
+	* SuccLL: t_signal_Rescue_fail
 
 ## t_signal_Rescue_td_fail
 	* StepId: 6
@@ -14819,14 +13979,13 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: OnDialogFinishedIndex
-	* SuccLL:
-		* t_signal_Rescue_fin
+	* SuccLL: t_signal_Rescue_fin
 
 ## t_signal_Rescue_w_goal
 	* StepId: 9
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Rescue_GAMA_13
 		* t_signal_Rescue_GAMA_9
 
@@ -14839,21 +13998,19 @@
 	* StepId: 17
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_Rescue_d_intro1
+	* SuccLL: t_signal_Rescue_d_intro1
 
 ## t_signal_Rescue_wait4
 	* StepId: 12
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_Rescue_GAMA_12
+	* SuccLL: t_signal_Rescue_GAMA_12
 
 ## t_signal_Rescue_wait5
 	* StepId: 7
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_Rescue_GAMA_7
 		* t_signal_Rescue_d_fail
 
@@ -14861,44 +14018,38 @@
 	* StepId: 16
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_Rescue_lookAt
+	* SuccLL: t_signal_Rescue_lookAt
 
 ## t_signal_Rescue_wait8
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_Rescue_d_win1
+	* SuccLL: t_signal_Rescue_d_win1
 
 ## t_signal_Rescue_wave0exist
 	* StepId: 11
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_signal_Rescue_wave1
+	* SuccLL: t_signal_Rescue_wave1
 
 ## t_signal_Rescue_wave1exist
 	* StepId: 13
 	* Type: Trigger
 	* TargetType: UnitWithTagsExists
-	* SuccLL:
-		* t_signal_Rescue_d_hostiles
+	* SuccLL: t_signal_Rescue_d_hostiles
 
 ## t_signal_TravelingTrader_goal_trade
 	* StepId: 1
 	* Type: Goal
 	* TargetType: OnInteractionDone
-	* TVS:
-		* travelingTrader_01
-	* SuccLL:
-		* t_signal_TravelingTrader_GAMA_1
+	* TVS: travelingTrader_01
+	* SuccLL: t_signal_TravelingTrader_GAMA_1
 
 ## t_signal_TravelingTrader_Start
 	* StepId: 0
 	* Type: None
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_signal_TravelingTrader_GAMA_0
 		* t_signal_TravelingTrader_GAMA_2
 		* t_signal_TravelingTrader_GAMA_3
@@ -14908,28 +14059,25 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_TravelingTrader_actn_dialogStart
+	* SuccLL: t_signal_TravelingTrader_actn_dialogStart
 
 ## t_signal_TravelingTrader_trigger_WaitForTime02
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_TravelingTrader_actn_finishMission
+	* SuccLL: t_signal_TravelingTrader_actn_finishMission
 
 ## t_signal_TravelingTrader_trigger_WaitForTime03
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_signal_TravelingTrader_actn_lookAt
+	* SuccLL: t_signal_TravelingTrader_actn_lookAt
 
 ## t_station_starbase_init
 	* StepId: 0
 	* Type: Trigger
 	* TargetType: MissionStart
-	* SuccLL:
+	* SuccLL: 
 		* t_station_starbase_act_add_PlayerHeal_Step
 		* t_station_starbase_trigger_npc_trigWait1
 		* t_station_starbase_trigger_npc_wave0
@@ -14939,7 +14087,7 @@
 	* StepId: 6
 	* Type: TriggerRepeating
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_station_starbase_act_HealPlayer2
 		* t_station_starbase_act_HealPlayer3
 		* t_station_starbase_act_HealPlayer4
@@ -14950,7 +14098,7 @@
 	* StepId: 1
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_station_starbase_trigger_npc_trigWait2
 		* t_station_starbase_trigger_npc_wave2
 
@@ -14958,7 +14106,7 @@
 	* StepId: 2
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_station_starbase_trigger_npc_trigWait3
 		* t_station_starbase_trigger_npc_wave3
 
@@ -14966,7 +14114,7 @@
 	* StepId: 3
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_station_starbase_trigger_npc_trigWait4
 		* t_station_starbase_trigger_npc_wave4
 
@@ -14974,7 +14122,7 @@
 	* StepId: 4
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
+	* SuccLL: 
 		* t_station_starbase_trigger_npc_trigWait5
 		* t_station_starbase_trigger_npc_wave5
 
@@ -14982,5 +14130,4 @@
 	* StepId: 5
 	* Type: Trigger
 	* TargetType: WaitForTime
-	* SuccLL:
-		* t_station_starbase_trigger_npc_wave6
+	* SuccLL: t_station_starbase_trigger_npc_wave6

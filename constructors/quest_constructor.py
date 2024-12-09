@@ -1,6 +1,6 @@
 import utils
 from itertools import zip_longest
-from .constuctor_base import Constructor_Base
+from .constructor_base import Constructor_Base
 
 class Quest_Constructor(Constructor_Base):
     _QUEST_DATA_JSON = "json_bak/QuestData-module.json"
@@ -21,9 +21,9 @@ class Quest_Constructor(Constructor_Base):
 
     def __init__(self):
         super().__init__()
-        self._quest_data = self._read_json(self._QUEST_DATA_JSON)
-        self._quest_line_data = self._read_json(self._QUEST_LINE_DATA_JSON)
-        self._quest_lines = self._read_json(self._QUEST_LINE_JSON)
+        self._quest_data = utils.read_json(self._QUEST_DATA_JSON)
+        self._quest_line_data = utils.read_json(self._QUEST_LINE_DATA_JSON)
+        self._quest_lines = utils.read_json(self._QUEST_LINE_JSON)
         self._set_quests()
         
 
@@ -80,7 +80,7 @@ class Quest_Constructor(Constructor_Base):
             self._quests[quest_id] = quest_tags_collector
 
     def write_json(self):
-        self._write_json(self._quests)
+        utils.write_json(self._quests,self._FILE_NAME_JSON)
 
     def write_data_spc(self):
         body = "# HWM QUESTLINES WITH QUESTS\n\n"

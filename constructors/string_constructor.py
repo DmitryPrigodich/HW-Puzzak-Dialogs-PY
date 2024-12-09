@@ -1,5 +1,5 @@
 import utils
-from .constuctor_base import Constructor_Base
+from .constructor_base import Constructor_Base
 
 class String_Data_Constructor(Constructor_Base):
     _FILE_NAME = "data/STRINGS.md"
@@ -9,7 +9,6 @@ class String_Data_Constructor(Constructor_Base):
 
     def __init__(self):
         super().__init__()
-
         self._set_data()
 
     def _set_data(self):
@@ -17,7 +16,7 @@ class String_Data_Constructor(Constructor_Base):
             self._strings[string_header] = string_tags.get('en:')
     
     def write_json(self):
-        self._write_json(self._strings)
+        utils.write_json(self._strings, self._FILE_NAME_JSON)
 
     def write_data(self):
         body = "# HWM STRINGS:\n"
@@ -26,79 +25,24 @@ class String_Data_Constructor(Constructor_Base):
         utils.rewrite_file(body, self._FILE_NAME)
     
     def get_cinematics_lines(self, cinematic_id):
-        cine_body = ""
+        cinematics_map = {
+            "001": ("INTRO #1", ["001","002","003","004","005","005b","006","007"]),
+            "002": ("INTRO #2", ["001","002","003","004","005"]),
+            "003": ("TANOCHETLAN", ["001","002","003","004"]),
+            "004": ("VAYGR BETRAYAL", ["001","002","003","004","005","006"]),
+            "005": ("KIITHLESS", ["001","002","003","004","005","006"]),
+            "006": ("LIGHTHOUSE", ["001","002","003","004","005","006","007"]),
+            "007": ("NIMBUS", ["001","002","003","004","005","006","007"]),
+        }
 
-        # cinematics = [key for key in my_dict if key.startswith("cinematic_001")]
-        match cinematic_id:
-            case "001":
-                # first video
-                cine_body += "### CINEMATIC: INTRO #1"
-                cine_body += f"{self.get_string_by_key("cinematic_001_001")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_001_002")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_001_003")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_001_004")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_001_005")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_001_005b")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_001_006")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_001_007")}\n"
+        def add_lines(title, line_numbers):
+            body = f"### CINEMATIC: {title}\n"
+            for number in line_numbers:
+                string_text = self.get_string_by_key(f"cinematic_{cinematic_id}_{number}")
+                body += f"{string_text}\n"
+            return body
 
-            case "002":
-                #second video
-                cine_body += "### CINEMATIC: INTRO #2"
-                cine_body += f"{self.get_string_by_key("cinematic_002_001")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_002_002")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_002_003")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_002_004")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_002_005")}\n"
-
-            case "007":
-                #third video
-                cine_body += "### CINEMATIC: NIMBUS"
-                cine_body += f"{self.get_string_by_key("cinematic_007_001")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_007_002")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_007_003")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_007_004")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_007_005")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_007_006")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_007_007")}\n"
-
-            case "003":
-                #forth video
-                cine_body += "### CINEMATIC: TANOCHETLAN"
-                cine_body += f"{self.get_string_by_key("cinematic_003_001")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_003_002")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_003_003")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_003_004")}\n"
-
-            case "004":
-                #missing video
-                cine_body += "### CINEMATIC: VAYGR BETRAYAL"
-                cine_body += f"{self.get_string_by_key("cinematic_004_001")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_004_002")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_004_003")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_004_004")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_004_005")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_004_006")}\n"
-
-            case "006":
-                # fifth video
-                cine_body += "### CINEMATIC: LIGHTHOUSE"
-                cine_body += f"{self.get_string_by_key("cinematic_006_001")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_006_002")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_006_003")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_006_004")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_006_005")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_006_006")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_006_007")}\n"
-
-            case "005":
-                #sixth video
-                cine_body += "### CINEMATIC: VAYGR BETRAYAL"
-                cine_body += f"{self.get_string_by_key("cinematic_005_001")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_005_002")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_005_003")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_005_004")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_005_005")}\n"
-                cine_body += f"{self.get_string_by_key("cinematic_005_006")}\n"
-
-        return cine_body
+        if cinematic_id in cinematics_map:
+            title, line_numbers = cinematics_map[cinematic_id]
+            return add_lines(title, line_numbers)
+        return None

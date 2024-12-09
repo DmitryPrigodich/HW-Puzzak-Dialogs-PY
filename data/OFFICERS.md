@@ -1,103 +1,215 @@
 # HWM OFFICERS:
 
-### EveSagald officer_firstOfficer
-* Eve Sagald, Hiigaran Officer
+## HIIGARAN
+### Eve Sagald
+* Gender: F
+* Jobs: Officer
+* Seed: EveSagald
+* Key: officer_firstOfficer
+* PortraitId: officer_firstOfficer
 
-### RaabSjet officer_riffsaOfficer
-* Gideon S'Jet, Hiigaran Officer
+### Gideon S'Jet
+* Gender: M
+* Jobs: Officer
+* Seed: RaabSjet
+* Key: officer_riffsaOfficer
+* PortraitId: officer_crew_m_02
 
-### eaSmall officer_earlyAccess_small
-* Eshim Maanan, Hiigaran Logistics
+### Eshim Maanan
+* Gender: M
+* Jobs: Logistics
+* Seed: eaSmall
+* Key: officer_earlyAccess_small
+* PortraitId: officer_logistics_m_02
 
-### eaLarge officer_earlyAccess_large
-* Kamara S'jet, Hiigaran Officer
+### Kamara S'jet
+* Gender: F
+* Jobs: Officer
+* Seed: eaLarge
+* Key: officer_earlyAccess_large
+* PortraitId: officer_crew_f_06
 
-### StartSmall officer_starterPack_small
-* Bela Somtaaw, Hiigaran Logistics
+### Bela Somtaaw
+* Gender: F
+* Jobs: Logistics
+* Seed: StartSmall
+* Key: officer_starterPack_small
+* PortraitId: officer_logistics_f_01
 
-### StartLarge officer_starterPack_large
-* Micah Soban, Hiigaran Officer
+### Micah Soban
+* Gender: M
+* Jobs: Officer
+* Seed: StartLarge
+* Key: officer_starterPack_large
+* PortraitId: officer_crew_m_01
 
-### BetaOfficer officer_betaPlayerReward
-* Ben Naabal, Hiigaran Miner
+### Ben Naabal
+* Gender: M
+* Jobs: Miner
+* Seed: BetaOfficer
+* Key: officer_betaPlayerReward
+* PortraitId: officer_miner_m_10
 
-### SevenDays officer_7dailyLogin
-* Reuben Paktu, Hiigaran Pilot
+### Reuben Paktu
+* Gender: M
+* Jobs: Pilot
+* Seed: SevenDays
+* Key: officer_7dailyLogin
+* PortraitId: officer_pilot_m_10
 
-### ProgressPackT1 officer_progressionPack_t1
-* Liora Kaalel, Hiigaran Officer
+### Liora Kaalel
+* Gender: F
+* Jobs: Officer
+* Seed: ProgressPackT1
+* Key: officer_progressionPack_t1
+* PortraitId: None
 
-### ProgressPackT2 officer_progressionPack_t2
-* Yoram Paktu, Hiigaran Engineer
+### Yoram Paktu
+* Gender: M
+* Jobs: Engineer
+* Seed: ProgressPackT2
+* Key: officer_progressionPack_t2
+* PortraitId: None
 
-### ProgressPackT3 officer_progressionPack_t3
-* Arkon Somtaaw, Hiigaran Logistics
+### Arkon Somtaaw
+* Gender: M
+* Jobs: Logistics
+* Seed: ProgressPackT3
+* Key: officer_progressionPack_t3
+* PortraitId: None
 
-### ProgressPackT4 officer_progressionPack_t4
-* Taliah Soban, Hiigaran WeaponsSpecialist
+### Taliah Soban
+* Gender: F
+* Jobs: WeaponsSpecialist
+* Seed: ProgressPackT4
+* Key: officer_progressionPack_t4
+* PortraitId: None
 
-### sisterA officer_sister_A
-* Esentra Magann, Hiigaran Officer
+### Esentra Magann
+* Gender: F
+* Jobs: Officer
+* Seed: sisterA
+* Key: officer_sister_A
+* PortraitId: officer_sister_01
 
-### sisterB officer_sister_B
-* Amaala Magann, Hiigaran Officer
+### Amaala Magann
+* Gender: F
+* Jobs: Officer
+* Seed: sisterB
+* Key: officer_sister_B
+* PortraitId: officer_sister_02
 
-### brotherA officer_brother_A
-* Pagraan Matara, Hiigaran Miner
+### Pagraan Matara
+* Gender: M
+* Jobs: Miner
+* Seed: brotherA
+* Key: officer_brother_A
+* PortraitId: officer_brother_01
 
-### brotherB officer_brother_B
-* Mehemit Matara, Hiigaran Miner
+### Mehemit Matara
+* Gender: M
+* Jobs: Miner
+* Seed: brotherB
+* Key: officer_brother_B
+* PortraitId: officer_brother_02
 
-### lady2022 officer_lady
-* Agnes Manaan, Hiigaran Logistics
+### Agnes Manaan
+* Gender: F
+* Jobs: Logistics
+* Seed: lady2022
+* Key: officer_lady
+* PortraitId: officer_agnesManaan
 
-### kenanpaktu officer_kenanPaktu
-* Kenan Paktu, Hiigaran Officer
+### Kenan Paktu
+* Gender: M
+* Jobs: Officer
+* Seed: kenanpaktu
+* Key: officer_kenanPaktu
+* PortraitId: officer_kenanPaktu
 
-### adahraal officer_adaHraal
-* Ada Hraal, Hiigaran Scientist
+### Ada Hraal
+* Gender: F
+* Jobs: Scientist
+* Seed: adahraal
+* Key: officer_adaHraal
+* PortraitId: officer_scientist_f_01
 
-### yaotSpring2023 officer_yaotSpring_2023
-* Elise LiirHra, Hiigaran Officer
+### Elise LiirHra
+* Gender: F
+* Jobs: Officer
+* Seed: yaotSpring2023
+* Key: officer_yaotSpring_2023
+* PortraitId: officer_crew_f_07
 
-### shade2023A officer_shade_A
-* Jassiah Soban, Hiigaran WeaponsSpecialist
+### Jassiah Soban
+* Gender: F
+* Jobs: WeaponsSpecialist
+* Seed: shade2023A
+* Key: officer_shade_A
+* PortraitId: officer_shades_01
 
-### shade2023B officer_shade_B
-* Thaed Soban, Hiigaran Pilot
+### Thaed Soban
+* Gender: M
+* Jobs: Pilot
+* Seed: shade2023B
+* Key: officer_shade_B
+* PortraitId: officer_shades_02
 
-### tinker2023 officer_tinker
-* Makhaab Somtaaw, Hiigaran Engineer
+### Makhaab Somtaaw
+* Gender: M
+* Jobs: Engineer
+* Seed: tinker2023
+* Key: officer_tinker
+* PortraitId: officer_tinker_01
 
-### 10kMembers officer_10kMembers
-* Adrian Kaalel, Hiigaran Scientist
+### Adrian Kaalel
+* Gender: M
+* Jobs: Scientist
+* Seed: 10kMembers
+* Key: officer_10kMembers
+* PortraitId: officer_scientist_m_05
 
-### 10kMembers officer_10kMembers_lvl10
-* Adrian Kaalel, Hiigaran Scientist
+### Adrian Kaalel
+* Gender: M
+* Jobs: Scientist
+* Seed: 10kMembers
+* Key: officer_10kMembers_lvl10
+* PortraitId: officer_scientist_m_05
 
-### amaSum2023 officer_amassariSummer_2023
-* Hector Soban, Hiigaran Comms
+### Hector Soban
+* Gender: M
+* Jobs: Comms
+* Seed: amaSum2023
+* Key: officer_amassariSummer_2023
+* PortraitId: officer_hectorSoban
 
-### iyaFal2023 officer_iyatequaFall_2023
-* Mahel Manaan, Hiigaran Engineer
+### Mahel Manaan
+* Gender: M
+* Jobs: Engineer
+* Seed: iyaFal2023
+* Key: officer_iyatequaFall_2023
+* PortraitId: officer_engineer_pre_m
 
-### anniversary2023 officer_anniversary_2023
-* Joshua S'jet, Hiigaran Scientist
+### Joshua S'jet
+* Gender: M
+* Jobs: Scientist
+* Seed: anniversary2023
+* Key: officer_anniversary_2023
+* PortraitId: officer_joshuaSjet
 
-### tanWin2023 officer_tanochWinter_2023
-* Toci Citalicue, Tanoch WeaponsSpecialist
+## TANOCH
+### Toci Citalicue
+* Gender: F
+* Jobs: WeaponsSpecialist
+* Seed: tanWin2023
+* Key: officer_tanochWinter_2023
+* PortraitId: officer_tociCitalicue
 
-### yaoSpr2024 officer_yaotSpring_2024
-* Chocoan Coatl, Yaot WeaponsSpecialist
+## YAOT
+### Chocoan Coatl
+* Gender: M
+* Jobs: WeaponsSpecialist
+* Seed: yaoSpr2024
+* Key: officer_yaotSpring_2024
+* PortraitId: officer_chocoanCoatl
 
-### superVisor officer_cheat_superSupervisor
-* Super SuperVisor, Unknown Officer
-
-### superVisor officer_cheat_superPhysicalVisor
-* Super PhysicalVisor, Unknown Officer
-
-### superVisor officer_cheat_superMindVisor
-* Super MindVisor, Unknown Officer
-
-### superVisor officer_cheat_superAeroVisor
-* Super AeroVisor, Unknown Officer

@@ -1,6 +1,6 @@
 # HWM STRINGS:
 * nimbuslocaversion: Loca v1.9.53
-* empty_string: Unknown
+* empty_string: None
 * servicescreencategory_ads: Homeworld 3
 * landingpagecategory_ads: Homeworld 3
 * choosegamemode: Select an activity
@@ -310,7 +310,7 @@
 * q_compensation_lvl_300_0_0: Reach player level 300
 * selectkiith: Select Kiith
 * joinclan: Join Clan
-* insystem: Unknown
+* insystem: None
 * intersystem: Star System
 * goto: Move To
 * complete: Complete
@@ -6400,7 +6400,7 @@ JUMP
 * gotofeature_shipyard: View Shipyard
 * gotofeature_kiith: Select Kiith
 * gotofeature_name: Change Name
-* gotofeature_labs: Unknown
+* gotofeature_labs: None
 * gotofeature_liasonoffice: Visit Liaison Office
 * gotofeature_external: View External Modules
 * gotofeature_internal: View Internal Modules
@@ -6658,8 +6658,8 @@ Higher attributes allow a supervisor to manage more staff. Upgrading the Life Su
 * statistic_repyaot: Yaot Reputation
 * statisticsymbol_repamassari: Amassari Reputation
 * statistic_repamassari: Amassari Reputation
-* statisticsymbol_repvaygr: Unknown
-* statistic_repvaygr: Unknown
+* statisticsymbol_repvaygr: None
+* statistic_repvaygr: None
 * fusionconfirm_officer: Are you sure you want to exchange the chosen officers into a new one? Selected officers will be lost.
 * fusionconfirmheader_officer: Exchange Officers
 * fusiongainssmalltitle_officer: Exchange Gains
@@ -6937,7 +6937,7 @@ Conquer territories and lead your faction to victory!
 * fwseason_2024_10_oct: Season October 2024
 * fwseason_2024_11_nov: Season November 2024
 * fwseason_2024_12_dec: Season December2024
-* banner_null_text: Unknown
+* banner_null_text: None
 * banner_iyafal_title: Iyatequa Stories
 * banner_iyafal_desc: Discover the new Iyatequa event market.
 * banner_anniversary_title: Nimbus Stories: Secrets of the Progenitors
@@ -7303,7 +7303,7 @@ The closer the enemy unit is, the higher it is in the list.
 * glossary.mainhudright.title.asteroids: Asteroids
 * glossary.mainhudright.text.asteroids: All asteroids in the current belt can be found here. The closer the asteroid is, the higher it is in the list. You can also see the asteroid's purity level there.
 * glossary.mainhudright.header.systemview: System View
-* glossary.mainhudright.text.systemview: Unknown
+* glossary.mainhudright.text.systemview: None
 * glossary.mainhudright.title.systemmissions: Missions
 * glossary.mainhudright.text.systemmissions: This list contains all missions that are currently available. This includes main and side missions, as well as signals and liaison missions.
 * glossary.mainhudright.title.systemcelestials: Celestials
@@ -7314,12 +7314,12 @@ Also you can find jovians here that contain valuable gases, ready to be collecte
 * glossary.mainhudright.text.systembelt: Asteroids Belts that contain valuable ores can be found here. In order to travel to a belt, you first need to scan and analyze it.
 * glossary.mainhudright.title.systemstations: Stations & Outposts
 * glossary.mainhudright.text.systemstations: In this list you can find the outpost or station of this system.
-* glossary.mainhudright.header.galaxyview: Unknown
-* glossary.mainhudright.text.galaxyview: Unknown
-* glossary.mainhudright.title.galaxyviewsystems: Unknown
-* glossary.mainhudright.text.galaxyviewsystems: Unknown
-* glossary.mainhudright.title.galaxyviewbookmarks: Unknown
-* glossary.mainhudright.text.galaxyviewbookmarks: Unknown
+* glossary.mainhudright.header.galaxyview: None
+* glossary.mainhudright.text.galaxyview: None
+* glossary.mainhudright.title.galaxyviewsystems: None
+* glossary.mainhudright.text.galaxyviewsystems: None
+* glossary.mainhudright.title.galaxyviewbookmarks: None
+* glossary.mainhudright.text.galaxyviewbookmarks: None
 * glossary.mainhud.mainhudunittray.title: Unit Tray
 * glossary.mainhudunittray.text.intro: The unit tray at the bottom of your screen is essential for controlling your fleet. From here, you can dock or undock strike craft, move units or give advanced orders like assigning units to groups or setting stances and formations for strike craft.
 
@@ -7973,32 +7973,32 @@ While fortification cannot be reduced, it will naturally grow together with the 
 
 The capital system of each faction starts each season already fully under the control of their faction. This means they will naturally have a 30% fortification bonus from the start.
 * glossary.starbasemain.starbaseinternal.title: Internal
-* glossary.starbaseinternal.text.desc: Unknown
-* glossary.starbaseinternal.text.use: Unknown
+* glossary.starbaseinternal.text.desc: None
+* glossary.starbaseinternal.text.use: None
 * glossary.starbasemanagement.title: Starbase Management
-* glossary.starbasemanagement.text.desc: Unknown
-* glossary.starbasemanagement.text.use: Unknown
+* glossary.starbasemanagement.text.desc: None
+* glossary.starbasemanagement.text.use: None
 * glossary.starbasemanagement.starbasedetails.title: Starbase Details
-* glossary.starbasedetails.text.desc: Unknown
-* glossary.starbasedetails.text.use: Unknown
+* glossary.starbasedetails.text.desc: None
+* glossary.starbasedetails.text.use: None
 * glossary.starbasemanagement.starbasebridge.title: Starbase Bridge
-* glossary.starbasebridge.text.desc: Unknown
-* glossary.starbasebridge.text.use: Unknown
+* glossary.starbasebridge.text.desc: None
+* glossary.starbasebridge.text.use: None
 * glossary.starbasemanagement.starbaseoverview.title: Starbase Module Overview
-* glossary.starbaseoverview.text.desc: Unknown
-* glossary.starbaseoverview.text.use: Unknown
+* glossary.starbaseoverview.text.desc: None
+* glossary.starbaseoverview.text.use: None
 * glossary.starbasestaff.title: Starbase Staff
-* glossary.starbasestaff.text.desc: Unknown
-* glossary.starbasestaff.text.use: Unknown
+* glossary.starbasestaff.text.desc: None
+* glossary.starbasestaff.text.use: None
 * glossary.starbasestaff.starbasequarters.title: Staff Quarters
-* glossary.starbasequarters.text.desc: Unknown
-* glossary.starbasequarters.text.use: Unknown
+* glossary.starbasequarters.text.desc: None
+* glossary.starbasequarters.text.use: None
 * glossary.starbasestaff.starbasemodules.title: Staffed Modules
-* glossary.starbasemodules.text.desc: Unknown
-* glossary.starbasemodules.text.use: Unknown
+* glossary.starbasemodules.text.desc: None
+* glossary.starbasemodules.text.use: None
 * glossary.starbasestaff.starbaseminingops.title: Mining Operations
-* glossary.starbaseminingops.text.desc: Unknown
-* glossary.starbaseminingops.text.use: Unknown
+* glossary.starbaseminingops.text.desc: None
+* glossary.starbaseminingops.text.use: None
 * glossary.economy_&_resources.title: Economy & Resources
 * glossary.combat_&_ships.title: Combat & Ships
 * glossary.clans.clanassignments.title: Clan Assignments
@@ -8006,10 +8006,10 @@ The capital system of each faction starts each season already fully under the co
 * glossary.clans.clanmembers.title: Members
 * glossary.clans.clansuppliesreq.title: Clan Supplies Requisitions
 * glossary.clans.title: Clans
-* glossary.control_panel.docking.title: Unknown
-* glossary.control_panel.formations.title: Unknown
-* glossary.control_panel.guard.title: Unknown
-* glossary.control_panel.title: Unknown
+* glossary.control_panel.docking.title: None
+* glossary.control_panel.formations.title: None
+* glossary.control_panel.guard.title: None
+* glossary.control_panel.title: None
 * glossary.currencies.adamant.title: Adamant
 * glossary.currencies.codefragments.title: Code Fragments
 * glossary.currencies.credits.title: Credits
@@ -8103,331 +8103,331 @@ The capital system of each faction starts each season already fully under the co
 * glossary.weapon_classes.title: Weapon Classes
 * glossary.weapon_classes.torpedo.title: Torpedo Launcher
 * glossary.activeskills.header.main: Active Skills
-* glossary.activeskills.text.desc: Unknown
-* glossary.activeskills.text.use: Unknown
-* glossary.adamant.header.main: Unknown
+* glossary.activeskills.text.desc: None
+* glossary.activeskills.text.use: None
+* glossary.adamant.header.main: None
 * glossary.adamant.text.desc: Shards of a very rare and valuable material.
-* glossary.adamant.text.source: Unknown
-* glossary.adamant.text.use: Unknown
-* glossary.assault.header.main: Unknown
+* glossary.adamant.text.source: None
+* glossary.adamant.text.use: None
+* glossary.assault.header.main: None
 * glossary.assault.text.desc: Frigate-type ship, designed as an allrounder with one capital mass driver turret. As the backbone of most fleets it is average fighting most enemy ship types.
-* glossary.assault.text.effectivity: Unknown
-* glossary.assault.text.tiersavailable: Unknown
-* glossary.assaultcorv.header.main: Unknown
+* glossary.assault.text.effectivity: None
+* glossary.assault.text.tiersavailable: None
+* glossary.assaultcorv.header.main: None
 * glossary.assaultcorv.text.desc: Corvette-type ships equipped with a specialized capital mass driver turret. Built for fast attack runs against capital ships.
-* glossary.assaultcorv.text.effectivity: Unknown
-* glossary.assaultcorv.text.tiersavailable: Unknown
-* glossary.assignments.header.main: Unknown
-* glossary.assignments.text.desc: Unknown
-* glossary.assignments.text.use: Unknown
-* glossary.battlecruiser.header.main: Unknown
+* glossary.assaultcorv.text.effectivity: None
+* glossary.assaultcorv.text.tiersavailable: None
+* glossary.assignments.header.main: None
+* glossary.assignments.text.desc: None
+* glossary.assignments.text.use: None
+* glossary.battlecruiser.header.main: None
 * glossary.battlecruiser.text.desc: Massive battle cruiser that favors a high amount of weapon slots over hangar capacity and speed.
-* glossary.battlecruiser.text.details: Unknown
-* glossary.battlecruiser.text.tiersavailable: Unknown
-* glossary.beam.header.main: Unknown
-* glossary.beam.text.desc: Unknown
-* glossary.beam.text.effectivity: Unknown
-* glossary.beam.text.usedby: Unknown
-* glossary.boostermodules.header.main: Unknown
-* glossary.boostermodules.text.desc: Unknown
-* glossary.boostermodules.text.use: Unknown
-* glossary.bridge.header.main: Unknown
-* glossary.bridge.text.desc: Unknown
-* glossary.bridge.text.use: Unknown
-* glossary.capacitycompartments.header.main: Unknown
-* glossary.capacitycompartments.text.desc: Unknown
-* glossary.capacitycompartments.text.use: Unknown
-* glossary.carrier.header.main: Unknown
+* glossary.battlecruiser.text.details: None
+* glossary.battlecruiser.text.tiersavailable: None
+* glossary.beam.header.main: None
+* glossary.beam.text.desc: None
+* glossary.beam.text.effectivity: None
+* glossary.beam.text.usedby: None
+* glossary.boostermodules.header.main: None
+* glossary.boostermodules.text.desc: None
+* glossary.boostermodules.text.use: None
+* glossary.bridge.header.main: None
+* glossary.bridge.text.desc: None
+* glossary.bridge.text.use: None
+* glossary.capacitycompartments.header.main: None
+* glossary.capacitycompartments.text.desc: None
+* glossary.capacitycompartments.text.use: None
+* glossary.carrier.header.main: None
 * glossary.carrier.text.desc: Huge carrier flagship offering much space for big hangars that can store many squadrons.
-* glossary.carrier.text.details: Unknown
-* glossary.carrier.text.tiersavailable: Unknown
-* glossary.chat.header.main: Unknown
-* glossary.chat.text.desc: Unknown
-* glossary.chat.text.use: Unknown
-* glossary.clanassignments.header.main: Unknown
-* glossary.clanassignments.text.desc: Unknown
-* glossary.clanassignments.text.use: Unknown
-* glossary.clanmarket.header.main: Unknown
-* glossary.clanmarket.text.desc: Unknown
-* glossary.clanmarket.text.use: Unknown
-* glossary.clanmembers.header.main: Unknown
-* glossary.clanmembers.text.desc: Unknown
-* glossary.clanmembers.text.use: Unknown
+* glossary.carrier.text.details: None
+* glossary.carrier.text.tiersavailable: None
+* glossary.chat.header.main: None
+* glossary.chat.text.desc: None
+* glossary.chat.text.use: None
+* glossary.clanassignments.header.main: None
+* glossary.clanassignments.text.desc: None
+* glossary.clanassignments.text.use: None
+* glossary.clanmarket.header.main: None
+* glossary.clanmarket.text.desc: None
+* glossary.clanmarket.text.use: None
+* glossary.clanmembers.header.main: None
+* glossary.clanmembers.text.desc: None
+* glossary.clanmembers.text.use: None
 * glossary.clans.header.main: Clans Overview
-* glossary.clans.text.desc: Unknown
-* glossary.clans.text.use: Unknown
-* glossary.clansuppliesreq.header.main: Unknown
-* glossary.clansuppliesreq.text.desc: Unknown
-* glossary.clansuppliesreq.text.use: Unknown
-* glossary.codefragments.header.main: Unknown
-* glossary.codefragments.text.desc: Unknown
-* glossary.codefragments.text.source: Unknown
-* glossary.codefragments.text.use: Unknown
-* glossary.communicationslog.header.main: Unknown
-* glossary.communicationslog.text.desc: Unknown
-* glossary.communicationslog.text.use: Unknown
-* glossary.credits.header.main: Unknown
+* glossary.clans.text.desc: None
+* glossary.clans.text.use: None
+* glossary.clansuppliesreq.header.main: None
+* glossary.clansuppliesreq.text.desc: None
+* glossary.clansuppliesreq.text.use: None
+* glossary.codefragments.header.main: None
+* glossary.codefragments.text.desc: None
+* glossary.codefragments.text.source: None
+* glossary.codefragments.text.use: None
+* glossary.communicationslog.header.main: None
+* glossary.communicationslog.text.desc: None
+* glossary.communicationslog.text.use: None
+* glossary.credits.header.main: None
 * glossary.credits.text.desc: Universal currency used which is accepted by the Iyatequa and all sorts of independent traders.
-* glossary.credits.text.source: Unknown
-* glossary.credits.text.use: Unknown
-* glossary.crystals.header.main: Unknown
+* glossary.credits.text.source: None
+* glossary.credits.text.use: None
+* glossary.crystals.header.main: None
 * glossary.crystals.text.desc: Crystals formed by high pressures within planetary bodies. Must be incorporated into metals for advanced fabrications.
-* glossary.crystals.text.source: Unknown
-* glossary.crystals.text.use: Unknown
+* glossary.crystals.text.source: None
+* glossary.crystals.text.use: None
 * glossary.currencies.header.main: Currencies Overview
-* glossary.currencies.text.desc: Unknown
-* glossary.currencies.text.use: Unknown
+* glossary.currencies.text.desc: None
+* glossary.currencies.text.use: None
 * glossary.damage.types.header.main: Damage Types Overview
-* glossary.damage.types.text.desc: Unknown
-* glossary.damage.types.text.use: Unknown
-* glossary.destroyer.header.main: Unknown
+* glossary.damage.types.text.desc: None
+* glossary.damage.types.text.use: None
+* glossary.destroyer.header.main: None
 * glossary.destroyer.text.desc: Destroyer-type capital ship, equipped with capital mass driver turret and another internal weapon. Has a lot of hull and armor, but lacks in damage output. Needs two escort slots.
-* glossary.destroyer.text.effectivity: Unknown
-* glossary.destroyer.text.tiersavailable: Unknown
-* glossary.energy.header.main: Unknown
-* glossary.energy.text.desc: Unknown
-* glossary.energy.text.effectivity: Unknown
-* glossary.energy.text.usedby: Unknown
-* glossary.engine.header.main: Unknown
-* glossary.engine.text.desc: Unknown
-* glossary.engine.text.use: Unknown
+* glossary.destroyer.text.effectivity: None
+* glossary.destroyer.text.tiersavailable: None
+* glossary.energy.header.main: None
+* glossary.energy.text.desc: None
+* glossary.energy.text.effectivity: None
+* glossary.energy.text.usedby: None
+* glossary.engine.header.main: None
+* glossary.engine.text.desc: None
+* glossary.engine.text.use: None
 * glossary.escorts.header.main: Escorts Overview
-* glossary.escorts.text.desc: Unknown
-* glossary.escorts.text.use: Unknown
-* glossary.eventmerits.header.main: Unknown
+* glossary.escorts.text.desc: None
+* glossary.escorts.text.use: None
+* glossary.eventmerits.header.main: None
 * glossary.eventmerits.text.desc: Earned during various events. Can be exchanged for event items in the market.
-* glossary.eventmerits.text.source: Unknown
-* glossary.eventmerits.text.use: Unknown
-* glossary.events.header.main: Unknown
-* glossary.events.text.desc: Unknown
-* glossary.events.text.use: Unknown
-* glossary.expedition.header.main: Unknown
-* glossary.expedition.text.desc: Unknown
-* glossary.expedition.text.details: Unknown
-* glossary.expedition.text.tiersavailable: Unknown
+* glossary.eventmerits.text.source: None
+* glossary.eventmerits.text.use: None
+* glossary.events.header.main: None
+* glossary.events.text.desc: None
+* glossary.events.text.use: None
+* glossary.expedition.header.main: None
+* glossary.expedition.text.desc: None
+* glossary.expedition.text.details: None
+* glossary.expedition.text.tiersavailable: None
 * glossary.exploration.header.main: Exploration Overview
-* glossary.exploration.text.desc: Unknown
-* glossary.exploration.text.use: Unknown
-* glossary.explorer.header.main: Unknown
+* glossary.exploration.text.desc: None
+* glossary.exploration.text.use: None
+* glossary.explorer.header.main: None
 * glossary.explorer.text.desc: Explorer flagship which offers a great balance of storage and maneuverability.
-* glossary.explorer.text.details: Unknown
-* glossary.explorer.text.tiersavailable: Unknown
-* glossary.explosive.header.main: Unknown
-* glossary.explosive.text.desc: Unknown
-* glossary.explosive.text.effectivity: Unknown
-* glossary.explosive.text.usedby: Unknown
+* glossary.explorer.text.details: None
+* glossary.explorer.text.tiersavailable: None
+* glossary.explosive.header.main: None
+* glossary.explosive.text.desc: None
+* glossary.explosive.text.effectivity: None
+* glossary.explosive.text.usedby: None
 * glossary.externalmodules.header.main: External Modules Overview
-* glossary.externalmodules.text.desc: Unknown
-* glossary.externalmodules.text.use: Unknown
-* glossary.fabrication.header.main: Unknown
-* glossary.fabrication.text.desc: Unknown
-* glossary.fabrication.text.use: Unknown
+* glossary.externalmodules.text.desc: None
+* glossary.externalmodules.text.use: None
+* glossary.fabrication.header.main: None
+* glossary.fabrication.text.desc: None
+* glossary.fabrication.text.use: None
 * glossary.flagshipfunctions.header.main: Flagship Functions Overview
-* glossary.flagshipfunctions.text.desc: Unknown
-* glossary.flagshipfunctions.text.use: Unknown
+* glossary.flagshipfunctions.text.desc: None
+* glossary.flagshipfunctions.text.use: None
 * glossary.flagships.header.main: Flagships Overview
-* glossary.flagships.text.desc: Unknown
-* glossary.flagships.text.use: Unknown
-* glossary.flak.header.main: Unknown
-* glossary.flak.text.desc: Unknown
-* glossary.flak.text.effectivity: Unknown
-* glossary.flak.text.usedby: Unknown
-* glossary.fleetconfig.header.main: Unknown
-* glossary.fleetconfig.text.desc: Unknown
-* glossary.fleetconfig.text.use: Unknown
-* glossary.gas.header.main: Unknown
-* glossary.gas.text.desc: Unknown
-* glossary.gas.text.source: Unknown
-* glossary.gas.text.use: Unknown
-* glossary.gascollector.header.main: Unknown
+* glossary.flagships.text.desc: None
+* glossary.flagships.text.use: None
+* glossary.flak.header.main: None
+* glossary.flak.text.desc: None
+* glossary.flak.text.effectivity: None
+* glossary.flak.text.usedby: None
+* glossary.fleetconfig.header.main: None
+* glossary.fleetconfig.text.desc: None
+* glossary.fleetconfig.text.use: None
+* glossary.gas.header.main: None
+* glossary.gas.text.desc: None
+* glossary.gas.text.source: None
+* glossary.gas.text.use: None
+* glossary.gascollector.header.main: None
 * glossary.gascollector.text.desc: Aspiration class - Utility vessel that can collect gas from the atmosphere of jovians. The higher the tier the more pressure it can withstand and collect from deeper layer belts in jovians. Gas collection is a revived art form, initally abandoned by the Kiiths due to low yield.
-* glossary.gascollector.text.effectivity: Unknown
-* glossary.gascollector.text.tiersavailable: Unknown
-* glossary.hangar.header.main: Unknown
-* glossary.hangar.text.desc: Unknown
-* glossary.hangar.text.use: Unknown
+* glossary.gascollector.text.effectivity: None
+* glossary.gascollector.text.tiersavailable: None
+* glossary.hangar.header.main: None
+* glossary.hangar.text.desc: None
+* glossary.hangar.text.use: None
 * glossary.header.details: Details
 * glossary.header.effectivity: Effectiveness
 * glossary.header.source: Source
 * glossary.header.use: Use
-* glossary.hyperjump.header.main: Unknown
-* glossary.hyperjump.text.desc: Unknown
-* glossary.hyperjump.text.use: Unknown
-* glossary.insignias.header.main: Unknown
-* glossary.insignias.text.desc: Unknown
-* glossary.insignias.text.source: Unknown
-* glossary.insignias.text.use: Unknown
-* glossary.interceptor.header.main: Unknown
+* glossary.hyperjump.header.main: None
+* glossary.hyperjump.text.desc: None
+* glossary.hyperjump.text.use: None
+* glossary.insignias.header.main: None
+* glossary.insignias.text.desc: None
+* glossary.insignias.text.source: None
+* glossary.insignias.text.use: None
+* glossary.interceptor.header.main: None
 * glossary.interceptor.text.desc: Strike craft-type interceptor ships. Designed to intercept and destroy other strike crafts and corvettes. Equipped with a vulcan weapon for close quarter combat.
-* glossary.interceptor.text.effectivity: Unknown
-* glossary.interceptor.text.tiersavailable: Unknown
-* glossary.intermediateparts.header.main: Unknown
-* glossary.intermediateparts.text.desc: Unknown
-* glossary.intermediateparts.text.source: Unknown
-* glossary.intermediateparts.text.use: Unknown
+* glossary.interceptor.text.effectivity: None
+* glossary.interceptor.text.tiersavailable: None
+* glossary.intermediateparts.header.main: None
+* glossary.intermediateparts.text.desc: None
+* glossary.intermediateparts.text.source: None
+* glossary.intermediateparts.text.use: None
 * glossary.internalmodules.header.main: Internal Modules Overview
-* glossary.internalmodules.text.desc: Unknown
-* glossary.internalmodules.text.use: Unknown
-* glossary.ioncannon.header.main: Unknown
-* glossary.ioncannon.text.desc: Unknown
-* glossary.ioncannon.text.effectivity: Unknown
-* glossary.ioncannon.text.usedby: Unknown
-* glossary.ionfrig.header.main: Unknown
+* glossary.internalmodules.text.desc: None
+* glossary.internalmodules.text.use: None
+* glossary.ioncannon.header.main: None
+* glossary.ioncannon.text.desc: None
+* glossary.ioncannon.text.effectivity: None
+* glossary.ioncannon.text.usedby: None
+* glossary.ionfrig.header.main: None
 * glossary.ionfrig.text.desc: Frigate-type ship built around a ion cannon. Fires one beam that tears through the armor of enemy frigates or larger ships, while being relatively ineffective against hull.
-* glossary.ionfrig.text.effectivity: Unknown
-* glossary.ionfrig.text.tiersavailable: Unknown
-* glossary.jobs.header.main: Unknown
-* glossary.jobs.text.desc: Unknown
-* glossary.jobs.text.use: Unknown
-* glossary.kinetic.header.main: Unknown
-* glossary.kinetic.text.desc: Unknown
-* glossary.kinetic.text.effectivity: Unknown
-* glossary.kinetic.text.usedby: Unknown
+* glossary.ionfrig.text.effectivity: None
+* glossary.ionfrig.text.tiersavailable: None
+* glossary.jobs.header.main: None
+* glossary.jobs.text.desc: None
+* glossary.jobs.text.use: None
+* glossary.kinetic.header.main: None
+* glossary.kinetic.text.desc: None
+* glossary.kinetic.text.effectivity: None
+* glossary.kinetic.text.usedby: None
 * glossary.liaison.header.main: Liaison Office Overview
-* glossary.liaison.text.desc: Unknown
-* glossary.liaison.text.use: Unknown
-* glossary.liaisonassignments.header.main: Unknown
-* glossary.liaisonassignments.text.desc: Unknown
-* glossary.liaisonassignments.text.use: Unknown
-* glossary.liaisonreq.header.main: Unknown
-* glossary.liaisonreq.text.desc: Unknown
-* glossary.liaisonreq.text.use: Unknown
-* glossary.mail.header.main: Unknown
-* glossary.mail.text.desc: Unknown
-* glossary.mail.text.use: Unknown
-* glossary.market.header.main: Unknown
-* glossary.market.text.desc: Unknown
-* glossary.market.text.use: Unknown
-* glossary.massdriver.header.main: Unknown
-* glossary.massdriver.text.desc: Unknown
-* glossary.massdriver.text.effectivity: Unknown
-* glossary.massdriver.text.usedby: Unknown
-* glossary.matterprojector.header.main: Unknown
-* glossary.matterprojector.text.desc: Unknown
-* glossary.matterprojector.text.effectivity: Unknown
-* glossary.matterprojector.text.usedby: Unknown
-* glossary.missile.header.main: Unknown
-* glossary.missile.text.desc: Unknown
-* glossary.missile.text.effectivity: Unknown
-* glossary.missile.text.usedby: Unknown
-* glossary.missions.header.main: Unknown
-* glossary.missions.text.desc: Unknown
-* glossary.missions.text.use: Unknown
-* glossary.mounting.header.main: Unknown
-* glossary.mounting.text.desc: Unknown
-* glossary.mounting.text.use: Unknown
-* glossary.officeracademy.header.main: Unknown
-* glossary.officeracademy.text.desc: Unknown
-* glossary.officeracademy.text.use: Unknown
+* glossary.liaison.text.desc: None
+* glossary.liaison.text.use: None
+* glossary.liaisonassignments.header.main: None
+* glossary.liaisonassignments.text.desc: None
+* glossary.liaisonassignments.text.use: None
+* glossary.liaisonreq.header.main: None
+* glossary.liaisonreq.text.desc: None
+* glossary.liaisonreq.text.use: None
+* glossary.mail.header.main: None
+* glossary.mail.text.desc: None
+* glossary.mail.text.use: None
+* glossary.market.header.main: None
+* glossary.market.text.desc: None
+* glossary.market.text.use: None
+* glossary.massdriver.header.main: None
+* glossary.massdriver.text.desc: None
+* glossary.massdriver.text.effectivity: None
+* glossary.massdriver.text.usedby: None
+* glossary.matterprojector.header.main: None
+* glossary.matterprojector.text.desc: None
+* glossary.matterprojector.text.effectivity: None
+* glossary.matterprojector.text.usedby: None
+* glossary.missile.header.main: None
+* glossary.missile.text.desc: None
+* glossary.missile.text.effectivity: None
+* glossary.missile.text.usedby: None
+* glossary.missions.header.main: None
+* glossary.missions.text.desc: None
+* glossary.missions.text.use: None
+* glossary.mounting.header.main: None
+* glossary.mounting.text.desc: None
+* glossary.mounting.text.use: None
+* glossary.officeracademy.header.main: None
+* glossary.officeracademy.text.desc: None
+* glossary.officeracademy.text.use: None
 * glossary.officers.header.main: Officers Overview
-* glossary.officers.text.desc: Unknown
-* glossary.officers.text.use: Unknown
-* glossary.ore.header.main: Unknown
-* glossary.ore.text.desc: Unknown
-* glossary.ore.text.source: Unknown
-* glossary.ore.text.use: Unknown
-* glossary.parties.header.main: Unknown
-* glossary.parties.text.desc: Unknown
-* glossary.parties.text.use: Unknown
-* glossary.passiveskills.header.main: Unknown
-* glossary.passiveskills.text.desc: Unknown
-* glossary.passiveskills.text.use: Unknown
-* glossary.plasmabomber.header.main: Unknown
+* glossary.officers.text.desc: None
+* glossary.officers.text.use: None
+* glossary.ore.header.main: None
+* glossary.ore.text.desc: None
+* glossary.ore.text.source: None
+* glossary.ore.text.use: None
+* glossary.parties.header.main: None
+* glossary.parties.text.desc: None
+* glossary.parties.text.use: None
+* glossary.passiveskills.header.main: None
+* glossary.passiveskills.text.desc: None
+* glossary.passiveskills.text.use: None
+* glossary.plasmabomber.header.main: None
 * glossary.plasmabomber.text.desc: Strike craft-type heavy attack ships utilizing plasma bomb weapons against frigate-sized ships or larger.
-* glossary.plasmabomber.text.effectivity: Unknown
-* glossary.plasmabomber.text.tiersavailable: Unknown
-* glossary.playerxp.header.main: Unknown
-* glossary.playerxp.text.desc: Unknown
-* glossary.playerxp.text.use: Unknown
-* glossary.prestige.header.main: Unknown
+* glossary.plasmabomber.text.effectivity: None
+* glossary.plasmabomber.text.tiersavailable: None
+* glossary.playerxp.header.main: None
+* glossary.playerxp.text.desc: None
+* glossary.playerxp.text.use: None
+* glossary.prestige.header.main: None
 * glossary.prestige.text.desc: Prestige is gained by completing daily and weekly assignments, and through leveling up. It can be used to buy special items.
-* glossary.prestige.text.source: Unknown
-* glossary.prestige.text.use: Unknown
-* glossary.productionmodules.header.main: Unknown
-* glossary.productionmodules.text.desc: Unknown
-* glossary.productionmodules.text.use: Unknown
-* glossary.pulsar.header.main: Unknown
-* glossary.pulsar.text.desc: Unknown
-* glossary.pulsar.text.effectivity: Unknown
-* glossary.pulsar.text.usedby: Unknown
-* glossary.pulsarcorv.header.main: Unknown
-* glossary.pulsarcorv.text.desc: Unknown
-* glossary.pulsarcorv.text.effectivity: Unknown
-* glossary.pulsarcorv.text.tiersavailable: Unknown
-* glossary.rareearth.header.main: Unknown
-* glossary.rareearth.text.desc: Unknown
-* glossary.rareearth.text.source: Unknown
-* glossary.rareearth.text.use: Unknown
-* glossary.refining.header.main: Unknown
-* glossary.refining.text.desc: Unknown
-* glossary.refining.text.use: Unknown
-* glossary.research.header.main: Unknown
-* glossary.research.text.desc: Unknown
-* glossary.research.text.use: Unknown
-* glossary.resourcecontroller.header.main: Unknown
+* glossary.prestige.text.source: None
+* glossary.prestige.text.use: None
+* glossary.productionmodules.header.main: None
+* glossary.productionmodules.text.desc: None
+* glossary.productionmodules.text.use: None
+* glossary.pulsar.header.main: None
+* glossary.pulsar.text.desc: None
+* glossary.pulsar.text.effectivity: None
+* glossary.pulsar.text.usedby: None
+* glossary.pulsarcorv.header.main: None
+* glossary.pulsarcorv.text.desc: None
+* glossary.pulsarcorv.text.effectivity: None
+* glossary.pulsarcorv.text.tiersavailable: None
+* glossary.rareearth.header.main: None
+* glossary.rareearth.text.desc: None
+* glossary.rareearth.text.source: None
+* glossary.rareearth.text.use: None
+* glossary.refining.header.main: None
+* glossary.refining.text.desc: None
+* glossary.refining.text.use: None
+* glossary.research.header.main: None
+* glossary.research.text.desc: None
+* glossary.research.text.use: None
+* glossary.resourcecontroller.header.main: None
 * glossary.resourcecontroller.text.desc: Monitor class - Frigate-type remote collection point for harvesting operations. Can either be send away on remote mining missions or used together with collectors to mine local belts. Large crew compartments allow for crew rotation on mining assignments.
-* glossary.resourcecontroller.text.effectivity: Unknown
-* glossary.resourcecontroller.text.tiersavailable: Unknown
+* glossary.resourcecontroller.text.effectivity: None
+* glossary.resourcecontroller.text.tiersavailable: None
 * glossary.resources.header.main: Resources Overview
-* glossary.resources.text.desc: Unknown
-* glossary.resources.text.use: Unknown
-* glossary.resourceships.header.main: Unknown
-* glossary.resourceships.text.desc: Unknown
-* glossary.resourceships.text.use: Unknown
-* glossary.resourcollector.header.main: Unknown
+* glossary.resources.text.desc: None
+* glossary.resources.text.use: None
+* glossary.resourceships.header.main: None
+* glossary.resourceships.text.desc: None
+* glossary.resourceships.text.use: None
+* glossary.resourcollector.header.main: None
 * glossary.resourcollector.text.desc: Bounty class - Utility-type mining ship for collecting resources from asteroids. Flies to mineral rich asteroids and delivers the cargo to nearby flagships or controller. Nearly identical to the older Harvest class, onl with slightly larger engines.
-* glossary.resourcollector.text.effectivity: Unknown
-* glossary.resourcollector.text.tiersavailable: Unknown
-* glossary.scanning.header.main: Unknown
-* glossary.scanning.text.desc: Unknown
-* glossary.scanning.text.use: Unknown
-* glossary.screenshot.header.main: Unknown
-* glossary.screenshot.text.desc: Unknown
-* glossary.screenshot.text.use: Unknown
-* glossary.sensorarray.header.main: Unknown
-* glossary.sensorarray.text.desc: Unknown
-* glossary.sensorarray.text.use: Unknown
-* glossary.shipyard.header.main: Unknown
-* glossary.shipyard.text.desc: Unknown
-* glossary.shipyard.text.use: Unknown
+* glossary.resourcollector.text.effectivity: None
+* glossary.resourcollector.text.tiersavailable: None
+* glossary.scanning.header.main: None
+* glossary.scanning.text.desc: None
+* glossary.scanning.text.use: None
+* glossary.screenshot.header.main: None
+* glossary.screenshot.text.desc: None
+* glossary.screenshot.text.use: None
+* glossary.sensorarray.header.main: None
+* glossary.sensorarray.text.desc: None
+* glossary.sensorarray.text.use: None
+* glossary.shipyard.header.main: None
+* glossary.shipyard.text.desc: None
+* glossary.shipyard.text.use: None
 * glossary.social.header.main: Social Overview
-* glossary.social.text.desc: Unknown
-* glossary.social.text.use: Unknown
-* glossary.storagestash.header.main: Unknown
-* glossary.storagestash.text.desc: Unknown
-* glossary.storagestash.text.use: Unknown
+* glossary.social.text.desc: None
+* glossary.social.text.use: None
+* glossary.storagestash.header.main: None
+* glossary.storagestash.text.desc: None
+* glossary.storagestash.text.use: None
 * glossary.strikecraft.header.main: Strikecraft Overview
-* glossary.strikecraft.text.desc: Unknown
-* glossary.strikecraft.text.use: Unknown
-* glossary.strikes.header.main: Unknown
-* glossary.strikes.text.desc: Unknown
-* glossary.strikes.text.use: Unknown
-* glossary.systemview.header.main: Unknown
-* glossary.systemview.text.desc: Unknown
-* glossary.systemview.text.use: Unknown
-* glossary.torpedo.header.main: Unknown
-* glossary.torpedo.text.desc: Unknown
-* glossary.torpedo.text.effectivity: Unknown
-* glossary.torpedo.text.usedby: Unknown
-* glossary.torpedofrig.header.main: Unknown
+* glossary.strikecraft.text.desc: None
+* glossary.strikecraft.text.use: None
+* glossary.strikes.header.main: None
+* glossary.strikes.text.desc: None
+* glossary.strikes.text.use: None
+* glossary.systemview.header.main: None
+* glossary.systemview.text.desc: None
+* glossary.systemview.text.use: None
+* glossary.torpedo.header.main: None
+* glossary.torpedo.text.desc: None
+* glossary.torpedo.text.effectivity: None
+* glossary.torpedo.text.usedby: None
+* glossary.torpedofrig.header.main: None
 * glossary.torpedofrig.text.desc: Frigate-type ship equipped with big torpedo launch tubes. Fires explosive projectiles which are very effective against hull but are ineffective against enemies with armor.
-* glossary.torpedofrig.text.effectivity: Unknown
-* glossary.torpedofrig.text.tiersavailable: Unknown
-* glossary.turretsizes.header.main: Unknown
-* glossary.turretsizes.text.desc: Unknown
-* glossary.turretsizes.text.use: Unknown
-* glossary.turrettypes.header.main: Unknown
-* glossary.turrettypes.text.desc: Unknown
-* glossary.turrettypes.text.use: Unknown
-* glossary.upgradingofficers.header.main: Unknown
-* glossary.upgradingofficers.text.desc: Unknown
-* glossary.upgradingofficers.text.use: Unknown
-* glossary.upgradingturrets.header.main: Unknown
-* glossary.upgradingturrets.text.desc: Unknown
-* glossary.upgradingturrets.text.use: Unknown
+* glossary.torpedofrig.text.effectivity: None
+* glossary.torpedofrig.text.tiersavailable: None
+* glossary.turretsizes.header.main: None
+* glossary.turretsizes.text.desc: None
+* glossary.turretsizes.text.use: None
+* glossary.turrettypes.header.main: None
+* glossary.turrettypes.text.desc: None
+* glossary.turrettypes.text.use: None
+* glossary.upgradingofficers.header.main: None
+* glossary.upgradingofficers.text.desc: None
+* glossary.upgradingofficers.text.use: None
+* glossary.upgradingturrets.header.main: None
+* glossary.upgradingturrets.text.desc: None
+* glossary.upgradingturrets.text.use: None
 * glossary.weapon.classes.header.main: Weapon Classes Overview
-* glossary.weapon.classes.text.desc: Unknown
-* glossary.weapon.classes.text.use: Unknown
+* glossary.weapon.classes.text.desc: None
+* glossary.weapon.classes.text.use: None
 * hgn_co_orbi_01_tx: Starbase
 * desc_hgn_co_orbi_01_tx: An orbital station used as a homebase for a fleet.
 * playerorb_comp_stabilizer_tx: Orbital Stabilizer
@@ -8794,11 +8794,11 @@ The capital system of each faction starts each season already fully under the co
 * pack_cr_40000: Credits Pack
 * hc_bun_100: 100 Adamant Pack
 * desc_hc_bun_100: A small, yet valuable, sample of Adamant. Contains 100 shards.
-* desc_hc_bun_800: Unknown
-* desc_hc_bun_1800: Unknown
-* desc_hc_bun_5000: Unknown
-* desc_hc_bun_11000: Unknown
-* desc_hc_bun_24000: Unknown
+* desc_hc_bun_800: None
+* desc_hc_bun_1800: None
+* desc_hc_bun_5000: None
+* desc_hc_bun_11000: None
+* desc_hc_bun_24000: None
 * hc_bun_600_new_firsttime: 600 Adamant + 200 Bonus
 * desc_hc_bun_600_new_firsttime: Pack containing 600 Adamant, and a 1st time purchase bonus of 200 (800 in total).
 * hc_bun_1400_new_firsttime: 1400 Adamant + 400 Bonus
@@ -9470,7 +9470,7 @@ Contains a legendary officer recruitment token and Adamant.
 * im_native_serviceship_01: Service Ship Repair Systems
 * desc_im_native_serviceship_01: Improved repair systems for the Service Ship-class flagships allow a stronger armor repairing for the fixed repair modules.
 * im_native_intercessor_01: Intercessor Scrambling Systems Center
-* desc_im_native_intercessor_01: Unknown
+* desc_im_native_intercessor_01: None
 * im_native_carrier_01: Carrier Fleet Coordination Office
 * desc_im_native_carrier_01: Larger and more organized fleet coordination office for Carrier-class flagships offers better training for fighter and corvette pilots, thus increasing their efficiency in dealing damage to enemy ships.
 * im_native_prospector_01: Prospector Washing Plant
@@ -9478,15 +9478,15 @@ Contains a legendary officer recruitment token and Adamant.
 * im_native_commandship_01: Command Ship Fleet Targeting Link
 * desc_im_native_commandship_01: Improved fleet targeting link computer for Command Ship-class flagships. Sends improved targeting data to the fleet escort ships, increasing their damage.
 * im_native_supercarrier_01: Supercarrier Strike Craft Bays
-* desc_im_native_supercarrier_01: Unknown
+* desc_im_native_supercarrier_01: None
 * im_native_battlecruiser_01: Battlecruiser Ordnance Locker
 * desc_im_native_battlecruiser_01: Larger ordnance locker for Battlecruiser-class flagships to increase the damage dealt by large turrets.
 * im_native_juggernaut_01: Juggernaut Ship Signature Extender
 * desc_im_native_juggernaut_01: Electronic counter-measure device to increase the signature of the Juggernaut-class flagship, making it appear larger than a normal flagship on enemy sensors.
 * im_native_marauder_01: Marauder Targeting Systems
-* desc_im_native_marauder_01: Unknown
+* desc_im_native_marauder_01: None
 * im_native_raider_01: Raider Weapons Control Room
-* desc_im_native_raider_01: Unknown
+* desc_im_native_raider_01: None
 * im_orb_factory_01_tx: Starbase Fabricator
 * desc_im_orb_factory_01_tx: Used to fabricate items. Can only be mounted on a starbase.
 * im_orb_refinery_01_tx: Starbase Refinery

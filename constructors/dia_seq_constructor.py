@@ -1,7 +1,7 @@
 import utils
 import re
 
-from .constuctor_base import Constructor_Base
+from .constructor_base import Constructor_Base
 
 class Dialog_Sequence_Constructor(Constructor_Base):
     _DIALOG_SEQUENCE_DATA_JSON = "json_bak/DialogSequenceData-module.json"
@@ -9,15 +9,12 @@ class Dialog_Sequence_Constructor(Constructor_Base):
     _FILE_NAME = "data/DIALOGS.md"
     _FILE_NAME_JSON = "json/dialogs.json"
 
-    _FILE_NAME_STR = "data/DIALOGS_STRINGS.md"
-    _FILE_NAME_STR_JSON = "json/dialogs_strings.json"
-
     _dialog_seqs_data = {}
     _dialogs = {}
     
     def __init__(self):
         super().__init__()
-        self._dialog_seqs_data = self._read_json(self._DIALOG_SEQUENCE_DATA_JSON)
+        self._dialog_seqs_data = utils.read_json(self._DIALOG_SEQUENCE_DATA_JSON)
         self._set_data()
 
     def _set_data(self):
@@ -27,77 +24,55 @@ class Dialog_Sequence_Constructor(Constructor_Base):
 
             speakers_dialogs = []
             for index, (speaker_id, dialog_id) in enumerate(zip(speaker_ids, dialog_ids)):
-                speakers_dialogs.append({"index": index, "speaker_id": speaker_id, "dialog_id": dialog_id})
+                speakers_dialogs.append({
+                    "index": index, 
+                    "speaker_id": speaker_id,
+                    "speaker_name": self._get_speaker_name(speaker_id),
+                    "dialog_id": dialog_id,
+                    "dialog_line": self._get_dialog_string(dialog_id)
+                    })
 
             self._dialogs[dialog_seq_header] = speakers_dialogs
 
     def write_json(self):
-        self._write_json(self._dialogs)
+        utils.write_json(self._dialogs, self._FILE_NAME_JSON)
     
     def read_json(self):
-        self._dialogs = self._read_json(self._FILE_NAME_JSON)
+        self._dialogs = utils.read_json(self._FILE_NAME_JSON)
         return self._dialogs
 
     def write_data(self):
         body = "# HWM DIALOGS\n\n"
         for dialog_seq_header, dialog_seq_list in self._dialogs.items():
             body += f"## {dialog_seq_header}\n\n".upper()
+
             for dialog in dialog_seq_list:
-                body += f"### {dialog['speaker_id']}\n"
-                body += f"{dialog['dialog_id']}\n\n"
+                body += f"### {dialog.get('speaker_id')}:{dialog.get('speaker_name')}\n"
+                body += f"**{dialog['dialog_id']}**\n"
+                body += f"{dialog['dialog_line']}\n\n"
+
         utils.rewrite_file(body, self._FILE_NAME)
 
-    def write_data_w_strings(self):
-        body = "# HWM DIALOGS with STRINGS\n\n"
-        for dialog_seq_header,dialog_seq_list in self._dialogs.items():
-            body += f"## {dialog_seq_header}\n".upper()
-            body += self.get_dialog_seq_string_by_header(dialog_seq_header)
-        utils.rewrite_file(body, self._FILE_NAME_STR) 
-    
-    def get_dialog_seq_string_by_header(self, dialog_seq_header):
-        raw_dialog_seqs = self._read_json(self._FILE_NAME_JSON)
-        dialog_seq_list = raw_dialog_seqs.get(dialog_seq_header)
-
-        body = ""
-        for dialog in dialog_seq_list:
-            speaker_id = dialog['speaker_id']
-            dialog_id = dialog['dialog_id']
-
-            speaker = self.get_speaker_string(speaker_id)
-            body += f"### {speaker}\n"
-
-            dialog = self.get_dialog_string(dialog_id)
-            body += f"{dialog}\n\n"
-
-        return body
-
-    def get_speaker_string(self, speaker_id):
+    def _get_speaker_name(self, speaker_id):
         speaker_key = f"name_{speaker_id}".lower()
-        
-        speaker_string_el = self._string_data.get(speaker_key)
-        if speaker_string_el:
-            speaker_string = speaker_string_el['en:']
-            return speaker_string
-        else:
-            speaker_string = f"{speaker_id}: speaker name not found"
-            print(speaker_string)
-            return speaker_string
+        speaker_name = self.get_string_by_key(speaker_key)
 
-    def get_dialog_string(self, dialog_id):
-        dialog_string = ""
+        if not speaker_name:
+            speaker_name = f"{speaker_id} - speaker name not found"
+            print(speaker_name)
 
-        dialog_id_upd = dialog_id.lower()
-        dialog_string_element = self._string_data.get(dialog_id_upd)
-        if dialog_string_element:
-            dialog_string = dialog_string_element['en:']
-            return dialog_string
-        else:
-            dialog_id_upd = re.sub(r'_(\d+)$', r'_dia_\1', dialog_id)
-            dialog_string_element = self._string_data.get(dialog_id_upd)
-            if dialog_string_element:
-                dialog_string = dialog_string_element['en:']
-                return dialog_string
-            else:
+        return speaker_name
+
+    def _get_dialog_string(self, dialog_id):
+        dialog_key = dialog_id.lower()
+        dialog_string = self.get_string_by_key(dialog_key)
+
+        if not dialog_string:
+            dialog_key = re.sub(r'_(\d+)$', r'_dia_\1', dialog_id)
+            dialog_string = self.get_string_by_key(dialog_key)
+
+            if not dialog_string:
                 dialog_string = f"dialog_id not found: {dialog_id}"
                 print(dialog_string)
-                return dialog_string
+            
+        return dialog_string

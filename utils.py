@@ -15,18 +15,26 @@ def add_to_file(value, file_name):
     except IOError as e:
         print(f'Error: {e}')
 
-def wait_a_bit(page):
-    page.wait_for_timeout(2000)
 
-def write_json(data_to_record, file_to_create):
-    json_data = json.dumps(data_to_record, ensure_ascii=False)
-    rewrite_file(json_data, file_to_create)
+def clean_file(file_name):
+    rewrite_file("", file_name)
+
+def write_json(json_input, json_output):
+    json_data = json.dumps(json_input, ensure_ascii=False)
+    rewrite_file(json_data, json_output)
+
+def read_json(json_file):
+    with open(json_file, 'r', encoding='utf-8') as file:
+        json_data = file.read()
+    return json.loads(json_data)
+
 
 def create_lowercase_key_map(d):
     return {k.lower(): k for k in d}
 
 def sort_dict_by_keys(my_dict: dict):
     return dict(sorted(my_dict.items()))
+
 
 def get_corrected_faction_name(faction):
     match faction:
@@ -38,6 +46,10 @@ def get_corrected_faction_name(faction):
             return "Iyatequa"
         case cangacian if cangacian in ["P1","P1 Territories"]:
             return "Cangacian"
+        case yaot if yaot in ["Yaot Territories","yaot_territories_t4"]:
+            return "Yaot"
+        case amassari if amassari in ["Amassari Territories"]:
+            return "Amassari"
         case tanoch if tanoch in ["Tanoch Territories","Tanoch Territories T4"]:
             return "Tanoch"
         case "TanochChicuat":
@@ -46,12 +58,8 @@ def get_corrected_faction_name(faction):
             return "Tanoch Tecuban"
         case "Tanoch Temple":
             return "Tanoch Temple Guards"
-        case yaot if yaot ["Yaot Territories","yaot_territories_t4"]:
-            return "Yaot"
-        case amassari if amassari ["Amassari Territories"]:
-            return "Amassari"
         case "Clan Territories":
-            return "Clans"
+            return "None"
         case _:
             return faction
         
