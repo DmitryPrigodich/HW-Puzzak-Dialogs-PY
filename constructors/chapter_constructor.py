@@ -4,7 +4,8 @@ from .constructor_base import Constructor_Base
 class Chapter_Constructor(Constructor_Base):
     _CHAPTER_DATA_JSON = "json_bak/ChapterData-module.json"
 
-    _FILE_NAME = "data/CHAPTER.md"
+    _FILE_NAME = "data/CHAPTERS.md"
+    _FILE_NAME_JSON = "json/chapters.json"
 
     _chapter_data = {}
     _chapters = {}
@@ -12,15 +13,44 @@ class Chapter_Constructor(Constructor_Base):
     def __init__(self):
         super().__init__()
         self._chapter_data = utils.read_json(self._CHAPTER_DATA_JSON)
-        # self._set_chapters()
+        self._set_data()
 
-    # data was already recorded in pages\chapter_data.py, so I won't repeat myself for now
-    # def _set_chapters(self):
-    # def write_data(self):
-    # def write_data_spc(self):
+    def _set_data(self):
+        for chapter_id, chapter_params in self._chapter_data.items():
+
+            chapter_order = chapter_params.get("Order:")
+            chapter_quest_ids = chapter_params.get("Ids:").split("\n")
+            chapter_name = self._get_chapter_name(chapter_id)
+
+            self._chapters[chapter_id] = {
+                "Order:": chapter_order,
+                "Name:": chapter_name,
+                "Ids:": chapter_quest_ids,
+            }
+
+    def write_json(self):
+        utils.write_json(self._chapters,self._FILE_NAME_JSON)
+
+    def write_data(self):
+        body = "# **HWM CAMPAIGN CHAPTERS**\n"
+
+        for chapter_id, chapter_params in self._chapters.items():
+            chapter_order = chapter_params.get("Order:")
+            chapter_name = chapter_params.get("Name:")
+            chapter_quest_ids = chapter_params.get("Ids:")
+
+            body += f"\n## **{chapter_order}. {chapter_id}: {chapter_name}**\n".upper()
+            for id in chapter_quest_ids:
+                body += f"\t* {id}\n"
+
+        utils.rewrite_file(body, self._FILE_NAME)
 
     def get_chapters(self):
         return self._chapters
     
     def check_chapter(self, chapter):
         return any(item["header"] == chapter for item in self._chapters)
+    
+    def _get_chapter_name(self, chapter_id):
+        chaptername_key = f"chaptername_{chapter_id}"
+        return self.get_string_by_key(chaptername_key)

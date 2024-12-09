@@ -57,16 +57,6 @@ class Mission_Step_Constructor(Constructor_Base):
                         body += f"{ms_tag_value[0]}"
                     body += "\n"
 
-
-                    # for some reasons it doesn't want to unpack list in a good way
-                    # at least it works, got other things to implement
-                    # if isinstance(ms_tags[key], list):
-                    #     for value in ms_tags[key]:
-                    #         body += f"\t\t* {value}\n"
-                    # else:
-                    #     for value in ms_tags[key].split(":"):
-                    #         body += f"\t\t* {value}\n"
-
         utils.rewrite_file(body, self._FILE_NAME)
 
     # full set for analysis only

@@ -50,7 +50,7 @@ class Mission_Step_Actions_Constructor(Constructor_Base):
 
             for key in ["TVS:","PCG_Meta:","StepsLinkList:"]:
                 if key in msa_tags:
-                    body += f"\t* {key} "
+                    body += f"\t* **{key}** "
                     ms_tag_value = msa_tags[key]
                     if len(ms_tag_value) > 1:
                         for value in ms_tag_value:

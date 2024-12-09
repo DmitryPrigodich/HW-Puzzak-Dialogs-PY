@@ -9,9 +9,10 @@ from constructors.dia_seq_constructor import Dialog_Sequence_Constructor
 from constructors.mission_constructor import Mission_Constructor
 from constructors.mission_step_constructor import Mission_Step_Constructor
 from constructors.mission_step_actions_constructor import Mission_Step_Actions_Constructor
+from constructors.event_constructor import Event_Constructor
+from constructors.chapter_constructor import Chapter_Constructor
 
 from constructors.quest_constructor import Quest_Constructor
-
 
 
 def _test_refill_starmap_data():
@@ -104,35 +105,34 @@ def _test_refill_mission_step_action_data():
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
 
-def test_refill_quest_data():
-    start_time = time.time()
-
-    quests_data = Quest_Constructor()
-    quests_data.write_json()
-    quests_data.write_data()
-    quests_data.write_quest_lines()
-
-    end_time = time.time()
-    print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
-
-
 def _test_refill_events_data():
     start_time = time.time()
 
-    events_data = Star_Map_Constructor()
+    events_data = Event_Constructor()
     events_data.write_json()
     events_data.write_data()
 
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
 
-
-def _test_refill_chapter_data():
+def test_refill_chapter_data():
     start_time = time.time()
 
-    chapter_data = Star_Map_Constructor()
+    chapter_data = Chapter_Constructor()
     chapter_data.write_json()
     chapter_data.write_data()
+
+    end_time = time.time()
+    print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
+
+
+def _test_refill_quest_data():
+    start_time = time.time()
+
+    quests_data = Quest_Constructor()
+    quests_data.write_json()
+    quests_data.write_data()
+    quests_data.write_quest_lines()
 
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")

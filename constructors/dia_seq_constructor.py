@@ -25,11 +25,11 @@ class Dialog_Sequence_Constructor(Constructor_Base):
             speakers_dialogs = []
             for index, (speaker_id, dialog_id) in enumerate(zip(speaker_ids, dialog_ids)):
                 speakers_dialogs.append({
-                    "index": index, 
-                    "speaker_id": speaker_id,
-                    "speaker_name": self._get_speaker_name(speaker_id),
-                    "dialog_id": dialog_id,
-                    "dialog_line": self._get_dialog_string(dialog_id)
+                    "Index:": index, 
+                    "SpeakerId:": speaker_id,
+                    "SpeakerName:": self._get_speaker_name(speaker_id),
+                    "DialogId:": dialog_id,
+                    "DialogLine:": self._get_dialog_string(dialog_id)
                     })
 
             self._dialogs[dialog_seq_header] = speakers_dialogs
@@ -47,9 +47,9 @@ class Dialog_Sequence_Constructor(Constructor_Base):
             body += f"## {dialog_seq_header}\n\n".upper()
 
             for dialog in dialog_seq_list:
-                body += f"### {dialog.get('speaker_id')}:{dialog.get('speaker_name')}\n"
-                body += f"**{dialog['dialog_id']}**\n"
-                body += f"{dialog['dialog_line']}\n\n"
+                body += f"### {dialog.get('SpeakerId:')}:{dialog.get('SpeakerName:')}\n"
+                body += f"**{dialog['DialogId:']}**\n"
+                body += f"{dialog['DialogLine:']}\n\n"
 
         utils.rewrite_file(body, self._FILE_NAME)
 
