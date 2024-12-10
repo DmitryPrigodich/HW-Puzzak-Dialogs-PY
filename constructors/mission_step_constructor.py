@@ -12,15 +12,13 @@ class Mission_Step_Constructor(Constructor_Base):
     _mission_steps_data = {}
     _mission_steps = {}
 
-    # just to list them all
-    _mission_step_tags = ["StepId:","Type:","IsHighlight:","TV1:","TV2:","TV3:","TVS:","TargetIdsList:","TargetType:","SuccLL","FailLL"]
 
     def __init__(self):
         super().__init__()
         self._mission_steps_data = utils.read_json(self._MISSION_STEPS_DATA_JSON)
-        self._set_mission_steps()
+        self._set_data()
 
-    def _set_mission_steps(self):
+    def _set_data(self):
         for ms_key, ms_tags in self._mission_steps_data.items():
             ms_key_dict = {}
 
@@ -60,31 +58,61 @@ class Mission_Step_Constructor(Constructor_Base):
         utils.rewrite_file(body, self._FILE_NAME)
 
     # full set for analysis only
-    def write_data_tmp(self):
-        tags = {}
+    def _write_data_tmp(self):
+        _title = "HWM Mission Steps TMP"
+        _tmp_data = self._mission_steps_data
+        _splitter = "\n"
 
-        body = "# HWM MISSION STEPS\n"
-        for ms_key, ms_tags in self._mission_steps_data.items():
-            body += f"\n## {ms_key}\n"
-            for mst_key, mst_value in ms_tags.items():
-                if mst_key not in tags:
-                    tags[mst_key] = []
-                tags[mst_key].append(mst_value)
-                body += f"\t* {mst_key} {mst_value}\n"
+        #fill it when tags are known
+        _existing_tags = ["StepId:","Type:","IsHighlight:","TV1:","TV2:","TV3:","TVS:","TargetIdsList:","TargetType:","SuccLL","FailLL"]
+        _tags_single_line = ["StepId:", "Type:", "TargetType:"]
+        _tags_multiple_lines = ["TVS:", "SuccLL:", "FailLL:"]
 
-        tags = utils.sort_dict_by_keys(tags)
-        
-        body_tags = "\n# HWM MISSIONS STEPS TAGS\n\n"
-        for t_key, t_values in tags.items():
-            t_values = sorted(list(set(t_values)))
-            body_tags += f"\t* {t_key}:\n"
-            for t_value in sorted(t_values):
-                body_tags += f"\t\t* {t_value}\n"
+        def get_tags(data):
+            body_tags = "\n## TAGS:\n"
+            tag_collector = []
+            for id, params in data.items():
+                for param_key, param_value in params.items():
+                    tag_collector.append(param_key)
+            tag_collector = sorted(list(set(tag_collector)))
+            tag_list = ", ".join(map(str, tag_collector))
+            body_tags += f"{tag_list}\n"
+            return body_tags
 
-        utils.rewrite_file(body_tags, self._FILE_NAME_TMP)
-        utils.add_to_file(body, self._FILE_NAME_TMP)
+        def get_main(data):
+            def _get_single_line(param_value):
+                return f"{param_value}\n"
 
-        print("Finished writing Mission Step Data")
+            def _get_multiple_lines(param_value):
+                body_lines = ""
+                param_value_list = param_value.split(_splitter)
+                for value in param_value_list:
+                    body_lines += f"\n\t\t* {value}"
+                body_lines += "\n"
+                return body_lines
+
+            body_main = ""
+            for id, parameters in data.items():
+                body_main += f"\n## {id}\n"
+
+                for param_key in _existing_tags:
+                    if param_key in parameters:
+                        body_main += f"\t* {param_key} "
+                        param_value = parameters.get(param_key)
+                        match param_key:                   
+                            case key if key in _tags_multiple_lines:
+                                body_main += _get_multiple_lines(param_value)
+                            case key if key in _tags_single_line:
+                                body_main += _get_single_line(param_value)
+                            case _:
+                                body_main += _get_single_line(param_value)
+            return body_main
+
+        body = f"# {_title}\n\n".upper()
+        # body += get_tags(_tmp_data)
+        body += get_main(_tmp_data)
+            
+        utils.rewrite_file(body, self._FILE_NAME_TMP)
 
     def get_mission_step_by_id(self,mis_step_id):
         return self._mission_steps.get(mis_step_id)

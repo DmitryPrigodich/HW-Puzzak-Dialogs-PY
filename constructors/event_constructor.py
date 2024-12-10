@@ -45,49 +45,58 @@ class Event_Constructor(Constructor_Base):
         utils.rewrite_file(body, self._FILE_NAME)
 
     # full set for analysis only
-    def write_data_tmp(self):
-        body = "# HWM EVENTS\n"
+    def _write_data_tmp(self):
+        _title = "HWM Events TMP"
 
-        def _get_single_line(e_param_value):
-            return f"{e_param_value}\n"
+        #fill it when tags are known
+        _existing_tags = ["StartDate:","EndDate:","Group:","Priority:","QuestConditions:","EventParameters:","EventParameterSpecifications:","PlacementMode:","PlacementParams:","SystemSelection:","SelectionParams:","ActiveOnWeekdays:","IsEventQuestTabTimer:","IsExclusive:","Visuals:","MissionIds:"]
+        _tags_single_line = ["StartDate:","EndDate:","Priority:","Group:","IsEventQuestTabTimer:","IsExclusive:","PlacementMode:","SelectionParams:"]
+        _tags_multiple_lines = ["EventParameters:","EventParameterSpecifications:","QuestConditions:","PlacementParams:","MissionIds:","Visuals:","SystemSelection:"]
 
-        def _get_multiple_lines(e_param_value):
+        def _get_single_line(param_value):
+            return f"{param_value}\n"
+
+        def _get_multiple_lines(param_value):
             body_lines = ""
-            e_param_value_list = e_param_value.split("\n")
-            for value in e_param_value_list:
+            param_value_list = param_value.split(":")
+            for value in param_value_list:
                 body_lines += f"\n\t\t* {value}"
             body_lines += "\n"
             return body_lines
-        
-        def _get_tags():
+
+        def _get_tags(data):
             body_tags = "\n## TAGS:\n"
             tag_collector = []
-            for event_id, event_params in self._event_data.items():
-                for ep_key,ep_value in event_params.items():
-                    tag_collector.append(ep_key)
+            for id, params in data.items():
+                for param_key, param_value in params.items():
+                    tag_collector.append(param_key)
             tag_collector = sorted(list(set(tag_collector)))
             tag_list = ", ".join(map(str, tag_collector))
             body_tags += f"{tag_list}\n"
             return body_tags
+
+        def _get_main(data):
+            body_main = ""
+            for id, parameters in data.items():
+                body_main += f"\n## {id}\n"
+
+                for param_key in _existing_tags:
+                    if param_key in parameters:
+                        body_main += f"\t* {param_key} "
+                        param_value = parameters.get(param_key)
+                        match param_key:                   
+                            case key if key in _tags_multiple_lines:
+                                body_main += _get_multiple_lines(param_value)
+                            case key if key in _tags_single_line:
+                                body_main += _get_single_line(param_value)
+                            case _:
+                                body_main += _get_single_line(param_value)
+            return body_main
         
-        # body += _get_tags()
+        body = f"# {_title}\n\n".upper()
+        # body += _get_tags(self._event_data)
+        body += _get_main(self._event_data)
         
-        for event_id, event_params in self._event_data.items():
-            body += f"\n## {event_id}\n"
-
-            for e_param_key in self._event_tags:
-                if e_param_key in event_params:
-                    body += f"\t* {e_param_key} "
-                    e_param_value = event_params.get(e_param_key)
-
-                    match e_param_key:                   
-                        case key if key in ["EventParameters:","EventParameterSpecifications:","QuestConditions:","PlacementParams:","MissionIds:","Visuals:","SystemSelection:"]:
-                            body += _get_multiple_lines(e_param_value)
-                        case key if key in ["StartDate:","EndDate:","Priority:","Group:","IsEventQuestTabTimer:","IsExclusive:","PlacementMode","SelectionParams"]:
-                            body += _get_single_line(e_param_value)
-                        case _:
-                            body += _get_single_line(e_param_value)
-
         utils.rewrite_file(body, self._FILE_NAME_TMP)
 
     def get_events(self):

@@ -11,6 +11,7 @@ from constructors.mission_step_constructor import Mission_Step_Constructor
 from constructors.mission_step_actions_constructor import Mission_Step_Actions_Constructor
 from constructors.event_constructor import Event_Constructor
 from constructors.chapter_constructor import Chapter_Constructor
+from constructors.quest_line_constructor import Quest_Line_Constructor
 
 from constructors.quest_constructor import Quest_Constructor
 
@@ -115,7 +116,7 @@ def _test_refill_events_data():
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
 
-def test_refill_chapter_data():
+def _test_refill_chapter_data():
     start_time = time.time()
 
     chapter_data = Chapter_Constructor()
@@ -125,14 +126,26 @@ def test_refill_chapter_data():
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
 
+def _test_refill_quest_line_data():
+    start_time = time.time()
 
-def _test_refill_quest_data():
+    quest_line_data = Quest_Line_Constructor()
+    quest_line_data.write_json()
+    quest_line_data.write_data()
+
+    end_time = time.time()
+    print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
+
+def test_refill_quest_data():
     start_time = time.time()
 
     quests_data = Quest_Constructor()
-    quests_data.write_json()
-    quests_data.write_data()
-    quests_data.write_quest_lines()
+    quests_data._write_data_tmp()
+    # quests_data.write_json()
+    # quests_data.write_data()
+
+    # quests_data.write_json()
+    # quests_data.write_quest_lines()
 
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")

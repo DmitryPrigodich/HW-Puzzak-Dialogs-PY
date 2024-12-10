@@ -5,13 +5,13 @@ from .constructor_base import Constructor_Base
 class Quest_Constructor(Constructor_Base):
     _QUEST_DATA_JSON = "json_bak/QuestData-module.json"
     _QUEST_LINE_DATA_JSON = "json_bak/QuestLineData-module.json"
-    _QUEST_LINE_JSON = "json/questlines.json"
+    _QUEST_LINE_JSON = "json/quest_lines.json"
    
     _quest_data = {}
     _quest_line_data = {}
 
     _FILE_NAME = "data/QUESTS.md"
-    _FILE_NAME_SPC = "data/QUESTS_SPC.md"
+    _FILE_NAME_TMP = "data/QUESTS_TMP.md"
     _FILE_NAME_JSON = "json/quests.json"
 
     _quests = {}
@@ -24,7 +24,7 @@ class Quest_Constructor(Constructor_Base):
         self._quest_data = utils.read_json(self._QUEST_DATA_JSON)
         self._quest_line_data = utils.read_json(self._QUEST_LINE_DATA_JSON)
         self._quest_lines = utils.read_json(self._QUEST_LINE_JSON)
-        self._set_quests()
+        self._set_data()
         
 
     # CHAPTERS CALL FOR QUESTLINES & QUESTS
@@ -40,18 +40,18 @@ class Quest_Constructor(Constructor_Base):
     # Goals / Goal Parameters may lead to
     # FollowUpLines for sure required
   
-    def _set_quests(self):
+    def _set_data(self):
 
-        # q = 0
-        # qt = len(self._quest_data)
         for quest_id, quest_tags in self._quest_data.items():
-            # q += 1
-            # print(f"JSON: writing {q}/{qt} quest {quest_id}")
-            quest_tags_collector = {}
+            q_name = self._get_quest_header(quest_id)
+            q_desc = self._get_quest_desc(quest_id)
+            q_line = self.get_quest_line_by_quest_id(quest_id)
 
-            quest_tags_collector['Name:'] = self._get_quest_header(quest_id)
-            quest_tags_collector['Description:'] = self._get_quest_desc(quest_id)
-            quest_tags_collector['QuestLine:'] = self.get_quest_line_by_quest_id(quest_id)
+
+            quest_tags_collector = {}
+            quest_tags_collector['Name:'] = q_name
+            quest_tags_collector['Description:'] = q_desc
+            quest_tags_collector['QuestLine:'] = q_line
 
             for key in ["Type:","CinematicIds:","EventId:","MailsOnCompletion:"]:
                 if key in quest_tags:
@@ -60,17 +60,17 @@ class Quest_Constructor(Constructor_Base):
             # Combine FollowUps & FollowUpLines -> FollowUp:
             qt_followups_final = []
             for key in ["FollowUpLines:","FollowUps:"]:
-                qt_followups = quest_tags.get(key)
-                if qt_followups:
+                if key in quest_tags:
+                    qt_followups = quest_tags.get(key)
                     qt_followups_final += qt_followups.split(":")
                     quest_tags_collector["FollowUps:"] = qt_followups_final
 
             # Combine Goals & GoalParameters -> Goals:
             qt_goals_final = []
-            qt_goals = quest_tags.get("Goals:")
-            if qt_goals:
-                qt_goal_params = quest_tags.get("GoalParameters:")
-                if qt_goal_params:
+            if "Goals:" in quest_tags:
+                qt_goals = quest_tags.get("Goals:")
+                if "GoalParameters:" in quest_tags:
+                    qt_goal_params = quest_tags.get("GoalParameters:")
                     qt_goals_final = self._get_goals_w_params_rearranged(qt_goals, qt_goal_params)
                 else:
                     qt_goals_final = self._get_goals_rearranged(qt_goals)
@@ -82,19 +82,13 @@ class Quest_Constructor(Constructor_Base):
     def write_json(self):
         utils.write_json(self._quests,self._FILE_NAME_JSON)
 
-    def write_data_spc(self):
+    def write_data(self):
         body = "# HWM QUESTLINES WITH QUESTS\n\n"
 
-        q = 0
-        ql = 0
-        qt = len(self._quest_data)
-        qlt = len(self._quest_lines)
         for quest_line_id, quest_line_quests in self._quest_lines.items():
             body += f"\n## {quest_line_id}".upper()
-            ql += 1
+
             for quest_id in quest_line_quests:
-                q += 1
-                print(f"MD: writing {q}/{qt}. quest {quest_id} for {ql}/{qlt} questline {quest_line_id}")
                 quest = self.get_quest_by_id(quest_id)
                 body += f"\n### {quest_id}:\n"
 
@@ -115,10 +109,68 @@ class Quest_Constructor(Constructor_Base):
                                 body += f"* {qt_key}\n"
                                 body += self.get_goal_body_formatted(qt_value)
                             case _:
-                                body += f"* {qt_key} {qt_value}\n"                       
-
+                                body += f"* {qt_key} {qt_value}\n"
+        
         utils.rewrite_file(body, self._FILE_NAME)
-   
+
+    # full set for analysis only
+    def _write_data_tmp(self):
+        _title = "HWM Quests"
+        _tmp_data = self._quest_data
+        _splitter = "\n"
+
+        #fill it when tags are known
+        _existing_tags = ["Type:", "ScheduleType:", "CinematicIds:", "EventId:", "Tier:", "XPMod:", "Rewards:", "RepetitionType:", "ReplayMissionId:", "MailsOnCompletion:", "FollowUpLines:", "FollowUps:", "GoalIconId:", "Goals:", "GoalParameters:", "StartOffset:", "EndOffset:"]
+        _tags_single_line = ["Type:","ScheduleType:","CinematicIds:","EventId:","Tier:","XPMod:","RepetitionType:","MailsOnCompletion","GoalIconId:","StartOffset:","EndOffset:"]
+        _tags_multiple_lines = ["ReplayMissionId:","FollowUpLines:", "FollowUps:","Goals:", "GoalParameters:","Rewards:"]
+
+        def get_tags(data):
+            body_tags = "\n## TAGS:\n"
+            tag_collector = []
+            for id, params in data.items():
+                for param_key, param_value in params.items():
+                    tag_collector.append(param_key)
+            tag_collector = sorted(list(set(tag_collector)))
+            tag_list = ", ".join(map(str, tag_collector))
+            body_tags += f"{tag_list}\n"
+            return body_tags
+
+        def get_main(data):
+            def _get_single_line(param_value):
+                return f"{param_value}\n"
+
+            def _get_multiple_lines(param_value):
+                body_lines = ""
+                param_value_list = param_value.split(_splitter)
+                for value in param_value_list:
+                    body_lines += f"\n\t\t* {value}"
+                body_lines += "\n"
+                return body_lines
+
+            body_main = ""
+            for id, parameters in data.items():
+                body_main += f"\n## {id}\n"
+
+                for param_key in _existing_tags:
+                    if param_key in parameters:
+                        body_main += f"\t* {param_key} "
+                        param_value = parameters.get(param_key)
+                        match param_key:                   
+                            case key if key in _tags_multiple_lines:
+                                body_main += _get_multiple_lines(param_value)
+                            case key if key in _tags_single_line:
+                                body_main += _get_single_line(param_value)
+                            case _:
+                                body_main += _get_single_line(param_value)
+            return body_main
+
+        body = f"# {_title}\n\n".upper()
+        # body += get_tags(_tmp_data)
+        body += get_main(_tmp_data)
+            
+        utils.rewrite_file(body, self._FILE_NAME_TMP)
+
+
     def get_quest_line_by_quest_id(self, quest_id):
         for quest_line_id, quest_line_tags in self._quest_line_data.items():
             if quest_id in quest_line_tags.get("QuestIds:").split(":"):
@@ -173,25 +225,7 @@ class Quest_Constructor(Constructor_Base):
         return f"No description for quest {quest_id}"
 
     # I think for my needs only "CompleteQuest","CompleteMission","GoTo" required
-    _GOAL_TYPES = [
-        "ChangeName"
-        ,"SelectKiith"
-        ,"JoinClan"
-        ,"PlaceOrbital"
-        ,"ChargeScanner"
-        ,"StartCraft"
-        ,"UpgradeOfficer"
-        ,"Scan"
-        ,"Buy"
-        ,"Equip"
-        ,"GainItem"
-        ,"Craft"
-        ,"GoTo"
-        ,"Pay"
-        ,"Statistic"
-        ,"CompleteMission"
-        ,"CompleteQuest"
-        ]
+    _GOAL_TYPES = ["ChangeName","SelectKiith","JoinClan","PlaceOrbital","ChargeScanner","StartCraft","UpgradeOfficer","Scan","Buy","Equip","GainItem","Craft","GoTo","Pay","Statistic","CompleteMission","CompleteQuest"]
     
     def _get_goals_w_params_rearranged(self, goals_str, goal_params_str):
         goals_final = {}
@@ -348,56 +382,7 @@ class Quest_Constructor(Constructor_Base):
                         goal_text += f"{goal_type}\n"
 
         return goal_text            
-                            
-
-    def _get_goal_body_formatted_old(self, goals):
-    # FOR HISTORY ONLY! REMOVE IF NOT REQUIRED
-        goal_text = ""
-        for goal_order, goals_list in goals.items():
-            goal_text += f"\n\t* Task {int(goal_order)+1}:"
-            
-            for goal in goals_list:
-                for goal_tag, goal_tag_value in goal.items():
-                    match goal_tag:
-                        case "GoalParam:":
-                            for g_param_key, g_param_values in goal_tag_value.items():
-                                match g_param_key:
-                                    case "Ids":
-                                        print("I'm here")
-                                        if len(g_param_values.split("|")) > 1:
-                                            g_subparam_values = g_param_values.split("|")
-                                        elif len(g_param_values.split("_")) > 1:
-                                            if not g_param_values.startswith("qr"):
-                                                g_subparam_values = g_param_values.split("_")
-                                        else:
-                                            goal_text += f"\t\t* {goal_tag} {goal_tag_value}\n"
-                                            return goal_text
-
-                                        goal_text += f"\t\t\t* {g_param_key}:\n"
-                                        for g_subparam_value in g_subparam_values:
-                                            goal_text += f"\t\t\t\t* {g_subparam_value}\n"
-                                    
-                                    case "ExcludedSources":
-                                        # goal_text += f"\t\t\t* {g_param_key}:\n"
-                                        # g_subparam_values = g_param_values.split("_")
-                                        # goal_text += "\t\t\t\t* "
-                                        # for g_subparam_value in g_subparam_values:
-                                        #     goal_text += f"{g_subparam_value},"
-                                        # goal_text += "\n"
-                                        do = "nothing" #justskipit, notrequired
-                                    
-                                    case _:
-                                        if isinstance(g_param_values, dict):
-                                            for g_subparam_key, g_subparam_value in g_param_values.items():
-                                                goal_text += f"\t\t\t* {g_subparam_key}: {g_subparam_value}\n"
-                                        else:
-                                            goal_text += f"\t\t\t* {g_param_key}: {g_param_values}\n"
-                        case _:
-                            goal_text += f"\t\t* {goal_tag} {goal_tag_value}\n"
-                                                    
-        return goal_text
-    
-
+                        
     def get_quest_text(self,quest_id):
         quest_info = self.get_quest_by_id(quest_id)
 

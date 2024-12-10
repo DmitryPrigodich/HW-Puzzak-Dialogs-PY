@@ -76,9 +76,9 @@ class Name_Data_Constructor(Constructor_Base):
     def write_data(self):
         body = "# HWM NAMES:"
         for faction, name_types in self._names.items():
-            body += f"\n\n## **{faction.upper()}**"
+            body += f"\n\n## {faction.upper()}"
             for name_type, names in name_types.items():
-                body += f"\n\n### **{name_type} Names:**\n"
+                body += f"\n\n### {name_type} Names:\n"
                 body += ", ".join(map(str, names))
             body += "\n"
 

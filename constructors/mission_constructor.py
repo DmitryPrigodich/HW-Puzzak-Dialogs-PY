@@ -16,7 +16,7 @@ class Mission_Constructor(Constructor_Base):
     def __init__(self):
         super().__init__()
         self._mission_data = utils.read_json(self._MISSION_DATA_JSON)
-        self._set_missions()
+        self._set_data()
    
     def _set_tags_to_skip(self):
         tags_to_skip = []
@@ -39,7 +39,7 @@ class Mission_Constructor(Constructor_Base):
         tags_to_skip += ["T2Npc2Behaviors:","T2Npc2Formations:","T2Npc2PoolIndices:","T2Npc2PoolPositions:","T2Npc2ShowMarkers:","T2Npc2SpawnIndices:","T2Npc2Tags:"]
         return tags_to_skip
 
-    def _set_missions(self):
+    def _set_data(self):
         for m_key, m_tags in self._mission_data.items():
             if m_key.split("_")[-1] not in ["t2","t3","t4","heroic","mythic","solo"]:
                 m_tags_collector = {}
@@ -127,6 +127,7 @@ class Mission_Constructor(Constructor_Base):
        
         utils.rewrite_file(body_tags, self._FILE_NAME_TMP)
         utils.add_to_file(body, self._FILE_NAME_TMP)
+    
 
     def get_mission_by_id(self, mission_id):
         return self._missions.get(mission_id)

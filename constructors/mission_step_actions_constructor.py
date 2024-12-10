@@ -13,9 +13,6 @@ class Mission_Step_Actions_Constructor(Constructor_Base):
     _mission_steps_actions_data = {}
     _mission_step_actions = {}
 
-    
-    # just to list them all
-    _mission_step_tags = ["PCG_Meta:","StepsLinkList:","TV1:","TV2:","TV3:","TVS:","Type:"]
 
     def __init__(self):
         super().__init__()
@@ -62,30 +59,62 @@ class Mission_Step_Actions_Constructor(Constructor_Base):
         utils.rewrite_file(body, self._FILE_NAME)
 
     # full set for analysis only
-    def write_data_tmp(self):
-        tags = {}
+    def _write_data_tmp(self):   
+        _title = "HWM Mission Step Actions TMP"
+        _tmp_data = self._mission_steps_actions_data
+        _splitter = "\n"
 
-        body = "# HWM MISSION STEP ACTIONS\n"
-        for msa_key, msa_tags in self._mission_steps_actions_data.items():
-            body += f"\n## {msa_key}\n"
-            for msat_key, msat_value in msa_tags.items():
-                if msat_key not in tags:
-                    tags[msat_key] = []
-                tags[msat_key].append(msat_value)
-                body += f"\t* {msat_key} {msat_value}\n"
+        #fill it when tags are known
+        _existing_tags = ["PCG_Meta:","StepsLinkList:","TV1:","TV2:","TV3:","TVS:","Type:"]
+        _tags_single_line = ["Type:"]
+        _tags_multiple_lines = ["PCG_Meta:","StepsLinkList:","TV1:","TV2:","TV3:","TVS:"]
 
-        tags = utils.sort_dict_by_keys(tags)
+        def get_tags(data):
+            body_tags = "\n## TAGS:\n"
+            tag_collector = []
+            for id, params in data.items():
+                for param_key, param_value in params.items():
+                    tag_collector.append(param_key)
+            tag_collector = sorted(list(set(tag_collector)))
+            tag_list = ", ".join(map(str, tag_collector))
+            body_tags += f"{tag_list}\n"
+            return body_tags
 
-        body_tags = "\n# HWM MISSIONS STEPS ACTIONS TAGS\n\n"
-        for t_key, t_values in tags.items():
-            t_values = sorted(list(set(t_values)))
-            body_tags += f"\t* {t_key}:\n"
-            body_tags += f"\t\t* {t_values}\n"
+        def get_main(data):
+            def _get_single_line(param_value):
+                return f"{param_value}\n"
+
+            def _get_multiple_lines(param_value):
+                body_lines = ""
+                param_value_list = param_value.split(_splitter)
+                for value in param_value_list:
+                    body_lines += f"\n\t\t* {value}"
+                body_lines += "\n"
+                return body_lines
+
+            body_main = ""
+            for id, parameters in data.items():
+                body_main += f"\n## {id}\n"
+
+                for param_key in _existing_tags:
+                    if param_key in parameters:
+                        body_main += f"\t* {param_key} "
+                        param_value = parameters.get(param_key)
+                        match param_key:                   
+                            case key if key in _tags_multiple_lines:
+                                body_main += _get_multiple_lines(param_value)
+                            case key if key in _tags_single_line:
+                                body_main += _get_single_line(param_value)
+                            case _:
+                                body_main += _get_single_line(param_value)
+            return body_main
+
+        body = f"# {_title}\n\n".upper()
+        # body += get_tags(_tmp_data)
+        body += get_main(_tmp_data)
             
-        utils.rewrite_file(body_tags, self._FILE_NAME_TMP)
-        utils.add_to_file(body, self._FILE_NAME_TMP)
+        utils.rewrite_file(body, self._FILE_NAME_TMP)
 
-        print("Finished writing Mission Step Actions Data")
 
-    def get_mission_step_actions_by_id(self,mis_step_act_id):
-        return self._mission_step_actions.get(mis_step_act_id)
+    def get_mission_step_actions_by_id(self,mission_step_act_id):
+        return self._mission_step_actions.get(mission_step_act_id)

@@ -1,6 +1,8 @@
 import utils
 
 class Constructor_Base:
+    _FILE_NAME = ""
+    _FILE_NAME_TMP = ""
     _FILE_NAME_JSON = ""
 
     _STRING_DATA_JSON = "json_bak/StringData-module.json"
