@@ -91,3 +91,23 @@ class Quest_Line_Constructor(Constructor_Base):
         body += get_main(_tmp_data)
             
         utils.rewrite_file(body, self._FILE_NAME_TMP)
+       
+    def get_quest_line_by_event_id(self, event_id):
+        match event_id:
+            case "event_season_yaoSpr_2023":
+                return "ql_event_yaot_spring_2023"
+            case "event_season_amaSum_2023_t4":
+                return "ql_event_amaSum_2023_t4"
+            case "event_season_iyaFal_2023_t4":
+                return "ql_event_iyaFal_2023_t4"
+            case _:
+                return f"ql_{event_id}"
+
+    def get_quests_by_quest_line_id(self, quest_line_id):
+        if quest_line_id in self._quest_lines:
+            return self._quest_lines.get(quest_line_id)
+        return None
+    
+    def get_quests_by_event_id(self, event_id):
+        quest_line_id = self.get_quest_line_by_event_id(event_id)
+        return self.get_quests_by_quest_line_id(quest_line_id)

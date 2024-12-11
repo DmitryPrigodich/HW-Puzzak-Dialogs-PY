@@ -52,7 +52,7 @@ def test_event_scenario_constuction():
 
             q_name = quest_info.get('Name:')
             q_description = quest_info.get('Description:')
-            q_goals = quests_data.get_goal_body_formatted(quest_info.get('Goals:'))
+            q_goals = quests_data._get_goal_body_formatted(quest_info.get('Goals:'))
 
             q_name = utils.remove_color(q_name)
             q_description = utils.remove_color(q_description)
