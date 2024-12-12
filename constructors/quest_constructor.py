@@ -234,7 +234,7 @@ class Quest_Constructor(Constructor_Base):
     
     def _get_goal_text(self, goals):
     # this shit is complicated because I don't know why it's organised this way
-    # had to go in a evolutianary way to make it formatted like I want
+    # had to go in a evolutionary way to make it formatted like I want
         goal_text = ""
         for goal_order, goals_list in goals.items():
             goal_text += f"\t* Task {int(goal_order)+1}: "

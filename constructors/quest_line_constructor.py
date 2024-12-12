@@ -109,6 +109,7 @@ class Quest_Line_Constructor(Constructor_Base):
     def get_quests_by_quest_line_id(self, quest_line_id):
         if quest_line_id in self._quest_lines:
             return self._quest_lines.get(quest_line_id)
+        print(f"Missing quest line {quest_line_id}")
         return None
     
     def get_quests_by_event_id(self, event_id):

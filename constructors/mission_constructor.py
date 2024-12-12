@@ -4,6 +4,7 @@ import re
 
 from .constructor_base import Constructor_Base
 from .dia_seq_constructor import Dialog_Sequence_Constructor
+from .mission_step_constructor import Mission_Step_Constructor
 
 class Mission_Constructor(Constructor_Base):
     _MISSION_DATA_JSON = "json_bak/MissionData-module.json"
@@ -203,6 +204,9 @@ class Mission_Constructor(Constructor_Base):
         if m_dialogs:
             for dialog_id in m_dialogs:
                 body_mission += dialog_data.get_dialog_text(dialog_id)
+        else:
+            mission_steps = Mission_Step_Constructor()
+            body_mission += mission_steps.get_mission_steps_text(mission.get("StartingMissionSteps:"))
 
         return body_mission
     

@@ -1,5 +1,7 @@
 import utils
 from .constructor_base import Constructor_Base
+from .quest_constructor import Quest_Constructor
+from .quest_line_constructor import Quest_Line_Constructor
 
 class Chapter_Constructor(Constructor_Base):
     _CHAPTER_DATA_JSON = "json_bak/ChapterData-module.json"
@@ -67,7 +69,19 @@ class Chapter_Constructor(Constructor_Base):
         chapter_name = chapter.get("Name:")
         chapter_quest_ids = chapter.get("Ids:")
 
+        quest_line_data = Quest_Line_Constructor()
+        quest_data = Quest_Constructor()
+
         body_chapter = f"\n## {chapter_order}. {chapter_id}/{chapter_name}\n"
-        # ...and so on...
+        for quest_id in chapter_quest_ids:
+            if quest_id.startswith("ql_"):
+                print(f"Quest Line Id: {quest_id}")
+                quests = quest_line_data.get_quests_by_quest_line_id(quest_id.lower())
+                if quests:
+                    for quest_id in quests:
+                        body_chapter += quest_data.get_quest_text(quest_id)
+            else:
+                print(f"Quest Id: {quest_id}")
+                body_chapter += quest_data.get_quest_text(quest_id)
 
         return body_chapter

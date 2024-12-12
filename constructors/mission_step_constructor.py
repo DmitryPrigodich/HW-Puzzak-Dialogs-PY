@@ -1,6 +1,7 @@
 import utils
 
 from .constructor_base import Constructor_Base
+from .mission_step_actions_constructor import Mission_Step_Actions_Constructor
 
 class Mission_Step_Constructor(Constructor_Base):
     _MISSION_STEPS_DATA_JSON = "json_bak/MissionSteps-module.json"
@@ -117,5 +118,17 @@ class Mission_Step_Constructor(Constructor_Base):
             
         utils.rewrite_file(body, self._FILE_NAME_TMP)
 
-    def get_mission_step_by_id(self,mis_step_id):
-        return self._mission_steps.get(mis_step_id)
+    def get_mission_step_by_id(self,mission_step_id):
+        return self._mission_steps.get(mission_step_id)
+    
+    def get_mission_steps_text(self, starting_mission_steps):
+        print(f"Mission step [{starting_mission_steps}]")
+        return ""
+
+        # mission_step = self.get_mission_step_by_id(starting_mission_steps)
+        # ms_actions = mission_step.get("SuccLL:")
+
+        # mission_step_actions_data = Mission_Step_Actions_Constructor()
+        # for ms_action in ms_actions:
+        #     smth = mission_step_actions_data.get_mission_step_actions_by_id(ms_action)
+        #     print(f"Mission Step Action: {smth}")
