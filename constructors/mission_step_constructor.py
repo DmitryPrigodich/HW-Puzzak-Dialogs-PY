@@ -32,6 +32,9 @@ class Mission_Step_Constructor(Constructor_Base):
             
             self._mission_steps[ms_key] = ms_key_dict
         
+    def get_data(self):
+        return self._mission_steps
+    
     def write_json(self):
         utils.write_json(self._mission_steps,self._FILE_NAME_JSON)
   

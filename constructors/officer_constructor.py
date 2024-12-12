@@ -30,6 +30,9 @@ class Officer_Data_Constructor(Constructor_Base):
                     "Faction:": officer_params.get("Faction:", "None")
                 }
     
+    def get_data(self):
+        return self._officers
+    
     def write_json(self):
         utils.write_json(self._officers, self._FILE_NAME_JSON)
 

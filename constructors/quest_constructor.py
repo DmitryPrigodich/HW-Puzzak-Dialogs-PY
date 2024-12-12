@@ -1,6 +1,7 @@
 import utils
 from itertools import zip_longest
 from .constructor_base import Constructor_Base
+from .mission_constructor import Mission_Constructor
 
 class Quest_Constructor(Constructor_Base):
     _QUEST_DATA_JSON = "json_bak/QuestData-module.json"
@@ -29,6 +30,11 @@ class Quest_Constructor(Constructor_Base):
 
         def _get_quest_header(quest_id):
             quest_header = self.get_string_by_key(quest_id)
+            if quest_header:
+                return quest_header
+            
+            quest_id_key = f"{quest_id[:-1]}x"
+            quest_header = self.get_string_by_key(quest_id_key)
             if quest_header:
                 return quest_header
             
@@ -128,6 +134,9 @@ class Quest_Constructor(Constructor_Base):
 
             self._quests[quest_id] = quest_tags_collector
 
+    def get_data(self):
+        return self._quests
+    
     def write_json(self):
         utils.write_json(self._quests,self._FILE_NAME_JSON)
 
@@ -149,7 +158,7 @@ class Quest_Constructor(Constructor_Base):
 
                         case "Goals:":
                             body += f"* {qt_key}\n"
-                            body += self._get_goal_body_formatted(qt_value)
+                            body += self._get_goal_text(qt_value)
                         case _:
                             body += f"* {qt_key} {qt_value}\n"
         
@@ -217,7 +226,7 @@ class Quest_Constructor(Constructor_Base):
         return self._quests.get(quest_id)  
 
     
-    def _get_goal_body_formatted(self, goals):
+    def _get_goal_text(self, goals):
     # this shit is complicated because I don't know why it's organised this way
     # had to go in a evolutianary way to make it formatted like I want
         goal_text = ""
@@ -331,20 +340,45 @@ class Quest_Constructor(Constructor_Base):
                     case _:
                         goal_text += f"{goal_type}\n"
 
-        return goal_text            
-                        
+        return goal_text
+    
     def get_quest_text(self,quest_id):
-        quest_info = self.get_quest_by_id(quest_id)
+        quest = self.get_quest_by_id(quest_id)
 
-        q_name = quest_info.get('Name:')
-        q_description = quest_info.get('Description:')
+        q_name = quest.get('Name:')
+        q_description = quest.get('Description:')
+        q_description_upd = utils.remove_color(q_description)
         # q_cinematics = self.get_cinematic_lines(quest_info.get('CinematicIds'))
-        q_goals = self._get_goal_body_formatted(quest_info.get('Goals:'))
+        q_goals = quest.get('Goals:')
+        q_goals_text = self._get_goal_text(q_goals)
 
-        quest_body = ""
-        quest_body += f"\n### {quest_id}\n"
-        quest_body += f"**GOALS**:\n{q_goals}\n"
-        if q_name != q_description:
-            quest_body += f"**NAME**:\n{q_name}\n"
-        quest_body += f"**DESCRIPTION**:\n{q_description}\n"
-        return quest_body
+        body_quest = f"\n### Quest [{quest_id}/{q_name}]\n"
+        body_quest += f"**DESCRIPTION**:\n\t{q_description_upd}"
+        body_quest += f"**GOALS**:\n{q_goals_text}"
+
+        mission_data = Mission_Constructor()
+        
+        for q_goal_order, q_goals in q_goals.items():
+            for q_goal in q_goals:
+                if q_goal.get("GoalType:") == "CompleteMission":
+                    if "Id" in q_goal.get("GoalParam:"):
+                        mission_ids = q_goal.get("GoalParam:")["Id"]
+                        for mission_id in mission_ids.split("|"):
+                            body_quest += mission_data.get_mission_text(mission_id)
+
+        if "MailsOnCompletion:" in quest:
+            mail = quest.get("MailsOnCompletion:")
+
+            mail_header_key = f"{mail}_header"
+            mail_body_key = f"{mail}_body"
+            
+            mail_header = self.get_string_by_key(mail_header_key)
+            mail_body = self.get_string_by_key(mail_body_key)
+
+            # print(f"mail_header: {mail_header}")
+            # print(f"mail_body: {mail_body}")
+
+            body_quest += f"\n### {mail_header}\n"
+            body_quest += f"{mail_body}\n"
+
+        return body_quest

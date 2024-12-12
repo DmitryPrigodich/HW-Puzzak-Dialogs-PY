@@ -21,6 +21,9 @@ class Hint_Data_Constructor(Constructor_Base):
                 "Requirements:": hint_tags.get("Requirements:")
             }
     
+    def get_data(self):
+        return self._hints
+    
     def write_json(self):
         utils.write_json(self._hints, self._FILE_NAME_JSON)
 

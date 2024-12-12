@@ -19,6 +19,9 @@ class Mission_Step_Actions_Constructor(Constructor_Base):
         self._mission_steps_actions_data = utils.read_json(self._MISSION_STEPS_ACTIONS_DATA_JSON)
         self._set_data()
 
+    def get_data(self):
+        return self._mission_step_actions
+    
     def _set_data(self):
         for msa_key, msa_tags in self._mission_steps_actions_data.items():
             msa_key_dict = {}

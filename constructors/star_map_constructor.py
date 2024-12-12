@@ -55,6 +55,9 @@ class Star_Map_Constructor():
                 'Faction:': faction
             }
     
+    def get_data(self):
+        return self._star_map
+    
     def write_json(self):
         utils.write_json(self._star_map,self._FILE_NAME_JSON)
 

@@ -28,6 +28,9 @@ class Chapter_Constructor(Constructor_Base):
                 "Ids:": chapter_quest_ids,
             }
 
+    def get_data(self):
+        return self._chapters
+    
     def write_json(self):
         utils.write_json(self._chapters,self._FILE_NAME_JSON)
 

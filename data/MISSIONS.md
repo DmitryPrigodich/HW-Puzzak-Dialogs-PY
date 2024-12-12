@@ -87,6 +87,31 @@
 		* e_anniversary2023_Wiracoda_standGround
 	* StartingMissionSteps: h_event_anniversary2023_Wiracoda_start
 
+## event_anniversary2023_Wiracoda_t4
+	* MissionMode: Side
+	* SystemId: {'Coordinates:': '[-1822, -636]', 'Name:': 'LAZARUS', 'Faction:': 'Hiigaran Medea'}
+	* DialogSequences: 
+		* e_anniversary2023_Wiracoda_MalikA
+		* e_anniversary2023_Wiracoda_MalikB
+		* e_anniversary2023_Wiracoda_MalikC
+		* e_anniversary2023_Wiracoda_MalikComment
+		* e_anniversary2023_Wiracoda_cateFiller
+		* e_anniversary2023_Wiracoda_cateIncoming
+		* e_anniversary2023_Wiracoda_cateRetreating
+		* e_anniversary2023_Wiracoda_combat
+		* e_anniversary2023_Wiracoda_connection
+		* e_anniversary2023_Wiracoda_control
+		* e_anniversary2023_Wiracoda_deviceKilled
+		* e_anniversary2023_Wiracoda_deviceLost
+		* e_anniversary2023_Wiracoda_escape
+		* e_anniversary2023_Wiracoda_go
+		* e_anniversary2023_Wiracoda_intro
+		* e_anniversary2023_Wiracoda_progIncoming
+		* e_anniversary2023_Wiracoda_progRetreating
+		* e_anniversary2023_Wiracoda_regeneration
+		* e_anniversary2023_Wiracoda_standGround
+	* StartingMissionSteps: h_event_anniversary2023_Wiracoda_start
+
 ## event_halloween2023_Rashidun_t1
 	* MissionMode: Side
 	* SystemId: {'Coordinates:': '[-1829, -578]', 'Name:': 'KRIITANA', 'Faction:': 'Cangacian'}
@@ -106,7 +131,44 @@
 		* e_halloween2023_Rashidun_outro
 	* StartingMissionSteps: h_event_halloween2023_Rashidun_start
 
+## event_halloween2023_Rashidun_t4
+	* MissionMode: Side
+	* SystemId: {'Coordinates:': '[-1829, -578]', 'Name:': 'KRIITANA', 'Faction:': 'Cangacian'}
+	* DialogSequences: 
+		* e_halloween2023_Rashidun_combat
+		* e_halloween2023_Rashidun_derelictDownA
+		* e_halloween2023_Rashidun_derelictDownB
+		* e_halloween2023_Rashidun_derelictWave
+		* e_halloween2023_Rashidun_intro
+		* e_halloween2023_Rashidun_malikDeath
+		* e_halloween2023_Rashidun_malikDestroyA
+		* e_halloween2023_Rashidun_malikDestroyB
+		* e_halloween2023_Rashidun_malikRegenA
+		* e_halloween2023_Rashidun_malikRegenB
+		* e_halloween2023_Rashidun_malikSee
+		* e_halloween2023_Rashidun_malikWeakened
+		* e_halloween2023_Rashidun_outro
+	* StartingMissionSteps: h_event_halloween2023_Rashidun_start
+
 ## event_iyaFal2023_Escort_t1
+	* MissionMode: Side
+	* SystemId: {'Coordinates:': '[-1722, -717]', 'Name:': 'MITORAI', 'Faction:': 'Hiigaran Medea'}
+	* DialogSequences: 
+		* e_iyaFall2023_escort_dialog_allyLow
+		* e_iyaFall2023_escort_dialog_countdown
+		* e_iyaFall2023_escort_dialog_fail
+		* e_iyaFall2023_escort_dialog_go
+		* e_iyaFall2023_escort_dialog_intro
+		* e_iyaFall2023_escort_dialog_killAll
+		* e_iyaFall2023_escort_dialog_mines
+		* e_iyaFall2023_escort_dialog_wave1A
+		* e_iyaFall2023_escort_dialog_wave1B
+		* e_iyaFall2023_escort_dialog_wave2
+		* e_iyaFall2023_escort_dialog_wave3
+		* e_iyaFall2023_escort_dialog_win
+	* StartingMissionSteps: h_event_iyaFall2023_Escort_start
+
+## event_iyaFal2023_Escort_t4
 	* MissionMode: Side
 	* SystemId: {'Coordinates:': '[-1722, -717]', 'Name:': 'MITORAI', 'Faction:': 'Hiigaran Medea'}
 	* DialogSequences: 
@@ -147,9 +209,47 @@
 		* e_tanWin2023_Academy_win
 	* StartingMissionSteps: h_event_tanWin2023_Academy_start
 
+## event_tanWin2023_Academy_t4
+	* MissionMode: Side
+	* SystemId: {'Coordinates:': '[-1593, 141]', 'Name:': 'TOCHTEOP', 'Faction:': 'Tanoch'}
+	* Factions: 
+		* Tanoch Chicuat
+		* Tanoch Tecuban
+		* Vaygr
+	* DialogSequences: 
+		* e_tanWin2023_Academy_JochikReturn
+		* e_tanWin2023_Academy_academyLow
+		* e_tanWin2023_Academy_combat
+		* e_tanWin2023_Academy_failAcademy
+		* e_tanWin2023_Academy_failTepin
+		* e_tanWin2023_Academy_heyoka
+		* e_tanWin2023_Academy_hiigarans
+		* e_tanWin2023_Academy_intro
+		* e_tanWin2023_Academy_jochikDownA
+		* e_tanWin2023_Academy_jochikDownB
+		* e_tanWin2023_Academy_situation
+		* e_tanWin2023_Academy_tepin
+		* e_tanWin2023_Academy_win
+	* StartingMissionSteps: h_event_tanWin2023_Academy_start
+
 ## event_tanWin2023_AttackBase_t1
 	* MissionMode: Side
 	* SystemId: {'Coordinates:': '[-1429, -553]', 'Name:': 'EKAAM NAR', 'Faction:': 'Iyatequa'}
+	* Factions: 
+		* Tanoch Tecuban
+		* Vaygr
+	* DialogSequences: 
+		* e_tanWin2023_AttackBase_alert
+		* e_tanWin2023_AttackBase_boss
+		* e_tanWin2023_AttackBase_intro
+		* e_tanWin2023_AttackBase_vaygr
+		* e_tanWin2023_AttackBase_wave
+		* e_tanWin2023_AttackBase_win
+	* StartingMissionSteps: h_event_tanWin2023_AttackBase_start
+
+## event_tanWin2023_AttackBase_t4
+	* MissionMode: Side
+	* SystemId: {'Coordinates:': '[-1600, 27]', 'Name:': 'ACATLA', 'Faction:': 'Tanoch'}
 	* Factions: 
 		* Tanoch Tecuban
 		* Vaygr
@@ -177,6 +277,21 @@
 		* e_tanWin2023_DefendBase_win
 	* StartingMissionSteps: h_event_tanWin2023_DefendBase_start
 
+## event_tanWin2023_DefendBase_t4
+	* MissionMode: Side
+	* SystemId: {'Coordinates:': '[-1778, 68]', 'Name:': 'TEOZACOZ', 'Faction:': 'Tanoch'}
+	* Factions: 
+		* Tanoch Chicuat
+		* Tanoch Tecuban
+	* DialogSequences: 
+		* e_tanWin2023_DefendBase_fail
+		* e_tanWin2023_DefendBase_firstWave
+		* e_tanWin2023_DefendBase_intro
+		* e_tanWin2023_DefendBase_nextWave
+		* e_tanWin2023_DefendBase_stationLow
+		* e_tanWin2023_DefendBase_win
+	* StartingMissionSteps: h_event_tanWin2023_DefendBase_start
+
 ## event_tanWin2023_Relic_t1
 	* MissionMode: Side
 	* SystemId: {'Coordinates:': '[-1400, -600]', 'Name:': 'EDOWANA', 'Faction:': 'Iyatequa'}
@@ -190,7 +305,28 @@
 		* e_tanWin2023_Relic_win
 	* StartingMissionSteps: h_event_tanWin2023_Relic_start
 
+## event_tanWin2023_Relic_t4
+	* MissionMode: Side
+	* SystemId: {'Coordinates:': '[-1711, 115]', 'Name:': 'CUILCO', 'Faction:': 'Tanoch'}
+	* Factions: Vaygr
+	* DialogSequences: 
+		* e_tanWin2023_Relic_boss
+		* e_tanWin2023_Relic_boss_low
+		* e_tanWin2023_Relic_contact
+		* e_tanWin2023_Relic_intro
+		* e_tanWin2023_Relic_wave
+		* e_tanWin2023_Relic_win
+	* StartingMissionSteps: h_event_tanWin2023_Relic_start
+
 ## event_yaoSpr2024_Conjunction_t1
+	* MissionMode: Side
+	* SystemId: {'Coordinates:': '[-1710, -523]', 'Name:': 'ZE TAVAAN', 'Faction:': 'Cangacian'}
+	* Factions: 
+		* Cangacian
+		* Yaot
+	* StartingMissionSteps: h_event_yaoSpr2024_Conjunction_start
+
+## event_yaoSpr2024_Conjunction_t4
 	* MissionMode: Side
 	* SystemId: {'Coordinates:': '[-1710, -523]', 'Name:': 'ZE TAVAAN', 'Faction:': 'Cangacian'}
 	* Factions: 

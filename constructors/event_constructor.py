@@ -1,5 +1,7 @@
 import utils
 from .constructor_base import Constructor_Base
+from constructors.quest_line_constructor import Quest_Line_Constructor
+from constructors.quest_constructor import Quest_Constructor
 
 class Event_Constructor(Constructor_Base):
     _EVENT_DATA_JSON = "json_bak/EventData-module.json"
@@ -10,11 +12,6 @@ class Event_Constructor(Constructor_Base):
 
     _event_data = {}
     _events = {}
-
-    # reshuffle it your way
-    _event_tags = [
-        "StartDate:","EndDate:","Group:","Priority:","QuestConditions:","EventParameters:","EventParameterSpecifications:","PlacementMode:","PlacementParams:","SystemSelection:","SelectionParams:","ActiveOnWeekdays:","IsEventQuestTabTimer:","IsExclusive:","Visuals:","MissionIds:"
-    ]
 
     def __init__(self):
         super().__init__()
@@ -32,6 +29,9 @@ class Event_Constructor(Constructor_Base):
             else:
                 self._events["Unknown"].append(event_id)
 
+    def get_data(self):
+        return self._events
+    
     def write_json(self):
         utils.write_json(self._events, self._FILE_NAME_JSON)
 
@@ -101,3 +101,18 @@ class Event_Constructor(Constructor_Base):
 
     def get_events(self):
         return self._events
+    
+    def get_event_text(self,event_id):
+        body_event = f"\n## Event: {event_id}\n".upper()
+
+        quest_line_data = Quest_Line_Constructor()
+        quest_line_id = quest_line_data.get_quest_line_by_event_id(event_id)
+        print(f"Quest Line Id: {quest_line_id}")
+        quests = quest_line_data.get_quests_by_quest_line_id(quest_line_id)
+        print(f"Quests: {quests}")
+        
+        quest_data = Quest_Constructor()
+        for quest_id in quests:
+            body_event += quest_data.get_quest_text(quest_id)
+        
+        return body_event

@@ -18,6 +18,31 @@ class Dialog_Sequence_Constructor(Constructor_Base):
         self._set_data()
 
     def _set_data(self):
+
+        def _get_speaker_name(speaker_id):
+            speaker_key = f"name_{speaker_id}".lower()
+            speaker_name = self.get_string_by_key(speaker_key)
+
+            if not speaker_name:
+                speaker_name = f"{speaker_id} - speaker name not found"
+                print(speaker_name)
+
+            return speaker_name
+
+        def _get_dialog_string(dialog_id):
+            dialog_key = dialog_id.lower()
+            body_dialog = self.get_string_by_key(dialog_key)
+
+            if not body_dialog:
+                dialog_key = re.sub(r'_(\d+)$', r'_dia_\1', dialog_id)
+                body_dialog = self.get_string_by_key(dialog_key)
+
+                if not body_dialog:
+                    body_dialog = f"dialog_id not found: {dialog_id}"
+                    print(body_dialog)
+                
+            return body_dialog
+
         for dialog_seq_header, dialog_seq in self._dialog_seqs_data.items():
             speaker_ids = dialog_seq["SpeakerIds:"].split(":")
             dialog_ids = dialog_seq["DialogIds:"].split(":")
@@ -27,13 +52,16 @@ class Dialog_Sequence_Constructor(Constructor_Base):
                 speakers_dialogs.append({
                     "Index:": index, 
                     "SpeakerId:": speaker_id,
-                    "SpeakerName:": self._get_speaker_name(speaker_id),
+                    "SpeakerName:": _get_speaker_name(speaker_id),
                     "DialogId:": dialog_id,
-                    "DialogLine:": self._get_dialog_string(dialog_id)
+                    "DialogLine:": _get_dialog_string(dialog_id)
                     })
 
             self._dialogs[dialog_seq_header] = speakers_dialogs
 
+    def get_data(self):
+        return self._dialogs
+    
     def write_json(self):
         utils.write_json(self._dialogs, self._FILE_NAME_JSON)
     
@@ -53,26 +81,13 @@ class Dialog_Sequence_Constructor(Constructor_Base):
 
         utils.rewrite_file(body, self._FILE_NAME)
 
-    def _get_speaker_name(self, speaker_id):
-        speaker_key = f"name_{speaker_id}".lower()
-        speaker_name = self.get_string_by_key(speaker_key)
+    
+    def get_dialog_text(self, dialog_id):
+        body_dialog = f"\n\t\t_{dialog_id}_"
+        for dialog_part in self._dialogs.get(dialog_id):
+            speaker = dialog_part.get("SpeakerName:")
+            dia_line = dialog_part.get("DialogLine:")
 
-        if not speaker_name:
-            speaker_name = f"{speaker_id} - speaker name not found"
-            print(speaker_name)
-
-        return speaker_name
-
-    def _get_dialog_string(self, dialog_id):
-        dialog_key = dialog_id.lower()
-        dialog_string = self.get_string_by_key(dialog_key)
-
-        if not dialog_string:
-            dialog_key = re.sub(r'_(\d+)$', r'_dia_\1', dialog_id)
-            dialog_string = self.get_string_by_key(dialog_key)
-
-            if not dialog_string:
-                dialog_string = f"dialog_id not found: {dialog_id}"
-                print(dialog_string)
-            
-        return dialog_string
+            body_dialog += f"\n\t\t**{speaker}**\n"
+            body_dialog += f"\t\t{dia_line}\n"
+        return body_dialog

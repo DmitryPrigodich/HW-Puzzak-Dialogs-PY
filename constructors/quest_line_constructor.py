@@ -22,8 +22,11 @@ class Quest_Line_Constructor(Constructor_Base):
 
     def _set_data(self):
         for ql_id, ql_params in self._quest_line_data.items():
-            self._quest_lines[ql_id] = ql_params.get("QuestIds:").split(":")
+            self._quest_lines[ql_id.lower()] = ql_params.get("QuestIds:").split(":")
         
+    def get_data(self):
+        return self._quest_lines
+
     def write_json(self):
         utils.write_json(self._quest_lines, self._FILE_NAME_JSON)
   

@@ -70,6 +70,9 @@ class Name_Data_Constructor(Constructor_Base):
         }
         return additional_names
 
+    def get_data(self):
+        return self._names
+    
     def write_json(self):
         utils.write_json(self._names, self._FILE_NAME_JSON)
 

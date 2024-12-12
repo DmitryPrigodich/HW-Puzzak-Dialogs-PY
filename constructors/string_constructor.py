@@ -15,6 +15,9 @@ class String_Data_Constructor(Constructor_Base):
         for string_header, string_tags in self._string_data.items():
             self._strings[string_header] = string_tags.get('en:')
     
+    def get_data(self):
+        return self._strings
+
     def write_json(self):
         utils.write_json(self._strings, self._FILE_NAME_JSON)
 
