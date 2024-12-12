@@ -107,6 +107,341 @@
 
 
 
+## EVENT: EVENT_IYAFAL_2023_T4
+
+### Quest [qe_iyaFal_2023_day01_t4/No header for quest qe_iyaFal_2023_day01_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day01_t4
+
+**GOALS**:
+	* Task 1: 5 Faction_T4up
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day01_t4_end_
+		**Joanna**
+		We have information the Palantine Light was often traveling with an Iyatequa ship, the Checkered Mule. We’re still gathering information.
+
+### Quest [qe_iyaFal_2023_day02_t4/No header for quest qe_iyaFal_2023_day02_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day02_t4
+
+**GOALS**:
+	* Task 1: GainItem
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day02_t4_end_
+		**Joanna**
+		Some of these containers match the Palantine Light manifest, but they were likely sold. We’re trying to back-track sales history with the Iyatequa now.
+
+### Quest [qe_iyaFal_2023_day03_t4/No header for quest qe_iyaFal_2023_day03_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day03_t4
+
+**GOALS**:
+	* Task 1: Craft
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day03_t4_end_
+		**Crew Member**
+		What are we going to do with all of these items? Sell them?
+
+		**Joanna**
+		The Iyatequa have been asking us the same question.
+
+### Quest [qe_iyaFal_2023_day04_t4/No header for quest qe_iyaFal_2023_day04_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day04_t4
+
+**GOALS**:
+	* Task 1: Complete 3 side missions
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day04_t4_end_
+		**Joanna**
+		Commander, we found a log buoy from the Palatine Light. Only one message was found, I’ve sent it to your inbox so you can look at it privately.
+
+### Captain’s Log, Mahel Manaan
+Day 547
+When I was a boy, my father would tell me stories of the Trader’s Bargain. Long gone now, I can picture that lone standing stone at the edge of the Shiiaro Mountains. The Manaan remember it as a promise of the joy to come. Now, I think of how solitary it was standing above the sands alone.
+
+### Quest [qe_iyaFal_2023_day05_t4/No header for quest qe_iyaFal_2023_day05_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day05_t4
+
+**GOALS**:
+	* Task 1: Complete 3 side missions
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day05_t4_end_
+		**Joanna**
+		Mahel rarely talked about Kharakid history to outsiders or the Iyatequa. Whatever he meant, I’d guess it’s a message only other Hiigarans would know.
+
+### Quest [qe_iyaFal_2023_day06_t4/No header for quest qe_iyaFal_2023_day06_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day06_t4
+
+**GOALS**:
+	* Task 1: GainItem
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day06_t4_end_
+		**Crew Member**
+		We have to be the most decorated unit in the fleet by now.
+
+		**Joanna**
+		If we ever get home they’ll probably give us even more medals to put somewhere.
+
+### Quest [qe_iyaFal_2023_day07_t4/No header for quest qe_iyaFal_2023_day07_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day07_t4
+
+**GOALS**:
+	* Task 1: UpgradeOfficer
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day07_t4_end_
+		**Joanna**
+		We’re running out of postings for senior officers. Somehow we’ll need either more ships, or bigger ones.
+
+### Quest [qe_iyaFal_2023_day08_t4/No header for quest qe_iyaFal_2023_day08_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day08_t4
+
+**GOALS**:
+	* Task 1: GainItem
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day08_t4_end_
+		**Joanna**
+		Commander, one of these Progenitor artifacts has a message on it encoded in old Kushan. I’ve passed it to your inbox.
+
+### Captain’s Log, Mahel Manaan
+Day 562
+Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen turns, and fourteen hundred lost to that day on the dancing sands. Such a joyous day that changed our people so dramatically and without warning.
+
+### Quest [qe_iyaFal_2023_day09_t4/No header for quest qe_iyaFal_2023_day09_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day09_t4
+
+**GOALS**:
+	* Task 1: 5 Faction_T4up
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day09_t4_end_
+		**Joanna**
+		Mahel’s logs both make reference to the Ferin Sha, a festival on old Kharak. A massacre occurred there in ancient times… Mahel is trying to tell us something.
+
+### Quest [qe_iyaFal_2023_day10_t4/No header for quest qe_iyaFal_2023_day10_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day10_t4
+
+**GOALS**:
+	* Task 1: GainItem
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day10_t4_end_
+		**Joanna**
+		One of the containers had an anomalous data disk, also encoded in old Kushan. We’re decoding it now.
+
+### Quest [qe_iyaFal_2023_day11_t4/No header for quest qe_iyaFal_2023_day11_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day11_t4
+
+**GOALS**:
+	* Task 1: GainItem
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day11_t4_end_
+		**Joanna**
+		We’ve decoded what looks like navigational data. It’s encoded in an odd format, cryptography is looking into it.
+
+### Quest [qe_iyaFal_2023_day12_t4/No header for quest qe_iyaFal_2023_day12_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day12_t4
+
+**GOALS**:
+	* Task 1: Complete side mission
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day12_t4_end_
+		**Joanna**
+		Commander, the navigational data needs to be decoded with a Progenitor transponder. There was also a message included, it’s in your inbox now.
+
+### Captain’s Log, Mahel Manaan
+Day 577
+It is said the Kaalel have no true friends, but every one is a true friend to the Manaan. I can’t think of a better way to describe my time among these Iyatequa: The lone Manaan against these secret-keepers. But the old Manaan adage is still true: the slight of hand is more powerful than anything any coin could ever buy. Now is a war between magicians.
+
+### Quest [qe_iyaFal_2023_day13_t4/No header for quest qe_iyaFal_2023_day13_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day13_t4
+
+**GOALS**:
+	* Task 1: 225 RepTr1
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day13_t4_end_
+		**Joanna**
+		We asked around for the component we need, but for some reason the Iyatequa aren’t selling any. The absence is too coincidental to be a coincidence.
+
+### Quest [qe_iyaFal_2023_day14_t4/No header for quest qe_iyaFal_2023_day14_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day14_t4
+
+**GOALS**:
+	* Task 1: GainItem
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day14_t4_end_
+		**Joanna**
+		One of the relics we recovered is the Progenitor transponder we need. Using it to align the map we’ve located Mahel’s location!
+
+### Quest [qe_iyaFal_2023_day15_t4/No header for quest qe_iyaFal_2023_day15_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_day15_t4
+
+**GOALS**:
+	* Task 1: Complete mission 'Trader's Bargain T4'
+
+### Mission [event_iyaFal2023_Escort_t4/Trader's Bargain T4]
+**DESCRIPTION**: The missing captain has been located at an unnamed asteroid. Retrieve him at all costs.
+**LOCATION:** MITORAI system, Hiigaran Medea territory
+
+		_e_iyaFall2023_escort_dialog_intro_
+		**Hiigaran Commander**
+		Hiigaran vessel, this is Captain Mahel. Praise Sajuuk you arrived, I couldn't break cover without an escort.
+
+		**Joanna**
+		We're here to assist and extract you, Captain.
+
+		**Hiigaran Commander**
+		I must transmit crucial data using this base's equipment, but the Iyatequa are on to me. I can't go without escort.
+
+		_e_iyaFall2023_escort_dialog_go_
+		**Joanna**
+		We'll cover you. Begin your run.
+
+		_e_iyaFall2023_escort_dialog_wave1A_
+		**Hiigaran Commander**
+		Cangacians incoming! They are coming for the bounty on my head. The Iyatequa don't want the information I have getting out.
+
+		_e_iyaFall2023_escort_dialog_mines_
+		**Joanna**
+		Commander, we've detected a mine field ahead. We must clear the path to give Captain Mahel a straight shot to the station.
+
+		_e_iyaFall2023_escort_dialog_wave1B_
+		**Hiigaran Commander**
+		Attention, a new wave has come out of hyperspace behind us.
+
+		_e_iyaFall2023_escort_dialog_allyLow_
+		**Hiigaran Commander**
+		Commander, our ship is in danger! Please assist!
+
+		_e_iyaFall2023_escort_dialog_wave2_
+		**Hiigaran Commander**
+		Commander, another wave has appeared. The bounty must be huge to send a fleet this big just for me.
+
+		_e_iyaFall2023_escort_dialog_countdown_
+		**Hiigaran Commander**
+		I've docked. My crew has hooked up the transmitter... sending now.
+
+		_e_iyaFall2023_escort_dialog_wave3_
+		**Joanna**
+		More ships have emerged from Hyperspace. The Iyatequa really want this information burried.
+
+		_e_iyaFall2023_escort_dialog_killAll_
+		**Joanna**
+		Looks like the Cangaicans ran out of ships. All hostiles destroyed, proceed on mission.
+
+		_e_iyaFall2023_escort_dialog_win_
+		**Hiigaran Commander**
+		Transmission to Lazarus base completed. It's done, the word is out.
+
+		**Joanna**
+		The Cangacians are retreating. What information did you have?
+
+		**Hiigaran Commander**
+		The Iyatequa have been selling our Progenitor control codes.
+
+		**Hiigaran Commander**
+		If the powers here can command Progenitor units like we used to, it's going to be disasterous for the balance of power in this area.
+
+		_e_iyaFall2023_escort_dialog_fail_
+		**Joanna**
+		Mahel's ship is destroyed! Abort mission!
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_day15_t4_end_
+		**Joanna**
+		Captain Mahel is in our fleet now to protect him and use his skills. Although the traders have given up, we have a bigger problem now. Command will get back to us once we know more.
+
+
+
+
+## EVENT: EVENT_IYAFAL_2023_EPILOG_T4
+
+### Quest [qe_iyaFal_2023_epi01_t4/No header for quest qe_iyaFal_2023_epi01_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_epi01_t4
+
+**GOALS**:
+	* Task 1: GainItem
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_epi01_t4_end_
+		**Joanna**
+		The resources gathered here could be useful for buying information. We need to confirm if the command codes are out.
+
+### Quest [qe_iyaFal_2023_epi02_t4/No header for quest qe_iyaFal_2023_epi02_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_epi02_t4
+
+**GOALS**:
+	* Task 1: 10 ShipsDestroyedProgenitorT4
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_epi02_t4_end_
+		**Joanna**
+		If the other powers get the Progenitor codes working, we could be facing these in droves.
+
+### Quest [qe_iyaFal_2023_epi03_t4/No header for quest qe_iyaFal_2023_epi03_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_epi03_t4
+
+**GOALS**:
+	* Task 1: GainItem
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_epi03_t4_end_
+		**Joanna**
+		We’ll need every experienced officer we can get for what’s to come. The Progenitors are an enemy on an entirely different level.
+
+### Quest [qe_iyaFal_2023_epi04_t4/No header for quest qe_iyaFal_2023_epi04_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_epi04_t4
+
+**GOALS**:
+	* Task 1: UpgradeOfficer
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_epi04_t4_end_
+		**Joanna**
+		Our newer officers didn’t serve in the war against the Vaygr. This refresher course showed them what we’ll be facing.
+
+### Quest [qe_iyaFal_2023_epi05_t4/No header for quest qe_iyaFal_2023_epi05_t4]
+**DESCRIPTION**:
+	No description for quest qe_iyaFal_2023_epi05_t4
+
+**GOALS**:
+	* Task 1: Complete 5 side missions
+
+**END-OF-DAY DIALOG:**
+		_qe_iyaFal_2023_epi05_t4_end_
+		**Joanna**
+		We’re going to need to mass our firepower for larger operations. Progenitor ships are the hardest adversary we’ve ever faced… we will need to be prepared for the worst to come.
+
+
+
+
 ## EVENT: EVENT_ANNIVERSARY_2023_T4
 
 ### Quest [qe_anniversary_2023_day01_A_t4/Day 1: Research Directive]
@@ -787,6 +1122,7 @@ So if we are to go, I pray we can survive whatever fate stopped so many and find
 	* Task 1: Complete mission 'Rashidun T4'
 
 ### Mission [event_halloween2023_Rashidun_t4/Rashidun T4]
+**DESCRIPTION**: -
 **LOCATION:** KRIITANA system, Cangacian territory
 
 		_e_halloween2023_Rashidun_intro_
@@ -928,6 +1264,7 @@ State-sponsored propaganda has characterized the Chicuat as an irreverent, heret
 	* Task 1: Complete mission 'Repulse Raid T4'
 
 ### Mission [event_tanWin2023_DefendBase_t4/Repulse Raid T4]
+**DESCRIPTION**: -
 **LOCATION:** TEOZACOZ system, Tanoch territory
 **FACTIONS INVOLVED:** Tanoch Chicuat, Tanoch Tecuban
 		_e_tanWin2023_DefendBase_intro_
@@ -1045,6 +1382,7 @@ Recently the Tecuban have welcomed strangers that claim to be from outside the g
 	* Task 1: Complete mission 'Base Busting T4'
 
 ### Mission [event_tanWin2023_AttackBase_t4/Base Busting T4]
+**DESCRIPTION**: -
 **LOCATION:** ACATLA system, Tanoch territory
 **FACTIONS INVOLVED:** Tanoch Tecuban, Vaygr
 		_e_tanWin2023_AttackBase_intro_
@@ -1176,6 +1514,7 @@ Karan embarked on a voyage to discover the whereabouts of Sajuuk, which accordin
 	* Task 1: Complete mission 'Destination T4'
 
 ### Mission [event_tanWin2023_Relic_t4/Destination T4]
+**DESCRIPTION**: -
 **LOCATION:** CUILCO system, Tanoch territory
 **FACTIONS INVOLVED:** Vaygr
 		_e_tanWin2023_Relic_intro_
@@ -1307,6 +1646,7 @@ Hiigaran Intelligence has been unable to discern the purpose of his plan, as not
 	* Task 1: Complete mission 'Tlapallan Academy T4'
 
 ### Mission [event_tanWin2023_Academy_t4/Tlapallan Academy T4]
+**DESCRIPTION**: -
 **LOCATION:** TOCHTEOP system, Tanoch territory
 **FACTIONS INVOLVED:** Tanoch Chicuat, Tanoch Tecuban, Vaygr
 		_e_tanWin2023_Academy_intro_
@@ -1630,6 +1970,7 @@ Toci Citalicue
 	* Task 1: Complete mission 'Conjunction T4'
 
 ### Mission [event_yaoSpr2024_Conjunction_t4/Conjunction T4]
+**DESCRIPTION**: -
 **LOCATION:** ZE TAVAAN system, Cangacian territory
 **FACTIONS INVOLVED:** Cangacian, Yaot
 		_e_yaoSpr2024_Conjunction_intro_
@@ -1892,338 +2233,4 @@ Toci Citalicue
 	_qe_amaSum_2023_day15_t4_end/dia_amasum_2024_day15_end_
 	That was the last, desperate reach of the Kiithless. They'll need to regroup for a while before they can challenge the Amassari again.
 	It is a thing to raise a hand in defense of another Amassari, but another to respect our herritage. I wish to join your crew commander, I have many talents to offer beyond Amassari space.
-
-
-
-
-## EVENT: EVENT_IYAFAL_2023_T4
-
-### Quest [qe_iyaFal_2023_day01_t4/No header for quest qe_iyaFal_2023_day01_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day01_t4
-
-**GOALS**:
-	* Task 1: 5 Faction_T4up
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day01_t4_end_
-		**Joanna**
-		We have information the Palantine Light was often traveling with an Iyatequa ship, the Checkered Mule. We’re still gathering information.
-
-### Quest [qe_iyaFal_2023_day02_t4/No header for quest qe_iyaFal_2023_day02_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day02_t4
-
-**GOALS**:
-	* Task 1: GainItem
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day02_t4_end_
-		**Joanna**
-		Some of these containers match the Palantine Light manifest, but they were likely sold. We’re trying to back-track sales history with the Iyatequa now.
-
-### Quest [qe_iyaFal_2023_day03_t4/No header for quest qe_iyaFal_2023_day03_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day03_t4
-
-**GOALS**:
-	* Task 1: Craft
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day03_t4_end_
-		**Crew Member**
-		What are we going to do with all of these items? Sell them?
-
-		**Joanna**
-		The Iyatequa have been asking us the same question.
-
-### Quest [qe_iyaFal_2023_day04_t4/No header for quest qe_iyaFal_2023_day04_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day04_t4
-
-**GOALS**:
-	* Task 1: Complete 3 side missions
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day04_t4_end_
-		**Joanna**
-		Commander, we found a log buoy from the Palatine Light. Only one message was found, I’ve sent it to your inbox so you can look at it privately.
-
-### Captain’s Log, Mahel Manaan
-Day 547
-When I was a boy, my father would tell me stories of the Trader’s Bargain. Long gone now, I can picture that lone standing stone at the edge of the Shiiaro Mountains. The Manaan remember it as a promise of the joy to come. Now, I think of how solitary it was standing above the sands alone.
-
-### Quest [qe_iyaFal_2023_day05_t4/No header for quest qe_iyaFal_2023_day05_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day05_t4
-
-**GOALS**:
-	* Task 1: Complete 3 side missions
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day05_t4_end_
-		**Joanna**
-		Mahel rarely talked about Kharakid history to outsiders or the Iyatequa. Whatever he meant, I’d guess it’s a message only other Hiigarans would know.
-
-### Quest [qe_iyaFal_2023_day06_t4/No header for quest qe_iyaFal_2023_day06_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day06_t4
-
-**GOALS**:
-	* Task 1: GainItem
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day06_t4_end_
-		**Crew Member**
-		We have to be the most decorated unit in the fleet by now.
-
-		**Joanna**
-		If we ever get home they’ll probably give us even more medals to put somewhere.
-
-### Quest [qe_iyaFal_2023_day07_t4/No header for quest qe_iyaFal_2023_day07_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day07_t4
-
-**GOALS**:
-	* Task 1: UpgradeOfficer
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day07_t4_end_
-		**Joanna**
-		We’re running out of postings for senior officers. Somehow we’ll need either more ships, or bigger ones.
-
-### Quest [qe_iyaFal_2023_day08_t4/No header for quest qe_iyaFal_2023_day08_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day08_t4
-
-**GOALS**:
-	* Task 1: GainItem
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day08_t4_end_
-		**Joanna**
-		Commander, one of these Progenitor artifacts has a message on it encoded in old Kushan. I’ve passed it to your inbox.
-
-### Captain’s Log, Mahel Manaan
-Day 562
-Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen turns, and fourteen hundred lost to that day on the dancing sands. Such a joyous day that changed our people so dramatically and without warning.
-
-### Quest [qe_iyaFal_2023_day09_t4/No header for quest qe_iyaFal_2023_day09_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day09_t4
-
-**GOALS**:
-	* Task 1: 5 Faction_T4up
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day09_t4_end_
-		**Joanna**
-		Mahel’s logs both make reference to the Ferin Sha, a festival on old Kharak. A massacre occurred there in ancient times… Mahel is trying to tell us something.
-
-### Quest [qe_iyaFal_2023_day10_t4/No header for quest qe_iyaFal_2023_day10_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day10_t4
-
-**GOALS**:
-	* Task 1: GainItem
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day10_t4_end_
-		**Joanna**
-		One of the containers had an anomalous data disk, also encoded in old Kushan. We’re decoding it now.
-
-### Quest [qe_iyaFal_2023_day11_t4/No header for quest qe_iyaFal_2023_day11_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day11_t4
-
-**GOALS**:
-	* Task 1: GainItem
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day11_t4_end_
-		**Joanna**
-		We’ve decoded what looks like navigational data. It’s encoded in an odd format, cryptography is looking into it.
-
-### Quest [qe_iyaFal_2023_day12_t4/No header for quest qe_iyaFal_2023_day12_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day12_t4
-
-**GOALS**:
-	* Task 1: Complete side mission
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day12_t4_end_
-		**Joanna**
-		Commander, the navigational data needs to be decoded with a Progenitor transponder. There was also a message included, it’s in your inbox now.
-
-### Captain’s Log, Mahel Manaan
-Day 577
-It is said the Kaalel have no true friends, but every one is a true friend to the Manaan. I can’t think of a better way to describe my time among these Iyatequa: The lone Manaan against these secret-keepers. But the old Manaan adage is still true: the slight of hand is more powerful than anything any coin could ever buy. Now is a war between magicians.
-
-### Quest [qe_iyaFal_2023_day13_t4/No header for quest qe_iyaFal_2023_day13_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day13_t4
-
-**GOALS**:
-	* Task 1: 225 RepTr1
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day13_t4_end_
-		**Joanna**
-		We asked around for the component we need, but for some reason the Iyatequa aren’t selling any. The absence is too coincidental to be a coincidence.
-
-### Quest [qe_iyaFal_2023_day14_t4/No header for quest qe_iyaFal_2023_day14_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day14_t4
-
-**GOALS**:
-	* Task 1: GainItem
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day14_t4_end_
-		**Joanna**
-		One of the relics we recovered is the Progenitor transponder we need. Using it to align the map we’ve located Mahel’s location!
-
-### Quest [qe_iyaFal_2023_day15_t4/No header for quest qe_iyaFal_2023_day15_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_day15_t4
-
-**GOALS**:
-	* Task 1: Complete mission 'Trader's Bargain T4'
-
-### Mission [event_iyaFal2023_Escort_t4/Trader's Bargain T4]
-**LOCATION:** MITORAI system, Hiigaran Medea territory
-
-		_e_iyaFall2023_escort_dialog_allyLow_
-		**Hiigaran Commander**
-		Commander, our ship is in danger! Please assist!
-
-		_e_iyaFall2023_escort_dialog_countdown_
-		**Hiigaran Commander**
-		I've docked. My crew has hooked up the transmitter... sending now.
-
-		_e_iyaFall2023_escort_dialog_fail_
-		**Joanna**
-		Mahel's ship is destroyed! Abort mission!
-
-		_e_iyaFall2023_escort_dialog_go_
-		**Joanna**
-		We'll cover you. Begin your run.
-
-		_e_iyaFall2023_escort_dialog_intro_
-		**Hiigaran Commander**
-		Hiigaran vessel, this is Captain Mahel. Praise Sajuuk you arrived, I couldn't break cover without an escort.
-
-		**Joanna**
-		We're here to assist and extract you, Captain.
-
-		**Hiigaran Commander**
-		I must transmit crucial data using this base's equipment, but the Iyatequa are on to me. I can't go without escort.
-
-		_e_iyaFall2023_escort_dialog_killAll_
-		**Joanna**
-		Looks like the Cangaicans ran out of ships. All hostiles destroyed, proceed on mission.
-
-		_e_iyaFall2023_escort_dialog_mines_
-		**Joanna**
-		Commander, we've detected a mine field ahead. We must clear the path to give Captain Mahel a straight shot to the station.
-
-		_e_iyaFall2023_escort_dialog_wave1A_
-		**Hiigaran Commander**
-		Cangacians incoming! They are coming for the bounty on my head. The Iyatequa don't want the information I have getting out.
-
-		_e_iyaFall2023_escort_dialog_wave1B_
-		**Hiigaran Commander**
-		Attention, a new wave has come out of hyperspace behind us.
-
-		_e_iyaFall2023_escort_dialog_wave2_
-		**Hiigaran Commander**
-		Commander, another wave has appeared. The bounty must be huge to send a fleet this big just for me.
-
-		_e_iyaFall2023_escort_dialog_wave3_
-		**Joanna**
-		More ships have emerged from Hyperspace. The Iyatequa really want this information burried.
-
-		_e_iyaFall2023_escort_dialog_win_
-		**Hiigaran Commander**
-		Transmission to Lazarus base completed. It's done, the word is out.
-
-		**Joanna**
-		The Cangacians are retreating. What information did you have?
-
-		**Hiigaran Commander**
-		The Iyatequa have been selling our Progenitor control codes.
-
-		**Hiigaran Commander**
-		If the powers here can command Progenitor units like we used to, it's going to be disasterous for the balance of power in this area.
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_day15_t4_end_
-		**Joanna**
-		Captain Mahel is in our fleet now to protect him and use his skills. Although the traders have given up, we have a bigger problem now. Command will get back to us once we know more.
-
-
-
-
-## EVENT: EVENT_IYAFAL_2023_EPILOG_T4
-
-### Quest [qe_iyaFal_2023_epi01_t4/No header for quest qe_iyaFal_2023_epi01_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_epi01_t4
-
-**GOALS**:
-	* Task 1: GainItem
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_epi01_t4_end_
-		**Joanna**
-		The resources gathered here could be useful for buying information. We need to confirm if the command codes are out.
-
-### Quest [qe_iyaFal_2023_epi02_t4/No header for quest qe_iyaFal_2023_epi02_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_epi02_t4
-
-**GOALS**:
-	* Task 1: 10 ShipsDestroyedProgenitorT4
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_epi02_t4_end_
-		**Joanna**
-		If the other powers get the Progenitor codes working, we could be facing these in droves.
-
-### Quest [qe_iyaFal_2023_epi03_t4/No header for quest qe_iyaFal_2023_epi03_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_epi03_t4
-
-**GOALS**:
-	* Task 1: GainItem
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_epi03_t4_end_
-		**Joanna**
-		We’ll need every experienced officer we can get for what’s to come. The Progenitors are an enemy on an entirely different level.
-
-### Quest [qe_iyaFal_2023_epi04_t4/No header for quest qe_iyaFal_2023_epi04_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_epi04_t4
-
-**GOALS**:
-	* Task 1: UpgradeOfficer
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_epi04_t4_end_
-		**Joanna**
-		Our newer officers didn’t serve in the war against the Vaygr. This refresher course showed them what we’ll be facing.
-
-### Quest [qe_iyaFal_2023_epi05_t4/No header for quest qe_iyaFal_2023_epi05_t4]
-**DESCRIPTION**:
-	No description for quest qe_iyaFal_2023_epi05_t4
-
-**GOALS**:
-	* Task 1: Complete 5 side missions
-
-**END-OF-DAY DIALOG:**
-		_qe_iyaFal_2023_epi05_t4_end_
-		**Joanna**
-		We’re going to need to mass our firepower for larger operations. Progenitor ships are the hardest adversary we’ve ever faced… we will need to be prepared for the worst to come.
 

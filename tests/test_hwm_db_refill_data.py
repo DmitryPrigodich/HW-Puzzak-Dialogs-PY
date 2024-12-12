@@ -141,7 +141,7 @@ def _test_refill_quest_line_data():
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
 
-def test_refill_quest_data():
+def _test_refill_quest_data():
     start_time = time.time()
 
     quests_data = Quest_Constructor()
@@ -151,3 +151,13 @@ def test_refill_quest_data():
     
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
+
+def test_refill_glossary_data():
+    start_time = time.time()
+
+    string_data = String_Data_Constructor()
+    string_data.write_startswith("glossary.")
+    
+    end_time = time.time()
+    print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
+    

@@ -25,7 +25,15 @@ class String_Data_Constructor(Constructor_Base):
         body = "# HWM STRINGS:\n"
         for string_header, string_text in self._strings.items():
             body += f"* {string_header}: {string_text}\n"
-        utils.rewrite_file(body, self._FILE_NAME)
+        utils.rewrite_file(body, "self._FILE_NAME")
+
+    def write_startswith(self, startswith):
+        body = f"# HWM Glossary: Starts with {startswith}:\n"
+        for string_key, string_value in self._strings.items():
+            if string_key.startswith(startswith):
+                body += f"### {string_key}\n"
+                body += f"{string_value}\n\n"
+        utils.rewrite_file(body, f"data/STRINGS_{startswith.replace(".","")}.md".upper())
     
     def get_cinematics_lines(self, cinematic_id):
         cinematics_map = {

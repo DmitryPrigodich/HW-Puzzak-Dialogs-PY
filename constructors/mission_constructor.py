@@ -143,7 +143,7 @@ class Mission_Constructor(Constructor_Base):
             mission = self.get_mission_by_id(mission.get("InstanceId:"))
             print(f"Replaced Mission: {mission_id}")
             
-        # Title
+        # Mission Name
         match = re.match(r'^event_(\d+)_StationDefense$', mission_id)
         if match:
             m_tier = int(match.group(1))
@@ -153,10 +153,14 @@ class Mission_Constructor(Constructor_Base):
             mission_name = self.get_string_by_key(mission_id)
         body_mission = f"\n### Mission [{mission_id}/{mission_name}]\n"
 
-        mission_desc_key = f"desc_{mission_id}_tx"
+        # Mission Description
+        mission_desc_key = f"desc_{mission_id[:-1]}x"
         mission_desc_text = self.get_string_by_key(mission_desc_key)
+        print(f"Mission Desc: {mission_desc_key}")
+        # * desc_event_iyafal2023_escort_tx: The missing captain has been located at an unnamed asteroid. Retrieve him at all costs.
+        # desc_event_iyaFal2023_Escort_t4_tx
         if mission_desc_text:
-            body_mission += f"[{mission_desc_key}/{mission_desc_text}]\n"
+            body_mission += f"**DESCRIPTION**: {mission_desc_text}\n"
         
         # Location
         if "SystemId:" in mission:
@@ -188,6 +192,8 @@ class Mission_Constructor(Constructor_Base):
             m_dialogs = self.dia_event_anniversary2023_Wiracoda
         elif mission_id.startswith("event_yaoSpr2024_Conjunction"):
             m_dialogs = self.dia_event_yaoSpr2024_Conjunction
+        elif mission_id.startswith("event_iyaFal2023_Escort"):
+            m_dialogs = self.dia_event_iyaFal2023_Escort
         else:
             m_dialogs = mission.get("DialogSequences:")
 
@@ -297,4 +303,19 @@ class Mission_Constructor(Constructor_Base):
         ,"e_yaoSpr2024_Conjunction_win"
         ,"e_yaoSpr2024_Conjunction_end"
         ,"e_yaoSpr2024_Conjunction_fail"
+    ]
+
+    dia_event_iyaFal2023_Escort = [
+	    "e_iyaFall2023_escort_dialog_intro"
+		,"e_iyaFall2023_escort_dialog_go"
+		,"e_iyaFall2023_escort_dialog_wave1A"
+		,"e_iyaFall2023_escort_dialog_mines"
+		,"e_iyaFall2023_escort_dialog_wave1B"
+		,"e_iyaFall2023_escort_dialog_allyLow"
+		,"e_iyaFall2023_escort_dialog_wave2"
+		,"e_iyaFall2023_escort_dialog_countdown"
+		,"e_iyaFall2023_escort_dialog_wave3"
+		,"e_iyaFall2023_escort_dialog_killAll"
+		,"e_iyaFall2023_escort_dialog_win"
+		,"e_iyaFall2023_escort_dialog_fail"
     ]
