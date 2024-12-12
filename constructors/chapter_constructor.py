@@ -57,3 +57,17 @@ class Chapter_Constructor(Constructor_Base):
     def _get_chapter_name(self, chapter_id):
         chaptername_key = f"chaptername_{chapter_id}"
         return self.get_string_by_key(chaptername_key)
+    
+
+    def get_chapter_text(self, chapter_id):
+        
+        chapter = self._chapters.get(chapter_id)
+
+        chapter_order = chapter.get("Order:")
+        chapter_name = chapter.get("Name:")
+        chapter_quest_ids = chapter.get("Ids:")
+
+        body_chapter = f"\n## {chapter_order}. {chapter_id}/{chapter_name}\n"
+        # ...and so on...
+
+        return body_chapter

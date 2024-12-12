@@ -39,7 +39,7 @@ class Quest_Line_Constructor(Constructor_Base):
         utils.rewrite_file(body, self._FILE_NAME)
 
     # full set for analysis only
-    def write_data_tmp(self):
+    def _write_data_tmp(self):
         _title = "HWM Quest Lines TMP"
         _tmp_data = self._quest_line_data
         _splitter = ":"

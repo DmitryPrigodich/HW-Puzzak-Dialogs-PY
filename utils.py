@@ -66,4 +66,4 @@ def get_corrected_faction_name(faction):
 def remove_color(text):
     pattern = r"<color.*?</color>"
     clean_text = re.sub(pattern, "", text, flags=re.DOTALL)
-    return clean_text
+    return clean_text.strip()

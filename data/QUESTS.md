@@ -3168,6 +3168,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_TEST_EVENTTESTQUEST_1
 * Name: No header for quest qe_test_eventtestquest_1
 * Description: No description for quest qe_test_eventtestquest_1
+
 * Type: Event
 * Goals:
 	* Task 1: Craft
@@ -3175,6 +3176,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_TEST_EVENTTESTQUEST_2
 * Name: No header for quest qe_test_eventtestquest_2
 * Description: No description for quest qe_test_eventtestquest_2
+
 * Type: Event
 * Goals:
 	* Task 1: Pay 10 Credits
@@ -3182,6 +3184,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_TEST_EVENTTESTQUEST_3
 * Name: No header for quest qe_test_eventtestquest_3
 * Description: No description for quest qe_test_eventtestquest_3
+
 * Type: Event
 * Goals:
 	* Task 1: Complete side mission
@@ -3189,6 +3192,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAILY_A_T2
 * Name: No header for quest qe_yaot_spring_2023_daily_A_t2
 * Description: No description for quest qe_yaot_spring_2023_daily_A_t2
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3197,6 +3201,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAILY_B_T2
 * Name: No header for quest qe_yaot_spring_2023_daily_B_t2
 * Description: No description for quest qe_yaot_spring_2023_daily_B_t2
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3205,6 +3210,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAILY_C_T3
 * Name: No header for quest qe_yaot_spring_2023_daily_C_t3
 * Description: No description for quest qe_yaot_spring_2023_daily_C_t3
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3213,6 +3219,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAILY_D_T3
 * Name: No header for quest qe_yaot_spring_2023_daily_D_t3
 * Description: No description for quest qe_yaot_spring_2023_daily_D_t3
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3221,6 +3228,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY1
 * Name: No header for quest qe_yaot_spring_2023_day1
 * Description: No description for quest qe_yaot_spring_2023_day1
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3229,6 +3237,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY2
 * Name: No header for quest qe_yaot_spring_2023_day2
 * Description: No description for quest qe_yaot_spring_2023_day2
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3237,6 +3246,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY3
 * Name: No header for quest qe_yaot_spring_2023_day3
 * Description: No description for quest qe_yaot_spring_2023_day3
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3245,6 +3255,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY4
 * Name: No header for quest qe_yaot_spring_2023_day4
 * Description: No description for quest qe_yaot_spring_2023_day4
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3253,6 +3264,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY5
 * Name: No header for quest qe_yaot_spring_2023_day5
 * Description: No description for quest qe_yaot_spring_2023_day5
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3261,6 +3273,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY6
 * Name: No header for quest qe_yaot_spring_2023_day6
 * Description: No description for quest qe_yaot_spring_2023_day6
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3269,6 +3282,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY7
 * Name: No header for quest qe_yaot_spring_2023_day7
 * Description: No description for quest qe_yaot_spring_2023_day7
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3277,6 +3291,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY8
 * Name: No header for quest qe_yaot_spring_2023_day8
 * Description: No description for quest qe_yaot_spring_2023_day8
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3285,6 +3300,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY9
 * Name: No header for quest qe_yaot_spring_2023_day9
 * Description: No description for quest qe_yaot_spring_2023_day9
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3293,6 +3309,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY10
 * Name: No header for quest qe_yaot_spring_2023_day10
 * Description: No description for quest qe_yaot_spring_2023_day10
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3301,6 +3318,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY11
 * Name: No header for quest qe_yaot_spring_2023_day11
 * Description: No description for quest qe_yaot_spring_2023_day11
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3309,6 +3327,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY12
 * Name: No header for quest qe_yaot_spring_2023_day12
 * Description: No description for quest qe_yaot_spring_2023_day12
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3317,6 +3336,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY13
 * Name: No header for quest qe_yaot_spring_2023_day13
 * Description: No description for quest qe_yaot_spring_2023_day13
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
@@ -3325,621 +3345,782 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_YAOT_SPRING_2023_DAY14
 * Name: No header for quest qe_yaot_spring_2023_day14
 * Description: No description for quest qe_yaot_spring_2023_day14
+
 * Type: Event
 * EventId: event_season_yaoSpr_2023
 * Goals:
 	* Task 1: Complete mission 'Tanochet (Event)'
 
 ## QE_AMASUM_2023_DAILY_A_T1
-* Name: No header for quest qe_amaSum_2023_daily_A_t1
-* Description: No description for quest qe_amaSum_2023_daily_A_t1
+* Name: Gather for Many
+* Description: To continue operations in Amassari space, we need to replenish our strategic reserves. Collect resources to build up this stockpile.
+
+<color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAILY_B_T1
-* Name: No header for quest qe_amaSum_2023_daily_B_t1
-* Description: No description for quest qe_amaSum_2023_daily_B_t1
+* Name: Make into Plenty
+* Description: The quartermaster is concerned about our stockpile of spare parts. Begin construction of spares to replenish supplies.
+
+<color=#FBB03F>Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAILY_C_T1
-* Name: No header for quest qe_amaSum_2023_daily_C_t1
-* Description: No description for quest qe_amaSum_2023_daily_C_t1
+* Name: Protect the Weak
+* Description: Combat channels are rife with activity from Kiithless Hiigarans. It's our responsibility to put a stop to these raids and restore the peace.
+
+<color=#FBB03F>While normally raiding Amassari space, Kidara's Kiithless have recently begun aggressive incursions into the rest of the galaxy. Find their fleets in signals and asteroid clusters and destroy them.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: 10 ShipsDestroyedDarkHiigaranT1_ShipsDestroyedDarkHiigaranT2_ShipsDestroyedDarkHiigaranT3_ShipsDestroyedDarkHiigaranT4
 
 ## QE_AMASUM_2023_DAILY_D_T1
-* Name: No header for quest qe_amaSum_2023_daily_D_t1
-* Description: No description for quest qe_amaSum_2023_daily_D_t1
+* Name: Find the Lost
+* Description: Monitoring Kiithless channels reveals a Progenitor Relic is nearby. We need to secure it before they do.
+
+<color=#FBB03F>Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY1_T1
-* Name: No header for quest qe_amaSum_2023_day1_t1
-* Description: No description for quest qe_amaSum_2023_day1_t1
+* Name: Day 1: Provide Parts
+* Description: The Amassari have very little in the way of developed industry, and would appreciate any refined parts we can provide. Craft some to provide a supply.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY2_T1
-* Name: No header for quest qe_amaSum_2023_day2_t1
-* Description: No description for quest qe_amaSum_2023_day2_t1
+* Name: Day 2: Find Treasures
+* Description: Sensors have detected possible ruins of interest in the vicinity. Investigate to see if there's anything of interest found here.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY3_T1
-* Name: No header for quest qe_amaSum_2023_day3_t1
-* Description: No description for quest qe_amaSum_2023_day3_t1
+* Name: Day 3: Learn our Ways
+* Description: Very little is known about the Hagthar Empire, the ancestors of the Amassari. In order to continue operations here, we need to educate our officers about what we know.
+
+<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: UpgradeOfficer
 
 ## QE_AMASUM_2023_DAY4_T1
-* Name: No header for quest qe_amaSum_2023_day4_t1
-* Description: No description for quest qe_amaSum_2023_day4_t1
+* Name: Day 4: Ally and Friend
+* Description: Our guide is willing to connect us with several Amassari officials in the vicinity that need help. We could benefit from this cooperation.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY5_T1
-* Name: No header for quest qe_amaSum_2023_day5_t1
-* Description: No description for quest qe_amaSum_2023_day5_t1
+* Name: Day 5: Race for Gold
+* Description: Jothru has revealed there may be more information to find among the Hagthar ruins if we can find the pieces. We must prepare for this venture.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY6_T1
-* Name: No header for quest qe_amaSum_2023_day6_t1
-* Description: No description for quest qe_amaSum_2023_day6_t1
+* Name: Day 6: Hunting high and low
+* Description: Jothru can provide the whereabouts, but not the exact location, of key pieces belonging to significant parts of Hagthar history. Perhaps we can learn what the Kiithless are seeking.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY7_T1
-* Name: No header for quest qe_amaSum_2023_day7_t1
-* Description: No description for quest qe_amaSum_2023_day7_t1
+* Name: Day 7: Ways of the Enemy
+* Description: Kiithless strikes have been increasing against the Amassari. We need to calibrate our training to match their new battle techniques in order to stop them.
+
+<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY8_T1
-* Name: No header for quest qe_amaSum_2023_day8_t1
-* Description: No description for quest qe_amaSum_2023_day8_t1
+* Name: Day 8: Hand against Foe
+* Description: Our training was timely. Jothru has handed us some leads on potential Kiithless activity in the region. We must investigate.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY9_T1
-* Name: No header for quest qe_amaSum_2023_day9_t1
-* Description: No description for quest qe_amaSum_2023_day9_t1
+* Name: Day 9: Distant Gems
+* Description: During our battles we took some hits to ship's stores. It's advised to rebuild our stockpiles with refined ores.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY10_T1
-* Name: No header for quest qe_amaSum_2023_day10_t1
-* Description: No description for quest qe_amaSum_2023_day10_t1
+* Name: Day 10: Path of the Reclaimer
+* Description: More Amassari have reached out to Jothru and us with more jobs. There's an unspoken offer as well to assist with our strikes against the Kiithless.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY11_T1
-* Name: No header for quest qe_amaSum_2023_day11_t1
-* Description: No description for quest qe_amaSum_2023_day11_t1
+* Name: Day 11: Knowledge and Defense
+* Description: Assisting the Amassari has paid off, we're intercepting communications traffic suggesting they're being disrupted. We need to brief all officers on this stage of the operation against them.
+
+<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: UpgradeOfficer
 
 ## QE_AMASUM_2023_DAY12_T1
-* Name: No header for quest qe_amaSum_2023_day12_t1
-* Description: No description for quest qe_amaSum_2023_day12_t1
+* Name: Day 12: Star Hunter
+* Description: Fleet Intelligence has deduced several available targets belonging to the Kiithless. If we hit them, it will further disrupt their supplies to the point of dissolving their operations here.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY13_T1
-* Name: No header for quest qe_amaSum_2023_day13_t1
-* Description: No description for quest qe_amaSum_2023_day13_t1
+* Name: Day 13: Crown of Stones
+* Description: We need to stockpile resources to prepare for a final battle against the Kiithless in the Hather Plains.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY14_T1
-* Name: No header for quest qe_amaSum_2023_day14_t1
-* Description: No description for quest qe_amaSum_2023_day14_t1
+* Name: Day 14: Lord of the Dust
+* Description: All officers need to be briefed on the potential dangers posed by the remaining Kiithless fleet.
+
+<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY15_T1
-* Name: No header for quest qe_amaSum_2023_day15_t1
-* Description: No description for quest qe_amaSum_2023_day15_t1
+* Name: Day 15: Kin of the Amassari
+* Description: The Kiithless are targeting Ambadda waystation. Thassin's Needle, an artifact, is housed here. They must be stopped from raiding this station!
+
+<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it.</color>
+
+<color=#FBB03F>To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t1
 * Goals:
 	* Task 1: Complete mission 'event_01_StationDefense'
 
 ## QE_AMASUM_2023_DAILY_A_T2
-* Name: No header for quest qe_amaSum_2023_daily_A_t2
-* Description: No description for quest qe_amaSum_2023_daily_A_t2
+* Name: Gather for Many
+* Description: To continue operations in Amassari space, we need to replenish our strategic reserves. Collect resources to build up this stockpile.
+
+<color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAILY_B_T2
-* Name: No header for quest qe_amaSum_2023_daily_B_t2
-* Description: No description for quest qe_amaSum_2023_daily_B_t2
+* Name: Make into Plenty
+* Description: The quartermaster is concerned about our stockpile of spare parts. Begin construction of spares to replenish supplies.
+
+<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAILY_C_T2
-* Name: No header for quest qe_amaSum_2023_daily_C_t2
-* Description: No description for quest qe_amaSum_2023_daily_C_t2
+* Name: Protect the Weak
+* Description: Combat channels are rife with activity from Kiithless Hiigarans. It's our responsibility to put a stop to these raids and restore the peace.
+
+<color=#FBB03F>While normally raiding Amassari space, Kidara's Kiithless have recently begun aggressive incursions into the rest of the galaxy. Find their fleets in signals and asteroid clusters and destroy them.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: 10 ShipsDestroyedDarkHiigaranT2_ShipsDestroyedDarkHiigaranT3_ShipsDestroyedDarkHiigaranT4
 
 ## QE_AMASUM_2023_DAILY_D_T2
-* Name: No header for quest qe_amaSum_2023_daily_D_t2
-* Description: No description for quest qe_amaSum_2023_daily_D_t2
+* Name: Find the Lost
+* Description: Monitoring Kiithless channels reveals a Progenitor Relic is nearby. We need to secure it before they do.
+
+<color=#FBB03F>Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY1_T2
-* Name: No header for quest qe_amaSum_2023_day1_t2
-* Description: No description for quest qe_amaSum_2023_day1_t2
+* Name: Day 1: Provide Parts
+* Description: The Amassari have very little in the way of developed industry, and would appreciate any refined parts we can provide. Craft some to provide a supply.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY2_T2
-* Name: No header for quest qe_amaSum_2023_day2_t2
-* Description: No description for quest qe_amaSum_2023_day2_t2
+* Name: Day 2: Find Treasures
+* Description: Sensors have detected possible ruins of interest in the vicinity. Investigate to see if there's anything of interest found here.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY3_T2
-* Name: No header for quest qe_amaSum_2023_day3_t2
-* Description: No description for quest qe_amaSum_2023_day3_t2
+* Name: Day 3: Learn our Ways
+* Description: Very little is known about the Hagthar Empire, the ancestors of the Amassari. In order to continue operations here, we need to educate our officers about what we know.
+
+<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: UpgradeOfficer
 
 ## QE_AMASUM_2023_DAY4_T2
-* Name: No header for quest qe_amaSum_2023_day4_t2
-* Description: No description for quest qe_amaSum_2023_day4_t2
+* Name: Day 4: Ally and Friend
+* Description: Our guide is willing to connect us with several Amassari officials in the vicinity that need help. We could benefit from this cooperation.
+
+<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Higher reputation levels unlock additional items in that faction's liaison requisitions office.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: 5 Faction_T2up
 
 ## QE_AMASUM_2023_DAY5_T2
-* Name: No header for quest qe_amaSum_2023_day5_t2
-* Description: No description for quest qe_amaSum_2023_day5_t2
+* Name: Day 5: Race for Gold
+* Description: Jothru has revealed there may be more information to find among the Hagthar ruins if we can find the pieces. We must prepare for this venture.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY6_T2
-* Name: No header for quest qe_amaSum_2023_day6_t2
-* Description: No description for quest qe_amaSum_2023_day6_t2
+* Name: Day 6: Hunting high and low
+* Description: Jothru can provide the whereabouts, but not the exact location, of key pieces belonging to significant parts of Hagthar history. Perhaps we can learn what the Kiithless are seeking.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY7_T2
-* Name: No header for quest qe_amaSum_2023_day7_t2
-* Description: No description for quest qe_amaSum_2023_day7_t2
+* Name: Day 7: Ways of the Enemy
+* Description: Kiithless strikes have been increasing against the Amassari. We need to calibrate our training to match their new battle techniques in order to stop them.
+
+<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY8_T2
-* Name: No header for quest qe_amaSum_2023_day8_t2
-* Description: No description for quest qe_amaSum_2023_day8_t2
+* Name: Day 8: Hand against Foe
+* Description: Our training was timely. Jothru has handed us some leads on potential Kiithless activity in the region. We must investigate.
+
+<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Complete side mission
 
 ## QE_AMASUM_2023_DAY9_T2
-* Name: No header for quest qe_amaSum_2023_day9_t2
-* Description: No description for quest qe_amaSum_2023_day9_t2
+* Name: Day 9: Distant Gems
+* Description: During our battles we took some hits to ship's stores. It's advised to rebuild our stockpiles with refined ores.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY10_T2
-* Name: No header for quest qe_amaSum_2023_day10_t2
-* Description: No description for quest qe_amaSum_2023_day10_t2
+* Name: Day 10: Path of the Reclaimer
+* Description: More Amassari have reached out to Jothru and us with more jobs. There's an unspoken offer as well to assist with our strikes against the Kiithless.
+
+<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Higher reputation levels unlock additional items in that faction's liaison requisitions office.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: 5 Faction_T2up
 
 ## QE_AMASUM_2023_DAY11_T2
-* Name: No header for quest qe_amaSum_2023_day11_t2
-* Description: No description for quest qe_amaSum_2023_day11_t2
+* Name: Day 11: Knowledge and Defense
+* Description: Assisting the Amassari has paid off, we're intercepting communications traffic suggesting they're being disrupted. We need to brief all officers on this stage of the operation against them.
+
+<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: UpgradeOfficer
 
 ## QE_AMASUM_2023_DAY12_T2
-* Name: No header for quest qe_amaSum_2023_day12_t2
-* Description: No description for quest qe_amaSum_2023_day12_t2
+* Name: Day 12: Star Hunter
+* Description: Fleet Intelligence has deduced several available targets belonging to the Kiithless. If we hit them, it will further disrupt their supplies to the point of dissolving their operations here.
+
+<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Complete side mission
 
 ## QE_AMASUM_2023_DAY13_T2
-* Name: No header for quest qe_amaSum_2023_day13_t2
-* Description: No description for quest qe_amaSum_2023_day13_t2
+* Name: Day 13: Crown of Stones
+* Description: We need to stockpile resources to prepare for a final battle against the Kiithless in the Hather Plains.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY14_T2
-* Name: No header for quest qe_amaSum_2023_day14_t2
-* Description: No description for quest qe_amaSum_2023_day14_t2
+* Name: Day 14: Lord of the Dust
+* Description: All officers need to be briefed on the potential dangers posed by the remaining Kiithless fleet.
+
+<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY15_T2
-* Name: No header for quest qe_amaSum_2023_day15_t2
-* Description: No description for quest qe_amaSum_2023_day15_t2
+* Name: Day 15: Kin of the Amassari
+* Description: The Kiithless are targeting Ambadda waystation. Thassin's Needle, an artifact, is housed here. They must be stopped from raiding this station!
+
+<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it.</color>
+
+<color=#FBB03F>To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t2
 * Goals:
 	* Task 1: Complete mission 'event_02_StationDefense'
 
 ## QE_AMASUM_2023_DAILY_A_T3
-* Name: No header for quest qe_amaSum_2023_daily_A_t3
-* Description: No description for quest qe_amaSum_2023_daily_A_t3
+* Name: Gather for Many
+* Description: To continue operations in Amassari space, we need to replenish our strategic reserves. Collect resources to build up this stockpile.
+
+<color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAILY_B_T3
-* Name: No header for quest qe_amaSum_2023_daily_B_t3
-* Description: No description for quest qe_amaSum_2023_daily_B_t3
+* Name: Make into Plenty
+* Description: The quartermaster is concerned about our stockpile of spare parts. Begin construction of spares to replenish supplies.
+
+<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAILY_C_T3
-* Name: No header for quest qe_amaSum_2023_daily_C_t3
-* Description: No description for quest qe_amaSum_2023_daily_C_t3
+* Name: Protect the Weak
+* Description: Combat channels are rife with activity from Kiithless Hiigarans. It's our responsibility to put a stop to these raids and restore the peace.
+
+<color=#FBB03F>While normally raiding Amassari space, Kidara's Kiithless have recently begun aggressive incursions into the rest of the galaxy. Find their fleets in signals and asteroid clusters and destroy them.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: 10 ShipsDestroyedDarkHiigaranT3_ShipsDestroyedDarkHiigaranT4
 
 ## QE_AMASUM_2023_DAILY_D_T3
-* Name: No header for quest qe_amaSum_2023_daily_D_t3
-* Description: No description for quest qe_amaSum_2023_daily_D_t3
+* Name: Find the Lost
+* Description: Monitoring Kiithless channels reveals a Progenitor Relic is nearby. We need to secure it before they do.
+
+<color=#FBB03F>Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY1_T3
-* Name: No header for quest qe_amaSum_2023_day1_t3
-* Description: No description for quest qe_amaSum_2023_day1_t3
+* Name: Day 1: Provide Parts
+* Description: The Amassari have very little in the way of developed industry, and would appreciate any refined parts we can provide. Craft some to provide a supply.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY2_T3
-* Name: No header for quest qe_amaSum_2023_day2_t3
-* Description: No description for quest qe_amaSum_2023_day2_t3
+* Name: Day 2: Find Treasures
+* Description: Sensors have detected possible ruins of interest in the vicinity. Investigate to see if there's anything of interest found here.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY3_T3
-* Name: No header for quest qe_amaSum_2023_day3_t3
-* Description: No description for quest qe_amaSum_2023_day3_t3
+* Name: Day 3: Learn our Ways
+* Description: Very little is known about the Hagthar Empire, the ancestors of the Amassari. In order to continue operations here, we need to educate our officers about what we know.
+
+<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: UpgradeOfficer
 
 ## QE_AMASUM_2023_DAY4_T3
-* Name: No header for quest qe_amaSum_2023_day4_t3
-* Description: No description for quest qe_amaSum_2023_day4_t3
+* Name: Day 4: Ally and Friend
+* Description: Our guide is willing to connect us with several Amassari officials in the vicinity that need help. We could benefit from this cooperation.
+
+<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Higher reputation levels unlock additional items in that faction's liaison requisitions office.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: 5 Faction_T3up
 
 ## QE_AMASUM_2023_DAY5_T3
-* Name: No header for quest qe_amaSum_2023_day5_t3
-* Description: No description for quest qe_amaSum_2023_day5_t3
+* Name: Day 5: Race for Gold
+* Description: Jothru has revealed there may be more information to find among the Hagthar ruins if we can find the pieces. We must prepare for this venture.
+
+<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY6_T3
-* Name: No header for quest qe_amaSum_2023_day6_t3
-* Description: No description for quest qe_amaSum_2023_day6_t3
+* Name: Day 6: Hunting high and low
+* Description: Jothru can provide the whereabouts, but not the exact location, of key pieces belonging to significant parts of Hagthar history. Perhaps we can learn what the Kiithless are seeking.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY7_T3
-* Name: No header for quest qe_amaSum_2023_day7_t3
-* Description: No description for quest qe_amaSum_2023_day7_t3
+* Name: Day 7: Ways of the Enemy
+* Description: Kiithless strikes have been increasing against the Amassari. We need to calibrate our training to match their new battle techniques in order to stop them.
+
+<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY8_T3
-* Name: No header for quest qe_amaSum_2023_day8_t3
-* Description: No description for quest qe_amaSum_2023_day8_t3
+* Name: Day 8: Hand against Foe
+* Description: Our training was timely. Jothru has handed us some leads on potential Kiithless activity in the region. We must investigate.
+
+<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY9_T3
-* Name: No header for quest qe_amaSum_2023_day9_t3
-* Description: No description for quest qe_amaSum_2023_day9_t3
+* Name: Day 9: Distant Gems
+* Description: During our battles we took some hits to ship's stores. It's advised to rebuild our stockpiles with refined ores.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY10_T3
-* Name: No header for quest qe_amaSum_2023_day10_t3
-* Description: No description for quest qe_amaSum_2023_day10_t3
+* Name: Day 10: Path of the Reclaimer
+* Description: More Amassari have reached out to Jothru and us with more jobs. There's an unspoken offer as well to assist with our strikes against the Kiithless.
+
+<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Higher reputation levels unlock additional items in that faction's liaison requisitions office.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: 5 Faction_T3up
 
 ## QE_AMASUM_2023_DAY11_T3
-* Name: No header for quest qe_amaSum_2023_day11_t3
-* Description: No description for quest qe_amaSum_2023_day11_t3
+* Name: Day 11: Knowledge and Defense
+* Description: Assisting the Amassari has paid off, we're intercepting communications traffic suggesting they're being disrupted. We need to brief all officers on this stage of the operation against them.
+
+<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: UpgradeOfficer
 
 ## QE_AMASUM_2023_DAY12_T3
-* Name: No header for quest qe_amaSum_2023_day12_t3
-* Description: No description for quest qe_amaSum_2023_day12_t3
+* Name: Day 12: Star Hunter
+* Description: Fleet Intelligence has deduced several available targets belonging to the Kiithless. If we hit them, it will further disrupt their supplies to the point of dissolving their operations here.
+
+<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY13_T3
-* Name: No header for quest qe_amaSum_2023_day13_t3
-* Description: No description for quest qe_amaSum_2023_day13_t3
+* Name: Day 13: Crown of Stones
+* Description: We need to stockpile resources to prepare for a final battle against the Kiithless in the Hather Plains.
+
+<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY14_T3
-* Name: No header for quest qe_amaSum_2023_day14_t3
-* Description: No description for quest qe_amaSum_2023_day14_t3
+* Name: Day 14: Lord of the Dust
+* Description: All officers need to be briefed on the potential dangers posed by the remaining Kiithless fleet.
+
+<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY15_T3
-* Name: No header for quest qe_amaSum_2023_day15_t3
-* Description: No description for quest qe_amaSum_2023_day15_t3
+* Name: Day 15: Kin of the Amassari
+* Description: The Kiithless are targeting Ambadda waystation. Thassin's Needle, an artifact, is housed here. They must be stopped from raiding this station!
+
+<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it.</color>
+
+<color=#FBB03F>To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t3
 * Goals:
 	* Task 1: Complete mission 'event_03_StationDefense'
 
 ## QE_AMASUM_2023_DAILY_A_T4
-* Name: No header for quest qe_amaSum_2023_daily_A_t4
-* Description: No description for quest qe_amaSum_2023_daily_A_t4
+* Name: Gather for Many
+* Description: To continue operations in Amassari space, we need to replenish our strategic reserves. Collect resources to build up this stockpile.
+
+<color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAILY_B_T4
-* Name: No header for quest qe_amaSum_2023_daily_B_t4
-* Description: No description for quest qe_amaSum_2023_daily_B_t4
+* Name: Make into Plenty
+* Description: The quartermaster is concerned about our stockpile of spare parts. Begin construction of spares to replenish supplies.
+
+<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAILY_C_T4
-* Name: No header for quest qe_amaSum_2023_daily_C_t4
-* Description: No description for quest qe_amaSum_2023_daily_C_t4
+* Name: Protect the Weak
+* Description: Combat channels are rife with activity from Kiithless Hiigarans. It's our responsibility to put a stop to these raids and restore the peace.
+
+<color=#FBB03F>While normally raiding Amassari space, Kidara's Kiithless have recently begun aggressive incursions into the rest of the galaxy. Find their fleets in signals and asteroid clusters and destroy them.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: 10 ShipsDestroyedDarkHiigaranT4
 
 ## QE_AMASUM_2023_DAILY_D_T4
-* Name: No header for quest qe_amaSum_2023_daily_D_t4
-* Description: No description for quest qe_amaSum_2023_daily_D_t4
+* Name: Find the Lost
+* Description: Monitoring Kiithless channels reveals a Progenitor Relic is nearby. We need to secure it before they do.
+
+<color=#FBB03F>Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY1_T4
-* Name: No header for quest qe_amaSum_2023_day1_t4
-* Description: No description for quest qe_amaSum_2023_day1_t4
+* Name: Day 1: Provide Parts
+* Description: The Amassari have very little in the way of developed industry, and would appreciate any refined parts we can provide. Craft some to provide a supply.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY2_T4
-* Name: No header for quest qe_amaSum_2023_day2_t4
-* Description: No description for quest qe_amaSum_2023_day2_t4
+* Name: Day 2: Find Treasures
+* Description: Sensors have detected possible ruins of interest in the vicinity. Investigate to see if there's anything of interest found here.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY3_T4
-* Name: No header for quest qe_amaSum_2023_day3_t4
-* Description: No description for quest qe_amaSum_2023_day3_t4
+* Name: Day 3: Learn our Ways
+* Description: Very little is known about the Hagthar Empire, the ancestors of the Amassari. In order to continue operations here, we need to educate our officers about what we know.
+
+<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: UpgradeOfficer
 
 ## QE_AMASUM_2023_DAY4_T4
-* Name: No header for quest qe_amaSum_2023_day4_t4
-* Description: No description for quest qe_amaSum_2023_day4_t4
+* Name: Day 4: Ally and Friend
+* Description: Our guide is willing to connect us with several Amassari officials in the vicinity that need help. We could benefit from this cooperation.
+
+<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Higher reputation levels unlock additional items in that faction's liaison requisitions office.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: 5 Faction_Amassari_T4up
 
 ## QE_AMASUM_2023_DAY5_T4
-* Name: No header for quest qe_amaSum_2023_day5_t4
-* Description: No description for quest qe_amaSum_2023_day5_t4
+* Name: Day 5: Race for Gold
+* Description: Jothru has revealed there may be more information to find among the Hagthar ruins if we can find the pieces. We must prepare for this venture.
+
+<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY6_T4
-* Name: No header for quest qe_amaSum_2023_day6_t4
-* Description: No description for quest qe_amaSum_2023_day6_t4
+* Name: Day 6: Hunting high and low
+* Description: Jothru can provide the whereabouts, but not the exact location, of key pieces belonging to significant parts of Hagthar history. Perhaps we can learn what the Kiithless are seeking.
+
+<color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: Complete 3 side missions
 
 ## QE_AMASUM_2023_DAY7_T4
-* Name: No header for quest qe_amaSum_2023_day7_t4
-* Description: No description for quest qe_amaSum_2023_day7_t4
+* Name: Day 7: Ways of the Enemy
+* Description: Kiithless strikes have been increasing against the Amassari. We need to calibrate our training to match their new battle techniques in order to stop them.
+
+<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY8_T4
-* Name: No header for quest qe_amaSum_2023_day8_t4
-* Description: No description for quest qe_amaSum_2023_day8_t4
+* Name: Day 8: Hand against Foe
+* Description: Our training was timely. Jothru has handed us some leads on potential Kiithless activity in the region. We must investigate.
+
+<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: Complete 5 side missions
 
 ## QE_AMASUM_2023_DAY9_T4
-* Name: No header for quest qe_amaSum_2023_day9_t4
-* Description: No description for quest qe_amaSum_2023_day9_t4
+* Name: Day 9: Distant Gems
+* Description: During our battles we took some hits to ship's stores. It's advised to rebuild our stockpiles with refined ores.
+
+<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: Craft
 
 ## QE_AMASUM_2023_DAY10_T4
-* Name: No header for quest qe_amaSum_2023_day10_t4
-* Description: No description for quest qe_amaSum_2023_day10_t4
+* Name: Day 10: Path of the Reclaimer
+* Description: More Amassari have reached out to Jothru and us with more jobs. There's an unspoken offer as well to assist with our strikes against the Kiithless.
+
+<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Higher reputation levels unlock additional items in that faction's liaison requisitions office.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: 5 Faction_Amassari_T4up
 
 ## QE_AMASUM_2023_DAY11_T4
-* Name: No header for quest qe_amaSum_2023_day11_t4
-* Description: No description for quest qe_amaSum_2023_day11_t4
+* Name: Day 11: Knowledge and Defense
+* Description: Assisting the Amassari has paid off, we're intercepting communications traffic suggesting they're being disrupted. We need to brief all officers on this stage of the operation against them.
+
+<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: UpgradeOfficer
 
 ## QE_AMASUM_2023_DAY12_T4
-* Name: No header for quest qe_amaSum_2023_day12_t4
-* Description: No description for quest qe_amaSum_2023_day12_t4
+* Name: Day 12: Star Hunter
+* Description: Fleet Intelligence has deduced several available targets belonging to the Kiithless. If we hit them, it will further disrupt their supplies to the point of dissolving their operations here.
+
+<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: Complete 5 side missions
 
 ## QE_AMASUM_2023_DAY13_T4
-* Name: No header for quest qe_amaSum_2023_day13_t4
-* Description: No description for quest qe_amaSum_2023_day13_t4
+* Name: Day 13: Crown of Stones
+* Description: We need to stockpile resources to prepare for a final battle against the Kiithless in the Hather Plains.
+
+<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY14_T4
-* Name: No header for quest qe_amaSum_2023_day14_t4
-* Description: No description for quest qe_amaSum_2023_day14_t4
+* Name: Day 14: Lord of the Dust
+* Description: All officers need to be briefed on the potential dangers posed by the remaining Kiithless fleet.
+
+<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: GainItem
 
 ## QE_AMASUM_2023_DAY15_T4
-* Name: No header for quest qe_amaSum_2023_day15_t4
-* Description: No description for quest qe_amaSum_2023_day15_t4
+* Name: Day 15: Kin of the Amassari
+* Description: The Kiithless are targeting Ambadda waystation. Thassin's Needle, an artifact, is housed here. They must be stopped from raiding this station!
+
+<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it.</color>
+
+<color=#FBB03F>To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
 * Type: Event
 * EventId: event_season_amaSum_2023_t4
 * Goals:
 	* Task 1: Complete mission 'event_04_StationDefense'
 
 ## QE_7DAYS_MAR_2024_DAILY_A_T1
-* Name: Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.
+* Name: Routine Scan Test
 * Description: Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -3947,7 +4128,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_7DAYS_MAR_2024_DAILY_A_T2
-* Name: Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.
+* Name: Routine Scan Test
 * Description: Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -3955,7 +4136,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_7DAYS_MAR_2024_DAILY_A_T3
-* Name: Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.
+* Name: Routine Scan Test
 * Description: Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -3963,7 +4144,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_7DAYS_MAR_2024_DAILY_A_T4
-* Name: Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.
+* Name: Routine Scan Test
 * Description: Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -3971,7 +4152,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_7DAYS_MAR_2024_DAILY_B_T1
-* Name: Progenitor relics can be found in relic signature signals.
+* Name: Archeological Charity
 * Description: Progenitor relics can be found in relic signature signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -3979,7 +4160,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_7DAYS_MAR_2024_DAILY_B_T2
-* Name: Progenitor relics can be found in relic signature signals.
+* Name: Archeological Charity
 * Description: Progenitor relics can be found in relic signature signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -3987,7 +4168,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_7DAYS_MAR_2024_DAILY_B_T3
-* Name: Progenitor relics can be found in relic signature signals.
+* Name: Archeological Charity
 * Description: Progenitor relics can be found in relic signature signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -3995,7 +4176,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_7DAYS_MAR_2024_DAILY_B_T4
-* Name: Progenitor relics can be found in relic signature signals.
+* Name: Archeological Charity
 * Description: Progenitor relics can be found in relic signature signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4003,7 +4184,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_7DAYS_MAR_2024_DAILY_C_T1
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Combat Drill
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4011,7 +4192,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAILY_C_T2
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Combat Drill
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4019,7 +4200,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAILY_C_T3
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Combat Drill
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4027,7 +4208,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAILY_C_T4
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Combat Drill
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4035,7 +4216,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAILY_D_T1
-* Name: Prestige is earned through each player level-up and by completing daily and weekly assignments.
+* Name: Road to Promotion
 * Description: Prestige is earned through each player level-up and by completing daily and weekly assignments.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4043,7 +4224,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAILY_D_T2
-* Name: Prestige is earned through each player level-up and by completing daily and weekly assignments.
+* Name: Road to Promotion
 * Description: Prestige is earned through each player level-up and by completing daily and weekly assignments.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4051,7 +4232,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAILY_D_T3
-* Name: Prestige is earned through each player level-up and by completing daily and weekly assignments.
+* Name: Road to Promotion
 * Description: Prestige is earned through each player level-up and by completing daily and weekly assignments.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4059,7 +4240,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAILY_D_T4
-* Name: Prestige is earned through each player level-up and by completing daily and weekly assignments.
+* Name: Road to Promotion
 * Description: Prestige is earned through each player level-up and by completing daily and weekly assignments.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4099,7 +4280,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_7DAYS_MAR_2024_DAY1_B_T1
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 1: Staking a Claim
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4107,7 +4288,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT1_ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY1_B_T2
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 1: Staking a Claim
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4115,7 +4296,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY1_B_T3
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 1: Staking a Claim
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4123,7 +4304,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY1_B_T4
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 1: Staking a Claim
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4131,7 +4312,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY1_C_T1
-* Name: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
+* Name: Day 1: Gathering
 * Description: Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4139,7 +4320,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY1_C_T2
-* Name: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
+* Name: Day 1: Gathering
 * Description: Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4147,7 +4328,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY1_C_T3
-* Name: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
+* Name: Day 1: Gathering
 * Description: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4155,7 +4336,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY1_C_T4
-* Name: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
+* Name: Day 1: Gathering
 * Description: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4163,7 +4344,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY1_D_T1
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Day 1: Processing
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4171,7 +4352,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY1_D_T2
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Day 1: Processing
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4179,7 +4360,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY1_D_T3
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Day 1: Processing
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4187,7 +4368,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY1_D_T4
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Day 1: Processing
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4227,7 +4408,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_T4up
 
 ## QE_7DAYS_MAR_2024_DAY2_B_T1
-* Name: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
+* Name: Day 2: Cooperation
 * Description: During missions you will usually fight against enemy ships. They can be part of an assignment, or they can be found as signals through scanning.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4235,7 +4416,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_MAR_2024_DAY2_B_T2
-* Name: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
+* Name: Day 2: Cooperation
 * Description: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4243,7 +4424,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_MAR_2024_DAY2_B_T3
-* Name: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
+* Name: Day 2: Cooperation
 * Description: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4251,7 +4432,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_MAR_2024_DAY2_B_T4
-* Name: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
+* Name: Day 2: Cooperation
 * Description: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4259,7 +4440,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_MAR_2024_DAY2_C_T1
-* Name: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
+* Name: Day 2: Cultural Exchange
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4267,7 +4448,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY2_C_T2
-* Name: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
+* Name: Day 2: Cultural Exchange
 * Description: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4275,7 +4456,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 135 RepTr1_RepTanoch_RepYaot_RepAmassari
 
 ## QE_7DAYS_MAR_2024_DAY2_C_T3
-* Name: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
+* Name: Day 2: Cultural Exchange
 * Description: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4283,7 +4464,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 180 RepTr1_RepTanoch_RepYaot_RepAmassari
 
 ## QE_7DAYS_MAR_2024_DAY2_C_T4
-* Name: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
+* Name: Day 2: Cultural Exchange
 * Description: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4291,7 +4472,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 225 RepTr1_RepTanoch_RepYaot_RepAmassari
 
 ## QE_7DAYS_MAR_2024_DAY2_D_T1
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 2: Exchange Officers
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4299,7 +4480,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_MAR_2024_DAY2_D_T2
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 2: Exchange Officers
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4307,7 +4488,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_MAR_2024_DAY2_D_T3
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 2: Exchange Officers
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4315,7 +4496,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_MAR_2024_DAY2_D_T4
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 2: Exchange Officers
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4355,7 +4536,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY3_B_T1
-* Name: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
+* Name: Day 3: Industry
 * Description: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4363,7 +4544,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY3_B_T2
-* Name: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
+* Name: Day 3: Industry
 * Description: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4371,7 +4552,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY3_B_T3
-* Name: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
+* Name: Day 3: Industry
 * Description: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4379,7 +4560,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY3_B_T4
-* Name: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
+* Name: Day 3: Industry
 * Description: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4387,7 +4568,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY3_C_T1
-* Name: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
+* Name: Day 3: Construction
 * Description: Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4395,7 +4576,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY3_C_T2
-* Name: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
+* Name: Day 3: Construction
 * Description: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4403,7 +4584,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY3_C_T3
-* Name: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
+* Name: Day 3: Construction
 * Description: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4411,7 +4592,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY3_C_T4
-* Name: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
+* Name: Day 3: Construction
 * Description: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4419,7 +4600,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY3_D_T1
-* Name: Items and resources can be sold for credits in the market at stations.
+* Name: Day 3: Return on Investments
 * Description: Items and resources can be sold for credits in the market at stations.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4427,7 +4608,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY3_D_T2
-* Name: Items and resources can be sold for credits in the market at stations.
+* Name: Day 3: Return on Investments
 * Description: Items and resources can be sold for credits in the market at stations.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4435,7 +4616,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY3_D_T3
-* Name: Items and resources can be sold for credits in the market at stations.
+* Name: Day 3: Return on Investments
 * Description: Items and resources can be sold for credits in the market at stations.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4443,7 +4624,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY3_D_T4
-* Name: Items and resources can be sold for credits in the market at stations.
+* Name: Day 3: Return on Investments
 * Description: Items and resources can be sold for credits in the market at stations.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4483,7 +4664,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY4_B_T1
-* Name: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
+* Name: Day 4: Validation
 * Description: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4491,7 +4672,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY4_B_T2
-* Name: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
+* Name: Day 4: Validation
 * Description: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4499,7 +4680,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY4_B_T3
-* Name: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
+* Name: Day 4: Validation
 * Description: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4507,7 +4688,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY4_B_T4
-* Name: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
+* Name: Day 4: Validation
 * Description: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4515,7 +4696,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY4_C_T1
-* Name: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
+* Name: Day 4: Practical Application
 * Description: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4523,7 +4704,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT1_ShipsDestroyedProgenitorT2_ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_7DAYS_MAR_2024_DAY4_C_T2
-* Name: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
+* Name: Day 4: Practical Application
 * Description: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4531,7 +4712,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT2_ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_7DAYS_MAR_2024_DAY4_C_T3
-* Name: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
+* Name: Day 4: Practical Application
 * Description: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4539,7 +4720,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_7DAYS_MAR_2024_DAY4_C_T4
-* Name: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
+* Name: Day 4: Practical Application
 * Description: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4547,7 +4728,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT4
 
 ## QE_7DAYS_MAR_2024_DAY4_D_T1
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Day 4: Results
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4555,7 +4736,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAY4_D_T2
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Day 4: Results
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4563,7 +4744,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAY4_D_T3
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Day 4: Results
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4571,7 +4752,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAY4_D_T4
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Day 4: Results
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4611,7 +4792,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_MAR_2024_DAY5_B_T1
-* Name: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
+* Name: Day 5: Training
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4619,7 +4800,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY5_B_T2
-* Name: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
+* Name: Day 5: Training
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4627,7 +4808,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY5_B_T3
-* Name: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
+* Name: Day 5: Training
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4635,7 +4816,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY5_B_T4
-* Name: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
+* Name: Day 5: Training
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4643,7 +4824,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY5_C_T1
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 5: Promotion
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4651,7 +4832,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_MAR_2024_DAY5_C_T2
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 5: Promotion
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4659,7 +4840,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_MAR_2024_DAY5_C_T3
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 5: Promotion
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4667,7 +4848,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_MAR_2024_DAY5_C_T4
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 5: Promotion
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4675,7 +4856,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_MAR_2024_DAY5_D_T1
-* Name: Discharging officers grants credits and insignias, which can be used to level up other officers.
+* Name: Day 5: Graduation
 * Description: Discharging officers grants credits and insignias, which can be used to level up other officers.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4683,7 +4864,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY5_D_T2
-* Name: Discharging officers grants credits and insignias, which can be used to level up other officers.
+* Name: Day 5: Graduation
 * Description: Discharging officers grants credits and insignias, which can be used to level up other officers.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4691,7 +4872,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY5_D_T3
-* Name: Discharging officers grants credits and insignias, which can be used to level up other officers.
+* Name: Day 5: Graduation
 * Description: Discharging officers grants credits and insignias, which can be used to level up other officers.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4699,7 +4880,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY5_D_T4
-* Name: Discharging officers grants credits and insignias, which can be used to level up other officers.
+* Name: Day 5: Graduation
 * Description: Discharging officers grants credits and insignias, which can be used to level up other officers.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4739,7 +4920,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY6_B_T1
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Reinforcements
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4747,7 +4928,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_MAR_2024_DAY6_B_T2
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Reinforcements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4755,7 +4936,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY6_B_T3
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Reinforcements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4763,7 +4944,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY6_B_T4
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Reinforcements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4771,7 +4952,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY6_C_T1
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Improvements
 * Description: Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4779,7 +4960,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY6_C_T2
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Improvements
 * Description: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4787,7 +4968,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY6_C_T3
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Improvements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4795,7 +4976,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY6_C_T4
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Improvements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4803,7 +4984,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_MAR_2024_DAY6_D_T1
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 6: Trial Run
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4811,7 +4992,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT1_ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY6_D_T2
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 6: Trial Run
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4819,7 +5000,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY6_D_T3
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 6: Trial Run
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4827,7 +5008,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY6_D_T4
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 6: Trial Run
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4867,7 +5048,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_MAR_2024_DAY7_B_T1
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 7: Rules of Engagement
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4875,7 +5056,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT1_ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY7_B_T2
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 7: Rules of Engagement
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4883,7 +5064,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY7_B_T3
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 7: Rules of Engagement
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4891,7 +5072,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY7_B_T4
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 7: Rules of Engagement
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4899,7 +5080,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT4
 
 ## QE_7DAYS_MAR_2024_DAY7_C_T1
-* Name: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
+* Name: Day 7: Conflict
 * Description: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4907,7 +5088,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY7_C_T2
-* Name: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
+* Name: Day 7: Conflict
 * Description: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4915,7 +5096,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY7_C_T3
-* Name: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
+* Name: Day 7: Conflict
 * Description: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4923,7 +5104,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY7_C_T4
-* Name: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
+* Name: Day 7: Conflict
 * Description: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4931,7 +5112,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_MAR_2024_DAY7_D_T1
-* Name: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
+* Name: Day 7: Triumph
 * Description: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t1
@@ -4939,7 +5120,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_MAR_2024_DAY7_D_T2
-* Name: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
+* Name: Day 7: Triumph
 * Description: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t2
@@ -4947,7 +5128,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAY7_D_T3
-* Name: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
+* Name: Day 7: Triumph
 * Description: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t3
@@ -4955,7 +5136,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_MAR_2024_DAY7_D_T4
-* Name: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
+* Name: Day 7: Triumph
 * Description: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
 * Type: Event
 * EventId: event_monthlyEvent_2024_03_01_t4
@@ -4995,7 +5176,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_7DAYS_2023_08_DAY1_B_T1
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 1: Staking a Claim
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5003,7 +5184,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT1_ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY1_B_T2
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 1: Staking a Claim
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5011,7 +5192,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY1_B_T3
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 1: Staking a Claim
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5019,7 +5200,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY1_B_T4
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 1: Staking a Claim
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5027,7 +5208,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY1_C_T1
-* Name: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
+* Name: Day 1: Gathering
 * Description: Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5035,7 +5216,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY1_C_T2
-* Name: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
+* Name: Day 1: Gathering
 * Description: Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5043,7 +5224,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY1_C_T3
-* Name: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
+* Name: Day 1: Gathering
 * Description: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5051,7 +5232,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY1_C_T4
-* Name: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
+* Name: Day 1: Gathering
 * Description: Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5059,7 +5240,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY1_D_T1
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Day 1: Processing
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5067,7 +5248,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY1_D_T2
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Day 1: Processing
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5075,7 +5256,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY1_D_T3
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Day 1: Processing
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5083,7 +5264,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY1_D_T4
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Day 1: Processing
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5123,7 +5304,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_T4up
 
 ## QE_7DAYS_2023_08_DAY2_B_T1
-* Name: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
+* Name: Day 2: Cooperation
 * Description: During missions you will usually fight against enemy ships. They can be part of an assignment, or they can be found as signals through scanning.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5131,7 +5312,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_2023_08_DAY2_B_T2
-* Name: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
+* Name: Day 2: Cooperation
 * Description: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5139,7 +5320,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_2023_08_DAY2_B_T3
-* Name: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
+* Name: Day 2: Cooperation
 * Description: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5147,7 +5328,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_2023_08_DAY2_B_T4
-* Name: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
+* Name: Day 2: Cooperation
 * Description: Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5155,7 +5336,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_2023_08_DAY2_C_T1
-* Name: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
+* Name: Day 2: Cultural Exchange
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5163,7 +5344,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY2_C_T2
-* Name: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
+* Name: Day 2: Cultural Exchange
 * Description: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5171,7 +5352,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 135 RepTr1_RepTanoch_RepYaot_RepAmassari
 
 ## QE_7DAYS_2023_08_DAY2_C_T3
-* Name: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
+* Name: Day 2: Cultural Exchange
 * Description: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5179,7 +5360,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 180 RepTr1_RepTanoch_RepYaot_RepAmassari
 
 ## QE_7DAYS_2023_08_DAY2_C_T4
-* Name: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
+* Name: Day 2: Cultural Exchange
 * Description: Complete liaison assignments to gain reputation for that faction. A higher reputation unlocks more items in that faction's liaison requisitions office.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5187,7 +5368,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 225 RepTr1_RepTanoch_RepYaot_RepAmassari
 
 ## QE_7DAYS_2023_08_DAY2_D_T1
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 2: Exchange Officers
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5195,7 +5376,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_2023_08_DAY2_D_T2
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 2: Exchange Officers
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5203,7 +5384,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_2023_08_DAY2_D_T3
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 2: Exchange Officers
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5211,7 +5392,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_2023_08_DAY2_D_T4
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 2: Exchange Officers
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5251,7 +5432,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY3_B_T1
-* Name: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
+* Name: Day 3: Industry
 * Description: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5259,7 +5440,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY3_B_T2
-* Name: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
+* Name: Day 3: Industry
 * Description: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5267,7 +5448,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY3_B_T3
-* Name: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
+* Name: Day 3: Industry
 * Description: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5275,7 +5456,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY3_B_T4
-* Name: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
+* Name: Day 3: Industry
 * Description: Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5283,7 +5464,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY3_C_T1
-* Name: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
+* Name: Day 3: Construction
 * Description: Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5291,7 +5472,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY3_C_T2
-* Name: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
+* Name: Day 3: Construction
 * Description: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5299,7 +5480,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY3_C_T3
-* Name: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
+* Name: Day 3: Construction
 * Description: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5307,7 +5488,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY3_C_T4
-* Name: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
+* Name: Day 3: Construction
 * Description: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5315,7 +5496,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY3_D_T1
-* Name: Items and resources can be sold for credits in the market at stations.
+* Name: Day 3: Return on Investments
 * Description: Items and resources can be sold for credits in the market at stations.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5323,7 +5504,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY3_D_T2
-* Name: Items and resources can be sold for credits in the market at stations.
+* Name: Day 3: Return on Investments
 * Description: Items and resources can be sold for credits in the market at stations.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5331,7 +5512,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY3_D_T3
-* Name: Items and resources can be sold for credits in the market at stations.
+* Name: Day 3: Return on Investments
 * Description: Items and resources can be sold for credits in the market at stations.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5339,7 +5520,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY3_D_T4
-* Name: Items and resources can be sold for credits in the market at stations.
+* Name: Day 3: Return on Investments
 * Description: Items and resources can be sold for credits in the market at stations.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5379,7 +5560,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY4_B_T1
-* Name: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
+* Name: Day 4: Validation
 * Description: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5387,7 +5568,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY4_B_T2
-* Name: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
+* Name: Day 4: Validation
 * Description: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5395,7 +5576,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY4_B_T3
-* Name: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
+* Name: Day 4: Validation
 * Description: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5403,7 +5584,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY4_B_T4
-* Name: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
+* Name: Day 4: Validation
 * Description: Progenitor relics can be found in relic signature signals. Relics can be sold on the market for credits, though some liaison offices may be interested in relics as well.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5411,7 +5592,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY4_C_T1
-* Name: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
+* Name: Day 4: Practical Application
 * Description: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5419,7 +5600,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT1_ShipsDestroyedProgenitorT2_ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_7DAYS_2023_08_DAY4_C_T2
-* Name: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
+* Name: Day 4: Practical Application
 * Description: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5427,7 +5608,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT2_ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_7DAYS_2023_08_DAY4_C_T3
-* Name: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
+* Name: Day 4: Practical Application
 * Description: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5435,7 +5616,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_7DAYS_2023_08_DAY4_C_T4
-* Name: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
+* Name: Day 4: Practical Application
 * Description: Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5443,7 +5624,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT4
 
 ## QE_7DAYS_2023_08_DAY4_D_T1
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Day 4: Results
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5451,7 +5632,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_2023_08_DAY4_D_T2
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Day 4: Results
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5459,7 +5640,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_2023_08_DAY4_D_T3
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Day 4: Results
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5467,7 +5648,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_2023_08_DAY4_D_T4
-* Name: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
+* Name: Day 4: Results
 * Description: Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5507,7 +5688,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_2023_08_DAY5_B_T1
-* Name: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
+* Name: Day 5: Training
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5515,7 +5696,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY5_B_T2
-* Name: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
+* Name: Day 5: Training
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5523,7 +5704,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY5_B_T3
-* Name: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
+* Name: Day 5: Training
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5531,7 +5712,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY5_B_T4
-* Name: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
+* Name: Day 5: Training
 * Description: Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5539,7 +5720,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY5_C_T1
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 5: Promotion
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5547,7 +5728,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_2023_08_DAY5_C_T2
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 5: Promotion
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5555,7 +5736,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_2023_08_DAY5_C_T3
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 5: Promotion
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5563,7 +5744,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_2023_08_DAY5_C_T4
-* Name: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
+* Name: Day 5: Promotion
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5571,7 +5752,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_2023_08_DAY5_D_T1
-* Name: Discharging officers grants credits and insignias, which can be used to level up other officers.
+* Name: Day 5: Graduation
 * Description: Discharging officers grants credits and insignias, which can be used to level up other officers.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5579,7 +5760,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY5_D_T2
-* Name: Discharging officers grants credits and insignias, which can be used to level up other officers.
+* Name: Day 5: Graduation
 * Description: Discharging officers grants credits and insignias, which can be used to level up other officers.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5587,7 +5768,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY5_D_T3
-* Name: Discharging officers grants credits and insignias, which can be used to level up other officers.
+* Name: Day 5: Graduation
 * Description: Discharging officers grants credits and insignias, which can be used to level up other officers.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5595,7 +5776,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY5_D_T4
-* Name: Discharging officers grants credits and insignias, which can be used to level up other officers.
+* Name: Day 5: Graduation
 * Description: Discharging officers grants credits and insignias, which can be used to level up other officers.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5635,7 +5816,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY6_B_T1
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Reinforcements
 * Description: Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5643,7 +5824,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_7DAYS_2023_08_DAY6_B_T2
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Reinforcements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5651,7 +5832,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY6_B_T3
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Reinforcements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5659,7 +5840,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY6_B_T4
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Reinforcements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5667,7 +5848,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY6_C_T1
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Improvements
 * Description: Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5675,7 +5856,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY6_C_T2
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Improvements
 * Description: Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5683,7 +5864,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY6_C_T3
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Improvements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5691,7 +5872,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY6_C_T4
-* Name: The strength of modules can be increased through upgrades, which cost rare earths.
+* Name: Day 6: Improvements
 * Description: The strength of modules can be increased through upgrades, which cost rare earths.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5699,7 +5880,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_7DAYS_2023_08_DAY6_D_T1
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 6: Trial Run
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5707,7 +5888,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT1_ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY6_D_T2
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 6: Trial Run
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5715,7 +5896,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY6_D_T3
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 6: Trial Run
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5723,7 +5904,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY6_D_T4
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 6: Trial Run
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5763,7 +5944,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_2023_08_DAY7_B_T1
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 7: Rules of Engagement
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5771,7 +5952,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT1_ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY7_B_T2
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 7: Rules of Engagement
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5779,7 +5960,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY7_B_T3
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 7: Rules of Engagement
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5787,7 +5968,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY7_B_T4
-* Name: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
+* Name: Day 7: Rules of Engagement
 * Description: The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5795,7 +5976,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT4
 
 ## QE_7DAYS_2023_08_DAY7_C_T1
-* Name: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
+* Name: Day 7: Conflict
 * Description: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5803,7 +5984,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY7_C_T2
-* Name: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
+* Name: Day 7: Conflict
 * Description: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5811,7 +5992,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY7_C_T3
-* Name: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
+* Name: Day 7: Conflict
 * Description: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5819,7 +6000,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY7_C_T4
-* Name: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
+* Name: Day 7: Conflict
 * Description: When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5827,7 +6008,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_7DAYS_2023_08_DAY7_D_T1
-* Name: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
+* Name: Day 7: Triumph
 * Description: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
 * Type: Event
 * EventId: event_7days_2023_08_21_t1
@@ -5835,7 +6016,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_7DAYS_2023_08_DAY7_D_T2
-* Name: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
+* Name: Day 7: Triumph
 * Description: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
 * Type: Event
 * EventId: event_7days_2023_08_21_t2
@@ -5843,7 +6024,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_2023_08_DAY7_D_T3
-* Name: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
+* Name: Day 7: Triumph
 * Description: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
 * Type: Event
 * EventId: event_7days_2023_08_21_t3
@@ -5851,7 +6032,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_7DAYS_2023_08_DAY7_D_T4
-* Name: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
+* Name: Day 7: Triumph
 * Description: Strikes are difficult missions that require a strong fleet from several commanders to beat. Completing a strike rewards code fragments, which can be turned in for special blueprints.
 * Type: Event
 * EventId: event_7days_2023_08_21_t4
@@ -5861,6 +6042,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_A_T1
 * Name: No header for quest qe_iyaFal_2023_daily_A_t1
 * Description: No description for quest qe_iyaFal_2023_daily_A_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5869,6 +6051,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_B_T1
 * Name: No header for quest qe_iyaFal_2023_daily_B_t1
 * Description: No description for quest qe_iyaFal_2023_daily_B_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5877,6 +6060,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_C_T1
 * Name: No header for quest qe_iyaFal_2023_daily_C_t1
 * Description: No description for quest qe_iyaFal_2023_daily_C_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5885,6 +6069,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_D_T1
 * Name: No header for quest qe_iyaFal_2023_daily_D_t1
 * Description: No description for quest qe_iyaFal_2023_daily_D_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5893,6 +6078,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY01_T1
 * Name: No header for quest qe_iyaFal_2023_day01_t1
 * Description: No description for quest qe_iyaFal_2023_day01_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5901,6 +6087,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY02_T1
 * Name: No header for quest qe_iyaFal_2023_day02_t1
 * Description: No description for quest qe_iyaFal_2023_day02_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5909,6 +6096,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY03_T1
 * Name: No header for quest qe_iyaFal_2023_day03_t1
 * Description: No description for quest qe_iyaFal_2023_day03_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5917,6 +6105,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY04_T1
 * Name: No header for quest qe_iyaFal_2023_day04_t1
 * Description: No description for quest qe_iyaFal_2023_day04_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * MailsOnCompletion: m_iyaFal_day4_log
@@ -5926,6 +6115,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY05_T1
 * Name: No header for quest qe_iyaFal_2023_day05_t1
 * Description: No description for quest qe_iyaFal_2023_day05_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5934,6 +6124,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY06_T1
 * Name: No header for quest qe_iyaFal_2023_day06_t1
 * Description: No description for quest qe_iyaFal_2023_day06_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5942,6 +6133,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY07_T1
 * Name: No header for quest qe_iyaFal_2023_day07_t1
 * Description: No description for quest qe_iyaFal_2023_day07_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5950,6 +6142,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY08_T1
 * Name: No header for quest qe_iyaFal_2023_day08_t1
 * Description: No description for quest qe_iyaFal_2023_day08_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * MailsOnCompletion: m_iyaFal_day8_log
@@ -5959,6 +6152,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY09_T1
 * Name: No header for quest qe_iyaFal_2023_day09_t1
 * Description: No description for quest qe_iyaFal_2023_day09_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5967,6 +6161,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY10_T1
 * Name: No header for quest qe_iyaFal_2023_day10_t1
 * Description: No description for quest qe_iyaFal_2023_day10_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5975,6 +6170,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY11_T1
 * Name: No header for quest qe_iyaFal_2023_day11_t1
 * Description: No description for quest qe_iyaFal_2023_day11_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -5983,6 +6179,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY12_T1
 * Name: No header for quest qe_iyaFal_2023_day12_t1
 * Description: No description for quest qe_iyaFal_2023_day12_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * MailsOnCompletion: m_iyaFal_day12_log
@@ -5992,6 +6189,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY13_T1
 * Name: No header for quest qe_iyaFal_2023_day13_t1
 * Description: No description for quest qe_iyaFal_2023_day13_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -6000,6 +6198,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY14_T1
 * Name: No header for quest qe_iyaFal_2023_day14_t1
 * Description: No description for quest qe_iyaFal_2023_day14_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -6008,6 +6207,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY15_T1
 * Name: No header for quest qe_iyaFal_2023_day15_t1
 * Description: No description for quest qe_iyaFal_2023_day15_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -6016,6 +6216,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI01_T1
 * Name: No header for quest qe_iyaFal_2023_epi01_t1
 * Description: No description for quest qe_iyaFal_2023_epi01_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -6024,6 +6225,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI02_T1
 * Name: No header for quest qe_iyaFal_2023_epi02_t1
 * Description: No description for quest qe_iyaFal_2023_epi02_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -6032,6 +6234,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI03_T1
 * Name: No header for quest qe_iyaFal_2023_epi03_t1
 * Description: No description for quest qe_iyaFal_2023_epi03_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -6040,6 +6243,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI04_T1
 * Name: No header for quest qe_iyaFal_2023_epi04_t1
 * Description: No description for quest qe_iyaFal_2023_epi04_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -6048,6 +6252,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI05_T1
 * Name: No header for quest qe_iyaFal_2023_epi05_t1
 * Description: No description for quest qe_iyaFal_2023_epi05_t1
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t1
 * Goals:
@@ -6056,6 +6261,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_A_T2
 * Name: No header for quest qe_iyaFal_2023_daily_A_t2
 * Description: No description for quest qe_iyaFal_2023_daily_A_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6064,6 +6270,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_B_T2
 * Name: No header for quest qe_iyaFal_2023_daily_B_t2
 * Description: No description for quest qe_iyaFal_2023_daily_B_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6072,6 +6279,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_C_T2
 * Name: No header for quest qe_iyaFal_2023_daily_C_t2
 * Description: No description for quest qe_iyaFal_2023_daily_C_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6080,6 +6288,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_D_T2
 * Name: No header for quest qe_iyaFal_2023_daily_D_t2
 * Description: No description for quest qe_iyaFal_2023_daily_D_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6088,6 +6297,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY01_T2
 * Name: No header for quest qe_iyaFal_2023_day01_t2
 * Description: No description for quest qe_iyaFal_2023_day01_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6096,6 +6306,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY02_T2
 * Name: No header for quest qe_iyaFal_2023_day02_t2
 * Description: No description for quest qe_iyaFal_2023_day02_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6104,6 +6315,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY03_T2
 * Name: No header for quest qe_iyaFal_2023_day03_t2
 * Description: No description for quest qe_iyaFal_2023_day03_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6112,6 +6324,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY04_T2
 * Name: No header for quest qe_iyaFal_2023_day04_t2
 * Description: No description for quest qe_iyaFal_2023_day04_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * MailsOnCompletion: m_iyaFal_day4_log
@@ -6121,6 +6334,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY05_T2
 * Name: No header for quest qe_iyaFal_2023_day05_t2
 * Description: No description for quest qe_iyaFal_2023_day05_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6129,6 +6343,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY06_T2
 * Name: No header for quest qe_iyaFal_2023_day06_t2
 * Description: No description for quest qe_iyaFal_2023_day06_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6137,6 +6352,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY07_T2
 * Name: No header for quest qe_iyaFal_2023_day07_t2
 * Description: No description for quest qe_iyaFal_2023_day07_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6145,6 +6361,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY08_T2
 * Name: No header for quest qe_iyaFal_2023_day08_t2
 * Description: No description for quest qe_iyaFal_2023_day08_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * MailsOnCompletion: m_iyaFal_day8_log
@@ -6154,6 +6371,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY09_T2
 * Name: No header for quest qe_iyaFal_2023_day09_t2
 * Description: No description for quest qe_iyaFal_2023_day09_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6162,6 +6380,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY10_T2
 * Name: No header for quest qe_iyaFal_2023_day10_t2
 * Description: No description for quest qe_iyaFal_2023_day10_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6170,6 +6389,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY11_T2
 * Name: No header for quest qe_iyaFal_2023_day11_t2
 * Description: No description for quest qe_iyaFal_2023_day11_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6178,6 +6398,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY12_T2
 * Name: No header for quest qe_iyaFal_2023_day12_t2
 * Description: No description for quest qe_iyaFal_2023_day12_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * MailsOnCompletion: m_iyaFal_day12_log
@@ -6187,6 +6408,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY13_T2
 * Name: No header for quest qe_iyaFal_2023_day13_t2
 * Description: No description for quest qe_iyaFal_2023_day13_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6195,6 +6417,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY14_T2
 * Name: No header for quest qe_iyaFal_2023_day14_t2
 * Description: No description for quest qe_iyaFal_2023_day14_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6203,6 +6426,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY15_T2
 * Name: No header for quest qe_iyaFal_2023_day15_t2
 * Description: No description for quest qe_iyaFal_2023_day15_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6211,6 +6435,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI01_T2
 * Name: No header for quest qe_iyaFal_2023_epi01_t2
 * Description: No description for quest qe_iyaFal_2023_epi01_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6219,6 +6444,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI02_T2
 * Name: No header for quest qe_iyaFal_2023_epi02_t2
 * Description: No description for quest qe_iyaFal_2023_epi02_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6227,6 +6453,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI03_T2
 * Name: No header for quest qe_iyaFal_2023_epi03_t2
 * Description: No description for quest qe_iyaFal_2023_epi03_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6235,6 +6462,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI04_T2
 * Name: No header for quest qe_iyaFal_2023_epi04_t2
 * Description: No description for quest qe_iyaFal_2023_epi04_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6243,6 +6471,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI05_T2
 * Name: No header for quest qe_iyaFal_2023_epi05_t2
 * Description: No description for quest qe_iyaFal_2023_epi05_t2
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t2
 * Goals:
@@ -6251,6 +6480,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_A_T3
 * Name: No header for quest qe_iyaFal_2023_daily_A_t3
 * Description: No description for quest qe_iyaFal_2023_daily_A_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6259,6 +6489,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_B_T3
 * Name: No header for quest qe_iyaFal_2023_daily_B_t3
 * Description: No description for quest qe_iyaFal_2023_daily_B_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6267,6 +6498,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_C_T3
 * Name: No header for quest qe_iyaFal_2023_daily_C_t3
 * Description: No description for quest qe_iyaFal_2023_daily_C_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6275,6 +6507,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_D_T3
 * Name: No header for quest qe_iyaFal_2023_daily_D_t3
 * Description: No description for quest qe_iyaFal_2023_daily_D_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6283,6 +6516,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY01_T3
 * Name: No header for quest qe_iyaFal_2023_day01_t3
 * Description: No description for quest qe_iyaFal_2023_day01_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6291,6 +6525,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY02_T3
 * Name: No header for quest qe_iyaFal_2023_day02_t3
 * Description: No description for quest qe_iyaFal_2023_day02_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6299,6 +6534,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY03_T3
 * Name: No header for quest qe_iyaFal_2023_day03_t3
 * Description: No description for quest qe_iyaFal_2023_day03_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6307,6 +6543,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY04_T3
 * Name: No header for quest qe_iyaFal_2023_day04_t3
 * Description: No description for quest qe_iyaFal_2023_day04_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * MailsOnCompletion: m_iyaFal_day4_log
@@ -6316,6 +6553,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY05_T3
 * Name: No header for quest qe_iyaFal_2023_day05_t3
 * Description: No description for quest qe_iyaFal_2023_day05_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6324,6 +6562,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY06_T3
 * Name: No header for quest qe_iyaFal_2023_day06_t3
 * Description: No description for quest qe_iyaFal_2023_day06_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6332,6 +6571,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY07_T3
 * Name: No header for quest qe_iyaFal_2023_day07_t3
 * Description: No description for quest qe_iyaFal_2023_day07_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6340,6 +6580,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY08_T3
 * Name: No header for quest qe_iyaFal_2023_day08_t3
 * Description: No description for quest qe_iyaFal_2023_day08_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * MailsOnCompletion: m_iyaFal_day8_log
@@ -6349,6 +6590,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY09_T3
 * Name: No header for quest qe_iyaFal_2023_day09_t3
 * Description: No description for quest qe_iyaFal_2023_day09_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6357,6 +6599,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY10_T3
 * Name: No header for quest qe_iyaFal_2023_day10_t3
 * Description: No description for quest qe_iyaFal_2023_day10_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6365,6 +6608,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY11_T3
 * Name: No header for quest qe_iyaFal_2023_day11_t3
 * Description: No description for quest qe_iyaFal_2023_day11_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6373,6 +6617,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY12_T3
 * Name: No header for quest qe_iyaFal_2023_day12_t3
 * Description: No description for quest qe_iyaFal_2023_day12_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * MailsOnCompletion: m_iyaFal_day12_log
@@ -6382,6 +6627,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY13_T3
 * Name: No header for quest qe_iyaFal_2023_day13_t3
 * Description: No description for quest qe_iyaFal_2023_day13_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6390,6 +6636,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY14_T3
 * Name: No header for quest qe_iyaFal_2023_day14_t3
 * Description: No description for quest qe_iyaFal_2023_day14_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6398,6 +6645,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY15_T3
 * Name: No header for quest qe_iyaFal_2023_day15_t3
 * Description: No description for quest qe_iyaFal_2023_day15_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6406,6 +6654,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI01_T3
 * Name: No header for quest qe_iyaFal_2023_epi01_t3
 * Description: No description for quest qe_iyaFal_2023_epi01_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6414,6 +6663,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI02_T3
 * Name: No header for quest qe_iyaFal_2023_epi02_t3
 * Description: No description for quest qe_iyaFal_2023_epi02_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6422,6 +6672,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI03_T3
 * Name: No header for quest qe_iyaFal_2023_epi03_t3
 * Description: No description for quest qe_iyaFal_2023_epi03_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6430,6 +6681,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI04_T3
 * Name: No header for quest qe_iyaFal_2023_epi04_t3
 * Description: No description for quest qe_iyaFal_2023_epi04_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6438,6 +6690,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI05_T3
 * Name: No header for quest qe_iyaFal_2023_epi05_t3
 * Description: No description for quest qe_iyaFal_2023_epi05_t3
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t3
 * Goals:
@@ -6446,6 +6699,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_A_T4
 * Name: No header for quest qe_iyaFal_2023_daily_A_t4
 * Description: No description for quest qe_iyaFal_2023_daily_A_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6454,6 +6708,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_B_T4
 * Name: No header for quest qe_iyaFal_2023_daily_B_t4
 * Description: No description for quest qe_iyaFal_2023_daily_B_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6462,6 +6717,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_C_T4
 * Name: No header for quest qe_iyaFal_2023_daily_C_t4
 * Description: No description for quest qe_iyaFal_2023_daily_C_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6470,6 +6726,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAILY_D_T4
 * Name: No header for quest qe_iyaFal_2023_daily_D_t4
 * Description: No description for quest qe_iyaFal_2023_daily_D_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6478,6 +6735,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY01_T4
 * Name: No header for quest qe_iyaFal_2023_day01_t4
 * Description: No description for quest qe_iyaFal_2023_day01_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6486,6 +6744,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY02_T4
 * Name: No header for quest qe_iyaFal_2023_day02_t4
 * Description: No description for quest qe_iyaFal_2023_day02_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6494,6 +6753,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY03_T4
 * Name: No header for quest qe_iyaFal_2023_day03_t4
 * Description: No description for quest qe_iyaFal_2023_day03_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6502,6 +6762,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY04_T4
 * Name: No header for quest qe_iyaFal_2023_day04_t4
 * Description: No description for quest qe_iyaFal_2023_day04_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * MailsOnCompletion: m_iyaFal_day4_log
@@ -6511,6 +6772,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY05_T4
 * Name: No header for quest qe_iyaFal_2023_day05_t4
 * Description: No description for quest qe_iyaFal_2023_day05_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6519,6 +6781,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY06_T4
 * Name: No header for quest qe_iyaFal_2023_day06_t4
 * Description: No description for quest qe_iyaFal_2023_day06_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6527,6 +6790,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY07_T4
 * Name: No header for quest qe_iyaFal_2023_day07_t4
 * Description: No description for quest qe_iyaFal_2023_day07_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6535,6 +6799,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY08_T4
 * Name: No header for quest qe_iyaFal_2023_day08_t4
 * Description: No description for quest qe_iyaFal_2023_day08_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * MailsOnCompletion: m_iyaFal_day8_log
@@ -6544,6 +6809,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY09_T4
 * Name: No header for quest qe_iyaFal_2023_day09_t4
 * Description: No description for quest qe_iyaFal_2023_day09_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6552,6 +6818,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY10_T4
 * Name: No header for quest qe_iyaFal_2023_day10_t4
 * Description: No description for quest qe_iyaFal_2023_day10_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6560,6 +6827,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY11_T4
 * Name: No header for quest qe_iyaFal_2023_day11_t4
 * Description: No description for quest qe_iyaFal_2023_day11_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6568,6 +6836,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY12_T4
 * Name: No header for quest qe_iyaFal_2023_day12_t4
 * Description: No description for quest qe_iyaFal_2023_day12_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * MailsOnCompletion: m_iyaFal_day12_log
@@ -6577,6 +6846,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY13_T4
 * Name: No header for quest qe_iyaFal_2023_day13_t4
 * Description: No description for quest qe_iyaFal_2023_day13_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6585,6 +6855,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY14_T4
 * Name: No header for quest qe_iyaFal_2023_day14_t4
 * Description: No description for quest qe_iyaFal_2023_day14_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6593,6 +6864,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_DAY15_T4
 * Name: No header for quest qe_iyaFal_2023_day15_t4
 * Description: No description for quest qe_iyaFal_2023_day15_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6601,6 +6873,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI01_T4
 * Name: No header for quest qe_iyaFal_2023_epi01_t4
 * Description: No description for quest qe_iyaFal_2023_epi01_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6609,6 +6882,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI02_T4
 * Name: No header for quest qe_iyaFal_2023_epi02_t4
 * Description: No description for quest qe_iyaFal_2023_epi02_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6617,6 +6891,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI03_T4
 * Name: No header for quest qe_iyaFal_2023_epi03_t4
 * Description: No description for quest qe_iyaFal_2023_epi03_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6625,6 +6900,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI04_T4
 * Name: No header for quest qe_iyaFal_2023_epi04_t4
 * Description: No description for quest qe_iyaFal_2023_epi04_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
@@ -6633,13 +6909,14 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QE_IYAFAL_2023_EPI05_T4
 * Name: No header for quest qe_iyaFal_2023_epi05_t4
 * Description: No description for quest qe_iyaFal_2023_epi05_t4
+
 * Type: Event
 * EventId: event_season_iyaFal_2023_t4
 * Goals:
 	* Task 1: Complete 5 side missions
 
 ## QE_ANNIVERSARY_2023_DAILY_A_T1
-* Name: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
+* Name: Active Monitoring
 * Description: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
 * Type: Event
 * EventId: event_anniversary_2023_t1
@@ -6647,7 +6924,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_ANNIVERSARY_2023_DAILY_B_T1
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Refining Results
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_anniversary_2023_t1
@@ -6665,9 +6942,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY01_B_T1
-* Name: The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 1: Seek and Find
 * Description: The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -6677,9 +6952,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT1_ShipsDestroyedProgenitorT2_ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_ANNIVERSARY_2023_DAY01_C_T1
-* Name: Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 1: The Capstone
 * Description: Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -6699,9 +6972,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY02_B_T1
-* Name: To impress the Iyatequa traders and procure the Progenitor components for Gideon, we will have to work on our reputation among a certain clientele.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 2: Songs and Tales
 * Description: To impress the Iyatequa traders and buy the Progenitor components for Gideon, we will have to work on our reputation.
 
 <color=#FBB03F>You can earn insignias by completing missions.</color>
@@ -6711,9 +6982,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY02_C_T1
-* Name: In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 2: Merchant Supreme
 * Description: In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -6733,9 +7002,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT1_ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_ANNIVERSARY_2023_DAY03_B_T1
-* Name: We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Sifting for Gold
 * Description: We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -6745,9 +7012,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY03_C_T1
-* Name: The reconnaissance disk gave us a lead on the Progenitor component the Yaot call the Stambha. Enemy activity is high in the target location.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 3: Concluding Battle
 * Description: The data disk gave us a lead on the Progenitor component the Yaot call the Stambah. It seems to be located inside a sector with strong enemy activity.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -6767,9 +7032,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_ANNIVERSARY_2023_DAY04_B_T1
-* Name: Gideon is in need of raw materials to construct a secret device. We should look for a jovian planet to collect some gas.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 4: Raw Materials
 * Description: Gideon is in need of raw materials to construct his secret device. We have to mine some minerals for him.
 
 <color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -6779,9 +7042,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY04_C_T1
-* Name: According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 4: Patrol Conclusion
 * Description: According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -6801,9 +7062,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 T1up
 
 ## QE_ANNIVERSARY_2023_DAY05_B_T1
-* Name: Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
-
-<color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
+* Name: Day 5: See the Universe
 * Description: Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
 
 <color=#FBB03F>The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.</color>
@@ -6813,9 +7072,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT1_ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_ANNIVERSARY_2023_DAY05_C_T1
-* Name: According to Tepin Papan, some of the Tanoch sectors require assistance. We should seek out their liaison offices and complete assignments.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 5: Enlist Today
 * Description: Tepin Papan wants us to retrieve some stolen goods. We should begin salvaging crates in the areas indicated by Tanoch data.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -6835,9 +7092,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY06_B_T1
-* Name: With Gideon's new program, we should start training the crew that will man his enigmatic device.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 6: Technical Proficiency
 * Description: With Gideon's new program, we should start training the crew that will man his enigmatic device.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -6847,9 +7102,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_ANNIVERSARY_2023_DAY06_C_T1
-* Name: It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 6: Crash Course
 * Description: It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -6869,9 +7122,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY07_B_T1
-* Name: We continue to follow Guahai’s orders. His next task for us is to produce refined material.
-
-<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
+* Name: Day 7: Smelting Task
 * Description: We continue to follow Guahai’s orders. His next task for us is to produce refined material.
 
 <color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
@@ -6881,9 +7132,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY07_C_T1
-* Name: Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 7: Custom Craftsmanship
 * Description: Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
 
 <color=#FBB03F>Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.</color>
@@ -6903,9 +7152,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedP1T1_ShipsDestroyedP1T2_ShipsDestroyedP1T3_ShipsDestroyedP1T4
 
 ## QE_ANNIVERSARY_2023_DAY08_B_T1
-* Name: The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 8: Postal Investigation
 * Description: The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -6915,9 +7162,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY08_C_T1
-* Name: Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 8: Black Flag
 * Description: Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -6937,9 +7182,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_ANNIVERSARY_2023_DAY09_B_T1
-* Name: Before we embark on Gideon's special operation, we should further increase our fleet's power to ensure we are ready for any eventuality.
-
-<color=#FBB03F>Internal Modules can be upgraded in the Internal Module screen which increases their attributes. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: The Chariot
 * Description: We have to fabricate several items to modify a common freighter for Gideon's special operation.
 
 <color=#FBB03F>Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.</color>
@@ -6949,9 +7192,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY09_C_T1
-* Name: We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 9: Trial Runs
 * Description: We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -6972,7 +7213,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Return to Wiracoda Gate T1'
 
 ## QE_ANNIVERSARY_2023_DAILY_A_T2
-* Name: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
+* Name: Active Monitoring
 * Description: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
 * Type: Event
 * EventId: event_anniversary_2023_t2
@@ -6980,7 +7221,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_ANNIVERSARY_2023_DAILY_B_T2
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Refining Results
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_anniversary_2023_t2
@@ -6988,9 +7229,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY01_A_T2
-* Name: We received priority communication from Hiigaran Command of Lazarus Base concerning Gideon S'jet. We need to decrypt it in our laboratory first before we can read it.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Day 1: Research Directive
 * Description: We received priority communication from Hiigaran Command of Lazarus Base concerning Gideon S'jet. We need to decrypt it in our laboratory first before we can read it.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -7000,9 +7239,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY01_B_T2
-* Name: The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 1: Seek and Find
 * Description: The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -7012,9 +7249,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT2_ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_ANNIVERSARY_2023_DAY01_C_T2
-* Name: Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 1: The Capstone
 * Description: Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -7024,9 +7259,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY02_A_T2
-* Name: Ekekko can bring us in contact with traders specialized in Progenitor technology. But knowing the Iyatequa, everything has a price. We should mine minerals to recuperate the losses we'll have to pay.
-
-<color=#FBB03F>Type D ore is not abundant enough to form asteroid clusters on its own. Instead, asteroids with D type ore can be found within clusters rich with other types of ore.</color>
+* Name: Day 2: Cash Money
 * Description: Ekekko can bring us in contact with traders specialized in Progenitor technology. But knowing the Iyatequa, everything has a price. We should mine minerals to recuperate the losses we'll have to pay.
 
 <color=#FBB03F>Type D ore is not abundant enough to form asteroid clusters on its own. Instead, asteroids with D type ore can be found within clusters rich with other types of ore.</color>
@@ -7036,9 +7269,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY02_B_T2
-* Name: To impress the Iyatequa traders and procure the Progenitor components for Gideon, we will have to work on our reputation among a certain clientele.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 2: Songs and Tales
 * Description: To impress the Iyatequa traders and procure the Progenitor components for Gideon, we will have to work on our reputation among a certain clientele.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7048,9 +7279,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 135 RepTr1
 
 ## QE_ANNIVERSARY_2023_DAY02_C_T2
-* Name: In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 2: Merchant Supreme
 * Description: In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -7060,9 +7289,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY03_A_T2
-* Name: We need to search for recent communications data in this sector to pick up a lead on Guahai's Yaot fleet. We should find what we are looking for on recently destroyed ships.
-
-<color=#FBB03F>The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.</color>
+* Name: Day 3: Stop Scouting
 * Description: We need to search for recent communications data in this sector to pick up a lead on Guahai's Yaot fleet. We should find what we are looking for on recently destroyed ships.
 
 <color=#FBB03F>The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.</color>
@@ -7072,9 +7299,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT2_ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_ANNIVERSARY_2023_DAY03_B_T2
-* Name: We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Sifting for Gold
 * Description: We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -7084,9 +7309,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY03_C_T2
-* Name: The reconnaissance disk gave us a lead on the Progenitor component the Yaot call the Stambha. Enemy activity is high in the target location.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 3: Concluding Battle
 * Description: The reconnaissance disk gave us a lead on the Progenitor component the Yaot call the Stambha. Enemy activity is high in the target location.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7096,9 +7319,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY04_A_T2
-* Name: Gideon has emerged from his laboratory. He talks of the possibility to build a device that could change the fortunes of Hiigarans in Nimbus. However, we must search for a final component.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 4: Lost and Found
 * Description: Gideon has emerged from his laboratory. He talks of the possibility to build a device that could change the fortunes of Hiigarans in Nimbus. However, we must search for a final component.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -7108,9 +7329,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_ANNIVERSARY_2023_DAY04_B_T2
-* Name: Gideon is in need of raw materials to construct a secret device. We should look for a jovian planet to collect some gas.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 4: Raw Materials
 * Description: Gideon is in need of raw materials to construct his secret device. We have to mine some minerals for him.
 
 <color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -7120,9 +7339,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY04_C_T2
-* Name: According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 4: Patrol Conclusion
 * Description: According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -7132,9 +7349,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY05_A_T2
-* Name: We want to make contact with Tepin Papan, commander of the Tanoch Empire. To find a communication channel, we should do some hired work for the local authorities.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 5: Help Wanted
 * Description: We want to make contact with Tepin Papan, commander of the Tanoch Empire. To find a communication channel, we should do some hired work for the local authorities.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7144,9 +7359,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_T2up
 
 ## QE_ANNIVERSARY_2023_DAY05_B_T2
-* Name: Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
-
-<color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
+* Name: Day 5: See the Universe
 * Description: Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
 
 <color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
@@ -7156,9 +7369,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_ANNIVERSARY_2023_DAY05_C_T2
-* Name: According to Tepin Papan, some of the Tanoch sectors require assistance. We should seek out their liaison offices and complete assignments.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 5: Enlist Today
 * Description: According to Tepin Papan, some of the Tanoch sectors require assistance. We should seek out their liaison offices and complete assignments.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7168,9 +7379,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 135 RepTanoch
 
 ## QE_ANNIVERSARY_2023_DAY06_A_T2
-* Name: While Lazarus Base is processing the reports on the stolen Progenitor component, Gideon wants us to train a crew to handle the device he's constructing.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
+* Name: Day 6: Training Day
 * Description: While Lazarus Base is processing the reports on the stolen Progenitor component, Gideon wants us to train a crew to handle the device he's constructing.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
@@ -7180,9 +7389,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY06_B_T2
-* Name: With Gideon's new program, we should start training the crew that will man his enigmatic device.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 6: Technical Proficiency
 * Description: With Gideon's new program, we should start training the crew that will man his enigmatic device.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -7192,9 +7399,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_ANNIVERSARY_2023_DAY06_C_T2
-* Name: It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 6: Crash Course
 * Description: It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7204,9 +7409,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY07_A_T2
-* Name: Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow his instructions for now. His first transmitted task needs us to mine resources.
-
-<color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
+* Name: Day 7: Simple Collection
 * Description: Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow his instructions for now. His first transmitted task needs us to mine resources.
 
 <color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -7216,9 +7419,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY07_B_T2
-* Name: We continue to follow Guahai’s orders. His next task for us is to produce refined material.
-
-<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
+* Name: Day 7: Smelting Task
 * Description: We continue to follow Guahai’s orders. His next task for us is to produce refined material.
 
 <color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
@@ -7228,9 +7429,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY07_C_T2
-* Name: Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 7: Custom Craftsmanship
 * Description: Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -7240,9 +7439,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY08_A_T2
-* Name: Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor component point towards an infamous pirate group called The Fleet of Rams. We should hunt down Cangacian vessels for more information.
-
-<color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
+* Name: Day 8: Cangacian Patrol
 * Description: Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor component point towards an infamous pirate group called The Fleet of Rams. We should hunt down Cangacian vessels for more information.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -7252,9 +7449,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedP1T2_ShipsDestroyedP1T3_ShipsDestroyedP1T4
 
 ## QE_ANNIVERSARY_2023_DAY08_B_T2
-* Name: The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 8: Postal Investigation
 * Description: The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -7264,9 +7459,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY08_C_T2
-* Name: Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 8: Black Flag
 * Description: Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -7276,9 +7469,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 20 ShipsDestroyedP1T2_ShipsDestroyedP1T3_ShipsDestroyedP1T4
 
 ## QE_ANNIVERSARY_2023_DAY09_A_T2
-* Name: While Gideon is finalizing the construction of the Progenitor Negotiator, we should increase our fleet's power to protect it in action.
-
-<color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: Special Instructions
 * Description: While Gideon is finalizing the construction of the Progenitor Negotiator, we should increase our fleet's power to protect it in action.
 
 <color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
@@ -7288,9 +7479,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY09_B_T2
-* Name: Before we embark on Gideon's special operation, we should further increase our fleet's power to ensure we are ready for any eventuality.
-
-<color=#FBB03F>Internal Modules can be upgraded in the Internal Module screen which increases their attributes. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: The Chariot
 * Description: We have to fabricate several items to modify a common freighter for Gideon's special operation.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -7300,9 +7489,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY09_C_T2
-* Name: We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 9: Trial Runs
 * Description: We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7312,9 +7499,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY10_A_T2
-* Name: Gideon has finally revealed his plan. From the Progenitor components we collected he constructed a communication device to retake control of Wiracoda Gate. We are trying to go home.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 10: The Special Operation
 * Description: Gideon has finally revealed his plan. From the Progenitor components we collected he constructed a communication device to retake control of Wiracoda Gate. We are trying to go home.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -7325,7 +7510,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Return to Wiracoda Gate T2'
 
 ## QE_ANNIVERSARY_2023_DAILY_A_T3
-* Name: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
+* Name: Active Monitoring
 * Description: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
 * Type: Event
 * EventId: event_anniversary_2023_t3
@@ -7333,7 +7518,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_ANNIVERSARY_2023_DAILY_B_T3
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Refining Results
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_anniversary_2023_t3
@@ -7341,9 +7526,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY01_A_T3
-* Name: We received priority communication from Hiigaran Command of Lazarus Base concerning Gideon S'jet. We need to decrypt it in our laboratory first before we can read it.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Day 1: Research Directive
 * Description: We received priority communication from Hiigaran Command of Lazarus Base concerning Gideon S'jet. We need to decrypt it in our laboratory first before we can read it.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -7353,9 +7536,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY01_B_T3
-* Name: The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 1: Seek and Find
 * Description: The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -7365,9 +7546,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_ANNIVERSARY_2023_DAY01_C_T3
-* Name: Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 1: The Capstone
 * Description: Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -7377,9 +7556,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY02_A_T3
-* Name: Ekekko can bring us in contact with traders specialized in Progenitor technology. But knowing the Iyatequa, everything has a price. We should mine minerals to recuperate the losses we'll have to pay.
-
-<color=#FBB03F>Type D ore is not abundant enough to form asteroid clusters on its own. Instead, asteroids with D type ore can be found within clusters rich with other types of ore.</color>
+* Name: Day 2: Cash Money
 * Description: Ekekko can bring us in contact with traders specialized in Progenitor technology. But knowing the Iyatequa, everything has a price. We should mine minerals to recuperate the losses we'll have to pay.
 
 <color=#FBB03F>Type D ore is not abundant enough to form asteroid clusters on its own. Instead, asteroids with D type ore can be found within clusters rich with other types of ore.</color>
@@ -7389,9 +7566,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY02_B_T3
-* Name: To impress the Iyatequa traders and procure the Progenitor components for Gideon, we will have to work on our reputation among a certain clientele.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 2: Songs and Tales
 * Description: To impress the Iyatequa traders and procure the Progenitor components for Gideon, we will have to work on our reputation among a certain clientele.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7401,9 +7576,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 180 RepTr1
 
 ## QE_ANNIVERSARY_2023_DAY02_C_T3
-* Name: In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 2: Merchant Supreme
 * Description: In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -7413,9 +7586,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY03_A_T3
-* Name: We need to search for recent communications data in this sector to pick up a lead on Guahai's Yaot fleet. We should find what we are looking for on recently destroyed ships.
-
-<color=#FBB03F>The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.</color>
+* Name: Day 3: Stop Scouting
 * Description: We need to search for recent communications data in this sector to pick up a lead on Guahai's Yaot fleet. We should find what we are looking for on recently destroyed ships.
 
 <color=#FBB03F>The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.</color>
@@ -7425,9 +7596,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT3_ShipsDestroyedT4
 
 ## QE_ANNIVERSARY_2023_DAY03_B_T3
-* Name: We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Sifting for Gold
 * Description: We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -7437,9 +7606,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY03_C_T3
-* Name: The reconnaissance disk gave us a lead on the Progenitor component the Yaot call the Stambha. Enemy activity is high in the target location.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 3: Concluding Battle
 * Description: The reconnaissance disk gave us a lead on the Progenitor component the Yaot call the Stambha. Enemy activity is high in the target location.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7449,9 +7616,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY04_A_T3
-* Name: Gideon has emerged from his laboratory. He talks of the possibility to build a device that could change the fortunes of Hiigarans in Nimbus. However, we must search for a final component.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 4: Lost and Found
 * Description: Gideon has emerged from his laboratory. He talks of the possibility to build a device that could change the fortunes of Hiigarans in Nimbus. However, we must search for a final component.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -7461,9 +7626,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_ANNIVERSARY_2023_DAY04_B_T3
-* Name: Gideon is in need of raw materials to construct a secret device. We should look for a jovian planet to collect some gas.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 4: Raw Materials
 * Description: Gideon is in need of raw materials to construct a secret device. We should look for a jovian planet to collect some gas.
 
 <color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
@@ -7473,9 +7636,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY04_C_T3
-* Name: According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 4: Patrol Conclusion
 * Description: According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -7485,9 +7646,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY05_A_T3
-* Name: We want to make contact with Tepin Papan, commander of the Tanoch Empire. To find a communication channel, we should do some hired work for the local authorities.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 5: Help Wanted
 * Description: We want to make contact with Tepin Papan, commander of the Tanoch Empire. To find a communication channel, we should do some hired work for the local authorities.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7497,9 +7656,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_T3up
 
 ## QE_ANNIVERSARY_2023_DAY05_B_T3
-* Name: Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
-
-<color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
+* Name: Day 5: See the Universe
 * Description: Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
 
 <color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
@@ -7509,9 +7666,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_ANNIVERSARY_2023_DAY05_C_T3
-* Name: According to Tepin Papan, some of the Tanoch sectors require assistance. We should seek out their liaison offices and complete assignments.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 5: Enlist Today
 * Description: According to Tepin Papan, some of the Tanoch sectors require assistance. We should seek out their liaison offices and complete assignments.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7521,9 +7676,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 180 RepTanoch
 
 ## QE_ANNIVERSARY_2023_DAY06_A_T3
-* Name: While Lazarus Base is processing the reports on the stolen Progenitor component, Gideon wants us to train a crew to handle the device he's constructing.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
+* Name: Day 6: Training Day
 * Description: While Lazarus Base is processing the reports on the stolen Progenitor component, Gideon wants us to train a crew to handle the device he's constructing.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
@@ -7533,9 +7686,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY06_B_T3
-* Name: With Gideon's new program, we should start training the crew that will man his enigmatic device.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 6: Technical Proficiency
 * Description: With Gideon's new program, we should start training the crew that will man his enigmatic device.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -7545,9 +7696,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_ANNIVERSARY_2023_DAY06_C_T3
-* Name: It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 6: Crash Course
 * Description: It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7557,9 +7706,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY07_A_T3
-* Name: Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow his instructions for now. His first transmitted task needs us to mine resources.
-
-<color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
+* Name: Day 7: Simple Collection
 * Description: Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow his instructions for now. His first transmitted task needs us to mine resources.
 
 <color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -7569,9 +7716,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY07_B_T3
-* Name: We continue to follow Guahai’s orders. His next task for us is to produce refined material.
-
-<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
+* Name: Day 7: Smelting Task
 * Description: We continue to follow Guahai’s orders. His next task for us is to produce refined material.
 
 <color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
@@ -7581,9 +7726,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY07_C_T3
-* Name: Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 7: Custom Craftsmanship
 * Description: Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -7593,9 +7736,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY08_A_T3
-* Name: Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor component point towards an infamous pirate group called The Fleet of Rams. We should hunt down Cangacian vessels for more information.
-
-<color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
+* Name: Day 8: Cangacian Patrol
 * Description: Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor component point towards an infamous pirate group called The Fleet of Rams. We should hunt down Cangacian vessels for more information.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -7605,9 +7746,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedP1T3_ShipsDestroyedP1T4
 
 ## QE_ANNIVERSARY_2023_DAY08_B_T3
-* Name: The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 8: Postal Investigation
 * Description: The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -7617,9 +7756,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY08_C_T3
-* Name: Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 8: Black Flag
 * Description: Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7629,9 +7766,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete quest 'Pahra's Rock'
 
 ## QE_ANNIVERSARY_2023_DAY09_A_T3
-* Name: While Gideon is finalizing the construction of the Progenitor Negotiator, we should increase our fleet's power to protect it in action.
-
-<color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: Special Instructions
 * Description: While Gideon is finalizing the construction of the Progenitor Negotiator, we should increase our fleet's power to protect it in action.
 
 <color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
@@ -7641,9 +7776,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY09_B_T3
-* Name: Before we embark on Gideon's special operation, we should further increase our fleet's power to ensure we are ready for any eventuality.
-
-<color=#FBB03F>Internal Modules can be upgraded in the Internal Module screen which increases their attributes. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: The Chariot
 * Description: Before we embark on Gideon's special operation, we should further increase our fleet's power to ensure we are ready for any eventuality.
 
 <color=#FBB03F>Internal Modules can be upgraded in the Internal Module screen which increases their attributes. Upgrading one level costs credits and RE.</color>
@@ -7653,9 +7786,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY09_C_T3
-* Name: We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 9: Trial Runs
 * Description: We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7665,9 +7796,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY10_A_T3
-* Name: Gideon has finally revealed his plan. From the Progenitor components we collected he constructed a communication device to retake control of Wiracoda Gate. We are trying to go home.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 10: The Special Operation
 * Description: Gideon has finally revealed his plan. From the Progenitor components we collected he constructed a communication device to retake control of Wiracoda Gate. We are trying to go home.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -7678,7 +7807,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Return to Wiracoda Gate T3'
 
 ## QE_ANNIVERSARY_2023_DAILY_A_T4
-* Name: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
+* Name: Active Monitoring
 * Description: Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.
 * Type: Event
 * EventId: event_anniversary_2023_t4
@@ -7686,7 +7815,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_ANNIVERSARY_2023_DAILY_B_T4
-* Name: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
+* Name: Refining Results
 * Description: Rare earths are an occasional by-product of refining. They are required for upgrading modules.
 * Type: Event
 * EventId: event_anniversary_2023_t4
@@ -7694,9 +7823,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY01_A_T4
-* Name: We received priority communication from Hiigaran Command of Lazarus Base concerning Gideon S'jet. We need to decrypt it in our laboratory first before we can read it.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Day 1: Research Directive
 * Description: We received priority communication from Hiigaran Command of Lazarus Base concerning Gideon S'jet. We need to decrypt it in our laboratory first before we can read it.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -7706,9 +7833,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY01_B_T4
-* Name: The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 1: Seek and Find
 * Description: The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -7718,9 +7843,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 7 ShipsDestroyedProgenitorT4
 
 ## QE_ANNIVERSARY_2023_DAY01_C_T4
-* Name: Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 1: The Capstone
 * Description: Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -7730,9 +7853,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY02_A_T4
-* Name: Ekekko can bring us in contact with traders specialized in Progenitor technology. But knowing the Iyatequa, everything has a price. We should mine minerals to recuperate the losses we'll have to pay.
-
-<color=#FBB03F>Type D ore is not abundant enough to form asteroid clusters on its own. Instead, asteroids with D type ore can be found within clusters rich with other types of ore.</color>
+* Name: Day 2: Cash Money
 * Description: Ekekko can bring us in contact with traders specialized in Progenitor technology. But knowing the Iyatequa, everything has a price. We should mine minerals to recuperate the losses we'll have to pay.
 
 <color=#FBB03F>Type D ore is not abundant enough to form asteroid clusters on its own. Instead, asteroids with D type ore can be found within clusters rich with other types of ore.</color>
@@ -7742,9 +7863,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY02_B_T4
-* Name: To impress the Iyatequa traders and procure the Progenitor components for Gideon, we will have to work on our reputation among a certain clientele.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 2: Songs and Tales
 * Description: To impress the Iyatequa traders and procure the Progenitor components for Gideon, we will have to work on our reputation among a certain clientele.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7754,9 +7873,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 225 RepTr1
 
 ## QE_ANNIVERSARY_2023_DAY02_C_T4
-* Name: In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 2: Merchant Supreme
 * Description: In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -7766,9 +7883,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY03_A_T4
-* Name: We need to search for recent communications data in this sector to pick up a lead on Guahai's Yaot fleet. We should find what we are looking for on recently destroyed ships.
-
-<color=#FBB03F>The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.</color>
+* Name: Day 3: Stop Scouting
 * Description: We need to search for recent communications data in this sector to pick up a lead on Guahai's Yaot fleet. We should find what we are looking for on recently destroyed ships.
 
 <color=#FBB03F>The strength of enemies is dependent on a signal's or asteroid cluster's tier and subtier. The subtier is the number next to the tier icon.</color>
@@ -7778,9 +7893,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 15 ShipsDestroyedT4
 
 ## QE_ANNIVERSARY_2023_DAY03_B_T4
-* Name: We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Sifting for Gold
 * Description: We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -7790,9 +7903,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY03_C_T4
-* Name: The reconnaissance disk gave us a lead on the Progenitor component the Yaot call the Stambha. Enemy activity is high in the target location.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 3: Concluding Battle
 * Description: The reconnaissance disk gave us a lead on the Progenitor component the Yaot call the Stambha. Enemy activity is high in the target location.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7802,9 +7913,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY04_A_T4
-* Name: Gideon has emerged from his laboratory. He talks of the possibility to build a device that could change the fortunes of Hiigarans in Nimbus. However, we must search for a final component.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 4: Lost and Found
 * Description: Gideon has emerged from his laboratory. He talks of the possibility to build a device that could change the fortunes of Hiigarans in Nimbus. However, we must search for a final component.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -7814,9 +7923,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_ANNIVERSARY_2023_DAY04_B_T4
-* Name: Gideon is in need of raw materials to construct a secret device. We should look for a jovian planet to collect some gas.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 4: Raw Materials
 * Description: Gideon is in need of raw materials to construct a secret device. We should look for a jovian planet to collect some gas.
 
 <color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
@@ -7826,9 +7933,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY04_C_T4
-* Name: According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 4: Patrol Conclusion
 * Description: According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -7838,9 +7943,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY05_A_T4
-* Name: We want to make contact with Tepin Papan, commander of the Tanoch Empire. To find a communication channel, we should do some hired work for the local authorities.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 5: Help Wanted
 * Description: We want to make contact with Tepin Papan, commander of the Tanoch Empire. To find a communication channel, we should do some hired work for the local authorities.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7850,9 +7953,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_T4up
 
 ## QE_ANNIVERSARY_2023_DAY05_B_T4
-* Name: Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
-
-<color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
+* Name: Day 5: See the Universe
 * Description: Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
 
 <color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
@@ -7862,9 +7963,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_ANNIVERSARY_2023_DAY05_C_T4
-* Name: According to Tepin Papan, some of the Tanoch sectors require assistance. We should seek out their liaison offices and complete assignments.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 5: Enlist Today
 * Description: According to Tepin Papan, some of the Tanoch sectors require assistance. We should seek out their liaison offices and complete assignments.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -7874,9 +7973,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 225 RepTanoch
 
 ## QE_ANNIVERSARY_2023_DAY06_A_T4
-* Name: While Lazarus Base is processing the reports on the stolen Progenitor component, Gideon wants us to train a crew to handle the device he's constructing.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
+* Name: Day 6: Training Day
 * Description: While Lazarus Base is processing the reports on the stolen Progenitor component, Gideon wants us to train a crew to handle the device he's constructing.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
@@ -7886,9 +7983,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY06_B_T4
-* Name: With Gideon's new program, we should start training the crew that will man his enigmatic device.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 6: Technical Proficiency
 * Description: With Gideon's new program, we should start training the crew that will man his enigmatic device.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -7898,9 +7993,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_ANNIVERSARY_2023_DAY06_C_T4
-* Name: It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 6: Crash Course
 * Description: It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7910,9 +8003,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY07_A_T4
-* Name: Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow his instructions for now. His first transmitted task needs us to mine resources.
-
-<color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
+* Name: Day 7: Simple Collection
 * Description: Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow his instructions for now. His first transmitted task needs us to mine resources.
 
 <color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -7922,9 +8013,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY07_B_T4
-* Name: We continue to follow Guahai’s orders. His next task for us is to produce refined material.
-
-<color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
+* Name: Day 7: Smelting Task
 * Description: We continue to follow Guahai’s orders. His next task for us is to produce refined material.
 
 <color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
@@ -7934,9 +8023,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY07_C_T4
-* Name: Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 7: Custom Craftsmanship
 * Description: Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -7946,9 +8033,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY08_A_T4
-* Name: Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor component point towards an infamous pirate group called The Fleet of Rams. We should hunt down Cangacian vessels for more information.
-
-<color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
+* Name: Day 8: Cangacian Patrol
 * Description: Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor component point towards an infamous pirate group called The Fleet of Rams. We should hunt down Cangacian vessels for more information.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -7958,9 +8043,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedP1T4
 
 ## QE_ANNIVERSARY_2023_DAY08_B_T4
-* Name: The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 8: Postal Investigation
 * Description: The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -7970,9 +8053,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_ANNIVERSARY_2023_DAY08_C_T4
-* Name: Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 8: Black Flag
 * Description: Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -7982,9 +8063,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete quest 'Pahra's Rock (Heroic)'
 
 ## QE_ANNIVERSARY_2023_DAY09_A_T4
-* Name: While Gideon is finalizing the construction of the Progenitor Negotiator, we should increase our fleet's power to protect it in action.
-
-<color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: Special Instructions
 * Description: While Gideon is finalizing the construction of the Progenitor Negotiator, we should increase our fleet's power to protect it in action.
 
 <color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
@@ -7994,9 +8073,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY09_B_T4
-* Name: Before we embark on Gideon's special operation, we should further increase our fleet's power to ensure we are ready for any eventuality.
-
-<color=#FBB03F>Internal Modules can be upgraded in the Internal Module screen which increases their attributes. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: The Chariot
 * Description: Before we embark on Gideon's special operation, we should further increase our fleet's power to ensure we are ready for any eventuality.
 
 <color=#FBB03F>Internal Modules can be upgraded in the Internal Module screen which increases their attributes. Upgrading one level costs credits and RE.</color>
@@ -8006,9 +8083,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_ANNIVERSARY_2023_DAY09_C_T4
-* Name: We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 9: Trial Runs
 * Description: We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -8018,9 +8093,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_ANNIVERSARY_2023_DAY10_A_T4
-* Name: Gideon has finally revealed his plan. From the Progenitor components we collected he constructed a communication device to retake control of Wiracoda Gate. We are trying to go home.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 10: The Special Operation
 * Description: Gideon has finally revealed his plan. From the Progenitor components we collected he constructed a communication device to retake control of Wiracoda Gate. We are trying to go home.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -8031,7 +8104,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Return to Wiracoda Gate T4'
 
 ## QE_HALLOWEEN_2023_DAILY_A_T1
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Bystander
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t1
@@ -8039,7 +8112,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_HALLOWEEN_2023_DAILY_B_T1
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Resister
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t1
@@ -8047,7 +8120,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 2 side missions
 
 ## QE_HALLOWEEN_2023_DAILY_C_T1
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Opposition
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t1
@@ -8055,7 +8128,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_HALLOWEEN_2023_DAILY_D_T1
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Defiant
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t1
@@ -8173,7 +8246,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Rashidun T1'
 
 ## QE_HALLOWEEN_2023_DAILY_A_T2
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Bystander
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t2
@@ -8181,7 +8254,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_HALLOWEEN_2023_DAILY_B_T2
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Resister
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t2
@@ -8189,7 +8262,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 2 side missions
 
 ## QE_HALLOWEEN_2023_DAILY_C_T2
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Opposition
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t2
@@ -8197,7 +8270,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_HALLOWEEN_2023_DAILY_D_T2
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Defiant
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t2
@@ -8205,9 +8278,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 10 side missions
 
 ## QE_HALLOWEEN_2023_DAY01_T2
-* Name: We are receiving disturbing reports from all over the galaxy. The disaster at Wiracoda Gate has sent the Progenitors into a frenzy! We must assist the defensive efforts wherever we can until we understand what is happening.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 1: Sentinel Duty
 * Description: We are receiving disturbing reports from all over the galaxy. The disaster at Wiracoda Gate has sent the Progenitors into a frenzy! We must assist the defensive efforts wherever we can until we understand what is happening.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -8217,9 +8288,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedProgenitorT2_ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_HALLOWEEN_2023_DAY02_T2
-* Name: Gas refineries are being targeted by the Progenitors in many sectors of Nimbus. Stocks need to be replenished if the defenders are to hold off this calamity.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 2: Prospector
 * Description: Refineries are being targeted by the Progenitors in many sectors of Nimbus. Stocks need to be replenished if the defenders are to hold off this calamity.
 
 <color=#FBB03F>Ore can be mined from asteroids. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -8229,9 +8298,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY03_T2
-* Name: Gideon wants to collect any evidence which points to the Progenitor’s current activity. We should collect data from ships that were in combat with the abnormal Progenitor vessels.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Deep Space Recovery
 * Description: Gideon wants to collect any evidence which points to the Progenitor’s current activity. We should collect data from ships that were in combat with the abnormal Progenitor vessels.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -8241,9 +8308,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY04_T2
-* Name: Many planets are still in desperate need of resources to hold off the Progenitors. Especially rare resources have been in high demand to increase defensive capabilities.
-
-<color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
+* Name: Day 4: Smelt and Refine
 * Description: Many planets are still in desperate need of resources to hold off the Progenitors. Especially rare resources have been in high demand to increase defensive capabilities.
 
 <color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
@@ -8253,9 +8318,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY05_T2
-* Name: Gideon has identified a specific Progenitor component we must find in order to decrypt the errant Keeper's command frequency.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 5: The Guidepost
 * Description: Gideon has identified a specific Progenitor component we must find in order to decrypt the errant Keeper's command frequency.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -8265,9 +8328,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY06_T2
-* Name: Many sectors have suffered heavy damages from the ongoing Progenitor attacks. More parts are needed to replenish the defending fleets.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 6: Replacement Parts
 * Description: Many sectors have suffered heavy damages from the ongoing Progenitor attacks. More parts are needed to replenish the defending fleets.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -8277,9 +8338,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_HALLOWEEN_2023_DAY07_T2
-* Name: In order for Gideon to triangulate the location of the errant Keeper we need to hunt down Progenitor vessels receiving its command signal.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 7: Triangulation
 * Description: In order for Gideon to triangulate the location of the errant Keeper we need to hunt down Progenitor vessels receiving its command signal.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -8289,9 +8348,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedProgenitorT2_ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_HALLOWEEN_2023_DAY08_T2
-* Name: We are unsure what awaits us when we'll face the corrupted Keeper once again. Gideon has advised us to train our officers in Progenitor communication theory to effectively analyze the situation in the field.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 8: Officer Training
 * Description: We are unsure what awaits us when we'll face the corrupted Keeper once again. Gideon has advised us to train our officers in Progenitor communication theory to effectively analyze the situation in the field.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -8301,9 +8358,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_HALLOWEEN_2023_DAY09_T2
-* Name: In order to be fully prepared for the confrontation with the corrupted Keeper, we need to perform a fleet wide ready-check for all systems. We can engage enemies that have been preying on the local area lately due to the diminished security situation.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 9: Military Exercise
 * Description: In order to be fully prepared for the confrontation with the corrupted Keeper, we need to perform a fleet wide ready-check for all systems. We can engage enemies that have been preying on the local area lately due to the diminished security situation.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -8313,9 +8368,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_HALLOWEEN_2023_DAY10_T2
-* Name: The Iyatequa promised to negotiate a deal for safe passage into Cangacian space. However, even though the galaxy is at stake, the traders still insist on receiving a hefty price.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 10: Safe Passage
 * Description: The Iyatequa promised to negotiate a deal for safe passage into Cangacian space. However, even though the galaxy is at stake, the traders still insist on receiving a hefty price.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -8325,9 +8378,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY11_T2
-* Name: We must confront the corrupted Keeper Malik and end the Progenitor incursion.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 11: Confrontation
 * Description: We must confront the corrupted Keeper Malik and end the Progenitor incursion.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -8337,7 +8388,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Rashidun T2'
 
 ## QE_HALLOWEEN_2023_DAILY_A_T3
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Bystander
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t3
@@ -8345,7 +8396,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_HALLOWEEN_2023_DAILY_B_T3
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Resister
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t3
@@ -8353,7 +8404,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 2 side missions
 
 ## QE_HALLOWEEN_2023_DAILY_C_T3
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Opposition
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t3
@@ -8361,7 +8412,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_HALLOWEEN_2023_DAILY_D_T3
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Defiant
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t3
@@ -8369,9 +8420,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 10 side missions
 
 ## QE_HALLOWEEN_2023_DAY01_T3
-* Name: We are receiving disturbing reports from all over the galaxy. The disaster at Wiracoda Gate has sent the Progenitors into a frenzy! We must assist the defensive efforts wherever we can until we understand what is happening.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 1: Sentinel Duty
 * Description: We are receiving disturbing reports from all over the galaxy. The disaster at Wiracoda Gate has sent the Progenitors into a frenzy! We must assist the defensive efforts wherever we can until we understand what is happening.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -8381,9 +8430,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_HALLOWEEN_2023_DAY02_T3
-* Name: Gas refineries are being targeted by the Progenitors in many sectors of Nimbus. Stocks need to be replenished if the defenders are to hold off this calamity.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 2: Prospector
 * Description: Gas refineries are being targeted by the Progenitors in many sectors of Nimbus. Stocks need to be replenished if the defenders are to hold off this calamity.
 
 <color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
@@ -8393,9 +8440,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY03_T3
-* Name: Gideon wants to collect any evidence which points to the Progenitor’s current activity. We should collect data from ships that were in combat with the abnormal Progenitor vessels.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Deep Space Recovery
 * Description: Gideon wants to collect any evidence which points to the Progenitor’s current activity. We should collect data from ships that were in combat with the abnormal Progenitor vessels.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -8405,9 +8450,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY04_T3
-* Name: Many planets are still in desperate need of resources to hold off the Progenitors. Especially rare resources have been in high demand to increase defensive capabilities.
-
-<color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
+* Name: Day 4: Smelt and Refine
 * Description: Many planets are still in desperate need of resources to hold off the Progenitors. Especially rare resources have been in high demand to increase defensive capabilities.
 
 <color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
@@ -8417,9 +8460,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY05_T3
-* Name: Gideon has identified a specific Progenitor component we must find in order to decrypt the errant Keeper's command frequency.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 5: The Guidepost
 * Description: Gideon has identified a specific Progenitor component we must find in order to decrypt the errant Keeper's command frequency.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -8429,9 +8470,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY06_T3
-* Name: Many sectors have suffered heavy damages from the ongoing Progenitor attacks. More parts are needed to replenish the defending fleets.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 6: Replacement Parts
 * Description: Many sectors have suffered heavy damages from the ongoing Progenitor attacks. More parts are needed to replenish the defending fleets.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -8441,9 +8480,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_HALLOWEEN_2023_DAY07_T3
-* Name: In order for Gideon to triangulate the location of the errant Keeper we need to hunt down Progenitor vessels receiving its command signal.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 7: Triangulation
 * Description: In order for Gideon to triangulate the location of the errant Keeper we need to hunt down Progenitor vessels receiving its command signal.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -8453,9 +8490,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedProgenitorT3_ShipsDestroyedProgenitorT4
 
 ## QE_HALLOWEEN_2023_DAY08_T3
-* Name: We are unsure what awaits us when we'll face the corrupted Keeper once again. Gideon has advised us to train our officers in Progenitor communication theory to effectively analyze the situation in the field.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 8: Officer Training
 * Description: We are unsure what awaits us when we'll face the corrupted Keeper once again. Gideon has advised us to train our officers in Progenitor communication theory to effectively analyze the situation in the field.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -8465,9 +8500,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_HALLOWEEN_2023_DAY09_T3
-* Name: In order to be fully prepared for the confrontation with the corrupted Keeper, we need to perform a fleet wide ready-check for all systems. We can engage enemies that have been preying on the local area lately due to the diminished security situation.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 9: Military Exercise
 * Description: In order to be fully prepared for the confrontation with the corrupted Keeper, we need to perform a fleet wide ready-check for all systems. We can engage enemies that have been preying on the local area lately due to the diminished security situation.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -8477,9 +8510,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 3 side missions
 
 ## QE_HALLOWEEN_2023_DAY10_T3
-* Name: The Iyatequa promised to negotiate a deal for safe passage into Cangacian space. However, even though the galaxy is at stake, the traders still insist on receiving a hefty price.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 10: Safe Passage
 * Description: The Iyatequa promised to negotiate a deal for safe passage into Cangacian space. However, even though the galaxy is at stake, the traders still insist on receiving a hefty price.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -8489,9 +8520,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY11_T3
-* Name: We must confront the corrupted Keeper Malik and end the Progenitor incursion.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 11: Confrontation
 * Description: We must confront the corrupted Keeper Malik and end the Progenitor incursion.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -8501,7 +8530,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Rashidun T3'
 
 ## QE_HALLOWEEN_2023_DAILY_A_T4
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Bystander
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t4
@@ -8509,7 +8538,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_HALLOWEEN_2023_DAILY_B_T4
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Resister
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t4
@@ -8517,7 +8546,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 2 side missions
 
 ## QE_HALLOWEEN_2023_DAILY_C_T4
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Opposition
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t4
@@ -8525,7 +8554,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_HALLOWEEN_2023_DAILY_D_T4
-* Name: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
+* Name: Invasion Defiant
 * Description: Previously dormant progenitor ships have activated and are attacking stations and fleets across the galaxy. Missions of rampaging progenitor ships can be found through scanning, just like ordinary signals.
 * Type: Event
 * EventId: event_halloween_2023_t4
@@ -8533,9 +8562,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 10 side missions
 
 ## QE_HALLOWEEN_2023_DAY01_T4
-* Name: We are receiving disturbing reports from all over the galaxy. The disaster at Wiracoda Gate has sent the Progenitors into a frenzy! We must assist the defensive efforts wherever we can until we understand what is happening.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 1: Sentinel Duty
 * Description: We are receiving disturbing reports from all over the galaxy. The disaster at Wiracoda Gate has sent the Progenitors into a frenzy! We must assist the defensive efforts wherever we can until we understand what is happening.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -8545,9 +8572,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedProgenitorT4
 
 ## QE_HALLOWEEN_2023_DAY02_T4
-* Name: Gas refineries are being targeted by the Progenitors in many sectors of Nimbus. Stocks need to be replenished if the defenders are to hold off this calamity.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 2: Prospector
 * Description: Gas refineries are being targeted by the Progenitors in many sectors of Nimbus. Stocks need to be replenished if the defenders are to hold off this calamity.
 
 <color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
@@ -8557,9 +8582,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY03_T4
-* Name: Gideon wants to collect any evidence which points to the Progenitor’s current activity. We should collect data from ships that were in combat with the abnormal Progenitor vessels.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Deep Space Recovery
 * Description: Gideon wants to collect any evidence which points to the Progenitor’s current activity. We should collect data from ships that were in combat with the abnormal Progenitor vessels.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -8569,9 +8592,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY04_T4
-* Name: Many planets are still in desperate need of resources to hold off the Progenitors. Especially rare resources have been in high demand to increase defensive capabilities.
-
-<color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
+* Name: Day 4: Smelt and Refine
 * Description: Many planets are still in desperate need of resources to hold off the Progenitors. Especially rare resources have been in high demand to increase defensive capabilities.
 
 <color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
@@ -8581,9 +8602,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY05_T4
-* Name: Gideon has identified a specific Progenitor component we must find in order to decrypt the errant Keeper's command frequency.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 5: The Guidepost
 * Description: Gideon has identified a specific Progenitor component we must find in order to decrypt the errant Keeper's command frequency.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -8593,9 +8612,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY06_T4
-* Name: Many sectors have suffered heavy damages from the ongoing Progenitor attacks. More parts are needed to replenish the defending fleets.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 6: Replacement Parts
 * Description: Many sectors have suffered heavy damages from the ongoing Progenitor attacks. More parts are needed to replenish the defending fleets.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -8605,9 +8622,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_HALLOWEEN_2023_DAY07_T4
-* Name: In order for Gideon to triangulate the location of the errant Keeper we need to hunt down Progenitor vessels receiving its command signal.
-
-<color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
+* Name: Day 7: Triangulation
 * Description: In order for Gideon to triangulate the location of the errant Keeper we need to hunt down Progenitor vessels receiving its command signal.
 
 <color=#FBB03F>Progenitor ships can be found in signals. They are strong enemies, but their salvage contains resources that cannot be found in the salvage of other ships.</color>
@@ -8617,9 +8632,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedProgenitorT4
 
 ## QE_HALLOWEEN_2023_DAY08_T4
-* Name: We are unsure what awaits us when we'll face the corrupted Keeper once again. Gideon has advised us to train our officers in Progenitor communication theory to effectively analyze the situation in the field.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 8: Officer Training
 * Description: We are unsure what awaits us when we'll face the corrupted Keeper once again. Gideon has advised us to train our officers in Progenitor communication theory to effectively analyze the situation in the field.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -8629,9 +8642,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_HALLOWEEN_2023_DAY09_T4
-* Name: In order to be fully prepared for the confrontation with the corrupted Keeper, we need to perform a fleet wide ready-check for all systems. We can engage enemies that have been preying on the local area lately due to the diminished security situation.
-
-<color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
+* Name: Day 9: Military Exercise
 * Description: In order to be fully prepared for the confrontation with the corrupted Keeper, we need to perform a fleet wide ready-check for all systems. We can engage enemies that have been preying on the local area lately due to the diminished security situation.
 
 <color=#FBB03F>Strikes are difficult missions that require a strong fleet from several commanders to beat.</color>
@@ -8641,9 +8652,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_HALLOWEEN_2023_DAY10_T4
-* Name: The Iyatequa promised to negotiate a deal for safe passage into Cangacian space. However, even though the galaxy is at stake, the traders still insist on receiving a hefty price.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 10: Safe Passage
 * Description: The Iyatequa promised to negotiate a deal for safe passage into Cangacian space. However, even though the galaxy is at stake, the traders still insist on receiving a hefty price.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -8653,9 +8662,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_HALLOWEEN_2023_DAY11_T4
-* Name: We must confront the corrupted Keeper Malik and end the Progenitor incursion.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 11: Confrontation
 * Description: We must confront the corrupted Keeper Malik and end the Progenitor incursion.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -8665,9 +8672,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Rashidun T4'
 
 ## QE_TANWIN_2023_DAILY_A_T1
-* Name: The Chicuat collect Progenitor relics for scientific study, rather than venerate them. Their academics would gladly acquire any such objects to advance their knowledge.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: An Article of Hope
 * Description: The Chicuat collect Progenitor relics for scientific study, rather than venerate them. Their academics would gladly acquire any such objects to advance their knowledge.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -8677,9 +8682,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_TANWIN_2023_DAILY_B_T1
-* Name: Tasks performed for the Tanoch Empire also assist the Chicuat indirectly. Gaining favor with the Empire can give them more leverage in negotiations for aid.
-
-<color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
+* Name: A Good Samaritan
 * Description: Tasks performed for the Tanoch Empire also assist the Chicuat indirectly. Gaining favor with the Empire can give the Chicuat more leverage in negotiations for aid.
 
 <color=#FBB03F>Signals can be found through scanning. A better sensor module increases the chance to reveal a signal.</color>
@@ -8689,9 +8692,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_TANWIN_2023_DAILY_C_T1
-* Name: The Chicuat are always in need of supplies and equipment to bolster their economy and support their people. Any aid to them would be welcomed.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Favored Supplier
 * Description: The Chicuat are always in need of supplies and equipment to bolster their economy and support their people. Any aid to them would be welcomed.
 
 <color=#FBB03F>Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.</color>
@@ -8701,9 +8702,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_TANWIN_2023_DAILY_D_T1
-* Name: The conflict between the Chicuat and ethnic Tanoch people goes back centuries. Training our crew about the details of this conflict will help us navigate the inner workings of the Tanoch Empire better.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Peace Officers
 * Description: The conflict between the Chicuat and ethnic Tanoch people goes back centuries. Training our crew about the details of this conflict will help us navigate the inner workings of the Tanoch Empire better.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -8938,9 +8937,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Tlapallan Academy T1'
 
 ## QE_TANWIN_2023_DAILY_A_T2
-* Name: The Chicuat collect Progenitor relics for scientific study, rather than venerate them. Their academics would gladly acquire any such objects to advance their knowledge.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: An Article of Hope
 * Description: The Chicuat collect Progenitor relics for scientific study, rather than venerate them. Their academics would gladly acquire any such objects to advance their knowledge.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -8950,9 +8947,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_TANWIN_2023_DAILY_B_T2
-* Name: Tasks performed for the Tanoch Empire also assist the Chicuat indirectly. Gaining favor with the Empire can give them more leverage in negotiations for aid.
-
-<color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
+* Name: A Good Samaritan
 * Description: Tasks performed for the Tanoch Empire also assist the Chicuat indirectly. Gaining favor with the Empire can give them more leverage in negotiations for aid.
 
 <color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
@@ -8962,9 +8957,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_TANWIN_2023_DAILY_C_T2
-* Name: The Chicuat are always in need of supplies and equipment to bolster their economy and support their people. Any aid to them would be welcomed.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Favored Supplier
 * Description: The Chicuat are always in need of supplies and equipment to bolster their economy and support their people. Any aid to them would be welcomed.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -8974,9 +8967,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_TANWIN_2023_DAILY_D_T2
-* Name: The conflict between the Chicuat and ethnic Tanoch people goes back centuries. Training our crew about the details of this conflict will help us navigate the inner workings of the Tanoch Empire better.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Peace Officers
 * Description: The conflict between the Chicuat and ethnic Tanoch people goes back centuries. Training our crew about the details of this conflict will help us navigate the inner workings of the Tanoch Empire better.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -8986,9 +8977,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_TANWIN_2023_DAY01_T2
-* Name: We received priority communication from Lazarus Base. A subfaction of the Tanoch, the Chicuat, have made contact with Hiigaran representatives and requested aid. Fleet Command wants us to support the Chicuat and establish friendly ties. Our first task is to provide basic resources.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 1: Resource Relief
 * Description: We received priority communication from Lazarus Base. A subfaction of the Tanoch, the Chicuat, have made contact with Hiigaran representatives and requested aid. Fleet Command wants us to support the Chicuat and establish friendly ties. Our first task is to provide basic resources.
 
 <color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
@@ -8999,9 +8988,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY02_T2
-* Name: The Chicuat infrastructure is badly degraded with age and suffered heavy damage in recent attacks. We're asked to refine materials to support their restoration efforts.
-
-<color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
+* Name: Day 2: Processor Surrogate
 * Description: The Chicuat infrastructure is badly degraded with age and suffered heavy damage in recent attacks. We're asked to refine materials to support their restoration efforts.
 
 <color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
@@ -9011,9 +8998,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY03_T2
-* Name: The Chicuat have informed us several critical supply convoys have gone missing. We should try to retrieve any goods by hunting down local bandits.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Wayward Cargo
 * Description: The Chicuat have informed us several critical supply convoys have gone missing. We should try to retrieve any goods by hunting down local bandits.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -9023,9 +9008,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY04_T2
-* Name: Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his contacts to support the Chicuat's need for basic supplies. We should sell some of our own items to get the traders interested.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 4: Relief Package
 * Description: Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his contacts to support the Chicuat's need for basic supplies. We should sell some of our own items to get the traders interested.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -9035,9 +9018,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY05_T2
-* Name: We received emergency communication from the Chicuat Elders. They anticipate a raid on one of their remote trading stations. Toci asks us to take on the defense in order to relieve the weakened and overextended Chicuat forces.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 5: Gesture of Aid
 * Description: We received emergency communication from the Chicuat Elders. They anticipate a raid on one of their remote trading stations. Toci asks us to take on the defense in order to relieve the weakened and overextended Chicuat forces.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9047,9 +9028,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Repulse Raid T2'
 
 ## QE_TANWIN_2023_DAY06_T2
-* Name: We must find out whether the Tecuban really are behind the recent attacks on the Chicuat. Our contact in the Tanoch Empire might be able to provide information. We should do some assignments to show good faith.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 6: Imperial Appeal
 * Description: We must find out whether the Tecuban really are behind the recent attacks on the Chicuat. Our contact in the Tanoch Empire might be able to provide information. We should do some assignments to show good faith.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9060,9 +9039,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tanoch_T2up
 
 ## QE_TANWIN_2023_DAY07_T2
-* Name: Lazarus Base has processed Tepin Papan's information. There are reports about the rising influence of an ambitous leader named Heyoka. He is promoting expansionist ideas and has a particular disdain for the Chicuat. We should find out if the name is familiar in the criminal underworld here.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 7: Black Eye
 * Description: Lazarus Base has processed Tepin Papan's information. There are reports about the rising influence of an ambitous leader named Heyoka. He is promoting expansionist ideas and has a particular disdain for the Chicuat. We should find out if the name is familiar in the criminal underworld here.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9072,9 +9049,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT2_ShipsDestroyedTanochT3_ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY08_T2
-* Name: Our investigations produced evidence for contact between the Tecuban leader Heyoka and high profile criminals. We must hunt down these outlaws to learn more.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 8: Catch and Kill
 * Description: Our investigations produced evidence for contact between the Tecuban leader Heyoka and high profile criminals. We must hunt down these outlaws to learn more.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9084,9 +9059,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY09_T2
-* Name: The Chicuat Elders have asked us to wait for their intelligence report on possible Tecuban forces within Acatla. In the meanwhile we should strengthen our forces to prepare for battle.
-
-<color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: Raise the Stakes
 * Description: The Chicuat Elders have asked us to wait for their intelligence report on possible Tecuban forces within Acatla. In the meanwhile we should strengthen our forces to prepare for battle.
 
 <color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
@@ -9096,9 +9069,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_TANWIN_2023_DAY10_T2
-* Name: Intelligence from the Chicuat points to a Tecuban base operating around an uninhabited planet. We must go there and eliminate this base to stop the raids.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 10: In the Shadows
 * Description: Intelligence from the Chicuat points to a Tecuban base operating around an uninhabited planet. We must go there and eliminate this base to stop the raids.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9108,9 +9079,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Base Busting T2'
 
 ## QE_TANWIN_2023_DAY11_T2
-* Name: In order to gather information about the Vaygr's activity we must contact Tepin Papan once more. We should do some assignments to compensate him for his assistance.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 11: Imperial Rumors
 * Description: In order to gather information about the Vaygr's activity we must contact Tepin Papan once more. We should do some assignments to compensate him for his assistance.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9121,9 +9090,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 135 RepTanoch
 
 ## QE_TANWIN_2023_DAY12_T2
-* Name: While Tepin Papan is trying to gather information about the Vaygr's involvement with the Tecuban, we should scan some systems and see if we can find any clues about their whereabouts.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 12: Seek and Recover
 * Description: While Tepin Papan is trying to gather information about the Vaygr's involvement with the Tecuban, we should scan some systems and see if we can find any clues about their whereabouts.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -9133,9 +9100,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_TANWIN_2023_DAY13_T2
-* Name: We hope to learn more about the Vaygr's activity from the local people. We should do some good deeds around here to gain their trust.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
+* Name: Day 13: Among the People
 * Description: We hope to learn more about the Vaygr's activity from the local people. We should do some good deeds around here to gain their trust.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
@@ -9145,9 +9110,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY14_T2
-* Name: Some local folks have agreed to provide information that could lead to the Vaygr. However, before they hand it over, they want us help them with a particularly challenging mission.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 14: Active Search
 * Description: Some local folks have agreed to provide information that could lead to the Vaygr. However, before they hand it over, they want us help them with a particularly challenging mission.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9157,9 +9120,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY15_T2
-* Name: We must hunt down a group of thugs that is suspected to be working for the Vaygr.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 15: Hunting Party
 * Description: We must hunt down a group of thugs that is suspected to be working for the Vaygr.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9169,9 +9130,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT2_ShipsDestroyedTanochT3_ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY16_T2
-* Name: In our search for the Vaygr involved with the Tecuban, we aquired one of their communication frequencies. If we contact the Vaygr now, we should be able to trace their signal and hyper jump to their exact location.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 16: Attack the Vaygr
 * Description: In our search for the Vaygr involved with the Tecuban, we aquired one of their communication frequencies. If we contact the Vaygr now, we should be able to trace their signal and hyper jump to their exact location.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9181,9 +9140,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Destination T2'
 
 ## QE_TANWIN_2023_DAY17_T2
-* Name: There is still no answer from Tepin Papan since we last spoke with him. We should do some more assignments to gain his attention and see if he was able to gather any information about the Vaygr's intentions.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 17: Polite Inquiries
 * Description: There is still no answer from Tepin Papan since we last spoke with him. We should do some more assignments to gain his attention and see if he was able to gather any information about the Vaygr's intentions.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9194,9 +9151,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tanoch_T2up
 
 ## QE_TANWIN_2023_DAY18_T2
-* Name: Ekekko wants us to trade on the local markets and see if we find someone who's willing to sell information on Jochik Kaan's motives.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 18: Purchased Whispers
 * Description: Ekekko wants us to trade on the local markets and see if we find someone who's willing to sell information on Jochik Kaan's motives.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -9206,9 +9161,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY19_T2
-* Name: We contacted the Chicuat Elders and told them about Jochik Kaan's possible intention to obtain a particular Progenitor object. They have given us intel about a criminal organization that deals with Progenitor objects within the Tanoch Empire. We should investigate.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 19: Getting There First
 * Description: We contacted the Chicuat Elders and told them about Jochik Kaan's possible intention to obtain a particular Progenitor object. They have given us intel about a criminal organization that deals with Progenitor objects within the Tanoch Empire. We should investigate.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9218,9 +9171,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY20_T2
-* Name: While Gideon S'jet is researching the data set of Progenitor objects, the Chicuat Elders have informed us of a resurgance of Tecuban activity within their territory. We should support the defensive efforts.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 20: Providing Protection
 * Description: While Gideon S'jet is researching the data set of Progenitor objects, the Chicuat Elders have informed us of a resurgance of Tecuban activity within their territory. We should support the defensive efforts.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9230,9 +9181,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT2_ShipsDestroyedTanochT3_ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY21_T2
-* Name: Gideon S'jet's research into the data set of Progenitor objects turned out more difficult than expected. He asked us to support him to accelerate the process.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Day 21: Hunt for Knowledge
 * Description: Gideon S'jet's research into the data set of Progenitor objects turned out more difficult than expected. He asked us to support him to accelerate the process.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -9242,9 +9191,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY22_T2
-* Name: We finally learned Jochik Kaan's intentions. He sparked the flames of war to weaken the Chicuat defenses and steal the Baetyl from Tlapallan Academy, one of their key centers of learning. We must travel there at once, before it is too late.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 22: Showdown at the Academy
 * Description: We finally learned Jochik Kaan's intentions. He sparked the flames of war to weaken the Chicuat defenses and steal the Baetyl from Tlapallan Academy, one of their key centers of learning. We must travel there at once, before it is too late.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9255,9 +9202,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Tlapallan Academy T2'
 
 ## QE_TANWIN_2023_DAILY_A_T3
-* Name: The Chicuat collect Progenitor relics for scientific study, rather than venerate them. Their academics would gladly acquire any such objects to advance their knowledge.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: An Article of Hope
 * Description: The Chicuat collect Progenitor relics for scientific study, rather than venerate them. Their academics would gladly acquire any such objects to advance their knowledge.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -9267,9 +9212,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_TANWIN_2023_DAILY_B_T3
-* Name: Tasks performed for the Tanoch Empire also assist the Chicuat indirectly. Gaining favor with the Empire can give them more leverage in negotiations for aid.
-
-<color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
+* Name: A Good Samaritan
 * Description: Tasks performed for the Tanoch Empire also assist the Chicuat indirectly. Gaining favor with the Empire can give them more leverage in negotiations for aid.
 
 <color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
@@ -9279,9 +9222,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_TANWIN_2023_DAILY_C_T3
-* Name: The Chicuat are always in need of supplies and equipment to bolster their economy and support their people. Any aid to them would be welcomed.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Favored Supplier
 * Description: The Chicuat are always in need of supplies and equipment to bolster their economy and support their people. Any aid to them would be welcomed.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -9291,9 +9232,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_TANWIN_2023_DAILY_D_T3
-* Name: The conflict between the Chicuat and ethnic Tanoch people goes back centuries. Training our crew about the details of this conflict will help us navigate the inner workings of the Tanoch Empire better.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Peace Officers
 * Description: The conflict between the Chicuat and ethnic Tanoch people goes back centuries. Training our crew about the details of this conflict will help us navigate the inner workings of the Tanoch Empire better.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -9303,9 +9242,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_TANWIN_2023_DAY01_T3
-* Name: We received priority communication from Lazarus Base. A subfaction of the Tanoch, the Chicuat, have made contact with Hiigaran representatives and requested aid. Fleet Command wants us to support the Chicuat and establish friendly ties. Our first task is to provide basic resources.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 1: Resource Relief
 * Description: We received priority communication from Lazarus Base. A subfaction of the Tanoch, the Chicuat, have made contact with Hiigaran representatives and requested aid. Fleet Command wants us to support the Chicuat and establish friendly ties. Our first task is to provide basic resources.
 
 <color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
@@ -9316,9 +9253,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY02_T3
-* Name: The Chicuat infrastructure is badly degraded with age and suffered heavy damage in recent attacks. We're asked to refine materials to support their restoration efforts.
-
-<color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
+* Name: Day 2: Processor Surrogate
 * Description: The Chicuat infrastructure is badly degraded with age and suffered heavy damage in recent attacks. We're asked to refine materials to support their restoration efforts.
 
 <color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
@@ -9328,9 +9263,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY03_T3
-* Name: The Chicuat have informed us several critical supply convoys have gone missing. We should try to retrieve any goods by hunting down local bandits.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Wayward Cargo
 * Description: The Chicuat have informed us several critical supply convoys have gone missing. We should try to retrieve any goods by hunting down local bandits.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -9340,9 +9273,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY04_T3
-* Name: Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his contacts to support the Chicuat's need for basic supplies. We should sell some of our own items to get the traders interested.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 4: Relief Package
 * Description: Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his contacts to support the Chicuat's need for basic supplies. We should sell some of our own items to get the traders interested.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -9352,9 +9283,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY05_T3
-* Name: We received emergency communication from the Chicuat Elders. They anticipate a raid on one of their remote trading stations. Toci asks us to take on the defense in order to relieve the weakened and overextended Chicuat forces.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 5: Gesture of Aid
 * Description: We received emergency communication from the Chicuat Elders. They anticipate a raid on one of their remote trading stations. Toci asks us to take on the defense in order to relieve the weakened and overextended Chicuat forces.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9364,9 +9293,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Repulse Raid T3'
 
 ## QE_TANWIN_2023_DAY06_T3
-* Name: We must find out whether the Tecuban really are behind the recent attacks on the Chicuat. Our contact in the Tanoch Empire might be able to provide information. We should do some assignments to show good faith.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 6: Imperial Appeal
 * Description: We must find out whether the Tecuban really are behind the recent attacks on the Chicuat. Our contact in the Tanoch Empire might be able to provide information. We should do some assignments to show good faith.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9377,9 +9304,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tanoch_T3up
 
 ## QE_TANWIN_2023_DAY07_T3
-* Name: Lazarus Base has processed Tepin Papan's information. There are reports about the rising influence of an ambitous leader named Heyoka. He is promoting expansionist ideas and has a particular disdain for the Chicuat. We should find out if the name is familiar in the criminal underworld here.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 7: Black Eye
 * Description: Lazarus Base has processed Tepin Papan's information. There are reports about the rising influence of an ambitous leader named Heyoka. He is promoting expansionist ideas and has a particular disdain for the Chicuat. We should find out if the name is familiar in the criminal underworld here.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9389,9 +9314,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT3_ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY08_T3
-* Name: Our investigations produced evidence for contact between the Tecuban leader Heyoka and high profile criminals. We must hunt down these outlaws to learn more.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 8: Catch and Kill
 * Description: Our investigations produced evidence for contact between the Tecuban leader Heyoka and high profile criminals. We must hunt down these outlaws to learn more.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9401,9 +9324,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY09_T3
-* Name: The Chicuat Elders have asked us to wait for their intelligence report on possible Tecuban forces within Acatla. In the meanwhile we should strengthen our forces to prepare for battle.
-
-<color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: Raise the Stakes
 * Description: The Chicuat Elders have asked us to wait for their intelligence report on possible Tecuban forces within Acatla. In the meanwhile we should strengthen our forces to prepare for battle.
 
 <color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
@@ -9413,9 +9334,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_TANWIN_2023_DAY10_T3
-* Name: Intelligence from the Chicuat points to a Tecuban base operating around an uninhabited planet. We must go there and eliminate this base to stop the raids.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 10: In the Shadows
 * Description: Intelligence from the Chicuat points to a Tecuban base operating around an uninhabited planet. We must go there and eliminate this base to stop the raids.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9425,9 +9344,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Base Busting T3'
 
 ## QE_TANWIN_2023_DAY11_T3
-* Name: In order to gather information about the Vaygr's activity we must contact Tepin Papan once more. We should do some assignments to compensate him for his assistance.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 11: Imperial Rumors
 * Description: In order to gather information about the Vaygr's activity we must contact Tepin Papan once more. We should do some assignments to compensate him for his assistance.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9438,9 +9355,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 180 RepTanoch
 
 ## QE_TANWIN_2023_DAY12_T3
-* Name: While Tepin Papan is trying to gather information about the Vaygr's involvement with the Tecuban, we should scan some systems and see if we can find any clues about their whereabouts.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 12: Seek and Recover
 * Description: While Tepin Papan is trying to gather information about the Vaygr's involvement with the Tecuban, we should scan some systems and see if we can find any clues about their whereabouts.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -9450,9 +9365,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_TANWIN_2023_DAY13_T3
-* Name: We hope to learn more about the Vaygr's activity from the local people. We should do some good deeds around here to gain their trust.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
+* Name: Day 13: Among the People
 * Description: We hope to learn more about the Vaygr's activity from the local people. We should do some good deeds around here to gain their trust.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
@@ -9462,9 +9375,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY14_T3
-* Name: Some local folks have agreed to provide information that could lead to the Vaygr. However, before they hand it over, they want us help them with a particularly challenging mission.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 14: Active Search
 * Description: Some local folks have agreed to provide information that could lead to the Vaygr. However, before they hand it over, they want us help them with a particularly challenging mission.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9474,9 +9385,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY15_T3
-* Name: We must hunt down a group of thugs that is suspected to be working for the Vaygr.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 15: Hunting Party
 * Description: We must hunt down a group of thugs that is suspected to be working for the Vaygr.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9486,9 +9395,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT3_ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY16_T3
-* Name: In our search for the Vaygr involved with the Tecuban, we aquired one of their communication frequencies. If we contact the Vaygr now, we should be able to trace their signal and hyper jump to their exact location.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 16: Attack the Vaygr
 * Description: In our search for the Vaygr involved with the Tecuban, we aquired one of their communication frequencies. If we contact the Vaygr now, we should be able to trace their signal and hyper jump to their exact location.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9498,9 +9405,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Destination T3'
 
 ## QE_TANWIN_2023_DAY17_T3
-* Name: There is still no answer from Tepin Papan since we last spoke with him. We should do some more assignments to gain his attention and see if he was able to gather any information about the Vaygr's intentions.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 17: Polite Inquiries
 * Description: There is still no answer from Tepin Papan since we last spoke with him. We should do some more assignments to gain his attention and see if he was able to gather any information about the Vaygr's intentions.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9511,9 +9416,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tanoch_T3up
 
 ## QE_TANWIN_2023_DAY18_T3
-* Name: Ekekko wants us to trade on the local markets and see if we find someone who's willing to sell information on Jochik Kaan's motives.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 18: Purchased Whispers
 * Description: Ekekko wants us to trade on the local markets and see if we find someone who's willing to sell information on Jochik Kaan's motives.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -9523,9 +9426,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY19_T3
-* Name: We contacted the Chicuat Elders and told them about Jochik Kaan's possible intention to obtain a particular Progenitor object. They have given us intel about a criminal organization that deals with Progenitor objects within the Tanoch Empire. We should investigate.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 19: Getting There First
 * Description: We contacted the Chicuat Elders and told them about Jochik Kaan's possible intention to obtain a particular Progenitor object. They have given us intel about a criminal organization that deals with Progenitor objects within the Tanoch Empire. We should investigate.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9535,9 +9436,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY20_T3
-* Name: While Gideon S'jet is researching the data set of Progenitor objects, the Chicuat Elders have informed us of a resurgance of Tecuban activity within their territory. We should support the defensive efforts.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 20: Providing Protection
 * Description: While Gideon S'jet is researching the data set of Progenitor objects, the Chicuat Elders have informed us of a resurgance of Tecuban activity within their territory. We should support the defensive efforts.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9547,9 +9446,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT3_ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY21_T3
-* Name: Gideon S'jet's research into the data set of Progenitor objects turned out more difficult than expected. He asked us to support him to accelerate the process.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Day 21: Hunt for Knowledge
 * Description: Gideon S'jet's research into the data set of Progenitor objects turned out more difficult than expected. He asked us to support him to accelerate the process.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -9559,9 +9456,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY22_T3
-* Name: We finally learned Jochik Kaan's intentions. He sparked the flames of war to weaken the Chicuat defenses and steal the Baetyl from Tlapallan Academy, one of their key centers of learning. We must travel there at once, before it is too late.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 22: Showdown at the Academy
 * Description: We finally learned Jochik Kaan's intentions. He sparked the flames of war to weaken the Chicuat defenses and steal the Baetyl from Tlapallan Academy, one of their key centers of learning. We must travel there at once, before it is too late.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9572,9 +9467,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Tlapallan Academy T3'
 
 ## QE_TANWIN_2023_DAILY_A_T4
-* Name: The Chicuat collect Progenitor relics for scientific study, rather than venerate them. Their academics would gladly acquire any such objects to advance their knowledge.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: An Article of Hope
 * Description: The Chicuat collect Progenitor relics for scientific study, rather than venerate them. Their academics would gladly acquire any such objects to advance their knowledge.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -9584,9 +9477,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_TANWIN_2023_DAILY_B_T4
-* Name: Tasks performed for the Tanoch Empire also assist the Chicuat indirectly. Gaining favor with the Empire can give them more leverage in negotiations for aid.
-
-<color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
+* Name: A Good Samaritan
 * Description: Tasks performed for the Tanoch Empire also assist the Chicuat indirectly. Gaining favor with the Empire can give them more leverage in negotiations for aid.
 
 <color=#FBB03F>Many liaison assignments require you to complete missions. Some even require you to complete multiple missions.</color>
@@ -9596,9 +9487,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete 5 side missions
 
 ## QE_TANWIN_2023_DAILY_C_T4
-* Name: The Chicuat are always in need of supplies and equipment to bolster their economy and support their people. Any aid to them would be welcomed.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Favored Supplier
 * Description: The Chicuat are always in need of supplies and equipment to bolster their economy and support their people. Any aid to them would be welcomed.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -9608,9 +9497,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_TANWIN_2023_DAILY_D_T4
-* Name: The conflict between the Chicuat and ethnic Tanoch people goes back centuries. Training our crew about the details of this conflict will help us navigate the inner workings of the Tanoch Empire better.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Peace Officers
 * Description: The conflict between the Chicuat and ethnic Tanoch people goes back centuries. Training our crew about the details of this conflict will help us navigate the inner workings of the Tanoch Empire better.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -9620,9 +9507,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_TANWIN_2023_DAY01_T4
-* Name: We received priority communication from Lazarus Base. A subfaction of the Tanoch, the Chicuat, have made contact with Hiigaran representatives and requested aid. Fleet Command wants us to support the Chicuat and establish friendly ties. Our first task is to provide basic resources.
-
-<color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
+* Name: Day 1: Resource Relief
 * Description: We received priority communication from Lazarus Base. A subfaction of the Tanoch, the Chicuat, have made contact with Hiigaran representatives and requested aid. Fleet Command wants us to support the Chicuat and establish friendly ties. Our first task is to provide basic resources.
 
 <color=#FBB03F>Gases are used for the fabrication of Tier 3 and 4 parts. Special gas collectors can harvest them from the dangerous atmosphere of jovians.</color>
@@ -9633,9 +9518,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY02_T4
-* Name: The Chicuat infrastructure is badly degraded with age and suffered heavy damage in recent attacks. We're asked to refine materials to support their restoration efforts.
-
-<color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
+* Name: Day 2: Processor Surrogate
 * Description: The Chicuat infrastructure is badly degraded with age and suffered heavy damage in recent attacks. We're asked to refine materials to support their restoration efforts.
 
 <color=#FBB03F>Rare earths are an occasional by-product of refining. They are required for upgrading modules.</color>
@@ -9645,9 +9528,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY03_T4
-* Name: The Chicuat have informed us several critical supply convoys have gone missing. We should try to retrieve any goods by hunting down local bandits.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 3: Wayward Cargo
 * Description: The Chicuat have informed us several critical supply convoys have gone missing. We should try to retrieve any goods by hunting down local bandits.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -9657,9 +9538,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY04_T4
-* Name: Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his contacts to support the Chicuat's need for basic supplies. We should sell some of our own items to get the traders interested.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 4: Relief Package
 * Description: Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his contacts to support the Chicuat's need for basic supplies. We should sell some of our own items to get the traders interested.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -9669,9 +9548,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY05_T4
-* Name: We received emergency communication from the Chicuat Elders. They anticipate a raid on one of their remote trading stations. Toci asks us to take on the defense in order to relieve the weakened and overextended Chicuat forces.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 5: Gesture of Aid
 * Description: We received emergency communication from the Chicuat Elders. They anticipate a raid on one of their remote trading stations. Toci asks us to take on the defense in order to relieve the weakened and overextended Chicuat forces.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9681,9 +9558,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Repulse Raid T4'
 
 ## QE_TANWIN_2023_DAY06_T4
-* Name: We must find out whether the Tecuban really are behind the recent attacks on the Chicuat. Our contact in the Tanoch Empire might be able to provide information. We should do some assignments to show good faith.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 6: Imperial Appeal
 * Description: We must find out whether the Tecuban really are behind the recent attacks on the Chicuat. Our contact in the Tanoch Empire might be able to provide information. We should do some assignments to show good faith.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9694,9 +9569,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tanoch_T4up
 
 ## QE_TANWIN_2023_DAY07_T4
-* Name: Lazarus Base has processed Tepin Papan's information. There are reports about the rising influence of an ambitous leader named Heyoka. He is promoting expansionist ideas and has a particular disdain for the Chicuat. We should find out if the name is familiar in the criminal underworld here.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 7: Black Eye
 * Description: Lazarus Base has processed Tepin Papan's information. There are reports about the rising influence of an ambitous leader named Heyoka. He is promoting expansionist ideas and has a particular disdain for the Chicuat. We should find out if the name is familiar in the criminal underworld here.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9706,9 +9579,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY08_T4
-* Name: Our investigations produced evidence for contact between the Tecuban leader Heyoka and high profile criminals. We must hunt down these outlaws to learn more.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 8: Catch and Kill
 * Description: Our investigations produced evidence for contact between the Tecuban leader Heyoka and high profile criminals. We must hunt down these outlaws to learn more.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9718,9 +9589,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY09_T4
-* Name: The Chicuat Elders have asked us to wait for their intelligence report on possible Tecuban forces within Acatla. In the meanwhile we should strengthen our forces to prepare for battle.
-
-<color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
+* Name: Day 9: Raise the Stakes
 * Description: The Chicuat Elders have asked us to wait for their intelligence report on possible Tecuban forces within Acatla. In the meanwhile we should strengthen our forces to prepare for battle.
 
 <color=#FBB03F>External modules, such as turrets or sensors, can be upgraded in the External Module screen which will increase their power. Upgrading one level costs credits and RE.</color>
@@ -9730,9 +9599,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_TANWIN_2023_DAY10_T4
-* Name: Intelligence from the Chicuat points to a Tecuban base operating around an uninhabited planet. We must go there and eliminate this base to stop the raids.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 10: In the Shadows
 * Description: Intelligence from the Chicuat points to a Tecuban base operating around an uninhabited planet. We must go there and eliminate this base to stop the raids.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9742,9 +9609,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Base Busting T4'
 
 ## QE_TANWIN_2023_DAY11_T4
-* Name: In order to gather information about the Vaygr's activity we must contact Tepin Papan once more. We should do some assignments to compensate him for his assistance.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 11: Imperial Rumors
 * Description: In order to gather information about the Vaygr's activity we must contact Tepin Papan once more. We should do some assignments to compensate him for his assistance.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9755,9 +9620,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 225 RepTanoch
 
 ## QE_TANWIN_2023_DAY12_T4
-* Name: While Tepin Papan is trying to gather information about the Vaygr's involvement with the Tecuban, we should scan some systems and see if we can find any clues about their whereabouts.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 12: Seek and Recover
 * Description: While Tepin Papan is trying to gather information about the Vaygr's involvement with the Tecuban, we should scan some systems and see if we can find any clues about their whereabouts.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -9767,9 +9630,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_TANWIN_2023_DAY13_T4
-* Name: We hope to learn more about the Vaygr's activity from the local people. We should do some good deeds around here to gain their trust.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
+* Name: Day 13: Among the People
 * Description: We hope to learn more about the Vaygr's activity from the local people. We should do some good deeds around here to gain their trust.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from discharging officers and are earned through completing signals.</color>
@@ -9779,9 +9640,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY14_T4
-* Name: Some local folks have agreed to provide information that could lead to the Vaygr. However, before they hand it over, they want us help them with a particularly challenging mission.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 14: Active Search
 * Description: Some local folks have agreed to provide information that could lead to the Vaygr. However, before they hand it over, they want us help them with a particularly challenging mission.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9791,9 +9650,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY15_T4
-* Name: We must hunt down a group of thugs that is suspected to be working for the Vaygr.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 15: Hunting Party
 * Description: We must hunt down a group of thugs that is suspected to be working for the Vaygr.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9803,9 +9660,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY16_T4
-* Name: In our search for the Vaygr involved with the Tecuban, we aquired one of their communication frequencies. If we contact the Vaygr now, we should be able to trace their signal and hyper jump to their exact location.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 16: Attack the Vaygr
 * Description: In our search for the Vaygr involved with the Tecuban, we aquired one of their communication frequencies. If we contact the Vaygr now, we should be able to trace their signal and hyper jump to their exact location.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9815,9 +9670,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Destination T4'
 
 ## QE_TANWIN_2023_DAY17_T4
-* Name: There is still no answer from Tepin Papan since we last spoke with him. We should do some more assignments to gain his attention and see if he was able to gather any information about the Vaygr's intentions.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 17: Polite Inquiries
 * Description: There is still no answer from Tepin Papan since we last spoke with him. We should do some more assignments to gain his attention and see if he was able to gather any information about the Vaygr's intentions.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -9828,9 +9681,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tanoch_T4up
 
 ## QE_TANWIN_2023_DAY18_T4
-* Name: Ekekko wants us to trade on the local markets and see if we find someone who's willing to sell information on Jochik Kaan's motives.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 18: Purchased Whispers
 * Description: Ekekko wants us to trade on the local markets and see if we find someone who's willing to sell information on Jochik Kaan's motives.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -9840,9 +9691,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY19_T4
-* Name: We contacted the Chicuat Elders and told them about Jochik Kaan's possible intention to obtain a particular Progenitor object. They have given us intel about a criminal organization that deals with Progenitor objects within the Tanoch Empire. We should investigate.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 19: Getting There First
 * Description: We contacted the Chicuat Elders and told them about Jochik Kaan's possible intention to obtain a particular Progenitor object. They have given us intel about a criminal organization that deals with Progenitor objects within the Tanoch Empire. We should investigate.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -9852,9 +9701,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_TANWIN_2023_DAY20_T4
-* Name: While Gideon S'jet is researching the data set of Progenitor objects, the Chicuat Elders have informed us of a resurgance of Tecuban activity within their territory. We should support the defensive efforts.
-
-<color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
+* Name: Day 20: Providing Protection
 * Description: While Gideon S'jet is researching the data set of Progenitor objects, the Chicuat Elders have informed us of a resurgance of Tecuban activity within their territory. We should support the defensive efforts.
 
 <color=#FBB03F>Some Tanoch fleets have broken away from the Tanoch empire to pursue their own agenda. These renegades can be found in signals, prowling Yaot space to continue ancient feuds.</color>
@@ -9864,9 +9711,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedTanochT4
 
 ## QE_TANWIN_2023_DAY21_T4
-* Name: Gideon S'jet's research into the data set of Progenitor objects turned out more difficult than expected. He asked us to support him to accelerate the process.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Day 21: Hunt for Knowledge
 * Description: Gideon S'jet's research into the data set of Progenitor objects turned out more difficult than expected. He asked us to support him to accelerate the process.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -9876,9 +9721,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_TANWIN_2023_DAY22_T4
-* Name: We finally learned Jochik Kaan's intentions. He sparked the flames of war to weaken the Chicuat defenses and steal the Baetyl from Tlapallan Academy, one of their key centers of learning. We must travel there at once, before it is too late.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 22: Showdown at the Academy
 * Description: We finally learned Jochik Kaan's intentions. He sparked the flames of war to weaken the Chicuat defenses and steal the Baetyl from Tlapallan Academy, one of their key centers of learning. We must travel there at once, before it is too late.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -9889,9 +9732,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Tlapallan Academy T4'
 
 ## QE_NIMBUSTREASURES_2024_DAILY_A_T1
-* Name: New capacitors were installed in our scanner modules during the last maintenance cycle and must be calibrated. Test them above maximum power.
-
-<color=#FBB03F>Batteries can be used to recharge a scanner or even to overcharge it above 100%. Some rare scannable objects can only be found by overcharged scanners.</color>
+* Name: Stress Test
 * Description: New capacitors were installed in our scanner modules during the last maintenance cycle and must be calibrated. Test them above maximum power.
 
 <color=#FBB03F>Batteries can be used to recharge a scanner or even to overcharge it above 100%. Some rare scannable objects can only be found by overcharged scanners.</color>
@@ -9901,9 +9742,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: ChargeScanner
 
 ## QE_NIMBUSTREASURES_2024_DAILY_B_T1
-* Name: New firmware has been installed in our scanner modules. They must complete a routine calibration cycle until they pass inspection.
-
-<color=#FBB03F>Scannable objects, such as finds, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Performance Test
 * Description: New firmware has been installed in our scanner modules. They must complete a routine calibration cycle until they pass inspection.
 
 <color=#FBB03F>Scannable objects, such as finds, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -9913,9 +9752,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C1_T1
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Donate to the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -9925,9 +9762,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C2_T1
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Increasing the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -9937,9 +9772,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 2 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C3_T1
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: The Search Continues
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -9949,9 +9782,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 3 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C4_T1
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Completing the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -9961,9 +9792,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 4 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_A_T2
-* Name: New capacitors were installed in our scanner modules during the last maintenance cycle and must be calibrated. Test them above maximum power.
-
-<color=#FBB03F>Batteries can be used to recharge a scanner or even to overcharge it above 100%. Some rare scannable objects can only be found by overcharged scanners.</color>
+* Name: Stress Test
 * Description: New capacitors were installed in our scanner modules during the last maintenance cycle and must be calibrated. Test them above maximum power.
 
 <color=#FBB03F>Batteries can be used to recharge a scanner or even to overcharge it above 100%. Some rare scannable objects can only be found by overcharged scanners.</color>
@@ -9973,9 +9802,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: ChargeScanner
 
 ## QE_NIMBUSTREASURES_2024_DAILY_B_T2
-* Name: New firmware has been installed in our scanner modules. They must complete a routine calibration cycle until they pass inspection.
-
-<color=#FBB03F>Scannable objects, such as finds, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Performance Test
 * Description: New firmware has been installed in our scanner modules. They must complete a routine calibration cycle until they pass inspection.
 
 <color=#FBB03F>Scannable objects, such as finds, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -9985,9 +9812,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C1_T2
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Donate to the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -9997,9 +9822,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C2_T2
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Increasing the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10009,9 +9832,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 2 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C3_T2
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: The Search Continues
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10021,9 +9842,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 3 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C4_T2
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Completing the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10033,9 +9852,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 4 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_A_T3
-* Name: New capacitors were installed in our scanner modules during the last maintenance cycle and must be calibrated. Test them above maximum power.
-
-<color=#FBB03F>Batteries can be used to recharge a scanner or even to overcharge it above 100%. Some rare scannable objects can only be found by overcharged scanners.</color>
+* Name: Stress Test
 * Description: New capacitors were installed in our scanner modules during the last maintenance cycle and must be calibrated. Test them above maximum power.
 
 <color=#FBB03F>Batteries can be used to recharge a scanner or even to overcharge it above 100%. Some rare scannable objects can only be found by overcharged scanners.</color>
@@ -10045,9 +9862,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: ChargeScanner
 
 ## QE_NIMBUSTREASURES_2024_DAILY_B_T3
-* Name: New firmware has been installed in our scanner modules. They must complete a routine calibration cycle until they pass inspection.
-
-<color=#FBB03F>Scannable objects, such as finds, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Performance Test
 * Description: New firmware has been installed in our scanner modules. They must complete a routine calibration cycle until they pass inspection.
 
 <color=#FBB03F>Scannable objects, such as finds, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -10057,9 +9872,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C1_T3
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Donate to the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10069,9 +9882,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C2_T3
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Increasing the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10081,9 +9892,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 2 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C3_T3
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: The Search Continues
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10093,9 +9902,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 3 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C4_T3
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Completing the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10105,9 +9912,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 4 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_A_T4
-* Name: New capacitors were installed in our scanner modules during the last maintenance cycle and must be calibrated. Test them above maximum power.
-
-<color=#FBB03F>Batteries can be used to recharge a scanner or even to overcharge it above 100%. Some rare scannable objects can only be found by overcharged scanners.</color>
+* Name: Stress Test
 * Description: New capacitors were installed in our scanner modules during the last maintenance cycle and must be calibrated. Test them above maximum power.
 
 <color=#FBB03F>Batteries can be used to recharge a scanner or even to overcharge it above 100%. Some rare scannable objects can only be found by overcharged scanners.</color>
@@ -10117,9 +9922,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: ChargeScanner
 
 ## QE_NIMBUSTREASURES_2024_DAILY_B_T4
-* Name: New firmware has been installed in our scanner modules. They must complete a routine calibration cycle until they pass inspection.
-
-<color=#FBB03F>Scannable objects, such as finds, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Performance Test
 * Description: New firmware has been installed in our scanner modules. They must complete a routine calibration cycle until they pass inspection.
 
 <color=#FBB03F>Scannable objects, such as finds, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -10129,9 +9932,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C1_T4
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Donate to the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10141,9 +9942,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C2_T4
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Increasing the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10153,9 +9952,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 2 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C3_T4
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: The Search Continues
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10165,9 +9962,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 3 None
 
 ## QE_NIMBUSTREASURES_2024_DAILY_C4_T4
-* Name: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
-
-<color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
+* Name: Completing the Search
 * Description: To gain more information about these unusual probes, more sensors must be deployed. Lazarus Base has authorized the distribution of our sensor probes to other parties.
 
 <color=#FBB03F>Unidentified Sensor Probes must be collected from event exclusive signal missions called 'Sensor Probe Signature'.</color>
@@ -10177,9 +9972,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 4 None
 
 ## QE_YAOSPR_2024_DAILY_A_T1
-* Name: The Cangacian pirate bands running in this area are seeking the Yaot conjunction pilgrimage fleet. Attack them to dissuade their scouting efforts.
-
-<color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
+* Name: Running Defense
 * Description: The Cangacian pirate bands running in this area are seeking the Yaot conjunction pilgrimage fleet. Attack them to dissuade their scouting efforts.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -10189,9 +9982,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedP1T1_ShipsDestroyedP1T2_ShipsDestroyedP1T3_ShipsDestroyedP1T4
 
 ## QE_YAOSPR_2024_DAILY_A_T2
-* Name: The Cangacian pirate bands running in this area are seeking the Yaot conjunction pilgrimage fleet. Attack them to dissuade their scouting efforts.
-
-<color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
+* Name: Running Defense
 * Description: The Cangacian pirate bands running in this area are seeking the Yaot conjunction pilgrimage fleet. Attack them to dissuade their scouting efforts.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -10201,9 +9992,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedP1T2_ShipsDestroyedP1T3_ShipsDestroyedP1T4
 
 ## QE_YAOSPR_2024_DAILY_A_T3
-* Name: The Cangacian pirate bands running in this area are seeking the Yaot conjunction pilgrimage fleet. Attack them to dissuade their scouting efforts.
-
-<color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
+* Name: Running Defense
 * Description: The Cangacian pirate bands running in this area are seeking the Yaot conjunction pilgrimage fleet. Attack them to dissuade their scouting efforts.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -10213,9 +10002,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedP1T3_ShipsDestroyedP1T4
 
 ## QE_YAOSPR_2024_DAILY_A_T4
-* Name: The Cangacian pirate bands running in this area are seeking the Yaot conjunction pilgrimage fleet. Attack them to dissuade their scouting efforts.
-
-<color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
+* Name: Running Defense
 * Description: The Cangacian pirate bands running in this area are seeking the Yaot conjunction pilgrimage fleet. Attack them to dissuade their scouting efforts.
 
 <color=#FBB03F>The Cangacians are pirates that harass trade routes and colonies. We may find them in signals in most areas of the galaxy. They have been sighted raiding mining fleets in asteroid clusters as well.</color>
@@ -10225,9 +10012,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 10 ShipsDestroyedP1T4
 
 ## QE_YAOSPR_2024_DAILY_B_T1
-* Name: We must learn more about the situation if we're to understand why the Yaot pilgrim fleet is being targeted. Search for any remains that are left in their path of passage.
-
-<color=#FBB03F>Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.</color>
+* Name: Footprints
 * Description: We must learn more about the situation if we're to understand why the Yaot pilgrim fleet is being targeted. Search for any remains that are left in their path of passage.
 
 <color=#FBB03F>Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.</color>
@@ -10237,9 +10022,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAILY_B_T2
-* Name: We must learn more about the situation if we're to understand why the Yaot pilgrim fleet is being targeted. Search for any remains that are left in their path of passage.
-
-<color=#FBB03F>Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.</color>
+* Name: Footprints
 * Description: We must learn more about the situation if we're to understand why the Yaot pilgrim fleet is being targeted. Search for any remains that are left in their path of passage.
 
 <color=#FBB03F>Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.</color>
@@ -10249,9 +10032,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAILY_B_T3
-* Name: We must learn more about the situation if we're to understand why the Yaot pilgrim fleet is being targeted. Search for any remains that are left in their path of passage.
-
-<color=#FBB03F>Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.</color>
+* Name: Footprints
 * Description: We must learn more about the situation if we're to understand why the Yaot pilgrim fleet is being targeted. Search for any remains that are left in their path of passage.
 
 <color=#FBB03F>Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.</color>
@@ -10261,9 +10042,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAILY_B_T4
-* Name: We must learn more about the situation if we're to understand why the Yaot pilgrim fleet is being targeted. Search for any remains that are left in their path of passage.
-
-<color=#FBB03F>Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.</color>
+* Name: Footprints
 * Description: We must learn more about the situation if we're to understand why the Yaot pilgrim fleet is being targeted. Search for any remains that are left in their path of passage.
 
 <color=#FBB03F>Finds must be discovered through scanning. After being analyzed, they can be picked up to collect the reward inside.</color>
@@ -10273,9 +10052,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAILY_C_T1
-* Name: The Yaot pilgrimage is far from home and likely out of the supply network from the Yaot fleet. Any aid we can provide them would go a long way in helping them complete their journey.
-
-<color=#FBB03F>Tokens of the eldest can be found in lost caches within Yaot territory or in Cangacian salvage.</color>
+* Name: Alms for Pilgrims
 * Description: The Yaot pilgrimage is far from home and likely out of the supply network from the Yaot fleet. Any aid we can provide them would go a long way in helping them complete their journey.
 
 <color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
@@ -10288,9 +10065,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 		* Pay 100 RU Type C Refined T1
 
 ## QE_YAOSPR_2024_DAILY_C_T2
-* Name: The Yaot pilgrimage is far from home and likely out of the supply network from the Yaot fleet. Any aid we can provide them would go a long way in helping them complete their journey.
-
-<color=#FBB03F>Tokens of the eldest can be found in lost caches within Yaot territory or in Cangacian salvage.</color>
+* Name: Alms for Pilgrims
 * Description: The Yaot pilgrimage is far from home and likely out of the supply network from the Yaot fleet. Any aid we can provide them would go a long way in helping them complete their journey.
 
 <color=#FBB03F>Most ores need to be refined to be used for constructions. The refining process may result in rare earths as well.</color>
@@ -10303,9 +10078,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 		* Pay 100 RU Type C Refined T2
 
 ## QE_YAOSPR_2024_DAILY_C_T3
-* Name: The Yaot pilgrimage is far from home and likely out of the supply network from the Yaot fleet. Any aid we can provide them would go a long way in helping them complete their journey.
-
-<color=#FBB03F>Tokens of the eldest can be found in lost caches within Yaot territory or in Cangacian salvage.</color>
+* Name: Alms for Pilgrims
 * Description: The Yaot pilgrimage is far from home and likely out of the supply network from the Yaot fleet. Any aid we can provide them would go a long way in helping them complete their journey.
 
 <color=#FBB03F>Tokens of the eldest can be found in lost caches within Yaot territory or in Cangacian salvage.</color>
@@ -10315,9 +10088,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 Token of the Eldest
 
 ## QE_YAOSPR_2024_DAILY_C_T4
-* Name: The Yaot pilgrimage is far from home and likely out of the supply network from the Yaot fleet. Any aid we can provide them would go a long way in helping them complete their journey.
-
-<color=#FBB03F>Tokens of the eldest can be found in lost caches within Yaot territory or in Cangacian salvage.</color>
+* Name: Alms for Pilgrims
 * Description: The Yaot pilgrimage is far from home and likely out of the supply network from the Yaot fleet. Any aid we can provide them would go a long way in helping them complete their journey.
 
 <color=#FBB03F>Tokens of the eldest can be found in lost caches within Yaot territory or in Cangacian salvage.</color>
@@ -10327,9 +10098,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 3 Token of the Eldest
 
 ## QE_YAOSPR_2024_DAILY_D_T1
-* Name: The Yaot likely do not know this region of space well based on how rarely they're encountered here. Examine the nearby star systems to assist the Yaot pilgrims in navigating the region.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Eyes to the Heavens
 * Description: The Yaot likely do not know this region of space well based on how rarely they're encountered here. Examine the nearby star systems to assist the Yaot pilgrims in navigating the region.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -10339,9 +10108,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAILY_D_T2
-* Name: The Yaot likely do not know this region of space well based on how rarely they're encountered here. Examine the nearby star systems to assist the Yaot pilgrims in navigating the region.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Eyes to the Heavens
 * Description: The Yaot likely do not know this region of space well based on how rarely they're encountered here. Examine the nearby star systems to assist the Yaot pilgrims in navigating the region.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -10351,9 +10118,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAILY_D_T3
-* Name: The Yaot likely do not know this region of space well based on how rarely they're encountered here. Examine the nearby star systems to assist the Yaot pilgrims in navigating the region.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Eyes to the Heavens
 * Description: The Yaot likely do not know this region of space well based on how rarely they're encountered here. Examine the nearby star systems to assist the Yaot pilgrims in navigating the region.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -10363,9 +10128,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAILY_D_T4
-* Name: The Yaot likely do not know this region of space well based on how rarely they're encountered here. Examine the nearby star systems to assist the Yaot pilgrims in navigating the region.
-
-<color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
+* Name: Eyes to the Heavens
 * Description: The Yaot likely do not know this region of space well based on how rarely they're encountered here. Examine the nearby star systems to assist the Yaot pilgrims in navigating the region.
 
 <color=#FBB03F>Research points are produced and collected in the on-ship laboratories, or in the starbase laboratories.</color>
@@ -10375,9 +10138,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY01_T1
-* Name: There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 1: Harvesting Whispers
 * Description: There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
 
 <color=#FBB03F>There are different types of assignments available in your assignment log.</color>
@@ -10387,9 +10148,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 T1up
 
 ## QE_YAOSPR_2024_DAY01_T2
-* Name: There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 1: Harvesting Whispers
 * Description: There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -10399,9 +10158,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tr1_T2up
 
 ## QE_YAOSPR_2024_DAY01_T3
-* Name: There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 1: Harvesting Whispers
 * Description: There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -10411,9 +10168,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tr1_T3up
 
 ## QE_YAOSPR_2024_DAY01_T4
-* Name: There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 1: Harvesting Whispers
 * Description: There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -10423,9 +10178,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Tr1_T4up
 
 ## QE_YAOSPR_2024_DAY02_T1
-* Name: The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 2: Buying Information
 * Description: The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -10435,9 +10188,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY02_T2
-* Name: The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 2: Buying Information
 * Description: The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -10447,9 +10198,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY02_T3
-* Name: The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 2: Buying Information
 * Description: The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -10459,9 +10208,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY02_T4
-* Name: The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
-
-<color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
+* Name: Day 2: Buying Information
 * Description: The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
 
 <color=#FBB03F>Items and resources can be sold for credits in the market at stations.</color>
@@ -10471,9 +10218,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY03_T1
-* Name: To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 3: Remote Observation
 * Description: To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -10483,9 +10228,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAY03_T2
-* Name: To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 3: Remote Observation
 * Description: To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -10495,9 +10238,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAY03_T3
-* Name: To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 3: Remote Observation
 * Description: To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -10507,9 +10248,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAY03_T4
-* Name: To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
-
-<color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
+* Name: Day 3: Remote Observation
 * Description: To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
 
 <color=#FBB03F>Scannable objects, such as signals, can be found through scanning. A better or upgraded sensor module increases the chances of success.</color>
@@ -10519,9 +10258,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Scan
 
 ## QE_YAOSPR_2024_DAY04_T1
-* Name: In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 4: Hunting for Answers
 * Description: In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -10531,9 +10268,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY04_T2
-* Name: In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 4: Hunting for Answers
 * Description: In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -10543,9 +10278,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY04_T3
-* Name: In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 4: Hunting for Answers
 * Description: In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -10555,9 +10288,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY04_T4
-* Name: In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
-
-<color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
+* Name: Day 4: Hunting for Answers
 * Description: In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
 
 <color=#FBB03F>When you destroy an enemy vessel, there is a chance that you will gain salvage from that ship. This salvage can be opened in your storage for additional rewards.</color>
@@ -10567,9 +10298,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY05_T1
-* Name: Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
-
-<color=#FBB03F>Prestige is earned through each player level-up and by completing daily and weekly assignments.</color>
+* Name: Day 5: Lost Pilgrims
 * Description: Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
 
 <color=#FBB03F>Prestige is earned through each player level-up and by completing daily and weekly assignments.</color>
@@ -10579,9 +10308,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY05_T2
-* Name: Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
-
-<color=#FBB03F>Prestige is earned through each player level-up and by completing daily and weekly assignments.</color>
+* Name: Day 5: Lost Pilgrims
 * Description: Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
 
 <color=#FBB03F>Prestige is earned through each player level-up and by completing daily and weekly assignments.</color>
@@ -10591,9 +10318,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY05_T3
-* Name: Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
-
-<color=#FBB03F>Prestige is earned through each player level-up and by completing daily and weekly assignments.</color>
+* Name: Day 5: Lost Pilgrims
 * Description: Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
 
 <color=#FBB03F>Prestige is earned through each player level-up and by completing daily and weekly assignments.</color>
@@ -10603,9 +10328,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY05_T4
-* Name: Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
-
-<color=#FBB03F>Prestige is earned through each player level-up and by completing daily and weekly assignments.</color>
+* Name: Day 5: Lost Pilgrims
 * Description: Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
 
 <color=#FBB03F>Prestige is earned through each player level-up and by completing daily and weekly assignments.</color>
@@ -10615,9 +10338,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY06_T1
-* Name: The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 6: Parts List
 * Description: The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
 
 <color=#FBB03F>Small items such as strike craft, modules and parts can be built in the fabricator. Larger items such as escort ships and flagships must be constructed at shipyards provided at larger stations.</color>
@@ -10627,9 +10348,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_YAOSPR_2024_DAY06_T2
-* Name: The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 6: Parts List
 * Description: The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -10639,9 +10358,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_YAOSPR_2024_DAY06_T3
-* Name: The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 6: Parts List
 * Description: The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -10651,9 +10368,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_YAOSPR_2024_DAY06_T4
-* Name: The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
-
-<color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
+* Name: Day 6: Parts List
 * Description: The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
 
 <color=#FBB03F>Parts are needed to craft most items, such as ships and modules, in T2 and higher. Except for the Tier 2 ones, parts are fabricated from the previous Tier.</color>
@@ -10663,9 +10378,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Craft
 
 ## QE_YAOSPR_2024_DAY07_T1
-* Name: Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 7: Clearing the Way
 * Description: Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -10675,9 +10388,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_YAOSPR_2024_DAY07_T2
-* Name: Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 7: Clearing the Way
 * Description: Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -10687,9 +10398,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_YAOSPR_2024_DAY07_T3
-* Name: Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 7: Clearing the Way
 * Description: Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -10699,9 +10408,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_YAOSPR_2024_DAY07_T4
-* Name: Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 7: Clearing the Way
 * Description: Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -10711,9 +10418,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_YAOSPR_2024_DAY08_T1
-* Name: Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
+* Name: Day 8: Knowledge Attained
 * Description: Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
@@ -10723,9 +10428,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY08_T2
-* Name: Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
+* Name: Day 8: Knowledge Attained
 * Description: Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
@@ -10735,9 +10438,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY08_T3
-* Name: Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
+* Name: Day 8: Knowledge Attained
 * Description: Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
@@ -10747,9 +10448,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY08_T4
-* Name: Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
-
-<color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
+* Name: Day 8: Knowledge Attained
 * Description: Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
 
 <color=#FBB03F>Insignias are used to level up and promote officers. They can be gained from dismissing officers and are earned through completing signals.</color>
@@ -10759,9 +10458,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY09_T1
-* Name: After talking to Chocoan we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 9: Polite Inquires
 * Description: After talking to Chocoan, we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
 
 <color=#FBB03F>There are different types of assignments available in your assignment log.</color>
@@ -10771,9 +10468,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 T1up
 
 ## QE_YAOSPR_2024_DAY09_T2
-* Name: After talking to Chocoan we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 9: Polite Inquires
 * Description: After talking to Chocoan we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
 
 <color=#FBB03F>There are different types of assignments available in your assignment log.</color>
@@ -10783,9 +10478,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 T2up
 
 ## QE_YAOSPR_2024_DAY09_T3
-* Name: After talking to Chocoan we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 9: Polite Inquires
 * Description: After talking to Chocoan we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -10795,9 +10488,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Yaot_T3up
 
 ## QE_YAOSPR_2024_DAY09_T4
-* Name: After talking to Chocoan we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
-
-<color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
+* Name: Day 9: Polite Inquires
 * Description: After talking to Chocoan we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
 
 <color=#FBB03F>Completing liaison assignments for a faction increases your reputation level for that faction. Liaison assignments are posted in the liaison office.</color>
@@ -10807,9 +10498,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: 5 Faction_Yaot_T4up
 
 ## QE_YAOSPR_2024_DAY10_T1
-* Name: We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 10: Gift for Gab
 * Description: We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -10819,9 +10508,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_YAOSPR_2024_DAY10_T2
-* Name: We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 10: Gift for Gab
 * Description: We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -10831,9 +10518,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_YAOSPR_2024_DAY10_T3
-* Name: We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 10: Gift for Gab
 * Description: We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -10843,9 +10528,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_YAOSPR_2024_DAY10_T4
-* Name: We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
-
-<color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
+* Name: Day 10: Gift for Gab
 * Description: We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
 
 <color=#FBB03F>Progenitor relics can be found in relic signature signals.</color>
@@ -10855,9 +10538,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Pay 1 None
 
 ## QE_YAOSPR_2024_DAY11_T1
-* Name: While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 11: Advanced Scouting
 * Description: While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -10867,9 +10548,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_YAOSPR_2024_DAY11_T2
-* Name: While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 11: Advanced Scouting
 * Description: While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -10879,9 +10558,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_YAOSPR_2024_DAY11_T3
-* Name: While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 11: Advanced Scouting
 * Description: While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -10891,9 +10568,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_YAOSPR_2024_DAY11_T4
-* Name: While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
-
-<color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
+* Name: Day 11: Advanced Scouting
 * Description: While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
 
 <color=#FBB03F>Signals of higher rarities are hard to find and the enemies are much stronger, but the rewards are better than that of regular signals.</color>
@@ -10903,9 +10578,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete side mission
 
 ## QE_YAOSPR_2024_DAY12_T1
-* Name: The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
-
-<color=#FBB03F>Ore can be mined from asteroids in asteroid fields. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
+* Name: Day 12: Unearthing Secrets
 * Description: The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
 
 <color=#FBB03F>Ore can be mined from asteroids in asteroid fields. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -10915,9 +10588,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY12_T2
-* Name: The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
-
-<color=#FBB03F>Ore can be mined from asteroids in asteroid fields. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
+* Name: Day 12: Unearthing Secrets
 * Description: The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
 
 <color=#FBB03F>Ore can be mined from asteroids in asteroid fields. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -10927,9 +10598,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY12_T3
-* Name: The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
-
-<color=#FBB03F>Ore can be mined from asteroids in asteroid fields. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
+* Name: Day 12: Unearthing Secrets
 * Description: The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
 
 <color=#FBB03F>Ore can be mined from asteroids in asteroid fields. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -10939,9 +10608,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY12_T4
-* Name: The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
-
-<color=#FBB03F>Ore can be mined from asteroids in asteroid fields. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
+* Name: Day 12: Unearthing Secrets
 * Description: The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
 
 <color=#FBB03F>Ore can be mined from asteroids in asteroid fields. Collectors of a lower tier than the asteroids they are mining will yield less ore.</color>
@@ -10951,9 +10618,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: GainItem
 
 ## QE_YAOSPR_2024_DAY13_T1
-* Name: Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 13: The Precession
 * Description: Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -10963,9 +10628,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_YAOSPR_2024_DAY13_T2
-* Name: Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 13: The Precession
 * Description: Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -10975,9 +10638,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_YAOSPR_2024_DAY13_T3
-* Name: Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 13: The Precession
 * Description: Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -10987,9 +10648,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_YAOSPR_2024_DAY13_T4
-* Name: Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
-
-<color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
+* Name: Day 13: The Precession
 * Description: Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
 
 <color=#FBB03F>Each officer level increases an attribute of that officer by a certain amount. When an officer reaches a new rank, their skill increases or they might even gain a second skill.</color>
@@ -10999,9 +10658,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: UpgradeOfficer
 
 ## QE_YAOSPR_2024_DAY14_T1
-* Name: Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 14: The Promised Place
 * Description: Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -11011,9 +10668,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Conjunction T1'
 
 ## QE_YAOSPR_2024_DAY14_T2
-* Name: Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 14: The Promised Place
 * Description: Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -11023,9 +10678,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Conjunction T2'
 
 ## QE_YAOSPR_2024_DAY14_T3
-* Name: Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 14: The Promised Place
 * Description: Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -11035,9 +10688,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 	* Task 1: Complete mission 'Conjunction T3'
 
 ## QE_YAOSPR_2024_DAY14_T4
-* Name: Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
-
-<color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
+* Name: Day 14: The Promised Place
 * Description: Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
 
 <color=#FBB03F>This mission can be played in a party. Invite your friends to help you if you are struggling with it. To create a party, open the social panel in the upper right corner. Then tap on the fourth tab from the top on the right.</color>
@@ -11049,6 +10700,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_001
 * Name: No header for quest qt_001
 * Description: No description for quest qt_001
+
 * Type: Side
 * MailsOnCompletion: m_qt_001
 * Goals:
@@ -11059,6 +10711,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_002
 * Name: No header for quest qt_002
 * Description: No description for quest qt_002
+
 * Type: Side
 * Goals:
 	* Task 1: Complete missions:
@@ -11068,6 +10721,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_003
 * Name: No header for quest qt_003
 * Description: No description for quest qt_003
+
 * Type: Side
 * Goals:
 	* Task 1: GainItem
@@ -11075,6 +10729,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_004
 * Name: No header for quest qt_004
 * Description: No description for quest qt_004
+
 * Type: Side
 * Goals:
 	* Task 1: Complete 3 side missions
@@ -11082,6 +10737,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QM_TESTQUESTDIALOG
 * Name: No header for quest qm_testQuestDialog
 * Description: No description for quest qm_testQuestDialog
+
 * Type: Main
 * Goals:
 	* Task 1: Goto ROA TISAAD system of Hiigaran Medea's territories
@@ -11093,6 +10749,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TESTDISMISSOFFICERS
 * Name: No header for quest qt_testDismissOfficers
 * Description: No description for quest qt_testDismissOfficers
+
 * Type: Side
 * Goals:
 	* Task 1: GainItem
@@ -11100,6 +10757,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_13
 * Name: No header for quest qt_test_strike_13
 * Description: No description for quest qt_test_strike_13
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Pirate Hideout'
@@ -11107,6 +10765,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_16
 * Name: No header for quest qt_test_strike_16
 * Description: No description for quest qt_test_strike_16
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Pirate Hideout (Heroic)'
@@ -11114,6 +10773,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_14
 * Name: No header for quest qt_test_strike_14
 * Description: No description for quest qt_test_strike_14
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Station Defense'
@@ -11121,6 +10781,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_17
 * Name: No header for quest qt_test_strike_17
 * Description: No description for quest qt_test_strike_17
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Station Defense (Heroic)'
@@ -11128,6 +10789,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_21
 * Name: No header for quest qt_test_strike_21
 * Description: No description for quest qt_test_strike_21
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Station Defense (Mythic)'
@@ -11135,6 +10797,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_15
 * Name: No header for quest qt_test_strike_15
 * Description: No description for quest qt_test_strike_15
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Pahra's Rock'
@@ -11142,6 +10805,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_18
 * Name: No header for quest qt_test_strike_18
 * Description: No description for quest qt_test_strike_18
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Pahra's Rock (Heroic)'
@@ -11149,6 +10813,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_22
 * Name: No header for quest qt_test_strike_22
 * Description: No description for quest qt_test_strike_22
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Pahra's Rock (Mythic)'
@@ -11156,6 +10821,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_19
 * Name: No header for quest qt_test_strike_19
 * Description: No description for quest qt_test_strike_19
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Breach'
@@ -11163,6 +10829,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QT_TEST_STRIKE_20
 * Name: No header for quest qt_test_strike_20
 * Description: No description for quest qt_test_strike_20
+
 * Type: Main
 * Goals:
 	* Task 1: Complete quest 'Breach (Heroic)'
@@ -11170,6 +10837,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QA_001
 * Name: No header for quest qa_001
 * Description: No description for quest qa_001
+
 * Type: Achievement
 * Goals:
 	* Task 1: 3000 Mined1A
@@ -11177,6 +10845,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## QA_002
 * Name: No header for quest qa_002
 * Description: No description for quest qa_002
+
 * Type: Achievement
 * Goals:
 	* Task 1: 5 Upgrade
@@ -11286,6 +10955,7 @@ Now that our starbase is finished, we can start filling it up with modules.
 ## Q_TEST_YAOSPR_2024_DAY04_T4
 * Name: No header for quest q_test_yaoSpr_2024_day04_t4
 * Description: No description for quest q_test_yaoSpr_2024_day04_t4
+
 * Type: Side
 * Goals:
 	* Task 1: GainItem

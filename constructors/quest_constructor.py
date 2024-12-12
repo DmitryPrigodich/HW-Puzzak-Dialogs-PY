@@ -2,6 +2,7 @@ import utils
 from itertools import zip_longest
 from .constructor_base import Constructor_Base
 from .mission_constructor import Mission_Constructor
+from .dia_seq_constructor import Dialog_Sequence_Constructor
 
 class Quest_Constructor(Constructor_Base):
     _QUEST_DATA_JSON = "json_bak/QuestData-module.json"
@@ -56,7 +57,7 @@ class Quest_Constructor(Constructor_Base):
             if quest_desc != None:
                 return quest_desc
             
-            return f"No description for quest {quest_id}"
+            return f"No description for quest {quest_id}\n"
 
         def _get_goals_w_params_rearranged(goals_str, goal_params_str):
             goals_final = {}
@@ -101,8 +102,13 @@ class Quest_Constructor(Constructor_Base):
         
 
         for quest_id, quest_tags in self._quest_data.items():
-            q_name = _get_quest_header(quest_id)
-            q_desc = _get_quest_desc(quest_id)
+            if quest_id.startswith("qe_amaSum_2023"):
+                quest_id_upd = quest_id.replace("2023","2024")
+                q_name = _get_quest_header(quest_id_upd)
+                q_desc = _get_quest_desc(quest_id_upd)
+            else:
+                q_name = _get_quest_header(quest_id)
+                q_desc = _get_quest_desc(quest_id)
 
             quest_tags_collector = {}
             quest_tags_collector['Name:'] = q_name
@@ -328,7 +334,6 @@ class Quest_Constructor(Constructor_Base):
                         goal_text += f"{goal_type} {target_system.get('Name:')} system of {target_system.get('Faction:')}'s territories\n"
 
                     case "Buy":
-                        print(goal)
                         if "Id" in goal.get('GoalParam:'):
                             goods_id = goal.get('GoalParam:')['Id']
                             goal_text += f"{goal_type}: {goods_id}\n"
@@ -343,21 +348,28 @@ class Quest_Constructor(Constructor_Base):
         return goal_text
     
     def get_quest_text(self,quest_id):
+        print(f"Quest: {quest_id}")
         quest = self.get_quest_by_id(quest_id)
 
+        # Name
         q_name = quest.get('Name:')
+        body_quest = f"\n### Quest [{quest_id}/{q_name}]\n"
+
+        # Campaign cinematics
+        # q_cinematics = self.get_cinematic_lines(quest_info.get('CinematicIds'))
+
+        # Description
         q_description = quest.get('Description:')
         q_description_upd = utils.remove_color(q_description)
-        # q_cinematics = self.get_cinematic_lines(quest_info.get('CinematicIds'))
+        body_quest += f"**DESCRIPTION**:\n\t{q_description_upd}\n"
+
+        # Goals
         q_goals = quest.get('Goals:')
         q_goals_text = self._get_goal_text(q_goals)
+        body_quest += f"\n**GOALS**:\n{q_goals_text}"
 
-        body_quest = f"\n### Quest [{quest_id}/{q_name}]\n"
-        body_quest += f"**DESCRIPTION**:\n\t{q_description_upd}"
-        body_quest += f"**GOALS**:\n{q_goals_text}"
-
+        # Mission
         mission_data = Mission_Constructor()
-        
         for q_goal_order, q_goals in q_goals.items():
             for q_goal in q_goals:
                 if q_goal.get("GoalType:") == "CompleteMission":
@@ -366,6 +378,15 @@ class Quest_Constructor(Constructor_Base):
                         for mission_id in mission_ids.split("|"):
                             body_quest += mission_data.get_mission_text(mission_id)
 
+        # End-Day Dialogs
+        q_end_day_dialog_id = f"{quest_id}_end"
+        dialog_data = Dialog_Sequence_Constructor()
+        q_end_day_dialog_text = dialog_data.get_dialog_text(q_end_day_dialog_id)
+        if q_end_day_dialog_text:
+            # print(f"End of Day Dialog: {q_end_day_dialog_id}")
+            body_quest += f"\n**END-OF-DAY DIALOG:**{q_end_day_dialog_text}"
+
+        # Mails
         if "MailsOnCompletion:" in quest:
             mail = quest.get("MailsOnCompletion:")
 

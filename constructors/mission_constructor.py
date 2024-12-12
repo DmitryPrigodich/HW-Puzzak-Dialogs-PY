@@ -1,5 +1,6 @@
 
 import utils
+import re
 
 from .constructor_base import Constructor_Base
 from .dia_seq_constructor import Dialog_Sequence_Constructor
@@ -42,39 +43,39 @@ class Mission_Constructor(Constructor_Base):
 
     def _set_data(self):
         for m_key, m_tags in self._mission_data.items():
-            if m_key.split("_")[-1] not in ["t2","t3","heroic","mythic","solo"]:
-                m_tags_collector = {}
+            m_tags_collector = {}
 
-                # Strings
-                if "MissionMode:" in m_tags:
-                    m_tags_collector["MissionMode:"] = m_tags.get("MissionMode:")
+            # Strings
+            for key in ["MissionMode:","InstanceId:"]:
+                if key in m_tags:
+                    m_tags_collector[key] = m_tags.get(key)
 
-                if "SystemId:" in m_tags:
-                    coordinates = m_tags.get("SystemId:")
-                    star_system = self.get_starsystem_by_coords(coordinates)
-                    m_tags_collector["SystemId:"] = {
-                        "Coordinates:": coordinates,
-                        "Name:": star_system.get('Name:'),
-                        "Faction:": star_system.get('Faction:')
-                    }
+            if "SystemId:" in m_tags:
+                coordinates = m_tags.get("SystemId:")
+                star_system = self.get_starsystem_by_coords(coordinates)
+                m_tags_collector["SystemId:"] = {
+                    "Coordinates:": coordinates,
+                    "Name:": star_system.get('Name:'),
+                    "Faction:": star_system.get('Faction:')
+                }
 
-                # Lists
-                for key in ["DialogSequences:", "StartingMissionSteps:"]:
-                    if key in m_tags:
-                        m_tags_collector[key] = sorted(m_tags.get(key).split(":"))
+            # Lists
+            for key in ["DialogSequences:", "StartingMissionSteps:"]:
+                if key in m_tags:
+                    m_tags_collector[key] = sorted(m_tags.get(key).split(":"))
 
-                # Unifying factions
-                factions_final = []
-                for key in ["T0Factions:","T1Factions:","T2Factions:"]:
-                    if key in m_tags:
-                        for faction in m_tags[key].split(":"):
-                            if faction != "None":
-                                factions_final.append(utils.get_corrected_faction_name(faction))
-                if factions_final:
-                    factions_final = sorted(list(set(factions_final)))            
-                    m_tags_collector["Factions:"] = factions_final
-                
-                self._missions[m_key] = m_tags_collector
+            # Unifying factions
+            factions_final = []
+            for key in ["T0Factions:","T1Factions:","T2Factions:"]:
+                if key in m_tags:
+                    for faction in m_tags[key].split(":"):
+                        if faction != "None":
+                            factions_final.append(utils.get_corrected_faction_name(faction))
+            if factions_final:
+                factions_final = sorted(list(set(factions_final)))            
+                m_tags_collector["Factions:"] = factions_final
+            
+            self._missions[m_key] = m_tags_collector
     
     def get_data(self):
         return self._missions
@@ -87,7 +88,7 @@ class Mission_Constructor(Constructor_Base):
         for m_key, m_tags in self._missions.items():
             body += f"\n## {m_key}\n"
 
-            for key in ["MissionMode:", "SystemId:"]:
+            for key in ["MissionMode:", "SystemId:", "InstanceId:"]:
                 if key in m_tags:
                     body += f"\t* {key} {m_tags[key]}\n"
 
@@ -106,7 +107,7 @@ class Mission_Constructor(Constructor_Base):
 
 
     # full set for analysis only
-    def write_data_tmp(self):
+    def _write_data_tmp(self):
         tags = {}
 
         body = "# HWM MISSIONS\n"
@@ -135,12 +136,44 @@ class Mission_Constructor(Constructor_Base):
         return self._missions.get(mission_id)
     
     def get_mission_text(self,mission_id):
+        print(f"Mission: {mission_id}")
 
         mission = self.get_mission_by_id(mission_id)
-        mission_name = self.get_string_by_key(mission_id)       
-        m_location = mission.get("SystemId:")
-        m_location_text = f"**LOCATION:** {m_location["Name:"]} system, {m_location["Faction:"]} territory\n"
+        if "InstanceId:" in mission:
+            mission = self.get_mission_by_id(mission.get("InstanceId:"))
+            print(f"Replaced Mission: {mission_id}")
+            
+        # Title
+        match = re.match(r'^event_(\d+)_StationDefense$', mission_id)
+        if match:
+            m_tier = int(match.group(1))
+            mission_key = f"event_amasum2024_stationdefense_t{m_tier}"
+            mission_name = self.get_string_by_key(mission_key)
+        else:
+            mission_name = self.get_string_by_key(mission_id)
+        body_mission = f"\n### Mission [{mission_id}/{mission_name}]\n"
+
+        mission_desc_key = f"desc_{mission_id}_tx"
+        mission_desc_text = self.get_string_by_key(mission_desc_key)
+        if mission_desc_text:
+            body_mission += f"[{mission_desc_key}/{mission_desc_text}]\n"
         
+        # Location
+        if "SystemId:" in mission:
+            m_location = mission.get("SystemId:")
+            m_location_text = f"**LOCATION:** {m_location["Name:"]} system, {m_location["Faction:"]} territory\n"
+            body_mission += m_location_text
+        else:
+            print(f"**LOCATION:** No location for mission {mission_id}\n")
+
+        # Factions
+        if "Factions:" in mission:
+            m_factions = mission.get("Factions:")
+            faction_list = ", ".join(map(str, m_factions))
+            m_factions_text = f"**FACTIONS INVOLVED:** {faction_list}"
+            body_mission += m_factions_text
+
+        # Dialogs
         if mission_id.startswith("event_halloween2023_Rashidun"):
             m_dialogs = self.dia_event_halloween2023_Rashidun
         elif mission_id.startswith("event_tanWin2023_DefendBase"):
@@ -158,15 +191,12 @@ class Mission_Constructor(Constructor_Base):
         else:
             m_dialogs = mission.get("DialogSequences:")
 
-        # constructing body...
-        body_mission = f"\n### Mission [{mission_id}/{mission_name}]\n"
-        body_mission += m_location_text
-
         dialog_data = Dialog_Sequence_Constructor()
-        print(f"Mission: {mission_id}")
-        print(f"Mission dialogs: {m_dialogs}")
-        for dialog_id in m_dialogs:
-            body_mission += dialog_data.get_dialog_text(dialog_id)
+        # print(f"Mission: {mission_id}")
+        # print(f"Mission dialogs: {m_dialogs}")
+        if m_dialogs:
+            for dialog_id in m_dialogs:
+                body_mission += dialog_data.get_dialog_text(dialog_id)
 
         return body_mission
     

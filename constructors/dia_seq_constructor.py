@@ -25,7 +25,7 @@ class Dialog_Sequence_Constructor(Constructor_Base):
 
             if not speaker_name:
                 speaker_name = f"{speaker_id} - speaker name not found"
-                print(speaker_name)
+                # print(speaker_name)
 
             return speaker_name
 
@@ -39,7 +39,7 @@ class Dialog_Sequence_Constructor(Constructor_Base):
 
                 if not body_dialog:
                     body_dialog = f"dialog_id not found: {dialog_id}"
-                    print(body_dialog)
+                    # print(body_dialog)
                 
             return body_dialog
 
@@ -83,11 +83,33 @@ class Dialog_Sequence_Constructor(Constructor_Base):
 
     
     def get_dialog_text(self, dialog_id):
-        body_dialog = f"\n\t\t_{dialog_id}_"
-        for dialog_part in self._dialogs.get(dialog_id):
-            speaker = dialog_part.get("SpeakerName:")
-            dia_line = dialog_part.get("DialogLine:")
+        if dialog_id in self._dialogs:
+            body_dialog = f"\n\t\t_{dialog_id}_"
+            for dialog_part in self._dialogs.get(dialog_id):
+                speaker = dialog_part.get("SpeakerName:")
+                dia_line = dialog_part.get("DialogLine:")
 
-            body_dialog += f"\n\t\t**{speaker}**\n"
-            body_dialog += f"\t\t{dia_line}\n"
-        return body_dialog
+                body_dialog += f"\n\t\t**{speaker}**\n"
+                body_dialog += f"\t\t{dia_line}\n"
+            return body_dialog
+        
+        elif dialog_id.startswith("qe_amaSum_2023"):
+            # print(f"dialog id: {dialog_id}")
+            prefix = dialog_id.lower().replace("qe_", "dia_").replace("2023","2024")
+            prefix = re.sub(r'day(\d)(?!\d)', r'day0\1', prefix)    # day1 -> day01
+            prefix = re.sub(r'_t\d_', '_', prefix)                  # _t(4) -> remove
+            # print(f"Modified prefix: {prefix}")
+
+            dia_str_values = []
+            for key, value in self._string_data.items():
+                if key.startswith(prefix):
+                    dia_str_values.append(value.get("en:"))
+            dia_str_values_text = "\n\t".join(map(str, dia_str_values))
+
+            body_dialog = f"\n\t_{dialog_id}/{prefix}_"
+            body_dialog += f"\n\t{dia_str_values_text}\n"
+            
+            return body_dialog
+        
+        else:
+            return None

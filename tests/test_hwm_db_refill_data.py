@@ -80,6 +80,7 @@ def _test_refill_mission_data():
     start_time = time.time()
 
     mission_data = Mission_Constructor()
+    # mission_data._write_data_tmp()
     mission_data.write_json()
     mission_data.write_data()
 
@@ -90,6 +91,7 @@ def _test_refill_mission_step_data():
     start_time = time.time()
 
     mission_step_data = Mission_Step_Constructor()
+    # mission_step_data._write_data_tmp()
     mission_step_data.write_json()
     mission_step_data.write_data()
 
@@ -100,6 +102,7 @@ def _test_refill_mission_step_action_data():
     start_time = time.time()
 
     mission_step_action_data = Mission_Step_Actions_Constructor()
+    # mission_step_action_data._write_data_tmp()
     mission_step_action_data.write_json()
     mission_step_action_data.write_data()
 
@@ -110,6 +113,7 @@ def _test_refill_events_data():
     start_time = time.time()
 
     events_data = Event_Constructor()
+    # events_data._write_data_tmp()
     events_data.write_json()
     events_data.write_data()
 
@@ -130,22 +134,20 @@ def _test_refill_quest_line_data():
     start_time = time.time()
 
     quest_line_data = Quest_Line_Constructor()
+    # quest_line_data._write_data_tmp()
     quest_line_data.write_json()
     quest_line_data.write_data()
 
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
 
-def _test_refill_quest_data():
+def test_refill_quest_data():
     start_time = time.time()
 
     quests_data = Quest_Constructor()
     # quests_data._write_data_tmp()
     quests_data.write_json()
     quests_data.write_data()
-
-    # quests_data.write_json()
-    # quests_data.write_quest_lines()
-
+    
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
