@@ -62,26 +62,27 @@ class Chapter_Constructor(Constructor_Base):
     
 
     def get_chapter_text(self, chapter_id):
-        
         chapter = self._chapters.get(chapter_id)
-
         chapter_order = chapter.get("Order:")
         chapter_name = chapter.get("Name:")
         chapter_quest_ids = chapter.get("Ids:")
+        
+        body_chapter = ""
+        body_chapter += utils.format_br(1)
+        body_chapter += utils.format_heading2(f"Chapter: {chapter_order}. {chapter_name}")
+        body_chapter += utils.format_br(2)
 
         quest_line_data = Quest_Line_Constructor()
         quest_data = Quest_Constructor()
-
-        body_chapter = f"\n## {chapter_order}. {chapter_id}/{chapter_name}\n"
         for quest_id in chapter_quest_ids:
             if quest_id.startswith("ql_"):
-                print(f"Quest Line Id: {quest_id}")
+                # print(f"Quest Line Id: {quest_id}")
                 quests = quest_line_data.get_quests_by_quest_line_id(quest_id.lower())
                 if quests:
                     for quest_id in quests:
                         body_chapter += quest_data.get_quest_text(quest_id)
             else:
-                print(f"Quest Id: {quest_id}")
+                # print(f"Quest Id: {quest_id}")
                 body_chapter += quest_data.get_quest_text(quest_id)
 
         return body_chapter

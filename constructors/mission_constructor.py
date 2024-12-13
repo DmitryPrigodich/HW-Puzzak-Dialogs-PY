@@ -137,8 +137,9 @@ class Mission_Constructor(Constructor_Base):
         return self._missions.get(mission_id)
     
     def get_mission_text(self,mission_id):
-        print(f"Mission: {mission_id}")
+        body_mission = ""
 
+        print(f"Mission: {mission_id}")
         mission = self.get_mission_by_id(mission_id)
         if "InstanceId:" in mission:
             mission = self.get_mission_by_id(mission.get("InstanceId:"))
@@ -152,22 +153,31 @@ class Mission_Constructor(Constructor_Base):
             mission_name = self.get_string_by_key(mission_key)
         else:
             mission_name = self.get_string_by_key(mission_id)
-        body_mission = f"\n### Mission [{mission_id}/{mission_name}]\n"
+
+        body_mission += utils.format_heading3(f"Mission: {mission_name}")
 
         # Mission Description
         mission_desc_key = f"desc_{mission_id[:-1]}x"
         mission_desc_text = self.get_string_by_key(mission_desc_key)
-        print(f"Mission Desc: {mission_desc_key}")
-        # * desc_event_iyafal2023_escort_tx: The missing captain has been located at an unnamed asteroid. Retrieve him at all costs.
-        # desc_event_iyaFal2023_Escort_t4_tx
+        # print(f"Mission Desc: {mission_desc_key}")
         if mission_desc_text:
-            body_mission += f"**DESCRIPTION**: {mission_desc_text}\n"
+            body_mission += utils.format_br(1)
+            body_mission += utils.format_bold("DESCRIPTION:")
+            body_mission += utils.format_br(1)
+            body_mission += utils.format_txt(mission_desc_text)
+            body_mission += utils.format_br(2)
         
         # Location
         if "SystemId:" in mission:
             m_location = mission.get("SystemId:")
-            m_location_text = f"**LOCATION:** {m_location["Name:"]} system, {m_location["Faction:"]} territory\n"
-            body_mission += m_location_text
+            m_location_name = m_location["Name:"]
+            m_location_faction = m_location["Faction:"]
+
+            body_mission += utils.format_br(1)
+            body_mission += utils.format_bold("LOCATION:")
+            body_mission += utils.format_br(1)
+            body_mission += utils.format_txt(f"{m_location_name} system, {m_location_faction} territory")
+            body_mission += utils.format_br(2)
         else:
             print(f"**LOCATION:** No location for mission {mission_id}\n")
 
@@ -175,8 +185,11 @@ class Mission_Constructor(Constructor_Base):
         if "Factions:" in mission:
             m_factions = mission.get("Factions:")
             faction_list = ", ".join(map(str, m_factions))
-            m_factions_text = f"**FACTIONS INVOLVED:** {faction_list}"
-            body_mission += m_factions_text
+
+            body_mission += utils.format_bold("FACTIONS INVOLVED:")
+            body_mission += utils.format_br(1)
+            body_mission += utils.format_txt(faction_list)
+            body_mission += utils.format_br(2)
 
         # Dialogs
         if mission_id.startswith("event_halloween2023_Rashidun"):
@@ -206,7 +219,9 @@ class Mission_Constructor(Constructor_Base):
                 body_mission += dialog_data.get_dialog_text(dialog_id)
         else:
             mission_steps = Mission_Step_Constructor()
-            body_mission += mission_steps.get_mission_steps_text(mission.get("StartingMissionSteps:"))
+            starting_mission_steps = mission.get("StartingMissionSteps:")
+            for mission_step in starting_mission_steps:
+                body_mission += mission_steps.get_mission_steps_text(mission_step)
 
         return body_mission
     

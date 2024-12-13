@@ -348,12 +348,15 @@ class Quest_Constructor(Constructor_Base):
         return goal_text
     
     def get_quest_text(self,quest_id):
-        print(f"Quest: {quest_id}")
+        body_quest = ""
+
+        # print(f"Quest: {quest_id}")
         quest = self.get_quest_by_id(quest_id)
 
         # Name
         q_name = quest.get('Name:')
-        body_quest = f"\n### Quest [{quest_id}/{q_name}]\n"
+        body_quest += utils.format_heading3(f"Quest: {q_name}")
+        body_quest += utils.format_br(2)
 
         # Campaign cinematics
         # q_cinematics = self.get_cinematic_lines(quest_info.get('CinematicIds'))
@@ -361,12 +364,20 @@ class Quest_Constructor(Constructor_Base):
         # Description
         q_description = quest.get('Description:')
         q_description_upd = utils.remove_color(q_description)
-        body_quest += f"**DESCRIPTION**:\n\t{q_description_upd}\n"
+
+        body_quest += utils.format_bold("DESCRIPTION:")
+        body_quest += utils.format_br(1)
+        body_quest += utils.format_txt(q_description_upd)
+        body_quest += utils.format_br(2)
 
         # Goals
         q_goals = quest.get('Goals:')
         q_goals_text = self._get_goal_text(q_goals)
-        body_quest += f"\n**GOALS**:\n{q_goals_text}"
+        
+        body_quest += utils.format_bold("GOALS:")
+        body_quest += utils.format_br(1)
+        body_quest += utils.format_txt(q_goals_text)
+        body_quest += utils.format_br(2)
 
         # Mission
         mission_data = Mission_Constructor()
@@ -384,7 +395,10 @@ class Quest_Constructor(Constructor_Base):
         q_end_day_dialog_text = dialog_data.get_dialog_text(q_end_day_dialog_id)
         if q_end_day_dialog_text:
             # print(f"End of Day Dialog: {q_end_day_dialog_id}")
-            body_quest += f"\n**END-OF-DAY DIALOG:**{q_end_day_dialog_text}"
+            body_quest += utils.format_bold("END-OF-DAY DIALOG:")
+            body_quest += utils.format_br(1)
+            body_quest += utils.format_txt(q_end_day_dialog_text)
+            body_quest += utils.format_br(2)
 
         # Mails
         if "MailsOnCompletion:" in quest:
@@ -399,7 +413,9 @@ class Quest_Constructor(Constructor_Base):
             # print(f"mail_header: {mail_header}")
             # print(f"mail_body: {mail_body}")
 
-            body_quest += f"\n### {mail_header}\n"
-            body_quest += f"{mail_body}\n"
+            body_quest += utils.format_heading3(f"Mail: {mail_header}")
+            body_quest += utils.format_br(1)
+            body_quest += utils.format_txt(mail_body)
+            body_quest += utils.format_br(2)
 
         return body_quest

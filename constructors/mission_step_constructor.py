@@ -2,6 +2,7 @@ import utils
 
 from .constructor_base import Constructor_Base
 from .mission_step_actions_constructor import Mission_Step_Actions_Constructor
+from .dia_seq_constructor import Dialog_Sequence_Constructor
 
 class Mission_Step_Constructor(Constructor_Base):
     _MISSION_STEPS_DATA_JSON = "json_bak/MissionSteps-module.json"
@@ -121,14 +122,48 @@ class Mission_Step_Constructor(Constructor_Base):
     def get_mission_step_by_id(self,mission_step_id):
         return self._mission_steps.get(mission_step_id)
     
-    def get_mission_steps_text(self, starting_mission_steps):
-        print(f"Mission step [{starting_mission_steps}]")
-        return ""
+    def get_mission_steps_text(self, mission_step_id):
+        body_mission_step = ""
 
-        # mission_step = self.get_mission_step_by_id(starting_mission_steps)
-        # ms_actions = mission_step.get("SuccLL:")
+        dialog_data = Dialog_Sequence_Constructor()
+        ms_action_data = Mission_Step_Actions_Constructor()
+        
+        # print(f"Mission step {mission_step_id}")
+        mission_step = self.get_mission_step_by_id(mission_step_id)
 
-        # mission_step_actions_data = Mission_Step_Actions_Constructor()
-        # for ms_action in ms_actions:
-        #     smth = mission_step_actions_data.get_mission_step_actions_by_id(ms_action)
-        #     print(f"Mission Step Action: {smth}")
+        ms_target_type = mission_step.get("TargetType:")
+        if ms_target_type == "OnDialogFinished":
+            ms_dialogs = mission_step.get("TVS:")
+            for ms_dialog_id in ms_dialogs:
+                ms_dialog_text = dialog_data.get_dialog_text(ms_dialog_id)
+                if ms_dialog_text:
+                    body_mission_step += ms_dialog_text
+                else:
+                    error_text = f"Dialog_id not found: {ms_dialog_id}"
+                    print(error_text)
+                    body_mission_step += f"{error_text}\n"
+
+        if "SuccLL:" in mission_step:
+            ms_actions = mission_step.get("SuccLL:")
+            for ms_action_id in ms_actions:
+                ms_action = ms_action_data.get_mission_step_actions_by_id(ms_action_id)
+                
+                ms_action_type = ms_action.get("Type:")
+                match ms_action_type:
+                    case "TriggerDialog":
+                        msa_dialogs = ms_action.get("TVS:")
+                        for msa_dialog_id in msa_dialogs:
+                            msa_dialog_text = dialog_data.get_dialog_text(msa_dialog_id)
+                            if msa_dialog_text:
+                                body_mission_step += msa_dialog_text
+                            else:
+                                error_text = f"Dialog_id not found: {msa_dialog_id}"
+                                print(error_text)
+                                body_mission_step += f"{error_text}\n"
+                            
+                    case "AddMissionSteps":
+                        link_mission_steps = ms_action.get("StepsLinkList:")
+                        for link_mission_step_id in link_mission_steps:
+                            body_mission_step += self.get_mission_steps_text(link_mission_step_id)
+
+        return body_mission_step

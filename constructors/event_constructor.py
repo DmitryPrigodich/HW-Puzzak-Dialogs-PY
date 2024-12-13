@@ -103,13 +103,14 @@ class Event_Constructor(Constructor_Base):
         return self._events
     
     def get_event_text(self,event_id):
-        body_event = f"\n\n\n## Event: {event_id}\n".upper()
+        body_event = ""
+        body_event += utils.format_br(1)
+        body_event += utils.format_heading2(f"Event: {event_id}")
+        body_event += utils.format_br(2)
 
         quest_line_data = Quest_Line_Constructor()
         quest_line_id = quest_line_data.get_quest_line_by_event_id(event_id)
-        print(f"Quest Line Id: {quest_line_id}")
         quests = quest_line_data.get_quests_by_quest_line_id(quest_line_id)
-        print(f"Quests: {quests}")
         
         quest_data = Quest_Constructor()
         for quest_id in quests:

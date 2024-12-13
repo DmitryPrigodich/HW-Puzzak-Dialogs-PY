@@ -83,14 +83,21 @@ class Dialog_Sequence_Constructor(Constructor_Base):
 
     
     def get_dialog_text(self, dialog_id):
+        body_dialog = ""
         if dialog_id in self._dialogs:
-            body_dialog = f"\n\t\t_{dialog_id}_"
+            body_dialog += utils.format_br(1)
+            body_dialog += utils.format_bold(dialog_id)
+
             for dialog_part in self._dialogs.get(dialog_id):
                 speaker = dialog_part.get("SpeakerName:")
                 dia_line = dialog_part.get("DialogLine:")
 
-                body_dialog += f"\n\t\t**{speaker}**\n"
-                body_dialog += f"\t\t{dia_line}\n"
+                body_dialog += utils.format_br(1)
+                body_dialog += utils.format_txt(speaker)
+                body_dialog += utils.format_br(1)
+                body_dialog += utils.format_code(dia_line)
+            body_dialog += utils.format_br(2)
+
             return body_dialog
         
         elif dialog_id.startswith("qe_amaSum_2023"):
@@ -104,10 +111,13 @@ class Dialog_Sequence_Constructor(Constructor_Base):
             for key, value in self._string_data.items():
                 if key.startswith(prefix):
                     dia_str_values.append(value.get("en:"))
-            dia_str_values_text = "\n\t".join(map(str, dia_str_values))
 
-            body_dialog = f"\n\t_{dialog_id}/{prefix}_"
-            body_dialog += f"\n\t{dia_str_values_text}\n"
+            body_dialog += utils.format_br(1)
+            body_dialog += utils.format_bold(f"{dialog_id}/{prefix}")
+            for dia_str_value in dia_str_values:
+                body_dialog += utils.format_br(1)
+                body_dialog += utils.format_code(dia_str_value)
+            body_dialog += utils.format_br(2)
             
             return body_dialog
         

@@ -30,7 +30,7 @@ class Name_Data_Constructor(Constructor_Base):
     def _add_names(self):
         additional_names = {}
 
-        medeans = {
+        medean = {
             "Female": ["Kidara","Vashti","Joanna","Kamara","Bela","Esentra","Amaala","Agnes","Elise","Jassiah","Baaekh"],
             "Male": ["Gideon", "Enoch","Eshim","Micah","Ben","Reuben","Pagraan","Mehemit","Thaed","Makhaab","Adrian","Hector","Mahel","Joshua","Hyeaa","Suzaak","Thaanh"],
             "Family": ["Sasan","Matara","LiirHra"]
@@ -41,11 +41,11 @@ class Name_Data_Constructor(Constructor_Base):
         tanoch = {
             "Male": ["Cazoma","Heyoka","Tepin"],
             "Female": ["Toci"],
-            "Family": ["Tecuban","Chicuat","Citalique"," Papan"]
+            "Family": ["Tecuban","Chicuat","Citalique","Papan","Zatozi"]
         }
         yaot = {
             "Male:": ["Guahai","Chaquen","Chocoan"],
-            "Family:": ["Sapa","Guecha","Coatl"]
+            "Family:": ["Sapa","Guecha","Coatl","Sogamoso"]
         }
         amassari = {
             "Male": ["Jothru"],
@@ -55,14 +55,14 @@ class Name_Data_Constructor(Constructor_Base):
             "Male": ["Jochik"],
             "Family": ["Kaan"]
         }
-        cangacians = {
+        cangacian = {
             "Male": ["Supay","Catequil"],
-            "Female": [""]
+            "Female": ["Saqra"]
         }
         additional_names = {
-            "Hiigaran Medea": medeans,
+            "Hiigaran Medea": medean,
             "Iyatequa": iyatequa,
-            "Cangacians": cangacians,
+            "Cangacians": cangacian,
             "Tanoch": tanoch,
             "Yaot": yaot,
             "Amassari": amassari,

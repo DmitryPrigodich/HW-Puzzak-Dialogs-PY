@@ -67,3 +67,46 @@ def remove_color(text):
     pattern = r"<color.*?</color>"
     clean_text = re.sub(pattern, "", text, flags=re.DOTALL)
     return clean_text.strip()
+
+
+def format_heading1(title):
+    return f"## {title}".upper()
+
+def format_heading2(title):
+    return f"## {title}"
+
+def format_heading3(title):
+    return f"### {title}"
+
+def format_txt(text):
+    return text
+
+def format_br(number):
+    return "\n" * number
+
+def format_indent(number):
+    return "\t" * number
+
+def format_bold(text):
+    return f"**{text}**"
+
+def format_caps(text):
+    return text.upper()
+
+def format_code(text):
+    return f"```\n{text}\n```"
+
+def format_note(text):
+    return f"> [!NOTE]\n> {text}"
+
+def format_tip(text):
+    return f"> [!TIP]\n> {text}"
+
+def format_important(text):
+    return f"> [!IMPORTANT]\n> {text}"
+
+def format_warning(text):
+    return f"> [!WARNING]\n> {text}"
+
+def format_caution(text):
+    return f"> [!CAUTION]\n> {text}"
