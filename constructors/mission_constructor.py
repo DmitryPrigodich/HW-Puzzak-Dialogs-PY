@@ -154,7 +154,7 @@ class Mission_Constructor(Constructor_Base):
         else:
             mission_name = self.get_string_by_key(mission_id)
 
-        body_mission += utils.format_heading3(f"Mission: {mission_name}")
+        body_mission += utils.format_heading4(f"Mission: {mission_name}")
 
         # Mission Description
         mission_desc_key = f"desc_{mission_id[:-1]}x"
@@ -162,7 +162,7 @@ class Mission_Constructor(Constructor_Base):
         # print(f"Mission Desc: {mission_desc_key}")
         if mission_desc_text:
             body_mission += utils.format_br(1)
-            body_mission += utils.format_bold("DESCRIPTION:")
+            body_mission += utils.format_heading6("DESCRIPTION:")
             body_mission += utils.format_br(1)
             body_mission += utils.format_paragraph(mission_desc_text)
             body_mission += utils.format_br(2)
@@ -174,7 +174,7 @@ class Mission_Constructor(Constructor_Base):
             m_location_faction = m_location["Faction:"]
 
             body_mission += utils.format_br(1)
-            body_mission += utils.format_bold("LOCATION:")
+            body_mission += utils.format_heading6("LOCATION:")
             body_mission += utils.format_br(1)
             body_mission += utils.format_paragraph(f"{m_location_name} system, {m_location_faction} territory")
             body_mission += utils.format_br(2)
@@ -186,7 +186,7 @@ class Mission_Constructor(Constructor_Base):
             m_factions = mission.get("Factions:")
             faction_list = ", ".join(map(str, m_factions))
 
-            body_mission += utils.format_bold("FACTIONS INVOLVED:")
+            body_mission += utils.format_heading6("FACTIONS INVOLVED:")
             body_mission += utils.format_br(1)
             body_mission += utils.format_paragraph(faction_list)
             body_mission += utils.format_br(2)

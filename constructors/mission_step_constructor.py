@@ -137,6 +137,7 @@ class Mission_Step_Constructor(Constructor_Base):
             for ms_dialog_id in ms_dialogs:
                 ms_dialog_text = dialog_data.get_dialog_text(ms_dialog_id)
                 if ms_dialog_text:
+                    body_mission_step += utils.format_paragraph("Mission Step:")
                     body_mission_step += ms_dialog_text
                 else:
                     error_text = f"Dialog_id not found: {ms_dialog_id}"
@@ -155,6 +156,7 @@ class Mission_Step_Constructor(Constructor_Base):
                         for msa_dialog_id in msa_dialogs:
                             msa_dialog_text = dialog_data.get_dialog_text(msa_dialog_id)
                             if msa_dialog_text:
+                                body_mission_step += utils.format_paragraph("Mission Step Action:")
                                 body_mission_step += msa_dialog_text
                             else:
                                 error_text = f"Dialog_id not found: {msa_dialog_id}"

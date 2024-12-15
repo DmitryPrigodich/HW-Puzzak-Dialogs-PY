@@ -374,7 +374,7 @@ class Quest_Constructor(Constructor_Base):
         q_goals = quest.get('Goals:')
         q_goals_text = self._get_goal_text(q_goals)
         
-        body_quest += utils.format_bold("GOALS:")
+        body_quest += utils.format_heading6("GOALS:")
         body_quest += utils.format_br(1)
         body_quest += utils.format_paragraph(q_goals_text)
         body_quest += utils.format_br(2)
@@ -395,7 +395,7 @@ class Quest_Constructor(Constructor_Base):
         q_end_day_dialog_text = dialog_data.get_dialog_text(q_end_day_dialog_id)
         if q_end_day_dialog_text:
             # print(f"End of Day Dialog: {q_end_day_dialog_id}")
-            body_quest += utils.format_bold("END-OF-DAY DIALOG:")
+            body_quest += utils.format_heading6("END-OF-DAY DIALOG:")
             body_quest += utils.format_br(1)
             body_quest += utils.format_paragraph(q_end_day_dialog_text)
             body_quest += utils.format_br(2)
@@ -413,7 +413,7 @@ class Quest_Constructor(Constructor_Base):
             # print(f"mail_header: {mail_header}")
             # print(f"mail_body: {mail_body}")
 
-            body_quest += utils.format_heading3(f"Mail: {mail_header}")
+            body_quest += utils.format_heading4(f"Mail: {mail_header}")
             body_quest += utils.format_br(1)
             body_quest += utils.format_paragraph(mail_body)
             body_quest += utils.format_br(2)

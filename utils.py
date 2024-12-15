@@ -15,9 +15,9 @@ def add_to_file(value, file_name):
     except IOError as e:
         print(f'Error: {e}')
 
-
 def clean_file(file_name):
     rewrite_file("", file_name)
+
 
 def write_json(json_input, json_output):
     json_data = json.dumps(json_input, ensure_ascii=False)
@@ -70,7 +70,7 @@ def remove_color(text):
 
 
 def format_heading1(title):
-    return f"## {title}\n".upper()
+    return f"# {title}\n".upper()
 
 def format_heading2(title):
     return f"## {title}\n"
@@ -78,8 +78,18 @@ def format_heading2(title):
 def format_heading3(title):
     return f"### {title}\n"
 
+def format_heading4(title):
+    return f"#### {title}\n"
+
+def format_heading5(title):
+    return f"##### {title}\n"
+
+def format_heading6(title):
+    return f"###### {title}\n"
+
+
 def format_paragraph(text):
-    return f"{text}\n"
+    return f"\n{text}\n"
 
 def format_br(number):
     return "\n" * number
@@ -94,7 +104,13 @@ def format_caps(text):
     return text.upper()
 
 def format_code(text):
+    return f"`{text}`"
+
+def format_code_block(text):
     return f"```\n{text}\n```"
+
+def format_quote(text):
+    return f"> {text}\n"
 
 def format_note(text):
     return f"> [!NOTE]\n> {text}\n"

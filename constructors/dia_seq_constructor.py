@@ -83,7 +83,7 @@ class Dialog_Sequence_Constructor(Constructor_Base):
 
     
     def get_dialog_text(self, dialog_id):
-        body_dialog = ""
+        body_dialog = ""     
 
         if dialog_id == "Story-S2-01-Lighthouse_fail_dialog":
             print(f"Dialog id replaced: {dialog_id}")
@@ -97,16 +97,17 @@ class Dialog_Sequence_Constructor(Constructor_Base):
 
         if dialog_id in self._dialogs:
             body_dialog += utils.format_br(1)
-            body_dialog += utils.format_bold(dialog_id)
+            body_dialog += utils.format_code(dialog_id)
+            body_dialog += utils.format_br(1)
 
             for dialog_part in self._dialogs.get(dialog_id):
                 speaker = dialog_part.get("SpeakerName:")
                 dia_line = dialog_part.get("DialogLine:")
 
                 body_dialog += utils.format_br(1)
-                body_dialog += utils.format_paragraph(speaker)
+                body_dialog += utils.format_bold(speaker)
                 body_dialog += utils.format_br(1)
-                body_dialog += utils.format_code(dia_line)
+                body_dialog += utils.format_quote(dia_line)
             body_dialog += utils.format_br(2)
 
             return body_dialog
@@ -124,10 +125,10 @@ class Dialog_Sequence_Constructor(Constructor_Base):
                     dia_str_values.append(value.get("en:"))
 
             body_dialog += utils.format_br(1)
-            body_dialog += utils.format_bold(f"{dialog_id}/{prefix}")
+            body_dialog += utils.format_code(f"{dialog_id} / {prefix}")
             for dia_str_value in dia_str_values:
                 body_dialog += utils.format_br(1)
-                body_dialog += utils.format_code(dia_str_value)
+                body_dialog += utils.format_quote(dia_str_value)
             body_dialog += utils.format_br(2)
             
             return body_dialog
