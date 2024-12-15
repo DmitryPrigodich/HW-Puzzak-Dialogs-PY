@@ -84,6 +84,17 @@ class Dialog_Sequence_Constructor(Constructor_Base):
     
     def get_dialog_text(self, dialog_id):
         body_dialog = ""
+
+        if dialog_id == "Story-S2-01-Lighthouse_fail_dialog":
+            print(f"Dialog id replaced: {dialog_id}")
+            dialog_id = "Story-S2-01-Lighthouse_dialog_fail"
+
+        if dialog_id == "st_hataldan_fail_2_dialog":
+            print(f"Dialog id replaced: {dialog_id}")
+            dialog_id = "s_hataldan_dialog_failKill"
+            # s_hataldan_dialog_failKill -- not used
+            # s_hataldan_dialog_failAmassari -- not used
+
         if dialog_id in self._dialogs:
             body_dialog += utils.format_br(1)
             body_dialog += utils.format_bold(dialog_id)
@@ -93,7 +104,7 @@ class Dialog_Sequence_Constructor(Constructor_Base):
                 dia_line = dialog_part.get("DialogLine:")
 
                 body_dialog += utils.format_br(1)
-                body_dialog += utils.format_txt(speaker)
+                body_dialog += utils.format_paragraph(speaker)
                 body_dialog += utils.format_br(1)
                 body_dialog += utils.format_code(dia_line)
             body_dialog += utils.format_br(2)

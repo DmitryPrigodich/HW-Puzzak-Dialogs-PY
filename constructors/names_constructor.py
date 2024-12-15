@@ -48,8 +48,8 @@ class Name_Data_Constructor(Constructor_Base):
             "Family:": ["Sapa","Guecha","Coatl","Sogamoso"]
         }
         amassari = {
-            "Male": ["Jothru"],
-            "Family": ["Sadosar","Nacarid","Shasau","Thant","Ohau","Vareng","Omassi","Alut"]
+            "Male": ["Jothru","Lyad"],
+            "Family": ["Sadosar","Nacarid","Shasau","Thant","Ohau","Vareng","Omassi","Alut","Kotlan"]
         }
         vaygr = {
             "Male": ["Jochik"],

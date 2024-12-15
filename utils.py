@@ -70,16 +70,16 @@ def remove_color(text):
 
 
 def format_heading1(title):
-    return f"## {title}".upper()
+    return f"## {title}\n".upper()
 
 def format_heading2(title):
-    return f"## {title}"
+    return f"## {title}\n"
 
 def format_heading3(title):
-    return f"### {title}"
+    return f"### {title}\n"
 
-def format_txt(text):
-    return text
+def format_paragraph(text):
+    return f"{text}\n"
 
 def format_br(number):
     return "\n" * number
@@ -97,16 +97,16 @@ def format_code(text):
     return f"```\n{text}\n```"
 
 def format_note(text):
-    return f"> [!NOTE]\n> {text}"
+    return f"> [!NOTE]\n> {text}\n"
 
 def format_tip(text):
-    return f"> [!TIP]\n> {text}"
+    return f"> [!TIP]\n> {text}\n"
 
 def format_important(text):
-    return f"> [!IMPORTANT]\n> {text}"
+    return f"> [!IMPORTANT]\n> {text}\n"
 
 def format_warning(text):
-    return f"> [!WARNING]\n> {text}"
+    return f"> [!WARNING]\n> {text}\n"
 
 def format_caution(text):
-    return f"> [!CAUTION]\n> {text}"
+    return f"> [!CAUTION]\n> {text}\n"

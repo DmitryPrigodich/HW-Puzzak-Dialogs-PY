@@ -367,7 +367,7 @@ class Quest_Constructor(Constructor_Base):
 
         body_quest += utils.format_bold("DESCRIPTION:")
         body_quest += utils.format_br(1)
-        body_quest += utils.format_txt(q_description_upd)
+        body_quest += utils.format_paragraph(q_description_upd)
         body_quest += utils.format_br(2)
 
         # Goals
@@ -376,7 +376,7 @@ class Quest_Constructor(Constructor_Base):
         
         body_quest += utils.format_bold("GOALS:")
         body_quest += utils.format_br(1)
-        body_quest += utils.format_txt(q_goals_text)
+        body_quest += utils.format_paragraph(q_goals_text)
         body_quest += utils.format_br(2)
 
         # Mission
@@ -397,7 +397,7 @@ class Quest_Constructor(Constructor_Base):
             # print(f"End of Day Dialog: {q_end_day_dialog_id}")
             body_quest += utils.format_bold("END-OF-DAY DIALOG:")
             body_quest += utils.format_br(1)
-            body_quest += utils.format_txt(q_end_day_dialog_text)
+            body_quest += utils.format_paragraph(q_end_day_dialog_text)
             body_quest += utils.format_br(2)
 
         # Mails
@@ -415,7 +415,7 @@ class Quest_Constructor(Constructor_Base):
 
             body_quest += utils.format_heading3(f"Mail: {mail_header}")
             body_quest += utils.format_br(1)
-            body_quest += utils.format_txt(mail_body)
+            body_quest += utils.format_paragraph(mail_body)
             body_quest += utils.format_br(2)
 
         return body_quest

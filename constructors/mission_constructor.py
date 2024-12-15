@@ -164,7 +164,7 @@ class Mission_Constructor(Constructor_Base):
             body_mission += utils.format_br(1)
             body_mission += utils.format_bold("DESCRIPTION:")
             body_mission += utils.format_br(1)
-            body_mission += utils.format_txt(mission_desc_text)
+            body_mission += utils.format_paragraph(mission_desc_text)
             body_mission += utils.format_br(2)
         
         # Location
@@ -176,7 +176,7 @@ class Mission_Constructor(Constructor_Base):
             body_mission += utils.format_br(1)
             body_mission += utils.format_bold("LOCATION:")
             body_mission += utils.format_br(1)
-            body_mission += utils.format_txt(f"{m_location_name} system, {m_location_faction} territory")
+            body_mission += utils.format_paragraph(f"{m_location_name} system, {m_location_faction} territory")
             body_mission += utils.format_br(2)
         else:
             print(f"**LOCATION:** No location for mission {mission_id}\n")
@@ -188,7 +188,7 @@ class Mission_Constructor(Constructor_Base):
 
             body_mission += utils.format_bold("FACTIONS INVOLVED:")
             body_mission += utils.format_br(1)
-            body_mission += utils.format_txt(faction_list)
+            body_mission += utils.format_paragraph(faction_list)
             body_mission += utils.format_br(2)
 
         # Dialogs
