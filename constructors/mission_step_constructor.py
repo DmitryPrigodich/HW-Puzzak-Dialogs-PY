@@ -134,15 +134,16 @@ class Mission_Step_Constructor(Constructor_Base):
         ms_target_type = mission_step.get("TargetType:")
         if ms_target_type == "OnDialogFinished":
             ms_dialogs = mission_step.get("TVS:")
-            for ms_dialog_id in ms_dialogs:
-                ms_dialog_text = dialog_data.get_dialog_text(ms_dialog_id)
-                if ms_dialog_text:
-                    body_mission_step += utils.format_paragraph("Mission Step:")
-                    body_mission_step += ms_dialog_text
-                else:
-                    error_text = f"Dialog_id not found: {ms_dialog_id}"
-                    print(error_text)
-                    body_mission_step += f"{error_text}\n"
+            print(f"Mission Step dialog id: {ms_dialogs}")
+            # for ms_dialog_id in ms_dialogs:
+            #     ms_dialog_text = dialog_data.get_dialog_text(ms_dialog_id)
+            #     if ms_dialog_text:
+            #         body_mission_step += utils.format_paragraph("Mission Step:")
+            #         body_mission_step += ms_dialog_text
+            #     else:
+            #         error_text = f"Dialog_id not found: {ms_dialog_id}"
+            #         print(error_text)
+            #         body_mission_step += f"{error_text}\n"
 
         if "SuccLL:" in mission_step:
             ms_actions = mission_step.get("SuccLL:")
@@ -156,7 +157,7 @@ class Mission_Step_Constructor(Constructor_Base):
                         for msa_dialog_id in msa_dialogs:
                             msa_dialog_text = dialog_data.get_dialog_text(msa_dialog_id)
                             if msa_dialog_text:
-                                body_mission_step += utils.format_paragraph("Mission Step Action:")
+                                # body_mission_step += utils.format_paragraph("Mission Step Action:")
                                 body_mission_step += msa_dialog_text
                             else:
                                 error_text = f"Dialog_id not found: {msa_dialog_id}"
