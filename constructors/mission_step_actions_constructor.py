@@ -30,7 +30,7 @@ class Mission_Step_Actions_Constructor(Constructor_Base):
                 if key in msa_tags:
                     msa_key_dict[key] = msa_tags.get(key)
 
-            for key in ["TVS:","PCG_Meta:","StepsLinkList:"]:
+            for key in ["TV1:", "TVS:","PCG_Meta:","StepsLinkList:"]:
                 if key in msa_tags:
                     msa_key_dict[key] = sorted(msa_tags.get(key).split(":"))
             
@@ -44,7 +44,7 @@ class Mission_Step_Actions_Constructor(Constructor_Base):
         for msa_key, msa_tags in self._mission_step_actions.items():
             body += f"\n## {msa_key}\n"
 
-            for key in ["Type:"]:
+            for key in ["Type:", "TV1:"]:
                 if key in msa_tags:
                     body += f"\t* {key} {msa_tags[key]}\n"
 

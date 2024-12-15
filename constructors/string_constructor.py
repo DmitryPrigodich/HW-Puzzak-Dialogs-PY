@@ -33,24 +33,25 @@ class String_Data_Constructor(Constructor_Base):
             if string_key.startswith(startswith):
                 body += f"### {string_key}\n"
                 body += f"{string_value}\n\n"
-        utils.rewrite_file(body, f"data/STRINGS_{startswith.replace(".","")}.md".upper())
+        startswith = startswith.replace(".","")
+        utils.rewrite_file(body, f"data/STRINGS_{startswith}.md".upper())
     
     def get_cinematics_lines(self, cinematic_id):
         cinematics_map = {
-            "001": ("INTRO #1", ["001","002","003","004","005","005b","006","007"]),
-            "002": ("INTRO #2", ["001","002","003","004","005"]),
-            "003": ("TANOCHETLAN", ["001","002","003","004"]),
-            "004": ("VAYGR BETRAYAL", ["001","002","003","004","005","006"]),
-            "005": ("KIITHLESS", ["001","002","003","004","005","006"]),
-            "006": ("LIGHTHOUSE", ["001","002","003","004","005","006","007"]),
-            "007": ("NIMBUS", ["001","002","003","004","005","006","007"]),
+            "20": ("INTRO #1", ["001_001","001_002","001_003","001_004","001_005","001_005b","001_006","001_007"]),
+            "10": ("INTRO #2", ["002_001","002_002","002_003","002_004","002_005"]),
+            "30": ("TANOCHET", ["003_001","003_002","003_003","003_004"]),
+            "35": ("VAYGR BETRAYAL", ["004_001","004_002","004_003","004_004","004_005","004_006"]),
+            "50": ("KIITHLESS", ["005_001","005_002","005_003","005_004","005_005","005_006"]),
+            "40": ("LIGHTHOUSE", ["006_001","006_002","006_003","006_004","006_005","006_006","006_007"]),
+            "25": ("NIMBUS", ["007_001","007_002","007_003","007_004","007_005","007_006","007_007"]),
         }
 
         def add_lines(title, line_numbers):
             body = f"### CINEMATIC: {title}\n"
             for number in line_numbers:
-                string_text = self.get_string_by_key(f"cinematic_{cinematic_id}_{number}")
-                body += f"{string_text}\n"
+                string_text = self.get_string_by_key(f"cinematic_{number}")
+                body += utils.format_quote(f"{string_text}")
             return body
 
         if cinematic_id in cinematics_map:

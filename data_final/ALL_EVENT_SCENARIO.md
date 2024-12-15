@@ -242,6 +242,13 @@ Tanoch, Yaot
 > Starship, we appreciate your assistance, but our emperor has more urgent matters to attend to now. Your visit will have to wait.
 
 
+### CINEMATIC: TANOCHET
+> With great fanfare and jubilation, the Hiigarans were welcomed into the Palace of the Elder Sun.
+> The young Emperor, Cazoma, greeted them with intense interest.
+Assailing them with questions, he welcomed the Hiigarans as guests within his domain.
+> But another resided as guests among the Tanoch. Introduced as a friend and fellow galactic traveller,
+Cazoma revealed what could not be true.
+> Jochik Kaan: Son of Makaan, and Lord of the Vaygr.
 
 `Story-03-01_attackOver_dialog`
 

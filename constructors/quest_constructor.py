@@ -3,6 +3,7 @@ from itertools import zip_longest
 from .constructor_base import Constructor_Base
 from .mission_constructor import Mission_Constructor
 from .dia_seq_constructor import Dialog_Sequence_Constructor
+from .string_constructor import String_Data_Constructor
 
 class Quest_Constructor(Constructor_Base):
     _QUEST_DATA_JSON = "json_bak/QuestData-module.json"
@@ -45,7 +46,7 @@ class Quest_Constructor(Constructor_Base):
                 return quest_header
             
             error_msg = f"No header for quest {quest_id}"
-            print(error_msg)
+            # print(error_msg)
             return utils.format_code(error_msg) 
         
         def _get_quest_desc(quest_id):
@@ -60,7 +61,7 @@ class Quest_Constructor(Constructor_Base):
                 return quest_desc
             
             error_msg = f"No description for quest {quest_id}"
-            print(error_msg)
+            # print(error_msg)
             return utils.format_code(error_msg) 
 
         def _get_goals_w_params_rearranged(goals_str, goal_params_str):
@@ -362,9 +363,6 @@ class Quest_Constructor(Constructor_Base):
         body_quest += utils.format_heading3(f"Quest: {q_name}")
         body_quest += utils.format_br(2)
 
-        # Campaign cinematics
-        # q_cinematics = self.get_cinematic_lines(quest_info.get('CinematicIds'))
-
         # Description
         q_description = quest.get('Description:')
         q_description_upd = utils.remove_color(q_description)
@@ -383,14 +381,17 @@ class Quest_Constructor(Constructor_Base):
         body_quest += utils.format_paragraph(q_goals_text)
         body_quest += utils.format_br(2)
 
-        # Mission
+        # Missions
         mission_data = Mission_Constructor()
+        # string_data = String_Data_Constructor()
         for q_goal_order, q_goals in q_goals.items():
             for q_goal in q_goals:
                 if q_goal.get("GoalType:") == "CompleteMission":
                     if "Id" in q_goal.get("GoalParam:"):
                         mission_ids = q_goal.get("GoalParam:")["Id"]
                         for mission_id in mission_ids.split("|"):
+                            # if mission_id == "story_A01_DuzumiGate":
+                            #     body_quest += string_data.get_cinematics_lines("20")
                             body_quest += mission_data.get_mission_text(mission_id)
 
         # End-Day Dialogs

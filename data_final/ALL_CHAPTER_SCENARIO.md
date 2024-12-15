@@ -38,6 +38,15 @@ LAZARUS system, Hiigaran Medea territory
 Hiigaran Medea, Progenitor
 
 
+### CINEMATIC: NIMBUS
+> This is my final order to you, Commander.
+> Do not allow our people to die in this place.
+> Find a way to return through the gates. Fight your way across the universe, if you must.
+> Do not let the story of our clans end here among these unfamiliar stars.
+> Bring our people home safely. Return to Hiigara. Farewell.
+> There is no sign of the Riif-Sa. Or the Khar-Kaalad.
+No Hiigaran signal traffic of any kind is detected.
+> We are alone.
 
 `story_Wiracoda_dialog_end`
 
@@ -3192,6 +3201,13 @@ Tanoch, Yaot
 > Starship, we appreciate your assistance, but our emperor has more urgent matters to attend to now. Your visit will have to wait.
 
 
+### CINEMATIC: TANOCHET
+> With great fanfare and jubilation, the Hiigarans were welcomed into the Palace of the Elder Sun.
+> The young Emperor, Cazoma, greeted them with intense interest.
+Assailing them with questions, he welcomed the Hiigarans as guests within his domain.
+> But another resided as guests among the Tanoch. Introduced as a friend and fellow galactic traveller,
+Cazoma revealed what could not be true.
+> Jochik Kaan: Son of Makaan, and Lord of the Vaygr.
 
 `Story-03-01_attackOver_dialog`
 
@@ -4962,6 +4978,14 @@ Hiigaran Medea, Tanoch
 > We have its destination vector. When we have a powerful enough engine, we can pursue.
 
 
+### CINEMATIC: LIGHTHOUSE
+> Recovered records from the Tanoch reveal little about the area of the Galaxy we are about to enter.
+> Their knowledge ends at a zone, that they have called the Nightmare Gulf.
+> The Zone is defined by a dense, dark nebula of enormous size.
+> We have also detected unusual quantum phenomena, which blocks normal hyperspace travel.
+> This kind of anomaly at this scale could have only been created by the Progenitors, possibly another scar from whatever cataclysm which destroyed their civilization.
+> There is no information about what lies beyond the zone. Not even myths...
+> Prepare for anything.
 
 `st_farshore_esc_1_dialog`
 
@@ -5316,6 +5340,13 @@ CANSAGA system, Amassari territory
 Amassari, Hiigaran Kiithless, Hiigaran Medea
 
 
+### CINEMATIC: KIITHLESS
+> I am Vice Admiral Kidara Sasan, commanding Task Force Amalek. Our objective is to locate the gate nexus in this galaxy, secure it for the Hiigaran Empire, and unlock travel between our galaxy and this one.
+> I am convinced the ancient Amassari knew of its location. We have been scouring their structures in search of further evidence to point us in the right direction. Our next destination is their ancient capital of Hataldan.
+> Vice Admiral, the Progenitor ruins and Amassari structures on them here belong to the Amassari. I can't abide further attacks on their sovereignty with military force.
+> Your Kiith have the nerve to claim you respect the sovereignty of those who live here! The Amassari are in the way of the Hiigaran Empire. They will be swept aside, as all others have been, so we can claim our destiny.
+> Must the road to Hiigaran ascendancy be paved with the blood of innocents? These are their homes, Vice Admiral!
+> Where was this bleeding compassion when six hundred thousand Kushan invaders seized Hiigara? Your hypocrisy disgusts me. We are advancing on Hataldan. It's up to you if you want to follow.
 
 `st_bTemple_blHgn_3_dialog`
 
