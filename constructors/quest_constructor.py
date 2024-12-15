@@ -44,7 +44,9 @@ class Quest_Constructor(Constructor_Base):
             if quest_header:
                 return quest_header
             
-            return utils.format_code(f"No header for quest {quest_id}") 
+            error_msg = f"No header for quest {quest_id}"
+            print(error_msg)
+            return utils.format_code(error_msg) 
         
         def _get_quest_desc(quest_id):
             quest_id_key = f"desc_{quest_id}"
@@ -57,7 +59,9 @@ class Quest_Constructor(Constructor_Base):
             if quest_desc != None:
                 return quest_desc
             
-            return utils.format_code(f"No description for quest {quest_id}")
+            error_msg = f"No description for quest {quest_id}"
+            print(error_msg)
+            return utils.format_code(error_msg) 
 
         def _get_goals_w_params_rearranged(goals_str, goal_params_str):
             goals_final = {}

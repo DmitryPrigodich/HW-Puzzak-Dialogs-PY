@@ -160,7 +160,7 @@ class Mission_Constructor(Constructor_Base):
         mission_desc_key = f"desc_{mission_id[:-1]}x"
         mission_desc_text = self.get_string_by_key(mission_desc_key)
         # print(f"Mission Desc: {mission_desc_key}")
-        if mission_desc_text:
+        if mission_desc_text and mission_desc_text != "-" :
             body_mission += utils.format_br(1)
             body_mission += utils.format_heading6("DESCRIPTION:")
             body_mission += utils.format_br(1)

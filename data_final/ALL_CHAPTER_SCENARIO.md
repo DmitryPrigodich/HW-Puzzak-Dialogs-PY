@@ -5907,13 +5907,6 @@ We received emergency communication from the Chicuat Elders. They anticipate a r
 
 #### Mission: Repulse Raid T4
 
-###### DESCRIPTION:
-
-
--
-
-
-
 ###### LOCATION:
 
 
@@ -5999,13 +5992,6 @@ Intelligence from the Chicuat points to a Tecuban base operating around an uninh
 
 
 #### Mission: Base Busting T4
-
-###### DESCRIPTION:
-
-
--
-
-
 
 ###### LOCATION:
 
@@ -6093,13 +6079,6 @@ In our search for the Vaygr involved with the Tecuban, we aquired one of their c
 
 #### Mission: Destination T4
 
-###### DESCRIPTION:
-
-
--
-
-
-
 ###### LOCATION:
 
 
@@ -6182,13 +6161,6 @@ We finally learned Jochik Kaan's intentions. He sparked the flames of war to wea
 
 
 #### Mission: Tlapallan Academy T4
-
-###### DESCRIPTION:
-
-
--
-
-
 
 ###### LOCATION:
 
@@ -6321,13 +6293,6 @@ Chocoan has provided the coordinates to the next astral conjunction event. Stron
 
 
 #### Mission: Conjunction T4
-
-###### DESCRIPTION:
-
-
--
-
-
 
 ###### LOCATION:
 

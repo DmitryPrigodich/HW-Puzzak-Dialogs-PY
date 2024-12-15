@@ -131,19 +131,19 @@ class Mission_Step_Constructor(Constructor_Base):
         # print(f"Mission step {mission_step_id}")
         mission_step = self.get_mission_step_by_id(mission_step_id)
 
-        ms_target_type = mission_step.get("TargetType:")
-        if ms_target_type == "OnDialogFinished":
-            ms_dialogs = mission_step.get("TVS:")
-            print(f"Mission Step dialog id: {ms_dialogs}")
-            # for ms_dialog_id in ms_dialogs:
-            #     ms_dialog_text = dialog_data.get_dialog_text(ms_dialog_id)
-            #     if ms_dialog_text:
-            #         body_mission_step += utils.format_paragraph("Mission Step:")
-            #         body_mission_step += ms_dialog_text
-            #     else:
-            #         error_text = f"Dialog_id not found: {ms_dialog_id}"
-            #         print(error_text)
-            #         body_mission_step += f"{error_text}\n"
+        # ms_target_type = mission_step.get("TargetType:")
+        # if ms_target_type == "OnDialogFinished":
+        #     ms_dialogs = mission_step.get("TVS:")
+        #     print(f"Mission Step dialog id: {ms_dialogs}")
+        #     for ms_dialog_id in ms_dialogs:
+        #         ms_dialog_text = dialog_data.get_dialog_text(ms_dialog_id)
+        #         if ms_dialog_text:
+        #             body_mission_step += utils.format_paragraph("Mission Step:")
+        #             body_mission_step += ms_dialog_text
+        #         else:
+        #             error_text = f"Dialog_id not found: {ms_dialog_id}"
+        #             print(error_text)
+        #             body_mission_step += f"{error_text}\n"
 
         if "SuccLL:" in mission_step:
             ms_actions = mission_step.get("SuccLL:")
