@@ -44,7 +44,7 @@ class Quest_Constructor(Constructor_Base):
             if quest_header:
                 return quest_header
             
-            return f"No header for quest {quest_id}"
+            return utils.format_code(f"No header for quest {quest_id}") 
         
         def _get_quest_desc(quest_id):
             quest_id_key = f"desc_{quest_id}"
@@ -57,7 +57,7 @@ class Quest_Constructor(Constructor_Base):
             if quest_desc != None:
                 return quest_desc
             
-            return f"No description for quest {quest_id}\n"
+            return utils.format_code(f"No description for quest {quest_id}")
 
         def _get_goals_w_params_rearranged(goals_str, goal_params_str):
             goals_final = {}
@@ -415,7 +415,7 @@ class Quest_Constructor(Constructor_Base):
 
             body_quest += utils.format_heading4(f"Mail: {mail_header}")
             body_quest += utils.format_br(1)
-            body_quest += utils.format_paragraph(mail_body)
+            body_quest += utils.format_code_block(mail_body)
             body_quest += utils.format_br(2)
 
         return body_quest

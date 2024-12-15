@@ -5,12 +5,12 @@
 ## Event: event_yaot_spring_2023
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day1
+### Quest: `No header for quest qe_yaot_spring_2023_day1`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day1
+`No description for quest qe_yaot_spring_2023_day1`
 
 
 ###### GOALS:
@@ -20,12 +20,12 @@ No description for quest qe_yaot_spring_2023_day1
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day2
+### Quest: `No header for quest qe_yaot_spring_2023_day2`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day2
+`No description for quest qe_yaot_spring_2023_day2`
 
 
 ###### GOALS:
@@ -35,12 +35,12 @@ No description for quest qe_yaot_spring_2023_day2
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day3
+### Quest: `No header for quest qe_yaot_spring_2023_day3`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day3
+`No description for quest qe_yaot_spring_2023_day3`
 
 
 ###### GOALS:
@@ -50,12 +50,12 @@ No description for quest qe_yaot_spring_2023_day3
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day4
+### Quest: `No header for quest qe_yaot_spring_2023_day4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day4
+`No description for quest qe_yaot_spring_2023_day4`
 
 
 ###### GOALS:
@@ -65,12 +65,12 @@ No description for quest qe_yaot_spring_2023_day4
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day5
+### Quest: `No header for quest qe_yaot_spring_2023_day5`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day5
+`No description for quest qe_yaot_spring_2023_day5`
 
 
 ###### GOALS:
@@ -80,12 +80,12 @@ No description for quest qe_yaot_spring_2023_day5
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day6
+### Quest: `No header for quest qe_yaot_spring_2023_day6`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day6
+`No description for quest qe_yaot_spring_2023_day6`
 
 
 ###### GOALS:
@@ -95,12 +95,12 @@ No description for quest qe_yaot_spring_2023_day6
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day7
+### Quest: `No header for quest qe_yaot_spring_2023_day7`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day7
+`No description for quest qe_yaot_spring_2023_day7`
 
 
 ###### GOALS:
@@ -110,12 +110,12 @@ No description for quest qe_yaot_spring_2023_day7
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day8
+### Quest: `No header for quest qe_yaot_spring_2023_day8`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day8
+`No description for quest qe_yaot_spring_2023_day8`
 
 
 ###### GOALS:
@@ -125,12 +125,12 @@ No description for quest qe_yaot_spring_2023_day8
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day9
+### Quest: `No header for quest qe_yaot_spring_2023_day9`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day9
+`No description for quest qe_yaot_spring_2023_day9`
 
 
 ###### GOALS:
@@ -140,12 +140,12 @@ No description for quest qe_yaot_spring_2023_day9
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day10
+### Quest: `No header for quest qe_yaot_spring_2023_day10`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day10
+`No description for quest qe_yaot_spring_2023_day10`
 
 
 ###### GOALS:
@@ -155,12 +155,12 @@ No description for quest qe_yaot_spring_2023_day10
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day11
+### Quest: `No header for quest qe_yaot_spring_2023_day11`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day11
+`No description for quest qe_yaot_spring_2023_day11`
 
 
 ###### GOALS:
@@ -170,12 +170,12 @@ No description for quest qe_yaot_spring_2023_day11
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day12
+### Quest: `No header for quest qe_yaot_spring_2023_day12`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day12
+`No description for quest qe_yaot_spring_2023_day12`
 
 
 ###### GOALS:
@@ -185,12 +185,12 @@ No description for quest qe_yaot_spring_2023_day12
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day13
+### Quest: `No header for quest qe_yaot_spring_2023_day13`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day13
+`No description for quest qe_yaot_spring_2023_day13`
 
 
 ###### GOALS:
@@ -200,12 +200,12 @@ No description for quest qe_yaot_spring_2023_day13
 
 
 
-### Quest: No header for quest qe_yaot_spring_2023_day14
+### Quest: `No header for quest qe_yaot_spring_2023_day14`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_yaot_spring_2023_day14
+`No description for quest qe_yaot_spring_2023_day14`
 
 
 ###### GOALS:
@@ -292,12 +292,12 @@ Tanoch, Yaot
 ## Event: event_iyafal_2023_t4
 
 
-### Quest: No header for quest qe_iyaFal_2023_day01_t4
+### Quest: `No header for quest qe_iyaFal_2023_day01_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day01_t4
+`No description for quest qe_iyaFal_2023_day01_t4`
 
 
 ###### GOALS:
@@ -320,12 +320,12 @@ No description for quest qe_iyaFal_2023_day01_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day02_t4
+### Quest: `No header for quest qe_iyaFal_2023_day02_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day02_t4
+`No description for quest qe_iyaFal_2023_day02_t4`
 
 
 ###### GOALS:
@@ -348,12 +348,12 @@ No description for quest qe_iyaFal_2023_day02_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day03_t4
+### Quest: `No header for quest qe_iyaFal_2023_day03_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day03_t4
+`No description for quest qe_iyaFal_2023_day03_t4`
 
 
 ###### GOALS:
@@ -379,12 +379,12 @@ No description for quest qe_iyaFal_2023_day03_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day04_t4
+### Quest: `No header for quest qe_iyaFal_2023_day04_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day04_t4
+`No description for quest qe_iyaFal_2023_day04_t4`
 
 
 ###### GOALS:
@@ -409,17 +409,17 @@ No description for quest qe_iyaFal_2023_day04_t4
 
 #### Mail: Captain’s Log, Mahel Manaan
 
-
+```
 Day 547
 When I was a boy, my father would tell me stories of the Trader’s Bargain. Long gone now, I can picture that lone standing stone at the edge of the Shiiaro Mountains. The Manaan remember it as a promise of the joy to come. Now, I think of how solitary it was standing above the sands alone.
+```
 
-
-### Quest: No header for quest qe_iyaFal_2023_day05_t4
+### Quest: `No header for quest qe_iyaFal_2023_day05_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day05_t4
+`No description for quest qe_iyaFal_2023_day05_t4`
 
 
 ###### GOALS:
@@ -442,12 +442,12 @@ No description for quest qe_iyaFal_2023_day05_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day06_t4
+### Quest: `No header for quest qe_iyaFal_2023_day06_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day06_t4
+`No description for quest qe_iyaFal_2023_day06_t4`
 
 
 ###### GOALS:
@@ -473,12 +473,12 @@ No description for quest qe_iyaFal_2023_day06_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day07_t4
+### Quest: `No header for quest qe_iyaFal_2023_day07_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day07_t4
+`No description for quest qe_iyaFal_2023_day07_t4`
 
 
 ###### GOALS:
@@ -501,12 +501,12 @@ No description for quest qe_iyaFal_2023_day07_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day08_t4
+### Quest: `No header for quest qe_iyaFal_2023_day08_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day08_t4
+`No description for quest qe_iyaFal_2023_day08_t4`
 
 
 ###### GOALS:
@@ -531,17 +531,17 @@ No description for quest qe_iyaFal_2023_day08_t4
 
 #### Mail: Captain’s Log, Mahel Manaan
 
-
+```
 Day 562
 Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen turns, and fourteen hundred lost to that day on the dancing sands. Such a joyous day that changed our people so dramatically and without warning.
+```
 
-
-### Quest: No header for quest qe_iyaFal_2023_day09_t4
+### Quest: `No header for quest qe_iyaFal_2023_day09_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day09_t4
+`No description for quest qe_iyaFal_2023_day09_t4`
 
 
 ###### GOALS:
@@ -564,12 +564,12 @@ No description for quest qe_iyaFal_2023_day09_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day10_t4
+### Quest: `No header for quest qe_iyaFal_2023_day10_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day10_t4
+`No description for quest qe_iyaFal_2023_day10_t4`
 
 
 ###### GOALS:
@@ -592,12 +592,12 @@ No description for quest qe_iyaFal_2023_day10_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day11_t4
+### Quest: `No header for quest qe_iyaFal_2023_day11_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day11_t4
+`No description for quest qe_iyaFal_2023_day11_t4`
 
 
 ###### GOALS:
@@ -620,12 +620,12 @@ No description for quest qe_iyaFal_2023_day11_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day12_t4
+### Quest: `No header for quest qe_iyaFal_2023_day12_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day12_t4
+`No description for quest qe_iyaFal_2023_day12_t4`
 
 
 ###### GOALS:
@@ -650,17 +650,17 @@ No description for quest qe_iyaFal_2023_day12_t4
 
 #### Mail: Captain’s Log, Mahel Manaan
 
-
+```
 Day 577
 It is said the Kaalel have no true friends, but every one is a true friend to the Manaan. I can’t think of a better way to describe my time among these Iyatequa: The lone Manaan against these secret-keepers. But the old Manaan adage is still true: the slight of hand is more powerful than anything any coin could ever buy. Now is a war between magicians.
+```
 
-
-### Quest: No header for quest qe_iyaFal_2023_day13_t4
+### Quest: `No header for quest qe_iyaFal_2023_day13_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day13_t4
+`No description for quest qe_iyaFal_2023_day13_t4`
 
 
 ###### GOALS:
@@ -683,12 +683,12 @@ No description for quest qe_iyaFal_2023_day13_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day14_t4
+### Quest: `No header for quest qe_iyaFal_2023_day14_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day14_t4
+`No description for quest qe_iyaFal_2023_day14_t4`
 
 
 ###### GOALS:
@@ -711,12 +711,12 @@ No description for quest qe_iyaFal_2023_day14_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_day15_t4
+### Quest: `No header for quest qe_iyaFal_2023_day15_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_day15_t4
+`No description for quest qe_iyaFal_2023_day15_t4`
 
 
 ###### GOALS:
@@ -858,12 +858,12 @@ MITORAI system, Hiigaran Medea territory
 ## Event: event_iyafal_2023_epilog_t4
 
 
-### Quest: No header for quest qe_iyaFal_2023_epi01_t4
+### Quest: `No header for quest qe_iyaFal_2023_epi01_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_epi01_t4
+`No description for quest qe_iyaFal_2023_epi01_t4`
 
 
 ###### GOALS:
@@ -886,12 +886,12 @@ No description for quest qe_iyaFal_2023_epi01_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_epi02_t4
+### Quest: `No header for quest qe_iyaFal_2023_epi02_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_epi02_t4
+`No description for quest qe_iyaFal_2023_epi02_t4`
 
 
 ###### GOALS:
@@ -914,12 +914,12 @@ No description for quest qe_iyaFal_2023_epi02_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_epi03_t4
+### Quest: `No header for quest qe_iyaFal_2023_epi03_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_epi03_t4
+`No description for quest qe_iyaFal_2023_epi03_t4`
 
 
 ###### GOALS:
@@ -942,12 +942,12 @@ No description for quest qe_iyaFal_2023_epi03_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_epi04_t4
+### Quest: `No header for quest qe_iyaFal_2023_epi04_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_epi04_t4
+`No description for quest qe_iyaFal_2023_epi04_t4`
 
 
 ###### GOALS:
@@ -970,12 +970,12 @@ No description for quest qe_iyaFal_2023_epi04_t4
 
 
 
-### Quest: No header for quest qe_iyaFal_2023_epi05_t4
+### Quest: `No header for quest qe_iyaFal_2023_epi05_t4`
 
 
 **DESCRIPTION:**
 
-No description for quest qe_iyaFal_2023_epi05_t4
+`No description for quest qe_iyaFal_2023_epi05_t4`
 
 
 ###### GOALS:
@@ -2017,7 +2017,7 @@ LAZARUS system, Hiigaran Medea territory
 
 #### Mail: Personal Log, Enoch S’jet
 
-
+```
 Date: 10.8.9641
 
 I struggle to find the words to define this moment. This should be a cause for celebration, a triumph of exploration, and a furthering of Hiigaran knowledge as we push back the boundary of the unknown. No great discovery is made without plenty of failure, but those great words sound differently now, as an Admiral in command of thousands about to embark into the unknown.
@@ -2029,7 +2029,7 @@ But go we must. There’s too much at stake riding on us not knowing what lay on
 Though if we fail... none will know of our fate. We’ll be another few thousand sacrificed to this endeavor. What memorial will be erected in our memory? How will be honored by the people who sent us? I already know this new Daiamid is only using us as fodder for their ambitions. There will be no ceremony for us on Hiigara.
 
 So if we are to go, I pray we can survive whatever fate stopped so many and find a future for our people. We have been exiles before, if we must be so again, so be it. I can only wish that someday, some of our number survives the command of the Daiamid and makes it home again to tell of our story.
-
+```
 
 
 
@@ -2514,11 +2514,11 @@ We received priority communication from Lazarus Base. A subfaction of the Tanoch
 
 #### Mail: The Chicuat
 
-
+```
 Originally the Chicuat were secular thinkers and visionaries in the early days of Tanochet’s interstellar travels. They had considered the ruins of the Makers as the tools of mortals, rather than divine engines of creation, and began to question the nature of long-held beliefs. Seen with envy and revolution by the pious Tanoch, it sparked the first interstellar conflict between the people of Tanochet.
 
 State-sponsored propaganda has characterized the Chicuat as an irreverent, heretical, scheming people. They are often cast as the villains in far-ranging conspiracy theories with designs to topple the empire and destroy the Tanoch religion. This is far from the truth, as the Chicuat are merely trying to live in the margins provided, but they make for a convenient enemy the Empire frequently uses to oppress any perceived dissent.
-
+```
 
 ### Quest: Day 2: Processor Surrogate
 
@@ -2742,11 +2742,11 @@ We must find out whether the Tecuban really are behind the recent attacks on the
 
 #### Mail: The Tecuban
 
-
+```
 The Tecuban enter the oral history of the Tanoch as slaves taken from the northern continent in ancient times. A hardy but downtrodden people, the Tecuban have been historically dismissed as dim-witted menials and peasants by the rest of the Tanoch population. This state-sported mischaracterization has kept the Tecuban from attaining much beyond their segregated portions in the Tanoch Empire. Their numbers increased as they took in victims of the Empire’s early conquests, and they now lend their name and culture to an underclass spanning across the Empire.
 
 Recently the Tecuban have welcomed strangers that claim to be from outside the galaxy. For the first time in living memory they have been promised the chance to rise above their station by joining with these outsiders and conquering for themselves.
-
+```
 
 ### Quest: Day 7: Black Eye
 
@@ -2967,13 +2967,13 @@ In order to gather information about the Vaygr's activity we must contact Tepin 
 
 #### Mail: The Second Homeworld War
 
-
+```
 This pivotal conflict in Galactic Standard Year 9625 shaped the galaxy with its ramifications. The seeds of the conflict began when the Warlord Makaan located a Progenitor Far-Jump Hyperspace Core- the third one to be found. Knowing that one was in possession of the enigmatic Bentusi and the other were held by the Hiigarans, he embarked on a war to claim all three and declare himself heir to the Progenitor legacy.
 
 With the power of a far-jump hyperspace core to fuel his conquest, Makaan smashed the Taiidan Republic and began an overwhelming assault on the rest of the galactic core. The force of his attack shattered the unity of the Galactic Council, and only the leadership and dedication of the Hiigarans managed to prevent the galaxy from being overrun. In order to stop Makaan, the legendary figure Karan S’jet emerged from seclusion to personally lead the force to defeat him.
 
 Karan embarked on a voyage to discover the whereabouts of Sajuuk, which according to prophecy was where the three Progenitor Cores must be united. Along the way she received the Bentusi’s final gift, the first core, and raced to the center of the galaxy. There she and Makaan engaged in one final duel to the death, with the winner claiming the legacy of the Progenitors. Karan emerged victorious, ushering in the Age of S’jet.
-
+```
 
 ### Quest: Day 12: Seek and Recover
 
@@ -3225,13 +3225,13 @@ There is still no answer from Tepin Papan since we last spoke with him. We shoul
 
 #### Mail: Jochik Kaan
 
-
+```
 Disturbingly little is known about Jochik Kaan, the boy who claims to be the son of Makaan and heir to his rightful destiny. Up until now it was not known whether Makaan had any family.
 
 Ostensibly Makaan’s second son with an unknown concubine, Jochik and the rest of Makaan’s Crusade were sent to the Nimbus Galaxy by Makaan for safekeeping while he fought against the Hiigarans. Evidently Jochik managed to climb his way to leadership of the Crusade and hatch a long-term plan in Nimbus. His confidence and haughtiness when facing the Hiigarans can only suggest he has a plan and is confident about its execution.
 
 Hiigaran Intelligence has been unable to discern the purpose of his plan, as not even his own lieutenants seem to know, but it appears Jochik has a keen interest in specific Progenitor components. He is observed seeking specific parts or components, possibly to restore a Progenitor ruin, but what that ruin is and to what end is unknown. The only other detail of note is how personally connected he is to the ruler of the Tanoch Empire. By all accounts, the two appear to be close friends, and Jochik is given free run of the Imperial palace.
-
+```
 
 ### Quest: Day 18: Purchased Whispers
 
@@ -3498,7 +3498,7 @@ Tanoch Chicuat, Tanoch Tecuban, Vaygr
 
 #### Mail: Toci's Letter
 
-
+```
 Commander,
 
 I cannot clearly express with words in your language how much your assistance means to me and my people. The Chicuat have always been persecuted, harassed, and scapegoated through Tanoch history. For the first time in living memory, we have allies, and we have a chance of stopping the abuse at last. We begin small but there is hope now where there was none before.
@@ -3510,7 +3510,7 @@ In the end, all that matters is that my people are now safe and standing. Thanks
 From myself and all the Chicuat people, we thank you.
 
 Toci Citalicue
-
+```
 
 
 
