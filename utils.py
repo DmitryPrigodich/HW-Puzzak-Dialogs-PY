@@ -79,13 +79,13 @@ def format_heading3(title):
     return f"### {title}\n"
 
 def format_heading4(title):
-    return f"#### {title}\n"
+    return f"#### {title}\n".upper()
 
 def format_heading5(title):
     return f"##### {title}\n"
 
 def format_heading6(title):
-    return f"###### {title}\n"
+    return f"###### {title}\n".upper()
 
 
 def format_paragraph(text):

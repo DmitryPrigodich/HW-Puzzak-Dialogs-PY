@@ -3,7 +3,7 @@ import utils
 from .constructor_base import Constructor_Base
 from .mission_step_actions_constructor import Mission_Step_Actions_Constructor
 from .dia_seq_constructor import Dialog_Sequence_Constructor
-from .string_constructor import String_Data_Constructor
+# from .string_constructor import String_Data_Constructor
 
 class Mission_Step_Constructor(Constructor_Base):
     _MISSION_STEPS_DATA_JSON = "json_bak/MissionSteps-module.json"
@@ -127,25 +127,11 @@ class Mission_Step_Constructor(Constructor_Base):
         body_mission_step = ""
 
         dialog_data = Dialog_Sequence_Constructor()
-        string_data = String_Data_Constructor()
+        # string_data = String_Data_Constructor()
         ms_action_data = Mission_Step_Actions_Constructor()
         
         # print(f"Mission step {mission_step_id}")
         mission_step = self.get_mission_step_by_id(mission_step_id)
-
-        # ms_target_type = mission_step.get("TargetType:")
-        # if ms_target_type == "OnDialogFinished":
-        #     ms_dialogs = mission_step.get("TVS:")
-        #     print(f"Mission Step dialog id: {ms_dialogs}")
-        #     for ms_dialog_id in ms_dialogs:
-        #         ms_dialog_text = dialog_data.get_dialog_text(ms_dialog_id)
-        #         if ms_dialog_text:
-        #             body_mission_step += utils.format_paragraph("Mission Step:")
-        #             body_mission_step += ms_dialog_text
-        #         else:
-        #             error_text = f"Dialog_id not found: {ms_dialog_id}"
-        #             print(error_text)
-        #             body_mission_step += f"{error_text}\n"
 
         if "SuccLL:" in mission_step:
             ms_actions = mission_step.get("SuccLL:")
@@ -171,10 +157,10 @@ class Mission_Step_Constructor(Constructor_Base):
                         for link_mission_step_id in link_mission_steps:
                             body_mission_step += self.get_mission_steps_text(link_mission_step_id)
 
-                    case "RequestStartCinematic":
-                        cinematic_id = ms_action.get("TV1:")[0]
-                        print(f"ms_action: {ms_action}")
-                        print(f"cinematic_id is {cinematic_id}")
-                        body_mission_step += string_data.get_cinematics_lines(cinematic_id)
+                    # case "RequestStartCinematic":
+                    #     cinematic_id = ms_action.get("TV1:")[0]
+                    #     print(f"ms_action: {ms_action}")
+                    #     print(f"cinematic_id is {cinematic_id}")
+                    #     body_mission_step += string_data.get_cinematic_text(cinematic_id)
 
         return body_mission_step

@@ -8,7 +8,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day1`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day1`
 
@@ -23,7 +24,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day2`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day2`
 
@@ -38,7 +40,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day3`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day3`
 
@@ -53,7 +56,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day4`
 
@@ -68,7 +72,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day5`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day5`
 
@@ -83,7 +88,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day6`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day6`
 
@@ -98,7 +104,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day7`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day7`
 
@@ -113,7 +120,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day8`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day8`
 
@@ -128,7 +136,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day9`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day9`
 
@@ -143,7 +152,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day10`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day10`
 
@@ -158,7 +168,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day11`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day11`
 
@@ -173,7 +184,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day12`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day12`
 
@@ -188,7 +200,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day13`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day13`
 
@@ -203,7 +216,8 @@
 ### Quest: `No header for quest qe_yaot_spring_2023_day14`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_yaot_spring_2023_day14`
 
@@ -215,7 +229,7 @@
 
 
 
-#### Mission: Tanochet (Event)
+#### MISSION: TANOCHET (EVENT)
 
 ###### LOCATION:
 
@@ -242,13 +256,6 @@ Tanoch, Yaot
 > Starship, we appreciate your assistance, but our emperor has more urgent matters to attend to now. Your visit will have to wait.
 
 
-### CINEMATIC: TANOCHET
-> With great fanfare and jubilation, the Hiigarans were welcomed into the Palace of the Elder Sun.
-> The young Emperor, Cazoma, greeted them with intense interest.
-Assailing them with questions, he welcomed the Hiigarans as guests within his domain.
-> But another resided as guests among the Tanoch. Introduced as a friend and fellow galactic traveller,
-Cazoma revealed what could not be true.
-> Jochik Kaan: Son of Makaan, and Lord of the Vaygr.
 
 `Story-03-01_attackOver_dialog`
 
@@ -302,7 +309,8 @@ Cazoma revealed what could not be true.
 ### Quest: `No header for quest qe_iyaFal_2023_day01_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day01_t4`
 
@@ -314,7 +322,7 @@ Cazoma revealed what could not be true.
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -330,7 +338,8 @@ Cazoma revealed what could not be true.
 ### Quest: `No header for quest qe_iyaFal_2023_day02_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day02_t4`
 
@@ -342,7 +351,7 @@ Cazoma revealed what could not be true.
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -358,7 +367,8 @@ Cazoma revealed what could not be true.
 ### Quest: `No header for quest qe_iyaFal_2023_day03_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day03_t4`
 
@@ -370,7 +380,7 @@ Cazoma revealed what could not be true.
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -389,7 +399,8 @@ Cazoma revealed what could not be true.
 ### Quest: `No header for quest qe_iyaFal_2023_day04_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day04_t4`
 
@@ -401,7 +412,7 @@ Cazoma revealed what could not be true.
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -414,7 +425,7 @@ Cazoma revealed what could not be true.
 
 
 
-#### Mail: Captain’s Log, Mahel Manaan
+#### MAIL: CAPTAIN’S LOG, MAHEL MANAAN
 
 ```
 Day 547
@@ -424,7 +435,8 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 ### Quest: `No header for quest qe_iyaFal_2023_day05_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day05_t4`
 
@@ -436,7 +448,7 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -452,7 +464,8 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 ### Quest: `No header for quest qe_iyaFal_2023_day06_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day06_t4`
 
@@ -464,7 +477,7 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -483,7 +496,8 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 ### Quest: `No header for quest qe_iyaFal_2023_day07_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day07_t4`
 
@@ -495,7 +509,7 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -511,7 +525,8 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 ### Quest: `No header for quest qe_iyaFal_2023_day08_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day08_t4`
 
@@ -523,7 +538,7 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -536,7 +551,7 @@ When I was a boy, my father would tell me stories of the Trader’s Bargain. Lon
 
 
 
-#### Mail: Captain’s Log, Mahel Manaan
+#### MAIL: CAPTAIN’S LOG, MAHEL MANAAN
 
 ```
 Day 562
@@ -546,7 +561,8 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 ### Quest: `No header for quest qe_iyaFal_2023_day09_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day09_t4`
 
@@ -558,7 +574,7 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -574,7 +590,8 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 ### Quest: `No header for quest qe_iyaFal_2023_day10_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day10_t4`
 
@@ -586,7 +603,7 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -602,7 +619,8 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 ### Quest: `No header for quest qe_iyaFal_2023_day11_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day11_t4`
 
@@ -614,7 +632,7 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -630,7 +648,8 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 ### Quest: `No header for quest qe_iyaFal_2023_day12_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day12_t4`
 
@@ -642,7 +661,7 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -655,7 +674,7 @@ Today I’m reminded of an old saying among us Manaani. Fourteen days, fourteen 
 
 
 
-#### Mail: Captain’s Log, Mahel Manaan
+#### MAIL: CAPTAIN’S LOG, MAHEL MANAAN
 
 ```
 Day 577
@@ -665,7 +684,8 @@ It is said the Kaalel have no true friends, but every one is a true friend to th
 ### Quest: `No header for quest qe_iyaFal_2023_day13_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day13_t4`
 
@@ -677,7 +697,7 @@ It is said the Kaalel have no true friends, but every one is a true friend to th
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -693,7 +713,8 @@ It is said the Kaalel have no true friends, but every one is a true friend to th
 ### Quest: `No header for quest qe_iyaFal_2023_day14_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day14_t4`
 
@@ -705,7 +726,7 @@ It is said the Kaalel have no true friends, but every one is a true friend to th
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -721,7 +742,8 @@ It is said the Kaalel have no true friends, but every one is a true friend to th
 ### Quest: `No header for quest qe_iyaFal_2023_day15_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_day15_t4`
 
@@ -733,7 +755,7 @@ It is said the Kaalel have no true friends, but every one is a true friend to th
 
 
 
-#### Mission: Trader's Bargain T4
+#### MISSION: TRADER'S BARGAIN T4
 
 ###### DESCRIPTION:
 
@@ -847,7 +869,7 @@ MITORAI system, Hiigaran Medea territory
 > Mahel's ship is destroyed! Abort mission!
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -868,7 +890,8 @@ MITORAI system, Hiigaran Medea territory
 ### Quest: `No header for quest qe_iyaFal_2023_epi01_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_epi01_t4`
 
@@ -880,7 +903,7 @@ MITORAI system, Hiigaran Medea territory
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -896,7 +919,8 @@ MITORAI system, Hiigaran Medea territory
 ### Quest: `No header for quest qe_iyaFal_2023_epi02_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_epi02_t4`
 
@@ -908,7 +932,7 @@ MITORAI system, Hiigaran Medea territory
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -924,7 +948,8 @@ MITORAI system, Hiigaran Medea territory
 ### Quest: `No header for quest qe_iyaFal_2023_epi03_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_epi03_t4`
 
@@ -936,7 +961,7 @@ MITORAI system, Hiigaran Medea territory
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -952,7 +977,8 @@ MITORAI system, Hiigaran Medea territory
 ### Quest: `No header for quest qe_iyaFal_2023_epi04_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_epi04_t4`
 
@@ -964,7 +990,7 @@ MITORAI system, Hiigaran Medea territory
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -980,7 +1006,8 @@ MITORAI system, Hiigaran Medea territory
 ### Quest: `No header for quest qe_iyaFal_2023_epi05_t4`
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 `No description for quest qe_iyaFal_2023_epi05_t4`
 
@@ -992,7 +1019,7 @@ MITORAI system, Hiigaran Medea territory
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1013,7 +1040,8 @@ MITORAI system, Hiigaran Medea territory
 ### Quest: Day 1: Research Directive
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We received priority communication from Hiigaran Command of Lazarus Base concerning Gideon S'jet. We need to decrypt it in our laboratory first before we can read it.
 
@@ -1025,7 +1053,7 @@ We received priority communication from Hiigaran Command of Lazarus Base concern
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1044,7 +1072,8 @@ We received priority communication from Hiigaran Command of Lazarus Base concern
 ### Quest: Day 1: Seek and Find
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The list given to us by Gideon includes many components found only in Progenitor ships. The easiest way to collect them is to harvest them from downed Progenitor units.
 
@@ -1056,7 +1085,7 @@ The list given to us by Gideon includes many components found only in Progenitor
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1075,7 +1104,8 @@ The list given to us by Gideon includes many components found only in Progenitor
 ### Quest: Day 1: The Capstone
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Progenitor Cognition Nodes are a fragile component often found floating in free space near ancient wreckages.
 
@@ -1087,7 +1117,7 @@ Progenitor Cognition Nodes are a fragile component often found floating in free 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1106,7 +1136,8 @@ Progenitor Cognition Nodes are a fragile component often found floating in free 
 ### Quest: Day 2: Cash Money
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Ekekko can bring us in contact with traders specialized in Progenitor technology. But knowing the Iyatequa, everything has a price. We should mine minerals to recuperate the losses we'll have to pay.
 
@@ -1118,7 +1149,7 @@ Ekekko can bring us in contact with traders specialized in Progenitor technology
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1137,7 +1168,8 @@ Ekekko can bring us in contact with traders specialized in Progenitor technology
 ### Quest: Day 2: Songs and Tales
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 To impress the Iyatequa traders and procure the Progenitor components for Gideon, we will have to work on our reputation among a certain clientele.
 
@@ -1149,7 +1181,7 @@ To impress the Iyatequa traders and procure the Progenitor components for Gideon
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1168,7 +1200,8 @@ To impress the Iyatequa traders and procure the Progenitor components for Gideon
 ### Quest: Day 2: Merchant Supreme
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 In order to raise funds to acquire the needed Progenitor components for Gideon, we must sell some of our stored items on the local market.
 
@@ -1180,7 +1213,7 @@ In order to raise funds to acquire the needed Progenitor components for Gideon, 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1199,7 +1232,8 @@ In order to raise funds to acquire the needed Progenitor components for Gideon, 
 ### Quest: Day 3: Stop Scouting
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We need to search for recent communications data in this sector to pick up a lead on Guahai's Yaot fleet. We should find what we are looking for on recently destroyed ships.
 
@@ -1211,7 +1245,7 @@ We need to search for recent communications data in this sector to pick up a lea
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1233,7 +1267,8 @@ We need to search for recent communications data in this sector to pick up a lea
 ### Quest: Day 3: Sifting for Gold
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are in search of the missing data disk Guahai mentioned in his transmission. We might be able to find it in salvage crates from local outlaws.
 
@@ -1245,7 +1280,7 @@ We are in search of the missing data disk Guahai mentioned in his transmission. 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1261,7 +1296,8 @@ We are in search of the missing data disk Guahai mentioned in his transmission. 
 ### Quest: Day 3: Concluding Battle
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The reconnaissance disk gave us a lead on the Progenitor component the Yaot call the Stambha. Enemy activity is high in the target location.
 
@@ -1273,7 +1309,7 @@ The reconnaissance disk gave us a lead on the Progenitor component the Yaot call
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1295,7 +1331,8 @@ The reconnaissance disk gave us a lead on the Progenitor component the Yaot call
 ### Quest: Day 4: Lost and Found
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Gideon has emerged from his laboratory. He talks of the possibility to build a device that could change the fortunes of Hiigarans in Nimbus. However, we must search for a final component.
 
@@ -1307,7 +1344,7 @@ Gideon has emerged from his laboratory. He talks of the possibility to build a d
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1326,7 +1363,8 @@ Gideon has emerged from his laboratory. He talks of the possibility to build a d
 ### Quest: Day 4: Raw Materials
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Gideon is in need of raw materials to construct a secret device. We should look for a jovian planet to collect some gas.
 
@@ -1338,7 +1376,7 @@ Gideon is in need of raw materials to construct a secret device. We should look 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1357,7 +1395,8 @@ Gideon is in need of raw materials to construct a secret device. We should look 
 ### Quest: Day 4: Patrol Conclusion
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 According to Ekekko, the last component on Gideon's list might be in the hands of a powerful enemy. The search for additional information is sending us into the most dangerous areas of this sector.
 
@@ -1369,7 +1408,7 @@ According to Ekekko, the last component on Gideon's list might be in the hands o
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1388,7 +1427,8 @@ According to Ekekko, the last component on Gideon's list might be in the hands o
 ### Quest: Day 5: Help Wanted
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We want to make contact with Tepin Papan, commander of the Tanoch Empire. To find a communication channel, we should do some hired work for the local authorities.
 
@@ -1400,7 +1440,7 @@ We want to make contact with Tepin Papan, commander of the Tanoch Empire. To fin
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1419,7 +1459,8 @@ We want to make contact with Tepin Papan, commander of the Tanoch Empire. To fin
 ### Quest: Day 5: See the Universe
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Tepin Papan has offered to provide information on Gideon's last component if we help him with a security issue he currently faces.
 
@@ -1431,7 +1472,7 @@ Tepin Papan has offered to provide information on Gideon's last component if we 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1450,7 +1491,8 @@ Tepin Papan has offered to provide information on Gideon's last component if we 
 ### Quest: Day 5: Enlist Today
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 According to Tepin Papan, some of the Tanoch sectors require assistance. We should seek out their liaison offices and complete assignments.
 
@@ -1462,7 +1504,7 @@ According to Tepin Papan, some of the Tanoch sectors require assistance. We shou
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1481,7 +1523,8 @@ According to Tepin Papan, some of the Tanoch sectors require assistance. We shou
 ### Quest: Day 6: Training Day
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 While Lazarus Base is processing the reports on the stolen Progenitor component, Gideon wants us to train a crew to handle the device he's constructing.
 
@@ -1493,7 +1536,7 @@ While Lazarus Base is processing the reports on the stolen Progenitor component,
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1509,7 +1552,8 @@ While Lazarus Base is processing the reports on the stolen Progenitor component,
 ### Quest: Day 6: Technical Proficiency
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 With Gideon's new program, we should start training the crew that will man his enigmatic device.
 
@@ -1521,7 +1565,7 @@ With Gideon's new program, we should start training the crew that will man his e
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1540,7 +1584,8 @@ With Gideon's new program, we should start training the crew that will man his e
 ### Quest: Day 6: Crash Course
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 It is time to put our newly trained crew to the test. We received a task from Lazarus Base to engage a hostile fleet nearby.
 
@@ -1552,7 +1597,7 @@ It is time to put our newly trained crew to the test. We received a task from La
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1571,7 +1616,8 @@ It is time to put our newly trained crew to the test. We received a task from La
 ### Quest: Day 7: Simple Collection
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow his instructions for now. His first transmitted task needs us to mine resources.
 
@@ -1583,7 +1629,7 @@ Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1602,7 +1648,8 @@ Guhai is a high ranking Yaot official and Lazarus Base has advised us to follow 
 ### Quest: Day 7: Smelting Task
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We continue to follow Guahai’s orders. His next task for us is to produce refined material.
 
@@ -1614,7 +1661,7 @@ We continue to follow Guahai’s orders. His next task for us is to produce refi
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1633,7 +1680,8 @@ We continue to follow Guahai’s orders. His next task for us is to produce refi
 ### Quest: Day 7: Custom Craftsmanship
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Guahai requires us to build specific items for his fleet, as repayment for stealing their cultural item.
 
@@ -1645,7 +1693,7 @@ Guahai requires us to build specific items for his fleet, as repayment for steal
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1664,7 +1712,8 @@ Guahai requires us to build specific items for his fleet, as repayment for steal
 ### Quest: Day 8: Cangacian Patrol
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor component point towards an infamous pirate group called The Fleet of Rams. We should hunt down Cangacian vessels for more information.
 
@@ -1676,7 +1725,7 @@ Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor co
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1695,7 +1744,8 @@ Lazarus Base has informed us that the Tanoch reports on the stolen Progenitor co
 ### Quest: Day 8: Postal Investigation
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The last item Gideon needs to build his device is in the possession of Catequil, Lieutenant of the Fleet of Rams. We have to find communications data from hostile ships to locate his position.
 
@@ -1707,7 +1757,7 @@ The last item Gideon needs to build his device is in the possession of Catequil,
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1726,7 +1776,8 @@ The last item Gideon needs to build his device is in the possession of Catequil,
 ### Quest: Day 8: Black Flag
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our engineers were able to triangulate Catequil's transmission. We must chase him down to attain the last Progenitor component for Gideon.
 
@@ -1738,7 +1789,7 @@ Our engineers were able to triangulate Catequil's transmission. We must chase hi
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1757,7 +1808,8 @@ Our engineers were able to triangulate Catequil's transmission. We must chase hi
 ### Quest: Day 9: Special Instructions
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 While Gideon is finalizing the construction of the Progenitor Negotiator, we should increase our fleet's power to protect it in action.
 
@@ -1769,7 +1821,7 @@ While Gideon is finalizing the construction of the Progenitor Negotiator, we sho
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1788,7 +1840,8 @@ While Gideon is finalizing the construction of the Progenitor Negotiator, we sho
 ### Quest: Day 9: The Chariot
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Before we embark on Gideon's special operation, we should further increase our fleet's power to ensure we are ready for any eventuality.
 
@@ -1800,7 +1853,7 @@ Before we embark on Gideon's special operation, we should further increase our f
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1819,7 +1872,8 @@ Before we embark on Gideon's special operation, we should further increase our f
 ### Quest: Day 9: Trial Runs
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are instructed to perform one final operations readiness test. All forces must be fully prepared for whatever Gideon is planning.
 
@@ -1831,7 +1885,7 @@ We are instructed to perform one final operations readiness test. All forces mus
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1850,7 +1904,8 @@ We are instructed to perform one final operations readiness test. All forces mus
 ### Quest: Day 10: The Special Operation
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Gideon has finally revealed his plan. From the Progenitor components we collected he constructed a communication device to retake control of Wiracoda Gate. We are trying to go home.
 
@@ -1862,7 +1917,7 @@ Gideon has finally revealed his plan. From the Progenitor components we collecte
 
 
 
-#### Mission: Return to Wiracoda Gate T4
+#### MISSION: RETURN TO WIRACODA GATE T4
 
 ###### LOCATION:
 
@@ -2009,7 +2064,7 @@ LAZARUS system, Hiigaran Medea territory
 > Commander, we cannot win this fight. As long as this Keeper regenerates itself, we don't stand a chance. I'm afraid we must flee the gate once again.
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2022,7 +2077,7 @@ LAZARUS system, Hiigaran Medea territory
 
 
 
-#### Mail: Personal Log, Enoch S’jet
+#### MAIL: PERSONAL LOG, ENOCH S’JET
 
 ```
 Date: 10.8.9641
@@ -2046,7 +2101,8 @@ So if we are to go, I pray we can survive whatever fate stopped so many and find
 ### Quest: Day 1: Sentinel Duty
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are receiving disturbing reports from all over the galaxy. The disaster at Wiracoda Gate has sent the Progenitors into a frenzy! We must assist the defensive efforts wherever we can until we understand what is happening.
 
@@ -2058,7 +2114,7 @@ We are receiving disturbing reports from all over the galaxy. The disaster at Wi
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2077,7 +2133,8 @@ We are receiving disturbing reports from all over the galaxy. The disaster at Wi
 ### Quest: Day 2: Prospector
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Gas refineries are being targeted by the Progenitors in many sectors of Nimbus. Stocks need to be replenished if the defenders are to hold off this calamity.
 
@@ -2089,7 +2146,7 @@ Gas refineries are being targeted by the Progenitors in many sectors of Nimbus. 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2108,7 +2165,8 @@ Gas refineries are being targeted by the Progenitors in many sectors of Nimbus. 
 ### Quest: Day 3: Deep Space Recovery
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Gideon wants to collect any evidence which points to the Progenitor’s current activity. We should collect data from ships that were in combat with the abnormal Progenitor vessels.
 
@@ -2120,7 +2178,7 @@ Gideon wants to collect any evidence which points to the Progenitor’s current 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2139,7 +2197,8 @@ Gideon wants to collect any evidence which points to the Progenitor’s current 
 ### Quest: Day 4: Smelt and Refine
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Many planets are still in desperate need of resources to hold off the Progenitors. Especially rare resources have been in high demand to increase defensive capabilities.
 
@@ -2151,7 +2210,7 @@ Many planets are still in desperate need of resources to hold off the Progenitor
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2170,7 +2229,8 @@ Many planets are still in desperate need of resources to hold off the Progenitor
 ### Quest: Day 5: The Guidepost
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Gideon has identified a specific Progenitor component we must find in order to decrypt the errant Keeper's command frequency.
 
@@ -2182,7 +2242,7 @@ Gideon has identified a specific Progenitor component we must find in order to d
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2201,7 +2261,8 @@ Gideon has identified a specific Progenitor component we must find in order to d
 ### Quest: Day 6: Replacement Parts
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Many sectors have suffered heavy damages from the ongoing Progenitor attacks. More parts are needed to replenish the defending fleets.
 
@@ -2213,7 +2274,7 @@ Many sectors have suffered heavy damages from the ongoing Progenitor attacks. Mo
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2232,7 +2293,8 @@ Many sectors have suffered heavy damages from the ongoing Progenitor attacks. Mo
 ### Quest: Day 7: Triangulation
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 In order for Gideon to triangulate the location of the errant Keeper we need to hunt down Progenitor vessels receiving its command signal.
 
@@ -2244,7 +2306,7 @@ In order for Gideon to triangulate the location of the errant Keeper we need to 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2263,7 +2325,8 @@ In order for Gideon to triangulate the location of the errant Keeper we need to 
 ### Quest: Day 8: Officer Training
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are unsure what awaits us when we'll face the corrupted Keeper once again. Gideon has advised us to train our officers in Progenitor communication theory to effectively analyze the situation in the field.
 
@@ -2275,7 +2338,7 @@ We are unsure what awaits us when we'll face the corrupted Keeper once again. Gi
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2294,7 +2357,8 @@ We are unsure what awaits us when we'll face the corrupted Keeper once again. Gi
 ### Quest: Day 9: Military Exercise
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 In order to be fully prepared for the confrontation with the corrupted Keeper, we need to perform a fleet wide ready-check for all systems. We can engage enemies that have been preying on the local area lately due to the diminished security situation.
 
@@ -2306,7 +2370,7 @@ In order to be fully prepared for the confrontation with the corrupted Keeper, w
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2325,7 +2389,8 @@ In order to be fully prepared for the confrontation with the corrupted Keeper, w
 ### Quest: Day 10: Safe Passage
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa promised to negotiate a deal for safe passage into Cangacian space. However, even though the galaxy is at stake, the traders still insist on receiving a hefty price.
 
@@ -2337,7 +2402,7 @@ The Iyatequa promised to negotiate a deal for safe passage into Cangacian space.
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2356,7 +2421,8 @@ The Iyatequa promised to negotiate a deal for safe passage into Cangacian space.
 ### Quest: Day 11: Confrontation
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We must confront the corrupted Keeper Malik and end the Progenitor incursion.
 
@@ -2368,7 +2434,7 @@ We must confront the corrupted Keeper Malik and end the Progenitor incursion.
 
 
 
-#### Mission: Rashidun T4
+#### MISSION: RASHIDUN T4
 
 ###### LOCATION:
 
@@ -2484,7 +2550,8 @@ KRIITANA system, Cangacian territory
 ### Quest: Day 1: Resource Relief
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We received priority communication from Lazarus Base. A subfaction of the Tanoch, the Chicuat, have made contact with Hiigaran representatives and requested aid. Fleet Command wants us to support the Chicuat and establish friendly ties. Our first task is to provide basic resources.
 
@@ -2496,7 +2563,7 @@ We received priority communication from Lazarus Base. A subfaction of the Tanoch
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2512,7 +2579,7 @@ We received priority communication from Lazarus Base. A subfaction of the Tanoch
 
 
 
-#### Mail: The Chicuat
+#### MAIL: THE CHICUAT
 
 ```
 Originally the Chicuat were secular thinkers and visionaries in the early days of Tanochet’s interstellar travels. They had considered the ruins of the Makers as the tools of mortals, rather than divine engines of creation, and began to question the nature of long-held beliefs. Seen with envy and revolution by the pious Tanoch, it sparked the first interstellar conflict between the people of Tanochet.
@@ -2523,7 +2590,8 @@ State-sponsored propaganda has characterized the Chicuat as an irreverent, heret
 ### Quest: Day 2: Processor Surrogate
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Chicuat infrastructure is badly degraded with age and suffered heavy damage in recent attacks. We're asked to refine materials to support their restoration efforts.
 
@@ -2535,7 +2603,7 @@ The Chicuat infrastructure is badly degraded with age and suffered heavy damage 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2554,7 +2622,8 @@ The Chicuat infrastructure is badly degraded with age and suffered heavy damage 
 ### Quest: Day 3: Wayward Cargo
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Chicuat have informed us several critical supply convoys have gone missing. We should try to retrieve any goods by hunting down local bandits.
 
@@ -2566,7 +2635,7 @@ The Chicuat have informed us several critical supply convoys have gone missing. 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2585,7 +2654,8 @@ The Chicuat have informed us several critical supply convoys have gone missing. 
 ### Quest: Day 4: Relief Package
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his contacts to support the Chicuat's need for basic supplies. We should sell some of our own items to get the traders interested.
 
@@ -2597,7 +2667,7 @@ Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his c
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2616,7 +2686,8 @@ Ekekko, our Iyatequa liaison, has suggested to negotiate a trade deal with his c
 ### Quest: Day 5: Gesture of Aid
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We received emergency communication from the Chicuat Elders. They anticipate a raid on one of their remote trading stations. Toci asks us to take on the defense in order to relieve the weakened and overextended Chicuat forces.
 
@@ -2628,7 +2699,7 @@ We received emergency communication from the Chicuat Elders. They anticipate a r
 
 
 
-#### Mission: Repulse Raid T4
+#### MISSION: REPULSE RAID T4
 
 ###### LOCATION:
 
@@ -2702,7 +2773,8 @@ Tanoch Chicuat, Tanoch Tecuban
 ### Quest: Day 6: Imperial Appeal
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We must find out whether the Tecuban really are behind the recent attacks on the Chicuat. Our contact in the Tanoch Empire might be able to provide information. We should do some assignments to show good faith.
 
@@ -2714,7 +2786,7 @@ We must find out whether the Tecuban really are behind the recent attacks on the
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2733,7 +2805,7 @@ We must find out whether the Tecuban really are behind the recent attacks on the
 
 
 
-#### Mail: The Tecuban
+#### MAIL: THE TECUBAN
 
 ```
 The Tecuban enter the oral history of the Tanoch as slaves taken from the northern continent in ancient times. A hardy but downtrodden people, the Tecuban have been historically dismissed as dim-witted menials and peasants by the rest of the Tanoch population. This state-sported mischaracterization has kept the Tecuban from attaining much beyond their segregated portions in the Tanoch Empire. Their numbers increased as they took in victims of the Empire’s early conquests, and they now lend their name and culture to an underclass spanning across the Empire.
@@ -2744,7 +2816,8 @@ Recently the Tecuban have welcomed strangers that claim to be from outside the g
 ### Quest: Day 7: Black Eye
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Lazarus Base has processed Tepin Papan's information. There are reports about the rising influence of an ambitous leader named Heyoka. He is promoting expansionist ideas and has a particular disdain for the Chicuat. We should find out if the name is familiar in the criminal underworld here.
 
@@ -2756,7 +2829,7 @@ Lazarus Base has processed Tepin Papan's information. There are reports about th
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2775,7 +2848,8 @@ Lazarus Base has processed Tepin Papan's information. There are reports about th
 ### Quest: Day 8: Catch and Kill
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our investigations produced evidence for contact between the Tecuban leader Heyoka and high profile criminals. We must hunt down these outlaws to learn more.
 
@@ -2787,7 +2861,7 @@ Our investigations produced evidence for contact between the Tecuban leader Heyo
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2806,7 +2880,8 @@ Our investigations produced evidence for contact between the Tecuban leader Heyo
 ### Quest: Day 9: Raise the Stakes
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Chicuat Elders have asked us to wait for their intelligence report on possible Tecuban forces within Acatla. In the meanwhile we should strengthen our forces to prepare for battle.
 
@@ -2818,7 +2893,7 @@ The Chicuat Elders have asked us to wait for their intelligence report on possib
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2837,7 +2912,8 @@ The Chicuat Elders have asked us to wait for their intelligence report on possib
 ### Quest: Day 10: In the Shadows
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Intelligence from the Chicuat points to a Tecuban base operating around an uninhabited planet. We must go there and eliminate this base to stop the raids.
 
@@ -2849,7 +2925,7 @@ Intelligence from the Chicuat points to a Tecuban base operating around an uninh
 
 
 
-#### Mission: Base Busting T4
+#### MISSION: BASE BUSTING T4
 
 ###### LOCATION:
 
@@ -2923,7 +2999,8 @@ Tanoch Tecuban, Vaygr
 ### Quest: Day 11: Imperial Rumors
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 In order to gather information about the Vaygr's activity we must contact Tepin Papan once more. We should do some assignments to compensate him for his assistance.
 
@@ -2935,7 +3012,7 @@ In order to gather information about the Vaygr's activity we must contact Tepin 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2951,7 +3028,7 @@ In order to gather information about the Vaygr's activity we must contact Tepin 
 
 
 
-#### Mail: The Second Homeworld War
+#### MAIL: THE SECOND HOMEWORLD WAR
 
 ```
 This pivotal conflict in Galactic Standard Year 9625 shaped the galaxy with its ramifications. The seeds of the conflict began when the Warlord Makaan located a Progenitor Far-Jump Hyperspace Core- the third one to be found. Knowing that one was in possession of the enigmatic Bentusi and the other were held by the Hiigarans, he embarked on a war to claim all three and declare himself heir to the Progenitor legacy.
@@ -2964,7 +3041,8 @@ Karan embarked on a voyage to discover the whereabouts of Sajuuk, which accordin
 ### Quest: Day 12: Seek and Recover
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 While Tepin Papan is trying to gather information about the Vaygr's involvement with the Tecuban, we should scan some systems and see if we can find any clues about their whereabouts.
 
@@ -2976,7 +3054,7 @@ While Tepin Papan is trying to gather information about the Vaygr's involvement 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -2995,7 +3073,8 @@ While Tepin Papan is trying to gather information about the Vaygr's involvement 
 ### Quest: Day 13: Among the People
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We hope to learn more about the Vaygr's activity from the local people. We should do some good deeds around here to gain their trust.
 
@@ -3007,7 +3086,7 @@ We hope to learn more about the Vaygr's activity from the local people. We shoul
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3026,7 +3105,8 @@ We hope to learn more about the Vaygr's activity from the local people. We shoul
 ### Quest: Day 14: Active Search
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Some local folks have agreed to provide information that could lead to the Vaygr. However, before they hand it over, they want us help them with a particularly challenging mission.
 
@@ -3038,7 +3118,7 @@ Some local folks have agreed to provide information that could lead to the Vaygr
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3057,7 +3137,8 @@ Some local folks have agreed to provide information that could lead to the Vaygr
 ### Quest: Day 15: Hunting Party
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We must hunt down a group of thugs that is suspected to be working for the Vaygr.
 
@@ -3069,7 +3150,7 @@ We must hunt down a group of thugs that is suspected to be working for the Vaygr
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3088,7 +3169,8 @@ We must hunt down a group of thugs that is suspected to be working for the Vaygr
 ### Quest: Day 16: Attack the Vaygr
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 In our search for the Vaygr involved with the Tecuban, we aquired one of their communication frequencies. If we contact the Vaygr now, we should be able to trace their signal and hyper jump to their exact location.
 
@@ -3100,7 +3182,7 @@ In our search for the Vaygr involved with the Tecuban, we aquired one of their c
 
 
 
-#### Mission: Destination T4
+#### MISSION: DESTINATION T4
 
 ###### LOCATION:
 
@@ -3171,7 +3253,8 @@ Vaygr
 ### Quest: Day 17: Polite Inquiries
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 There is still no answer from Tepin Papan since we last spoke with him. We should do some more assignments to gain his attention and see if he was able to gather any information about the Vaygr's intentions.
 
@@ -3183,7 +3266,7 @@ There is still no answer from Tepin Papan since we last spoke with him. We shoul
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3202,7 +3285,7 @@ There is still no answer from Tepin Papan since we last spoke with him. We shoul
 
 
 
-#### Mail: Jochik Kaan
+#### MAIL: JOCHIK KAAN
 
 ```
 Disturbingly little is known about Jochik Kaan, the boy who claims to be the son of Makaan and heir to his rightful destiny. Up until now it was not known whether Makaan had any family.
@@ -3215,7 +3298,8 @@ Hiigaran Intelligence has been unable to discern the purpose of his plan, as not
 ### Quest: Day 18: Purchased Whispers
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Ekekko wants us to trade on the local markets and see if we find someone who's willing to sell information on Jochik Kaan's motives.
 
@@ -3227,7 +3311,7 @@ Ekekko wants us to trade on the local markets and see if we find someone who's w
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3246,7 +3330,8 @@ Ekekko wants us to trade on the local markets and see if we find someone who's w
 ### Quest: Day 19: Getting There First
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We contacted the Chicuat Elders and told them about Jochik Kaan's possible intention to obtain a particular Progenitor object. They have given us intel about a criminal organization that deals with Progenitor objects within the Tanoch Empire. We should investigate.
 
@@ -3258,7 +3343,7 @@ We contacted the Chicuat Elders and told them about Jochik Kaan's possible inten
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3277,7 +3362,8 @@ We contacted the Chicuat Elders and told them about Jochik Kaan's possible inten
 ### Quest: Day 20: Providing Protection
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 While Gideon S'jet is researching the data set of Progenitor objects, the Chicuat Elders have informed us of a resurgance of Tecuban activity within their territory. We should support the defensive efforts.
 
@@ -3289,7 +3375,7 @@ While Gideon S'jet is researching the data set of Progenitor objects, the Chicua
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3308,7 +3394,8 @@ While Gideon S'jet is researching the data set of Progenitor objects, the Chicua
 ### Quest: Day 21: Hunt for Knowledge
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Gideon S'jet's research into the data set of Progenitor objects turned out more difficult than expected. He asked us to support him to accelerate the process.
 
@@ -3320,7 +3407,7 @@ Gideon S'jet's research into the data set of Progenitor objects turned out more 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3339,7 +3426,8 @@ Gideon S'jet's research into the data set of Progenitor objects turned out more 
 ### Quest: Day 22: Showdown at the Academy
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We finally learned Jochik Kaan's intentions. He sparked the flames of war to weaken the Chicuat defenses and steal the Baetyl from Tlapallan Academy, one of their key centers of learning. We must travel there at once, before it is too late.
 
@@ -3351,7 +3439,7 @@ We finally learned Jochik Kaan's intentions. He sparked the flames of war to wea
 
 
 
-#### Mission: Tlapallan Academy T4
+#### MISSION: TLAPALLAN ACADEMY T4
 
 ###### LOCATION:
 
@@ -3468,7 +3556,7 @@ Tanoch Chicuat, Tanoch Tecuban, Vaygr
 > The Academy has fallen... we can't stop Jochik. All ships, retreat immediately!
 
 
-#### Mail: Toci's Letter
+#### MAIL: TOCI'S LETTER
 
 ```
 Commander,
@@ -3492,7 +3580,8 @@ Toci Citalicue
 ### Quest: Day 1: Harvesting Whispers
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 There are rumors circulating in the Empty Quarter about an increase in Cangacian pirate activity. Fleet Command asks us to gather intel from our contacts with the Iyatequa traders. We should gain some favors to bargain for information.
 
@@ -3504,7 +3593,7 @@ There are rumors circulating in the Empty Quarter about an increase in Cangacian
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3523,7 +3612,8 @@ There are rumors circulating in the Empty Quarter about an increase in Cangacian
 ### Quest: Day 2: Buying Information
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Empty Quarter. We might get more information through selling equipment and arms on the open market.
 
@@ -3535,7 +3625,7 @@ The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Em
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3554,7 +3644,8 @@ The Iyatequa traders are involved with pirates attacking Yaot pilgrims in the Em
 ### Quest: Day 3: Remote Observation
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 To learn more about the pirate raids, we should get in contact with the Yaot pilgrims. They appear to be hiding after recent attacks. We have no other option than to perform reconnaissance in the nearby systems.
 
@@ -3566,7 +3657,7 @@ To learn more about the pirate raids, we should get in contact with the Yaot pil
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3582,7 +3673,8 @@ To learn more about the pirate raids, we should get in contact with the Yaot pil
 ### Quest: Day 4: Hunting for Answers
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 In our search for the Yaot pilgrims we have encountered intense pirate activity. We should hunt down some of their ships and see if we can gather any additional clues.
 
@@ -3594,7 +3686,7 @@ In our search for the Yaot pilgrims we have encountered intense pirate activity.
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3613,7 +3705,8 @@ In our search for the Yaot pilgrims we have encountered intense pirate activity.
 ### Quest: Day 5: Lost Pilgrims
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Some Yaot survivors in our medical ward are ready to be questioned. If we manage to prove our good intentions they might help us find the Yaot pilgrimage.
 
@@ -3625,7 +3718,7 @@ Some Yaot survivors in our medical ward are ready to be questioned. If we manage
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3653,7 +3746,8 @@ Some Yaot survivors in our medical ward are ready to be questioned. If we manage
 ### Quest: Day 6: Parts List
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot have accepted our offer to support their pilgrimage. Requests have come in from ships needing spares and replacement parts for repairs. If we provide these, we might learn more about why the pirates are after these ships.
 
@@ -3665,7 +3759,7 @@ The Yaot have accepted our offer to support their pilgrimage. Requests have come
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3687,7 +3781,8 @@ The Yaot have accepted our offer to support their pilgrimage. Requests have come
 ### Quest: Day 7: Clearing the Way
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims are adamant about continuing their travels to see the astral conjunction events. In order to deter any further attacks on the civilian ships, we should patrol and clear the systems of any significant hostile forces.
 
@@ -3699,7 +3794,7 @@ Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims a
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3724,7 +3819,8 @@ Even though pirates are still swarming the area, Chocoan and the Yaot pilgrims a
 ### Quest: Day 8: Knowledge Attained
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hope to protect them, we must first convince somebody to give us more information. We should try to make friends with the pilgrims and get somebody to talk.
 
@@ -3736,7 +3832,7 @@ Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hop
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3764,7 +3860,8 @@ Even the Fleet of Rams are after the Yaot pilgrim's supposed treasure. If we hop
 ### Quest: Day 9: Polite Inquires
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 After talking to Chocoan we suspect there is more to the Yaot pilgrimage than the religious travels to astral conjunction events. We might be able to get more information from the Yaot Federation if we do some favors.
 
@@ -3776,7 +3873,7 @@ After talking to Chocoan we suspect there is more to the Yaot pilgrimage than th
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3795,7 +3892,8 @@ After talking to Chocoan we suspect there is more to the Yaot pilgrimage than th
 ### Quest: Day 10: Gift for Gab
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We’ve reached a dead end on collecting intelligence on the Yaot, but our source within the Tanoch Empire has offered to provide more information. We should bring an adequate gift for compensation.
 
@@ -3807,7 +3905,7 @@ We’ve reached a dead end on collecting intelligence on the Yaot, but our sourc
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3835,7 +3933,8 @@ We’ve reached a dead end on collecting intelligence on the Yaot, but our sourc
 ### Quest: Day 11: Advanced Scouting
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 While we still don't know what kind of treasure the pilgrims could have aboard their vessels, Chocoan wants to move on to another astral conjunction event. He has requested our assistance in clearing out the area from any hostile threats.
 
@@ -3847,7 +3946,7 @@ While we still don't know what kind of treasure the pilgrims could have aboard t
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3866,7 +3965,8 @@ While we still don't know what kind of treasure the pilgrims could have aboard t
 ### Quest: Day 12: Unearthing Secrets
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The report on the pilgrim's procedure has been fully analyzed. Usually the pilgrim's convoy moves in a tight line formation towards the optimal conjunction points where they perform their religious rituals. However, a few ships regularly diverge from the common path and move into nearby asteroid fields. We should investigate the latest conjunction site and see if we can find anything of interest.
 
@@ -3878,7 +3978,7 @@ The report on the pilgrim's procedure has been fully analyzed. Usually the pilgr
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3897,7 +3997,8 @@ The report on the pilgrim's procedure has been fully analyzed. Usually the pilgr
 ### Quest: Day 13: The Precession
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Chocoan has informed us that the next astral conjunction site will be inside the Cangacian territories. We convinced him to take part in the operation ourselves to ensure security in this hostile area of the Empty Quarter. Maybe we will be able to both protect the pilgrims and find out more about the suspected secret agenda. We should make sure the crew is properly prepared and ready for any eventualities.
 
@@ -3909,7 +4010,7 @@ Chocoan has informed us that the next astral conjunction site will be inside the
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -3931,7 +4032,8 @@ Chocoan has informed us that the next astral conjunction site will be inside the
 ### Quest: Day 14: The Promised Place
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
 
@@ -3943,7 +4045,7 @@ Chocoan has provided the coordinates to the next astral conjunction event. Stron
 
 
 
-#### Mission: Conjunction T4
+#### MISSION: CONJUNCTION T4
 
 ###### LOCATION:
 
@@ -4090,7 +4192,8 @@ Cangacian, Yaot
 ### Quest: Day 1: Provide Parts
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Amassari have very little in the way of developed industry, and would appreciate any refined parts we can provide. Craft some to provide a supply.
 
@@ -4102,7 +4205,7 @@ The Amassari have very little in the way of developed industry, and would apprec
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4116,7 +4219,8 @@ The Amassari have very little in the way of developed industry, and would apprec
 ### Quest: Day 2: Find Treasures
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Sensors have detected possible ruins of interest in the vicinity. Investigate to see if there's anything of interest found here.
 
@@ -4128,7 +4232,7 @@ Sensors have detected possible ruins of interest in the vicinity. Investigate to
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4144,7 +4248,8 @@ Sensors have detected possible ruins of interest in the vicinity. Investigate to
 ### Quest: Day 3: Learn our Ways
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Very little is known about the Hagthar Empire, the ancestors of the Amassari. In order to continue operations here, we need to educate our officers about what we know.
 
@@ -4156,7 +4261,7 @@ Very little is known about the Hagthar Empire, the ancestors of the Amassari. In
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4172,7 +4277,8 @@ Very little is known about the Hagthar Empire, the ancestors of the Amassari. In
 ### Quest: Day 4: Ally and Friend
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our guide is willing to connect us with several Amassari officials in the vicinity that need help. We could benefit from this cooperation.
 
@@ -4184,7 +4290,7 @@ Our guide is willing to connect us with several Amassari officials in the vicini
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4198,7 +4304,8 @@ Our guide is willing to connect us with several Amassari officials in the vicini
 ### Quest: Day 5: Race for Gold
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Jothru has revealed there may be more information to find among the Hagthar ruins if we can find the pieces. We must prepare for this venture.
 
@@ -4210,7 +4317,7 @@ Jothru has revealed there may be more information to find among the Hagthar ruin
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4224,7 +4331,8 @@ Jothru has revealed there may be more information to find among the Hagthar ruin
 ### Quest: Day 6: Hunting high and low
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Jothru can provide the whereabouts, but not the exact location, of key pieces belonging to significant parts of Hagthar history. Perhaps we can learn what the Kiithless are seeking.
 
@@ -4236,7 +4344,7 @@ Jothru can provide the whereabouts, but not the exact location, of key pieces be
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4250,7 +4358,8 @@ Jothru can provide the whereabouts, but not the exact location, of key pieces be
 ### Quest: Day 7: Ways of the Enemy
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Kiithless strikes have been increasing against the Amassari. We need to calibrate our training to match their new battle techniques in order to stop them.
 
@@ -4262,7 +4371,7 @@ Kiithless strikes have been increasing against the Amassari. We need to calibrat
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4276,7 +4385,8 @@ Kiithless strikes have been increasing against the Amassari. We need to calibrat
 ### Quest: Day 8: Hand against Foe
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our training was timely. Jothru has handed us some leads on potential Kiithless activity in the region. We must investigate.
 
@@ -4288,7 +4398,7 @@ Our training was timely. Jothru has handed us some leads on potential Kiithless 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4302,7 +4412,8 @@ Our training was timely. Jothru has handed us some leads on potential Kiithless 
 ### Quest: Day 9: Distant Gems
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 During our battles we took some hits to ship's stores. It's advised to rebuild our stockpiles with refined ores.
 
@@ -4314,7 +4425,7 @@ During our battles we took some hits to ship's stores. It's advised to rebuild o
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4328,7 +4439,8 @@ During our battles we took some hits to ship's stores. It's advised to rebuild o
 ### Quest: Day 10: Path of the Reclaimer
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 More Amassari have reached out to Jothru and us with more jobs. There's an unspoken offer as well to assist with our strikes against the Kiithless.
 
@@ -4340,7 +4452,7 @@ More Amassari have reached out to Jothru and us with more jobs. There's an unspo
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4354,7 +4466,8 @@ More Amassari have reached out to Jothru and us with more jobs. There's an unspo
 ### Quest: Day 11: Knowledge and Defense
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Assisting the Amassari has paid off, we're intercepting communications traffic suggesting they're being disrupted. We need to brief all officers on this stage of the operation against them.
 
@@ -4366,7 +4479,7 @@ Assisting the Amassari has paid off, we're intercepting communications traffic s
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4380,7 +4493,8 @@ Assisting the Amassari has paid off, we're intercepting communications traffic s
 ### Quest: Day 12: Star Hunter
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Fleet Intelligence has deduced several available targets belonging to the Kiithless. If we hit them, it will further disrupt their supplies to the point of dissolving their operations here.
 
@@ -4392,7 +4506,7 @@ Fleet Intelligence has deduced several available targets belonging to the Kiithl
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4406,7 +4520,8 @@ Fleet Intelligence has deduced several available targets belonging to the Kiithl
 ### Quest: Day 13: Crown of Stones
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We need to stockpile resources to prepare for a final battle against the Kiithless in the Hather Plains.
 
@@ -4418,7 +4533,7 @@ We need to stockpile resources to prepare for a final battle against the Kiithle
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4432,7 +4547,8 @@ We need to stockpile resources to prepare for a final battle against the Kiithle
 ### Quest: Day 14: Lord of the Dust
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 All officers need to be briefed on the potential dangers posed by the remaining Kiithless fleet.
 
@@ -4444,7 +4560,7 @@ All officers need to be briefed on the potential dangers posed by the remaining 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -4462,7 +4578,8 @@ All officers need to be briefed on the potential dangers posed by the remaining 
 ### Quest: Day 15: Kin of the Amassari
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Kiithless are targeting Ambadda waystation. Thassin's Needle, an artifact, is housed here. They must be stopped from raiding this station!
 
@@ -4474,7 +4591,7 @@ The Kiithless are targeting Ambadda waystation. Thassin's Needle, an artifact, i
 
 
 
-#### Mission: Ambadda Waystation T4
+#### MISSION: AMBADDA WAYSTATION T4
 
 ###### LOCATION:
 
@@ -4538,7 +4655,7 @@ MITUUL system, Iyatequa territory
 > Three beacons have been destroyed. Almost there.
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 

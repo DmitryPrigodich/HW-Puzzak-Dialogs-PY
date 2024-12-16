@@ -36,7 +36,7 @@ class String_Data_Constructor(Constructor_Base):
         startswith = startswith.replace(".","")
         utils.rewrite_file(body, f"data/STRINGS_{startswith}.md".upper())
     
-    def get_cinematics_lines(self, cinematic_id):
+    def get_cinematic_text(self, cinematic_id):
         cinematics_map = {
             "20": ("INTRO #1", ["001_001","001_002","001_003","001_004","001_005","001_005b","001_006","001_007"]),
             "10": ("INTRO #2", ["002_001","002_002","002_003","002_004","002_005"]),

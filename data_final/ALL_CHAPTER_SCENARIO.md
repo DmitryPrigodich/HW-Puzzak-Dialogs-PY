@@ -1,6 +1,30 @@
 # HOMEWORLD MOBILE CHAPTERS SCRIPT
 
 
+
+## Chapter: 0. Arrival
+
+
+### Quest: Landing
+
+
+###### DESCRIPTION:
+
+
+Our arrival in this galaxy was met with tragedy.
+
+
+###### GOALS:
+
+
+	* Task 1: Complete missions:
+		* 'Duzumi Gate'
+		* 'Duzumi Gate'
+	* Task 2: Complete mission 'Wiracoda Gate'
+	* Task 3: Complete mission 'Gulf Taln'
+
+
+
 ### CINEMATIC: INTRO #1
 > It is fifteen years into the age of S’jet
 
@@ -21,30 +45,7 @@ new ambitions began seeking different paths. All of the kiith were going their o
 > All of them were chasing the lost dream of the Progenitors.
 
 
-
-## Chapter: 0. Arrival
-
-
-### Quest: Landing
-
-
-**DESCRIPTION:**
-
-Our arrival in this galaxy was met with tragedy.
-
-
-###### GOALS:
-
-
-	* Task 1: Complete missions:
-		* 'Duzumi Gate'
-		* 'Duzumi Gate'
-	* Task 2: Complete mission 'Wiracoda Gate'
-	* Task 3: Complete mission 'Gulf Taln'
-
-
-
-#### Mission: Duzumi Gate
+#### MISSION: DUZUMI GATE
 
 ###### LOCATION:
 
@@ -99,19 +100,6 @@ LAZARUS system, Hiigaran Medea territory
 > We are T-Minus 5 minutes to gate activation. Task Force Ararat, complete your final loading procedures.
 
 
-### CINEMATIC: INTRO #2
-> Hiigara. Our Home.
-
-> Cast out of their world, the old Kiith clans departed. Some would never return.
-
-> As the Age of S’jet dawned across the universe, the Clans became exiles once again. Among the stars, they sought a new destiny.
-
-> The ancient hyperspace gates beckoned travelers towards new and uncertain worlds.
-With desperation and hope, the Kiith cast their ambitions through the gates.
-
-> What lay beyond would change their fortunes forever.
-
-
 
 `s_duzumi_intro_dialog_8`
 
@@ -133,7 +121,7 @@ With desperation and hope, the Kiith cast their ambitions through the gates.
 > Progenitor Communicator has connected to the gate. Transmitting activation code now. Gate is activating.
 
 
-#### Mission: Duzumi Gate
+#### MISSION: DUZUMI GATE
 
 ###### LOCATION:
 
@@ -364,7 +352,20 @@ Hiigaran Medea
 > We are T-Minus 5 minutes to gate activation. Task Force Ararat, complete your final loading procedures.
 
 
-#### Mission: Wiracoda Gate
+### CINEMATIC: INTRO #2
+> Hiigara. Our Home.
+
+> Cast out of their world, the old Kiith clans departed. Some would never return.
+
+> As the Age of S’jet dawned across the universe, the Clans became exiles once again. Among the stars, they sought a new destiny.
+
+> The ancient hyperspace gates beckoned travelers towards new and uncertain worlds.
+With desperation and hope, the Kiith cast their ambitions through the gates.
+
+> What lay beyond would change their fortunes forever.
+
+
+#### MISSION: WIRACODA GATE
 
 ###### LOCATION:
 
@@ -376,23 +377,6 @@ LAZARUS system, Hiigaran Medea territory
 
 
 Hiigaran Medea, Progenitor
-
-
-### CINEMATIC: NIMBUS
-> This is my final order to you, Commander.
-
-> Do not allow our people to die in this place.
-
-> Find a way to return through the gates. Fight your way across the universe, if you must.
-
-> Do not let the story of our clans end here among these unfamiliar stars.
-
-> Bring our people home safely. Return to Hiigara. Farewell.
-
-> There is no sign of the Riif-Sa. Or the Khar-Kaalad.
-No Hiigaran signal traffic of any kind is detected.
-
-> We are alone.
 
 
 
@@ -558,7 +542,24 @@ No Hiigaran signal traffic of any kind is detected.
 > All commands, stay alert. Other expeditions have reported being ambushed by Progenitors. Begin perimeter search.
 
 
-#### Mission: Gulf Taln
+### CINEMATIC: NIMBUS
+> This is my final order to you, Commander.
+
+> Do not allow our people to die in this place.
+
+> Find a way to return through the gates. Fight your way across the universe, if you must.
+
+> Do not let the story of our clans end here among these unfamiliar stars.
+
+> Bring our people home safely. Return to Hiigara. Farewell.
+
+> There is no sign of the Riif-Sa. Or the Khar-Kaalad.
+No Hiigaran signal traffic of any kind is detected.
+
+> We are alone.
+
+
+#### MISSION: GULF TALN
 
 ###### LOCATION:
 
@@ -713,7 +714,7 @@ Cangacian, Iyatequa
 > Hyperspace jump successful. We sustained heavy damage. Fires are reported in engineering.
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -729,7 +730,8 @@ Cangacian, Iyatequa
 ### Quest: Lazarus Station
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We were given the coordinates of a local Hiigaran settlement. We should go there.
 
@@ -741,7 +743,7 @@ We were given the coordinates of a local Hiigaran settlement. We should go there
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -763,7 +765,8 @@ We were given the coordinates of a local Hiigaran settlement. We should go there
 ### Quest: Local Currency
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The market can be accessed at stations and inside the flagship, though the selection of items in the flagship market is smaller. For now, we need to pick up some local currency to barter with the locals.
 
@@ -775,7 +778,7 @@ The market can be accessed at stations and inside the flagship, though the selec
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -805,7 +808,8 @@ The market can be accessed at stations and inside the flagship, though the selec
 ### Quest: Fabricator
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our fabricators are operational again. We should produce more strike craft in case we run into more hostiles.
 
@@ -817,7 +821,7 @@ Our fabricators are operational again. We should produce more strike craft in ca
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -833,7 +837,8 @@ Our fabricators are operational again. We should produce more strike craft in ca
 ### Quest: Strike Craft
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We need to ready our strike craft inside our hangars.
 
@@ -845,7 +850,7 @@ We need to ready our strike craft inside our hangars.
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -861,7 +866,8 @@ We need to ready our strike craft inside our hangars.
 ### Quest: Scanning
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have been asked to take care of a local threat to the Lazarus Station. We need to find out where it is.
 
@@ -874,7 +880,7 @@ We have been asked to take care of a local threat to the Lazarus Station. We nee
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -890,7 +896,8 @@ We have been asked to take care of a local threat to the Lazarus Station. We nee
 ### Quest: Signals
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have found hostile signals in the system. We need to clear it out and return to Lazarus Station.
 
@@ -903,7 +910,7 @@ We have found hostile signals in the system. We need to clear it out and return 
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -927,7 +934,8 @@ We have found hostile signals in the system. We need to clear it out and return 
 ### Quest: Asteroid Clusters
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We've been asked by Lazarus Station to help with resource scarcity. We'll need to find suitable mining opportunities by scanning for mineral-rich asteroids in nearby systems.
 
@@ -940,7 +948,7 @@ We've been asked by Lazarus Station to help with resource scarcity. We'll need t
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -956,7 +964,8 @@ We've been asked by Lazarus Station to help with resource scarcity. We'll need t
 ### Quest: Mining
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We found a suitable spot for mining. Use the resource collector to mine the mineral rich asteroids.
 
@@ -968,7 +977,7 @@ We found a suitable spot for mining. Use the resource collector to mine the mine
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -984,7 +993,8 @@ We found a suitable spot for mining. Use the resource collector to mine the mine
 ### Quest: Support
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Now that we have the needed minerals, we should go back to Lazarus Station to deliver them.
 
@@ -996,7 +1006,7 @@ Now that we have the needed minerals, we should go back to Lazarus Station to de
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1023,7 +1033,8 @@ Now that we have the needed minerals, we should go back to Lazarus Station to de
 ### Quest: Bridge
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Gideon S'jet has offered his Progenitor expertise. We should appoint him as head of science on the bridge.
 
@@ -1035,7 +1046,7 @@ Gideon S'jet has offered his Progenitor expertise. We should appoint him as head
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1060,7 +1071,8 @@ Gideon S'jet has offered his Progenitor expertise. We should appoint him as head
 ### Quest: Shipyard
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have clearance to use the shipyards of Lazarus Station. We should build an additional assault frigate there to bolster our fleet.
 
@@ -1072,7 +1084,7 @@ We have clearance to use the shipyards of Lazarus Station. We should build an ad
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1088,7 +1100,8 @@ We have clearance to use the shipyards of Lazarus Station. We should build an ad
 ### Quest: Escort Ships
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our new assault frigate needs to be staffed and readied. We can do that at any station through Fleet Configuration.
 
@@ -1100,7 +1113,7 @@ Our new assault frigate needs to be staffed and readied. We can do that at any s
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1124,7 +1137,8 @@ Our new assault frigate needs to be staffed and readied. We can do that at any s
 ### Quest: Baaekh S’jet
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Baaekh S’jet was one of the foremost scientists on Progenitor culture. According to Gideon she has data that can help us with our own research into the Progenitors.
 
@@ -1140,7 +1154,7 @@ Baaekh S’jet was one of the foremost scientists on Progenitor culture. Accordi
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1156,7 +1170,8 @@ Baaekh S’jet was one of the foremost scientists on Progenitor culture. Accordi
 ### Quest: Rescue Mission
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We found Baaekh S'jet, but she can't come out of hiding until we have distracted the hostiles in the area.
 
@@ -1169,7 +1184,7 @@ We found Baaekh S'jet, but she can't come out of hiding until we have distracted
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1188,7 +1203,8 @@ We found Baaekh S'jet, but she can't come out of hiding until we have distracted
 ### Quest: Relic Retrieval
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 With information provided by Baaekh S’jet, we now know a potential location of a Progenitor Relic in Toasiim that must be retrieved.
 
@@ -1202,7 +1218,7 @@ With information provided by Baaekh S’jet, we now know a potential location of
 
 
 
-#### Mission: Relic Signature
+#### MISSION: RELIC SIGNATURE
 
 ###### LOCATION:
 
@@ -1258,7 +1274,8 @@ TOASIIM system, Hiigaran Medea territory
 ### Quest: Hyeaa Somtaaw
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Hyeaa Somtaaw was an expert in Progenitor Materials sciences. He has established an independent lab at Nokuuna. According to Gideon, he has data that can help us with our own research into the Progenitors.
 
@@ -1273,7 +1290,7 @@ Hyeaa Somtaaw was an expert in Progenitor Materials sciences. He has established
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1297,7 +1314,8 @@ Hyeaa Somtaaw was an expert in Progenitor Materials sciences. He has established
 ### Quest: Delver
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 After examining the Progenitor Relic, Gideon wants us to find a Progenitor Terminal in Iniim. If we access this, we may have some answers about what happened at Wiracoda Gate.
 
@@ -1312,7 +1330,7 @@ After examining the Progenitor Relic, Gideon wants us to find a Progenitor Termi
 
 
 
-#### Mission: Jolja
+#### MISSION: JOLJA
 
 ###### LOCATION:
 
@@ -1432,7 +1450,7 @@ Progenitor, Tanoch
 > Hopefully we can learn why the Progenitor Communicator failed at Wiracoda gate.
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1448,7 +1466,8 @@ Progenitor, Tanoch
 ### Quest: Blood Ties
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The local Hiigaran survivors wish to know what Kiith we affiliate with. There are advantages for declaring for a specific Kiith.
 
@@ -1460,7 +1479,7 @@ The local Hiigaran survivors wish to know what Kiith we affiliate with. There ar
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1482,7 +1501,8 @@ The local Hiigaran survivors wish to know what Kiith we affiliate with. There ar
 ### Quest: Declaration
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Hiigaran survivors want to know your name, commander.
 
@@ -1494,7 +1514,7 @@ The Hiigaran survivors want to know your name, commander.
 
 
 
-###### END-OF-DAY DIALOG:
+###### END-OF-DAY-DIALOG:
 
 
 
@@ -1510,7 +1530,8 @@ The Hiigaran survivors want to know your name, commander.
 ### Quest: A Clan of Choice
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We can increase our firepower and capabilities by joining with other battle groups.
 
@@ -1530,7 +1551,8 @@ We can increase our firepower and capabilities by joining with other battle grou
 ### Quest: New Minerals
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The inner systems may have different resources. We should check out the asteroids for mining spots.
 
@@ -1547,7 +1569,8 @@ The inner systems may have different resources. We should check out the asteroid
 ### Quest: Refinery
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The new ores require refining to be usable for construction purposes. Luckily we have refining facilities on board.
 
@@ -1568,7 +1591,8 @@ The new ores require refining to be usable for construction purposes. Luckily we
 ### Quest: Hiigaran Outposts
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Lazarus station asked us to help some Hiigaran outposts on the frontier.
 
@@ -1584,7 +1608,8 @@ Lazarus station asked us to help some Hiigaran outposts on the frontier.
 ### Quest: Outposts: Rescue
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Long-range sensors located near another hyperspace gate have registered the presence of a Hiigaran fleet that emerged here. We are asked to this location and try to help any survivors as best as we can.
 
@@ -1603,7 +1628,8 @@ Long-range sensors located near another hyperspace gate have registered the pres
 ### Quest: Outposts: Recon
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 To supply the needs of the Hiigaran fleet, we've been dispatched to look for a great mining source. Intel indicates this will put us into direct conflict with the Fleet of Rams.
 
@@ -1623,7 +1649,8 @@ To supply the needs of the Hiigaran fleet, we've been dispatched to look for a g
 ### Quest: Outposts: Wall of Will
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 One of the only planetary settlements under Hiigaran control has been scouted by the Fleet of Rams. Until the planetary defenses are strengthened, they need military equipment to supply the defense.
 
@@ -1642,7 +1669,8 @@ One of the only planetary settlements under Hiigaran control has been scouted by
 ### Quest: Outposts: Security
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Hiigaran forces are working to clear systems to set up for colonization. The system in question is of special importance. We've been asked to go there and assist in securing the area.
 
@@ -1662,7 +1690,8 @@ Hiigaran forces are working to clear systems to set up for colonization. The sys
 ### Quest: New Strike Craft
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have found a way to incorporate the new materials into our ship design.
 
@@ -1687,7 +1716,8 @@ We have found a way to incorporate the new materials into our ship design.
 ### Quest: Combat Trials
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our Hiigaran allies have prepared a combat area to test our improved strike craft.
 
@@ -1699,7 +1729,7 @@ Our Hiigaran allies have prepared a combat area to test our improved strike craf
 
 
 
-#### Mission: Combat Trials
+#### MISSION: COMBAT TRIALS
 
 ###### LOCATION:
 
@@ -1781,7 +1811,8 @@ Cangacian, Hiigaran Medea
 ### Quest: Hostiles
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 These inner systems are crawling with enemies. We should thin their numbers. Enemies are found in asteroid clusters and signals.
 
@@ -1796,7 +1827,8 @@ These inner systems are crawling with enemies. We should thin their numbers. Ene
 ### Quest: New Resource Collector
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The new ores are more difficult to mine. We should build resource collectors that are equipped to deal with these denser metals.
 
@@ -1812,7 +1844,8 @@ The new ores are more difficult to mine. We should build resource collectors tha
 ### Quest: Mining Spree
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We should put our new resource collectors to the test and stockpile some ores.
 
@@ -1827,7 +1860,8 @@ We should put our new resource collectors to the test and stockpile some ores.
 ### Quest: Crew Experience
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Training our officers will increase their performance significantly. To train an officer we need to find insignias. Insignias can be gained from discharging officers and may be rewarded from completing signals.
 
@@ -1842,7 +1876,8 @@ Training our officers will increase their performance significantly. To train an
 ### Quest: Crew Promotion
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We should promote our most experienced officers to further improve their performance. Promoting an officer increase their special ability or may even grant them a second.
 
@@ -1857,7 +1892,8 @@ We should promote our most experienced officers to further improve their perform
 ### Quest: New Escorts
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We should bolster our fleet with frigates made from the new metals.
 
@@ -1878,7 +1914,8 @@ We should bolster our fleet with frigates made from the new metals.
 ### Quest: Meropis Defense
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We received a message that Meropis, a Iyatequa communications station, is asking for support in an expected Cangacian attack.
 
@@ -1890,7 +1927,7 @@ We received a message that Meropis, a Iyatequa communications station, is asking
 
 
 
-#### Mission: Meropis Defense
+#### MISSION: MEROPIS DEFENSE
 
 ###### LOCATION:
 
@@ -1949,7 +1986,8 @@ ARIITAR system, Iyatequa territory
 ### Quest: Signal Tracking
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Cangacians have been repelled, but we should disrupt their activities by hunting down hostile signals in the area.
 
@@ -1964,7 +2002,8 @@ The Cangacians have been repelled, but we should disrupt their activities by hun
 ### Quest: Cangacian Troubles
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Cangacians are attacking colonies. We should help them in whatever way we can.
 
@@ -1980,7 +2019,8 @@ Cangacians are attacking colonies. We should help them in whatever way we can.
 ### Quest: Troubles: Defiance
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The world of Huaca is looking for help. They are opposing conscription from Supay’s Fleet of Rams, the punishment of which is brutal assault.
 
@@ -2000,7 +2040,8 @@ The world of Huaca is looking for help. They are opposing conscription from Supa
 ### Quest: Troubles: Seeker
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 To oppose the Fleet of Rams, we were asked to undergo a mission to survey and map one of their three largest systems. We should also sabotage their efforts when the opportunity presents itself.
 
@@ -2020,7 +2061,8 @@ To oppose the Fleet of Rams, we were asked to undergo a mission to survey and ma
 ### Quest: Troubles: Stone Hearth
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We're asked to to assist the system of Acheron. They do not have a refinery set up, so we need to go there and refine metals for their construction facilities to use.
 
@@ -2040,7 +2082,8 @@ We're asked to to assist the system of Acheron. They do not have a refinery set 
 ### Quest: Troubles: A Black Eye
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Fleet of Rams is assembling an assault force that is aimed at a cluster of neutral systems. Intel shows that another Cangacian band plans to engage Supay’s commanding lieutenant here. We're asked to create a distraction to weaken the Fleet of Rams in the resulting battle.
 
@@ -2064,7 +2107,8 @@ The Fleet of Rams is assembling an assault force that is aimed at a cluster of n
 ### Quest: Flagship Construction
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have an Explorer-class flagship blueprint utilizing the new minerals found in this region.
 
@@ -2079,7 +2123,8 @@ We have an Explorer-class flagship blueprint utilizing the new minerals found in
 ### Quest: New Flagship
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Once the flagship construction has finished, we should move over to the new flagship, including our ships and officers. This is done via the fleet configuration.
 
@@ -2099,7 +2144,8 @@ Once the flagship construction has finished, we should move over to the new flag
 ### Quest: Pest Control
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 While we wait for the flagship construction to finish, we might as well make this galaxy a safer place.
 
@@ -2119,7 +2165,8 @@ While we wait for the flagship construction to finish, we might as well make thi
 ### Quest: The Pool
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa have flagged a location for suspicious hostile activity. They've asked us to investigate on their behalf.
 
@@ -2131,7 +2178,7 @@ The Iyatequa have flagged a location for suspicious hostile activity. They've as
 
 
 
-#### Mission: The Pool
+#### MISSION: THE POOL
 
 ###### LOCATION:
 
@@ -2213,7 +2260,8 @@ Cangacian
 ### Quest: Hostile History
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Progenitor remnants present a danger to the people living in this galaxy. We should thin their numbers.
 
@@ -2228,7 +2276,8 @@ The Progenitor remnants present a danger to the people living in this galaxy. We
 ### Quest: Weapon Turrets
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The new flagship follows modular design principles, allowing us to outfit it with turrets as we choose. First we should build a weapon turret.
 
@@ -2243,7 +2292,8 @@ The new flagship follows modular design principles, allowing us to outfit it wit
 ### Quest: Mounting Turrets
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Now that we have a turret module, we should mount it on our flagship. Turrets can be managed in the external module view of our flagship.
 
@@ -2258,7 +2308,8 @@ Now that we have a turret module, we should mount it on our flagship. Turrets ca
 ### Quest: Rare Elements
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 When refining ores in the refinery there is a chance for rare earths to appear in addition to the refined metals.
 
@@ -2273,7 +2324,8 @@ When refining ores in the refinery there is a chance for rare earths to appear i
 ### Quest: Turret Upgrades
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The rare minerals we have extracted can be used to improve our modules.
 
@@ -2288,7 +2340,8 @@ The rare minerals we have extracted can be used to improve our modules.
 ### Quest: Turret Upgrades Level 3
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A module can be upgraded multiple times, vastly increasing its power.
 
@@ -2303,7 +2356,8 @@ A module can be upgraded multiple times, vastly increasing its power.
 ### Quest: Turret Upgrades Level 4
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A module can be upgraded multiple times, vastly increasing its power.
 
@@ -2318,7 +2372,8 @@ A module can be upgraded multiple times, vastly increasing its power.
 ### Quest: Turret Upgrades Level 5
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A module can be upgraded multiple times, vastly increasing its power.
 
@@ -2333,7 +2388,8 @@ A module can be upgraded multiple times, vastly increasing its power.
 ### Quest: Turret Upgrades Level 6
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A module can be upgraded multiple times, vastly increasing its power.
 
@@ -2348,7 +2404,8 @@ A module can be upgraded multiple times, vastly increasing its power.
 ### Quest: Turret Upgrades Level 7
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A module can be upgraded multiple times, vastly increasing its power.
 
@@ -2363,7 +2420,8 @@ A module can be upgraded multiple times, vastly increasing its power.
 ### Quest: Turret Upgrades Level 8
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A module can be upgraded multiple times, vastly increasing its power.
 
@@ -2378,7 +2436,8 @@ A module can be upgraded multiple times, vastly increasing its power.
 ### Quest: Final Turret Upgrades
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Once a module has been upgraded to level 9, it is at its maximum level and cannot be upgraded further.
 
@@ -2398,7 +2457,8 @@ Once a module has been upgraded to level 9, it is at its maximum level and canno
 ### Quest: Progenitor Components
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 To improve our scanner, we should gather data on Progenitor vessels. Once we have enough data, we can create a new scanner blueprint.
 
@@ -2414,7 +2474,8 @@ To improve our scanner, we should gather data on Progenitor vessels. Once we hav
 ### Quest: Components: A Wide Exchange
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A few locals in this system have Progenitor technology they willing to hand to us if we agree to help them with their own problems regarding hostile Progenitor vessels and shortage of resources.
 
@@ -2434,7 +2495,8 @@ A few locals in this system have Progenitor technology they willing to hand to u
 ### Quest: Components: Hunt
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Progenitor vessels in this area are equipped with M-type fuses. We need to attack and destroy a few vessels in order to gather enough of quality for use in the prototype.
 
@@ -2454,7 +2516,8 @@ Progenitor vessels in this area are equipped with M-type fuses. We need to attac
 ### Quest: Components: A Full Quiver
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Fleet command out of Lazarus frowns upon commanders that delve into Progenitor ruins without a minimum of protection. We need to bring our ship up to code and command will approve our ship for such operations in the future.
 
@@ -2473,7 +2536,8 @@ Fleet command out of Lazarus frowns upon commanders that delve into Progenitor r
 ### Quest: Components: Repurpose the Past
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 To save time, rather than reconstruct a Particle density array, we can salvage one from advanced Progenitor craft. We need to attack enough Progenitor ships to find one that is in decent condition. The module will require rare earths in order to activate properly. We can gather them at the system as well.
 
@@ -2498,7 +2562,8 @@ To save time, rather than reconstruct a Particle density array, we can salvage o
 ### Quest: New Scanner
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Based on the data from the Progenitor fragments, our engineers have created a new scanner blueprint.
 
@@ -2514,7 +2579,8 @@ Based on the data from the Progenitor fragments, our engineers have created a ne
 ### Quest: Rare Find
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Some objects are too hidden to find them with our scanner under regular circumstances. Luckily, we can use special batteries to overcharge the scanner beyond its normal abilities to be able to find those.
 
@@ -2530,7 +2596,8 @@ Some objects are too hidden to find them with our scanner under regular circumst
 ### Quest: Hidden in the Dark
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We need to find the system from where the recent Cangacian activity originates. Reports indicate the system might be near Saraal. We should go there and use our long range scanners.
 
@@ -2547,7 +2614,8 @@ We need to find the system from where the recent Cangacian activity originates. 
 ### Quest: Cangacian Hideout
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have located the pirate hideout. Now is the time to strike.
 
@@ -2562,7 +2630,8 @@ We have located the pirate hideout. Now is the time to strike.
 ### Quest: Exploration Upgrades
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 In order to move deeper into the galaxy we should upgrade our scanner and drives core.
 
@@ -2579,7 +2648,8 @@ In order to move deeper into the galaxy we should upgrade our scanner and drives
 ### Quest: Reaching Out
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa are interested in doing business with us. Completing liaison assignments for them will allow us to increase our reputation, which allows us to buy special items and blueprints in their liaison requisitions office.
 
@@ -2599,7 +2669,8 @@ The Iyatequa are interested in doing business with us. Completing liaison assign
 ### Quest: Internal Modules
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our flagship has a configurable interior, which we can use to boost our exploration, production or combat abilities using internal modules.
 
@@ -2615,7 +2686,8 @@ Our flagship has a configurable interior, which we can use to boost our explorat
 ### Quest: Internal Module Upgrades
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Just like with weapon turrets, we can improve our internal module's performance through upgrades.
 
@@ -2630,7 +2702,8 @@ Just like with weapon turrets, we can improve our internal module's performance 
 ### Quest: Iyatequa Business
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa have heard of our plan to meet the Tanoch and agreed to help us set up our science facilities to research better drives. For a price, of course.
 
@@ -2646,7 +2719,8 @@ The Iyatequa have heard of our plan to meet the Tanoch and agreed to help us set
 ### Quest: Business: An Honest Job
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa asked us to perform a variety of simple activities and allowing them to monitor the related systems for their own research purposes.
 
@@ -2666,7 +2740,8 @@ The Iyatequa asked us to perform a variety of simple activities and allowing the
 ### Quest: Business: The Barrier
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We've been told to deal with an attempted trade blockade set up by pirates. We will need to get some spare resources and some module upgrades before we face the enemy.
 
@@ -2686,7 +2761,8 @@ We've been told to deal with an attempted trade blockade set up by pirates. We w
 ### Quest: Business: The Sheriff
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Hostiles have been gathering near Iyatequa trading routes. We've been asked to investigate and root out pirates and other undesirables.
 
@@ -2706,7 +2782,8 @@ Hostiles have been gathering near Iyatequa trading routes. We've been asked to i
 ### Quest: Business: The Dealer
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A dealer supplying the Iyatequa has tried cutting corners and incured their wrath. We've been asked to apprehend him.
 
@@ -2732,7 +2809,8 @@ A dealer supplying the Iyatequa has tried cutting corners and incured their wrat
 ### Quest: Laboratories
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our scientists have brought our on-ship laboratories online. We can collect the data of their findings there.
 
@@ -2747,7 +2825,8 @@ Our scientists have brought our on-ship laboratories online. We can collect the 
 ### Quest: Research Center
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Lazarus Base has given us access to a workshop module attached to the station. We can perform further research there and develop new technologies.
 
@@ -2762,7 +2841,8 @@ Lazarus Base has given us access to a workshop module attached to the station. W
 ### Quest: New Resources T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 It seems the deeper we move into the galaxy the more minerals we find.
 
@@ -2786,7 +2866,8 @@ It seems the deeper we move into the galaxy the more minerals we find.
 ### Quest: Cangacian Incursion
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Several Hiigaran colonies are under attack by Cangacians. Lazarus command has asked us to help as much as we can.
 
@@ -2802,7 +2883,8 @@ Several Hiigaran colonies are under attack by Cangacians. Lazarus command has as
 ### Quest: Incursion: Reverse Engineering
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 This colony was attacked by vessels incorporating non-Cangacian technology. We're asked to try to reverse engineer some of it.
 
@@ -2821,7 +2903,8 @@ This colony was attacked by vessels incorporating non-Cangacian technology. We'r
 ### Quest: Incursion: Rebuilding Efforts
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 This colony was hit hard. We need to clear the area of remaining pirates and help with rebuilding.
 
@@ -2843,7 +2926,8 @@ This colony was hit hard. We need to clear the area of remaining pirates and hel
 ### Quest: Incursion: Enemy Intentions
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 This colony repelled the attackers and gathered some intel. They need our help to decrypt it and find safe places for mining.
 
@@ -2863,7 +2947,8 @@ This colony repelled the attackers and gathered some intel. They need our help t
 ### Quest: Incursion: Preemptive Strike
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The most recent attack. Intel shows it was just a scouting mission. We need to help with setting up quick defenses and take out the assault fleet before they can strike.
 
@@ -2888,7 +2973,8 @@ The most recent attack. Intel shows it was just a scouting mission. We need to h
 ### Quest: Interceptor T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We can research better ship blueprints using the new materials found in this region.
 
@@ -2903,7 +2989,8 @@ We can research better ship blueprints using the new materials found in this reg
 ### Quest: Interceptor Schematics
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Schematics research unlock new blueprints for the fabricators and shipyard.
 
@@ -2918,7 +3005,8 @@ Schematics research unlock new blueprints for the fabricators and shipyard.
 ### Quest: Ship Parts Assembly
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The new constructions will require the use of specially fabricated parts.
 
@@ -2936,7 +3024,8 @@ The blueprints for small Hull, Weapon and Machinery parts can be found in the ma
 ### Quest: Strike Craft T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Now that we have finished the research and crafted the necessary parts, we can craft an interceptor squadron.
 
@@ -2957,7 +3046,8 @@ Now that we have finished the research and crafted the necessary parts, we can c
 ### Quest: Lazarus Repairs
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Lazarus Station was recently attacked. Command asked us to help with rebuilding efforts.
 
@@ -2972,7 +3062,8 @@ Lazarus Station was recently attacked. Command asked us to help with rebuilding 
 ### Quest: Repairs: Mining Opportunities
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 To repair Lazarus Station, new minerals are needed. We are asked to look for new places to mine and help set up the fabrication systems.
 
@@ -2990,7 +3081,8 @@ To repair Lazarus Station, new minerals are needed. We are asked to look for new
 ### Quest: Repairs: Secure the Perimeter
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 After the recent attack, we need to secure the borders of Hiigaran space.
 
@@ -3008,7 +3100,8 @@ After the recent attack, we need to secure the borders of Hiigaran space.
 ### Quest: Repairs: Motivation Boost
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are asked to lead several high profile campaigns against enemy forces to rally more Hiigaran fleets and raise awareness to the rebuilding efforts of Lazarus Station.
 
@@ -3029,7 +3122,8 @@ We are asked to lead several high profile campaigns against enemy forces to rall
 ### Quest: Repairs: Empty the Lairs
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The attackers still have their bases of operation. We need to clear them out to prevent future attacks.
 
@@ -3051,7 +3145,8 @@ The attackers still have their bases of operation. We need to clear them out to 
 ### Quest: Resource Collector T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Mining the new ores can be done faster with special resource collectors equipped with better mining gear.
 
@@ -3066,7 +3161,8 @@ Mining the new ores can be done faster with special resource collectors equipped
 ### Quest: Ore Deal
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 With our new resource collectors, we can mine ores much faster than before.
 
@@ -3081,7 +3177,8 @@ With our new resource collectors, we can mine ores much faster than before.
 ### Quest: Resource Controller
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We acquired a blueprint for the Resource Controller, an escort ship we can send on independent mining missions. Like other escort ships, it must be built in the shipyard.
 
@@ -3096,7 +3193,8 @@ We acquired a blueprint for the Resource Controller, an escort ship we can send 
 ### Quest: Remote Mining
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Resource Controllers can be sent away to mine ores without our supervision. To do that, it must be assigned to an escort slot in fleet configuration.
 
@@ -3116,7 +3214,8 @@ Resource Controllers can be sent away to mine ores without our supervision. To d
 ### Quest: Assault Frigate T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We can research a better assault frigate blueprint using the new minerals.
 
@@ -3131,7 +3230,8 @@ We can research a better assault frigate blueprint using the new minerals.
 ### Quest: Assault Frigate Schematics
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our scientists are at work developing new schematics for the assault frigate.
 
@@ -3146,7 +3246,8 @@ Our scientists are at work developing new schematics for the assault frigate.
 ### Quest: Large Hull Parts Assembly
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The frigate blueprint requires a large version of the hull parts.
 
@@ -3164,7 +3265,8 @@ The blueprint for large hull parts can be found in the market.
 ### Quest: Escort Ships T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 With the large hull parts we can finally construct the frigate.
 
@@ -3179,7 +3281,8 @@ With the large hull parts we can finally construct the frigate.
 ### Quest: Gold Rush
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Some asteroids in this region contain a rare ore we can use for advanced constructions.
 
@@ -3195,7 +3298,8 @@ Some asteroids in this region contain a rare ore we can use for advanced constru
 ### Quest: Elite Ships
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We acquired a blueprint for an advanced ship design. It requires the rare ore to be built.
 
@@ -3215,7 +3319,8 @@ We acquired a blueprint for an advanced ship design. It requires the rare ore to
 ### Quest: Liaison Office
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Doing assignments for the liaison office will allow us to requisition better blueprints and better equipment.
 
@@ -3230,7 +3335,8 @@ Doing assignments for the liaison office will allow us to requisition better blu
 ### Quest: Station Defense
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A large Tanoch station is under attack by a large fleet of pirates. We should band together with other fleets to repel the attackers.
 
@@ -3245,7 +3351,8 @@ A large Tanoch station is under attack by a large fleet of pirates. We should ba
 ### Quest: Pulsar Corvette Schematics
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Uncommon, rare and epic researches are not part of the central research path and must be found in order to be researched.
 
@@ -3262,7 +3369,8 @@ The Pulsar Corvette Schematics can be found in the code fragment market.
 ### Quest: Pulsar Corvette
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Pulsar Corvettes are effective against other corvettes and small escort ships.
 
@@ -3277,7 +3385,8 @@ Pulsar Corvettes are effective against other corvettes and small escort ships.
 ### Quest: Iyatequa Intermediary
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa have offered to liaison between us and the Tanoch if we agree to run some errands for them.
 
@@ -3293,7 +3402,8 @@ The Iyatequa have offered to liaison between us and the Tanoch if we agree to ru
 ### Quest: Intermediary: Delivery Run
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa want us to deliver some resources - from our own pockets. They said the rewards will compensate for our losses. We'll see.
 
@@ -3314,7 +3424,8 @@ The Iyatequa want us to deliver some resources - from our own pockets. They said
 ### Quest: Intermediary: Patrolling Trade Routes
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We're asked to patrol the Iyatequa trading routes and clear out hostiles near them.
 
@@ -3332,7 +3443,8 @@ We're asked to patrol the Iyatequa trading routes and clear out hostiles near th
 ### Quest: Intermediary: The Catch
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 This assignment seems simple enough. We simply have to find Cangacian fleets and destroy them.
 
@@ -3352,7 +3464,8 @@ This assignment seems simple enough. We simply have to find Cangacian fleets and
 ### Quest: Intermediary: Art of Escape
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa want us to find a master thief of legendary reputation.
 
@@ -3378,7 +3491,8 @@ The Iyatequa want us to find a master thief of legendary reputation.
 ### Quest: Tanoch Relations
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Tanoch liaison office will offer better items the higher our reputation is.
 
@@ -3393,7 +3507,8 @@ The Tanoch liaison office will offer better items the higher our reputation is.
 ### Quest: Large Weapon Parts Assembly
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Large weapon parts are required for building flagships and weapon modules.
 
@@ -3410,7 +3525,8 @@ The blueprint for large weapon parts can be found in the Tanoch liaison requisit
 ### Quest: Iyatequa Relations
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa liaison office will offer better items the higher our reputation is.
 
@@ -3425,7 +3541,8 @@ The Iyatequa liaison office will offer better items the higher our reputation is
 ### Quest: Large Machinery Parts Assembly
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Large machinery parts are required for building flagships and non-weapon modules.
 
@@ -3442,7 +3559,8 @@ The blueprint for large machinery parts can be found in the Iyatequa liaison req
 ### Quest: Flagship Construction T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Now that we have the necessary resources, we can start building our new flagship. Its larger drive core will allow us to enter Tanoch territory. Flagship blueprints are available in the market.
 
@@ -3458,7 +3576,8 @@ Now that we have the necessary resources, we can start building our new flagship
 ### Quest: Flagship T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The construction of our new flagship is under way. Once it's finished, we can switch over and move our squadrons and officers as well as modules to the new flagship.
 
@@ -3473,7 +3592,8 @@ The construction of our new flagship is under way. Once it's finished, we can sw
 ### Quest: Pahra's Rock
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Pirate's major Asteroid Base in the area has been threatening the Hiigaran settlements. Hiigaran Flagships have been gathered to strike on this Base.​
 
@@ -3493,7 +3613,8 @@ Pirate's major Asteroid Base in the area has been threatening the Hiigaran settl
 ### Quest: Weapon Turrets T2
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We should stay up to date on weapon technology. Researching new weapon schematics will unlock better modules.
 
@@ -3510,7 +3631,8 @@ We should stay up to date on weapon technology. Researching new weapon schematic
 ### Quest: Tanochet
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We can finally reach the Tanoch capital. It is time to meet the emperor.
 
@@ -3522,7 +3644,7 @@ We can finally reach the Tanoch capital. It is time to meet the emperor.
 
 
 
-#### Mission: Tanochet
+#### MISSION: TANOCHET
 
 ###### LOCATION:
 
@@ -3547,18 +3669,6 @@ Tanoch, Yaot
 
 **Tepin Papan**
 > Starship, we appreciate your assistance, but our emperor has more urgent matters to attend to now. Your visit will have to wait.
-
-
-### CINEMATIC: TANOCHET
-> With great fanfare and jubilation, the Hiigarans were welcomed into the Palace of the Elder Sun.
-
-> The young Emperor, Cazoma, greeted them with intense interest.
-Assailing them with questions, he welcomed the Hiigarans as guests within his domain.
-
-> But another resided as guests among the Tanoch. Introduced as a friend and fellow galactic traveller,
-Cazoma revealed what could not be true.
-
-> Jochik Kaan: Son of Makaan, and Lord of the Vaygr.
 
 
 
@@ -3606,10 +3716,23 @@ Cazoma revealed what could not be true.
 > Welcome to Tanochet. Our Emperor is eager to meet you. Proceed to our orbital station and prepare for docking.
 
 
+### CINEMATIC: TANOCHET
+> With great fanfare and jubilation, the Hiigarans were welcomed into the Palace of the Elder Sun.
+
+> The young Emperor, Cazoma, greeted them with intense interest.
+Assailing them with questions, he welcomed the Hiigarans as guests within his domain.
+
+> But another resided as guests among the Tanoch. Introduced as a friend and fellow galactic traveller,
+Cazoma revealed what could not be true.
+
+> Jochik Kaan: Son of Makaan, and Lord of the Vaygr.
+
+
 ### Quest: High Risk High Reward
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Occasionally we come across high energy signals. It might be worth checking out, but it could also be a potential danger. We should proceed with caution.
 
@@ -3626,7 +3749,8 @@ Occasionally we come across high energy signals. It might be worth checking out,
 ### Quest: Tanoch Errands
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Tanoch have asked us to run some errands for them. This could be a chance for us to gain their trust.
 
@@ -3642,7 +3766,8 @@ The Tanoch have asked us to run some errands for them. This could be a chance fo
 ### Quest: Errands: Golden Harvest
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A Tanoch planetary government is experiencing a resource shortfall, and has asked for help with procuring raw material.
 
@@ -3661,7 +3786,8 @@ A Tanoch planetary government is experiencing a resource shortfall, and has aske
 ### Quest: Errands: Safety and Security
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Pirates are attacking Tanoch systems. We've been asked to drive them back.
 
@@ -3678,7 +3804,8 @@ Pirates are attacking Tanoch systems. We've been asked to drive them back.
 ### Quest: Errands: Disaster Relief
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A Tanoch world is having trouble getting resources from the Empire so they’ve asked anyone for help.
 
@@ -3699,7 +3826,8 @@ A Tanoch world is having trouble getting resources from the Empire so they’ve 
 ### Quest: Errands: Hired Defenses
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The border worlds are being threatened from Yaot assaults and are desperate for defenders. They ask us to drive the Yaot back.
 
@@ -3721,7 +3849,8 @@ The border worlds are being threatened from Yaot assaults and are desperate for 
 ### Quest: Compartments
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our flagship is sectioned into three compartments. We can install different modules in different compartments.
 
@@ -3738,7 +3867,8 @@ Our flagship is sectioned into three compartments. We can install different modu
 ### Quest: Temple Tonaati
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are following Vaygr fleet to find out their hidden plan.
 
@@ -3750,7 +3880,7 @@ We are following Vaygr fleet to find out their hidden plan.
 
 
 
-#### Mission: Temple Tonaati
+#### MISSION: TEMPLE TONAATI
 
 ###### LOCATION:
 
@@ -3891,7 +4021,8 @@ Tanoch, TanochTemple, Yaot
 ### Quest: Yaot Conflict
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have received assignments from both Tanochetlan and Lazarus station. They asked us to investigate the Yaot threat.
 
@@ -3907,7 +4038,8 @@ We have received assignments from both Tanochetlan and Lazarus station. They ask
 ### Quest: Conflict: Direct Attack
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Tanoch want us to actively engage the Yaot fleets to disrupt their activities in Tanoch space.
 
@@ -3922,7 +4054,8 @@ The Tanoch want us to actively engage the Yaot fleets to disrupt their activitie
 ### Quest: Conflict: Hazardous Archeology
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are looking for evidence of a missing Progenitor hyperspace gate in the area which should be there but isn’t. According to Tanoch intelligence the Yaot are also seeking this object.
 
@@ -3939,7 +4072,8 @@ We are looking for evidence of a missing Progenitor hyperspace gate in the area 
 ### Quest: Conflict: Seek and Find
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A Hiigaran flagship has gone missing in Tanoch space. Preliminary evidence points towards Yaot involvement. Lazarus wants us to investigate.
 
@@ -3957,7 +4091,8 @@ A Hiigaran flagship has gone missing in Tanoch space. Preliminary evidence point
 ### Quest: Conflict: Opposition Research
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot are the first major antagonistic power we have encountered. We need to make sure our crew is properly trained and ready to handle the upcoming battles.
 
@@ -3979,7 +4114,8 @@ The Yaot are the first major antagonistic power we have encountered. We need to 
 ### Quest: Exploration I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We should explore this galaxy further. Who knows what we could find.
 
@@ -3996,7 +4132,8 @@ We should explore this galaxy further. Who knows what we could find.
 ### Quest: Exploration II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have made discoveries that will keep our scientists busy for months.
 
@@ -4011,7 +4148,8 @@ We have made discoveries that will keep our scientists busy for months.
 ### Quest: Exploration III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 This galaxy is full of danger and opportunity. We should analyze and prepare.
 
@@ -4027,7 +4165,8 @@ This galaxy is full of danger and opportunity. We should analyze and prepare.
 ### Quest: Production I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Building up a fleet requires a constant supply of materials.
 
@@ -4044,7 +4183,8 @@ Building up a fleet requires a constant supply of materials.
 ### Quest: Production II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We should not let our fabrication modules go idle.
 
@@ -4059,7 +4199,8 @@ We should not let our fabrication modules go idle.
 ### Quest: Production III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Building bigger and greater ships will require bigger and greater materials.
 
@@ -4075,7 +4216,8 @@ Building bigger and greater ships will require bigger and greater materials.
 ### Quest: Combat I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Space is full of danger. We need to be prepared.
 
@@ -4092,7 +4234,8 @@ Space is full of danger. We need to be prepared.
 ### Quest: Combat II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We need allies if we are to survive in this galaxy.
 
@@ -4107,7 +4250,8 @@ We need allies if we are to survive in this galaxy.
 ### Quest: Combat III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Only great challenges yield great rewards.
 
@@ -4128,7 +4272,8 @@ Only great challenges yield great rewards.
 ### Quest: Expanding the Horizon
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our scientists have come up with new theories on how to increase the power of our engines. With the new technology we should be able to enter space that was previously inaccessible to us.
 
@@ -4143,7 +4288,8 @@ Our scientists have come up with new theories on how to increase the power of ou
 ### Quest: New Frontiers
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 With our improved hyperjump technology, we should upgrade our engines and sensors to explore the new areas.
 
@@ -4160,7 +4306,8 @@ With our improved hyperjump technology, we should upgrade our engines and sensor
 ### Quest: Resource Scouting
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Fleet command wants accurate maps of nearby asteroid clusters in order to chart resources and hazards. Contribute to this effort by scanning asteroid clusters.
 
@@ -4175,7 +4322,8 @@ Fleet command wants accurate maps of nearby asteroid clusters in order to chart 
 ### Quest: Gas Giant Scan
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 New scanning protocols for scanning gas giants are being tested. Contribute to this test by fully scanning a gas giant.
 
@@ -4190,7 +4338,8 @@ New scanning protocols for scanning gas giants are being tested. Contribute to t
 ### Quest: A New Resource
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We found a new type of resource that warrants a closer look. We should take some samples for study. To harvest gas, simply send a Gas Collector into the atmosphere of a gas planet. Be careful. Deeper layers will deal more damage to your ships! The blueprint for the Gas Collector can be found in the Market.
 
@@ -4206,7 +4355,8 @@ We found a new type of resource that warrants a closer look. We should take some
 ### Quest: Yaot Relations
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot have opened their liaison office to us.
 
@@ -4226,7 +4376,8 @@ The Yaot have opened their liaison office to us.
 ### Quest: Uneasy Allies
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot are interested in opening relations with us and wish to begin a dialogue.
 
@@ -4242,7 +4393,8 @@ The Yaot are interested in opening relations with us and wish to begin a dialogu
 ### Quest: Truce: Loadstones I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot present a simple request to map and gather resources in order to test our capabilities and their trust in us.
 
@@ -4259,7 +4411,8 @@ The Yaot present a simple request to map and gather resources in order to test o
 ### Quest: Truce: Loadstones II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot have asked us to collect further resources and clear the mining areas of hostiles.
 
@@ -4276,7 +4429,8 @@ The Yaot have asked us to collect further resources and clear the mining areas o
 ### Quest: Truce: Loadstones III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot are interested in learning our capacity for materials refining. We'll be compensated well.
 
@@ -4293,7 +4447,8 @@ The Yaot are interested in learning our capacity for materials refining. We'll b
 ### Quest: Truce: The Privateer I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot have a supply line they want protected, and are willing to hire us to clear it of hostiles.
 
@@ -4310,7 +4465,8 @@ The Yaot have a supply line they want protected, and are willing to hire us to c
 ### Quest: Truce: The Privateer II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot wish to commission us to guard this patrol route until their own patrols can relieve us.
 
@@ -4327,7 +4483,8 @@ The Yaot wish to commission us to guard this patrol route until their own patrol
 ### Quest: Truce: The Privateer III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot are impressed with our combat capabilities and want to see how we fare against stronger enemies.
 
@@ -4342,7 +4499,8 @@ The Yaot are impressed with our combat capabilities and want to see how we fare 
 ### Quest: Truce: Exchange of Ideas I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot have made more contracts available to us on a trial basis. We should engage them.
 
@@ -4357,7 +4515,8 @@ The Yaot have made more contracts available to us on a trial basis. We should en
 ### Quest: Truce: Exchange of Ideas II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot are becoming more comfortable with employing us. More work for them will go a long way to improving relations.
 
@@ -4374,7 +4533,8 @@ The Yaot are becoming more comfortable with employing us. More work for them wil
 ### Quest: Truce: Exchange of Ideas III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Yaot trust us enough to employ our services on a contract basis. More work is available.
 
@@ -4396,7 +4556,8 @@ The Yaot trust us enough to employ our services on a contract basis. More work i
 ### Quest: Inside the Empire
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have been contacted by the Chicuat people within the Tanoch empire. They have been denied Imperial services and are asking us for help.
 
@@ -4412,7 +4573,8 @@ We have been contacted by the Chicuat people within the Tanoch empire. They have
 ### Quest: Chicuat: Dry Well I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Next to no Imperial resources are reaching the Chicuat worlds. They are asking us to provide what we spare.
 
@@ -4430,7 +4592,8 @@ Next to no Imperial resources are reaching the Chicuat worlds. They are asking u
 ### Quest: Chicuat: Dry Well II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Chicuat refineries are busy with the ores we have provided. Meanwhile, an agricultural colony providing most of the food in the sector is running on systems that are barely holding together. They have asked us for spare parts.
 
@@ -4445,7 +4608,8 @@ The Chicuat refineries are busy with the ores we have provided. Meanwhile, an ag
 ### Quest: Chicuat: Dry Well III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The economic system has been stabilized, but without proper defenses, raiders will undo everything we've done. We should provide them with some fighters of their own and give their militia some training.
 
@@ -4463,7 +4627,8 @@ The economic system has been stabilized, but without proper defenses, raiders wi
 ### Quest: Chicuat: Exposed I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Without Imperial patrols, Chicuat space is vulnerable against raiders. They have asked us to make a sweep across their space to clear the sector of hostiles.
 
@@ -4480,7 +4645,8 @@ Without Imperial patrols, Chicuat space is vulnerable against raiders. They have
 ### Quest: Chicuat: Exposed II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Most hostiles have been chased off, but some bold bands of the Fleet of Rams have refused to be intimidated. It is time to make a statement.
 
@@ -4497,7 +4663,8 @@ Most hostiles have been chased off, but some bold bands of the Fleet of Rams hav
 ### Quest: Chicuat: Exposed III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Chicuat officials have seen our results and several of them want to see us in action. They hope to learn from us how to organize their defenses better.
 
@@ -4514,7 +4681,8 @@ The Chicuat officials have seen our results and several of them want to see us i
 ### Quest: Chicuat: Favors I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our contact has suggested running some errands for the Tanoch in the name of the Chicuat people. Doing so would hopefully increase the Chicuat's standing within the Empire.
 
@@ -4529,7 +4697,8 @@ Our contact has suggested running some errands for the Tanoch in the name of the
 ### Quest: Chicuat: Favors II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Empire is reacting to our support of the Chicuat people. While we wait to learn more about the outcome, the Chicuat have asked if their officers can cross-train with ours.
 
@@ -4546,7 +4715,8 @@ The Empire is reacting to our support of the Chicuat people. While we wait to le
 ### Quest: Chicuat: Favors III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 After lengthy negotiations with the Chicuat, the Empire reluctantly has agreed to a relief operation, sending resources to worlds in need. Naturally they ask us for support instead of sending their own materials...
 
@@ -4568,7 +4738,8 @@ After lengthy negotiations with the Chicuat, the Empire reluctantly has agreed t
 ### Quest: Star Totek
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are closing in on possible Vaygr transmissions close to the star.
 
@@ -4580,7 +4751,7 @@ We are closing in on possible Vaygr transmissions close to the star.
 
 
 
-#### Mission: Star Totek
+#### MISSION: STAR TOTEK
 
 ###### LOCATION:
 
@@ -4756,10 +4927,25 @@ Progenitor, Vaygr
 > We are in orbit over what the Tanoch call Star Totek: Their Holy star.
 
 
+### CINEMATIC: VAYGR BETRAYAL
+> The Vaygr's betrayal is complete. The Throne World of Tanoch is in flames. Cazoma, Emperor of the Tanoch people, is missing.
+
+> In this desperate hour the remaining leaders of the Tanoch turn to the Hiigarans. Placing their trust in the Hiigarans, they share what they know about the Vaygr.
+
+> The mounting evidence showed the Vaygr were here for a purpose, and they were close to seizing their objective....
+
+> ...an ancient facility, containing what may be one of the only Progenitor super weapons in existence.
+
+> We must stop the Vaygr before they can reach this facility and retreive the Progenitor weapon.
+
+> Hiigara itself may depend on us to stop them.
+
+
 ### Quest: Breach
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We found an enemy base that is heavily fortified. Breaching its defenses will not be easy.
 
@@ -4774,7 +4960,8 @@ We found an enemy base that is heavily fortified. Breaching its defenses will no
 ### Quest: Planting the Flag
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Lazarus Base calls us back to the Hiigaran colonies to establish a presence there and keep the peace.
 
@@ -4790,7 +4977,8 @@ Lazarus Base calls us back to the Hiigaran colonies to establish a presence ther
 ### Quest: Colonies: Brick Making I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Hiigaran resource efforts are very short handed, so we’ll be going to assist gas collection in deep space.
 
@@ -4807,7 +4995,8 @@ Hiigaran resource efforts are very short handed, so we’ll be going to assist g
 ### Quest: Colonies: Brick Making II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our assistance has been helpful so far, but we are asked to provide and analyze some ore samples from the deeper regions of the galaxy.
 
@@ -4824,7 +5013,8 @@ Our assistance has been helpful so far, but we are asked to provide and analyze 
 ### Quest: Colonies: Brick Making III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The logistics have been set up for the most part, but we are asked to help with some deliveries.
 
@@ -4842,7 +5032,8 @@ The logistics have been set up for the most part, but we are asked to help with 
 ### Quest: Colonies: Security Blanket I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Lazarus base has established a quota for all commanders hunting loose pirates in Hiigaran space.
 
@@ -4859,7 +5050,8 @@ Lazarus base has established a quota for all commanders hunting loose pirates in
 ### Quest: Colonies: Security Blanket II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Most pirates have gone into hiding, but we are asked to make sweeps of local space, to flush out the remaining hostiles.
 
@@ -4876,7 +5068,8 @@ Most pirates have gone into hiding, but we are asked to make sweeps of local spa
 ### Quest: Colonies: Security Blanket III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The hostile presence has been reduced to a manageable level, but Progenitor craft threaten research vessels. We need to get rid of them and analyze some of the debris.
 
@@ -4893,7 +5086,8 @@ The hostile presence has been reduced to a manageable level, but Progenitor craf
 ### Quest: Colonies: The Next Generation I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Lazarus has sent us some trainees to get some practical experience on our ship.
 
@@ -4910,7 +5104,8 @@ Lazarus has sent us some trainees to get some practical experience on our ship.
 ### Quest: Colonies: The Next Generation II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Many of the trainees are going to become pilots and navigators, but have so far trained in controlled or virtual flight simulators. They need some real experience.
 
@@ -4927,7 +5122,8 @@ Many of the trainees are going to become pilots and navigators, but have so far 
 ### Quest: Colonies: The Next Generation III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The final course is the graduation level for the trainees, who must see actual combat. You are to take the crew into battle and complete the course. Once finished, they return to Lazarus to finish up their coursework.
 
@@ -4948,7 +5144,8 @@ The final course is the graduation level for the trainees, who must see actual c
 ### Quest: Blue Collar Work
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Ekekko informed us about exclusive work needed by the Iyatequa, and the traders will pay well for this assistance. This is below the table work on various jobs they don’t widely advertise for. They do not say what the ultimate purpose of this work is, though.
 
@@ -4964,7 +5161,8 @@ Ekekko informed us about exclusive work needed by the Iyatequa, and the traders 
 ### Quest: Contracts: The Empty Quarter I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A small world in the Empty Quarter is looking for trustworthy connections. They offer an assortment of various tasks.
 
@@ -4981,7 +5179,8 @@ A small world in the Empty Quarter is looking for trustworthy connections. They 
 ### Quest: Contracts: The Empty Quarter II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A wealthy socialite has heard of our accomplishments and wants some things done. Discreetly, of course.
 
@@ -4998,7 +5197,8 @@ A wealthy socialite has heard of our accomplishments and wants some things done.
 ### Quest: Contracts: The Empty Quarter III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our contact in the Empty Quarter is looking for new opportunities and has been pleased with our work so far. They want us to scout out new areas of space in order to expand their influence.
 
@@ -5015,7 +5215,8 @@ Our contact in the Empty Quarter is looking for new opportunities and has been p
 ### Quest: Contracts: Territory Claim I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Iyatequa plan to set up new trading routes in space currently riddled by pirates. They asked us to clean up the area.
 
@@ -5032,7 +5233,8 @@ The Iyatequa plan to set up new trading routes in space currently riddled by pir
 ### Quest: Contracts: Territory Claim II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Some pirates apparently didn't get the hint yet. We should show them the Iyatequa mean business.
 
@@ -5049,7 +5251,8 @@ Some pirates apparently didn't get the hint yet. We should show them the Iyatequ
 ### Quest: Contracts: Territory Claim III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Most pirates have dispersed, but just to make sure they do not come back we should increase our reputation so future raiders will think twice before setting up nests here.
 
@@ -5066,7 +5269,8 @@ Most pirates have dispersed, but just to make sure they do not come back we shou
 ### Quest: Contracts: Supplies I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A local world wants help building and supplying a space station. We are asked to test possible mining sites and clear them of hostiles.
 
@@ -5083,7 +5287,8 @@ A local world wants help building and supplying a space station. We are asked to
 ### Quest: Contracts: Supplies II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Mining ships have departed for the asteroids we have charted, but the internal systems require special gases. We are asked to sample the gases at promising jovians.
 
@@ -5100,7 +5305,8 @@ Mining ships have departed for the asteroids we have charted, but the internal s
 ### Quest: Contracts: Supplies III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The mining sites have been prepared, but the Iyatequa asked us with further assistance through supplies and mining craft.
 
@@ -5123,7 +5329,8 @@ The mining sites have been prepared, but the Iyatequa asked us with further assi
 ### Quest: Roadblocks
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Reports at the Tanoch border are coming in stating that the Fleet of Rams, Supay’s army, is on the move at last.
 
@@ -5138,7 +5345,8 @@ Reports at the Tanoch border are coming in stating that the Fleet of Rams, Supay
 ### Quest: Defense: Intercept I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We are asked to intercept as many Cangacian fleets as we can.
 
@@ -5155,7 +5363,8 @@ We are asked to intercept as many Cangacian fleets as we can.
 ### Quest: Defense: Intercept II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Cangacians continue to probe the Tanoch defenses. We should look for suspicious activity.
 
@@ -5172,7 +5381,8 @@ The Cangacians continue to probe the Tanoch defenses. We should look for suspici
 ### Quest: Defense: Intercept III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Supay's fleets may have holdouts in systems we have not been looking yet. We should find those and flush them out.
 
@@ -5189,7 +5399,8 @@ Supay's fleets may have holdouts in systems we have not been looking yet. We sho
 ### Quest: Defense: Assist I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 To counter these attacks our crew must be well trained.
 
@@ -5206,7 +5417,8 @@ To counter these attacks our crew must be well trained.
 ### Quest: Defense: Assist II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our crew is analyzing the attack patterns to find ways to predict where the Fleet of Rams may strike next.
 
@@ -5223,7 +5435,8 @@ Our crew is analyzing the attack patterns to find ways to predict where the Flee
 ### Quest: Defense: Assist III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Several smaller worlds on the border have sent us some of their recruits, in hopes they could get some practical experience from our battles with the Cangacians.
 
@@ -5239,7 +5452,8 @@ Several smaller worlds on the border have sent us some of their recruits, in hop
 ### Quest: Defense: Barricade I
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Several mining fleets of the border systems have taken losses and are asking us to provide them with safe locations to find resources.
 
@@ -5256,7 +5470,8 @@ Several mining fleets of the border systems have taken losses and are asking us 
 ### Quest: Defense: Barricade II
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The remaining mining fleets are flocking to the new mining spots, but they require gases for advanced weaponry.
 
@@ -5273,7 +5488,8 @@ The remaining mining fleets are flocking to the new mining spots, but they requi
 ### Quest: Defense: Barricade III
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The border worlds' new mining lanes are buzzing with activity, but they need supplies to build up defenses against future raids.
 
@@ -5291,7 +5507,8 @@ The border worlds' new mining lanes are buzzing with activity, but they need sup
 ### Quest: Sijin Lighthouse
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We detected a possible signal from the missing Khar-Kalaad.
 
@@ -5303,7 +5520,7 @@ We detected a possible signal from the missing Khar-Kalaad.
 
 
 
-#### Mission: Sijin Lighthouse
+#### MISSION: SIJIN LIGHTHOUSE
 
 ###### LOCATION:
 
@@ -5329,22 +5546,6 @@ Hiigaran Medea, Tanoch
 
 **Joanna**
 > We have its destination vector. When we have a powerful enough engine, we can pursue.
-
-
-### CINEMATIC: LIGHTHOUSE
-> Recovered records from the Tanoch reveal little about the area of the Galaxy we are about to enter.
-
-> Their knowledge ends at a zone, that they have called the Nightmare Gulf.
-
-> The Zone is defined by a dense, dark nebula of enormous size.
-
-> We have also detected unusual quantum phenomena, which blocks normal hyperspace travel.
-
-> This kind of anomaly at this scale could have only been created by the Progenitors, possibly another scar from whatever cataclysm which destroyed their civilization.
-
-> There is no information about what lies beyond the zone. Not even myths...
-
-> Prepare for anything.
 
 
 
@@ -5463,6 +5664,22 @@ Hiigaran Medea, Tanoch
 > We have no response to outgoing signals, so either Vice Admiral Vashti is keeping a low profile, or it's a trap. Proceed with caution.
 
 
+### CINEMATIC: LIGHTHOUSE
+> Recovered records from the Tanoch reveal little about the area of the Galaxy we are about to enter.
+
+> Their knowledge ends at a zone, that they have called the Nightmare Gulf.
+
+> The Zone is defined by a dense, dark nebula of enormous size.
+
+> We have also detected unusual quantum phenomena, which blocks normal hyperspace travel.
+
+> This kind of anomaly at this scale could have only been created by the Progenitors, possibly another scar from whatever cataclysm which destroyed their civilization.
+
+> There is no information about what lies beyond the zone. Not even myths...
+
+> Prepare for anything.
+
+
 
 
 ## Chapter: 31. Iliyin Lighthouse
@@ -5471,7 +5688,8 @@ Hiigaran Medea, Tanoch
 ### Quest: Mind the Gap
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Crossing the Nightmare Gulf requires an upgrade to our hyperjump technology. After some scans of the gate at Sijin Lighthouse, our scientists think they are able to make the leap possible.
 
@@ -5486,7 +5704,8 @@ Crossing the Nightmare Gulf requires an upgrade to our hyperjump technology. Aft
 ### Quest: Iliyin Lighthouse
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We have arrived at another lighthouse in uncharted territory. Be prepared for anything.
 
@@ -5498,7 +5717,7 @@ We have arrived at another lighthouse in uncharted territory. Be prepared for an
 
 
 
-#### Mission: Iliyin Lighthouse
+#### MISSION: ILIYIN LIGHTHOUSE
 
 ###### LOCATION:
 
@@ -5639,7 +5858,8 @@ Amassari, Hiigaran Medea
 ### Quest: Amassari Relations
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Amassari have opened their liaison office to us.
 
@@ -5654,7 +5874,8 @@ The Amassari have opened their liaison office to us.
 ### Quest: Crystals
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Crystals are a new type of resource that can be combined with refined metals into a composite material needed for advanced constructions. So far we have only been able to find them by chance in .
 
@@ -5675,7 +5896,8 @@ Crystals are a new type of resource that can be combined with refined metals int
 ### Quest: Bright Temple
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Amassari here may contain answers about the nature of the Progenitor observer.
 
@@ -5687,7 +5909,7 @@ The Amassari here may contain answers about the nature of the Progenitor observe
 
 
 
-#### Mission: Bright Temple
+#### MISSION: BRIGHT TEMPLE
 
 ###### LOCATION:
 
@@ -5699,20 +5921,6 @@ CANSAGA system, Amassari territory
 
 
 Amassari, Hiigaran Kiithless, Hiigaran Medea
-
-
-### CINEMATIC: KIITHLESS
-> I am Vice Admiral Kidara Sasan, commanding Task Force Amalek. Our objective is to locate the gate nexus in this galaxy, secure it for the Hiigaran Empire, and unlock travel between our galaxy and this one.
-
-> I am convinced the ancient Amassari knew of its location. We have been scouring their structures in search of further evidence to point us in the right direction. Our next destination is their ancient capital of Hataldan.
-
-> Vice Admiral, the Progenitor ruins and Amassari structures on them here belong to the Amassari. I can't abide further attacks on their sovereignty with military force.
-
-> Your Kiith have the nerve to claim you respect the sovereignty of those who live here! The Amassari are in the way of the Hiigaran Empire. They will be swept aside, as all others have been, so we can claim our destiny.
-
-> Must the road to Hiigaran ascendancy be paved with the blood of innocents? These are their homes, Vice Admiral!
-
-> Where was this bleeding compassion when six hundred thousand Kushan invaders seized Hiigara? Your hypocrisy disgusts me. We are advancing on Hataldan. It's up to you if you want to follow.
 
 
 
@@ -5805,10 +6013,25 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea
 > Commander, we have arrived at the Bright Temple.
 
 
+### CINEMATIC: KIITHLESS
+> I am Vice Admiral Kidara Sasan, commanding Task Force Amalek. Our objective is to locate the gate nexus in this galaxy, secure it for the Hiigaran Empire, and unlock travel between our galaxy and this one.
+
+> I am convinced the ancient Amassari knew of its location. We have been scouring their structures in search of further evidence to point us in the right direction. Our next destination is their ancient capital of Hataldan.
+
+> Vice Admiral, the Progenitor ruins and Amassari structures on them here belong to the Amassari. I can't abide further attacks on their sovereignty with military force.
+
+> Your Kiith have the nerve to claim you respect the sovereignty of those who live here! The Amassari are in the way of the Hiigaran Empire. They will be swept aside, as all others have been, so we can claim our destiny.
+
+> Must the road to Hiigaran ascendancy be paved with the blood of innocents? These are their homes, Vice Admiral!
+
+> Where was this bleeding compassion when six hundred thousand Kushan invaders seized Hiigara? Your hypocrisy disgusts me. We are advancing on Hataldan. It's up to you if you want to follow.
+
+
 ### Quest: Among the People
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We should take this time to become better acquainted with the Amassari and their culture. Performing tasks for the assorted groups will accomplish this.
 
@@ -5823,7 +6046,8 @@ We should take this time to become better acquainted with the Amassari and their
 ### Quest: Fabrication Methods
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A new technique for refining was discovered from the Amassari. Test this process by refining rare earths.
 
@@ -5838,7 +6062,8 @@ A new technique for refining was discovered from the Amassari. Test this process
 ### Quest: Experience and Knowledge
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Our crews need a new round of training to become familiar with Amassari practices and tactics.
 
@@ -5853,7 +6078,8 @@ Our crews need a new round of training to become familiar with Amassari practice
 ### Quest: Hataldan
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The fallen capital of the Amassari, and last known position of the Observer.
 
@@ -5865,7 +6091,7 @@ The fallen capital of the Amassari, and last known position of the Observer.
 
 
 
-#### Mission: Hataldan
+#### MISSION: HATALDAN
 
 ###### LOCATION:
 
@@ -6046,7 +6272,8 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 ### Quest: The Hunt Begins
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The search begins for Kidara and the stolen Observer. We must examine any objects we can find scattered around for clues about her whereabouts.
 
@@ -6061,7 +6288,8 @@ The search begins for Kidara and the stolen Observer. We must examine any object
 ### Quest: Forcible Interrogation
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Destroying Kiithless ships and scavenging their databanks could fill some gaps in our intelligence about the Kiithless. The hunt continues!
 
@@ -6076,7 +6304,8 @@ Destroying Kiithless ships and scavenging their databanks could fill some gaps i
 ### Quest: Pieces of the Puzzle
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 A cryptic clue that emerged from harvesting Kiithless vessels may have a solution if we can piece together a saga from the Hagthar Empire. Collect relics from these ancient people.
 
@@ -6091,7 +6320,8 @@ A cryptic clue that emerged from harvesting Kiithless vessels may have a solutio
 ### Quest: Nightmare Gulf
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Hagthar knew of pockets and safe regions close to this massive interstellar storm. We now know the way to Kidara's hideout in The Nightmare Gulf. It's time to end this.
 
@@ -6103,7 +6333,7 @@ The Hagthar knew of pockets and safe regions close to this massive interstellar 
 
 
 
-#### Mission: Nightmare Gulf
+#### MISSION: NIGHTMARE GULF
 
 ###### LOCATION:
 
@@ -6272,7 +6502,8 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 ### Quest: Strike at Nightmare Gulf
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 The Hagthar knew of pockets and safe regions close to this massive interstellar storm. We now know the way to Kidara's hideout in The Nightmare Gulf. It's time to end this.
 
@@ -6292,7 +6523,8 @@ The Hagthar knew of pockets and safe regions close to this massive interstellar 
 ### Quest: Gesture of Aid
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We received emergency communication from the Chicuat Elders. They anticipate a raid on one of their remote trading stations. Toci asks us to take on the defense in order to relieve the weakened and overextended Chicuat forces.
 
@@ -6304,7 +6536,7 @@ We received emergency communication from the Chicuat Elders. They anticipate a r
 
 
 
-#### Mission: Repulse Raid T4
+#### MISSION: REPULSE RAID T4
 
 ###### LOCATION:
 
@@ -6378,7 +6610,8 @@ Tanoch Chicuat, Tanoch Tecuban
 ### Quest: In the Shadows
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Intelligence from the Chicuat points to a Tecuban base operating around an uninhabited planet. We must go there and eliminate this base to stop the raids.
 
@@ -6390,7 +6623,7 @@ Intelligence from the Chicuat points to a Tecuban base operating around an uninh
 
 
 
-#### Mission: Base Busting T4
+#### MISSION: BASE BUSTING T4
 
 ###### LOCATION:
 
@@ -6464,7 +6697,8 @@ Tanoch Tecuban, Vaygr
 ### Quest: Attack the Vaygr
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 In our search for the Vaygr involved with the Tecuban, we aquired one of their communication frequencies. If we contact the Vaygr now, we should be able to trace their signal and hyper jump to their exact location.
 
@@ -6476,7 +6710,7 @@ In our search for the Vaygr involved with the Tecuban, we aquired one of their c
 
 
 
-#### Mission: Destination T4
+#### MISSION: DESTINATION T4
 
 ###### LOCATION:
 
@@ -6547,7 +6781,8 @@ Vaygr
 ### Quest: Showdown at the Academy
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 We finally learned Jochik Kaan's intentions. He sparked the flames of war to weaken the Chicuat defenses and steal the Baetyl from Tlapallan Academy, one of their key centers of learning. We must travel there at once, before it is too late.
 
@@ -6559,7 +6794,7 @@ We finally learned Jochik Kaan's intentions. He sparked the flames of war to wea
 
 
 
-#### Mission: Tlapallan Academy T4
+#### MISSION: TLAPALLAN ACADEMY T4
 
 ###### LOCATION:
 
@@ -6679,7 +6914,8 @@ Tanoch Chicuat, Tanoch Tecuban, Vaygr
 ### Quest: The Promised Place
 
 
-**DESCRIPTION:**
+###### DESCRIPTION:
+
 
 Chocoan has provided the coordinates to the next astral conjunction event. Strong hostile forces are to be expected in this system. Our goal is to both protect the civilian pilgrims and find out more about the suspected secret agenda of the Yaot Elders.
 
@@ -6691,7 +6927,7 @@ Chocoan has provided the coordinates to the next astral conjunction event. Stron
 
 
 
-#### Mission: Conjunction T4
+#### MISSION: CONJUNCTION T4
 
 ###### LOCATION:
 

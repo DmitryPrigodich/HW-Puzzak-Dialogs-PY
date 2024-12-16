@@ -8,6 +8,7 @@ from .mission_step_constructor import Mission_Step_Constructor
 
 class Mission_Constructor(Constructor_Base):
     _MISSION_DATA_JSON = "json_bak/MissionData-module.json"
+    _MISS_DIA_REA = "json/mission_dialogs_rearranged.json"
 
     _FILE_NAME = "data/MISSIONS.md"
     _FILE_NAME_TMP = "data/MISSIONS_TMP.md"
@@ -162,7 +163,7 @@ class Mission_Constructor(Constructor_Base):
         # print(f"Mission Desc: {mission_desc_key}")
         if mission_desc_text and mission_desc_text != "-" :
             body_mission += utils.format_br(1)
-            body_mission += utils.format_heading6("DESCRIPTION:")
+            body_mission += utils.format_heading6("Description:")
             body_mission += utils.format_br(1)
             body_mission += utils.format_paragraph(mission_desc_text)
             body_mission += utils.format_br(2)
@@ -174,7 +175,7 @@ class Mission_Constructor(Constructor_Base):
             m_location_faction = m_location["Faction:"]
 
             body_mission += utils.format_br(1)
-            body_mission += utils.format_heading6("LOCATION:")
+            body_mission += utils.format_heading6("Location:")
             body_mission += utils.format_br(1)
             body_mission += utils.format_paragraph(f"{m_location_name} system, {m_location_faction} territory")
             body_mission += utils.format_br(2)
@@ -186,34 +187,19 @@ class Mission_Constructor(Constructor_Base):
             m_factions = mission.get("Factions:")
             faction_list = ", ".join(map(str, m_factions))
 
-            body_mission += utils.format_heading6("FACTIONS INVOLVED:")
+            body_mission += utils.format_heading6("Factions Involved:")
             body_mission += utils.format_br(1)
             body_mission += utils.format_paragraph(faction_list)
             body_mission += utils.format_br(2)
 
         # Dialogs
-        if mission_id.startswith("event_halloween2023_Rashidun"):
-            m_dialogs = self.dia_event_halloween2023_Rashidun
-        elif mission_id.startswith("event_tanWin2023_DefendBase"):
-            m_dialogs = self.dia_event_tanWin2023_DefendBase
-        elif mission_id.startswith("event_tanWin2023_AttackBase"):
-            m_dialogs = self.dia_event_tanWin2023_AttackBase
-        elif mission_id.startswith("event_tanWin2023_Relic"):
-            m_dialogs = self.dia_event_tanWin2023_Relic
-        elif mission_id.startswith("event_tanWin2023_Academy"):
-            m_dialogs = self.dia_event_tanWin2023_Academy
-        elif mission_id.startswith("event_anniversary2023_Wiracoda"):
-            m_dialogs = self.dia_event_anniversary2023_Wiracoda
-        elif mission_id.startswith("event_yaoSpr2024_Conjunction"):
-            m_dialogs = self.dia_event_yaoSpr2024_Conjunction
-        elif mission_id.startswith("event_iyaFal2023_Escort"):
-            m_dialogs = self.dia_event_iyaFal2023_Escort
-        else:
-            m_dialogs = mission.get("DialogSequences:")
+        m_dialogs = mission.get("DialogSequences:")
+        m_dialog_list = utils.read_json(self._MISS_DIA_REA)
+        for m_dialog_key, m_dia_logs in m_dialog_list.items():
+            if mission_id.startswith(m_dialog_key):
+                m_dialogs = m_dia_logs
 
         dialog_data = Dialog_Sequence_Constructor()
-        # print(f"Mission: {mission_id}")
-        # print(f"Mission dialogs: {m_dialogs}")
         if m_dialogs:
             for dialog_id in m_dialogs:
                 body_mission += dialog_data.get_dialog_text(dialog_id)
@@ -224,117 +210,3 @@ class Mission_Constructor(Constructor_Base):
                 body_mission += mission_steps.get_mission_steps_text(mission_step)
 
         return body_mission
-    
-    # Manually setting more appropriate order
-    dia_event_halloween2023_Rashidun = [
-		"e_halloween2023_Rashidun_intro"
-		,"e_halloween2023_Rashidun_malikSee"
-        ,"e_halloween2023_Rashidun_combat"
-		,"e_halloween2023_Rashidun_derelictWave"
-        ,"e_halloween2023_Rashidun_malikRegenA"
-		,"e_halloween2023_Rashidun_derelictDownA"
-        ,"e_halloween2023_Rashidun_malikDestroyA"
-        ,"e_halloween2023_Rashidun_malikRegenB"
-        ,"e_halloween2023_Rashidun_malikWeakened"
-		,"e_halloween2023_Rashidun_malikDestroyB"
-		,"e_halloween2023_Rashidun_derelictDownB"
-        ,"e_halloween2023_Rashidun_malikDeath"
-		,"e_halloween2023_Rashidun_outro"
-    ]
-
-    dia_event_tanWin2023_DefendBase = [
-		"e_tanWin2023_DefendBase_intro"
-		,"e_tanWin2023_DefendBase_firstWave"
-		,"e_tanWin2023_DefendBase_nextWave"
-		,"e_tanWin2023_DefendBase_stationLow"	
-		,"e_tanWin2023_DefendBase_win"
-        ,"e_tanWin2023_DefendBase_fail"
-    ]
-
-    dia_event_tanWin2023_AttackBase = [
-		"e_tanWin2023_AttackBase_intro"
-		,"e_tanWin2023_AttackBase_alert"
-		,"e_tanWin2023_AttackBase_wave"
-        ,"e_tanWin2023_AttackBase_boss"
-		,"e_tanWin2023_AttackBase_vaygr"
-		,"e_tanWin2023_AttackBase_win"
-    ]
-
-    dia_event_tanWin2023_Relic = [
-		"e_tanWin2023_Relic_intro"
-		,"e_tanWin2023_Relic_contact"
-		,"e_tanWin2023_Relic_wave"
-		,"e_tanWin2023_Relic_boss"
-		,"e_tanWin2023_Relic_boss_low"
-		,"e_tanWin2023_Relic_win"
-    ]
-
-    dia_event_tanWin2023_Academy = [
-		"e_tanWin2023_Academy_intro"
-		,"e_tanWin2023_Academy_heyoka"
-		,"e_tanWin2023_Academy_situation"
-		,"e_tanWin2023_Academy_hiigarans"
-		,"e_tanWin2023_Academy_combat"
-		,"e_tanWin2023_Academy_jochikDownA"
-		,"e_tanWin2023_Academy_JochikReturn"
-		,"e_tanWin2023_Academy_academyLow"
-		,"e_tanWin2023_Academy_tepin"
-		,"e_tanWin2023_Academy_jochikDownB"
-		,"e_tanWin2023_Academy_win"
-        ,"e_tanWin2023_Academy_failTepin"
-		,"e_tanWin2023_Academy_failAcademy"
-    ]
-
-    dia_event_anniversary2023_Wiracoda = [
-        "e_anniversary2023_Wiracoda_intro"
-		,"e_anniversary2023_Wiracoda_go"
-		,"e_anniversary2023_Wiracoda_cateIncoming"
-		,"e_anniversary2023_Wiracoda_combat"
-		,"e_anniversary2023_Wiracoda_cateFiller"
-        ,"e_anniversary2023_Wiracoda_connection"
-		,"e_anniversary2023_Wiracoda_progRetreating"
-		,"e_anniversary2023_Wiracoda_MalikComment"
-		,"e_anniversary2023_Wiracoda_MalikA"
-		,"e_anniversary2023_Wiracoda_cateRetreating"
-		,"e_anniversary2023_Wiracoda_standGround"
-		,"e_anniversary2023_Wiracoda_MalikB"
-		,"e_anniversary2023_Wiracoda_progIncoming"
-		,"e_anniversary2023_Wiracoda_regeneration"
-		,"e_anniversary2023_Wiracoda_control"
-		,"e_anniversary2023_Wiracoda_MalikC"
-        ,"e_anniversary2023_Wiracoda_deviceKilled"
-        ,"e_anniversary2023_Wiracoda_deviceLost"
-        ,"e_anniversary2023_Wiracoda_escape"
-    ]
-
-    dia_event_yaoSpr2024_Conjunction = [
-        "e_yaoSpr2024_Conjunction_intro"
-        ,"e_yaoSpr2024_Conjunction_interlude"
-        ,"e_yaoSpr2024_Conjunction_arrival"
-        ,"e_yaoSpr2024_Conjunction_conjunctionA"
-        ,"e_yaoSpr2024_Conjunction_conjunctionB"
-        ,"e_yaoSpr2024_Conjunction_deviation"
-        ,"e_yaoSpr2024_Conjunction_attackA"
-        ,"e_yaoSpr2024_Conjunction_attackB"
-        ,"e_yaoSpr2024_Conjunction_catequil"
-        ,"e_yaoSpr2024_Conjunction_change"
-        ,"e_yaoSpr2024_Conjunction_catequilLow"
-        ,"e_yaoSpr2024_Conjunction_win"
-        ,"e_yaoSpr2024_Conjunction_end"
-        ,"e_yaoSpr2024_Conjunction_fail"
-    ]
-
-    dia_event_iyaFal2023_Escort = [
-	    "e_iyaFall2023_escort_dialog_intro"
-		,"e_iyaFall2023_escort_dialog_go"
-		,"e_iyaFall2023_escort_dialog_wave1A"
-		,"e_iyaFall2023_escort_dialog_mines"
-		,"e_iyaFall2023_escort_dialog_wave1B"
-		,"e_iyaFall2023_escort_dialog_allyLow"
-		,"e_iyaFall2023_escort_dialog_wave2"
-		,"e_iyaFall2023_escort_dialog_countdown"
-		,"e_iyaFall2023_escort_dialog_wave3"
-		,"e_iyaFall2023_escort_dialog_killAll"
-		,"e_iyaFall2023_escort_dialog_win"
-		,"e_iyaFall2023_escort_dialog_fail"
-    ]

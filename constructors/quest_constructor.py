@@ -353,6 +353,37 @@ class Quest_Constructor(Constructor_Base):
         return goal_text
     
     def get_quest_text(self,quest_id):
+        mission_data = Mission_Constructor()
+        string_data = String_Data_Constructor()
+
+        def _get_mission_text(mission_id):
+            mission_text = ""
+            match mission_id:
+                case "story_A01_DuzumiGate":
+                    mission_text += string_data.get_cinematic_text('20')
+                    mission_text += mission_data.get_mission_text(mission_id)
+                case "story_A02_WiracodaGate":
+                    mission_text += string_data.get_cinematic_text('10')
+                    mission_text += mission_data.get_mission_text(mission_id)
+                case "story_A03_GulfTaln":
+                    mission_text += string_data.get_cinematic_text('25')
+                    mission_text += mission_data.get_mission_text(mission_id)
+                case "story_C01_Tanochet":
+                    mission_text += mission_data.get_mission_text(mission_id)
+                    mission_text += string_data.get_cinematic_text('30')
+                case "story_C03_StarTotek":
+                    mission_text += mission_data.get_mission_text(mission_id)
+                    mission_text += string_data.get_cinematic_text('35')
+                case "story_D01_SijinLighthouse":
+                    mission_text += mission_data.get_mission_text(mission_id)
+                    mission_text += string_data.get_cinematic_text('40')
+                case "story_D03_BrightTemple":
+                    mission_text += mission_data.get_mission_text(mission_id)
+                    mission_text += string_data.get_cinematic_text('50')
+                case _:
+                    mission_text += mission_data.get_mission_text(mission_id)
+            return mission_text
+
         body_quest = ""
 
         # print(f"Quest: {quest_id}")
@@ -367,7 +398,7 @@ class Quest_Constructor(Constructor_Base):
         q_description = quest.get('Description:')
         q_description_upd = utils.remove_color(q_description)
 
-        body_quest += utils.format_bold("DESCRIPTION:")
+        body_quest += utils.format_heading6("Description:")
         body_quest += utils.format_br(1)
         body_quest += utils.format_paragraph(q_description_upd)
         body_quest += utils.format_br(2)
@@ -376,25 +407,23 @@ class Quest_Constructor(Constructor_Base):
         q_goals = quest.get('Goals:')
         q_goals_text = self._get_goal_text(q_goals)
         
-        body_quest += utils.format_heading6("GOALS:")
+        body_quest += utils.format_heading6("Goals:")
         body_quest += utils.format_br(1)
         body_quest += utils.format_paragraph(q_goals_text)
         body_quest += utils.format_br(2)
 
         # Missions
-        mission_data = Mission_Constructor()
-        # string_data = String_Data_Constructor()
         for q_goal_order, q_goals in q_goals.items():
             for q_goal in q_goals:
                 if q_goal.get("GoalType:") == "CompleteMission":
                     if "Id" in q_goal.get("GoalParam:"):
                         mission_id = q_goal.get("GoalParam:")["Id"]
-                        body_quest += mission_data.get_mission_text(mission_id)
+                        body_quest += _get_mission_text(mission_id)
 
                     if "Ids" in q_goal.get("GoalParam:"):
                         mission_ids = q_goal.get("GoalParam:")["Ids"]
                         for mission_id in mission_ids.split("|"):
-                            body_quest += mission_data.get_mission_text(mission_id)
+                            body_quest += _get_mission_text(mission_id)
 
         # End-Day Dialogs
         q_end_day_dialog_id = f"{quest_id}_end"
@@ -402,7 +431,7 @@ class Quest_Constructor(Constructor_Base):
         q_end_day_dialog_text = dialog_data.get_dialog_text(q_end_day_dialog_id)
         if q_end_day_dialog_text:
             # print(f"End of Day Dialog: {q_end_day_dialog_id}")
-            body_quest += utils.format_heading6("END-OF-DAY DIALOG:")
+            body_quest += utils.format_heading6("End-of-day-dialog:")
             body_quest += utils.format_br(1)
             body_quest += utils.format_paragraph(q_end_day_dialog_text)
             body_quest += utils.format_br(2)
