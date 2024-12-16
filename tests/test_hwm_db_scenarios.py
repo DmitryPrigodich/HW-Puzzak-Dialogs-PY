@@ -3,6 +3,7 @@ import utils
 
 from constructors.event_constructor import Event_Constructor
 from constructors.chapter_constructor import Chapter_Constructor
+from constructors.string_constructor import String_Data_Constructor
 
 
 def test_events_scenarios_construction():
@@ -43,12 +44,15 @@ def test_events_scenarios_construction():
 def test_chapter_scenarios_construction():
     start_time = time.time()
 
+    string_data = String_Data_Constructor()
+    chapter_data = Chapter_Constructor()
+
     FINAL_DESTINATION = "data_final/ALL_CHAPTER_SCENARIO.md"
 
     body = utils.format_heading1("HOMEWORLD MOBILE CHAPTERS SCRIPT")
     body += utils.format_br(2)
+    body += string_data.get_cinematics_lines("20")
 
-    chapter_data = Chapter_Constructor()
     for chapter_id in chapter_data.get_chapters():
         print(f"Chapter Id: {chapter_id}")
         body += chapter_data.get_chapter_text(chapter_id)

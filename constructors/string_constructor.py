@@ -52,6 +52,8 @@ class String_Data_Constructor(Constructor_Base):
             for number in line_numbers:
                 string_text = self.get_string_by_key(f"cinematic_{number}")
                 body += utils.format_quote(f"{string_text}")
+                body += utils.format_br(1)
+            body += utils.format_br(1)
             return body
 
         if cinematic_id in cinematics_map:

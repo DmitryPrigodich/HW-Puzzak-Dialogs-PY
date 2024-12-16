@@ -1,6 +1,26 @@
 # HOMEWORLD MOBILE CHAPTERS SCRIPT
 
 
+### CINEMATIC: INTRO #1
+> It is fifteen years into the age of S’jet
+
+> Fifteen years since the warlord Makaan met his end at Balcora...
+
+> ...and the Hiigarans claimed the mantle of wisdom left by the ancients.
+
+> In this time of peace and rebuilding, the Hiigarans embraced the gifts of the Progenitors.
+Guided by Sajuuk, new doors of understanding opened to them.
+
+> However, as those with no Kiith gained power on Hiigara, the ancient clans turned their ambitions outward.
+
+> In spite of the pleas by Karan S’jet, each Kiith set out from Hiigara to forge their own destinies.
+
+> Each Kiith and Clan began to construct their own fleets once again. Though the Hiigaran people were unified by destiny,
+new ambitions began seeking different paths. All of the kiith were going their own way.
+
+> All of them were chasing the lost dream of the Progenitors.
+
+
 
 ## Chapter: 0. Arrival
 
@@ -24,6 +44,326 @@ Our arrival in this galaxy was met with tragedy.
 
 
 
+#### Mission: Duzumi Gate
+
+###### LOCATION:
+
+
+LAZARUS system, Hiigaran Medea territory
+
+
+
+`s_duzumi_intro_dialog_5`
+
+**Joanna**
+> Engineering, status of the Progenitor Communicator?
+
+**Crew Member**
+> The Device is integrated and operational. We are receiving telemetry from the gate, all contacts green.
+
+**Joanna**
+> Good. Command, all moorings are clear and we are ready to activate engines.
+
+**Crew Member**
+> All C&C elements are green. Z-Plus thrusters engaged, we have lift-off.
+
+
+
+`s_duzumi_intro_dialog_4`
+
+**Enoch**
+> All commands, this is Admiral Enoch. Task Force Ararat will assemble before Duzumi gate. Departure in five minutes.
+
+
+
+`s_duzumi_intro_dialog_3`
+
+**Joanna**
+> We're behind schedule. Engineering, install the Progenitor Communicator immediately.
+
+**Crew Member**
+> Understood bridge, we're on it.
+
+
+
+`s_duzumi_intro_dialog_2`
+
+**Crew Member**
+> Final component is on its way to the Expedition ship now.
+
+
+
+`s_duzumi_intro_dialog_1`
+
+**Fleet Command**
+> We are T-Minus 5 minutes to gate activation. Task Force Ararat, complete your final loading procedures.
+
+
+### CINEMATIC: INTRO #2
+> Hiigara. Our Home.
+
+> Cast out of their world, the old Kiith clans departed. Some would never return.
+
+> As the Age of S’jet dawned across the universe, the Clans became exiles once again. Among the stars, they sought a new destiny.
+
+> The ancient hyperspace gates beckoned travelers towards new and uncertain worlds.
+With desperation and hope, the Kiith cast their ambitions through the gates.
+
+> What lay beyond would change their fortunes forever.
+
+
+
+`s_duzumi_intro_dialog_8`
+
+**Joanna**
+> Course locked. Destination: Nimbus Galaxy!
+
+
+
+`s_duzumi_intro_dialog_7`
+
+**Enoch**
+> Our expedition to the Nimbus Galaxy is about to begin. May our fortunes be better than those who have preceeded us. Good luck everyone.
+
+
+
+`s_duzumi_intro_dialog_6`
+
+**Crew Member**
+> Progenitor Communicator has connected to the gate. Transmitting activation code now. Gate is activating.
+
+
+#### Mission: Duzumi Gate
+
+###### LOCATION:
+
+
+LAZARUS system, Hiigaran Medea territory
+
+
+###### FACTIONS INVOLVED:
+
+
+Hiigaran Medea
+
+
+
+`s_duzumi_intro_dialog_8`
+
+**Joanna**
+> Course locked. Destination: Nimbus Galaxy!
+
+
+
+`s_duzumi_intro_dialog_7`
+
+**Enoch**
+> Our expedition to the Nimbus Galaxy is about to begin. May our fortunes be better than those who have preceeded us. Good luck everyone.
+
+
+
+`s_duzumi_intro_dialog_6`
+
+**Crew Member**
+> Progenitor Communicator has connected to the gate. Transmitting activation code now. Gate is activating.
+
+
+
+`s_duzumiTut_outro`
+
+**Vashti**
+> Greetings Commander. I hope you're excited to be part of the expedition! Let's make history together.
+
+**Joanna**
+> Acknowledged, vice admiral. We have onboard the Progenitor Communicator and are ready for takeoff.
+
+**Enoch**
+> Commander, take this gift before we leave. Open it once we reach the Nimbus Galaxy, you'll need it.
+
+
+
+`s_duzumiTut_preOutro`
+
+**Joanna**
+> Commander, there are the other flagships! It will be an honor to fly next to Admiral Enoch and Vice Admiral Vasthi.
+
+
+
+`s_duzumiTut_moveTaskForce`
+
+**Enoch**
+> Task Force Ararat, this is Admiral Enoch. All vessels report to the nav point immediately.
+
+
+
+`s_duzumiTut_explosion`
+
+**Fleet Command**
+> Excellent, all systems are operational! Our vessel is ready for whatever we find in the Nimbus galaxy.
+
+
+
+`s_duzumiTut_skill`
+
+**Crew Member**
+> The <color=#FBB03F>Skills</color> are online and ready for activation.
+
+**Joanna**
+> Great timing, we'll need our special abilities to engage stronger targets like this frigate. <color=#FBB03F>Activate our Missile Barrage Skill.</color>
+
+
+
+`s_duzumiTut_attackDrag`
+
+**Joanna**
+> Commander, you can also use the Fleet Tray to <color=#FBB03F>give an attack order</color> by aiming at targets directly.
+
+
+
+`s_duzumiTut_targetFrigate2`
+
+**Fleet Command**
+> Be advised that ships of capital class have greater durability.
+
+
+
+`s_duzumiTut_targetFrigate`
+
+**Fleet Command**
+> A target frigate is being moved into position for additional weapon testing.
+
+
+
+`s_duzumiTut_moveDrag`
+
+**Joanna**
+> You can use the Fleet Tray to <color=#FBB03F>give a move command</color> to ships directly. Let's go to the next position.
+
+
+
+`s_duzumiTut_unitTray`
+
+**Crew Member**
+> The <color=#FBB03F>Fleet Tray</color> has been activated. It shows you all ships in our fleet. Currently that only includes our expedition flagship.
+
+
+
+`s_duzumiTut_praise`
+
+**Joanna**
+> Well done, Commander! Next we'll engage a more challenging target.
+
+
+
+`s_duzumiTut_attackTargetList`
+
+**Joanna**
+> We have clearance to begin live-fire excercises. Awaiting your <color=#FBB03F>command to attack the drones.</color>
+
+
+
+`s_duzumiTut_targetDrones`
+
+**Fleet Command**
+> Practice drones are launched and en-route for their target positions. Good hunting.
+
+
+
+`s_duzumiTut_moveTargetListFill`
+
+**Joanna**
+> Let's test our combat systems. We'll need them on our voyage through the Nimbus Galaxy with Task Force Ararat.
+
+
+
+`s_duzumiTut_moveTargetList`
+
+**Joanna**
+> Now give the order to <color=#FBB03F>move to our target position.</color>
+
+
+
+`s_duzumiTut_targetList`
+
+**Crew Member**
+> Commander, the <color=#FBB03F>Target List</color> has been activated. Use it to interact with objects, enemies, or allies in the vacinity.
+
+
+
+`s_duzumiTut_cameraAuto`
+
+**Joanna**
+> Good. You can also <color=#FBB03F>enable Auto Camera</color>, which will focus on important objects automatically.
+
+
+
+`s_duzumiTut_cameraZoom`
+
+**Joanna**
+> Great! Use the camera to get an overview of your surroundings. Now <color=#FBB03F>pinch to zoom the camera.</color>
+
+
+
+`s_duzumiTut_cameraSwipe`
+
+**Joanna**
+> We'll begin a review of all ship systems before we depart, starting with camera controls. Simply <color=#FBB03F>swipe to move the camera.</color>
+
+
+
+`s_duzumiTut_intro`
+
+**Joanna**
+> Welcome aboard Commander. I hope you're ready for this epic venture. I am Joanna Naabal, your executive officer.
+
+
+
+`s_duzumi_intro_dialog_5`
+
+**Joanna**
+> Engineering, status of the Progenitor Communicator?
+
+**Crew Member**
+> The Device is integrated and operational. We are receiving telemetry from the gate, all contacts green.
+
+**Joanna**
+> Good. Command, all moorings are clear and we are ready to activate engines.
+
+**Crew Member**
+> All C&C elements are green. Z-Plus thrusters engaged, we have lift-off.
+
+
+
+`s_duzumi_intro_dialog_4`
+
+**Enoch**
+> All commands, this is Admiral Enoch. Task Force Ararat will assemble before Duzumi gate. Departure in five minutes.
+
+
+
+`s_duzumi_intro_dialog_3`
+
+**Joanna**
+> We're behind schedule. Engineering, install the Progenitor Communicator immediately.
+
+**Crew Member**
+> Understood bridge, we're on it.
+
+
+
+`s_duzumi_intro_dialog_2`
+
+**Crew Member**
+> Final component is on its way to the Expedition ship now.
+
+
+
+`s_duzumi_intro_dialog_1`
+
+**Fleet Command**
+> We are T-Minus 5 minutes to gate activation. Task Force Ararat, complete your final loading procedures.
+
+
 #### Mission: Wiracoda Gate
 
 ###### LOCATION:
@@ -40,13 +380,21 @@ Hiigaran Medea, Progenitor
 
 ### CINEMATIC: NIMBUS
 > This is my final order to you, Commander.
+
 > Do not allow our people to die in this place.
+
 > Find a way to return through the gates. Fight your way across the universe, if you must.
+
 > Do not let the story of our clans end here among these unfamiliar stars.
+
 > Bring our people home safely. Return to Hiigara. Farewell.
+
 > There is no sign of the Riif-Sa. Or the Khar-Kaalad.
 No Hiigaran signal traffic of any kind is detected.
+
 > We are alone.
+
+
 
 `story_Wiracoda_dialog_end`
 
@@ -3203,11 +3551,16 @@ Tanoch, Yaot
 
 ### CINEMATIC: TANOCHET
 > With great fanfare and jubilation, the Hiigarans were welcomed into the Palace of the Elder Sun.
+
 > The young Emperor, Cazoma, greeted them with intense interest.
 Assailing them with questions, he welcomed the Hiigarans as guests within his domain.
+
 > But another resided as guests among the Tanoch. Introduced as a friend and fellow galactic traveller,
 Cazoma revealed what could not be true.
+
 > Jochik Kaan: Son of Makaan, and Lord of the Vaygr.
+
+
 
 `Story-03-01_attackOver_dialog`
 
@@ -4980,12 +5333,20 @@ Hiigaran Medea, Tanoch
 
 ### CINEMATIC: LIGHTHOUSE
 > Recovered records from the Tanoch reveal little about the area of the Galaxy we are about to enter.
+
 > Their knowledge ends at a zone, that they have called the Nightmare Gulf.
+
 > The Zone is defined by a dense, dark nebula of enormous size.
+
 > We have also detected unusual quantum phenomena, which blocks normal hyperspace travel.
+
 > This kind of anomaly at this scale could have only been created by the Progenitors, possibly another scar from whatever cataclysm which destroyed their civilization.
+
 > There is no information about what lies beyond the zone. Not even myths...
+
 > Prepare for anything.
+
+
 
 `st_farshore_esc_1_dialog`
 
@@ -5342,11 +5703,18 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea
 
 ### CINEMATIC: KIITHLESS
 > I am Vice Admiral Kidara Sasan, commanding Task Force Amalek. Our objective is to locate the gate nexus in this galaxy, secure it for the Hiigaran Empire, and unlock travel between our galaxy and this one.
+
 > I am convinced the ancient Amassari knew of its location. We have been scouring their structures in search of further evidence to point us in the right direction. Our next destination is their ancient capital of Hataldan.
+
 > Vice Admiral, the Progenitor ruins and Amassari structures on them here belong to the Amassari. I can't abide further attacks on their sovereignty with military force.
+
 > Your Kiith have the nerve to claim you respect the sovereignty of those who live here! The Amassari are in the way of the Hiigaran Empire. They will be swept aside, as all others have been, so we can claim our destiny.
+
 > Must the road to Hiigaran ascendancy be paved with the blood of innocents? These are their homes, Vice Admiral!
+
 > Where was this bleeding compassion when six hundred thousand Kushan invaders seized Hiigara? Your hypocrisy disgusts me. We are advancing on Hataldan. It's up to you if you want to follow.
+
+
 
 `st_bTemple_blHgn_3_dialog`
 

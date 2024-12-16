@@ -62,6 +62,10 @@ class Chapter_Constructor(Constructor_Base):
     
 
     def get_chapter_text(self, chapter_id):
+        def _get_quest_text(quest_id):
+            # print(f"Quest Id: {quest_id}")
+            return quest_data.get_quest_text(quest_id)
+
         chapter = self._chapters.get(chapter_id)
         chapter_order = chapter.get("Order:")
         chapter_name = chapter.get("Name:")
@@ -80,9 +84,8 @@ class Chapter_Constructor(Constructor_Base):
                 quests = quest_line_data.get_quests_by_quest_line_id(quest_id.lower())
                 if quests:
                     for quest_id in quests:
-                        body_chapter += quest_data.get_quest_text(quest_id)
+                        body_chapter += _get_quest_text(quest_id)
             else:
-                # print(f"Quest Id: {quest_id}")
-                body_chapter += quest_data.get_quest_text(quest_id)
+                body_chapter += _get_quest_text(quest_id)
 
         return body_chapter

@@ -388,10 +388,12 @@ class Quest_Constructor(Constructor_Base):
             for q_goal in q_goals:
                 if q_goal.get("GoalType:") == "CompleteMission":
                     if "Id" in q_goal.get("GoalParam:"):
-                        mission_ids = q_goal.get("GoalParam:")["Id"]
+                        mission_id = q_goal.get("GoalParam:")["Id"]
+                        body_quest += mission_data.get_mission_text(mission_id)
+
+                    if "Ids" in q_goal.get("GoalParam:"):
+                        mission_ids = q_goal.get("GoalParam:")["Ids"]
                         for mission_id in mission_ids.split("|"):
-                            # if mission_id == "story_A01_DuzumiGate":
-                            #     body_quest += string_data.get_cinematics_lines("20")
                             body_quest += mission_data.get_mission_text(mission_id)
 
         # End-Day Dialogs
