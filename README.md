@@ -76,3 +76,12 @@ Constructors and pages classes are maximally unified to
     * python tests/test_hwm_db_scenarios.py
 
 Every function inside starting with `test_` would be executed, so exclude the test, just add a symbol, underscore (_) for example.
+
+## NOTES
+Well, I've found few things, like
+* old Glossary with mentioning PvP Sarassian Sea/Wars thing with 3 corporation from Iyatequa, Yaot, Tanoch
+* Strike mission "Down the Well", not implemented, but dialogs ready, so, I've added it instead of unfinished amasum2024 event that initially was reusing already existing missions
+* Strike mission "Raid004", not implemented, but mentioning mysterious Gary the Xelassii, Yaotian, that had to help you somehow in Sijin Lighthouse
+* Vaygr unimplemented cinematic about their betrayal and running away with Cazoma
+* Gideon being named Raab S'jet initially
+* and maybe others, but don't recall anymore

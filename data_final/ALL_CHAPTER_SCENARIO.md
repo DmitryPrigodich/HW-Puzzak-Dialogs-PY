@@ -61,13 +61,6 @@ Hiigaran Medea
 
 
 
-`s_duzumiTut_cameraAuto`
-
-**Joanna**
-> Good. You can also <color=#FBB03F>enable Auto Camera</color>, which will focus on important objects automatically.
-
-
-
 `s_duzumiTut_cameraZoom`
 
 **Joanna**
@@ -75,17 +68,10 @@ Hiigaran Medea
 
 
 
-`s_duzumiTut_unitTray`
-
-**Crew Member**
-> The <color=#FBB03F>Fleet Tray</color> has been activated. It shows you all ships in our fleet. Currently that only includes our expedition flagship.
-
-
-
-`s_duzumiTut_moveDrag`
+`s_duzumiTut_cameraAuto`
 
 **Joanna**
-> You can use the Fleet Tray to <color=#FBB03F>give a move command</color> to ships directly. Let's go to the next position.
+> Good. You can also <color=#FBB03F>enable Auto Camera</color>, which will focus on important objects automatically.
 
 
 
@@ -103,10 +89,10 @@ Hiigaran Medea
 
 
 
-`s_duzumiTut_attackTargetList`
+`s_duzumiTut_moveTargetListFill`
 
 **Joanna**
-> We have clearance to begin live-fire excercises. Awaiting your <color=#FBB03F>command to attack the drones.</color>
+> Let's test our combat systems. We'll need them on our voyage through the Nimbus Galaxy with Task Force Ararat.
 
 
 
@@ -117,10 +103,45 @@ Hiigaran Medea
 
 
 
+`s_duzumiTut_attackTargetList`
+
+**Joanna**
+> We have clearance to begin live-fire excercises. Awaiting your <color=#FBB03F>command to attack the drones.</color>
+
+
+
 `s_duzumiTut_praise`
 
 **Joanna**
 > Well done, Commander! Next we'll engage a more challenging target.
+
+
+
+`s_duzumiTut_unitTray`
+
+**Crew Member**
+> The <color=#FBB03F>Fleet Tray</color> has been activated. It shows you all ships in our fleet. Currently that only includes our expedition flagship.
+
+
+
+`s_duzumiTut_moveDrag`
+
+**Joanna**
+> You can use the Fleet Tray to <color=#FBB03F>give a move command</color> to ships directly. Let's go to the next position.
+
+
+
+`s_duzumiTut_targetFrigate`
+
+**Fleet Command**
+> A target frigate is being moved into position for additional weapon testing.
+
+
+
+`s_duzumiTut_targetFrigate2`
+
+**Fleet Command**
+> Be advised that ships of capital class have greater durability.
 
 
 
@@ -138,20 +159,6 @@ Hiigaran Medea
 
 **Joanna**
 > Great timing, we'll need our special abilities to engage stronger targets like this frigate. <color=#FBB03F>Activate our Missile Barrage Skill.</color>
-
-
-
-`s_duzumiTut_targetFrigate`
-
-**Fleet Command**
-> A target frigate is being moved into position for additional weapon testing.
-
-
-
-`s_duzumiTut_targetFrigate2`
-
-**Fleet Command**
-> Be advised that ships of capital class have greater durability.
 
 
 
@@ -1152,34 +1159,10 @@ TOASIIM system, Hiigaran Medea territory
 
 
 
-`story_Relic_collectorLaunched_dialog`
+`story_Relic_intro_dialog`
 
 **Joanna**
-> Resource Collector launched and ready. Now <color=#FBB03F>give the order to retrieve the relic.</color>
-
-
-
-`story_Relic_collectorMissing_dialog`
-
-**Joanna**
-> Commander, I located the relic. <color=#FBB03F>Deploy a Resource Collector</color> to retrieve it.
-
-
-
-`story_Relic_end_dialog`
-
-**Crew Member**
-> Objective Retrieved. The Progenitor Relic has been processed and transferred to storage.
-
-**Gideon S'jet**
-> What a fascinating artifact. I will begin its examination immideately.
-
-
-
-`story_Relic_relic_dialog`
-
-**Gideon S'jet**
-> Commander, I located the relic. <color=#FBB03F>Send a Resource Collector to retrieve it.</color>
+> The relic is up ahead, but there are other signals near it. <color=#FBB03F>Move closer to identify these unkown objects.</color>
 
 
 
@@ -1190,10 +1173,34 @@ TOASIIM system, Hiigaran Medea territory
 
 
 
-`story_Relic_intro_dialog`
+`story_Relic_relic_dialog`
+
+**Gideon S'jet**
+> Commander, I located the relic. <color=#FBB03F>Send a Resource Collector to retrieve it.</color>
+
+
+
+`story_Relic_collectorMissing_dialog`
 
 **Joanna**
-> The relic is up ahead, but there are other signals near it. <color=#FBB03F>Move closer to identify these unkown objects.</color>
+> Commander, I located the relic. <color=#FBB03F>Deploy a Resource Collector</color> to retrieve it.
+
+
+
+`story_Relic_collectorLaunched_dialog`
+
+**Joanna**
+> Resource Collector launched and ready. Now <color=#FBB03F>give the order to retrieve the relic.</color>
+
+
+
+`story_Relic_end_dialog`
+
+**Crew Member**
+> Objective Retrieved. The Progenitor Relic has been processed and transferred to storage.
+
+**Gideon S'jet**
+> What a fascinating artifact. I will begin its examination immideately.
 
 
 ### Quest: Hyeaa Somtaaw
@@ -1277,10 +1284,79 @@ Progenitor, Tanoch
 
 
 
-`story_Jolja_resolution_dialog`
+`story_Jolja_introSequence_dialog`
 
 **Gideon S'jet**
-> Commander, the terminal was damaged in combat. We should accept the Tanoch's invitation and see what they can tell us.
+> Based on my scans of this debris field, a functioning Progenitor computer terminal is here.
+
+**Joanna**
+> Hopefully we can learn why the Progenitor Communicator failed at Wiracoda gate.
+
+
+
+`story_Jolja_openSensor_dialog`
+
+**Crew Member**
+> Commander, we should <color=#FBB03F>open the Sensor Manager</color> to get a tactical reading of our immediate surroundings.
+
+
+
+`story_Jolja_signatures_dialog`
+
+**Joanna**
+> Multiple Progenitor signatures detected. Our fleet is not equipped to fight them all at once. We should <color=#FBB03F>avoid them</color> as best as we can.
+
+
+
+`story_Jolja_closeSensor_dialog`
+
+**Crew Member**
+> Commander, remember that you can <color=#FBB03F>close the Sensor Manager</color> when you don't need it.
+
+
+
+`story_Jolja_terminalA_dialog`
+
+**Gideon S'jet**
+> Sensors indicate this large debris fragment may contain the terminal. <color=#FBB03F>Close in to investigate</color>.
+
+
+
+`story_Jolja_terminalB_dialog`
+
+**Gideon S'jet**
+> No Progenitor computer terminal was found, but sensors identified another strong signal further ahead.
+
+
+
+`story_Jolja_terminalTimer_dialog`
+
+**Crew Member**
+> Scanning the fragment now.
+
+
+
+`story_Jolja_waveA_dialog`
+
+**Gideon S'jet**
+> The terminal is here. Progenitor defenses are activating to protect it. Do not let them interfere with our work!
+
+
+
+`story_Jolja_waveB_dialog`
+
+**Joanna**
+> Commander, more Progenitor drones are activating to attack us. We're at risk of being overwhelmed.
+
+
+
+`story_Jolja_ally_dialog`
+
+**Crew Member**
+> Hyperspace signatures detected! A keeper? No... these ships are of unknown design. Incoming message.
+
+**Tepin Papan**
+> Unidentified ship, stand by, we are here to assist you. We will clear the errant maker drones.
 
 
 
@@ -1300,86 +1376,10 @@ Progenitor, Tanoch
 
 
 
-`story_Jolja_ally_dialog`
-
-**Crew Member**
-> Hyperspace signatures detected! A keeper? No... these ships are of unknown design. Incoming message.
-
-**Tepin Papan**
-> Unidentified ship, stand by, we are here to assist you. We will clear the errant maker drones.
-
-
-
-`story_Jolja_waveB_dialog`
-
-**Joanna**
-> Commander, more Progenitor drones are activating to attack us. We're at risk of being overwhelmed.
-
-
-
-`story_Jolja_waveA_dialog`
+`story_Jolja_resolution_dialog`
 
 **Gideon S'jet**
-> The terminal is here. Progenitor defenses are activating to protect it. Do not let them interfere with our work!
-
-
-
-`story_Jolja_terminalTimer_dialog`
-
-**Crew Member**
-> Scanning the fragment now.
-
-
-
-`story_Jolja_terminalB_dialog`
-
-**Gideon S'jet**
-> No Progenitor computer terminal was found, but sensors identified another strong signal further ahead.
-
-
-
-`story_Jolja_terminalTimer_dialog`
-
-**Crew Member**
-> Scanning the fragment now.
-
-
-
-`story_Jolja_terminalA_dialog`
-
-**Gideon S'jet**
-> Sensors indicate this large debris fragment may contain the terminal. <color=#FBB03F>Close in to investigate</color>.
-
-
-
-`story_Jolja_closeSensor_dialog`
-
-**Crew Member**
-> Commander, remember that you can <color=#FBB03F>close the Sensor Manager</color> when you don't need it.
-
-
-
-`story_Jolja_signatures_dialog`
-
-**Joanna**
-> Multiple Progenitor signatures detected. Our fleet is not equipped to fight them all at once. We should <color=#FBB03F>avoid them</color> as best as we can.
-
-
-
-`story_Jolja_openSensor_dialog`
-
-**Crew Member**
-> Commander, we should <color=#FBB03F>open the Sensor Manager</color> to get a tactical reading of our immediate surroundings.
-
-
-
-`story_Jolja_introSequence_dialog`
-
-**Gideon S'jet**
-> Based on my scans of this debris field, a functioning Progenitor computer terminal is here.
-
-**Joanna**
-> Hopefully we can learn why the Progenitor Communicator failed at Wiracoda gate.
+> Commander, the terminal was damaged in combat. We should accept the Tanoch's invitation and see what they can tell us.
 
 
 ###### END-OF-DAY-DIALOG:
@@ -1684,51 +1684,10 @@ Cangacian, Hiigaran Medea
 
 
 
-`s_shakedown_fin_1_dialog`
-
-**Joanna**
-> The area is secure. Seems like their mistake was raiding a live-fire exercise area.
-
-
-
-`s_shakedown_wave_1_dialog`
-
-**Joanna**
-> Commander... Cangacian hyperspace signatures detected. It looks like we've drawn some attention.
-
-**Joanna**
-> All ships reactivated. Remember to utilize our strike craft as effectively as possible!
-
-
-
-`s_shakedown_destroy_1_dialog`
-
-**Joanna**
-> Combat Trial successful. All targets destroyed.
-
-
-
-`s_shakedown_tut_2_dialog`
+`s_shakedown_intro_1_dialog`
 
 **Fleet Command**
-> Commander, trial timer is set for 3 minutes. Begin your combat trial on this mark.
-
-
-
-`s_shakedown_tut_1_dialog`
-
-**Joanna**
-> Commander, Plasma Bombers are very effective against armored tagets. Use them to attack the Decommissioned Frigates.
-
-**Joanna**
-> Interceptors are perfect to attack other strike craft. You should always order them to attack unarmored targets.
-
-
-
-`s_shakedown_intro_3_dialog`
-
-**Joanna**
-> Thank you Tarsus Command. Flagship and escort are on standby and deactivated until further instructions.
+> Welcome to Tarsus Yard Commander. The combat area is prepared and stands ready.
 
 
 
@@ -1742,10 +1701,58 @@ Cangacian, Hiigaran Medea
 
 
 
-`s_shakedown_intro_1_dialog`
+`s_shakedown_intro_3_dialog`
+
+**Joanna**
+> Thank you Tarsus Command. Flagship and escort are on standby and deactivated until further instructions.
+
+
+
+`s_shakedown_tut_1_dialog`
+
+**Joanna**
+> Commander, Plasma Bombers are very effective against armored tagets. Use them to attack the Decommissioned Frigates.
+
+**Joanna**
+> Interceptors are perfect to attack other strike craft. You should always order them to attack unarmored targets.
+
+
+
+`s_shakedown_tut_2_dialog`
 
 **Fleet Command**
-> Welcome to Tarsus Yard Commander. The combat area is prepared and stands ready.
+> Commander, trial timer is set for 3 minutes. Begin your combat trial on this mark.
+
+
+
+`s_shakedown_destroy_1_dialog`
+
+**Joanna**
+> Combat Trial successful. All targets destroyed.
+
+
+
+`s_shakedown_wave_1_dialog`
+
+**Joanna**
+> Commander... Cangacian hyperspace signatures detected. It looks like we've drawn some attention.
+
+**Joanna**
+> All ships reactivated. Remember to utilize our strike craft as effectively as possible!
+
+
+
+`s_shakedown_fin_1_dialog`
+
+**Joanna**
+> The area is secure. Seems like their mistake was raiding a live-fire exercise area.
+
+
+
+`s_shakedown_fail_1_dialog`
+
+**Fleet Command**
+> Commander, your unit has failed the Combat Trial. We will rest out equipment and you can return to try again.
 
 
 ### Quest: Hostiles
@@ -1884,10 +1891,41 @@ ARIITAR system, Iyatequa territory
 
 
 
-`s_meropis_fail_1_dialog`
+`s_meropis_intro_1_dialog`
+
+**Iyatequa Trader**
+> Hiigarans! Welcome to Meropis station. Your timing is most fortunate, we are about to come under attack from Cangacian Pirates.
+
+**Iyatequa Trader**
+> They are attempting to disable our hyperspace transmitters. Please repel the attackers!
+
+
+
+`s_meropis_group_1_dialog`
 
 **Joanna**
-> Commander, one of the transmitters was destroyed. We have failed.
+> Commander, there are two hyperspace transmitters that need to be defended simultaneously. We must split our fleet into <color=#FBB03F>groups</color>.
+
+
+
+`s_meropis_group_2_dialog`
+
+**Joanna**
+> Great. Assign more units to the group.
+
+
+
+`s_meropis_group_3_dialog`
+
+**Joanna**
+> Send units to both Hyperspace Transmitters!
+
+
+
+`s_meropis_position_1_dialog`
+
+**Iyatequa Trader**
+> Just in time. Here they come!
 
 
 
@@ -1901,34 +1939,10 @@ ARIITAR system, Iyatequa territory
 
 
 
-`s_meropis_position_1_dialog`
-
-**Iyatequa Trader**
-> Just in time. Here they come!
-
-
-
-`s_meropis_group_3_dialog`
+`s_meropis_fail_1_dialog`
 
 **Joanna**
-> Send units to both Hyperspace Transmitters!
-
-
-
-`s_meropis_group_1_dialog`
-
-**Joanna**
-> Commander, there are two hyperspace transmitters that need to be defended simultaneously. We must split our fleet into <color=#FBB03F>groups</color>.
-
-
-
-`s_meropis_intro_1_dialog`
-
-**Iyatequa Trader**
-> Hiigarans! Welcome to Meropis station. Your timing is most fortunate, we are about to come under attack from Cangacian Pirates.
-
-**Iyatequa Trader**
-> They are attempting to disable our hyperspace transmitters. Please repel the attackers!
+> Commander, one of the transmitters was destroyed. We have failed.
 
 
 ### Quest: Signal Tracking
@@ -2149,51 +2163,10 @@ Cangacian
 
 
 
-`s_pool_destroy_1_dialog`
+`s_pool_intro_1_dialog`
 
 **Joanna**
-> The area is cleared of platforms. You should familiarize yourself with weapons ranges and accuracy profiles to be prepared against anything we face in the future.
-
-**Joanna**
-> Commander, sensors report contacts emerging from hyperspace nearby. It’s too soon to be a friendly salvage party.
-
-
-
-`s_pool_closeMis_1_dialog`
-
-**Joanna**
-> Avoid getting too close to the missile platforms, at close range they can inflict heavy damage. Strike craft are most vulnerable to direct hits.
-
-
-
-`s_pool_tutFalloff_1_dialog`
-
-**Joanna**
-> These platforms are of a different type, they are armed with poor quality missiles.
-
-**Joanna**
-> Sensors indicate they can attack at long range, but their accuracy drops off at a distance. We stand a minimal chance of being hit at stand-off range.
-
-
-
-`s_pool_finish_1_dialog`
-
-**Joanna**
-> The area seems secure. If there was a bigger garrison they would have shown up by now. We can signal the Iyatequa to collect their salvage.
-
-
-
-`s_pool_pirates_1_dialog`
-
-**Cangacian Commander**
-> Thieves! Nobody steals from us bandits! Prepare to die!
-
-
-
-`s_pool_closeKin_1_dialog`
-
-**Joanna**
-> Don’t get too close to the kinetic batteries. <color=#FBB03F>Stay out of range</color> to avoid being targeted.
+> Hyperspace jump successful, we’ve arrived at the Pool. The area is littered with pirate loot, but also guarded by defensive platforms.
 
 
 
@@ -2207,10 +2180,51 @@ Cangacian
 
 
 
-`s_pool_intro_1_dialog`
+`s_pool_tutFalloff_1_dialog`
 
 **Joanna**
-> Hyperspace jump successful, we’ve arrived at the Pool. The area is littered with pirate loot, but also guarded by defensive platforms.
+> These platforms are of a different type, they are armed with poor quality missiles.
+
+**Joanna**
+> Sensors indicate they can attack at long range, but their accuracy drops off at a distance. We stand a minimal chance of being hit at stand-off range.
+
+
+
+`s_pool_closeKin_1_dialog`
+
+**Joanna**
+> Don’t get too close to the kinetic batteries. <color=#FBB03F>Stay out of range</color> to avoid being targeted.
+
+
+
+`s_pool_closeMis_1_dialog`
+
+**Joanna**
+> Avoid getting too close to the missile platforms, at close range they can inflict heavy damage. Strike craft are most vulnerable to direct hits.
+
+
+
+`s_pool_destroy_1_dialog`
+
+**Joanna**
+> The area is cleared of platforms. You should familiarize yourself with weapons ranges and accuracy profiles to be prepared against anything we face in the future.
+
+**Joanna**
+> Commander, sensors report contacts emerging from hyperspace nearby. It’s too soon to be a friendly salvage party.
+
+
+
+`s_pool_pirates_1_dialog`
+
+**Cangacian Commander**
+> Thieves! Nobody steals from us bandits! Prepare to die!
+
+
+
+`s_pool_finish_1_dialog`
+
+**Joanna**
+> The area seems secure. If there was a bigger garrison they would have shown up by now. We can signal the Iyatequa to collect their salvage.
 
 
 ### Quest: Hostile History
@@ -3622,37 +3636,17 @@ Tanoch, Yaot
 
 
 
-`Story-03-01_dialog_failure`
-
-**Joanna**
-> Commander, one of the stations has suffered a direct hit! Casualty reports are coming through, it's not looking good.
-
-**Joanna**
-> The Yaot are retreating. Evidently this was a hit and run operation... but did they achieve their objective?
+`Story-03-01_start_dialog`
 
 **Tepin Papan**
-> Starship, we appreciate your assistance, but our emperor has more urgent matters to attend to now. Your visit will have to wait.
+> Welcome to Tanochet. Our Emperor is eager to meet you. Proceed to our orbital station and prepare for docking.
 
 
 
-`Story-03-01_attackOver_dialog`
+`Story-03-01_yaotSpawn_dialog`
 
 **Tepin Papan**
-> Starship, thank you for your assistance. Damage to the stations was minimal, and the People extend their thanks. You are welcome to dock, you have earned it.
-
-
-
-`Story-03-01_torpedo3_dialog`
-
-**Joanna**
-> Commander, two torpedoes have emerged from hyperspace! They're both aiming for the civilian stations!
-
-
-
-`Story-03-01_torpedo2_dialog`
-
-**Joanna**
-> Another hyperspace torpedo has emerged on the far side of sensor range. We must intercept it!
+> Alert! Yaot raiders detected! All ships prepare for intercept!
 
 
 
@@ -3666,17 +3660,44 @@ Tanoch, Yaot
 
 
 
-`Story-03-01_yaotSpawn_dialog`
+`Story-03-01_torpedo2_dialog`
+
+**Joanna**
+> Another hyperspace torpedo has emerged on the far side of sensor range. We must intercept it!
+
+
+
+`Story-03-01_torpedo3_dialog`
+
+**Joanna**
+> Commander, two torpedoes have emerged from hyperspace! They're both aiming for the civilian stations!
+
+
+
+`Story-03-01_attackOver_dialog`
 
 **Tepin Papan**
-> Alert! Yaot raiders detected! All ships prepare for intercept!
+> Starship, thank you for your assistance. Damage to the stations was minimal, and the People extend their thanks. You are welcome to dock, you have earned it.
 
 
 
-`Story-03-01_start_dialog`
+`Story-03-01_dialog_finish`
 
 **Tepin Papan**
-> Welcome to Tanochet. Our Emperor is eager to meet you. Proceed to our orbital station and prepare for docking.
+> Approaching station. Initiating docking procedure. Our emperor is already awaiting you.
+
+
+
+`Story-03-01_dialog_failure`
+
+**Joanna**
+> Commander, one of the stations has suffered a direct hit! Casualty reports are coming through, it's not looking good.
+
+**Joanna**
+> The Yaot are retreating. Evidently this was a hit and run operation... but did they achieve their objective?
+
+**Tepin Papan**
+> Starship, we appreciate your assistance, but our emperor has more urgent matters to attend to now. Your visit will have to wait.
 
 
 ### CINEMATIC: TANOCHET
@@ -4743,6 +4764,53 @@ Progenitor, Vaygr
 
 
 
+`st_startotek_intro_1_dialog`
+
+**Joanna**
+> Hyperspace jump successful.
+
+**Joanna**
+> We are in orbit over what the Tanoch call Star Totek: Their Holy star.
+
+
+
+`st_startotek_intro_2_dialog`
+
+**Joanna**
+> Totek is highly unusual. Outside temperatures are only a fraction of what we would expect for a star of this size.
+
+**Joanna**
+> Though the star has central religious significance to the Tanoch, very little scientific data is publicly known about it.
+
+
+
+`st_startotek_intro_3_dialog`
+
+**Joanna**
+> Comms are still detecting significant Vaygr signal traffic in the area. They seem to be emanating from here.
+
+**Joanna**
+> We need to discover what the Vaygr are doing here, and get a better estimation of their forces.
+
+**Joanna**
+> The presence of a Progenitor debris ring is unusual, but we can use this to get closer to the signal point. Use the debris to shield our ships from the heat of the star.
+
+
+
+`st_startotek_intro_4_dialog`
+
+**Joanna**
+> Fleet Intelligence suggests this is the safest route through the debris to the target area.
+
+
+
+`st_startotek_intro_5_dialog`
+
+**Joanna**
+> There is an area where we can risk damage to flank the Vaygr, if they're there. They won't expect us coming from this vector.
+
+
+
 `st_startotek_debri_1_dialog`
 
 **Joanna**
@@ -4756,17 +4824,45 @@ Progenitor, Vaygr
 
 
 
+`st_startotek_debri_2_dialog`
+
+**Joanna**
+> Warning! We are no longer shielded from the sun. The fleet is taking damage!
+
+
+
+`st_startotek_senti_1_dialog`
+
+**Joanna**
+> Attack drones detected. Be careful maneuvering here, don't let the drones draw you out into the sun.
+
+
+
+`st_startotek_senti_2_dialog`
+
+**Joanna**
+> If we go to the signal point from here, we'll be catching them by complete surprise. Do you wish to cross here?
+
+
+
+`st_startotek_senti_3_dialog`
+
+**Joanna**
+> If we cross here to the signal point, we'll catch anyone out of position. Shall we cross here?
+
+
+
+`st_startotek_senti_4_dialog`
+
+**Joanna**
+> More attack drones. Keep the fleet together Commander, don't let them draw us into the sunlight!
+
+
+
 `st_startotek_vaygr_1_dialog`
 
 **Joanna**
 > We're closing on the location of the Vaygr signal.
-
-
-
-`st_startotek_intro_4_dialog`
-
-**Joanna**
-> Fleet Intelligence suggests this is the safest route through the debris to the target area.
 
 
 
@@ -4789,54 +4885,10 @@ Progenitor, Vaygr
 
 
 
-`st_startotek_intro_3_dialog`
+`st_startotek_battle_1_dialog`
 
 **Joanna**
-> Comms are still detecting significant Vaygr signal traffic in the area. They seem to be emanating from here.
-
-**Joanna**
-> We need to discover what the Vaygr are doing here, and get a better estimation of their forces.
-
-**Joanna**
-> The presence of a Progenitor debris ring is unusual, but we can use this to get closer to the signal point. Use the debris to shield our ships from the heat of the star.
-
-
-
-`st_startotek_intro_2_dialog`
-
-**Joanna**
-> Totek is highly unusual. Outside temperatures are only a fraction of what we would expect for a star of this size.
-
-**Joanna**
-> Though the star has central religious significance to the Tanoch, very little scientific data is publicly known about it.
-
-
-
-`st_startotek_senti_1_dialog`
-
-**Joanna**
-> Attack drones detected. Be careful maneuvering here, don't let the drones draw you out into the sun.
-
-
-
-`st_startotek_vaygr_1_dialog`
-
-**Joanna**
-> We're closing on the location of the Vaygr signal.
-
-
-
-`st_startotek_senti_2_dialog`
-
-**Joanna**
-> If we go to the signal point from here, we'll be catching them by complete surprise. Do you wish to cross here?
-
-
-
-`st_startotek_senti_4_dialog`
-
-**Joanna**
-> More attack drones. Keep the fleet together Commander, don't let them draw us into the sunlight!
+> The Vaygr are attacking. We need to push past them to see what they are planning!
 
 
 
@@ -4844,29 +4896,6 @@ Progenitor, Vaygr
 
 **Joanna**
 > Vaygr reinforcements coming out of Hyperspace!
-
-
-
-`st_startotek_salva_3_dialog`
-
-**Joanna**
-> Based on sensor analysis, this object is a power transmission nodule. It collects energy from the star to beam to distant targets.
-
-**Joanna**
-> There are literally thousands of these arrays in orbit around Totek. It seems Jochik was salvaging a component from them... but we don't know what it is.
-
-**Joanna**
-> We won't find more answers here. We need to continue investigating local systems and inquire among the Tanoch.
-
-
-
-`st_startotek_salva_2_dialog`
-
-**Joanna**
-> He's taunting us. This raises even more questions about what the Vaygr intend to do in Nimbus.
-
-**Joanna**
-> For now lets focus on surviving the moment!
 
 
 
@@ -4895,13 +4924,33 @@ Progenitor, Vaygr
 
 
 
-`st_startotek_intro_1_dialog`
+`st_startotek_salva_2_dialog`
 
 **Joanna**
-> Hyperspace jump successful.
+> He's taunting us. This raises even more questions about what the Vaygr intend to do in Nimbus.
 
 **Joanna**
-> We are in orbit over what the Tanoch call Star Totek: Their Holy star.
+> For now lets focus on surviving the moment!
+
+
+
+`st_startotek_salva_3_dialog`
+
+**Joanna**
+> Based on sensor analysis, this object is a power transmission nodule. It collects energy from the star to beam to distant targets.
+
+**Joanna**
+> There are literally thousands of these arrays in orbit around Totek. It seems Jochik was salvaging a component from them... but we don't know what it is.
+
+**Joanna**
+> We won't find more answers here. We need to continue investigating local systems and inquire among the Tanoch.
+
+
+
+`st_startotek_debri_3_dialog`
+
+**Joanna**
+> Initiating Emergency hyperspace! Commander, we have to clear the range of the sun and repair the fleet before we can continue.
 
 
 ### CINEMATIC: VAYGR BETRAYAL
@@ -5519,92 +5568,16 @@ Hiigaran Medea, Tanoch
 
 
 
-`Story-S2-01-Lighthouse_dialog_fail`
+`st_farshore_intro_dialog`
 
 **Joanna**
-> Commander, the Khar-Kaalad has been hit! We must withdraw!
-
-
-
-`st_farshore_esc_2_dialog`
+> We've arrived at the location of the Khar-Kalaad's distress signal.
 
 **Joanna**
-> We have its destination vector. When we have a powerful enough engine, we can pursue.
-
-
-
-`st_farshore_esc_1_dialog`
+> I've marked the Khar-Kalaad's exact position on the Sensor's manager. We should investigate.
 
 **Joanna**
-> Our engines aren't powerful enough to pursue the Progenitor object.
-
-
-
-`st_farshore_eye_2_dialog`
-
-**Vashti**
-> What is that?
-
-**Joanna**
-> There's no corresponding craft of this type in our database on the Progenitors.
-
-**Observer**
-> (Unable to translate)
-
-
-
-`st_farshore_hodor_4_dialog`
-
-**Joanna**
-> We can't take much more of this.
-
-**Crew Member**
-> Command, this tower is a navigational aid. It's used to cross the nearby unstable nebula to reach the other side.
-
-**Joanna**
-> A tightrope into the maelstrom?
-
-
-
-`st_farshore_hodor_3_dialog`
-
-**Crew Member**
-> Commander, Cryptography reports there's no cartographic data here.
-
-**Vashti**
-> Are you certain?
-
-**Crew Member**
-> Yes Vice Admiral. We're continuing to investigate.
-
-
-
-`st_farshore_hodor_2_dialog`
-
-**Joanna**
-> Engineering, what's your status?
-
-**Crew Member**
-> Connection is being completed now, command. Cryptography is trying to input signal.
-
-**Joanna**
-> We don't have much time. Another wave is incoming.
-
-
-
-`st_farshore_hodor_1_dialog`
-
-**Joanna**
-> Our salvage team has docked with the Lighthouse. They're connecting with the Khar-Kalaad's team now.
-
-**Vashti**
-> Commander, we have incoming hyperspace signatures at distance.
-
-**Tanoch Commander**
-> Intruders, this site is holy. Surrender your vessels and prepare to be boarded.
-
-**Joanna**
-> These are Tanoch Temple guardians. We must have offended some Tanoch religious taboo by coming here.
+> We have no response to outgoing signals, so either Vice Admiral Vashti is keeping a low profile, or it's a trap. Proceed with caution.
 
 
 
@@ -5636,16 +5609,119 @@ Hiigaran Medea, Tanoch
 
 
 
-`st_farshore_intro_dialog`
+`st_farshore_start_dialog`
 
 **Joanna**
-> We've arrived at the location of the Khar-Kalaad's distress signal.
+> In order to establish a connection we'll need to dock a resource controller with the Lighthouse. Target is designated.
+
+
+
+`st_farshore_hodor_1_dialog`
 
 **Joanna**
-> I've marked the Khar-Kalaad's exact position on the Sensor's manager. We should investigate.
+> Our salvage team has docked with the Lighthouse. They're connecting with the Khar-Kalaad's team now.
+
+**Vashti**
+> Commander, we have incoming hyperspace signatures at distance.
+
+**Tanoch Commander**
+> Intruders, this site is holy. Surrender your vessels and prepare to be boarded.
 
 **Joanna**
-> We have no response to outgoing signals, so either Vice Admiral Vashti is keeping a low profile, or it's a trap. Proceed with caution.
+> These are Tanoch Temple guardians. We must have offended some Tanoch religious taboo by coming here.
+
+
+
+`st_farshore_hodor_2_dialog`
+
+**Joanna**
+> Engineering, what's your status?
+
+**Crew Member**
+> Connection is being completed now, command. Cryptography is trying to input signal.
+
+**Joanna**
+> We don't have much time. Another wave is incoming.
+
+
+
+`st_farshore_hodor_3_dialog`
+
+**Crew Member**
+> Commander, Cryptography reports there's no cartographic data here.
+
+**Vashti**
+> Are you certain?
+
+**Crew Member**
+> Yes Vice Admiral. We're continuing to investigate.
+
+
+
+`st_farshore_hodor_4_dialog`
+
+**Joanna**
+> We can't take much more of this.
+
+**Crew Member**
+> Command, this tower is a navigational aid. It's used to cross the nearby unstable nebula to reach the other side.
+
+**Joanna**
+> A tightrope into the maelstrom?
+
+
+
+`st_farshore_eye_1_dialog`
+
+**Vashti**
+> More ships are approaching through hyperspace. We cannot delay, any longer and we won't be able to escape safely.
+
+**Crew Member**
+> We're close to gaining navigational data to guide us to the other end of the bridge network. We need more time!
+
+**Joanna**
+> Commander... something... odd is happening right above us!
+
+
+
+`st_farshore_eye_2_dialog`
+
+**Vashti**
+> What is that?
+
+**Joanna**
+> There's no corresponding craft of this type in our database on the Progenitors.
+
+**Observer**
+> (Unable to translate)
+
+
+
+`st_farshore_eye_3_dialog`
+
+**Vashti**
+> The light house is projecting a massive quantum tunnel! Reading coordinates...
+
+
+
+`st_farshore_esc_1_dialog`
+
+**Joanna**
+> Our engines aren't powerful enough to pursue the Progenitor object.
+
+
+
+`st_farshore_esc_2_dialog`
+
+**Joanna**
+> We have its destination vector. When we have a powerful enough engine, we can pursue.
+
+
+
+`Story-S2-01-Lighthouse_dialog_fail`
+
+**Joanna**
+> Commander, the Khar-Kaalad has been hit! We must withdraw!
 
 
 ### CINEMATIC: LIGHTHOUSE
@@ -5723,53 +5799,58 @@ Amassari, Hiigaran Medea
 
 
 
-`st_iliyin_fail_1_dialog`
+`st_iliyin_intro_1_dialog`
 
 **Joanna**
-> Commander, the Khar-Kaalad has been hit! We must withdraw!
-
-
-
-`st_iliyin_observer_2_dialog`
+> Hyperspace jump completed. Looks like the lighthouse guided us successfully through the maelstrom.
 
 **Vashti**
-> My God... what just happened?
-
-**Amassari**
-> Traveler, we are the family Alut of the Amassari. The Observer has blessed you, attacking you was our error.
-
-**Vashti**
-> What was that thing? Where was it going?
-
-**Amassari**
-> The Observer is a herald of change. It comes to us in times of great upheaval, we know nothing more beyond this.
-
-**Amassari**
-> Travel to Bright Temple, some distance inward. The Family Talot there will tell you more.
+> No sign of any recent activity here. This region of space is uncharted to everyone we've met so far in Nimbus.
 
 
 
-`st_iliyin_push_2_dialog`
+`st_iliyin_intro_2_dialog`
 
 **Vashti**
-> Prepare for hyperspace!
+> This is amazing, no other empire we've encountered has been able to build into the Progenitor Ruins as we have.
+
+
+
+`st_iliyin_investigation_1_dialog`
+
+**Vashti**
+> These people might have information about the Progenitors we haven't collected yet. We must investigate.
+
+
+
+`st_iliyin_investigation_2_dialog`
+
+**Vashti**
+> Commander, my sensor officer has detected hyperspace signatures emerging at some distance. Be on alert, we're not alone here.
+
+
+
+`st_iliyin_amassari_1_dialog`
+
+**Amassari**
+> (Amassari language, no translation available).
 
 **Joanna**
-> Commander! Mothership-class signature appearing above us!
+> Linguistics is trying to work on a translation database now.
 
 
 
-`st_iliyin_countdown_1_dialog`
-
-**Joanna**
-> That's the last Hyperspace Inhibitor, the effect will clear in a minute. Defend the fleet until then!
-
-
-
-`st_iliyin_anchors_1_dialog`
+`st_iliyin_breakwater_1_dialog`
 
 **Vashti**
-> The Hyperspace Inhibitors are located here. They must be disabled if we have any hope of escape.
+> Until we can communicate we must stand our ground.
+
+
+
+`st_iliyin_breakwater_2_dialog`
+
+**Joanna**
+> More craft incoming. Their armor is stronger than any ship we've encountered in Nimbus. This will be tough.
 
 
 
@@ -5792,58 +5873,101 @@ Amassari, Hiigaran Medea
 
 
 
-`st_iliyin_breakwater_2_dialog`
-
-**Joanna**
-> More craft incoming. Their armor is stronger than any ship we've encountered in Nimbus. This will be tough.
-
-
-
-`st_iliyin_breakwater_1_dialog`
+`st_iliyin_anchors_1_dialog`
 
 **Vashti**
-> Until we can communicate we must stand our ground.
+> The Hyperspace Inhibitors are located here. They must be disabled if we have any hope of escape.
 
 
 
-`st_iliyin_amassari_1_dialog`
+`st_iliyin_anchors_2_dialog`
+
+**Joanna**
+> First Inhibitor destroyed.
+
+
+
+`st_iliyin_anchors_3_dialog`
+
+**Joanna**
+> Second Hyperspace Inhibitor Destroyed.
+
+
+
+`st_iliyin_countdown_1_dialog`
+
+**Joanna**
+> That's the last Hyperspace Inhibitor, the effect will clear in a minute. Defend the fleet until then!
+
+
+
+`st_iliyin_anchors_4_dialog`
+
+**Joanna**
+> That's the last Inhibitor, we're clear to depart.
+
+**Joanna**
+> Command be advised, Progenitor attack drones are active in the area.
+
+**Vashti**
+> They don't appear to be reacting to anything specific, but they stand in our way.
+
+
+
+`st_iliyin_anchors_5_dialog`
+
+**Joanna**
+> Command be advised, Progenitor attack drones are active in the area.
+
+
+
+`st_iliyin_push_1_dialog`
+
+**Joanna**
+> The effect will clear in a few minutes. Defend the fleet until then!
+
+
+
+`st_iliyin_push_2_dialog`
+
+**Vashti**
+> Prepare for hyperspace!
+
+**Joanna**
+> Commander! Mothership-class signature appearing above us!
+
+
+
+`st_iliyin_observer_1_dialog`
+
+**Observer**
+> (Unintelligible Progenitor)
+
+
+
+`st_iliyin_observer_2_dialog`
+
+**Vashti**
+> My God... what just happened?
 
 **Amassari**
-> (Amassari language, no translation available).
+> Traveler, we are the family Alut of the Amassari. The Observer has blessed you, attacking you was our error.
+
+**Vashti**
+> What was that thing? Where was it going?
+
+**Amassari**
+> The Observer is a herald of change. It comes to us in times of great upheaval, we know nothing more beyond this.
+
+**Amassari**
+> Travel to Bright Temple, some distance inward. The Family Talot there will tell you more.
+
+
+
+`st_iliyin_fail_1_dialog`
 
 **Joanna**
-> Linguistics is trying to work on a translation database now.
-
-
-
-`st_iliyin_investigation_2_dialog`
-
-**Vashti**
-> Commander, my sensor officer has detected hyperspace signatures emerging at some distance. Be on alert, we're not alone here.
-
-
-
-`st_iliyin_investigation_1_dialog`
-
-**Vashti**
-> These people might have information about the Progenitors we haven't collected yet. We must investigate.
-
-
-
-`st_iliyin_intro_2_dialog`
-
-**Vashti**
-> This is amazing, no other empire we've encountered has been able to build into the Progenitor Ruins as we have.
-
-
-
-`st_iliyin_intro_1_dialog`
-
-**Joanna**
-> Hyperspace jump completed. Looks like the lighthouse guided us successfully through the maelstrom.
-
-**Vashti**
-> No sign of any recent activity here. This region of space is uncharted to everyone we've met so far in Nimbus.
+> Commander, the Khar-Kaalad has been hit! We must withdraw!
 
 
 ### Quest: Amassari Relations
@@ -5922,55 +6046,24 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea
 
 
 
-`st_bTemple_blHgn_3_dialog`
-
-**Kidara**
-> The Kiith? It would be you to appear and spoil my victory.
-
-**Vashti**
-> I should have known we would encounter the Kiithless eventually. They have nothing but disdain for us Kiith clans. Tread carefully.
-
-
-
-`st_bTemple_blHgn_2_dialog`
-
-**Kidara**
-> They're broken! A bounty for anyone who can sink a squatter's ship. Leave no survivors!
-
-
-
-`st_bTemple_blHgn_1_dialog`
-
-**Kidara**
-> Finally cracked this chestnut! All teams, move in. We'll begin salvage operations as soon as we finish mopping up.
-
-
-
-`st_bTemple_caval_1_dialog`
-
-**Vashti**
-> Hyperspace Inhibitors destroyed. We can retreat at will. Wait... The temple is under attack from another force. They're... Hiigaran?
-
-
-
-`st_bTemple_escap_1_dialog`
+`st_bTemple_intro_1_dialog`
 
 **Joanna**
-> We should escape and regroup, but the Amassari have activated Hyperspace Inhibitors to pin us. We must destroy them!
+> Commander, we have arrived at the Bright Temple.
 
 
 
-`st_bTemple_retre_1_dialog`
+`st_bTemple_intro_2_dialog`
 
 **Vashti**
-> Pull back and regroup. We cannot negotiate under these circumstances.
+> Hopefully the Talot, the Amassari family living here, can tell us more about the Observer.
 
 
 
-`st_bTemple_chall_2_dialog`
+`st_bTemple_appro_1_dialog`
 
 **Joanna**
-> They've cut the communication link! We are under attack!
+> This site is holy to the Amassari. We should approach with caution.
 
 
 
@@ -5984,10 +6077,55 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea
 
 
 
-`st_bTemple_appro_1_dialog`
+`st_bTemple_chall_2_dialog`
 
 **Joanna**
-> This site is holy to the Amassari. We should approach with caution.
+> They've cut the communication link! We are under attack!
+
+
+
+`st_bTemple_retre_1_dialog`
+
+**Vashti**
+> Pull back and regroup. We cannot negotiate under these circumstances.
+
+
+
+`st_bTemple_escap_1_dialog`
+
+**Joanna**
+> We should escape and regroup, but the Amassari have activated Hyperspace Inhibitors to pin us. We must destroy them!
+
+
+
+`st_bTemple_caval_1_dialog`
+
+**Vashti**
+> Hyperspace Inhibitors destroyed. We can retreat at will. Wait... The temple is under attack from another force. They're... Hiigaran?
+
+
+
+`st_bTemple_blHgn_1_dialog`
+
+**Kidara**
+> Finally cracked this chestnut! All teams, move in. We'll begin salvage operations as soon as we finish mopping up.
+
+
+
+`st_bTemple_blHgn_2_dialog`
+
+**Kidara**
+> They're broken! A bounty for anyone who can sink a squatter's ship. Leave no survivors!
+
+
+
+`st_bTemple_blHgn_3_dialog`
+
+**Kidara**
+> The Kiith? It would be you to appear and spoil my victory.
+
+**Vashti**
+> I should have known we would encounter the Kiithless eventually. They have nothing but disdain for us Kiith clans. Tread carefully.
 
 
 
@@ -5995,20 +6133,6 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea
 
 **Joanna**
 > Commander, the Khar-Kaalad has been hit! We must withdraw!
-
-
-
-`st_bTemple_intro_2_dialog`
-
-**Vashti**
-> Hopefully the Talot, the Amassari family living here, can tell us more about the Observer.
-
-
-
-`st_bTemple_intro_1_dialog`
-
-**Joanna**
-> Commander, we have arrived at the Bright Temple.
 
 
 ### CINEMATIC: KIITHLESS
@@ -6111,72 +6235,73 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`s_hataldan_dialog_conclusion`
-
-**Amassari**
-> Hiigarans, I am Elder Kotlan of the Lyad. Your bravery does not go amiss, but neither does the behavior of your ally. What are your intentions?
-
-**Vashti**
-> We were betrayed by one of our own. On our honor as exiles, we will free the Observer and punish its captor.
-
-**Amassari**
-> If you do this on behalf of the Makers, your name will be spoken and remembered by all Amassari. Good fortune to you.
-
-
-
-`s_hataldan_dialog_fightWon`
+`s_hataldan_dialog_intro1`
 
 **Joanna**
-> The final keeper is destroyed, area cleared! We did it!
+> Hyperspace jump complete. This is Hataldan, capital of the ancient Hagthar Empire, the ancestors of the Amassari.
 
 
 
-`s_hataldan_dialog_empOff_1`
-
-**Vashti**
-> The Keepers are showing signs of reactivation! Prepare for incoming fire until the second charge is energized.
-
-
-
-`s_hataldan_dialog_empFired_1`
+`s_hataldan_dialog_intro2`
 
 **Vashti**
-> First EMP fired. The Keepers are stunned, it worked! Inflict as much damage as possible!
+> The Observer is here. Tread carefully, the Amassari seem to be arranged in some sort of ritual.
 
 
 
-`s_hataldan_dialog_failKill`
+`s_hataldan_dialog_intro3`
+
+**Kidara**
+> As if these barbarians are any threat to us. We are here for the Observer, what do we care if we offend them?
+
+
+
+`s_hataldan_dialog_approach`
 
 **Joanna**
-> The keepers are calling to other Progenitor automations, we must leave immediately. Initate emergency hyperspace jump!
+> The Observer itself is sending us coordinates. I think it's an invitation to approach.
 
 
 
-`s_hataldan_dialog_empFired_3`
-
-**Vashti**
-> Third EMP fired. This is our final chance to destroy the keepers, hold back nothing!
-
-
-
-`s_hataldan_dialog_empOff_2`
+`s_hataldan_dialog_interlude`
 
 **Vashti**
-> The Keepers are reactivating! Expect the attacks to resume any moment.
+> This many keepers in one place makes me nervous. Stay alert commander.
 
 
 
-`s_hataldan_dialog_empFired_2`
+`s_hataldan_dialog_observer1`
+
+**Observer**
+> Children of Hiigara, you are welcomed. Your quest is known to us.
+
+
+
+`s_hataldan_dialog_observer2`
+
+**Observer**
+> The ancient roads are broken, only few remain standing between your world and ours. They are remembered in a place called-
+
+
+
+`s_hataldan_dialog_abduction1`
+
+**Kidara**
+> All units, close in and secure the objective. Target hyperspace coordinates for fallback position Delta, Aurex.
+
+
+
+`s_hataldan_dialog_abduction2`
 
 **Vashti**
-> Second EMP fired. Keepers are shutting down. All ships engage!
+> Vice Admiral Kidara, stop this! You're endangering us all!
 
 
 
-`s_hataldan_dialog_fight`
+`s_hataldan_dialog_abduction3`
 
-**Vashti**
-> The keepers are here. Avoid contact until the EMP is ready. First charge energizing now.
+**Kidara**
+> That's not my problem, Vice Admiral. I'm sure you Kiithid will figure it out. Meanwhile, I have a job to do. Fleet, hyperspace in five!
 
 
 
@@ -6193,73 +6318,72 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`s_hataldan_dialog_abduction3`
-
-**Kidara**
-> That's not my problem, Vice Admiral. I'm sure you Kiithid will figure it out. Meanwhile, I have a job to do. Fleet, hyperspace in five!
-
-
-
-`s_hataldan_dialog_abduction2`
+`s_hataldan_dialog_fight`
 
 **Vashti**
-> Vice Admiral Kidara, stop this! You're endangering us all!
+> The keepers are here. Avoid contact until the EMP is ready. First charge energizing now.
 
 
 
-`s_hataldan_dialog_abduction1`
-
-**Kidara**
-> All units, close in and secure the objective. Target hyperspace coordinates for fallback position Delta, Aurex.
-
-
-
-`s_hataldan_dialog_observer2`
-
-**Observer**
-> The ancient roads are broken, only few remain standing between your world and ours. They are remembered in a place called-
-
-
-
-`s_hataldan_dialog_observer1`
-
-**Observer**
-> Children of Hiigara, you are welcomed. Your quest is known to us.
-
-
-
-`s_hataldan_dialog_interlude`
+`s_hataldan_dialog_empFired_1`
 
 **Vashti**
-> This many keepers in one place makes me nervous. Stay alert commander.
+> First EMP fired. The Keepers are stunned, it worked! Inflict as much damage as possible!
 
 
 
-`s_hataldan_dialog_approach`
+`s_hataldan_dialog_empOff_1`
+
+**Vashti**
+> The Keepers are showing signs of reactivation! Prepare for incoming fire until the second charge is energized.
+
+
+
+`s_hataldan_dialog_empFired_2`
+
+**Vashti**
+> Second EMP fired. Keepers are shutting down. All ships engage!
+
+
+
+`s_hataldan_dialog_empOff_2`
+
+**Vashti**
+> The Keepers are reactivating! Expect the attacks to resume any moment.
+
+
+
+`s_hataldan_dialog_empFired_3`
+
+**Vashti**
+> Third EMP fired. This is our final chance to destroy the keepers, hold back nothing!
+
+
+
+`s_hataldan_dialog_fightWon`
 
 **Joanna**
-> The Observer itself is sending us coordinates. I think it's an invitation to approach.
+> The final keeper is destroyed, area cleared! We did it!
 
 
 
-`s_hataldan_dialog_intro3`
+`s_hataldan_dialog_conclusion`
 
-**Kidara**
-> As if these barbarians are any threat to us. We are here for the Observer, what do we care if we offend them?
-
-
-
-`s_hataldan_dialog_intro2`
+**Amassari**
+> Hiigarans, I am Elder Kotlan of the Lyad. Your bravery does not go amiss, but neither does the behavior of your ally. What are your intentions?
 
 **Vashti**
-> The Observer is here. Tread carefully, the Amassari seem to be arranged in some sort of ritual.
+> We were betrayed by one of our own. On our honor as exiles, we will free the Observer and punish its captor.
+
+**Amassari**
+> If you do this on behalf of the Makers, your name will be spoken and remembered by all Amassari. Good fortune to you.
 
 
 
-`s_hataldan_dialog_intro1`
+`s_hataldan_dialog_failKill`
 
 **Joanna**
-> Hyperspace jump complete. This is Hataldan, capital of the ancient Hagthar Empire, the ancestors of the Amassari.
+> The keepers are calling to other Progenitor automations, we must leave immediately. Initate emergency hyperspace jump!
 
 
 
@@ -6267,6 +6391,13 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 **Joanna**
 > Commander, the Khar-Kaalad has been hit! We must withdraw!
+
+
+
+`s_hataldan_dialog_failAmassari`
+
+**Joanna**
+> Commander, we failed to defend the Amassari ships. Critical mission failure!
 
 
 
@@ -6353,24 +6484,24 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`s_nightmareGulf_dialog_failKharKalaad`
+`s_nightmareGulf_dialog_introA`
 
 **Joanna**
-> Commander, the Khar-Kaalad has been hit! We must withdraw!
+> Hyperspace jump complete. The Nightmare Gulf is still disrupting sensors. We would never have found this place without the Hagthar.
 
 
 
-`s_nightmareGulf_dialog_station`
+`s_nightmareGulf_dialog_introB`
 
-**Kidara**
-> You may destroy my station, but I will fight to the last!
+**Vashti**
+> The Kiithless have built a stronghold in the nebula. There are heavy defenses. This must be Kidara's main base.
 
 
 
-`s_nightmareGulf_dialog_freeObserver`
+`s_nightmareGulf_dialog_introC`
 
-**Observer**
-> The Observer awakens. Now we shall end this conflict, together.
+**Joanna**
+> The Observer is here. It is being chained by EMP-beams of custom design. We must destroy these platforms to set the Observer free.
 
 
 
@@ -6381,17 +6512,10 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`s_nightmareGulf_dialog_kidaraSpawnD`
+`s_nightmareGulf_dialog_kidaraSpawnA`
 
 **Kidara**
-> Lies and cowardice. The secrets of the Progenitors are ours. If you will not join me, then die and be forgotten as you should have been on Kharak!
-
-
-
-`s_nightmareGulf_dialog_kidaraSpawnC`
-
-**Joanna**
-> Kidara, please see reason! This path to power is the path to ruin! It destroyed the ancient Hiigarans! It destroyed the Hagthar!
+> I knew you arrogant Kiithid couldn't resist one last attempt to stop our plans. It will not matter. I will crush the Amassari and bring glory to Hiigara.
 
 
 
@@ -6402,10 +6526,17 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`s_nightmareGulf_dialog_kidaraSpawnA`
+`s_nightmareGulf_dialog_kidaraSpawnC`
+
+**Joanna**
+> Kidara, please see reason! This path to power is the path to ruin! It destroyed the ancient Hiigarans! It destroyed the Hagthar!
+
+
+
+`s_nightmareGulf_dialog_kidaraSpawnD`
 
 **Kidara**
-> I knew you arrogant Kiithid couldn't resist one last attempt to stop our plans. It will not matter. I will crush the Amassari and bring glory to Hiigara.
+> Lies and cowardice. The secrets of the Progenitors are ours. If you will not join me, then die and be forgotten as you should have been on Kharak!
 
 
 
@@ -6413,60 +6544,6 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 **Vashti**
 > It's either Kidara's way or ours. We must stop her!
-
-
-
-`s_nightmareGulf_dialog_end`
-
-**Amassari**
-> What you have done today is worthy of tales and legends, you have returned the Observer to us. Our thanks to you is without end.
-
-**Joanna**
-> We had to make our transgression right. But we have to ask, what is Ya' Axtche? What did the Observer mean?
-
-**Amassari**
-> It is an ancient word, one of our oldest, from before the days of our ancestors. Ya' Axtche is the World Tree, the beating heart of the universe.
-
-
-
-`s_nightmareGulf_dialog_observerC`
-
-**Observer**
-> All paths converge at Ya' Axtche. Begin your quest at the Five Watchers. All other paths you find will fail.
-
-
-
-`s_nightmareGulf_dialog_observerB`
-
-**Observer**
-> The road of the ancients is fractured. All paths to Archara are blocked by ancient order. Only one road remains that will lead you home.
-
-
-
-`s_nightmareGulf_dialog_observerA`
-
-**Observer**
-> Children of Hiigara. Continuity resumes. What was unbalanced is now steadied. The path resumes its shape.
-
-
-
-`s_nightmareGulf_dialog_win`
-
-**Joanna**
-> Even to the end, Kidara couldn't allow others to win. The zeal of these Kiithless is disturbing.
-
-**Vashti**
-> She could have been so much more if she just set aside her pride for the sake of others. Now she's gone, along with all who followed her.
-
-**Joanna**
-> What matters is that the Observer is freed. The Amassari are coming in. They're celebrating.
-
-
-
-`s_nightmareGulf_dialog_destruct`
-
-**Kidara**
-> I curse you with my last breath, Kiithid! You'll die here with me. You will never see our Homeworld again!
 
 
 
@@ -6484,24 +6561,78 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`s_nightmareGulf_dialog_introC`
+`s_nightmareGulf_dialog_station`
+
+**Kidara**
+> You may destroy my station, but I will fight to the last!
+
+
+
+`s_nightmareGulf_dialog_freeObserver`
+
+**Observer**
+> The Observer awakens. Now we shall end this conflict, together.
+
+
+
+`s_nightmareGulf_dialog_destruct`
+
+**Kidara**
+> I curse you with my last breath, Kiithid! You'll die here with me. You will never see our Homeworld again!
+
+
+
+`s_nightmareGulf_dialog_win`
 
 **Joanna**
-> The Observer is here. It is being chained by EMP-beams of custom design. We must destroy these platforms to set the Observer free.
-
-
-
-`s_nightmareGulf_dialog_introB`
+> Even to the end, Kidara couldn't allow others to win. The zeal of these Kiithless is disturbing.
 
 **Vashti**
-> The Kiithless have built a stronghold in the nebula. There are heavy defenses. This must be Kidara's main base.
-
-
-
-`s_nightmareGulf_dialog_introA`
+> She could have been so much more if she just set aside her pride for the sake of others. Now she's gone, along with all who followed her.
 
 **Joanna**
-> Hyperspace jump complete. The Nightmare Gulf is still disrupting sensors. We would never have found this place without the Hagthar.
+> What matters is that the Observer is freed. The Amassari are coming in. They're celebrating.
+
+
+
+`s_nightmareGulf_dialog_observerA`
+
+**Observer**
+> Children of Hiigara. Continuity resumes. What was unbalanced is now steadied. The path resumes its shape.
+
+
+
+`s_nightmareGulf_dialog_observerB`
+
+**Observer**
+> The road of the ancients is fractured. All paths to Archara are blocked by ancient order. Only one road remains that will lead you home.
+
+
+
+`s_nightmareGulf_dialog_observerC`
+
+**Observer**
+> All paths converge at Ya' Axtche. Begin your quest at the Five Watchers. All other paths you find will fail.
+
+
+
+`s_nightmareGulf_dialog_end`
+
+**Amassari**
+> What you have done today is worthy of tales and legends, you have returned the Observer to us. Our thanks to you is without end.
+
+**Joanna**
+> We had to make our transgression right. But we have to ask, what is Ya' Axtche? What did the Observer mean?
+
+**Amassari**
+> It is an ancient word, one of our oldest, from before the days of our ancestors. Ya' Axtche is the World Tree, the beating heart of the universe.
+
+
+
+`s_nightmareGulf_dialog_failKharKalaad`
+
+**Joanna**
+> Commander, the Khar-Kaalad has been hit! We must withdraw!
 
 
 ### Quest: Strike at Nightmare Gulf

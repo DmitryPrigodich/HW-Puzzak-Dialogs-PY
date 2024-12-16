@@ -251,37 +251,17 @@ Tanoch, Yaot
 
 
 
-`Story-03-01_dialog_failure`
-
-**Joanna**
-> Commander, one of the stations has suffered a direct hit! Casualty reports are coming through, it's not looking good.
-
-**Joanna**
-> The Yaot are retreating. Evidently this was a hit and run operation... but did they achieve their objective?
+`Story-03-01_start_dialog`
 
 **Tepin Papan**
-> Starship, we appreciate your assistance, but our emperor has more urgent matters to attend to now. Your visit will have to wait.
+> Welcome to Tanochet. Our Emperor is eager to meet you. Proceed to our orbital station and prepare for docking.
 
 
 
-`Story-03-01_attackOver_dialog`
+`Story-03-01_yaotSpawn_dialog`
 
 **Tepin Papan**
-> Starship, thank you for your assistance. Damage to the stations was minimal, and the People extend their thanks. You are welcome to dock, you have earned it.
-
-
-
-`Story-03-01_torpedo3_dialog`
-
-**Joanna**
-> Commander, two torpedoes have emerged from hyperspace! They're both aiming for the civilian stations!
-
-
-
-`Story-03-01_torpedo2_dialog`
-
-**Joanna**
-> Another hyperspace torpedo has emerged on the far side of sensor range. We must intercept it!
+> Alert! Yaot raiders detected! All ships prepare for intercept!
 
 
 
@@ -295,17 +275,44 @@ Tanoch, Yaot
 
 
 
-`Story-03-01_yaotSpawn_dialog`
+`Story-03-01_torpedo2_dialog`
+
+**Joanna**
+> Another hyperspace torpedo has emerged on the far side of sensor range. We must intercept it!
+
+
+
+`Story-03-01_torpedo3_dialog`
+
+**Joanna**
+> Commander, two torpedoes have emerged from hyperspace! They're both aiming for the civilian stations!
+
+
+
+`Story-03-01_attackOver_dialog`
 
 **Tepin Papan**
-> Alert! Yaot raiders detected! All ships prepare for intercept!
+> Starship, thank you for your assistance. Damage to the stations was minimal, and the People extend their thanks. You are welcome to dock, you have earned it.
 
 
 
-`Story-03-01_start_dialog`
+`Story-03-01_dialog_finish`
 
 **Tepin Papan**
-> Welcome to Tanochet. Our Emperor is eager to meet you. Proceed to our orbital station and prepare for docking.
+> Approaching station. Initiating docking procedure. Our emperor is already awaiting you.
+
+
+
+`Story-03-01_dialog_failure`
+
+**Joanna**
+> Commander, one of the stations has suffered a direct hit! Casualty reports are coming through, it's not looking good.
+
+**Joanna**
+> The Yaot are retreating. Evidently this was a hit and run operation... but did they achieve their objective?
+
+**Tepin Papan**
+> Starship, we appreciate your assistance, but our emperor has more urgent matters to attend to now. Your visit will have to wait.
 
 
 
@@ -4759,23 +4766,6 @@ Cangacian
 
 
 
-`RaidMission001_dialog_finish`
-
-**Joanna**
-> The pirate fleet has been destroyed. Prisoners were collected among the survivors and we're collecting salvage.
-
-**Joanna**
-> Great work! I think the locals will appreciate the one less pirate base in the area.
-
-
-
-`miss010_g_boss_dialog`
-
-**Joanna**
-> The pirate fleet has returned! Let's finish them off!
-
-
-
 `miss010_g0_dialog`
 
 **Joanna**
@@ -4790,6 +4780,23 @@ Cangacian
 
 **Joanna**
 > We should take this chance and wipe out this base before their fleet returns.
+
+
+
+`miss010_g_boss_dialog`
+
+**Joanna**
+> The pirate fleet has returned! Let's finish them off!
+
+
+
+`RaidMission001_dialog_finish`
+
+**Joanna**
+> The pirate fleet has been destroyed. Prisoners were collected among the survivors and we're collecting salvage.
+
+**Joanna**
+> Great work! I think the locals will appreciate the one less pirate base in the area.
 
 
 ### Quest: Station Defense
@@ -4830,13 +4837,6 @@ Cangacian, Tanoch
 
 
 
-`RaidMission002_dialog_finish`
-
-**Joanna**
-> The invaders have been repelled. It may take some time to rebuild the nav beacons, but the station should be safe again.
-
-
-
 `RaidMission002_start_dialog`
 
 **Joanna**
@@ -4844,24 +4844,10 @@ Cangacian, Tanoch
 
 
 
-`RaidMission002_dialog_fail`
-
-**Joanna**
-> The station is lost. Fortunately most of the inhabitants evacuated during the battle.
-
-
-
 `RaidMission002_beacons_dialog`
 
 **Joanna**
 > The enemies have hijacked the nav beacons remotely. We cannot disable them in time, we have no choice but to destroy them!
-
-
-
-`RaidMission002_boss_dialog`
-
-**Joanna**
-> Something large has just emerged from hyperspace. It's the main pirate fleet! Defend the station!
 
 
 
@@ -4883,6 +4869,27 @@ Cangacian, Tanoch
 
 **Joanna**
 > Three beacons have been destroyed. Almost there.
+
+
+
+`RaidMission002_boss_dialog`
+
+**Joanna**
+> Something large has just emerged from hyperspace. It's the main pirate fleet! Defend the station!
+
+
+
+`RaidMission002_dialog_finish`
+
+**Joanna**
+> The invaders have been repelled. It may take some time to rebuild the nav beacons, but the station should be safe again.
+
+
+
+`RaidMission002_dialog_fail`
+
+**Joanna**
+> The station is lost. Fortunately most of the inhabitants evacuated during the battle.
 
 
 ### Quest: Pahra's Rock
@@ -4923,29 +4930,13 @@ Cangacian
 
 
 
-`r003_finish_dialog0`
+`r003_start_dialog0`
 
 **Joanna**
-> The enemy base has been destroyed and Catequil is on the run. We did it!
-
-**Catequil**
-> You have my attention now, Hiigarans. You'll regret this on our next meeting!
+> This base belongs to a group called the Fleet of Rams. It's in a position to threaten any other Hiigaran fleets that arrive in the area.
 
 **Joanna**
-> Any other Hiigaran refugees in the area will be in the clear, now. But we'll need to be wary of this Fleet of Rams... I have a feeling they'll be back.
-
-
-
-`r003_BaseHp40_dialog0`
-
-**Joanna**
-> It looks like their flagship just emerged from hyperspace. The enemy commander is identifying himself as... Catequil the devisor. Sounds pretentious.
-
-**Catequil**
-> Who? Hiigarans? I don't have time for this nuisance. Eliminate them!
-
-**Joanna**
-> Here they come, prepare for a fight!
+> Now that we're in contact with enough allied fleets, we can strike this base and wipe it out.
 
 
 
@@ -4963,13 +4954,29 @@ Cangacian
 
 
 
-`r003_start_dialog0`
+`r003_BaseHp40_dialog0`
 
 **Joanna**
-> This base belongs to a group called the Fleet of Rams. It's in a position to threaten any other Hiigaran fleets that arrive in the area.
+> It looks like their flagship just emerged from hyperspace. The enemy commander is identifying himself as... Catequil the devisor. Sounds pretentious.
+
+**Catequil**
+> Who? Hiigarans? I don't have time for this nuisance. Eliminate them!
 
 **Joanna**
-> Now that we're in contact with enough allied fleets, we can strike this base and wipe it out.
+> Here they come, prepare for a fight!
+
+
+
+`r003_finish_dialog0`
+
+**Joanna**
+> The enemy base has been destroyed and Catequil is on the run. We did it!
+
+**Catequil**
+> You have my attention now, Hiigarans. You'll regret this on our next meeting!
+
+**Joanna**
+> Any other Hiigaran refugees in the area will be in the clear, now. But we'll need to be wary of this Fleet of Rams... I have a feeling they'll be back.
 
 
 ### Quest: Breach
@@ -5020,10 +5027,31 @@ Hiigaran Medea, Yaot
 
 
 
-`st_breach_explosion_1_dialog`
+`st_breach_freightergo_1_dialog`
 
 **Crew Member**
-> Explosives armed, 10 seconds before she goes!
+> Course Set, Autopilot engaged!
+
+
+
+`st_breach_turrets01Destroyed_1_dialog`
+
+**Joanna**
+> Take out the second line of defense.
+
+
+
+`st_breach_turrets02Destroyed_1_dialog`
+
+**Joanna**
+> Take out the last line of defense.
+
+
+
+`st_breach_turrets03Destroyed_1_dialog`
+
+**Joanna**
+> All turrets down, let's begin the assault on the base!
 
 
 
@@ -5034,10 +5062,24 @@ Hiigaran Medea, Yaot
 
 
 
-`st_breach_turrets03Destroyed_1_dialog`
+`st_breach_explosion_1_dialog`
+
+**Crew Member**
+> Explosives armed, 10 seconds before she goes!
+
+
+
+`st_breach_win_1_dialog`
 
 **Joanna**
-> All turrets down, let's begin the assault on the base!
+> The enemy have been vanquished, great work!
+
+
+
+`st_breach_fail_1_dialog`
+
+**Joanna**
+> The freighter has been destroyed, we must abort mission!
 
 
 ### Quest: Nightmare Gulf
@@ -5078,10 +5120,10 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`str_nightmareGulf_dialog_reinforcements`
+`str_nightmareGulf_dialog_engage`
 
 **Joanna**
-> Kiithless reinforcements have entered the area in response to their distress signal. We must destroy that base!
+> Kidara doesn't seem to be here, but I wouldn't rule out an ambush. Begin the attack!
 
 
 
@@ -5099,27 +5141,6 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`str_nightmareGulf_dialog_end`
-
-**Joanna**
-> Kidara's defeated, the Observer has been freed, and the Kiithless have been routed. All objectives completed... mission successful.
-
-
-
-`str_nightmareGulf_dialog_destruct`
-
-**Kidara**
-> I curse you with my last breath, Kiithid! You'll die here with me. You will never see our Homeworld again!
-
-
-
-`str_nightmareGulf_dialog_engage`
-
-**Joanna**
-> Kidara doesn't seem to be here, but I wouldn't rule out an ambush. Begin the attack!
-
-
-
 `str_nightmareGulf_dialog_station`
 
 **Kidara**
@@ -5131,6 +5152,20 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 **Observer**
 > The Observer awakens. Now we shall end this conflict, together.
+
+
+
+`str_nightmareGulf_dialog_destruct`
+
+**Kidara**
+> I curse you with my last breath, Kiithid! You'll die here with me. You will never see our Homeworld again!
+
+
+
+`str_nightmareGulf_dialog_end`
+
+**Joanna**
+> Kidara's defeated, the Observer has been freed, and the Kiithless have been routed. All objectives completed... mission successful.
 
 
 

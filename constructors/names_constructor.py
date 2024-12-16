@@ -45,11 +45,11 @@ class Name_Data_Constructor(Constructor_Base):
         }
         yaot = {
             "Male:": ["Guahai","Chaquen","Chocoan"],
-            "Family:": ["Sapa","Guecha","Coatl","Sogamoso"]
+            "Family:": ["Sapa","Guecha","Coatl","Sogamoso","Xelasii"]
         }
         amassari = {
-            "Male": ["Jothru","Lyad"],
-            "Family": ["Sadosar","Nacarid","Shasau","Thant","Ohau","Vareng","Omassi","Alut","Kotlan"]
+            "Male": ["Jothru","Kotlan"],
+            "Family": ["Sadosar","Nacarid","Shasau","Thant","Ohau","Vareng","Omassi","Alut","Talot","Lyad"]
         }
         vaygr = {
             "Male": ["Jochik"],

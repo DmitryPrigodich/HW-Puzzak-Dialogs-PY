@@ -116,19 +116,20 @@
 	,"story_A01_DuzumiGateTut": [
 		"s_duzumiTut_intro"
 		,"s_duzumiTut_cameraSwipe"
-		,"s_duzumiTut_cameraAuto"
 		,"s_duzumiTut_cameraZoom"
-		,"s_duzumiTut_unitTray"
-		,"s_duzumiTut_moveDrag"
+		,"s_duzumiTut_cameraAuto"
 		,"s_duzumiTut_targetList"
 		,"s_duzumiTut_moveTargetList"
-		,"s_duzumiTut_attackTargetList"
+		,"s_duzumiTut_moveTargetListFill"
 		,"s_duzumiTut_targetDrones"
+		,"s_duzumiTut_attackTargetList"
 		,"s_duzumiTut_praise"
-		,"s_duzumiTut_attackDrag"
-		,"s_duzumiTut_skill"
+		,"s_duzumiTut_unitTray"
+		,"s_duzumiTut_moveDrag"
 		,"s_duzumiTut_targetFrigate"
 		,"s_duzumiTut_targetFrigate2"
+		,"s_duzumiTut_attackDrag"
+		,"s_duzumiTut_skill"
 		,"s_duzumiTut_explosion"
 		,"s_duzumiTut_moveTaskForce"
 		,"s_duzumiTut_preOutro"
@@ -186,32 +187,240 @@
 		,"story_GulfTaln_farewell_dialog"
 		,"story_GulfTaln_conclusion_dialog"
 	]
-	,"_story_A04_RelicSignature": []
-	,"_story_A05_Jolja": []
-	,"_story_B01_CombatTrials": []
-	,"_story_B02_MeropisDefense": []
-	,"_story_B03_ThePool": []
-	,"_story_C01_Tanochet": [
+	,"story_A04_RelicSignature": [
+		"story_Relic_intro_dialog"
+		,"story_Relic_combat_dialog"
+		,"story_Relic_relic_dialog"
+		,"story_Relic_collectorMissing_dialog"
+		,"story_Relic_collectorLaunched_dialog"
+		,"story_Relic_end_dialog"
+	]
+	,"story_A05_Jolja": [
+		"story_Jolja_introSequence_dialog"
+		,"story_Jolja_openSensor_dialog"
+		,"story_Jolja_signatures_dialog"
+		,"story_Jolja_closeSensor_dialog"
+		,"story_Jolja_terminalA_dialog"
+		,"story_Jolja_terminalB_dialog"
+		,"story_Jolja_terminalTimer_dialog"
+		,"story_Jolja_waveA_dialog"
+		,"story_Jolja_waveB_dialog"
+		,"story_Jolja_ally_dialog"
+		,"story_Jolja_tepin_dialog"
+		,"story_Jolja_resolution_dialog"
+	]
+	,"story_B01_CombatTrials": [
+		"s_shakedown_intro_1_dialog"
+		,"s_shakedown_intro_2_dialog"
+		,"s_shakedown_intro_3_dialog"
+		,"s_shakedown_tut_1_dialog"
+		,"s_shakedown_tut_2_dialog"
+		,"s_shakedown_destroy_1_dialog"
+		,"s_shakedown_wave_1_dialog"
+		,"s_shakedown_fin_1_dialog"
+		,"s_shakedown_fail_1_dialog"
+	]
+	,"story_B02_MeropisDefense": [
+		"s_meropis_intro_1_dialog"
+		,"s_meropis_group_1_dialog"
+		,"s_meropis_group_2_dialog"
+		,"s_meropis_group_3_dialog"
+		,"s_meropis_position_1_dialog"
+		,"s_meropis_finish_1_dialog"
+		,"s_meropis_fail_1_dialog"
+	]
+	,"story_B03_ThePool": [
+		"s_pool_intro_1_dialog"
+		,"s_pool_tutRange_1_dialog"
+		,"s_pool_tutFalloff_1_dialog"
+		,"s_pool_closeKin_1_dialog"
+		,"s_pool_closeMis_1_dialog"
+		,"s_pool_destroy_1_dialog"
+		,"s_pool_pirates_1_dialog"
+		,"s_pool_finish_1_dialog"
+	]
+	,"story_C01_Tanochet": [
 		"Story-03-01_start_dialog"
 		,"Story-03-01_yaotSpawn_dialog"
 		,"Story-03-01_torpedo1_dialog"
 		,"Story-03-01_torpedo2_dialog"
 		,"Story-03-01_torpedo3_dialog"
 		,"Story-03-01_attackOver_dialog"
+		,"Story-03-01_dialog_finish"
 		,"Story-03-01_dialog_failure"
 	]
-	,"_story_C02_TempleTonaati": []
-	,"_story_C03_StarTotek": []
-	,"_story_D01_SijinLighthouse": []
-	,"_story_D02_IliyinLighthouse": []
-	,"_story_D03_BrightTemple": []
-	,"_story_D04_Hataldan": []
-	,"_story_D05_NightmareGulf": []
-	,"_strike_01_PirateHideout": []
-	,"_strike_02_StationDefense": []
-	,"_strike_03_PahrasRock": []
-	,"_strike_04_Breach": []
-	,"_strike_05_NightmareGulf": []
+	,"_story_C02_TempleTonaati": [
+		"Story-03-02-v2_start_dialog"
+		,"Story-03-02-v2_movetoStation_dialog"
+		,"Story-03-02-v2_civilStation_reached_dialog"
+		,"Story-03-02-v2_explainStar_dialog"
+		,"Story-03-02-v2_yaotsuddenly_dialog"
+		,"Story-03-02-v2_yaotattack_dialog"
+		,"Story-03-02-v2_Temple_killed_dialog"
+		,"Story-03-02-v2_boss_dialog"
+		,"Story-03-02-v2_finish_dialog"
+		,"Story-03-02-v2_missionfail_dialog"
+	]
+	,"story_C03_StarTotek": [
+		"st_startotek_intro_1_dialog"
+		,"st_startotek_intro_2_dialog"
+		,"st_startotek_intro_3_dialog"
+		,"st_startotek_intro_4_dialog"
+		,"st_startotek_intro_5_dialog"
+		,"st_startotek_debri_1_dialog"
+		,"st_startotek_debri_2_dialog"
+		,"st_startotek_senti_1_dialog"
+		,"st_startotek_senti_2_dialog"
+		,"st_startotek_senti_3_dialog"
+		,"st_startotek_senti_4_dialog"
+		,"st_startotek_vaygr_1_dialog"
+		,"st_startotek_vaygr_2_dialog"
+		,"st_startotek_battle_1_dialog"
+		,"st_startotek_battle_2_dialog"
+		,"st_startotek_salva_1_dialog"
+		,"st_startotek_salva_2_dialog"
+		,"st_startotek_salva_3_dialog"
+		,"st_startotek_debri_3_dialog"
+	]
+	,"story_D01_SijinLighthouse": [
+		"st_farshore_intro_dialog"
+		,"st_farshore_ally_dialog"
+		,"st_farshore_start_dialog"
+		,"st_farshore_hodor_1_dialog"
+		,"st_farshore_hodor_2_dialog"
+		,"st_farshore_hodor_3_dialog"
+		,"st_farshore_hodor_4_dialog"
+		,"st_farshore_eye_1_dialog"
+		,"st_farshore_eye_2_dialog"
+		,"st_farshore_eye_3_dialog"
+		,"st_farshore_esc_1_dialog"
+		,"st_farshore_esc_2_dialog"
+		,"Story-S2-01-Lighthouse_dialog_fail"
+	]
+	,"story_D02_IliyinLighthouse": [
+		"st_iliyin_intro_1_dialog"
+		,"st_iliyin_intro_2_dialog"
+		,"st_iliyin_investigation_1_dialog"
+		,"st_iliyin_investigation_2_dialog"
+		,"st_iliyin_amassari_1_dialog"
+		,"st_iliyin_breakwater_1_dialog"
+		,"st_iliyin_breakwater_2_dialog"
+		,"st_iliyin_breakwater_3_dialog"
+		,"st_iliyin_anchors_1_dialog"
+		,"st_iliyin_anchors_2_dialog"
+		,"st_iliyin_anchors_3_dialog"
+		,"st_iliyin_countdown_1_dialog"
+		,"st_iliyin_anchors_4_dialog"
+		,"st_iliyin_anchors_5_dialog"
+		,"st_iliyin_push_1_dialog"
+		,"st_iliyin_push_2_dialog"
+		,"st_iliyin_observer_1_dialog"
+		,"st_iliyin_observer_2_dialog"
+		,"st_iliyin_fail_1_dialog"
+	]
+	,"story_D03_BrightTemple": [
+		"st_bTemple_intro_1_dialog"
+		,"st_bTemple_intro_2_dialog"
+		,"st_bTemple_appro_1_dialog"
+		,"st_bTemple_chall_1_dialog"
+		,"st_bTemple_chall_2_dialog"
+		,"st_bTemple_retre_1_dialog"
+		,"st_bTemple_escap_1_dialog"
+		,"st_bTemple_caval_1_dialog"
+		,"st_bTemple_blHgn_1_dialog"
+		,"st_bTemple_blHgn_2_dialog"
+		,"st_bTemple_blHgn_3_dialog"
+		,"st_bTemple_fail_1_dialog"
+	]
+	,"story_D04_Hataldan": [
+		"s_hataldan_dialog_intro1"
+		,"s_hataldan_dialog_intro2"
+		,"s_hataldan_dialog_intro3"
+		,"s_hataldan_dialog_approach"
+		,"s_hataldan_dialog_interlude"
+		,"s_hataldan_dialog_observer1"
+		,"s_hataldan_dialog_observer2"
+		,"s_hataldan_dialog_abduction1"
+		,"s_hataldan_dialog_abduction2"
+		,"s_hataldan_dialog_abduction3"
+		,"s_hataldan_dialog_empTut"
+		,"s_hataldan_dialog_fight"
+		,"s_hataldan_dialog_empFired_1"
+		,"s_hataldan_dialog_empOff_1"
+		,"s_hataldan_dialog_empFired_2"
+		,"s_hataldan_dialog_empOff_2"
+		,"s_hataldan_dialog_empFired_3"
+		,"s_hataldan_dialog_fightWon"
+		,"s_hataldan_dialog_conclusion"
+		,"s_hataldan_dialog_failKill"
+		,"s_hataldan_dialog_failKharKalaad"
+		,"s_hataldan_dialog_failAmassari"
+	]
+	,"story_D05_NightmareGulf": [
+		"s_nightmareGulf_dialog_introA"
+		,"s_nightmareGulf_dialog_introB"
+		,"s_nightmareGulf_dialog_introC"
+		,"s_nightmareGulf_dialog_engage"
+		,"s_nightmareGulf_dialog_kidaraSpawnA"
+		,"s_nightmareGulf_dialog_kidaraSpawnB"
+		,"s_nightmareGulf_dialog_kidaraSpawnC"
+		,"s_nightmareGulf_dialog_kidaraSpawnD"
+		,"s_nightmareGulf_dialog_kidaraSpawnE"
+		,"s_nightmareGulf_dialog_emp"
+		,"s_nightmareGulf_dialog_torpedo"
+		,"s_nightmareGulf_dialog_station"
+		,"s_nightmareGulf_dialog_freeObserver"
+		,"s_nightmareGulf_dialog_destruct"
+		,"s_nightmareGulf_dialog_win"
+		,"s_nightmareGulf_dialog_observerA"
+		,"s_nightmareGulf_dialog_observerB"
+		,"s_nightmareGulf_dialog_observerC"
+		,"s_nightmareGulf_dialog_end"
+		,"s_nightmareGulf_dialog_failKharKalaad"
+	]
+	,"strike_01_PirateHideout": [
+		"miss010_g0_dialog"
+		,"miss010_g1_dialog"
+		,"miss010_g_boss_dialog"
+		,"RaidMission001_dialog_finish"
+	]
+	,"strike_02_StationDefense": [
+		"RaidMission002_start_dialog"
+		,"RaidMission002_beacons_dialog"
+		,"RaidMission002_beaconsdone1_dialog"
+		,"RaidMission002_beaconsdone2_dialog"
+		,"RaidMission002_beaconsdone3_dialog"
+		,"RaidMission002_boss_dialog"
+		,"RaidMission002_dialog_finish"
+		,"RaidMission002_dialog_fail"
+	]
+	,"strike_03_PahrasRock": [
+		"r003_start_dialog0"
+		,"r003_BaseHp80_dialog0"
+		,"r003_BaseHp60_dialog0"
+		,"r003_BaseHp40_dialog0"
+		,"r003_finish_dialog0"
+	]
+	,"strike_04_Breach": [
+		"st_breach_intro_1_dialog"
+		,"st_breach_freightergo_1_dialog"
+		,"st_breach_turrets01Destroyed_1_dialog"
+		,"st_breach_turrets02Destroyed_1_dialog"
+		,"st_breach_turrets03Destroyed_1_dialog"
+		,"st_breach_armExplosives_1_dialog"
+		,"st_breach_explosion_1_dialog"
+		,"st_breach_win_1_dialog"
+		,"st_breach_fail_1_dialog"
+	]
+	,"strike_05_NightmareGulf": [
+		"str_nightmareGulf_dialog_engage"
+		,"str_nightmareGulf_dialog_kidara"
+		,"str_nightmareGulf_dialog_station"
+		,"str_nightmareGulf_dialog_reinforcements"
+		,"str_nightmareGulf_dialog_freeObserver"
+		,"str_nightmareGulf_dialog_destruct"
+		,"str_nightmareGulf_dialog_end"
+	]
 	,"strike_x_DownTheWell": [
 		"Raid005_Landing_dialog"
 		,"Raid005_Intro_dialog"
@@ -222,6 +431,5 @@
 		,"Raid005_LastBattle_dialog"
 		,"Raid005_BossDead_dialog"
 		,"Raid005_GRepairs_dialog"
-
 	]
 }
