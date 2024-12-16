@@ -423,7 +423,8 @@ class Quest_Constructor(Constructor_Base):
                     if "Ids" in q_goal.get("GoalParam:"):
                         mission_ids = q_goal.get("GoalParam:")["Ids"]
                         for mission_id in mission_ids.split("|"):
-                            body_quest += _get_mission_text(mission_id)
+                            if mission_id != "story_A01_DuzumiGate":
+                                body_quest += _get_mission_text(mission_id)
 
         # End-Day Dialogs
         q_end_day_dialog_id = f"{quest_id}_end"

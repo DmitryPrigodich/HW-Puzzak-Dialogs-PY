@@ -24,6 +24,7 @@ def test_events_scenarios_construction():
         ,"event_tanochwinter_2023_t4"
         ,"event_yaotspring_2024_t4"
         ,"event_amasum_2023_t4"
+        ,"strike_missions"
     ]
 
     body = utils.format_heading1("HOMEWORLD MOBILE EVENTS")

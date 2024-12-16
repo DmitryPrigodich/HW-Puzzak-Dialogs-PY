@@ -25,103 +25,14 @@ Our arrival in this galaxy was met with tragedy.
 
 
 
-### CINEMATIC: INTRO #1
-> It is fifteen years into the age of S’jet
-
-> Fifteen years since the warlord Makaan met his end at Balcora...
-
-> ...and the Hiigarans claimed the mantle of wisdom left by the ancients.
-
-> In this time of peace and rebuilding, the Hiigarans embraced the gifts of the Progenitors.
-Guided by Sajuuk, new doors of understanding opened to them.
-
-> However, as those with no Kiith gained power on Hiigara, the ancient clans turned their ambitions outward.
-
-> In spite of the pleas by Karan S’jet, each Kiith set out from Hiigara to forge their own destinies.
-
-> Each Kiith and Clan began to construct their own fleets once again. Though the Hiigaran people were unified by destiny,
-new ambitions began seeking different paths. All of the kiith were going their own way.
-
-> All of them were chasing the lost dream of the Progenitors.
-
-
 #### MISSION: DUZUMI GATE
 
-###### LOCATION:
+###### DESCRIPTION:
 
 
-LAZARUS system, Hiigaran Medea territory
+Become familiar with your ship and prepare for the expedition to the new galaxy.
 
 
-
-`s_duzumi_intro_dialog_5`
-
-**Joanna**
-> Engineering, status of the Progenitor Communicator?
-
-**Crew Member**
-> The Device is integrated and operational. We are receiving telemetry from the gate, all contacts green.
-
-**Joanna**
-> Good. Command, all moorings are clear and we are ready to activate engines.
-
-**Crew Member**
-> All C&C elements are green. Z-Plus thrusters engaged, we have lift-off.
-
-
-
-`s_duzumi_intro_dialog_4`
-
-**Enoch**
-> All commands, this is Admiral Enoch. Task Force Ararat will assemble before Duzumi gate. Departure in five minutes.
-
-
-
-`s_duzumi_intro_dialog_3`
-
-**Joanna**
-> We're behind schedule. Engineering, install the Progenitor Communicator immediately.
-
-**Crew Member**
-> Understood bridge, we're on it.
-
-
-
-`s_duzumi_intro_dialog_2`
-
-**Crew Member**
-> Final component is on its way to the Expedition ship now.
-
-
-
-`s_duzumi_intro_dialog_1`
-
-**Fleet Command**
-> We are T-Minus 5 minutes to gate activation. Task Force Ararat, complete your final loading procedures.
-
-
-
-`s_duzumi_intro_dialog_8`
-
-**Joanna**
-> Course locked. Destination: Nimbus Galaxy!
-
-
-
-`s_duzumi_intro_dialog_7`
-
-**Enoch**
-> Our expedition to the Nimbus Galaxy is about to begin. May our fortunes be better than those who have preceeded us. Good luck everyone.
-
-
-
-`s_duzumi_intro_dialog_6`
-
-**Crew Member**
-> Progenitor Communicator has connected to the gate. Transmitting activation code now. Gate is activating.
-
-
-#### MISSION: DUZUMI GATE
 
 ###### LOCATION:
 
@@ -136,145 +47,17 @@ Hiigaran Medea
 
 
 
-`s_duzumi_intro_dialog_8`
+`s_duzumiTut_intro`
 
 **Joanna**
-> Course locked. Destination: Nimbus Galaxy!
+> Welcome aboard Commander. I hope you're ready for this epic venture. I am Joanna Naabal, your executive officer.
 
 
 
-`s_duzumi_intro_dialog_7`
-
-**Enoch**
-> Our expedition to the Nimbus Galaxy is about to begin. May our fortunes be better than those who have preceeded us. Good luck everyone.
-
-
-
-`s_duzumi_intro_dialog_6`
-
-**Crew Member**
-> Progenitor Communicator has connected to the gate. Transmitting activation code now. Gate is activating.
-
-
-
-`s_duzumiTut_outro`
-
-**Vashti**
-> Greetings Commander. I hope you're excited to be part of the expedition! Let's make history together.
+`s_duzumiTut_cameraSwipe`
 
 **Joanna**
-> Acknowledged, vice admiral. We have onboard the Progenitor Communicator and are ready for takeoff.
-
-**Enoch**
-> Commander, take this gift before we leave. Open it once we reach the Nimbus Galaxy, you'll need it.
-
-
-
-`s_duzumiTut_preOutro`
-
-**Joanna**
-> Commander, there are the other flagships! It will be an honor to fly next to Admiral Enoch and Vice Admiral Vasthi.
-
-
-
-`s_duzumiTut_moveTaskForce`
-
-**Enoch**
-> Task Force Ararat, this is Admiral Enoch. All vessels report to the nav point immediately.
-
-
-
-`s_duzumiTut_explosion`
-
-**Fleet Command**
-> Excellent, all systems are operational! Our vessel is ready for whatever we find in the Nimbus galaxy.
-
-
-
-`s_duzumiTut_skill`
-
-**Crew Member**
-> The <color=#FBB03F>Skills</color> are online and ready for activation.
-
-**Joanna**
-> Great timing, we'll need our special abilities to engage stronger targets like this frigate. <color=#FBB03F>Activate our Missile Barrage Skill.</color>
-
-
-
-`s_duzumiTut_attackDrag`
-
-**Joanna**
-> Commander, you can also use the Fleet Tray to <color=#FBB03F>give an attack order</color> by aiming at targets directly.
-
-
-
-`s_duzumiTut_targetFrigate2`
-
-**Fleet Command**
-> Be advised that ships of capital class have greater durability.
-
-
-
-`s_duzumiTut_targetFrigate`
-
-**Fleet Command**
-> A target frigate is being moved into position for additional weapon testing.
-
-
-
-`s_duzumiTut_moveDrag`
-
-**Joanna**
-> You can use the Fleet Tray to <color=#FBB03F>give a move command</color> to ships directly. Let's go to the next position.
-
-
-
-`s_duzumiTut_unitTray`
-
-**Crew Member**
-> The <color=#FBB03F>Fleet Tray</color> has been activated. It shows you all ships in our fleet. Currently that only includes our expedition flagship.
-
-
-
-`s_duzumiTut_praise`
-
-**Joanna**
-> Well done, Commander! Next we'll engage a more challenging target.
-
-
-
-`s_duzumiTut_attackTargetList`
-
-**Joanna**
-> We have clearance to begin live-fire excercises. Awaiting your <color=#FBB03F>command to attack the drones.</color>
-
-
-
-`s_duzumiTut_targetDrones`
-
-**Fleet Command**
-> Practice drones are launched and en-route for their target positions. Good hunting.
-
-
-
-`s_duzumiTut_moveTargetListFill`
-
-**Joanna**
-> Let's test our combat systems. We'll need them on our voyage through the Nimbus Galaxy with Task Force Ararat.
-
-
-
-`s_duzumiTut_moveTargetList`
-
-**Joanna**
-> Now give the order to <color=#FBB03F>move to our target position.</color>
-
-
-
-`s_duzumiTut_targetList`
-
-**Crew Member**
-> Commander, the <color=#FBB03F>Target List</color> has been activated. Use it to interact with objects, enemies, or allies in the vacinity.
+> We'll begin a review of all ship systems before we depart, starting with camera controls. Simply <color=#FBB03F>swipe to move the camera.</color>
 
 
 
@@ -292,17 +75,148 @@ Hiigaran Medea
 
 
 
-`s_duzumiTut_cameraSwipe`
+`s_duzumiTut_unitTray`
+
+**Crew Member**
+> The <color=#FBB03F>Fleet Tray</color> has been activated. It shows you all ships in our fleet. Currently that only includes our expedition flagship.
+
+
+
+`s_duzumiTut_moveDrag`
 
 **Joanna**
-> We'll begin a review of all ship systems before we depart, starting with camera controls. Simply <color=#FBB03F>swipe to move the camera.</color>
+> You can use the Fleet Tray to <color=#FBB03F>give a move command</color> to ships directly. Let's go to the next position.
 
 
 
-`s_duzumiTut_intro`
+`s_duzumiTut_targetList`
+
+**Crew Member**
+> Commander, the <color=#FBB03F>Target List</color> has been activated. Use it to interact with objects, enemies, or allies in the vacinity.
+
+
+
+`s_duzumiTut_moveTargetList`
 
 **Joanna**
-> Welcome aboard Commander. I hope you're ready for this epic venture. I am Joanna Naabal, your executive officer.
+> Now give the order to <color=#FBB03F>move to our target position.</color>
+
+
+
+`s_duzumiTut_attackTargetList`
+
+**Joanna**
+> We have clearance to begin live-fire excercises. Awaiting your <color=#FBB03F>command to attack the drones.</color>
+
+
+
+`s_duzumiTut_targetDrones`
+
+**Fleet Command**
+> Practice drones are launched and en-route for their target positions. Good hunting.
+
+
+
+`s_duzumiTut_praise`
+
+**Joanna**
+> Well done, Commander! Next we'll engage a more challenging target.
+
+
+
+`s_duzumiTut_attackDrag`
+
+**Joanna**
+> Commander, you can also use the Fleet Tray to <color=#FBB03F>give an attack order</color> by aiming at targets directly.
+
+
+
+`s_duzumiTut_skill`
+
+**Crew Member**
+> The <color=#FBB03F>Skills</color> are online and ready for activation.
+
+**Joanna**
+> Great timing, we'll need our special abilities to engage stronger targets like this frigate. <color=#FBB03F>Activate our Missile Barrage Skill.</color>
+
+
+
+`s_duzumiTut_targetFrigate`
+
+**Fleet Command**
+> A target frigate is being moved into position for additional weapon testing.
+
+
+
+`s_duzumiTut_targetFrigate2`
+
+**Fleet Command**
+> Be advised that ships of capital class have greater durability.
+
+
+
+`s_duzumiTut_explosion`
+
+**Fleet Command**
+> Excellent, all systems are operational! Our vessel is ready for whatever we find in the Nimbus galaxy.
+
+
+
+`s_duzumiTut_moveTaskForce`
+
+**Enoch**
+> Task Force Ararat, this is Admiral Enoch. All vessels report to the nav point immediately.
+
+
+
+`s_duzumiTut_preOutro`
+
+**Joanna**
+> Commander, there are the other flagships! It will be an honor to fly next to Admiral Enoch and Vice Admiral Vasthi.
+
+
+
+`s_duzumiTut_outro`
+
+**Vashti**
+> Greetings Commander. I hope you're excited to be part of the expedition! Let's make history together.
+
+**Joanna**
+> Acknowledged, vice admiral. We have onboard the Progenitor Communicator and are ready for takeoff.
+
+**Enoch**
+> Commander, take this gift before we leave. Open it once we reach the Nimbus Galaxy, you'll need it.
+
+
+
+`s_duzumi_intro_dialog_1`
+
+**Fleet Command**
+> We are T-Minus 5 minutes to gate activation. Task Force Ararat, complete your final loading procedures.
+
+
+
+`s_duzumi_intro_dialog_2`
+
+**Crew Member**
+> Final component is on its way to the Expedition ship now.
+
+
+
+`s_duzumi_intro_dialog_3`
+
+**Joanna**
+> We're behind schedule. Engineering, install the Progenitor Communicator immediately.
+
+**Crew Member**
+> Understood bridge, we're on it.
+
+
+
+`s_duzumi_intro_dialog_4`
+
+**Enoch**
+> All commands, this is Admiral Enoch. Task Force Ararat will assemble before Duzumi gate. Departure in five minutes.
 
 
 
@@ -322,34 +236,24 @@ Hiigaran Medea
 
 
 
-`s_duzumi_intro_dialog_4`
+`s_duzumi_intro_dialog_6`
+
+**Crew Member**
+> Progenitor Communicator has connected to the gate. Transmitting activation code now. Gate is activating.
+
+
+
+`s_duzumi_intro_dialog_7`
 
 **Enoch**
-> All commands, this is Admiral Enoch. Task Force Ararat will assemble before Duzumi gate. Departure in five minutes.
+> Our expedition to the Nimbus Galaxy is about to begin. May our fortunes be better than those who have preceeded us. Good luck everyone.
 
 
 
-`s_duzumi_intro_dialog_3`
+`s_duzumi_intro_dialog_8`
 
 **Joanna**
-> We're behind schedule. Engineering, install the Progenitor Communicator immediately.
-
-**Crew Member**
-> Understood bridge, we're on it.
-
-
-
-`s_duzumi_intro_dialog_2`
-
-**Crew Member**
-> Final component is on its way to the Expedition ship now.
-
-
-
-`s_duzumi_intro_dialog_1`
-
-**Fleet Command**
-> We are T-Minus 5 minutes to gate activation. Task Force Ararat, complete your final loading procedures.
+> Course locked. Destination: Nimbus Galaxy!
 
 
 ### CINEMATIC: INTRO #2
@@ -367,6 +271,13 @@ With desperation and hope, the Kiith cast their ambitions through the gates.
 
 #### MISSION: WIRACODA GATE
 
+###### DESCRIPTION:
+
+
+We have made it to the other side. Now we need to gather what we came here for and then return home.
+
+
+
 ###### LOCATION:
 
 
@@ -380,135 +291,24 @@ Hiigaran Medea, Progenitor
 
 
 
-`story_Wiracoda_dialog_end`
+`story_Wiracoda_dialog_intro`
 
 **Enoch**
-> Task Force Ararat, this is Admiral Enoch. Flee the area immediately. The Riif-sa will draw attention to assist your escape.
+> All commands, stay alert. Other expeditions have reported being ambushed by Progenitors. Begin perimeter search.
+
+
+
+`story_Wiracoda_dialog_moveForward`
 
 **Joanna**
-> We need to go before the Keepers activate their gravity well. Initiate emergency hyperspace jump!
+> Commander, give the order to <color=#FBB03F>move to our assigned position</color>.
 
 
 
-`story_Wiracoda_dialog_loosing_7`
-
-**Joanna**
-> We're being overwhelmed. This is not looking good!
-
-
-
-`story_Wiracoda_dialog_loosing_6`
-
-**Vashti**
-> Alert, more Keepers emerging from hyperspace!
-
-
-
-`story_Wiracoda_dialog_loosing_5`
+`story_Wiracoda_dialog_noSign`
 
 **Joanna**
-> The Haarsuk has been destroyed. We're taking alarming losses.
-
-
-
-`story_Wiracoda_dialog_loosing_4`
-
-**Crew Member**
-> We sustained a critical hit, we cannot hol-!......
-
-
-
-`story_Wiracoda_dialog_loosing_3`
-
-**Joanna**
-> The Akalon has been destroyed!
-
-
-
-`story_Wiracoda_dialog_loosing_2`
-
-**Crew Member**
-> Hull integrity failing, we-
-
-
-
-`story_Wiracoda_dialog_loosing_1`
-
-**Crew Member**
-> Mayday! Breach in starboard fusion engine-!......
-
-
-
-`story_Wiracoda_dialog_moveBack`
-
-**Enoch**
-> Impossible! The communicator should have full authority over all Progenitor devices. Maintain defensive positions.
-
-
-
-`story_Wiracoda_dialog_keeper`
-
-**Joanna**
-> Commander, the Keeper has appeared. Activating the Progenitor Communicator now. We'll order the Keeper to stand down and retake command of the gate.
-
-**Crew Member**
-> Command, be advised, the Keeper is rejecting the Communicator's command. Full permissions setting has no effect.
-
-
-
-`story_Wiracoda_dialog_freeBattle`
-
-**Enoch**
-> All commands, more Progenitors are appearing, but our reinforcements have emerged from the gate. <color=#FBB03F>Engage combat!</color>
-
-
-
-`story_Wiracoda_dialog_tormentorWin`
-
-**Joanna**
-> Enemy ship destroyed. We're fortunate this new enemy isn't as formidable as a Keeper.
-
-
-
-`story_Wiracoda_dialog_skillReminder`
-
-**Joanna**
-> Commander, don't forget to <color=#FBB03F>use our missile barrage</color> when it is ready again.
-
-
-
-`story_Wiracoda_dialog_attackTormentor`
-
-**Joanna**
-> Commander, <color=#FBB03F>attack the incoming ship and destroy it!</color>
-
-
-
-`story_Wiracoda_dialog_tormentor`
-
-**Crew Member**
-> A hostile frigate-type has emerged from hyperspace. It's not a configuration we're familiar with.
-
-
-
-`story_Wiracoda_dialog_dronesWin`
-
-**Vashti**
-> Thank you for the assist, Commander.
-
-
-
-`story_Wiracoda_dialog_useSkill`
-
-**Joanna**
-> The Drones are hard to hit. <color=#FBB03F>Use our Missile Barrage</color> to overwhelm and destroy them.
-
-
-
-`story_Wiracoda_dialog_attackDrones`
-
-**Joanna**
-> Commander, awaiting your command to <color=#FBB03F>attack the enemy</color>.
+> No sign of the Progenitors yet, but they rarely announce their appearance.
 
 
 
@@ -522,24 +322,135 @@ Hiigaran Medea, Progenitor
 
 
 
-`story_Wiracoda_dialog_noSign`
+`story_Wiracoda_dialog_attackDrones`
 
 **Joanna**
-> No sign of the Progenitors yet, but they rarely announce their appearance.
+> Commander, awaiting your command to <color=#FBB03F>attack the enemy</color>.
 
 
 
-`story_Wiracoda_dialog_moveForward`
+`story_Wiracoda_dialog_useSkill`
 
 **Joanna**
-> Commander, give the order to <color=#FBB03F>move to our assigned position</color>.
+> The Drones are hard to hit. <color=#FBB03F>Use our Missile Barrage</color> to overwhelm and destroy them.
 
 
 
-`story_Wiracoda_dialog_intro`
+`story_Wiracoda_dialog_dronesWin`
+
+**Vashti**
+> Thank you for the assist, Commander.
+
+
+
+`story_Wiracoda_dialog_tormentor`
+
+**Crew Member**
+> A hostile frigate-type has emerged from hyperspace. It's not a configuration we're familiar with.
+
+
+
+`story_Wiracoda_dialog_attackTormentor`
+
+**Joanna**
+> Commander, <color=#FBB03F>attack the incoming ship and destroy it!</color>
+
+
+
+`story_Wiracoda_dialog_skillReminder`
+
+**Joanna**
+> Commander, don't forget to <color=#FBB03F>use our missile barrage</color> when it is ready again.
+
+
+
+`story_Wiracoda_dialog_tormentorWin`
+
+**Joanna**
+> Enemy ship destroyed. We're fortunate this new enemy isn't as formidable as a Keeper.
+
+
+
+`story_Wiracoda_dialog_freeBattle`
 
 **Enoch**
-> All commands, stay alert. Other expeditions have reported being ambushed by Progenitors. Begin perimeter search.
+> All commands, more Progenitors are appearing, but our reinforcements have emerged from the gate. <color=#FBB03F>Engage combat!</color>
+
+
+
+`story_Wiracoda_dialog_keeper`
+
+**Joanna**
+> Commander, the Keeper has appeared. Activating the Progenitor Communicator now. We'll order the Keeper to stand down and retake command of the gate.
+
+**Crew Member**
+> Command, be advised, the Keeper is rejecting the Communicator's command. Full permissions setting has no effect.
+
+
+
+`story_Wiracoda_dialog_moveBack`
+
+**Enoch**
+> Impossible! The communicator should have full authority over all Progenitor devices. Maintain defensive positions.
+
+
+
+`story_Wiracoda_dialog_loosing_1`
+
+**Crew Member**
+> Mayday! Breach in starboard fusion engine-!......
+
+
+
+`story_Wiracoda_dialog_loosing_2`
+
+**Crew Member**
+> Hull integrity failing, we-
+
+
+
+`story_Wiracoda_dialog_loosing_3`
+
+**Joanna**
+> The Akalon has been destroyed!
+
+
+
+`story_Wiracoda_dialog_loosing_4`
+
+**Crew Member**
+> We sustained a critical hit, we cannot hol-!......
+
+
+
+`story_Wiracoda_dialog_loosing_5`
+
+**Joanna**
+> The Haarsuk has been destroyed. We're taking alarming losses.
+
+
+
+`story_Wiracoda_dialog_loosing_6`
+
+**Vashti**
+> Alert, more Keepers emerging from hyperspace!
+
+
+
+`story_Wiracoda_dialog_loosing_7`
+
+**Joanna**
+> We're being overwhelmed. This is not looking good!
+
+
+
+`story_Wiracoda_dialog_end`
+
+**Enoch**
+> Task Force Ararat, this is Admiral Enoch. Flee the area immediately. The Riif-sa will draw attention to assist your escape.
+
+**Joanna**
+> We need to go before the Keepers activate their gravity well. Initiate emergency hyperspace jump!
 
 
 ### CINEMATIC: NIMBUS
@@ -561,6 +472,13 @@ No Hiigaran signal traffic of any kind is detected.
 
 #### MISSION: GULF TALN
 
+###### DESCRIPTION:
+
+
+After our narrow escape from the keeper, we need to plan our next steps.
+
+
+
 ###### LOCATION:
 
 
@@ -574,6 +492,65 @@ Cangacian, Iyatequa
 
 
 
+`story_GulfTaln_introSequence_dialog`
+
+**Crew Member**
+> Hyperspace jump successful. We sustained heavy damage. Fires are reported in engineering.
+
+
+
+`story_GulfTaln_intro_dialog`
+
+**Joanna**
+> The Progenitor Communicator failed to stop the Keepers. We need to rebuild the fleet before we can find out why.
+
+
+
+`story_GulfTaln_frigate_dialog`
+
+**Joanna**
+> Commander, Hiigaran ship coming out of hyperspace in proximity. It's one of ours.
+
+**Hiigaran Commander**
+> This is the Acropolis. We almost didn't make it out, requesting repairs and permission to join your fleet.
+
+
+
+`story_GulfTaln_undockRC_dialog`
+
+**Joanna**
+> We must rebuild our fleet with what we have. Our Resource Collector was undamaged and reports ready. <color=#FBB03F>Undock it now.</color>
+
+
+
+`story_GulfTaln_repair_dialog`
+
+**Joanna**
+> Great. Now give the order to <color=#FBB03F>begin repairs on the Scouting Frigate.</color>
+
+
+
+`story_GulfTaln_repairStarted_dialog`
+
+**Crew Member**
+> Repairs are under way.
+
+
+
+`story_GulfTaln_undockInterceptor_dialog`
+
+**Joanna**
+> Commander, our only squadron of Interceptors has finished rearming and is ready to launch. <color=#FBB03F>Undock strike craft.</color>
+
+
+
+`story_GulfTaln_stranger_dialog`
+
+**Crew Member**
+> An unidentified ship is emerging from hyperspace nearby. It's contacting us... with a Hiigaran frequency?
+
+
+
 `story_GulfTaln_trader_dialog`
 
 **Iyatequa Trader**
@@ -584,41 +561,24 @@ Cangacian, Iyatequa
 
 
 
-`story_GulfTaln_conclusion_dialog`
+`story_GulfTaln_move_dialog`
 
 **Joanna**
-> The mothership Lazarus has been missing since the first expeditions to Nimbus. The other survivors must have gathered there!
+> If these Iyatequa know Hiigarans, other expeditions to Nimbus must have survived. We can surely use their help. <color=#FBB03F>Let's approach the ship.</color>
 
 
 
-`story_GulfTaln_farewell_dialog`
-
-**Iyatequa Trader**
-> Your intervention was not necessary, but we are grateful. You consider yourselves isolated in Nimbus, but this is not so.
-
-**Iyatequa Trader**
-> Your kind reside in the Empty Quarter. Coordinates to Lazarus, your capital, have been transmitted. Good fortune to you.
-
-
-
-`story_GulfTaln_escape_dialog`
-
-**Cangacian Commander**
-> You can't hide behind the blind empathy of others forever, traders! Ekekko will face justice another day!
-
-
-
-`story_GulfTaln_skill_dialog`
+`story_GulfTaln_exchange_dialog`
 
 **Joanna**
-> Commander, remember to <color=#FBB03F>use our missile barrage.</color>
+> We have docked. Along with exchanging language and cartographic information, one of the Iyatequa has boarded to serve as a guide.
 
 
 
-`story_GulfTaln_help_dialog`
+`story_GulfTaln_pirates_dialog`
 
-**Joanna**
-> The Iyatequa ship is unarmed! We must protect them. <color=#FBB03F>Attack the pirates!</color>
+**Crew Member**
+> Commander, we're detecting another hyperspace signature.
 
 
 
@@ -635,83 +595,41 @@ Cangacian, Iyatequa
 
 
 
-`story_GulfTaln_pirates_dialog`
-
-**Crew Member**
-> Commander, we're detecting another hyperspace signature.
-
-
-
-`story_GulfTaln_exchange_dialog`
+`story_GulfTaln_help_dialog`
 
 **Joanna**
-> We have docked. Along with exchanging language and cartographic information, one of the Iyatequa has boarded to serve as a guide.
+> The Iyatequa ship is unarmed! We must protect them. <color=#FBB03F>Attack the pirates!</color>
 
 
 
-`story_GulfTaln_move_dialog`
-
-**Joanna**
-> If these Iyatequa know Hiigarans, other expeditions to Nimbus must have survived. We can surely use their help. <color=#FBB03F>Let's approach the ship.</color>
-
-
-
-`story_GulfTaln_stranger_dialog`
-
-**Crew Member**
-> An unidentified ship is emerging from hyperspace nearby. It's contacting us... with a Hiigaran frequency?
-
-
-
-`story_GulfTaln_undockInterceptor_dialog`
+`story_GulfTaln_skill_dialog`
 
 **Joanna**
-> Commander, our only squadron of Interceptors has finished rearming and is ready to launch. <color=#FBB03F>Undock strike craft.</color>
+> Commander, remember to <color=#FBB03F>use our missile barrage.</color>
 
 
 
-`story_GulfTaln_repairStarted_dialog`
+`story_GulfTaln_escape_dialog`
 
-**Crew Member**
-> Repairs are under way.
-
-
-
-`story_GulfTaln_repair_dialog`
-
-**Joanna**
-> Great. Now give the order to <color=#FBB03F>begin repairs on the Scouting Frigate.</color>
+**Cangacian Commander**
+> You can't hide behind the blind empathy of others forever, traders! Ekekko will face justice another day!
 
 
 
-`story_GulfTaln_undockRC_dialog`
+`story_GulfTaln_farewell_dialog`
 
-**Joanna**
-> We must rebuild our fleet with what we have. Our Resource Collector was undamaged and reports ready. <color=#FBB03F>Undock it now.</color>
+**Iyatequa Trader**
+> Your intervention was not necessary, but we are grateful. You consider yourselves isolated in Nimbus, but this is not so.
+
+**Iyatequa Trader**
+> Your kind reside in the Empty Quarter. Coordinates to Lazarus, your capital, have been transmitted. Good fortune to you.
 
 
 
-`story_GulfTaln_frigate_dialog`
+`story_GulfTaln_conclusion_dialog`
 
 **Joanna**
-> Commander, Hiigaran ship coming out of hyperspace in proximity. It's one of ours.
-
-**Hiigaran Commander**
-> This is the Acropolis. We almost didn't make it out, requesting repairs and permission to join your fleet.
-
-
-
-`story_GulfTaln_intro_dialog`
-
-**Joanna**
-> The Progenitor Communicator failed to stop the Keepers. We need to rebuild the fleet before we can find out why.
-
-
-
-`story_GulfTaln_introSequence_dialog`
-
-**Crew Member**
-> Hyperspace jump successful. We sustained heavy damage. Fires are reported in engineering.
+> The mothership Lazarus has been missing since the first expeditions to Nimbus. The other survivors must have gathered there!
 
 
 ###### END-OF-DAY-DIALOG:
@@ -1220,6 +1138,13 @@ With information provided by Baaekh S’jet, we now know a potential location of
 
 #### MISSION: RELIC SIGNATURE
 
+###### DESCRIPTION:
+
+
+Gideon's research is leading us to a potential location of a Progenitor artifact that must be retrieved.
+
+
+
 ###### LOCATION:
 
 
@@ -1331,6 +1256,13 @@ After examining the Progenitor Relic, Gideon wants us to find a Progenitor Termi
 
 
 #### MISSION: JOLJA
+
+###### DESCRIPTION:
+
+
+A live Progenitor Ruin is located here. Investigate and recover any active computer components.
+
+
 
 ###### LOCATION:
 
@@ -1731,6 +1663,14 @@ Our Hiigaran allies have prepared a combat area to test our improved strike craf
 
 #### MISSION: COMBAT TRIALS
 
+###### DESCRIPTION:
+
+
+During a shakedown your flagship comes under attack from pirates!
+Expected enemies: Fighters, Corvettes - Threat level: 2
+
+
+
 ###### LOCATION:
 
 
@@ -1928,6 +1868,14 @@ We received a message that Meropis, a Iyatequa communications station, is asking
 
 
 #### MISSION: MEROPIS DEFENSE
+
+###### DESCRIPTION:
+
+
+Meropis station is under imminent threat of attack. Defend the station!
+Expected enemies: Fighters, Corvettes - Threat level: 5
+
+
 
 ###### LOCATION:
 
@@ -2179,6 +2127,14 @@ The Iyatequa have flagged a location for suspicious hostile activity. They've as
 
 
 #### MISSION: THE POOL
+
+###### DESCRIPTION:
+
+
+Zerzua Oasis along the outer rim is a quiet location with many resources.
+Expected enemies: Corvettes - Threat level: 10
+
+
 
 ###### LOCATION:
 
@@ -3646,6 +3602,13 @@ We can finally reach the Tanoch capital. It is time to meet the emperor.
 
 #### MISSION: TANOCHET
 
+###### DESCRIPTION:
+
+
+We have received a personal invitation to the Tanoch homeworld from their Emperor.
+
+
+
 ###### LOCATION:
 
 
@@ -3881,6 +3844,13 @@ We are following Vaygr fleet to find out their hidden plan.
 
 
 #### MISSION: TEMPLE TONAATI
+
+###### DESCRIPTION:
+
+
+We have traced the Vaygr to this location. Go there and find out what they are doing in this galaxy.
+
+
 
 ###### LOCATION:
 
@@ -4753,6 +4723,13 @@ We are closing in on possible Vaygr transmissions close to the star.
 
 #### MISSION: STAR TOTEK
 
+###### DESCRIPTION:
+
+
+Something is happening at the most Holy Star of the Tanoch Empire.
+
+
+
 ###### LOCATION:
 
 
@@ -5522,6 +5499,13 @@ We detected a possible signal from the missing Khar-Kalaad.
 
 #### MISSION: SIJIN LIGHTHOUSE
 
+###### DESCRIPTION:
+
+
+We detected a possible signal from the missing Khar-Kalaad.
+
+
+
 ###### LOCATION:
 
 
@@ -5719,6 +5703,13 @@ We have arrived at another lighthouse in uncharted territory. Be prepared for an
 
 #### MISSION: ILIYIN LIGHTHOUSE
 
+###### DESCRIPTION:
+
+
+We have arrived at another lighthouse in uncharted territory. Be prepared for anything.
+
+
+
 ###### LOCATION:
 
 
@@ -5911,6 +5902,13 @@ The Amassari here may contain answers about the nature of the Progenitor observe
 
 #### MISSION: BRIGHT TEMPLE
 
+###### DESCRIPTION:
+
+
+The Amassari here may contain answers about the nature of the Progenitor observer.
+
+
+
 ###### LOCATION:
 
 
@@ -6092,6 +6090,13 @@ The fallen capital of the Amassari, and last known position of the Observer.
 
 
 #### MISSION: HATALDAN
+
+###### DESCRIPTION:
+
+
+The fallen capital of the Amassari, and last known position of the Observer.
+
+
 
 ###### LOCATION:
 

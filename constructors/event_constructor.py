@@ -108,9 +108,12 @@ class Event_Constructor(Constructor_Base):
         body_event += utils.format_heading2(f"Event: {event_id}")
         body_event += utils.format_br(2)
 
-        quest_line_data = Quest_Line_Constructor()
-        quest_line_id = quest_line_data.get_quest_line_by_event_id(event_id)
-        quests = quest_line_data.get_quests_by_quest_line_id(quest_line_id)
+        if event_id == "strike_missions":
+            quests = ["qr_013","qr_014","qr_015","qr_019","qr_023"]
+        else:
+            quest_line_data = Quest_Line_Constructor()
+            quest_line_id = quest_line_data.get_quest_line_by_event_id(event_id)
+            quests = quest_line_data.get_quests_by_quest_line_id(quest_line_id)
         
         quest_data = Quest_Constructor()
         for quest_id in quests:

@@ -229,7 +229,14 @@
 
 
 
-#### MISSION: TANOCHET (EVENT)
+#### MISSION: TANOCHET
+
+###### DESCRIPTION:
+
+
+We have received a personal invitation to the Tanoch homeworld from their Emperor.
+
+
 
 ###### LOCATION:
 
@@ -4591,12 +4598,235 @@ The Kiithless are targeting Ambadda waystation. Thassin's Needle, an artifact, i
 
 
 
-#### MISSION: AMBADDA WAYSTATION T4
+#### MISSION: DOWN THE WELL
+
+###### DESCRIPTION:
+
+
+A distress call is received from the edge of a hazard zone.
+
+
+
+###### LOCATION:
+
+
+YTEP system, Yaot territory
+
+
+
+`Raid005_Landing_dialog`
+
+**Joanna**
+> Hyperspace jump complete. The distress signal isn't too far away.
+
+
+
+`Raid005_Intro_dialog`
+
+**Joanna**
+> The Amassari ships are hailing us
+
+**Amassari**
+> Vessel! We are in need of assistance. Our command ship is stranded beyond the meteor shield. You have to help us, there are civilians onboard!
+
+**Joanna**
+> How do we pass through this shield?
+
+**Amassari**
+> Two pillars generate the meteor shield that keeps the asteroids contained. They will need to be disabled so that you can pass, but the barrier repairs itself quickly. Be warned also, the Kakahl Amassari do not take kindly to interlopers. Please hurry!
+
+**Joanna**
+> If we help them they may be able to give us some assistance in this region. We should split up, one command per each base. We'll have to time our assault to drop both bases at the same time to allow entry.
+
+
+
+`Raid005_Challenge_dialog`
+
+**Joanna**
+> There it is. The structure is Amassari make, a form of Gravity well Generator used to keep asteroids in place. This was probably a holding area for a large mining operation. We're being contacted.
+
+**Amassari_Evil - speaker name not found**
+> We do not welcome strangers on our mining grounds! Begone! or be destroyed!
+
+**Joanna**
+> We need to rescue the command ship trapped within the field. If you can drop the barrier to rescue the ship, then we have no cause for conflict.
+
+**Amassari_Evil - speaker name not found**
+> Their fate is already sealed. We will not warn you again!
+
+
+
+`Raid005_Base1_dialog`
+
+**Joanna**
+> The field is disabled! The Amassari are already trying to get it online, move quickly to disable the other!
+
+
+
+`Raid005_Base2_dialog`
+
+**Joanna**
+> Both bases are down! The gravity field is disabled, we must move in and repair the command ship to escort it out of here!
+
+
+
+`Raid005_Wreck_dialog`
+
+**Joanna**
+> Vessel, this is the Hiigaran fleet. Standby for assistance.
+
+**Amassari**
+> The creed delivers! We had given up all hope. We stand ready to receive you, Hiigarans.
+
+**Joanna**
+> Their hyperdrives will be repaired momentarily but they need to make it out of the asteroid field to activate them, lets stick around until then.
+
+
+
+`Raid005_LastBattle_dialog`
+
+**Joanna**
+> A large group of hostile ships is approaching!
+
+
+
+`Raid005_BossDead_dialog`
+
+**Joanna**
+> I think they can take it from here. Well done!
+
+
+
+`Raid005_GRepairs_dialog`
+
+**Joanna**
+> We waited too long, the gate node is back online. I'm not certain if we'll be able to disable it again. We'll need to leave the area, there's nothing more we can do.
+
+
+###### END-OF-DAY-DIALOG:
+
+
+
+`qe_amaSum_2023_day15_t4_end / dia_amasum_2024_day15_end`
+> That was the last, desperate reach of the Kiithless. They'll need to regroup for a while before they can challenge the Amassari again.
+
+> It is a thing to raise a hand in defense of another Amassari, but another to respect our herritage. I wish to join your crew commander, I have many talents to offer beyond Amassari space.
+
+
+
+
+
+
+
+## Event: strike_missions
+
+
+### Quest: Pirate Hideout
+
+
+###### DESCRIPTION:
+
+
+A lot of pirate activity has been reported in this region. The local pirate faction must have a major base here. Our task is to find the base, and destroy any pirate vessel and structure in this sector.
+
+
+###### GOALS:
+
+
+	* Task 1: Complete mission 'Pirate Hideout'
+
+
+
+#### MISSION: PIRATE HIDEOUT
+
+###### DESCRIPTION:
+
+
+A lot of pirate activity has been reported in this region. The local pirate faction must have a major base here. Our task is to find the base, and destroy any pirate vessel and structure in this sector.
+
+
+
+###### LOCATION:
+
+
+DEVADAASI system, Iyatequa territory
+
+
+###### FACTIONS INVOLVED:
+
+
+Cangacian
+
+
+
+`RaidMission001_dialog_finish`
+
+**Joanna**
+> The pirate fleet has been destroyed. Prisoners were collected among the survivors and we're collecting salvage.
+
+**Joanna**
+> Great work! I think the locals will appreciate the one less pirate base in the area.
+
+
+
+`miss010_g_boss_dialog`
+
+**Joanna**
+> The pirate fleet has returned! Let's finish them off!
+
+
+
+`miss010_g0_dialog`
+
+**Joanna**
+> We have new intelligence revealing a pirate hideout.
+
+**Joanna**
+> But their main fleet is not anywhere on sensors.
+
+
+
+`miss010_g1_dialog`
+
+**Joanna**
+> We should take this chance and wipe out this base before their fleet returns.
+
+
+### Quest: Station Defense
+
+
+###### DESCRIPTION:
+
+
+We have received intel that enemy forces are planning to attack a local trading station. In order to defend the station, we must immediately move our fleet into defensive position.
+
+
+###### GOALS:
+
+
+	* Task 1: Complete mission 'Station Defense'
+
+
+
+#### MISSION: STATION DEFENSE
+
+###### DESCRIPTION:
+
+
+Traders have requested our assistance in an upcoming attack by pirates.
+
+
 
 ###### LOCATION:
 
 
 MITUUL system, Iyatequa territory
+
+
+###### FACTIONS INVOLVED:
+
+
+Cangacian, Tanoch
 
 
 
@@ -4655,17 +4885,252 @@ MITUUL system, Iyatequa territory
 > Three beacons have been destroyed. Almost there.
 
 
-###### END-OF-DAY-DIALOG:
+### Quest: Pahra's Rock
+
+
+###### DESCRIPTION:
+
+
+The presence of a large Cangacian asteroid base in this area has been threatening the Hiigaran settlements. Our task is to perform an attack on this base, destroy it and any Cangacian fleet nearby.
+
+
+###### GOALS:
+
+
+	* Task 1: Complete mission 'Pahra's Rock'
 
 
 
-`qe_amaSum_2023_day15_t4_end / dia_amasum_2024_day15_end`
-> That was the last, desperate reach of the Kiithless. They'll need to regroup for a while before they can challenge the Amassari again.
+#### MISSION: PAHRA'S ROCK
 
-> It is a thing to raise a hand in defense of another Amassari, but another to respect our herritage. I wish to join your crew commander, I have many talents to offer beyond Amassari space.
-
+###### DESCRIPTION:
 
 
+The presence of a large Cangacian asteroid base in this area has been threatening the Hiigaran settlements. Our task is to perform an attack on this base, destroy it and any Cangacian fleet nearby.
+
+
+
+###### LOCATION:
+
+
+TUXPANTE system, Tanoch territory
+
+
+###### FACTIONS INVOLVED:
+
+
+Cangacian
+
+
+
+`r003_finish_dialog0`
+
+**Joanna**
+> The enemy base has been destroyed and Catequil is on the run. We did it!
+
+**Catequil**
+> You have my attention now, Hiigarans. You'll regret this on our next meeting!
+
+**Joanna**
+> Any other Hiigaran refugees in the area will be in the clear, now. But we'll need to be wary of this Fleet of Rams... I have a feeling they'll be back.
+
+
+
+`r003_BaseHp40_dialog0`
+
+**Joanna**
+> It looks like their flagship just emerged from hyperspace. The enemy commander is identifying himself as... Catequil the devisor. Sounds pretentious.
+
+**Catequil**
+> Who? Hiigarans? I don't have time for this nuisance. Eliminate them!
+
+**Joanna**
+> Here they come, prepare for a fight!
+
+
+
+`r003_BaseHp80_dialog0`
+
+**Joanna**
+> The Fleet of Rams is here. Proceed with caution.
+
+
+
+`r003_BaseHp60_dialog0`
+
+**Joanna**
+> Another group of pirates appeared on our flank!
+
+
+
+`r003_start_dialog0`
+
+**Joanna**
+> This base belongs to a group called the Fleet of Rams. It's in a position to threaten any other Hiigaran fleets that arrive in the area.
+
+**Joanna**
+> Now that we're in contact with enough allied fleets, we can strike this base and wipe it out.
+
+
+### Quest: Breach
+
+
+###### DESCRIPTION:
+
+
+Sitting in a safe pocket inside an electromagnetic asteroid field, this station is a crucial base of operation. As it is heavily defended, we came up with the cunning plan to fill an old freighter with explosives and escort it to the base.
+
+
+###### GOALS:
+
+
+	* Task 1: Complete mission 'Breach'
+
+
+
+#### MISSION: BREACH
+
+###### DESCRIPTION:
+
+
+Sitting in a safe pocket inside an electromagnetic asteroid field, this station is a crucial base of operation. As it is heavily defended, we came up with the cunning plan to fill an old freighter with explosives and escort it to the base.
+
+
+
+###### LOCATION:
+
+
+TOPACONTA system, Yaot territory
+
+
+###### FACTIONS INVOLVED:
+
+
+Hiigaran Medea, Yaot
+
+
+
+`st_breach_intro_1_dialog`
+
+**Joanna**
+> We've arrived at the target destination. This base is sitting in a crucial defensive position. Escort the freighter filled with explosives to the station to destroy it.
+
+**Joanna**
+> Commander, be aware. The asteroid belt here produces strong electrical discharges that will damage our ships if we get too close.
+
+
+
+`st_breach_explosion_1_dialog`
+
+**Crew Member**
+> Explosives armed, 10 seconds before she goes!
+
+
+
+`st_breach_armExplosives_1_dialog`
+
+**Crew Member**
+> Commander, you have to defend the ship while we arm the explosives!
+
+
+
+`st_breach_turrets03Destroyed_1_dialog`
+
+**Joanna**
+> All turrets down, let's begin the assault on the base!
+
+
+### Quest: Nightmare Gulf
+
+
+###### DESCRIPTION:
+
+
+A base used by Kiithless raiders has been located in this area of the nightmare gulf. A large attack force will be needed to destroy it and free the Progenitor assets held at this location.
+
+
+###### GOALS:
+
+
+	* Task 1: Complete mission 'Nightmare Gulf'
+
+
+
+#### MISSION: NIGHTMARE GULF
+
+###### DESCRIPTION:
+
+
+A base used by Kiithless raiders has been located in this area of the Nightmare Gulf. A large attack force will be needed to destroy it and free the Progenitor assets held at this location.
+
+
+
+###### LOCATION:
+
+
+VENEE system, Amassari territory
+
+
+###### FACTIONS INVOLVED:
+
+
+Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
+
+
+
+`str_nightmareGulf_dialog_reinforcements`
+
+**Joanna**
+> Kiithless reinforcements have entered the area in response to their distress signal. We must destroy that base!
+
+
+
+`str_nightmareGulf_dialog_reinforcements`
+
+**Joanna**
+> Kiithless reinforcements have entered the area in response to their distress signal. We must destroy that base!
+
+
+
+`str_nightmareGulf_dialog_kidara`
+
+**Kidara**
+> I knew you arrogant Kiithid couldn't resist one last attempt to stop our plans. It will not matter, I will crush you and bring glory to Hiigara!
+
+
+
+`str_nightmareGulf_dialog_end`
+
+**Joanna**
+> Kidara's defeated, the Observer has been freed, and the Kiithless have been routed. All objectives completed... mission successful.
+
+
+
+`str_nightmareGulf_dialog_destruct`
+
+**Kidara**
+> I curse you with my last breath, Kiithid! You'll die here with me. You will never see our Homeworld again!
+
+
+
+`str_nightmareGulf_dialog_engage`
+
+**Joanna**
+> Kidara doesn't seem to be here, but I wouldn't rule out an ambush. Begin the attack!
+
+
+
+`str_nightmareGulf_dialog_station`
+
+**Kidara**
+> You may destroy my station, but I will fight to the last!
+
+
+
+`str_nightmareGulf_dialog_freeObserver`
+
+**Observer**
+> The Observer awakens. Now we shall end this conflict, together.
 
 
 

@@ -140,25 +140,30 @@ class Mission_Constructor(Constructor_Base):
     def get_mission_text(self,mission_id):
         body_mission = ""
 
+        # Mission Id
         print(f"Mission: {mission_id}")
-        mission = self.get_mission_by_id(mission_id)
-        if "InstanceId:" in mission:
-            mission = self.get_mission_by_id(mission.get("InstanceId:"))
-            print(f"Replaced Mission: {mission_id}")
-            
-        # Mission Name
         match = re.match(r'^event_(\d+)_StationDefense$', mission_id)
         if match:
-            m_tier = int(match.group(1))
-            mission_key = f"event_amasum2024_stationdefense_t{m_tier}"
-            mission_name = self.get_string_by_key(mission_key)
-        else:
-            mission_name = self.get_string_by_key(mission_id)
+            # m_tier = int(match.group(1))
+            # mission_key = f"event_amasum2024_stationdefense_t{m_tier}"
+            # mission_name = self.get_string_by_key(mission_key)
+            mission_id = "strike_x_DownTheWell"
+        
+        mission = self.get_mission_by_id(mission_id)
+        if "InstanceId:" in mission:
+            mission_id = mission.get("InstanceId:")
+            print(f"Replaced Mission: {mission_id}")
+            mission = self.get_mission_by_id(mission_id)
 
+        # Mission Name
+        mission_name = self.get_string_by_key(mission_id)
         body_mission += utils.format_heading4(f"Mission: {mission_name}")
 
         # Mission Description
-        mission_desc_key = f"desc_{mission_id[:-1]}x"
+        mission_desc_key = f"desc_{mission_id}"
+        for ending in ["_t1","_t2","_t3","_t4"]:
+            if mission_id.endswith(ending):
+                mission_desc_key = f"desc_{mission_id[:-1]}x"
         mission_desc_text = self.get_string_by_key(mission_desc_key)
         # print(f"Mission Desc: {mission_desc_key}")
         if mission_desc_text and mission_desc_text != "-" :

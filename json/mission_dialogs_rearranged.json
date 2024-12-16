@@ -103,4 +103,125 @@
 		,"e_iyaFall2023_escort_dialog_win"
 		,"e_iyaFall2023_escort_dialog_fail"
     ]
+	,"story_A01_DuzumiGate": [
+		"s_duzumi_intro_dialog_1"
+		,"s_duzumi_intro_dialog_2"
+		,"s_duzumi_intro_dialog_3"
+		,"s_duzumi_intro_dialog_4"
+		,"s_duzumi_intro_dialog_5"
+		,"s_duzumi_intro_dialog_6"
+		,"s_duzumi_intro_dialog_7"
+		,"s_duzumi_intro_dialog_8"
+	]
+	,"story_A01_DuzumiGateTut": [
+		"s_duzumiTut_intro"
+		,"s_duzumiTut_cameraSwipe"
+		,"s_duzumiTut_cameraAuto"
+		,"s_duzumiTut_cameraZoom"
+		,"s_duzumiTut_unitTray"
+		,"s_duzumiTut_moveDrag"
+		,"s_duzumiTut_targetList"
+		,"s_duzumiTut_moveTargetList"
+		,"s_duzumiTut_attackTargetList"
+		,"s_duzumiTut_targetDrones"
+		,"s_duzumiTut_praise"
+		,"s_duzumiTut_attackDrag"
+		,"s_duzumiTut_skill"
+		,"s_duzumiTut_targetFrigate"
+		,"s_duzumiTut_targetFrigate2"
+		,"s_duzumiTut_explosion"
+		,"s_duzumiTut_moveTaskForce"
+		,"s_duzumiTut_preOutro"
+		,"s_duzumiTut_outro"
+		,"s_duzumi_intro_dialog_1"
+		,"s_duzumi_intro_dialog_2"
+		,"s_duzumi_intro_dialog_3"
+		,"s_duzumi_intro_dialog_4"
+		,"s_duzumi_intro_dialog_5"
+		,"s_duzumi_intro_dialog_6"
+		,"s_duzumi_intro_dialog_7"
+		,"s_duzumi_intro_dialog_8"
+	]
+	,"story_A02_WiracodaGate": [
+		"story_Wiracoda_dialog_intro"
+		,"story_Wiracoda_dialog_moveForward"
+		,"story_Wiracoda_dialog_noSign"
+		,"story_Wiracoda_dialog_drones"
+		,"story_Wiracoda_dialog_attackDrones"
+		,"story_Wiracoda_dialog_useSkill"
+		,"story_Wiracoda_dialog_dronesWin"
+		,"story_Wiracoda_dialog_tormentor"
+		,"story_Wiracoda_dialog_attackTormentor"
+		,"story_Wiracoda_dialog_skillReminder"
+		,"story_Wiracoda_dialog_tormentorWin"
+		,"story_Wiracoda_dialog_freeBattle"
+		,"story_Wiracoda_dialog_keeper"
+		,"story_Wiracoda_dialog_moveBack"
+		,"story_Wiracoda_dialog_loosing_1"
+		,"story_Wiracoda_dialog_loosing_2"
+		,"story_Wiracoda_dialog_loosing_3"
+		,"story_Wiracoda_dialog_loosing_4"
+		,"story_Wiracoda_dialog_loosing_5"
+		,"story_Wiracoda_dialog_loosing_6"
+		,"story_Wiracoda_dialog_loosing_7"
+		,"story_Wiracoda_dialog_end"
+	]
+	,"story_A03_GulfTaln": [
+		"story_GulfTaln_introSequence_dialog"
+		,"story_GulfTaln_intro_dialog"
+		,"story_GulfTaln_frigate_dialog"
+		,"story_GulfTaln_undockRC_dialog"
+		,"story_GulfTaln_repair_dialog"
+		,"story_GulfTaln_repairStarted_dialog"
+		,"story_GulfTaln_undockInterceptor_dialog"
+		,"story_GulfTaln_stranger_dialog"
+		,"story_GulfTaln_trader_dialog"
+		,"story_GulfTaln_move_dialog"
+		,"story_GulfTaln_exchange_dialog"
+		,"story_GulfTaln_pirates_dialog"
+		,"story_GulfTaln_pirates2_dialog"
+		,"story_GulfTaln_help_dialog"
+		,"story_GulfTaln_skill_dialog"
+		,"story_GulfTaln_escape_dialog"
+		,"story_GulfTaln_farewell_dialog"
+		,"story_GulfTaln_conclusion_dialog"
+	]
+	,"_story_A04_RelicSignature": []
+	,"_story_A05_Jolja": []
+	,"_story_B01_CombatTrials": []
+	,"_story_B02_MeropisDefense": []
+	,"_story_B03_ThePool": []
+	,"_story_C01_Tanochet": [
+		"Story-03-01_start_dialog"
+		,"Story-03-01_yaotSpawn_dialog"
+		,"Story-03-01_torpedo1_dialog"
+		,"Story-03-01_torpedo2_dialog"
+		,"Story-03-01_torpedo3_dialog"
+		,"Story-03-01_attackOver_dialog"
+		,"Story-03-01_dialog_failure"
+	]
+	,"_story_C02_TempleTonaati": []
+	,"_story_C03_StarTotek": []
+	,"_story_D01_SijinLighthouse": []
+	,"_story_D02_IliyinLighthouse": []
+	,"_story_D03_BrightTemple": []
+	,"_story_D04_Hataldan": []
+	,"_story_D05_NightmareGulf": []
+	,"_strike_01_PirateHideout": []
+	,"_strike_02_StationDefense": []
+	,"_strike_03_PahrasRock": []
+	,"_strike_04_Breach": []
+	,"_strike_05_NightmareGulf": []
+	,"strike_x_DownTheWell": [
+		"Raid005_Landing_dialog"
+		,"Raid005_Intro_dialog"
+		,"Raid005_Challenge_dialog"
+		,"Raid005_Base1_dialog"
+		,"Raid005_Base2_dialog"
+		,"Raid005_Wreck_dialog"
+		,"Raid005_LastBattle_dialog"
+		,"Raid005_BossDead_dialog"
+		,"Raid005_GRepairs_dialog"
+
+	]
 }
