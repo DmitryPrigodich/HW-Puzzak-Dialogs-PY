@@ -5127,13 +5127,6 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 
 
-`str_nightmareGulf_dialog_reinforcements`
-
-**Joanna**
-> Kiithless reinforcements have entered the area in response to their distress signal. We must destroy that base!
-
-
-
 `str_nightmareGulf_dialog_kidara`
 
 **Kidara**
@@ -5145,6 +5138,13 @@ Amassari, Hiigaran Kiithless, Hiigaran Medea, Progenitor
 
 **Kidara**
 > You may destroy my station, but I will fight to the last!
+
+
+
+`str_nightmareGulf_dialog_reinforcements`
+
+**Joanna**
+> Kiithless reinforcements have entered the area in response to their distress signal. We must destroy that base!
 
 
 

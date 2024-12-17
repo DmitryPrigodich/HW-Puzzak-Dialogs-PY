@@ -359,7 +359,7 @@ class Quest_Constructor(Constructor_Base):
         def _get_mission_text(mission_id):
             mission_text = ""
             match mission_id:
-                case "story_A01_DuzumiGate":
+                case m if m in ["story_A01_DuzumiGate","story_A01_DuzumiGateTut"]:
                     mission_text += string_data.get_cinematic_text('20')
                     mission_text += mission_data.get_mission_text(mission_id)
                 case "story_A02_WiracodaGate":

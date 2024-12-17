@@ -25,6 +25,26 @@ Our arrival in this galaxy was met with tragedy.
 
 
 
+### CINEMATIC: INTRO #1
+> It is fifteen years into the age of S’jet
+
+> Fifteen years since the warlord Makaan met his end at Balcora...
+
+> ...and the Hiigarans claimed the mantle of wisdom left by the ancients.
+
+> In this time of peace and rebuilding, the Hiigarans embraced the gifts of the Progenitors.
+Guided by Sajuuk, new doors of understanding opened to them.
+
+> However, as those with no Kiith gained power on Hiigara, the ancient clans turned their ambitions outward.
+
+> In spite of the pleas by Karan S’jet, each Kiith set out from Hiigara to forge their own destinies.
+
+> Each Kiith and Clan began to construct their own fleets once again. Though the Hiigaran people were unified by destiny,
+new ambitions began seeking different paths. All of the kiith were going their own way.
+
+> All of them were chasing the lost dream of the Progenitors.
+
+
 #### MISSION: DUZUMI GATE
 
 ###### DESCRIPTION:
