@@ -391,15 +391,15 @@ class Quest_Constructor(Constructor_Base):
 
         # Name
         q_name = quest.get('Name:')
-        body_quest += utils.format_heading3(f"Quest: {q_name}")
+        body_quest += utils.format_heading2(f"Quest: {q_name}")
         body_quest += utils.format_br(2)
 
         # Description
         q_description = quest.get('Description:')
         q_description_upd = utils.remove_color(q_description)
 
-        body_quest += utils.format_heading6("Description:")
-        body_quest += utils.format_br(1)
+        body_quest += utils.format_bold("Description:")
+        body_quest += utils.format_br(2)
         body_quest += utils.format_paragraph(q_description_upd)
         body_quest += utils.format_br(2)
 
@@ -407,8 +407,8 @@ class Quest_Constructor(Constructor_Base):
         q_goals = quest.get('Goals:')
         q_goals_text = self._get_goal_text(q_goals)
         
-        body_quest += utils.format_heading6("Goals:")
-        body_quest += utils.format_br(1)
+        body_quest += utils.format_bold("Goals:")
+        body_quest += utils.format_br(2)
         body_quest += utils.format_paragraph(q_goals_text)
         body_quest += utils.format_br(2)
 
@@ -432,8 +432,8 @@ class Quest_Constructor(Constructor_Base):
         q_end_day_dialog_text = dialog_data.get_dialog_text(q_end_day_dialog_id)
         if q_end_day_dialog_text:
             # print(f"End of Day Dialog: {q_end_day_dialog_id}")
-            body_quest += utils.format_heading6("End-of-day-dialog:")
-            body_quest += utils.format_br(1)
+            body_quest += utils.format_bold("End-of-day-dialog:")
+            body_quest += utils.format_br(2)
             body_quest += utils.format_paragraph(q_end_day_dialog_text)
             body_quest += utils.format_br(2)
 

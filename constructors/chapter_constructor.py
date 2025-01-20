@@ -73,7 +73,7 @@ class Chapter_Constructor(Constructor_Base):
         
         body_chapter = ""
         body_chapter += utils.format_br(1)
-        body_chapter += utils.format_heading2(f"Chapter: {chapter_order}. {chapter_name}")
+        body_chapter += utils.format_heading1(f"Chapter: {chapter_order}. {chapter_name}")
         body_chapter += utils.format_br(2)
 
         quest_line_data = Quest_Line_Constructor()

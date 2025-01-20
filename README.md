@@ -12,7 +12,7 @@ with local files.
 
 In the end, though trials, data research and errors, I've recombined the data into readable document in MD format so that it's easier to work with directly and it's readable directly from GitHub page.
 
-Currently, project is done, as the main goal fullfilled, and HWM Events can be read as a scenario; for Campaign Chapter manual rearrangement of dialog parts is still required as those texts were received in `automatical` way. I will get it later.
+Currently, project is done, as the main goal fullfilled, and HWM Events and Campaign can be read as a scenarios.
 
 
 ## PROJECT STRUCTURE
@@ -69,11 +69,11 @@ Constructors and pages classes are maximally unified to
 * Install Pytest:
     ```pip install pytest```
 * Run tests (any of these):
-    * python tests/test_hwm_db_bak.py
-    * python tests/test_hwm_db_jsons.py
-    * python tests/test_hwm_db_pages.py
-    * python tests/test_hwm_db_refill_data.py
-    * python tests/test_hwm_db_scenarios.py
+    * ```python tests/test_hwm_db_bak.py```
+    * ```python tests/test_hwm_db_jsons.py```
+    * ```python tests/test_hwm_db_pages.py```
+    * ```python tests/test_hwm_db_refill_data.py```
+    * ```python tests/test_hwm_db_scenarios.py```
 
 Every function inside starting with `test_` would be executed, so exclude the test, just add a symbol, underscore (_) for example.
 

@@ -70,7 +70,7 @@ def remove_color(text):
 
 
 def format_heading1(title):
-    return f"# {title}\n".upper()
+    return f"# {title}\n"
 
 def format_heading2(title):
     return f"## {title}\n"
@@ -79,13 +79,13 @@ def format_heading3(title):
     return f"### {title}\n"
 
 def format_heading4(title):
-    return f"#### {title}\n".upper()
+    return f"#### {title}\n"
 
 def format_heading5(title):
     return f"##### {title}\n"
 
 def format_heading6(title):
-    return f"###### {title}\n".upper()
+    return f"###### {title}\n"
 
 
 def format_paragraph(text):

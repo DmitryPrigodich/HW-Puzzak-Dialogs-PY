@@ -105,7 +105,7 @@ class Event_Constructor(Constructor_Base):
     def get_event_text(self,event_id):
         body_event = ""
         body_event += utils.format_br(1)
-        body_event += utils.format_heading2(f"Event: {event_id}")
+        body_event += utils.format_heading1(f"Event: {event_id}")
         body_event += utils.format_br(2)
 
         if event_id == "strike_missions":
