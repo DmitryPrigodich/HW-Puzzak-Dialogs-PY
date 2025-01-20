@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hwm-scenario-restoration-project"
+version = "1.0"
+description = "Restoring HWM scenario from saved JSON files"
+authors = [{name = "AmDDRed", email = "amddred@gmail.com"}]
+dependencies = []
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]

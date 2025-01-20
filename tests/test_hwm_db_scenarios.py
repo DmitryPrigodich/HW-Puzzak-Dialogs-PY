@@ -10,7 +10,7 @@ def test_events_scenarios_construction():
     
     start_time = time.time()
 
-    FINAL_DESTINATION = "data_final/ALL_EVENT_SCENARIO.md"
+    FINAL_DESTINATION = "dataset/data_final/ALL_EVENT_SCENARIO.md"
 
     # There are few specific events that are required, so I won't automate this, 
     # but you can try checking other quests
@@ -46,7 +46,7 @@ def test_chapter_scenarios_construction():
 
     chapter_data = Chapter_Constructor()
 
-    FINAL_DESTINATION = "data_final/ALL_CHAPTER_SCENARIO.md"
+    FINAL_DESTINATION = "dataset/data_final/ALL_CHAPTER_SCENARIO.md"
 
     body = utils.format_heading1("HOMEWORLD MOBILE CHAPTERS SCRIPT")
     body += utils.format_br(2)

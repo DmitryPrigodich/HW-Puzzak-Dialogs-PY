@@ -23,24 +23,22 @@ Currently, project is done, as the main goal fullfilled, and HWM Events and Camp
     * `test_hwm_db_jsons.py` - collection of tests to check data made by data constructors (`/constructors`)
     * `test_hwm_db_refill_data.py` - collection of tests to rearrange initial data (`/json_bak`) into json to work with (`/json`) and data to research (`/data`)
     * `test_hwm_db_scenarios.py` - 2 tests to create final data (`/data_final`) with HWM persistent campaign Chapters and eventual Events
-* **pages**
+* **src/pages**
     * `all_page_bak.py` - contains a code to download all open data from `https://hwm.puzzak.page/`
     * `base_page.py` - base class for a folder
     * _other_ - all other classes containing code to collect things from their subpages
-* **constructors**
+* **src/constructors**
     * `star_map_constructor.py` - should be launched first via refill data test, as it generates json used in `constructor_base`
     * `constructor_base.py` - base class for the folder
     * _other_ - constuctors responsible for their part of the data
-* **json**
+* **dataset/json**
     * `mission_dialogs_rearranged.json` - manually created file to rearrange dialogs from missions in chronological order
     * _other_ - automatically created files (see `test_hwm_db_refill_data.py`) to ease data manipulation (`_set_data` / `write_json` functions)
-* **data**
+* **dataset/data**
     * automatically created files (see `test_hwm_db_refill_data.py`) to ease reading (`write_data` function)
-* **data_final**
+* **dataset/data_final**
     * final goal of the project - formatted Event and Campaign readable scenarios
 * base folder:
-    * `conftest.py` - use it to run any code before/after tests
-    * `constants.py` - a place to store constants used across the project
     * `utils.py` - a place of small utility functions used across the project
 
 Constructors and pages classes are maximally unified to 
@@ -68,12 +66,16 @@ Constructors and pages classes are maximally unified to
     ```
 * Install Pytest:
     ```pip install pytest```
+* Install project:
+    ```pip install -e .```
+* Test run:
+    ```pytest```
 * Run tests (any of these):
-    * ```python tests/test_hwm_db_bak.py```
-    * ```python tests/test_hwm_db_jsons.py```
-    * ```python tests/test_hwm_db_pages.py```
-    * ```python tests/test_hwm_db_refill_data.py```
-    * ```python tests/test_hwm_db_scenarios.py```
+    * ```pytest tests/test_hwm_db_bak.py```
+    * ```pytest tests/test_hwm_db_jsons.py```
+    * ```pytest tests/test_hwm_db_pages.py```
+    * ```pytest tests/test_hwm_db_refill_data.py```
+    * ```pytest tests/test_hwm_db_scenarios.py```
 
 Every function inside starting with `test_` would be executed, so exclude the test, just add a symbol, underscore (_) for example.
 
