@@ -14,7 +14,7 @@ class Glossary_Constructor(Constructor_Base):
     def _set_data(self):
         for string_key, string_value in self._string_data.items():
             if string_key.startswith("glossary."):
-                if string_value != "None":
+                if string_value:
                     self._glossary[string_key.replace("glossary.","")] = string_value.get('en:')
 
     def get_data(self):

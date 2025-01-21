@@ -342,10 +342,6 @@ All asteroids in the current belt can be found here. The closer the asteroid is,
 
 System View
 
-**TEXT.SYSTEMVIEW**
-
-None
-
 **TITLE.SYSTEMMISSIONS**
 
 Missions
@@ -379,30 +375,6 @@ Stations & Outposts
 **TEXT.SYSTEMSTATIONS**
 
 In this list you can find the outpost or station of this system.
-
-**HEADER.GALAXYVIEW**
-
-None
-
-**TEXT.GALAXYVIEW**
-
-None
-
-**TITLE.GALAXYVIEWSYSTEMS**
-
-None
-
-**TEXT.GALAXYVIEWSYSTEMS**
-
-None
-
-**TITLE.GALAXYVIEWBOOKMARKS**
-
-None
-
-**TEXT.GALAXYVIEWBOOKMARKS**
-
-None
 
 
 ## MAINHUD
@@ -2303,74 +2275,22 @@ The capital system of each faction starts each season already fully under the co
 Internal
 
 
-## STARBASEINTERNAL
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
 ## STARBASEMANAGEMENT
 **TITLE**
 
 Starbase Management
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 **STARBASEDETAILS.TITLE**
 
 Starbase Details
 
-
-## STARBASEDETAILS
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## STARBASEMANAGEMENT
 **STARBASEBRIDGE.TITLE**
 
 Starbase Bridge
 
-
-## STARBASEBRIDGE
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## STARBASEMANAGEMENT
 **STARBASEOVERVIEW.TITLE**
 
 Starbase Module Overview
-
-
-## STARBASEOVERVIEW
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## STARBASESTAFF
@@ -2378,59 +2298,17 @@ None
 
 Starbase Staff
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 **STARBASEQUARTERS.TITLE**
 
 Staff Quarters
 
-
-## STARBASEQUARTERS
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## STARBASESTAFF
 **STARBASEMODULES.TITLE**
 
 Staffed Modules
 
-
-## STARBASEMODULES
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## STARBASESTAFF
 **STARBASEMININGOPS.TITLE**
 
 Mining Operations
-
-
-## STARBASEMININGOPS
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## ECONOMY_&_RESOURCES
@@ -2465,24 +2343,6 @@ Clan Supplies Requisitions
 **TITLE**
 
 Clans
-
-
-## CONTROL_PANEL
-**DOCKING.TITLE**
-
-None
-
-**FORMATIONS.TITLE**
-
-None
-
-**GUARD.TITLE**
-
-None
-
-**TITLE**
-
-None
 
 
 ## CURRENCIES
@@ -2892,233 +2752,35 @@ Torpedo Launcher
 
 Active Skills
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## ADAMANT
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Shards of a very rare and valuable material.
 
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## ASSAULT
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Frigate-type ship, designed as an allrounder with one capital mass driver turret. As the backbone of most fleets it is average fighting most enemy ship types.
 
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
 
 ## ASSAULTCORV
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Corvette-type ships equipped with a specialized capital mass driver turret. Built for fast attack runs against capital ships.
 
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## ASSIGNMENTS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## BATTLECRUISER
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Massive battle cruiser that favors a high amount of weapon slots over hangar capacity and speed.
 
-**TEXT.DETAILS**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## BEAM
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
-
-## BOOSTERMODULES
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## BRIDGE
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## CAPACITYCOMPARTMENTS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## CARRIER
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Huge carrier flagship offering much space for big hangars that can store many squadrons.
-
-**TEXT.DETAILS**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## CHAT
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## CLANASSIGNMENTS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## CLANMARKET
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## CLANMEMBERS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## CLANS
@@ -3126,95 +2788,17 @@ None
 
 Clans Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## CLANSUPPLIESREQ
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## CODEFRAGMENTS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## COMMUNICATIONSLOG
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## CREDITS
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Universal currency used which is accepted by the Iyatequa and all sorts of independent traders.
 
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## CRYSTALS
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Crystals formed by high pressures within planetary bodies. Must be incorporated into metals for advanced fabrications.
-
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## CURRENCIES
@@ -3222,77 +2806,17 @@ None
 
 Currencies Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## DAMAGE
 **TYPES.HEADER.MAIN**
 
 Damage Types Overview
 
-**TYPES.TEXT.DESC**
-
-None
-
-**TYPES.TEXT.USE**
-
-None
-
 
 ## DESTROYER
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Destroyer-type capital ship, equipped with capital mass driver turret and another internal weapon. Has a lot of hull and armor, but lacks in damage output. Needs two escort slots.
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## ENERGY
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
-
-## ENGINE
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## ESCORTS
@@ -3300,63 +2824,11 @@ None
 
 Escorts Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## EVENTMERITS
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Earned during various events. Can be exchanged for event items in the market.
-
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## EVENTS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## EXPEDITION
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.DETAILS**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
 
 
 ## EXPLORATION
@@ -3364,49 +2836,11 @@ None
 
 Exploration Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## EXPLORER
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Explorer flagship which offers a great balance of storage and maneuverability.
-
-**TEXT.DETAILS**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## EXPLOSIVE
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
 
 
 ## EXTERNALMODULES
@@ -3414,41 +2848,11 @@ None
 
 External Modules Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## FABRICATION
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## FLAGSHIPFUNCTIONS
 **HEADER.MAIN**
 
 Flagship Functions Overview
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## FLAGSHIPS
@@ -3456,95 +2860,11 @@ None
 
 Flagships Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## FLAK
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
-
-## FLEETCONFIG
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## GAS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## GASCOLLECTOR
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Aspiration class - Utility vessel that can collect gas from the atmosphere of jovians. The higher the tier the more pressure it can withstand and collect from deeper layer belts in jovians. Gas collection is a revived art form, initally abandoned by the Kiiths due to low yield.
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## HANGAR
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## HEADER
@@ -3565,72 +2885,10 @@ Source
 Use
 
 
-## HYPERJUMP
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## INSIGNIAS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
-
 ## INTERCEPTOR
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Strike craft-type interceptor ships. Designed to intercept and destroy other strike crafts and corvettes. Equipped with a vulcan weapon for close quarter combat.
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## INTERMEDIATEPARTS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## INTERNALMODULES
@@ -3638,81 +2896,11 @@ None
 
 Internal Modules Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## IONCANNON
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
 
 ## IONFRIG
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Frigate-type ship built around a ion cannon. Fires one beam that tears through the armor of enemy frigates or larger ships, while being relatively ineffective against hull.
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## JOBS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## KINETIC
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
 
 
 ## LIAISON
@@ -3720,389 +2908,29 @@ None
 
 Liaison Office Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## LIAISONASSIGNMENTS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## LIAISONREQ
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## MAIL
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## MARKET
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## MASSDRIVER
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
-
-## MATTERPROJECTOR
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
-
-## MISSILE
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
-
-## MISSIONS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## MOUNTING
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## OFFICERACADEMY
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## OFFICERS
 **HEADER.MAIN**
 
 Officers Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## ORE
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## PARTIES
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## PASSIVESKILLS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## PLASMABOMBER
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Strike craft-type heavy attack ships utilizing plasma bomb weapons against frigate-sized ships or larger.
 
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## PLAYERXP
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## PRESTIGE
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Prestige is gained by completing daily and weekly assignments, and through leveling up. It can be used to buy special items.
 
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## PRODUCTIONMODULES
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## PULSAR
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
-
-## PULSARCORV
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## RAREEARTH
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.SOURCE**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## REFINING
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## RESEARCH
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## RESOURCECONTROLLER
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Monitor class - Frigate-type remote collection point for harvesting operations. Can either be send away on remote mining missions or used together with collectors to mine local belts. Large crew compartments allow for crew rotation on mining assignments.
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
 
 
 ## RESOURCES
@@ -4110,101 +2938,11 @@ None
 
 Resources Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## RESOURCESHIPS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## RESOURCOLLECTOR
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Bounty class - Utility-type mining ship for collecting resources from asteroids. Flies to mineral rich asteroids and delivers the cargo to nearby flagships or controller. Nearly identical to the older Harvest class, onl with slightly larger engines.
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## SCANNING
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## SCREENSHOT
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## SENSORARRAY
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## SHIPYARD
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## SOCIAL
@@ -4212,173 +2950,21 @@ None
 
 Social Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## STORAGESTASH
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
 
 ## STRIKECRAFT
 **HEADER.MAIN**
 
 Strikecraft Overview
 
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## STRIKES
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## SYSTEMVIEW
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## TORPEDO
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.USEDBY**
-
-None
-
 
 ## TORPEDOFRIG
-**HEADER.MAIN**
-
-None
-
 **TEXT.DESC**
 
 Frigate-type ship equipped with big torpedo launch tubes. Fires explosive projectiles which are very effective against hull but are ineffective against enemies with armor.
-
-**TEXT.EFFECTIVITY**
-
-None
-
-**TEXT.TIERSAVAILABLE**
-
-None
-
-
-## TURRETSIZES
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## TURRETTYPES
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## UPGRADINGOFFICERS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
-
-
-## UPGRADINGTURRETS
-**HEADER.MAIN**
-
-None
-
-**TEXT.DESC**
-
-None
-
-**TEXT.USE**
-
-None
 
 
 ## WEAPON
 **CLASSES.HEADER.MAIN**
 
 Weapon Classes Overview
-
-**CLASSES.TEXT.DESC**
-
-None
-
-**CLASSES.TEXT.USE**
-
-None
 
