@@ -155,7 +155,7 @@ def _test_refill_quest_data():
 def test_refill_glossary_data():
     start_time = time.time()
 
-    glossary_data = String_Data_Constructor()
+    glossary_data = Glossary_Constructor()
     glossary_data.write_data()
     
     end_time = time.time()
