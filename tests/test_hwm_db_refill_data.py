@@ -12,8 +12,8 @@ from constructors.mission_step_actions_constructor import Mission_Step_Actions_C
 from constructors.event_constructor import Event_Constructor
 from constructors.chapter_constructor import Chapter_Constructor
 from constructors.quest_line_constructor import Quest_Line_Constructor
-
 from constructors.quest_constructor import Quest_Constructor
+from constructors.glossary_constructor import Glossary_Constructor
 
 
 def _test_refill_starmap_data():
@@ -155,8 +155,8 @@ def _test_refill_quest_data():
 def test_refill_glossary_data():
     start_time = time.time()
 
-    string_data = String_Data_Constructor()
-    string_data.write_startswith("glossary.")
+    glossary_data = String_Data_Constructor()
+    glossary_data.write_data()
     
     end_time = time.time()
     print(f"Test execution time is: {(end_time - start_time):.2f} seconds")
