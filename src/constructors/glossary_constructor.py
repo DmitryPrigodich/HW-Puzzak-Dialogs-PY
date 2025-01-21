@@ -35,7 +35,7 @@ class Glossary_Constructor(Constructor_Base):
                 print(name_first_part)
                 body += utils.format_heading2(header.upper())
                
-            body += utils.format_bold(gl_key.replace(f"{header}.", ""))
+            body += utils.format_bold(gl_key.replace(f"{header}.", "").upper())
             body += utils.format_br(1)
             body += utils.format_paragraph(gl_value)
             body += utils.format_br(1)      
